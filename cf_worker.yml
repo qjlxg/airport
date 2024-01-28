@@ -1,11 +1,3 @@
-####################################
-# 创建者：v2rayse.com
-# 客户端：Clash.Meta
-# 创建时间：2024-01-28 22:42:20
-# 使用模版：V2RaySE 默认模版
-# 节点数量：1
-####################################
-# !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
 allow-lan: true
 log-level: info
@@ -13,7 +5,7 @@ external-controller: 0.0.0.0:9090
 dns:
   enabled: true
   listen: 0.0.0.0:1053
-  ipv6: true
+  ipv6: false
   default-nameserver:
     - 223.5.5.5
     - 114.114.114.114
@@ -86,46 +78,46 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"CF Worker","type":"vless","server":"www.gov.se","port":80,"uuid":"94d9fdb1-5ff7-4fc9-988e-0a851c894f7c","tls":false,"servername":"cf.2424014450.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf.2424014450.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"Cloudflare","type":"vless","server":"www.gov.se","port":80,"uuid":"94d9fdb1-5ff7-4fc9-988e-0a851c894f7c","tls":false,"servername":"cf.2424014450.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf.2424014450.workers.dev"}},"client-fingerprint":"randomized"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - CF Worker
+      - Cloudflare
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - CF Worker
+      - Cloudflare
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CF Worker
+      - Cloudflare
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - CF Worker
+      - Cloudflare
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - CF Worker
+      - Cloudflare
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - CF Worker
+      - Cloudflare
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -148,7 +140,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CF Worker
+      - Cloudflare
 
 rules:
 # 本地/局域网地址

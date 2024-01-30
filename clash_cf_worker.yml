@@ -78,7 +78,7 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"Cloudflare","type":"vmess","server":"www.gov.se","port":2082,"uuid":"94d9fdb1-5ff7-4fc9-988e-0a851c894f7c","tls":false,"servername":"cf.2424014450.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf.2424014450.workers.dev"}},"client-fingerprint":"randomized"}
+  - { name: '美国洛杉矶 | 解锁流媒体', type: trojan, server: 209.46.30.229, port: 443, password: 6545ccb3-1749-457f-a2d9-0d5ee3c35d6d, udp: true, network: ws, ws-opts: { path: /guolicheng/us1, headers: { Host: glc-us1.glccf.top } }, sni: glc-us1.glccf.top }
 proxy-groups:
   - name: 🚀 节点选择
     type: select

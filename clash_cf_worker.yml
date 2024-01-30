@@ -78,7 +78,7 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"Cloudflare","type":"vless","server":"www.gov.se","port":2082,"uuid":"94d9fdb1-5ff7-4fc9-988e-0a851c894f7c","tls":false,"servername":"cf.2424014450.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf.2424014450.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"Cloudflare","type":"vmess","server":"www.gov.se","port":2082,"uuid":"94d9fdb1-5ff7-4fc9-988e-0a851c894f7c","tls":false,"servername":"cf.2424014450.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf.2424014450.workers.dev"}},"client-fingerprint":"randomized"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select

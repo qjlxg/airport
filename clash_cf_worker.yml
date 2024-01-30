@@ -2508,7 +2508,9 @@ rules:
   - DOMAIN-SUFFIX,miguvideo.com,🎯 全球直连
   - DOMAIN-SUFFIX,mi-img.com,🎯 全球直连
   - DOMAIN-SUFFIX,miui.com,🎯 全球直连
+  - DOMAIN-SUFFIX,mihoyo.com,🎯 全球直连
   - DOMAIN-SUFFIX,miwifi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,miyoushe.com,🎯 全球直连
   - DOMAIN-SUFFIX,mmstat.com,🎯 全球直连
   - DOMAIN-SUFFIX,mobike.com,🎯 全球直连
   - DOMAIN-SUFFIX,mogu.com,🎯 全球直连

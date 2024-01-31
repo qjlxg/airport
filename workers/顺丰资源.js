@@ -5,7 +5,9 @@ const headers = {
   // 文件自动更新间隔（小时）
   'Profile-Update-Interval': "6",
   // 主页
-  'Profile-Web-Page-Url': 'https://www.youtube.com/@SFZY666'
+  'Profile-Web-Page-Url': 'https://www.youtube.com/@SFZY666',
+  // 订阅者信息
+  'Subscription-Userinfo': 'upload=0; download=0; total=1098412116148224; expire=0'
 };
 
 var lastContent = null;

@@ -15,8 +15,11 @@ var lastRequest = 0;
 
 export default {
   async fetch(request, env, ctx) {
+    const url = new URL(request.url);
+
     // 避免频繁请求
-    if (Date.now() - lastRequest <= 10 * 1000 && lastContent != null) {
+    const force = url.pathname === '/force';
+    if (!force && Date.now() - lastRequest <= 6 * 3600 * 1000 && lastContent != null) {
       lastRequest = Date.now();
       return new Response(lastContent, {headers});
     }
@@ -24,6 +27,9 @@ export default {
     try {
       // 获取视频列表
       let videos = await fetch('https://www.youtube.com/@SFZY666/videos', {"method": "GET"}).then((res) => res.text());
+      if(videos.indexOf('Our systems have detected unusual traffic from your computer network') > -1) {
+        throw new Error('请求被拦截');
+      }
       // 找到最新视频链接
       const videoId = videos.substr(videos.indexOf('"url":"/watch?v=') + 16, 11);
       if (videoId.length != 11) {

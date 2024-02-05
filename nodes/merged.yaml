@@ -9,7 +9,7 @@ log-level: info
 # 外部控制（使用 RESTful API 来控制Clash内核）
 external-controller: 0.0.0.0:9090
 # 自定全局UA
-global-ua: Chrome
+global-ua: clash.meta
 # DNS
 dns:
   enable: true
@@ -26,40 +26,32 @@ dns:
     ipcidr: [240.0.0.0/4, 0.0.0.0/32]
 
 # 锚点
-defaults: &subscribe_list
+subscribe_list: &subscribe_list
   - github_dongchengjie
   - youtube_shunfeng
   - github_chromego
+subscribe_common: &subscribe_common
+  interval: 86400
+  health-check:
+    enable: true
+    interval: 600
+    timeout: 5000
+    url: http://www.gstatic.com/generate_204
 
 # 订阅地址
 proxy-providers:
   github_dongchengjie:
     type: http
     url: "https://raw.githubusercontent.com/dongchengjie/airport/main/nodes/dongchengjie.yaml"
-    interval: 86400
-    health-check:
-      enable: true
-      interval: 600
-      timeout: 5000
-      url: http://www.gstatic.com/generate_204
+    <<: *subscribe_common
   youtube_shunfeng:
     type: http
     url: "https://shunfeng.2424014450.workers.dev/"
-    interval: 86400
-    health-check:
-      enable: true
-      interval: 600
-      timeout: 5000
-      url: http://www.gstatic.com/generate_204
+    <<: *subscribe_common
   github_chromego:
     type: http
     url: "https://mareep.netlify.app/sub/merged_proxies_new.yaml"
-    interval: 86400
-    health-check:
-      enable: true
-      interval: 600
-      timeout: 5000
-      url: http://www.gstatic.com/generate_204
+    <<: *subscribe_common
 
 # 代理组
 proxy-groups:
@@ -74,6 +66,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
+    lazy: true
     proxies:
     use: *subscribe_list
   - name: 🌍 国外媒体

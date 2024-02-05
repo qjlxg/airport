@@ -28,8 +28,9 @@ dns:
 # 锚点
 subscribe_list: &subscribe_list
   - github_dongchengjie
-  - youtube_shunfeng
   - github_chromego
+  - youtube_顺丰资源
+  - youtube_爱分享的小企鹅
 subscribe_common: &subscribe_common
   interval: 86400
   health-check:
@@ -44,13 +45,17 @@ proxy-providers:
     type: http
     url: "https://raw.githubusercontent.com/dongchengjie/airport/main/nodes/dongchengjie.yaml"
     <<: *subscribe_common
-  youtube_shunfeng:
-    type: http
-    url: "https://shunfeng.2424014450.workers.dev/"
-    <<: *subscribe_common
   github_chromego:
     type: http
     url: "https://mareep.netlify.app/sub/merged_proxies_new.yaml"
+    <<: *subscribe_common
+  youtube_顺丰资源:
+    type: http
+    url: "https://shunfeng.2424014450.workers.dev/"
+    <<: *subscribe_common
+  youtube_爱分享的小企鹅:
+    type: http
+    url: "http://104.168.88.25:25500/sub?target=clash&url=http%3A%2F%2F104.168.88.25%3A12279%2Fclash%2Fproxies"
     <<: *subscribe_common
 
 # 代理组

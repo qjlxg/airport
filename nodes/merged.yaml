@@ -12,15 +12,18 @@ external-controller: 0.0.0.0:9090
 global-ua: Chrome
 # DNS
 dns:
-    enable: true
-    ipv6: false
-    default-nameserver: [223.5.5.5, 8.8.8.8, 114.114.114.114]
-    enhanced-mode: fake-ip
-    fake-ip-range: 198.18.0.1/16
-    use-hosts: true
-    nameserver: ['https://doh.pub/dns-query', 'https://dns.alidns.com/dns-query']
-    fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
-    fallback-filter: { geoip: true, geoip-code: CN, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
+  enable: true
+  ipv6: false
+  default-nameserver: [223.5.5.5, 8.8.8.8, 114.114.114.114]
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  use-hosts: true
+  nameserver: ["https://doh.pub/dns-query", "https://dns.alidns.com/dns-query"]
+  fallback: ["https://doh.dns.sb/dns-query", "https://dns.cloudflare.com/dns-query", "https://dns.twnic.tw/dns-query"]
+  fallback-filter: 
+    geoip: true
+    geoip-code: CN
+    ipcidr: [240.0.0.0/4, 0.0.0.0/32]
 
 # 锚点
 defaults: &subscribe_list
@@ -131,14 +134,14 @@ rule-providers:
     url: "https://raw.githubusercontent.com/dongchengjie/airport/main/rules/direct.txt"
     path: ./ruleset/self_direct.yaml
     interval: 86400
-    
+
   self_reject:
     type: http
     behavior: domain
     url: "https://raw.githubusercontent.com/dongchengjie/airport/main/rules/reject.txt"
     path: ./ruleset/self_reject.yaml
     interval: 86400
-    
+
   direct:
     type: http
     behavior: domain
@@ -152,21 +155,21 @@ rule-providers:
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
     path: ./ruleset/reject.yaml
     interval: 86400
-    
+
   proxy:
     type: http
     behavior: domain
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt"
     path: ./ruleset/proxy.yaml
     interval: 86400
-    
+
   google:
     type: http
     behavior: domain
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt"
     path: ./ruleset/google.yaml
     interval: 86400
-    
+
   apple:
     type: http
     behavior: domain

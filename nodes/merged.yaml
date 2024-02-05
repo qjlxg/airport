@@ -36,7 +36,7 @@ subscribe_common: &subscribe_common
     enable: true
     interval: 600
     timeout: 5000
-    url: http://www.gstatic.com/generate_204
+    url: https://www.google.com
 
 # 订阅地址
 proxy-providers:
@@ -63,7 +63,7 @@ proxy-groups:
     use: *subscribe_list
   - name: ♻️ 自动选择
     type: url-test
-    url: http://www.gstatic.com/generate_204
+    url: https://www.google.com
     interval: 300
     tolerance: 50
     lazy: true

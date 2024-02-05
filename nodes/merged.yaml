@@ -30,6 +30,7 @@ subscribe_list: &subscribe_list
   - github_dongchengjie
   - github_chromego
   - youtube_顺丰资源
+  - youtube_免费节点
 subscribe_common: &subscribe_common
   interval: 86400
   health-check:
@@ -51,6 +52,10 @@ proxy-providers:
   youtube_顺丰资源:
     type: http
     url: "https://shunfeng.2424014450.workers.dev/"
+    <<: *subscribe_common
+  youtube_免费节点:
+    type: http
+    url: "https://www.xrayvip.com/free.yaml"
     <<: *subscribe_common
 
 # 代理组

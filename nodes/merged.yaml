@@ -8,8 +8,8 @@ mode: rule
 log-level: info
 # 外部控制（使用 RESTful API 来控制Clash内核）
 external-controller: 0.0.0.0:9090
-# 自定全局UA
-global-ua: clash.meta
+# 全局UA
+global-ua: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
 # DNS
 dns:
   enable: true
@@ -25,14 +25,16 @@ dns:
     geoip-code: CN
     ipcidr: [240.0.0.0/4, 0.0.0.0/32]
 
-# 锚点
-subscribe_common: &subscribe_common
+# 代理通用配置
+proxy_provider_common_config: &proxy_provider_common_config
   interval: 86400
   health-check:
     enable: true
     interval: 600
     timeout: 5000
     url: http://www.gstatic.com/generate_204
+# 排除节点
+exclude_proxy_filter: &exclude_proxy_filter "剩余流量|套餐到期|官网"
 
 # 订阅地址
 proxy-providers:
@@ -40,22 +42,22 @@ proxy-providers:
     type: http
     url: "https://raw.githubusercontent.com/dongchengjie/airport/main/nodes/dongchengjie.yaml"
     path: ./providers/github_dongchengjie.yaml
-    <<: *subscribe_common
+    <<: *proxy_provider_common_config
   github_chromego:
     type: http
     url: "https://mareep.netlify.app/sub/merged_proxies_new.yaml"
     path: ./providers/github_chromego.yaml
-    <<: *subscribe_common
+    <<: *proxy_provider_common_config
   youtube_顺丰资源:
     type: http
     url: "https://shunfeng.2424014450.workers.dev"
     path: ./providers/youtube_顺丰资源.yaml
-    <<: *subscribe_common
+    <<: *proxy_provider_common_config
   youtube_免费节点:
     type: http
     url: "https://www.xrayvip.com/free.yaml"
     path: ./providers/youtube_免费节点.yaml
-    <<: *subscribe_common
+    <<: *proxy_provider_common_config
 
 # 代理组
 proxy-groups:
@@ -65,7 +67,7 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
     include-all-providers: true
-    exclude-filter: "剩余流量|套餐到期|官网"
+    exclude-filter: *exclude_proxy_filter
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -75,6 +77,7 @@ proxy-groups:
     tolerance: 200
     proxies:
     include-all-providers: true
+    exclude-filter: *exclude_proxy_filter
   - name: 🌍 国外媒体
     type: select
     proxies:

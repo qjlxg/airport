@@ -3,3 +3,4 @@ payload:
   - DOMAIN-SUFFIX,miyoushe.com
   - DOMAIN,yacd.haishan.me
   - DOMAIN,clash.razord.top
+  - DOMAIN,downloadtorrentfile.com

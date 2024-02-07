@@ -43,7 +43,7 @@ subscribe_common: &subscribe_common
 proxy-providers:
   github_dongchengjie:
     type: http
-    url: "https://raw.kkgithub.com/dongchengjie/airport/main/nodes/dongchengjie.yaml"
+    url: "http://raw.kkgithub.com/dongchengjie/airport/main/nodes/dongchengjie.yaml"
     path: ./providers/github_dongchengjie.yaml
     <<: *subscribe_common
   github_chromego:
@@ -147,84 +147,84 @@ rule-providers:
   direct:
     type: http
     behavior: domain
-    url: "https://raw.kkgithub.com/Loyalsoldier/clash-rules/release/direct.txt"
+    url: "http://raw.kkgithub.com/Loyalsoldier/clash-rules/release/direct.txt"
     path: ./rulesets/direct.yaml
     interval: 86400
 
   reject:
     type: http
     behavior: domain
-    url: "https://raw.kkgithub.com/Loyalsoldier/clash-rules/release/reject.txt"
+    url: "http://raw.kkgithub.com/Loyalsoldier/clash-rules/release/reject.txt"
     path: ./rulesets/reject.yaml
     interval: 86400
 
   proxy:
     type: http
     behavior: domain
-    url: "https://raw.kkgithub.com/Loyalsoldier/clash-rules/release/proxy.txt"
+    url: "http://raw.kkgithub.com/Loyalsoldier/clash-rules/release/proxy.txt"
     path: ./rulesets/proxy.yaml
     interval: 86400
 
   google:
     type: http
     behavior: domain
-    url: "https://raw.kkgithub.com/Loyalsoldier/clash-rules/release/google.txt"
+    url: "http://raw.kkgithub.com/Loyalsoldier/clash-rules/release/google.txt"
     path: ./rulesets/google.yaml
     interval: 86400
 
   apple:
     type: http
     behavior: domain
-    url: "https://raw.kkgithub.com/Loyalsoldier/clash-rules/release/apple.txt"
+    url: "http://raw.kkgithub.com/Loyalsoldier/clash-rules/release/apple.txt"
     path: ./rulesets/apple.yaml
     interval: 86400
 
   icloud:
     type: http
     behavior: domain
-    url: "https://raw.kkgithub.com/Loyalsoldier/clash-rules/release/icloud.txt"
+    url: "http://raw.kkgithub.com/Loyalsoldier/clash-rules/release/icloud.txt"
     path: ./rulesets/icloud.yaml
     interval: 86400
 
   gfw:
     type: http
     behavior: domain
-    url: "https://raw.kkgithub.com/Loyalsoldier/clash-rules/release/gfw.txt"
+    url: "http://raw.kkgithub.com/Loyalsoldier/clash-rules/release/gfw.txt"
     path: ./rulesets/gfw.yaml
     interval: 86400
 
   tld-not-cn:
     type: http
     behavior: domain
-    url: "https://raw.kkgithub.com/Loyalsoldier/clash-rules/release/tld-not-cn.txt"
+    url: "http://raw.kkgithub.com/Loyalsoldier/clash-rules/release/tld-not-cn.txt"
     path: ./rulesets/tld-not-cn.yaml
     interval: 86400
 
   telegramcidr:
     type: http
     behavior: ipcidr
-    url: "https://raw.kkgithub.com/Loyalsoldier/clash-rules/release/telegramcidr.txt"
+    url: "http://raw.kkgithub.com/Loyalsoldier/clash-rules/release/telegramcidr.txt"
     path: ./rulesets/telegramcidr.yaml
     interval: 86400
 
   cncidr:
     type: http
     behavior: ipcidr
-    url: "https://raw.kkgithub.com/Loyalsoldier/clash-rules/release/cncidr.txt"
+    url: "http://raw.kkgithub.com/Loyalsoldier/clash-rules/release/cncidr.txt"
     path: ./rulesets/cncidr.yaml
     interval: 86400
 
   lancidr:
     type: http
     behavior: ipcidr
-    url: "https://raw.kkgithub.com/Loyalsoldier/clash-rules/release/lancidr.txt"
+    url: "http://raw.kkgithub.com/Loyalsoldier/clash-rules/release/lancidr.txt"
     path: ./rulesets/lancidr.yaml
     interval: 86400
 
   applications:
     type: http
     behavior: classical
-    url: "https://raw.kkgithub.com/Loyalsoldier/clash-rules/release/applications.txt"
+    url: "http://raw.kkgithub.com/Loyalsoldier/clash-rules/release/applications.txt"
     path: ./rulesets/applications.yaml
     interval: 86400
 

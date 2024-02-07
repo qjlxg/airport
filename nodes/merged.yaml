@@ -31,7 +31,7 @@ subscribe_common: &subscribe_common
   health-check:
     enable: true
     interval: 600
-    timeout: 5000
+    timeout: 100
     url: http://www.gstatic.com/generate_204
 
 # 订阅地址

@@ -63,11 +63,6 @@ proxy-providers:
     url: "https://oneclash.2424014450.workers.dev"
     path: ./providers/site_oneclash.yaml
     <<: *proxy_provider_common_config
-  site_clashgithub:
-    type: http
-    url: "https://clashgithub.2424014450.workers.dev"
-    path: ./providers/site_clashgithub.yaml
-    <<: *proxy_provider_common_config
 
 # 代理组
 proxy-groups:

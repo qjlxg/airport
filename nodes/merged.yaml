@@ -72,9 +72,9 @@ proxy-groups:
     use: *subscribe_list
   - name: ♻️ 自动选择
     type: url-test
-    url: https://www.google.com
+    url: http://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
+    tolerance: 200
     lazy: true
     proxies:
     use: *subscribe_list
@@ -147,90 +147,90 @@ rule-providers:
   direct:
     type: http
     behavior: domain
-    url: "https://fastly.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt"
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt"
     path: ./rulesets/direct.txt
     interval: 86400
 
   reject:
     type: http
     behavior: domain
-    url: "https://fastly.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
     path: ./rulesets/reject.txt
     interval: 86400
 
   proxy:
     type: http
     behavior: domain
-    url: "https://fastly.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt"
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt"
     path: ./rulesets/proxy.txt
     interval: 86400
 
   google:
     type: http
     behavior: domain
-    url: "https://fastly.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt"
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt"
     path: ./rulesets/google.txt
     interval: 86400
 
   apple:
     type: http
     behavior: domain
-    url: "https://fastly.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt"
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt"
     path: ./rulesets/apple.txt
     interval: 86400
 
   icloud:
     type: http
     behavior: domain
-    url: "https://fastly.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt"
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt"
     path: ./rulesets/icloud.txt
     interval: 86400
 
   gfw:
     type: http
     behavior: domain
-    url: "https://fastly.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt"
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt"
     path: ./rulesets/gfw.txt
     interval: 86400
 
   tld-not-cn:
     type: http
     behavior: domain
-    url: "https://fastly.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt"
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt"
     path: ./rulesets/tld-not-cn.txt
     interval: 86400
 
   telegramcidr:
     type: http
     behavior: ipcidr
-    url: "https://fastly.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt"
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt"
     path: ./rulesets/telegramcidr.txt
     interval: 86400
 
   cncidr:
     type: http
     behavior: ipcidr
-    url: "https://fastly.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt"
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt"
     path: ./rulesets/cncidr.txt
     interval: 86400
 
   lancidr:
     type: http
     behavior: ipcidr
-    url: "https://fastly.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
     path: ./rulesets/lancidr.txt
     interval: 86400
 
   applications:
     type: http
     behavior: classical
-    url: "https://fastly.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
     path: ./rulesets/applications.txt
     interval: 86400
 
 # 规则
 rules:
-  - RULE-SET,telegramcidr,🚀 节点选择
+  - RULE-SET,telegramcidr,📲 电报信息
   - RULE-SET,proxy,🚀 节点选择
   - RULE-SET,google,🚀 节点选择
   - RULE-SET,self_direct,🎯 全球直连
@@ -239,9 +239,9 @@ rules:
   - RULE-SET,icloud,🎯 全球直连
   - RULE-SET,cncidr,🎯 全球直连
   - RULE-SET,applications,🎯 全球直连
-  - RULE-SET,apple,🎯 全球直连
+  - RULE-SET,apple,🍎 苹果服务
   - GEOIP,LAN,🎯 全球直连
   - GEOIP,CN,🎯 全球直连
-  - RULE-SET,self_reject,🍃 应用净化
-  - RULE-SET,reject,🍃 应用净化
+  - RULE-SET,self_reject,🛑 全球拦截
+  - RULE-SET,reject,🛑 全球拦截
   - MATCH,🐟 漏网之鱼

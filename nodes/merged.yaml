@@ -58,6 +58,12 @@ proxy-providers:
     url: "https://www.xrayvip.com/free.yaml"
     path: ./providers/youtube_免费节点.yaml
     <<: *proxy_provider_common_config
+  site_oneclash:
+    type: http
+    url: "https://oneclash.2424014450.workers.dev"
+    path: ./providers/site_oneclash.yaml
+    <<: *proxy_provider_common_config
+    
 
 # 代理组
 proxy-groups:
@@ -72,9 +78,9 @@ proxy-groups:
     type: url-test
     url: http://www.gstatic.com/generate_204
     lazy: true
-    interval: 300
+    interval: 180
     timeout: 2000
-    tolerance: 200
+    tolerance: 300
     proxies:
     include-all-providers: true
     exclude-filter: *exclude_proxy_filter

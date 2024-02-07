@@ -37,7 +37,7 @@ subscribe_common: &subscribe_common
     enable: true
     interval: 600
     timeout: 5000
-    url: https://www.google.com
+    url: http://www.gstatic.com/generate_204
 
 # 订阅地址
 proxy-providers:
@@ -53,7 +53,7 @@ proxy-providers:
     <<: *subscribe_common
   youtube_顺丰资源:
     type: http
-    url: "https://shunfeng.2424014450.workers.dev/"
+    url: "https://shunfeng.2424014450.workers.dev"
     path: ./providers/youtube_顺丰资源.yaml
     <<: *subscribe_common
   youtube_免费节点:
@@ -134,98 +134,98 @@ rule-providers:
     type: http
     behavior: classical
     url: "https://raw.githubusercontent.com/dongchengjie/airport/main/rules/direct.txt"
-    path: ./rulesets/self_direct.yaml
+    path: ./rulesets/self_direct.txt
     interval: 86400
 
   self_reject:
     type: http
     behavior: domain
     url: "https://raw.githubusercontent.com/dongchengjie/airport/main/rules/reject.txt"
-    path: ./rulesets/self_reject.yaml
+    path: ./rulesets/self_reject.txt
     interval: 86400
 
   direct:
     type: http
     behavior: domain
     url: "https://fastly.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt"
-    path: ./rulesets/direct.yaml
+    path: ./rulesets/direct.txt
     interval: 86400
 
   reject:
     type: http
     behavior: domain
     url: "https://fastly.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
-    path: ./rulesets/reject.yaml
+    path: ./rulesets/reject.txt
     interval: 86400
 
   proxy:
     type: http
     behavior: domain
     url: "https://fastly.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt"
-    path: ./rulesets/proxy.yaml
+    path: ./rulesets/proxy.txt
     interval: 86400
 
   google:
     type: http
     behavior: domain
     url: "https://fastly.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt"
-    path: ./rulesets/google.yaml
+    path: ./rulesets/google.txt
     interval: 86400
 
   apple:
     type: http
     behavior: domain
     url: "https://fastly.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt"
-    path: ./rulesets/apple.yaml
+    path: ./rulesets/apple.txt
     interval: 86400
 
   icloud:
     type: http
     behavior: domain
     url: "https://fastly.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt"
-    path: ./rulesets/icloud.yaml
+    path: ./rulesets/icloud.txt
     interval: 86400
 
   gfw:
     type: http
     behavior: domain
     url: "https://fastly.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt"
-    path: ./rulesets/gfw.yaml
+    path: ./rulesets/gfw.txt
     interval: 86400
 
   tld-not-cn:
     type: http
     behavior: domain
     url: "https://fastly.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt"
-    path: ./rulesets/tld-not-cn.yaml
+    path: ./rulesets/tld-not-cn.txt
     interval: 86400
 
   telegramcidr:
     type: http
     behavior: ipcidr
     url: "https://fastly.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt"
-    path: ./rulesets/telegramcidr.yaml
+    path: ./rulesets/telegramcidr.txt
     interval: 86400
 
   cncidr:
     type: http
     behavior: ipcidr
     url: "https://fastly.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt"
-    path: ./rulesets/cncidr.yaml
+    path: ./rulesets/cncidr.txt
     interval: 86400
 
   lancidr:
     type: http
     behavior: ipcidr
     url: "https://fastly.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
-    path: ./rulesets/lancidr.yaml
+    path: ./rulesets/lancidr.txt
     interval: 86400
 
   applications:
     type: http
     behavior: classical
     url: "https://fastly.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
-    path: ./rulesets/applications.yaml
+    path: ./rulesets/applications.txt
     interval: 86400
 
 # 规则

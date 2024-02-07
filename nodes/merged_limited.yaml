@@ -35,27 +35,25 @@ proxy_provider_common_config: &proxy_provider_common_config
     url: http://www.gstatic.com/generate_204
 # 排除节点
 exclude_proxy_filter: &exclude_proxy_filter "剩余流量|套餐到期|官网"
-# acl4ssr转换地址
-acl4ssr_provider: &acl4ssr_provider "https://sub.xeton.dev/sub?target=clash&new_name=true&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini"
+# 转换
 
 # 订阅地址
 proxy-providers:
   airport_tolink:
     type: http
-    url: *acl4ssr_provider&url=https%3A%2F%2Fmarkdown.2424014450.workers.dev%2F%3Ftarget%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Ftolinkshare%2Ffreenode%2Fmain%2FREADME.md"
+    url: "https://sub.xeton.dev/sub?target=clash&new_name=true&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&url=https%3A%2F%2Fmarkdown.2424014450.workers.dev%2F%3Ftarget%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Ftolinkshare%2Ffreenode%2Fmain%2FREADME.md"
     path: ./providers/airport_tolink.yaml
     <<: *proxy_provider_common_config
   airport_mikasa:
     type: http
-    url: *acl4ssr_provider&url=https%3A%2F%2Fmarkdown.2424014450.workers.dev%2F%3Ftarget%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fmksshare%2Fmksshare.github.io%2Fmain%2FREADME.md"
+    url: "https://sub.xeton.dev/sub?target=clash&new_name=true&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&url=https%3A%2F%2Fmarkdown.2424014450.workers.dev%2F%3Ftarget%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fmksshare%2Fmksshare.github.io%2Fmain%2FREADME.md"
     path: ./providers/airport_mikasa.yaml
     <<: *proxy_provider_common_config
-  airport_mikasa:
+  airport_allblue:
     type: http
-    url: *acl4ssr_provider&url=https%3A%2F%2Fmarkdown.2424014450.workers.dev%2F%3Ftarget%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fabshare%2Fabshare.github.io%2Fmain%2FREADME.md"
-    path: ./providers/airport_mikasa.yaml
+    url: "https://sub.xeton.dev/sub?target=clash&new_name=true&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&url=https%3A%2F%2Fmarkdown.2424014450.workers.dev%2F%3Ftarget%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fabshare%2Fabshare.github.io%2Fmain%2FREADME.md"
+    path: ./providers/airport_allblue.yaml
     <<: *proxy_provider_common_config
-
 
 
 # 代理组

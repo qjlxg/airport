@@ -55,7 +55,6 @@ proxy-providers:
     path: ./providers/limited/github_abshare.yaml
     <<: *proxy_provider_common_config
 
-
 # 代理组
 proxy-groups:
   - name: 🚀 节点选择
@@ -71,7 +70,7 @@ proxy-groups:
     lazy: true
     interval: 180
     timeout: 2000
-    tolerance: 300
+    tolerance: 100
     proxies:
     include-all-providers: true
     exclude-filter: *exclude_proxy_filter

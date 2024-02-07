@@ -38,36 +38,17 @@ exclude_proxy_filter: &exclude_proxy_filter "剩余流量|套餐到期|官网"
 
 # 订阅地址
 proxy-providers:
-  github_dongchengjie:
+  airport_tolink:
     type: http
-    url: "https://raw.githubusercontent.com/dongchengjie/airport/main/nodes/dongchengjie.yaml"
-    path: ./providers/github_dongchengjie.yaml
+    url: "https://sub.xeton.dev/sub?target=clash&new_name=true&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&url=https%3A%2F%2Fmarkdown.2424014450.workers.dev%2F%3Ftarget%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Ftolinkshare%2Ffreenode%2Fmain%2FREADME.md"
+    path: ./providers/airport_tolink.yaml
     <<: *proxy_provider_common_config
-  github_chromego_merge:
+  airport_mikasa:
     type: http
-    url: "https://mareep.netlify.app/sub/merged_proxies_new.yaml"
-    path: ./providers/github_chromego_merge.yaml
+    url: "https://sub.xeton.dev/sub?target=clash&new_name=true&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&url=https%3A%2F%2Fmarkdown.2424014450.workers.dev%2F%3Ftarget%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fmksshare%2Fmksshare.github.io%2Fmain%2FREADME.md"
+    path: ./providers/airport_mikasa.yaml
     <<: *proxy_provider_common_config
-  github_free_servers:
-    type: http
-    url: "https://sub.xeton.dev/sub?target=clash&new_name=true&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&url=https%3A%2F%2Fmarkdown.2424014450.workers.dev%2F%3Ftarget%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2FPawdroid%2FFree-servers%2Fmain%2FREADME.md"
-    path: ./providers/github_free_servers.yaml
-    <<: *proxy_provider_common_config
-  youtube_顺丰资源:
-    type: http
-    url: "https://shunfeng.2424014450.workers.dev"
-    path: ./providers/youtube_顺丰资源.yaml
-    <<: *proxy_provider_common_config
-  youtube_免费节点:
-    type: http
-    url: "https://www.xrayvip.com/free.yaml"
-    path: ./providers/youtube_免费节点.yaml
-    <<: *proxy_provider_common_config
-  site_oneclash:
-    type: http
-    url: "https://oneclash.2424014450.workers.dev"
-    path: ./providers/site_oneclash.yaml
-    <<: *proxy_provider_common_config
+
 
 # 代理组
 proxy-groups:

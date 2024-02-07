@@ -31,7 +31,7 @@ subscribe_common: &subscribe_common
   health-check:
     enable: true
     interval: 600
-    timeout: 100
+    timeout: 5000
     url: http://www.gstatic.com/generate_204
 
 # 订阅地址
@@ -65,6 +65,7 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
     include-all-providers: true
+    exclude-filter: "油管|剩余流量|套餐到期|官网"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204

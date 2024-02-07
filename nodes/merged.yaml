@@ -26,11 +26,6 @@ dns:
     ipcidr: [240.0.0.0/4, 0.0.0.0/32]
 
 # 锚点
-subscribe_list: &subscribe_list
-  - github_dongchengjie
-  - github_chromego
-  - youtube_顺丰资源
-  - youtube_免费节点
 subscribe_common: &subscribe_common
   interval: 86400
   health-check:
@@ -69,47 +64,48 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-    use: *subscribe_list
+    include-all-providers: true
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
+    timeout: 2000
     tolerance: 200
     lazy: true
     proxies:
-    use: *subscribe_list
+    include-all-providers: true
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-    use: *subscribe_list
+    include-all-providers: true
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-    use: *subscribe_list
+    include-all-providers: true
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-    use: *subscribe_list
+    include-all-providers: true
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-    use: *subscribe_list
+    include-all-providers: true
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
       - 🚀 节点选择
       - ♻️ 自动选择
-    use: *subscribe_list
+    include-all-providers: true
   - name: 🛑 全球拦截
     type: select
     proxies:
@@ -126,7 +122,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-    use: *subscribe_list
+    include-all-providers: true
 
 # 规则集
 rule-providers:

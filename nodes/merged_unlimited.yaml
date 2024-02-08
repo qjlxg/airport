@@ -198,6 +198,7 @@ rule-providers:
   loyalsoldier_direct:
     type: http
     behavior: domain
+    format: yaml
     url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt
     path: ./rulesets/loyalsoldier/direct.txt
     interval: 86400
@@ -206,6 +207,7 @@ rule-providers:
   loyalsoldier_proxy:
     type: http
     behavior: domain
+    format: yaml
     url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt
     path: ./rulesets/loyalsoldier/proxy.txt
     interval: 86400
@@ -214,6 +216,7 @@ rule-providers:
   loyalsoldier_reject_ad:
     type: http
     behavior: domain
+    format: yaml
     url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt
     path: ./rulesets/loyalsoldier/reject_ad.txt
     interval: 86400
@@ -222,6 +225,7 @@ rule-providers:
   loyalsoldier_proxy_gfw:
     type: http
     behavior: domain
+    format: yaml
     url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt
     path: ./rulesets/loyalsoldier/proxy_gfw.txt
     interval: 86400
@@ -230,6 +234,7 @@ rule-providers:
   loyalsoldier_proxy_tld_not_cn:
     type: http
     behavior: domain
+    format: yaml
     url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt
     path: ./rulesets/loyalsoldier/proxy_tld_not_cn.txt
     interval: 86400
@@ -238,6 +243,7 @@ rule-providers:
   loyalsoldier_direct_lancidr:
     type: http
     behavior: ipcidr
+    format: yaml
     url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt
     path: ./rulesets/loyalsoldier/direct_lancidr.txt
     interval: 86400
@@ -246,6 +252,7 @@ rule-providers:
   loyalsoldier_direct_cncidr:
     type: http
     behavior: ipcidr
+    format: yaml
     url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt
     path: ./rulesets/loyalsoldier/direct_cncidr.txt
     interval: 86400
@@ -254,6 +261,7 @@ rule-providers:
   loyalsoldier_direct_applications:
     type: http
     behavior: classical
+    format: yaml
     url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt
     path: ./rulesets/loyalsoldier/direct_applications.txt
     interval: 86400

@@ -134,7 +134,7 @@ rule-providers:
   customize_direct:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/dongchengjie/airport/main/rules/direct.txt"
+    url: https://raw.githubusercontent.com/dongchengjie/airport/main/rules/direct.txt
     path: ./rulesets/customize/direct.txt
     interval: 86400
 
@@ -142,7 +142,7 @@ rule-providers:
   customize_reject:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/dongchengjie/airport/main/rules/reject.txt"
+    url: https://raw.githubusercontent.com/dongchengjie/airport/main/rules/reject.txt
     path: ./rulesets/customize/reject.txt
     interval: 86400
     
@@ -150,7 +150,7 @@ rule-providers:
   acl4ssr_direct_local:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list"
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
     path: ./rulesets/acl4ssr/direct_local.txt
     interval: 86400
 
@@ -158,7 +158,7 @@ rule-providers:
   acl4ssr_reject_ad:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list"
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
     path: ./rulesets/acl4ssr/reject_ad.txt
     interval: 86400
 
@@ -166,7 +166,7 @@ rule-providers:
   acl4ssr_reject_program_ad:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list"
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
     path: ./rulesets/acl4ssr/reject_program_ad.txt
     interval: 86400
 
@@ -174,7 +174,7 @@ rule-providers:
   acl4ssr_direct_china_ip:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list"
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
     path: ./rulesets/acl4ssr/direct_china_ip.txt
     interval: 86400
 
@@ -182,7 +182,7 @@ rule-providers:
   acl4ssr_direct_china_domain:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
     path: ./rulesets/acl4ssr/direct_china_domain.txt
     interval: 86400
     
@@ -190,7 +190,7 @@ rule-providers:
   acl4ssr_direct_download:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list"
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
     path: ./rulesets/acl4ssr/direct_download.txt
     interval: 86400
   
@@ -198,7 +198,7 @@ rule-providers:
   loyalsoldier_direct:
     type: http
     behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt"
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt
     path: ./rulesets/loyalsoldier/direct.txt
     interval: 86400
 
@@ -206,7 +206,7 @@ rule-providers:
   loyalsoldier_proxy:
     type: http
     behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt"
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt
     path: ./rulesets/loyalsoldier/proxy.txt
     interval: 86400
 
@@ -214,7 +214,7 @@ rule-providers:
   loyalsoldier_reject_ad:
     type: http
     behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt
     path: ./rulesets/loyalsoldier/reject_ad.txt
     interval: 86400
 
@@ -222,7 +222,7 @@ rule-providers:
   loyalsoldier_proxy_gfw:
     type: http
     behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt"
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt
     path: ./rulesets/loyalsoldier/proxy_gfw.txt
     interval: 86400
 
@@ -230,7 +230,7 @@ rule-providers:
   loyalsoldier_proxy_tld_not_cn:
     type: http
     behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt"
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt
     path: ./rulesets/loyalsoldier/proxy_tld_not_cn.txt
     interval: 86400
 
@@ -238,7 +238,7 @@ rule-providers:
   loyalsoldier_direct_lancidr:
     type: http
     behavior: ipcidr
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt
     path: ./rulesets/loyalsoldier/direct_lancidr.txt
     interval: 86400
 
@@ -246,7 +246,7 @@ rule-providers:
   loyalsoldier_direct_cncidr:
     type: http
     behavior: ipcidr
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt"
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt
     path: ./rulesets/loyalsoldier/direct_cncidr.txt
     interval: 86400
 
@@ -254,7 +254,7 @@ rule-providers:
   loyalsoldier_direct_applications:
     type: http
     behavior: classical
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt
     path: ./rulesets/loyalsoldier/direct_applications.txt
     interval: 86400
 
@@ -271,14 +271,14 @@ rules:
   - RULE-SET,acl4ssr_reject_ad,🛑 全球拦截
   - RULE-SET,acl4ssr_reject_program_ad,🛑 全球拦截
   # Loyalsoldier
- #- RULE-SET,loyalsoldier_direct,🎯 全球直连
- #- RULE-SET,loyalsoldier_direct_applications,🎯 全球直连
- #- RULE-SET,loyalsoldier_direct_cncidr,🎯 全球直连
- #- RULE-SET,loyalsoldier_direct_lancidr,🎯 全球直连
- #- RULE-SET,loyalsoldier_proxy,🚀 节点选择
- #- RULE-SET,loyalsoldier_proxy_gfw,🚀 节点选择
- #- RULE-SET,loyalsoldier_proxy_tld_not_cn,🚀 节点选择
- #- RULE-SET,loyalsoldier_reject_ad,🛑 全球拦截
+  - RULE-SET,loyalsoldier_direct,🎯 全球直连
+  - RULE-SET,loyalsoldier_direct_applications,🎯 全球直连
+  - RULE-SET,loyalsoldier_direct_cncidr,🎯 全球直连
+  - RULE-SET,loyalsoldier_direct_lancidr,🎯 全球直连
+  - RULE-SET,loyalsoldier_proxy,🚀 节点选择
+  - RULE-SET,loyalsoldier_proxy_gfw,🚀 节点选择
+  - RULE-SET,loyalsoldier_proxy_tld_not_cn,🚀 节点选择
+  - RULE-SET,loyalsoldier_reject_ad,🛑 全球拦截
   # 其他
   - GEOIP,LAN,🎯 全球直连
   - GEOIP,CN,🎯 全球直连

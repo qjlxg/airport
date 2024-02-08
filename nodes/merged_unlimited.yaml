@@ -134,6 +134,7 @@ rule-providers:
   customize_direct:
     type: http
     behavior: classical
+    format: text
     url: https://raw.githubusercontent.com/dongchengjie/airport/main/rules/direct.txt
     path: ./rulesets/customize/direct.txt
     interval: 86400

@@ -271,14 +271,14 @@ rules:
   - RULE-SET,acl4ssr_reject_ad,🛑 全球拦截
   - RULE-SET,acl4ssr_reject_program_ad,🛑 全球拦截
   # Loyalsoldier
-  - RULE-SET,loyalsoldier_direct,🎯 全球直连
-  - RULE-SET,loyalsoldier_direct_applications,🎯 全球直连
-  - RULE-SET,loyalsoldier_direct_cncidr,🎯 全球直连
-  - RULE-SET,loyalsoldier_direct_lancidr,🎯 全球直连
-  - RULE-SET,loyalsoldier_proxy,🚀 节点选择
-  - RULE-SET,loyalsoldier_proxy_gfw,🚀 节点选择
-  - RULE-SET,loyalsoldier_proxy_tld_not_cn,🚀 节点选择
-  - RULE-SET,loyalsoldier_reject_ad,🛑 全球拦截
+ #- RULE-SET,loyalsoldier_direct,🎯 全球直连
+ #- RULE-SET,loyalsoldier_direct_applications,🎯 全球直连
+ #- RULE-SET,loyalsoldier_direct_cncidr,🎯 全球直连
+ #- RULE-SET,loyalsoldier_direct_lancidr,🎯 全球直连
+ #- RULE-SET,loyalsoldier_proxy,🚀 节点选择
+ #- RULE-SET,loyalsoldier_proxy_gfw,🚀 节点选择
+ #- RULE-SET,loyalsoldier_proxy_tld_not_cn,🚀 节点选择
+ #- RULE-SET,loyalsoldier_reject_ad,🛑 全球拦截
   # 其他
   - GEOIP,LAN,🎯 全球直连
   - GEOIP,CN,🎯 全球直连

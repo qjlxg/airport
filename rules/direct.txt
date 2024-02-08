@@ -1,7 +1,7 @@
-payload:
-  - DOMAIN-SUFFIX,mihoyo.com
-  - DOMAIN-SUFFIX,miyoushe.com
-  - DOMAIN,yacd.haishan.me
-  - DOMAIN,clash.razord.top
-  - DOMAIN,downloadtorrentfile.com
-  - DOMAIN,screenshots.downloadtorrentfile.com
+# 测试
+- DOMAIN-SUFFIX,mihoyo.com
+- DOMAIN-SUFFIX,miyoushe.com
+- DOMAIN,yacd.haishan.me
+- DOMAIN,clash.razord.top
+- DOMAIN,downloadtorrentfile.com
+- DOMAIN,screenshots.downloadtorrentfile.com

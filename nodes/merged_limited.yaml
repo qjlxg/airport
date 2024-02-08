@@ -70,7 +70,7 @@ proxy-groups:
     lazy: true
     interval: 180
     timeout: 2000
-    tolerance: 200
+    tolerance: 20
     proxies:
     include-all-providers: true
     exclude-filter: *exclude_proxy_filter

@@ -104,17 +104,7 @@ proxy-groups:
     lazy: true
     interval: 180
     timeout: 2000
-    tolerance: 300
-    proxies:
-    include-all-providers: true
-    exclude-filter: *exclude_proxy_filter
-  - name: 🐱‍👓 Github
-    type: url-test
-    url: https://github.com
-    lazy: true
-    interval: 180
-    timeout: 2000
-    tolerance: 300
+    tolerance: 200
     proxies:
     include-all-providers: true
     exclude-filter: *exclude_proxy_filter
@@ -315,8 +305,6 @@ rules:
   - RULE-SET,loyalsoldier_proxy_tld_not_cn,🚀 节点选择
   - RULE-SET,loyalsoldier_reject_ad,🛑 全球拦截
   # 其他
-  - DOMAIN,github.com,🐱‍👓 Github
-  - DOMAIN,raw.githubusercontent.com,🐱‍👓 Github
   - GEOIP,LAN,🎯 全球直连
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼

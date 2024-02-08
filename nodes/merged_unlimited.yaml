@@ -108,6 +108,16 @@ proxy-groups:
     proxies:
     include-all-providers: true
     exclude-filter: *exclude_proxy_filter
+  - name: 🐱‍👓 Github
+    type: url-test
+    url: https://github.com
+    lazy: true
+    interval: 180
+    timeout: 2000
+    tolerance: 300
+    proxies:
+    include-all-providers: true
+    exclude-filter: *exclude_proxy_filter
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -137,6 +147,15 @@ rule-providers:
     format: text
     url: https://raw.githubusercontent.com/dongchengjie/airport/main/rules/direct.txt
     path: ./rulesets/customize/direct.txt
+    interval: 86400
+
+  # 代理_自定义
+  customize_proxy:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/dongchengjie/airport/main/rules/proxy.txt
+    path: ./rulesets/customize/proxy.txt
     interval: 86400
 
   # 拦截_自定义
@@ -296,6 +315,8 @@ rules:
   - RULE-SET,loyalsoldier_proxy_tld_not_cn,🚀 节点选择
   - RULE-SET,loyalsoldier_reject_ad,🛑 全球拦截
   # 其他
+  - DOMAIN,github.com,🐱‍👓 Github
+  - DOMAIN,raw.githubusercontent.com,🐱‍👓 Github
   - GEOIP,LAN,🎯 全球直连
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼

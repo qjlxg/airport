@@ -68,6 +68,11 @@ proxy-providers:
     url: "https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml"
     path: ./providers/unlimited/github_zhangkaiitugithub.yaml
     <<: *proxy_provider_common_config
+  github_ClodQiu:
+    type: http
+    url: "https://raw.githubusercontent.com/ClodQiu/STARS/master/list.yml"
+    path: ./providers/unlimited/github_ClodQiu.yaml
+    <<: *proxy_provider_common_config
   youtube_顺丰资源:
     type: http
     url: "https://shunfeng.2424014450.workers.dev"

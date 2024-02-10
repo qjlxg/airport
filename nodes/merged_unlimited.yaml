@@ -50,41 +50,42 @@ exclude_proxy_filter: &exclude_proxy_filter "剩余流量|套餐到期|官网"
 
 # 订阅地址
 proxy-providers:
-  github_dongchengjie:
-    type: http
-    url: "https://raw.githubusercontent.com/dongchengjie/airport/main/nodes/dongchengjie.yaml"
-    path: ./providers/unlimited/github_dongchengjie.yaml
-    <<: *proxy_provider_common_config
   github_mianayang:
     type: http
     url: "https://mareep.netlify.app/sub/merged_proxies_new.yaml"
     path: ./providers/unlimited/github_mianayang.yaml
-    <<: *proxy_provider_common_config
-  github_Pawdroid:
-    type: http
-    url: "https://sub.xeton.dev/sub?target=clash&new_name=true&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&url=https%3A%2F%2Fmarkdown.2424014450.workers.dev%2F%3Ftarget%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2FPawdroid%2FFree-servers%2Fmain%2FREADME.md"
-    path: ./providers/unlimited/github_Pawdroid.yaml
     <<: *proxy_provider_common_config
   github_chengaopan:
     type: http
     url: "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml"
     path: ./providers/unlimited/github_chengaopan.yaml
     <<: *proxy_provider_common_config
+  github_ClodQiu:
+    type: http
+    url: "https://raw.githubusercontent.com/ClodQiu/STARS/master/list.yml"
+    path: ./providers/unlimited/github_ClodQiu.yaml
+    <<: *proxy_provider_common_config
   github_Flik6:
     type: http
     url: "https://raw.githubusercontent.com/a2470982985/getNode/main/clash.yaml"
     path: ./providers/unlimited/github_Flik6.yaml
+    <<: *proxy_provider_common_config
+  github_Pawdroid:
+    type: http
+    url: "https://sub.xeton.dev/sub?target=clash&new_name=true&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&url=https%3A%2F%2Fmarkdown.2424014450.workers.dev%2F%3Ftarget%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2FPawdroid%2FFree-servers%2Fmain%2FREADME.md"
+    path: ./providers/unlimited/github_Pawdroid.yaml
     <<: *proxy_provider_common_config
   github_zhangkaiitugithub:
     type: http
     url: "https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml"
     path: ./providers/unlimited/github_zhangkaiitugithub.yaml
     <<: *proxy_provider_common_config
-  github_ClodQiu:
+  github_dongchengjie:
     type: http
-    url: "https://raw.githubusercontent.com/ClodQiu/STARS/master/list.yml"
-    path: ./providers/unlimited/github_ClodQiu.yaml
+    url: "https://raw.githubusercontent.com/dongchengjie/airport/main/nodes/dongchengjie.yaml"
+    path: ./providers/unlimited/github_dongchengjie.yaml
     <<: *proxy_provider_common_config
+
   youtube_顺丰资源:
     type: http
     url: "https://shunfeng.2424014450.workers.dev"
@@ -116,7 +117,17 @@ proxy-groups:
     lazy: true
     interval: 180
     timeout: 2000
-    tolerance: 20
+    tolerance: 50
+    proxies:
+    include-all-providers: true
+    exclude-filter: *exclude_proxy_filter
+  - name: 🔯 故障转移
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    lazy: true
+    interval: 180
+    timeout: 2000
+    tolerance: 50
     proxies:
     include-all-providers: true
     exclude-filter: *exclude_proxy_filter

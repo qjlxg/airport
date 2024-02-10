@@ -45,6 +45,11 @@ proxy_provider_common_config: &proxy_provider_common_config
     interval: 600
     timeout: 5000
     url: http://www.gstatic.com/generate_204
+proxy_group_common_config: &proxy_group_common_config
+  lazy: true
+  interval: 180
+  timeout: 2000
+  url: http://www.gstatic.com/generate_204
 # 排除节点
 exclude_proxy_filter: &exclude_proxy_filter "剩余流量|套餐到期|官网"
 
@@ -85,7 +90,6 @@ proxy-providers:
     url: "https://raw.githubusercontent.com/dongchengjie/airport/main/nodes/dongchengjie.yaml"
     path: ./providers/unlimited/github_dongchengjie.yaml
     <<: *proxy_provider_common_config
-
   youtube_顺丰资源:
     type: http
     url: "https://shunfeng.2424014450.workers.dev"
@@ -108,29 +112,25 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择
+      - 🚑 故障转移
+      - ⚖️ 负载均衡
       - DIRECT
     include-all-providers: true
-    exclude-filter: *exclude_proxy_filter
   - name: ♻️ 自动选择
     type: url-test
-    url: http://www.gstatic.com/generate_204
-    lazy: true
-    interval: 180
-    timeout: 2000
     tolerance: 50
-    proxies:
     include-all-providers: true
+    <<: *proxy_group_common_config
     exclude-filter: *exclude_proxy_filter
-  - name: 🔯 故障转移
+  - name: 🚑 故障转移
     type: fallback
-    url: http://www.gstatic.com/generate_204
-    lazy: true
-    interval: 180
-    timeout: 2000
-    tolerance: 50
-    proxies:
     include-all-providers: true
-    exclude-filter: *exclude_proxy_filter
+    <<: *proxy_group_common_config
+  - name: ⚖️ 负载均衡
+    type: load-balance
+    strategy: consistent-hashing
+    include-all-providers: true
+    <<: *proxy_group_common_config
   - name: 🎯 全球直连
     type: select
     proxies:

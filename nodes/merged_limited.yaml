@@ -276,6 +276,7 @@ rules:
   # 自定义规则
   - RULE-SET,customize_direct,🎯 全球直连
   - RULE-SET,customize_reject,🛑 全球拦截
+  - RULE-SET,customize_proxy,🚀 节点选择
   # acl4ssr
   - RULE-SET,acl4ssr_direct_china_domain,🎯 全球直连
   - RULE-SET,acl4ssr_direct_china_ip,🎯 全球直连

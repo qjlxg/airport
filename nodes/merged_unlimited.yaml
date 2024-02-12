@@ -24,6 +24,11 @@ dns:
     - '+.msftconnecttest.com'
     - '+.msftncsi.com'
   use-hosts: true
+  nameserver-policy:
+    'sub.id9.cc': https://dns.alidns.com/dns-query
+    'sub.xeton.dev': https://dns.alidns.com/dns-query
+    'api.dler.io': https://dns.alidns.com/dns-query
+    'api.dler.io': https://dns.alidns.com/dns-query
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query

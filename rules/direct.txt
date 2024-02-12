@@ -4,4 +4,6 @@ DOMAIN,yacd.haishan.me
 DOMAIN,clash.razord.top
 DOMAIN,downloadtorrentfile.com
 DOMAIN,screenshots.downloadtorrentfile.com
+DOMAIN,sub.xeton.dev
 DOMAIN,sub.id9.cc
+DOMAIN,sub.maoxiongnet.com

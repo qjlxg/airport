@@ -1,12 +1,3 @@
-# 混合端口（同时支持 HTTP(S) 和 SOCKS5 协议）
-mixed-port: 7890
-# 允许局域网
-allow-lan: true
-# 运行模式：rule、global、direct
-mode: rule
-# 日志级别
-log-level: info
-# 外部控制（使用 RESTful API 来控制Clash内核）
 external-controller: 0.0.0.0:9090
 # 全局UA
 global-ua: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
@@ -27,7 +18,7 @@ dns:
   nameserver-policy:
     'sub.id9.cc': https://dns.alidns.com/dns-query
     'sub.xeton.dev': https://dns.alidns.com/dns-query
-    'api.dler.io': https://dns.alidns.com/dns-query
+    'sub.maoxiongnet.com': https://dns.alidns.com/dns-query
     'api.dler.io': https://dns.alidns.com/dns-query
   nameserver:
     - https://doh.pub/dns-query

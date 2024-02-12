@@ -63,7 +63,7 @@ proxy-providers:
     <<: *proxy_provider_common_config
   github_ClodQiu:
     type: http
-    url: "https://sub.xeton.dev/sub?target=clash&new_name=true&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&url=https%3A%2F%2Fraw.githubusercontent.com%2FClodQiu%2FSTARS%2Fmaster%2Flist.yml"
+    url: "https://raw.githubusercontent.com/ClodQiu/STARS/master/list.yml"
     path: ./providers/unlimited/github_ClodQiu.yaml
     <<: *proxy_provider_common_config
   github_Flik6:
@@ -78,17 +78,17 @@ proxy-providers:
     <<: *proxy_provider_common_config
   github_zhangkaiitugithub:
     type: http
-    url: "https://sub.xeton.dev/sub?target=clash&new_name=true&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&url=https%3A%2F%2Fraw.githubusercontent.com%2Fzhangkaiitugithub%2Fpasscro%2Fmain%2Fspeednodes.yaml"
+    url: "https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml"
     path: ./providers/unlimited/github_zhangkaiitugithub.yaml
     <<: *proxy_provider_common_config
   github_dongchengjie:
     type: http
-    url: "https://sub.xeton.dev/sub?target=clash&new_name=true&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&url=https%3A%2F%2Fraw.githubusercontent.com%2Fdongchengjie%2Fairport%2Fmain%2Fnodes%2Fdongchengjie.yaml"
+    url: "https://raw.githubusercontent.com/dongchengjie/airport/main/nodes/dongchengjie.yaml"
     path: ./providers/unlimited/github_dongchengjie.yaml
     <<: *proxy_provider_common_config
   youtube_顺丰资源:
     type: http
-    url: "https://sub.xeton.dev/sub?target=clash&new_name=true&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&url=https%3A%2F%2Fshunfeng.2424014450.workers.dev"
+    url: "https://shunfeng.2424014450.workers.dev"
     path: ./providers/unlimited/youtube_顺丰资源.yaml
     <<: *proxy_provider_common_config
   youtube_免费节点:
@@ -98,7 +98,7 @@ proxy-providers:
     <<: *proxy_provider_common_config
   site_oneclash:
     type: http
-    url: "https://sub.xeton.dev/sub?target=clash&new_name=true&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&url=https%3A%2F%2Foneclash.2424014450.workers.dev"
+    url: "https://oneclash.2424014450.workers.dev"
     path: ./providers/unlimited/site_oneclash.yaml
     <<: *proxy_provider_common_config
 

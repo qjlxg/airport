@@ -128,7 +128,7 @@ rule-providers:
     type: http
     behavior: classical
     format: text
-    url: https://raw.githubusercontent.com/dongchengjie/airport/main/rules/direct.txt
+    url: https://raw.gitmirror.com/dongchengjie/airport/main/rules/direct.txt
     path: ./rulesets/customize/direct.txt
     interval: 86400
 
@@ -137,7 +137,7 @@ rule-providers:
     type: http
     behavior: classical
     format: text
-    url: https://raw.githubusercontent.com/dongchengjie/airport/main/rules/proxy.txt
+    url: https://raw.gitmirror.com/dongchengjie/airport/main/rules/proxy.txt
     path: ./rulesets/customize/proxy.txt
     interval: 86400
 
@@ -146,7 +146,7 @@ rule-providers:
     type: http
     behavior: classical
     format: text
-    url: https://raw.githubusercontent.com/dongchengjie/airport/main/rules/reject.txt
+    url: https://raw.gitmirror.com/dongchengjie/airport/main/rules/reject.txt
     path: ./rulesets/customize/reject.txt
     interval: 86400
     
@@ -155,7 +155,7 @@ rule-providers:
     type: http
     behavior: classical
     format: text
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+    url: https://raw.gitmirror.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
     path: ./rulesets/acl4ssr/direct_local.txt
     interval: 86400
 
@@ -164,7 +164,7 @@ rule-providers:
     type: http
     behavior: classical
     format: text
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+    url: https://raw.gitmirror.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
     path: ./rulesets/acl4ssr/reject_ad.txt
     interval: 86400
 
@@ -173,7 +173,7 @@ rule-providers:
     type: http
     behavior: classical
     format: text
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+    url: https://raw.gitmirror.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
     path: ./rulesets/acl4ssr/reject_program_ad.txt
     interval: 86400
 
@@ -182,7 +182,7 @@ rule-providers:
     type: http
     behavior: classical
     format: text
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
+    url: https://raw.gitmirror.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
     path: ./rulesets/acl4ssr/direct_china_ip.txt
     interval: 86400
 
@@ -191,7 +191,7 @@ rule-providers:
     type: http
     behavior: classical
     format: text
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+    url: https://raw.gitmirror.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
     path: ./rulesets/acl4ssr/direct_china_domain.txt
     interval: 86400
     
@@ -200,7 +200,7 @@ rule-providers:
     type: http
     behavior: classical
     format: text
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+    url: https://raw.gitmirror.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
     path: ./rulesets/acl4ssr/direct_download.txt
     interval: 86400
   

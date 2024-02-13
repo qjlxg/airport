@@ -2,8 +2,14 @@ DOMAIN,api.dler.io
 DOMAIN,clash.razord.top
 DOMAIN,downloadtorrentfile.com
 DOMAIN,eightcha.com
+DOMAIN,fastly.jsdelivr.net
+DOMAIN,ghproxy.net
+DOMAIN,github.moeyy.xyz
+DOMAIN,jsdelivr.b-cdn.net
+DOMAIN,mirror.ghproxy.com
 DOMAIN,nineyu.com
 DOMAIN,raw.gitmirror.com
+DOMAIN,raw.kkgithub.com
 DOMAIN,screenshots.downloadtorrentfile.com
 DOMAIN,sub.id9.cc
 DOMAIN,sub.maoxiongnet.com

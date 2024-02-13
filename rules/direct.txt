@@ -7,7 +7,6 @@ DOMAIN,screenshots.downloadtorrentfile.com
 DOMAIN,sub.id9.cc
 DOMAIN,sub.maoxiongnet.com
 DOMAIN,sub.xeton.dev
-DOMAIN,surrit.com
 DOMAIN,nineyu.com
 DOMAIN,yacd.haishan.me
 DOMAIN-SUFFIX,mihoyo.com

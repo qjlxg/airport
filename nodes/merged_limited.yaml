@@ -52,7 +52,7 @@ proxy_provider_common_config: &proxy_provider_common_config
     timeout: 5000
     url: http://www.gstatic.com/generate_204
 proxy_group_common_config: &proxy_group_common_config
-  lazy: true
+  lazy: false
   interval: 180
   timeout: 2000
   url: http://www.gstatic.com/generate_204

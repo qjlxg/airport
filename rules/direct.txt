@@ -1,11 +1,13 @@
 DOMAIN,api.dler.io
 DOMAIN,clash.razord.top
 DOMAIN,downloadtorrentfile.com
+DOMAIN,eightcha.com
 DOMAIN,raw.gitmirror.com
 DOMAIN,screenshots.downloadtorrentfile.com
 DOMAIN,sub.id9.cc
 DOMAIN,sub.maoxiongnet.com
 DOMAIN,sub.xeton.dev
+DOMAIN,surrit.com
 DOMAIN,yacd.haishan.me
 DOMAIN-SUFFIX,mihoyo.com
 DOMAIN-SUFFIX,miyoushe.com

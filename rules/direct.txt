@@ -8,4 +8,3 @@ DOMAIN,sub.xeton.dev
 DOMAIN,yacd.haishan.me
 DOMAIN-SUFFIX,mihoyo.com
 DOMAIN-SUFFIX,miyoushe.com
-DOMAIN-SUFFIX,miyoushe.com

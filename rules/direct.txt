@@ -20,3 +20,4 @@ DOMAIN,xn--ngstr-lra8j.com
 DOMAIN,yacd.haishan.me
 DOMAIN-SUFFIX,mihoyo.com
 DOMAIN-SUFFIX,miyoushe.com
+DOMAIN,connectivitycheck.gstatic.com

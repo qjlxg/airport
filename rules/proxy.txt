@@ -1,2 +1,5 @@
 payload:
-  - DOMAIN,connectivitycheck.gstatic.com
+  - DOMAIN-SUFFIX,connectivitycheck.gstatic.com
+  - DOMAIN-SUFFIX,googleapis.cn
+  - DOMAIN-SUFFIX,gstatic.com
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com

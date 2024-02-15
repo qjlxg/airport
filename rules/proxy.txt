@@ -1,1 +1,2 @@
-DOMAIN,connectivitycheck.gstatic.com
+payload:
+  - DOMAIN,connectivitycheck.gstatic.com

@@ -159,7 +159,7 @@ rule-providers:
   customize_direct:
     type: http
     behavior: classical
-    format: text
+    format: yaml
     url: https://raw.gitmirror.com/dongchengjie/airport/main/rules/direct.txt
     path: ./rulesets/customize/direct.txt
     interval: 86400
@@ -168,7 +168,7 @@ rule-providers:
   customize_proxy:
     type: http
     behavior: classical
-    format: text
+    format: yaml
     url: https://raw.gitmirror.com/dongchengjie/airport/main/rules/proxy.txt
     path: ./rulesets/customize/proxy.txt
     interval: 86400
@@ -177,7 +177,7 @@ rule-providers:
   customize_reject:
     type: http
     behavior: classical
-    format: text
+    format: yaml
     url: https://raw.gitmirror.com/dongchengjie/airport/main/rules/reject.txt
     path: ./rulesets/customize/reject.txt
     interval: 86400

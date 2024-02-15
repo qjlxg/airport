@@ -16,29 +16,23 @@ dns:
   ipv6: false
   default-nameserver:
     - 223.5.5.5
-    - 8.8.8.8
-    - 114.114.114.114
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
     - '+.msftconnecttest.com'
     - '+.msftncsi.com'
   use-hosts: true
-  nameserver-policy:
-    'sub.id9.cc': https://dns.alidns.com/dns-query
-    'sub.xeton.dev': https://dns.alidns.com/dns-query
-    'sub.maoxiongnet.com': https://dns.alidns.com/dns-query
-    'api.dler.io': https://dns.alidns.com/dns-query
-    'raw.gitmirror.com': https://dns.alidns.com/dns-query
   nameserver:
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
+    - 223.5.5.5
+    - 114.114.114.114
   fallback:
-    - https://doh.dns.sb/dns-query
-    - https://dns.cloudflare.com/dns-query
+    - tls://8.8.8.8:853
+    - tls://1.1.1.1:853
   fallback-filter: 
     geoip: true
     geoip-code: CN
+    geosite:
+      - gfw
     ipcidr:
       - 240.0.0.0/4
       - 0.0.0.0/32

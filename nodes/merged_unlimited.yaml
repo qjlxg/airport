@@ -1,3 +1,12 @@
+# 混合端口（同时支持 HTTP(S) 和 SOCKS5 协议）
+mixed-port: 7890
+# 允许局域网
+allow-lan: true
+# 运行模式：rule、global、direct
+mode: rule
+# 日志级别
+log-level: info
+# 外部控制（使用 RESTful API 来控制Clash内核）
 external-controller: 0.0.0.0:9090
 # 全局UA
 global-ua: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
@@ -5,27 +14,25 @@ global-ua: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, 
 dns:
   enable: true
   ipv6: false
+  default-nameserver:
+    - 223.5.5.5
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
     - '+.msftconnecttest.com'
     - '+.msftncsi.com'
   use-hosts: true
-  nameserver-policy:
-#    'sub.id9.cc': https://dns.alidns.com/dns-query
-#    'sub.xeton.dev': https://dns.alidns.com/dns-query
-#    'sub.maoxiongnet.com': https://dns.alidns.com/dns-query
-#    'api.dler.io': https://dns.alidns.com/dns-query
-#    'raw.gitmirror.com': https://dns.alidns.com/dns-query
   nameserver:
     - 223.5.5.5
     - 114.114.114.114
   fallback:
-    - https://1.1.1.1/dns-query
-    - tls://8.8.4.4:853
+    - tls://8.8.8.8:853
+    - tls://1.1.1.1:853
   fallback-filter: 
     geoip: true
     geoip-code: CN
+    geosite:
+      - gfw
     ipcidr:
       - 240.0.0.0/4
       - 0.0.0.0/32

@@ -139,6 +139,8 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
       - ♻️ 自动选择
+      - 🚑 故障转移
+      - ⚖️ 负载均衡
     include-all-providers: true
   - name: 🛑 全球拦截
     type: select
@@ -151,6 +153,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🚑 故障转移
+      - ⚖️ 负载均衡
     include-all-providers: true
 
 # 规则集

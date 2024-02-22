@@ -26,378 +26,442 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_1","type":"vmess","server":"104.21.228.42","port":"80","cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_2","network":"ws","port":"80","server":"104.21.225.246","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_3","type":"vmess","server":"104.21.225.253","port":"80","cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³@WangCai08","headers":{"host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_4","server":"104.21.225.64","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_5","network":"ws","port":"80","server":"104.21.227.38","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_6","type":"vmess","server":"104.21.225.188","port":"80","cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai08","headers":{"host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_7","server":"104.21.238.93","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"Host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_8","server":"104.21.230.53","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_9","network":"ws","port":"80","server":"104.21.225.185","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³@WangCai_8"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_10","network":"ws","port":"80","server":"104.21.225.23","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_11","network":"ws","port":"80","server":"104.21.225.243","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_12","network":"ws","port":"80","server":"104.21.225.57","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_13","server":"104.21.225.62","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_14","network":"ws","port":"80","server":"104.21.225.166","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³@WangCai_8"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_15","type":"vmess","server":"104.21.225.36","port":"80","cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³@WangCai08","headers":{"host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_16","server":"104.21.226.30","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_17","network":"ws","port":"80","server":"104.21.235.55","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_18","network":"ws","port":"80","server":"104.21.225.252","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_19","network":"ws","port":"80","server":"104.21.239.75","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_20","network":"ws","port":"80","server":"104.21.225.54","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_21","network":"ws","port":"80","server":"104.21.226.13","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_22","network":"ws","port":"80","server":"104.21.225.133","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_23","network":"ws","port":"80","server":"104.21.225.147","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_24","network":"ws","port":"80","server":"104.21.225.187","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_25","server":"104.21.236.82","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"Host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_26","server":"104.21.233.46","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_27","network":"ws","port":"80","server":"104.21.232.44","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_28","type":"vmess","server":"104.21.235.59","port":"80","cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_29","network":"ws","port":"80","server":"104.21.225.31","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_30","server":"104.21.225.69","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_31","network":"ws","port":"80","server":"104.21.225.90","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_32","server":"104.21.232.62","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_33","network":"ws","port":"80","server":"104.21.225.240","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³@WangCai_8"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_34","server":"104.21.225.100","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_35","type":"vmess","server":"104.21.224.22","port":"80","cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_36","type":"vmess","server":"104.21.225.29","port":"80","cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_37","network":"ws","port":"80","server":"104.21.225.25","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_38","network":"ws","port":"80","server":"104.21.225.42","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_39","server":"104.21.226.32","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"Host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_40","server":"104.21.230.34","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_41","network":"ws","port":"80","server":"104.21.225.18","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_42","network":"ws","port":"80","server":"104.21.224.21","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_43","network":"ws","port":"80","server":"104.21.229.29","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_44","network":"ws","port":"80","server":"104.21.235.79","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_45","network":"ws","port":"80","server":"104.21.224.4","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_46","network":"ws","port":"80","server":"104.21.229.46","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_47","server":"104.21.225.226","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_48","type":"vmess","server":"104.21.231.58","port":"80","cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_49","network":"ws","port":"80","server":"104.21.238.91","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_50","server":"104.21.225.58","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_51","network":"ws","port":"80","server":"104.21.225.49","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_52","server":"104.21.236.81","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"Host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_53","type":"vmess","server":"104.21.225.21","port":"80","cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³@WangCai08","headers":{"host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_54","network":"ws","port":"80","server":"104.21.224.23","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_55","server":"104.21.229.47","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"Host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_56","server":"104.21.233.47","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"Host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_57","server":"104.21.225.202","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_58","network":"ws","port":"80","server":"104.21.233.67","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_59","server":"104.21.225.154","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_60","server":"104.21.225.213","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³@WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_61","server":"104.21.225.40","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³@WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_62","network":"ws","port":"80","server":"104.21.225.193","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_63","server":"104.21.226.14","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_64","network":"ws","port":"80","server":"104.21.225.30","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_65","server":"104.21.238.94","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_66","network":"ws","port":"80","server":"104.21.225.130","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_67","network":"ws","port":"80","server":"104.21.225.229","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_68","server":"104.21.225.113","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³@WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_69","type":"vmess","server":"104.21.225.231","port":"80","cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai08","headers":{"host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_70","server":"104.21.225.67","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_71","server":"104.21.236.63","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_72","network":"ws","port":"80","server":"104.21.231.35","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_73","network":"ws","port":"80","server":"104.21.231.55","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_74","server":"104.21.239.77","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_75","network":"ws","port":"80","server":"104.21.231.36","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_76","type":"vmess","server":"104.21.236.61","port":"80","cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_77","network":"ws","port":"80","server":"104.21.236.64","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_78","server":"104.21.225.152","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_79","type":"vmess","server":"104.21.225.136","port":"80","cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai08","headers":{"host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_80","network":"ws","port":"80","server":"104.21.225.78","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_81","server":"104.21.225.94","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_82","network":"ws","port":"80","server":"104.21.233.66","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_83","network":"ws","port":"80","server":"104.21.227.16","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_84","server":"104.21.225.5","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_85","network":"ws","port":"80","server":"104.21.225.239","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_86","server":"104.21.232.43","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_87","network":"ws","port":"80","server":"104.21.231.56","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"name":"í ¼í·ºí ¼í·¸ ç¾å›½_1","type":"hysteria","server":"173.234.25.52","port":"48919","ports":"48919","auth_str":"dongtaiwang.com","up":"80","down":"100","fast-open":true,"protocol":"udp","sni":"bing.com","skip-cert-verify":true,"alpn":["h3"]}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_88","network":"ws","port":"80","server":"104.21.229.26","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_89","server":"104.21.228.22","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_90","network":"ws","port":"80","server":"104.21.239.96","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_91","network":"ws","port":"80","server":"104.21.225.203","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_92","network":"ws","port":"80","server":"104.21.225.183","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³@WangCai_8"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_93","network":"ws","port":"80","server":"104.21.225.43","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_94","network":"ws","port":"80","server":"104.21.232.61","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_95","server":"104.21.225.2","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_96","network":"ws","port":"80","server":"104.21.225.56","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_97","server":"104.21.227.37","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_98","network":"ws","port":"80","server":"104.21.225.38","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_99","network":"ws","port":"80","server":"104.21.225.84","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_100","network":"ws","port":"80","server":"104.21.225.173","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_101","network":"ws","port":"80","server":"104.21.228.23","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_102","server":"104.21.225.111","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_103","network":"ws","port":"80","server":"104.21.233.68","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_104","network":"ws","port":"80","server":"104.21.224.0","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_105","network":"ws","port":"80","server":"104.21.225.26","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_106","server":"104.21.225.59","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_107","network":"ws","port":"80","server":"104.21.225.114","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_108","type":"vmess","server":"104.21.235.75","port":"80","cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_109","network":"ws","port":"80","server":"104.21.225.98","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_110","server":"104.21.230.31","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"Host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_111","server":"104.21.237.66","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_112","network":"ws","port":"80","server":"104.21.225.35","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_113","server":"104.21.225.116","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_114","type":"vmess","server":"104.21.225.55","port":"80","cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai08","headers":{"host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_115","network":"ws","port":"80","server":"104.21.236.83","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_116","network":"ws","port":"80","server":"104.21.231.39","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_117","network":"ws","port":"80","server":"104.21.238.73","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_118","server":"104.21.228.20","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_119","network":"ws","port":"80","server":"104.21.227.17","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_120","network":"ws","port":"80","server":"104.21.231.38","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_121","network":"ws","port":"80","server":"104.21.225.249","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³@WangCai_8"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_122","network":"ws","port":"80","server":"104.21.225.126","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_123","network":"ws","port":"80","server":"104.21.225.17","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_124","network":"ws","port":"80","server":"104.21.237.69","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_125","type":"vmess","server":"104.21.238.90","port":"80","cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_126","type":"vmess","server":"104.21.236.84","port":"80","cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_127","server":"104.21.235.56","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"Host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_128","server":"104.21.225.207","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³@WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_129","network":"ws","port":"80","server":"104.21.225.102","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_130","network":"ws","port":"80","server":"104.21.225.24","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_131","network":"ws","port":"80","server":"104.21.237.65","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_132","network":"ws","port":"80","server":"104.21.234.74","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_133","network":"ws","port":"80","server":"104.21.225.10","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_134","network":"ws","port":"80","server":"104.21.227.15","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_135","network":"ws","port":"80","server":"104.21.225.236","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_136","network":"ws","port":"80","server":"104.21.237.85","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_137","network":"ws","port":"80","server":"104.21.225.150","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_138","network":"ws","port":"80","server":"104.21.225.157","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_139","server":"104.21.225.139","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_140","server":"104.21.225.129","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_141","network":"ws","port":"80","server":"104.21.225.189","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í·³í ¼í·± è·å…°_1","network":"ws","port":"80","server":"188.114.96.113","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt4.ir"},"path":"/"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_142","server":"104.21.227.19","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_143","network":"ws","port":"80","server":"104.21.225.101","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_144","server":"104.21.234.50","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_145","network":"ws","port":"80","server":"104.21.225.45","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³@WangCai_8"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_146","server":"104.21.225.235","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_147","network":"ws","port":"80","server":"104.21.69.44","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt4.ir"},"path":"/"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_148","server":"104.21.225.134","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_149","network":"ws","port":"80","server":"104.21.224.2","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í·³í ¼í·± è·å…°_2","network":"ws","port":"80","server":"mci--join.outline-vpn.cloud","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_150","type":"vmess","server":"104.21.237.88","port":"80","cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_151","network":"ws","port":"80","server":"104.21.238.92","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_152","network":"ws","port":"80","server":"104.21.225.73","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³@WangCai_8"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_153","network":"ws","port":"80","server":"104.21.225.95","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_154","network":"ws","port":"80","server":"104.21.228.40","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í·ºí ¼í·¸ ç¾å›½_2","network":"ws","port":"8080","server":"172.67.180.248","skip-cert-verify":true,"tls":false,"type":"vmess","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","ws-opts":{"headers":{"host":"www.nahck.site"},"path":"/"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_155","server":"104.21.225.82","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_156","type":"vmess","server":"104.21.225.165","port":"80","cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai08","headers":{"host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_157","network":"ws","port":"80","server":"104.21.225.219","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í·ºí ¼í·¸ ç¾å›½_3","network":"ws","port":"80","server":"for-irancell.outline-vpn.cloud","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"my1.tooters.ir"},"path":"/"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_158","network":"ws","port":"80","server":"104.21.229.45","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_159","server":"104.20.231.30","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"my1.tooters.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_160","server":"104.21.225.182","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_161","type":"vmess","server":"104.21.225.19","port":"80","cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai08","headers":{"host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_162","type":"vmess","server":"104.21.226.33","port":"80","cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_163","network":"ws","port":"80","server":"104.21.233.48","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_164","network":"ws","port":"80","server":"104.21.238.70","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_165","server":"104.21.225.74","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_166","network":"ws","port":"80","server":"104.21.227.39","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_167","server":"104.21.238.71","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_168","network":"ws","port":"80","server":"104.21.225.179","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_169","server":"104.21.225.215","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_170","network":"ws","port":"80","server":"104.21.227.35","skip-cert-verify":true,"tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_171","network":"ws","port":"80","server":"104.21.232.40","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_172","network":"ws","port":"80","server":"104.21.225.8","skip-cert-verify":true,"tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_173","network":"ws","port":"80","server":"104.21.226.11","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_174","network":"ws","port":"80","server":"104.21.225.108","skip-cert-verify":true,"tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_175","server":"104.21.225.87","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_176","network":"ws","port":"80","server":"104.21.233.65","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_177","server":"104.21.239.78","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_178","network":"ws","port":"80","server":"104.21.237.68","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_179","network":"ws","port":"80","server":"104.21.225.83","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_180","network":"ws","port":"80","server":"104.21.225.88","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_181","network":"ws","port":"80","server":"104.21.229.28","skip-cert-verify":true,"tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_182","network":"ws","port":"80","server":"104.21.232.63","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_183","type":"vmess","server":"104.21.225.80","port":"80","cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³@WangCai08","headers":{"host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_184","server":"104.21.229.49","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_185","network":"ws","port":"80","server":"104.21.225.34","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_186","server":"104.21.230.30","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"Host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í·³í ¼í·± è·å…°_3","server":"www.nahck.site","port":"8080","client-fingerprint":"chrome","type":"vmess","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":"0","cipher":"auto","tls":false,"tfo":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"www.nahck.site"}},"udp":true}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_187","network":"ws","port":"80","server":"104.21.225.16","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³@WangCai_8"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_188","server":"104.21.229.25","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"Host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_189","server":"104.21.225.146","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_190","server":"104.21.238.72","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"Host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_191","server":"104.21.225.164","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_192","server":"104.21.225.209","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_193","network":"ws","port":"80","server":"104.21.225.92","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_194","server":"104.21.234.73","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_195","network":"ws","port":"80","server":"104.21.225.171","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_196","network":"ws","port":"80","server":"104.21.225.145","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_197","network":"ws","port":"80","server":"104.21.225.85","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_198","server":"104.21.225.181","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_199","network":"ws","port":"80","server":"104.21.225.242","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³@WangCai_8"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_200","server":"104.21.225.200","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_201","server":"104.21.225.241","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_202","server":"104.21.225.194","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í·³í ¼í·± è·å…°_4","type":"vmess","server":"www.blueberrywindow.online","port":"8080","cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"í ¼í·ºí ¼í·¸ ç¾å›½_4","server":"172.67.174.120","port":"80","client-fingerprint":"chrome","type":"vless","uuid":"00000000-0000-0000-0000-000000000000","tls":false,"tfo":false,"skip-cert-verify":true,"servername":"public.åˆ—åˆ—ç”·äº‹çš„äº‹åˆ—ä¸Šèµ›ç”·85.shop","network":"ws","ws-opts":{"path":"/","headers":{"Host":"public.åˆ—åˆ—ç”·äº‹çš„äº‹åˆ—ä¸Šèµ›ç”·85.shop"}},"udp":true}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_203","server":"104.21.225.184","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_204","network":"ws","port":"80","server":"104.21.233.45","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_205","network":"ws","port":"80","server":"104.21.233.69","skip-cert-verify":true,"tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_206","network":"ws","port":"80","server":"104.24.208.37","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"my1.tooters.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_207","network":"ws","port":"80","server":"104.21.231.57","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_208","network":"ws","port":"80","server":"104.21.225.28","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_209","network":"ws","port":"80","server":"104.21.225.233","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_210","server":"104.21.225.234","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_211","server":"104.21.225.13","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³@WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_212","server":"104.21.225.210","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_213","type":"vmess","server":"104.16.77.74","port":"80","cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"my1.tooters.ir"}}}
-  - {"name":"í ¼í·°í ¼í·· éŸ©å›½_1","type":"vless","server":"146.56.142.38","port":"51001","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2freecodes","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_214","type":"vmess","server":"104.21.225.156","port":"80","cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai08","headers":{"host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í·¹í ¼í·¼ ä¸­å›½å°æ¹¾_1","type":"vless","server":"118.163.101.44","port":"44332","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/freecodes","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í·³í ¼í·± è·å…°_5","network":"ws","port":"80","server":"188.114.96.11","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_215","network":"ws","port":"80","server":"104.21.231.37","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_216","server":"104.21.225.162","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_217","network":"ws","port":"80","server":"104.21.225.47","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"name":"í ¼í·ºí ¼í·¸ ç¾å›½_5","server":"167.160.91.115","port":"41189","client-fingerprint":"chrome","type":"hysteria","auth_str":"bWAwIqINo7XDm1fUlXQGBifVIXoYs1ylgVKqWFKzK1XyDKuwNF","auth-str":"bWAwIqINo7XDm1fUlXQGBifVIXoYs1ylgVKqWFKzK1XyDKuwNF","up":"80","down":"100","fast-open":false,"protocol":"udp","sni":"www.amazon.cn","skip-cert-verify":true,"alpn":["h3"],"udp":true}
-  - {"name":"í ¼í·¹í ¼í·¼ ä¸­å›½å°æ¹¾_2","server":"www.dtku50.xyz","port":"11229","client-fingerprint":"chrome","type":"hysteria","auth_str":"dongtaiwang.com","auth-str":"dongtaiwang.com","up":"11","down":"55","fast-open":false,"protocol":"udp","sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"udp":true}
-  - {"name":"í ¼í·»í ¼í·³ è¶Šå—_1","server":"103.154.63.16","port":"443","client-fingerprint":"chrome","type":"trojan","password":"5bae27f5-3b8e-48f3-b91f-30fc680ea78f","sni":"lienquan.garena.vn","skip-cert-verify":true,"udp":true}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_218","network":"ws","port":"80","server":"104.21.239.98","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"name":"í ¼í·«í ¼í·· æ³•å›½_1","server":"51.159.77.198","port":"29277","client-fingerprint":"chrome","type":"hysteria2","password":"dongtaiwang.com","auth":"dongtaiwang.com","sni":"www.bing.com","skip-cert-verify":true,"udp":true}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_219","server":"104.21.225.163","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_220","server":"104.21.225.22","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8","headers":{"Host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_221","network":"ws","port":"80","server":"104.21.237.67","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_222","network":"ws","port":"80","server":"104.21.225.174","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_223","type":"vmess","server":"104.21.225.220","port":"80","cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai08","headers":{"host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_224","type":"vmess","server":"104.21.230.33","port":"80","cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_225","type":"vmess","server":"104.21.239.97","port":"80","cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"a.prapt5.ir"}}}
-  - {"name":"í ¼í·ºí ¼í·¸ ç¾å›½_6","type":"vless","server":"172.66.45.118","port":"443","uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"baipiao55.stunning-bassoon.pages.dev","network":"ws","ws-opts":{"path":"/freecodes","headers":{"host":"baipiao55.stunning-bassoon.pages.dev"}}}
-  - {"name":"í ¼í·«í ¼í·· æ³•å›½_2","server":"51.159.77.153","port":"33390","client-fingerprint":"chrome","type":"hysteria2","password":"dongtaiwang.com","auth":"dongtaiwang.com","sni":"bing.com","up":"11 Mbps","down":"55 Mbps","skip-cert-verify":true,"alpn":["h3"],"udp":true}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_226","type":"vmess","server":"104.21.232.41","port":"80","cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_227","network":"ws","port":"80","server":"104.21.230.32","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"name":"í ¼í¼©ï¸ CLOUDFLARE_228","type":"vmess","server":"104.21.235.57","port":"80","cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.prapt5.ir"}}}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_229","network":"ws","port":"80","server":"104.21.236.80","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
-  - {"name":"í ¼í·«í ¼í·· æ³•å›½_3","server":"62.210.103.0","port":"22483","client-fingerprint":"chrome","type":"hysteria2","password":"dongtaiwang.com","auth":"dongtaiwang.com","sni":"www.bing.com","skip-cert-verify":true,"udp":true}
-  - {"alterId":"0","cipher":"auto","name":"í ¼í¼©ï¸ CLOUDFLARE_230","network":"ws","port":"80","server":"104.21.225.180","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&Telegramí ¼í·¨í ¼í·³ @WangCai_8"}}
-  - {"name":"í ¼í·ºí ¼í·¸ ç¾å›½_7","server":"64.110.25.11","port":"33337","client-fingerprint":"chrome","type":"hysteria2","password":"dongtaiwang.com","auth":"dongtaiwang.com","skip-cert-verify":true,"udp":true}
-  - {"name":"í ¼í·¹í ¼í·¼ ä¸­å›½å°æ¹¾_3","server":"www.dtku50.xyz","port":"18470","client-fingerprint":"chrome","type":"hysteria","auth_str":"dongtaiwang.com","auth-str":"dongtaiwang.com","up":"2","down":"10","fast-open":false,"protocol":"udp","sni":"www.amazon.cn","skip-cert-verify":true,"alpn":["h3"],"udp":true}
-  - {"cipher":"aes-256-cfb","client-fingerprint":"chrome","name":"í ¼í·°í ¼í·· éŸ©å›½_2","password":"qwerREWQ@@","port":"7818","server":"p080.panda001.net","tfo":false,"type":"ss"}
-  - {"name":"í ¼í·¬í ¼í·§ è‹±å›½_1","server":"jseyu.arvancode.eu.org","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"chacha20-ietf-poly1305","password":"Bog0ELmMM9DSxDdQ","tfo":false,"udp":true}
-  - {"name":"í ¼í·¯í ¼í·µ æ—¥æœ¬_1","type":"vmess","server":"141.147.178.135","port":"80","cipher":"auto","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"my1.tooters.ir"}}}
-  - {"name":"í ¼í·¬í ¼í·§ è‹±å›½_2","server":"series-a2-me.samanehha.co","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"chacha20-ietf-poly1305","password":"Bog0ELmMM9DSxDdQ","tfo":false,"udp":true}
-  - {"name":"í ¼í·¸í ¼í·¬ æ–°åŠ å¡_1","server":"103.172.116.103","port":"9084","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"c3NtHJ5ujV2tGDfj","tfo":false,"udp":true}
+  - {"name":"ğŸ‡³ğŸ‡± ä¼˜é€‰_è·å…°_1","type":"vmess","server":"188.114.99.233","port":"8080","cipher":"auto","uuid":"41eeccfd-18e6-40b3-933d-c7000120ec2c","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"larger-marketing-amounts-skin.trycloudflare.com","network":"ws","ws-opts":{"path":"41eeccfd-18e6-40b3-933d-c7000120ec2c-vm","headers":{"host":"larger-marketing-amounts-skin.trycloudflare.com"}}}
+  - {"cipher":"aes-128-gcm","client-fingerprint":"chrome","name":"ğŸ‡­ğŸ‡° ä¼˜é€‰_ä¸­å›½é¦™æ¸¯ç‰¹åˆ«è¡Œæ”¿åŒº_1","password":"a-wym4ovY4Yw","plugin":"v2ray-plugin","plugin-opts":{"host":"","mode":"websocket","mux":true,"path":"","skip-cert-verify":true,"tls":false},"port":"443","server":"42.2.118.117","tfo":false,"type":"ss"}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_1","network":"ws","port":"80","server":"104.21.229.25","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_2","network":"ws","port":"80","server":"104.21.235.59","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_3","network":"ws","port":"80","server":"104.21.231.38","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_4","network":"ws","port":"80","server":"104.21.236.60","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_5","network":"ws","port":"80","server":"104.21.236.82","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_6","network":"ws","port":"80","server":"104.21.239.75","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_7","network":"ws","port":"80","server":"104.21.225.194","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&TelegramğŸ‡¨ğŸ‡³"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_8","network":"ws","port":"80","server":"104.21.234.54","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_9","network":"ws","port":"80","server":"104.21.225.244","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_10","network":"ws","port":"80","server":"104.21.239.95","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_11","network":"ws","port":"80","server":"104.21.237.69","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_12","network":"ws","port":"80","server":"104.21.239.99","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_13","network":"ws","port":"80","server":"104.21.225.17","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&TelegramğŸ‡¨ğŸ‡³ "}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_14","network":"ws","port":"80","server":"104.21.225.27","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_15","network":"ws","port":"80","server":"104.21.225.236","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_16","network":"ws","port":"80","server":"104.21.225.229","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&TelegramğŸ‡¨ğŸ‡³ "}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_17","network":"ws","port":"80","server":"104.21.225.120","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&TelegramğŸ‡¨ğŸ‡³"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_18","network":"ws","port":"80","server":"104.21.225.181","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_19","network":"ws","port":"80","server":"104.21.225.31","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&TelegramğŸ‡¨ğŸ‡³ "}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_20","network":"ws","port":"80","server":"104.21.230.52","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_21","network":"ws","port":"80","server":"104.21.225.37","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_22","network":"ws","port":"80","server":"104.21.225.74","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_23","network":"ws","port":"80","server":"104.21.225.13","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&TelegramğŸ‡¨ğŸ‡³@WangCai08"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_24","network":"ws","port":"80","server":"104.21.225.125","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&TelegramğŸ‡¨ğŸ‡³ "}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_25","network":"ws","port":"80","server":"104.21.225.49","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_26","network":"ws","port":"80","server":"104.21.225.227","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&TelegramğŸ‡¨ğŸ‡³ @WangCai_8"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_27","network":"ws","port":"80","server":"104.21.235.75","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_28","network":"ws","port":"80","server":"104.21.225.192","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&TelegramğŸ‡¨ğŸ‡³"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_29","network":"ws","port":"80","server":"104.21.238.91","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"name":"ğŸ‡°ğŸ‡· ä¼˜é€‰_éŸ©å›½_1","server":"221.150.109.85","port":"4398","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"qwerREWQ@@","tfo":false,"udp":true}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_30","network":"ws","port":"80","server":"104.21.225.39","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&TelegramğŸ‡¨ğŸ‡³ "}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_31","network":"ws","port":"80","server":"104.21.225.81","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"name":"ğŸ‡­ğŸ‡° ä¼˜é€‰_ä¸­å›½é¦™æ¸¯ç‰¹åˆ«è¡Œæ”¿åŒº_2","server":"47.76.185.99","port":"80","client-fingerprint":"chrome","type":"ss","cipher":"aes-128-gcm","password":"a-wym4ovY4Yw","tfo":false,"plugin":"obfs","plugin-opts":{"mode":"http","host":""},"udp":true}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_32","network":"ws","port":"80","server":"104.21.225.162","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_33","network":"ws","port":"80","server":"104.21.230.50","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_34","network":"ws","port":"80","server":"104.21.225.10","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&TelegramğŸ‡¨ğŸ‡³ "}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_35","network":"ws","port":"80","server":"104.21.225.247","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&TelegramğŸ‡¨ğŸ‡³ @WangCai08"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_36","network":"ws","port":"80","server":"104.21.225.137","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&TelegramğŸ‡¨ğŸ‡³ "}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_37","network":"ws","port":"80","server":"104.21.225.9","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"name":"ğŸ‡ºğŸ‡¸ ä¼˜é€‰_ç¾å›½_1","type":"vmess","server":"173.245.58.148","port":"8080","cipher":"auto","uuid":"41eeccfd-18e6-40b3-933d-c7000120ec2c","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"larger-marketing-amounts-skin.trycloudflare.com","network":"ws","ws-opts":{"path":"41eeccfd-18e6-40b3-933d-c7000120ec2c-vm","headers":{"host":"larger-marketing-amounts-skin.trycloudflare.com"}}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_38","network":"ws","port":"80","server":"104.21.225.21","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&TelegramğŸ‡¨ğŸ‡³"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_39","network":"ws","port":"80","server":"104.21.236.64","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_40","network":"ws","port":"80","server":"104.21.236.80","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_41","network":"ws","port":"80","server":"104.21.230.30","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"name":"ğŸ‡ºğŸ‡¸ ä¼˜é€‰_ç¾å›½_2","type":"vmess","server":"173.245.58.54","port":"8080","cipher":"auto","uuid":"41eeccfd-18e6-40b3-933d-c7000120ec2c","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"larger-marketing-amounts-skin.trycloudflare.com","network":"ws","ws-opts":{"path":"41eeccfd-18e6-40b3-933d-c7000120ec2c-vm","headers":{"host":"larger-marketing-amounts-skin.trycloudflare.com"}}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸ‡³ğŸ‡± ä¼˜é€‰_è·å…°_2","network":"ws","port":"80","server":"188.114.96.113","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt4.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_42","network":"ws","port":"80","server":"104.21.225.160","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_43","network":"ws","port":"80","server":"104.21.225.254","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"name":"ğŸ‡ºğŸ‡¸ ä¼˜é€‰_ç¾å›½_3","server":"172.67.174.120","port":"80","client-fingerprint":"chrome","type":"vless","uuid":"00000000-0000-0000-0000-000000000000","tls":false,"tfo":false,"skip-cert-verify":true,"servername":"public.åˆ—åˆ—ç”·äº‹çš„äº‹åˆ—ä¸Šèµ›ç”·85.shop","network":"ws","ws-opts":{"path":"/","headers":{"Host":"public.åˆ—åˆ—ç”·äº‹çš„äº‹åˆ—ä¸Šèµ›ç”·85.shop"}},"udp":true}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_44","network":"ws","port":"80","server":"104.21.225.50","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_45","network":"ws","port":"80","server":"104.21.228.42","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_46","network":"ws","port":"80","server":"104.21.232.44","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_47","server":"104.21.225.151","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"a.prapt5.ir"}}}
+  - {"name":"ğŸ‡ºğŸ‡¸ ä¼˜é€‰_ç¾å›½_4","type":"vless","server":"172.67.68.191","port":"443","uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"baipiao343.stunning-bassoon.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"baipiao343.stunning-bassoon.pages.dev"}}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_48","network":"ws","port":"80","server":"104.21.225.23","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_49","network":"ws","port":"80","server":"104.21.231.58","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_50","network":"ws","port":"80","server":"104.21.224.24","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_51","network":"ws","port":"80","server":"104.21.225.252","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_52","network":"ws","port":"80","server":"104.21.225.66","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_53","network":"ws","port":"80","server":"104.21.225.235","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_54","network":"ws","port":"80","server":"104.21.225.195","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_55","network":"ws","port":"80","server":"104.20.231.30","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"my1.tooters.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_56","network":"ws","port":"80","server":"104.21.225.12","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"name":"ğŸ‡¸ğŸ‡¬ ä¼˜é€‰_æ–°åŠ å¡_1","type":"vless","server":"168.138.174.26","port":"61735","uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2å·èŠ‚ç‚¹æ­»å—","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_57","network":"ws","port":"80","server":"104.21.225.55","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_58","network":"ws","port":"80","server":"104.21.228.43","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_59","network":"ws","port":"80","server":"104.21.225.56","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_60","network":"ws","port":"80","server":"104.21.225.3","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_61","network":"ws","port":"80","server":"104.21.235.76","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_62","network":"ws","port":"80","server":"104.21.227.18","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_63","network":"ws","port":"80","server":"104.21.225.24","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"name":"ğŸ‡ºğŸ‡¸ ä¼˜é€‰_ç¾å›½_5","type":"vless","server":"www.gov.se","port":"2082","uuid":"94d9fdb1-5ff7-4fc9-988e-0a851c894f7c","tls":false,"servername":"cf.2424014450.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cf.2424014450.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"ğŸ‡¯ğŸ‡µ ä¼˜é€‰_æ—¥æœ¬_1","server":"jp.1101001000.xyz","port":"20004","client-fingerprint":"chrome","type":"hysteria2","password":"4ddca0e4-19d0-47c9-a19b-d76f13deb3c9","auth":"4ddca0e4-19d0-47c9-a19b-d76f13deb3c9","sni":"jp.1101001000.xyz","skip-cert-verify":true,"udp":true}
+  - {"name":"ğŸ‡ºğŸ‡¸ ä¼˜é€‰_ç¾å›½_6","server":"149.248.36.197","port":"9692","client-fingerprint":"chrome","type":"hysteria2","password":"MIAOGE110","auth":"MIAOGE110","sni":"www.bing.com","skip-cert-verify":true,"udp":true}
+  - {"name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_64","server":"104.21.225.16","port":"80","type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","alterId":"0","cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/?ed=2048&TelegramğŸ‡¨ğŸ‡³","headers":{"Host":"a.prapt5.ir"}}}
+  - {"name":"ğŸ‡ºğŸ‡¸ ä¼˜é€‰_ç¾å›½_7","type":"vmess","server":"172.67.234.151","port":"8080","cipher":"auto","uuid":"e6b124d8-7a82-463d-b360-a3a3a19f7dc2","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"pcs-referenced-camera-concerns.trycloudflare.com","network":"ws","ws-opts":{"path":"e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm","headers":{"host":"pcs-referenced-camera-concerns.trycloudflare.com"}}}
+  - {"name":"ğŸ‡¹ğŸ‡¼ ä¼˜é€‰_ä¸­å›½å°æ¹¾_1","server":"www.dtku50.xyz","port":"11229","client-fingerprint":"chrome","type":"hysteria","auth_str":"dongtaiwang.com","auth-str":"dongtaiwang.com","up":"11","down":"55","fast-open":false,"protocol":"udp","sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"udp":true}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_65","network":"ws","port":"80","server":"104.21.239.96","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_66","network":"ws","port":"80","server":"104.21.232.60","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"name":"ğŸ‡¹ğŸ‡¼ ä¼˜é€‰_ä¸­å›½å°æ¹¾_2","type":"hysteria","server":"www.dtku50.xyz","port":"18470","sni":"www.amazon.cn","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"dongtaiwang.com","up":"2","down":"10"}
+  - {"name":"ğŸ‡©ğŸ‡ª ä¼˜é€‰_å¾·å›½_1","server":"95.164.68.116","port":"2053","client-fingerprint":"chrome","type":"trojan","password":"f37a931d-7092-48fe-b82f-a98da3040eb2","sni":"ftp.debian.org","skip-cert-verify":true,"udp":true}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_67","network":"ws","port":"80","server":"104.21.233.45","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_68","network":"ws","port":"80","server":"104.21.228.24","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"name":"ğŸ‡ºğŸ‡¸ ä¼˜é€‰_ç¾å›½_8","type":"hysteria","server":"173.234.25.52","port":"48919","ports":"48919","auth_str":"dongtaiwang.com","up":"80","down":"100","fast-open":true,"protocol":"udp","sni":"bing.com","skip-cert-verify":true,"alpn":["h3"]}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_69","network":"ws","port":"80","server":"104.21.226.34","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_70","network":"ws","port":"80","server":"104.21.227.19","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_71","network":"ws","port":"80","server":"104.21.225.7","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸ‡³ğŸ‡± ä¼˜é€‰_è·å…°_3","network":"ws","port":"8080","server":"188.114.98.127","tls":false,"type":"vmess","uuid":"d26363ff-8810-4591-8b77-d2f45e2b9f41","ws-opts":{"headers":{"Host":"bibliographic-sword-sequence-advertisers.trycloudflare.com"},"path":"d26363ff-8810-4591-8b77-d2f45e2b9f41-vm"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_72","network":"ws","port":"80","server":"104.21.238.70","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_73","network":"ws","port":"80","server":"104.21.227.38","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"name":"ğŸ‡ºğŸ‡¸ ä¼˜é€‰_ç¾å›½_9","type":"vmess","server":"172.67.67.34","port":"8080","cipher":"auto","uuid":"3069ecb6-dd75-4e24-a30d-ec55747d83a1","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"nest-emily-healing-h.trycloudflare.com","network":"ws","ws-opts":{"path":"3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm","headers":{"host":"nest-emily-healing-h.trycloudflare.com"}}}
+  - {"name":"ğŸ‡ºğŸ‡¸ ä¼˜é€‰_ç¾å›½_10","type":"vmess","server":"172.67.186.4","port":"8080","cipher":"auto","uuid":"3069ecb6-dd75-4e24-a30d-ec55747d83a1","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"nest-emily-healing-h.trycloudflare.com","network":"ws","ws-opts":{"path":"3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm","headers":{"host":"nest-emily-healing-h.trycloudflare.com"}}}
+  - {"name":"ğŸ‡°ğŸ‡· ä¼˜é€‰_éŸ©å›½_2","server":"211.201.169.70","port":"54345","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"qwerREWQ@@","tfo":false,"udp":true}
+  - {"name":"ğŸ‡³ğŸ‡± ä¼˜é€‰_è·å…°_4","type":"vmess","server":"www.blueberrywindow.online","port":"8080","cipher":"chacha20-poly1305","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_74","type":"vmess","server":"23.227.39.12","port":"8080","cipher":"auto","uuid":"9084653a-ee34-4293-979e-7c2b50dffb84","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"configured-creek-relating-theater.trycloudflare.com","network":"ws","ws-opts":{"path":"9084653a-ee34-4293-979e-7c2b50dffb84-vm","headers":{"host":"configured-creek-relating-theater.trycloudflare.com"}}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_75","network":"ws","port":"80","server":"104.21.225.4","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"name":"ğŸ‡ºğŸ‡¸ ä¼˜é€‰_ç¾å›½_11","type":"vmess","server":"172.67.72.146","port":"8080","cipher":"auto","uuid":"3069ecb6-dd75-4e24-a30d-ec55747d83a1","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"nest-emily-healing-h.trycloudflare.com","network":"ws","ws-opts":{"path":"3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm","headers":{"host":"nest-emily-healing-h.trycloudflare.com"}}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_76","network":"ws","port":"80","server":"104.21.225.172","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&TelegramğŸ‡¨ğŸ‡³"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_77","network":"ws","port":"80","server":"104.21.225.145","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&TelegramğŸ‡¨ğŸ‡³"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_78","network":"ws","port":"80","server":"104.21.237.65","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_79","network":"ws","port":"80","server":"104.21.225.205","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&TelegramğŸ‡¨ğŸ‡³"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_80","network":"ws","port":"80","server":"104.21.233.68","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_81","network":"ws","port":"80","server":"104.21.238.90","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_82","network":"ws","port":"80","server":"104.21.224.22","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_83","network":"ws","port":"80","server":"104.21.232.61","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_84","network":"ws","port":"80","server":"104.21.229.27","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_85","network":"ws","port":"80","server":"104.21.238.73","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_86","network":"ws","port":"80","server":"104.21.233.69","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"name":"ğŸ‡¯ğŸ‡µ ä¼˜é€‰_æ—¥æœ¬_2","server":"akari.1101001000.xyz","port":"20000","client-fingerprint":"chrome","type":"hysteria2","password":"4ddca0e4-19d0-47c9-a19b-d76f13deb3c9","auth":"4ddca0e4-19d0-47c9-a19b-d76f13deb3c9","sni":"akari.1101001000.xyz","skip-cert-verify":true,"udp":true}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_87","network":"ws","port":"80","server":"104.21.225.108","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_88","network":"ws","port":"80","server":"104.21.225.171","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&TelegramğŸ‡¨ğŸ‡³ "}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_89","network":"ws","port":"80","server":"104.21.234.52","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_90","network":"ws","port":"80","server":"104.21.225.102","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&TelegramğŸ‡¨ğŸ‡³"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_91","network":"ws","port":"80","server":"104.21.226.33","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_92","network":"ws","port":"80","server":"104.21.235.79","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_93","network":"ws","port":"80","server":"104.21.234.72","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_94","network":"ws","port":"80","server":"104.21.229.48","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"name":"ğŸ‡¹ğŸ‡· ä¼˜é€‰_åœŸè€³å…¶_1","server":"185.123.101.241","port":"989","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3","tfo":false,"udp":true}
+  - {"alterId":"0","cipher":"auto","name":"â“ ä¼˜é€‰_UNKNOWN_1","network":"ws","port":"80","server":"104.21.238.94","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_95","network":"ws","port":"80","server":"104.21.225.47","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&TelegramğŸ‡¨ğŸ‡³ @WangCai08"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_96","network":"ws","port":"80","server":"104.21.234.73","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_97","network":"ws","port":"80","server":"104.21.225.75","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&TelegramğŸ‡¨ğŸ‡³ @WangCai_8"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_98","network":"ws","port":"80","server":"104.21.234.51","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_99","network":"ws","port":"80","server":"104.21.239.97","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_100","network":"ws","port":"80","server":"104.21.230.51","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_101","network":"ws","port":"80","server":"104.21.225.255","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&TelegramğŸ‡¨ğŸ‡³ @WangCai08"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_102","network":"ws","port":"80","server":"104.21.225.228","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&TelegramğŸ‡¨ğŸ‡³ "}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_103","network":"ws","port":"80","server":"104.21.225.91","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&TelegramğŸ‡¨ğŸ‡³ @WangCai_8"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_104","network":"ws","port":"80","server":"104.21.225.122","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_105","network":"ws","port":"80","server":"104.21.229.28","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_106","network":"ws","port":"80","server":"104.21.226.10","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_107","network":"ws","port":"80","server":"104.21.232.40","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_108","network":"ws","port":"80","server":"104.21.225.26","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_109","network":"ws","port":"80","server":"104.21.225.214","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&TelegramğŸ‡¨ğŸ‡³"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_110","network":"ws","port":"80","server":"104.21.225.131","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&TelegramğŸ‡¨ğŸ‡³ "}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_111","network":"ws","port":"80","server":"104.21.238.93","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_112","network":"ws","port":"80","server":"104.21.225.101","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&TelegramğŸ‡¨ğŸ‡³ "}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_113","network":"ws","port":"80","server":"104.21.225.176","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&TelegramğŸ‡¨ğŸ‡³ "}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_114","network":"ws","port":"80","server":"104.21.235.57","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸ‡ºğŸ‡¸ ä¼˜é€‰_ç¾å›½_12","network":"ws","port":"8080","server":"172.67.65.91","tls":false,"type":"vmess","uuid":"41eeccfd-18e6-40b3-933d-c7000120ec2c","ws-opts":{"headers":{"Host":"larger-marketing-amounts-skin.trycloudflare.com"},"path":"41eeccfd-18e6-40b3-933d-c7000120ec2c-vm"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_115","network":"ws","port":"80","server":"104.21.237.85","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_116","network":"ws","port":"80","server":"104.21.225.116","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&TelegramğŸ‡¨ğŸ‡³@WangCai_8"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_117","network":"ws","port":"80","server":"104.21.225.118","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&TelegramğŸ‡¨ğŸ‡³ "}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_118","network":"ws","port":"80","server":"104.21.233.66","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_119","network":"ws","port":"80","server":"104.21.238.72","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_120","network":"ws","port":"80","server":"104.21.238.71","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_121","network":"ws","port":"80","server":"104.16.77.74","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"my1.tooters.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_122","network":"ws","port":"80","server":"104.21.225.149","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&TelegramğŸ‡¨ğŸ‡³ @WangCai08"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_123","network":"ws","port":"80","server":"104.21.233.49","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"name":"ğŸ‡³ğŸ‡± ä¼˜é€‰_è·å…°_5","type":"vmess","server":"188.114.98.123","port":"8080","cipher":"auto","uuid":"41eeccfd-18e6-40b3-933d-c7000120ec2c","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"larger-marketing-amounts-skin.trycloudflare.com","network":"ws","ws-opts":{"path":"41eeccfd-18e6-40b3-933d-c7000120ec2c-vm","headers":{"host":"larger-marketing-amounts-skin.trycloudflare.com"}}}
+  - {"name":"ğŸ‡°ğŸ‡· ä¼˜é€‰_éŸ©å›½_3","server":"p220.panda001.net","port":"53258","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"qwerREWQ@@","tfo":false,"udp":true}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_124","network":"ws","port":"80","server":"104.21.236.61","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_125","network":"ws","port":"80","server":"104.21.225.105","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&TelegramğŸ‡¨ğŸ‡³@WangCai_8"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_126","network":"ws","port":"80","server":"104.21.225.28","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_127","network":"ws","port":"80","server":"104.21.225.234","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&TelegramğŸ‡¨ğŸ‡³ "}}
+  - {"name":"ğŸ‡»ğŸ‡³ ä¼˜é€‰_è¶Šå—_1","server":"103.154.63.16","port":"443","client-fingerprint":"chrome","type":"trojan","password":"5bae27f5-3b8e-48f3-b91f-30fc680ea78f","sni":"lienquan.garena.vn","skip-cert-verify":true,"udp":true}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_128","network":"ws","port":"80","server":"104.21.236.83","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_129","network":"ws","port":"80","server":"104.21.229.47","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_130","network":"ws","port":"80","server":"104.21.225.134","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_131","network":"ws","port":"80","server":"104.21.225.2","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_132","network":"ws","port":"80","server":"104.21.225.215","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_133","network":"ws","port":"80","server":"104.21.225.112","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_134","network":"ws","port":"80","server":"104.21.225.64","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_135","network":"ws","port":"80","server":"104.21.228.22","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_136","network":"ws","port":"80","server":"104.21.229.45","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_137","network":"ws","port":"80","server":"104.21.225.54","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_138","network":"ws","port":"80","server":"104.21.225.59","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_139","network":"ws","port":"80","server":"104.21.229.46","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_140","network":"ws","port":"80","server":"104.21.225.250","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_141","network":"ws","port":"80","server":"104.21.225.237","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_142","network":"ws","port":"80","server":"104.21.225.0","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_143","network":"ws","port":"80","server":"104.21.225.150","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","client-fingerprint":"chrome","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_144","network":"ws","port":"80","server":"104.21.225.38","servername":"","skip-cert-verify":false,"tfo":false,"tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_145","network":"ws","port":"80","server":"104.21.225.238","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_146","network":"ws","port":"80","server":"104.21.225.184","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_147","network":"ws","port":"80","server":"104.21.225.45","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_148","network":"ws","port":"80","server":"104.21.237.68","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","client-fingerprint":"chrome","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_149","network":"ws","port":"80","server":"104.21.225.153","servername":"","skip-cert-verify":false,"tfo":false,"tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"name":"ğŸ‡³ğŸ‡± ä¼˜é€‰_è·å…°_6","type":"vmess","server":"188.114.97.24","port":"8080","cipher":"auto","uuid":"41eeccfd-18e6-40b3-933d-c7000120ec2c","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"larger-marketing-amounts-skin.trycloudflare.com","network":"ws","ws-opts":{"path":"41eeccfd-18e6-40b3-933d-c7000120ec2c-vm","headers":{"host":"larger-marketing-amounts-skin.trycloudflare.com"}}}
+  - {"name":"ğŸ‡ºğŸ‡¸ ä¼˜é€‰_ç¾å›½_13","type":"vmess","server":"172.64.33.252","port":"8080","cipher":"auto","uuid":"41eeccfd-18e6-40b3-933d-c7000120ec2c","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"larger-marketing-amounts-skin.trycloudflare.com","network":"ws","ws-opts":{"path":"41eeccfd-18e6-40b3-933d-c7000120ec2c-vm","headers":{"host":"larger-marketing-amounts-skin.trycloudflare.com"}}}
+  - {"cipher":"aes-256-cfb","client-fingerprint":"chrome","name":"ğŸ‡°ğŸ‡· ä¼˜é€‰_éŸ©å›½_4","password":"qwerREWQ@@","port":"7818","server":"p080.panda001.net","tfo":false,"type":"ss"}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_150","network":"ws","port":"80","server":"104.21.226.12","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"name":"ğŸ‡ºğŸ‡¸ ä¼˜é€‰_ç¾å›½_14","type":"vmess","server":"103.21.244.92","port":"8080","cipher":"auto","uuid":"e6b124d8-7a82-463d-b360-a3a3a19f7dc2","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"pcs-referenced-camera-concerns.trycloudflare.com","network":"ws","ws-opts":{"path":"e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm","headers":{"host":"pcs-referenced-camera-concerns.trycloudflare.com"}}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸ‡³ğŸ‡± ä¼˜é€‰_è·å…°_7","network":"ws","port":"80","server":"188.114.96.11","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"name":"ğŸ‡¹ğŸ‡¼ ä¼˜é€‰_ä¸­å›½å°æ¹¾_3","type":"hysteria","server":"www2.dtku48.xyz","port":"22334","auth-str":"dongtaiwang.com","alpn":["h3"],"protocol":"udp","up":"11 Mbps","down":"55 Mbps","skip-cert-verify":true}
+  - {"alterId":"0","cipher":"auto","name":"ğŸ‡³ğŸ‡± ä¼˜é€‰_è·å…°_8","network":"ws","port":"8080","server":"188.114.96.94","tls":false,"type":"vmess","uuid":"e6b124d8-7a82-463d-b360-a3a3a19f7dc2","ws-opts":{"headers":{"Host":"pcs-referenced-camera-concerns.trycloudflare.com"},"path":"e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm"}}
+  - {"name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_151","type":"vmess","server":"198.41.195.33","port":"8080","cipher":"auto","uuid":"e6b124d8-7a82-463d-b360-a3a3a19f7dc2","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"pcs-referenced-camera-concerns.trycloudflare.com","network":"ws","ws-opts":{"path":"e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm","headers":{"host":"pcs-referenced-camera-concerns.trycloudflare.com"}}}
+  - {"name":"ğŸ‡³ğŸ‡± ä¼˜é€‰_è·å…°_9","type":"vmess","server":"188.114.98.193","port":"8080","cipher":"auto","uuid":"e6b124d8-7a82-463d-b360-a3a3a19f7dc2","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"pcs-referenced-camera-concerns.trycloudflare.com","network":"ws","ws-opts":{"path":"e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm","headers":{"host":"pcs-referenced-camera-concerns.trycloudflare.com"}}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_152","network":"ws","port":"80","server":"104.21.69.44","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt4.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_153","network":"ws","port":"80","server":"104.21.225.8","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_154","network":"ws","port":"80","server":"104.21.237.66","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_155","network":"ws","port":"80","server":"104.21.230.32","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_156","network":"ws","port":"80","server":"104.21.225.29","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_157","network":"ws","port":"80","server":"104.21.229.26","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_158","network":"ws","port":"80","server":"104.21.225.159","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048&TelegramğŸ‡¨ğŸ‡³@WangCai_8"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_159","network":"ws","port":"80","server":"104.21.228.21","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"name":"ğŸ‡ºğŸ‡¸ ä¼˜é€‰_ç¾å›½_15","type":"hysteria2","server":"45.150.165.84","port":"8881","password":"d017e316-82cb-441c-8eea-7b5e9de64a20","obfs":"salamander","obfs-password":"d017e316-82cb-441c-8eea-7b5e9de64a20","skip-cert-verify":true,"up":"2 Mbps","down":"10 Mbps"}
+  - {"name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_160","type":"vmess","server":"23.227.39.45","port":"8080","cipher":"auto","uuid":"0e5da13a-b148-4889-9d72-ad1d9d5aa9ad","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"widescreen-instruction-breakdown-postage.trycloudflare.com","network":"ws","ws-opts":{"path":"0e5da13a-b148-4889-9d72-ad1d9d5aa9ad-vm","headers":{"host":"widescreen-instruction-breakdown-postage.trycloudflare.com"}}}
+  - {"name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_161","type":"vmess","server":"23.227.39.24","port":"8080","cipher":"auto","uuid":"5f7934bf-a228-49a7-9572-5ce4377c34d5","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"uh-lawyers-instruments-kernel.trycloudflare.com","network":"ws","ws-opts":{"path":"5f7934bf-a228-49a7-9572-5ce4377c34d5-vm","headers":{"host":"uh-lawyers-instruments-kernel.trycloudflare.com"}}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_162","network":"ws","port":"80","server":"104.21.225.188","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_163","network":"ws","port":"80","server":"104.21.225.251","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_164","network":"ws","port":"80","server":"104.21.225.163","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_165","network":"ws","port":"80","server":"104.21.239.77","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_166","network":"ws","port":"80","server":"104.21.226.32","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_167","network":"ws","port":"80","server":"104.21.225.85","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_168","type":"vmess","server":"162.159.45.230","port":"8080","cipher":"auto","uuid":"41eeccfd-18e6-40b3-933d-c7000120ec2c","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"larger-marketing-amounts-skin.trycloudflare.com","network":"ws","ws-opts":{"path":"41eeccfd-18e6-40b3-933d-c7000120ec2c-vm","headers":{"host":"larger-marketing-amounts-skin.trycloudflare.com"}}}
+  - {"name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_169","type":"vmess","server":"23.227.39.23","port":"8080","cipher":"auto","uuid":"ac750859-79e7-4507-ba93-e92584ac49e3","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"per-essex-patterns-bowling.trycloudflare.com","network":"ws","ws-opts":{"path":"ac750859-79e7-4507-ba93-e92584ac49e3-vm","headers":{"host":"per-essex-patterns-bowling.trycloudflare.com"}}}
+  - {"name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_170","type":"vmess","server":"198.41.192.144","port":"8080","cipher":"auto","uuid":"d26363ff-8810-4591-8b77-d2f45e2b9f41","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"bibliographic-sword-sequence-advertisers.trycloudflare.com","network":"ws","ws-opts":{"path":"d26363ff-8810-4591-8b77-d2f45e2b9f41-vm","headers":{"host":"bibliographic-sword-sequence-advertisers.trycloudflare.com"}}}
+  - {"cipher":"aes-128-gcm","client-fingerprint":"chrome","name":"ğŸ‡­ğŸ‡° ä¼˜é€‰_ä¸­å›½é¦™æ¸¯ç‰¹åˆ«è¡Œæ”¿åŒº_3","password":"a-wym4ovY4Yw","plugin":"v2ray-plugin","plugin-opts":{"host":"","mode":"websocket","mux":true,"path":"","skip-cert-verify":true,"tls":false},"port":"443","server":"8.217.145.134","tfo":false,"type":"ss"}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_171","network":"ws","port":"80","server":"104.21.227.35","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"name":"ğŸ‡³ğŸ‡± ä¼˜é€‰_è·å…°_10","type":"vmess","server":"188.114.98.67","port":"8080","cipher":"auto","uuid":"3069ecb6-dd75-4e24-a30d-ec55747d83a1","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"nest-emily-healing-h.trycloudflare.com","network":"ws","ws-opts":{"path":"3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm","headers":{"host":"nest-emily-healing-h.trycloudflare.com"}}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_172","network":"ws","port":"80","server":"104.21.238.74","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_173","network":"ws","port":"80","server":"104.21.225.216","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"name":"ğŸ‡³ğŸ‡± ä¼˜é€‰_è·å…°_11","type":"vmess","server":"188.114.96.179","port":"8080","cipher":"auto","uuid":"3069ecb6-dd75-4e24-a30d-ec55747d83a1","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"nest-emily-healing-h.trycloudflare.com","network":"ws","ws-opts":{"path":"3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm","headers":{"host":"nest-emily-healing-h.trycloudflare.com"}}}
+  - {"name":"ğŸ‡³ğŸ‡± ä¼˜é€‰_è·å…°_12","type":"vmess","server":"188.114.98.128","port":"8080","cipher":"auto","uuid":"e6b124d8-7a82-463d-b360-a3a3a19f7dc2","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"pcs-referenced-camera-concerns.trycloudflare.com","network":"ws","ws-opts":{"path":"e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm","headers":{"host":"pcs-referenced-camera-concerns.trycloudflare.com"}}}
+  - {"name":"ğŸ‡³ğŸ‡± ä¼˜é€‰_è·å…°_13","type":"vmess","server":"188.114.97.32","port":"8080","cipher":"auto","uuid":"e6b124d8-7a82-463d-b360-a3a3a19f7dc2","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"pcs-referenced-camera-concerns.trycloudflare.com","network":"ws","ws-opts":{"path":"e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm","headers":{"host":"pcs-referenced-camera-concerns.trycloudflare.com"}}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_174","network":"ws","port":"80","server":"104.21.230.31","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"name":"ğŸ‡ºğŸ‡¸ ä¼˜é€‰_ç¾å›½_16","type":"vmess","server":"172.67.105.98","port":"8080","cipher":"auto","uuid":"e6b124d8-7a82-463d-b360-a3a3a19f7dc2","alterId":"0","tls":false,"skip-cert-verify":true,"servername":"pcs-referenced-camera-concerns.trycloudflare.com","network":"ws","ws-opts":{"path":"e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm","headers":{"host":"pcs-referenced-camera-concerns.trycloudflare.com"}}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_175","network":"ws","port":"80","server":"104.21.225.78","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_176","network":"ws","port":"80","server":"104.21.232.62","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_177","network":"ws","port":"80","server":"104.21.225.94","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"ğŸŒ©ï¸ ä¼˜é€‰_CLOUDFLARE_178","network":"ws","port":"80","server":"104.21.225.165","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"name":"ğŸ‡ºğŸ‡¸ ä¼˜é€‰_ç¾å›½_17","server":"172.67.188.193","port":"8080","client-fingerprint":"chrome","type":"vmess","uuid":"477af724-de79-40dc-80ef-bf3bca0be3ce","alterId":"0","cipher":"auto","tls":false,"tfo":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"Host":"eu3.openxai.link"}},"udp":true}
 
-# ä»£ç†ç»„
 proxy-groups:
-  - name: í ½íº€ èŠ‚ç‚¹é€‰æ‹©
+  - name: ğŸš€ èŠ‚ç‚¹é€‰æ‹©
     type: select
     proxies:
       - â™»ï¸ è‡ªåŠ¨é€‰æ‹©
-      - í ½íº‘ æ•…éšœè½¬ç§»
+      - ğŸš‘ æ•…éšœè½¬ç§»
       - âš–ï¸ è´Ÿè½½å‡è¡¡
       - DIRECT
     include-all-proxies: true
+
   - name: â™»ï¸ è‡ªåŠ¨é€‰æ‹©
     type: url-test
     tolerance: 50
     include-all-proxies: true
-    lazy: false
+    lazy: true
     interval: 300
     timeout: 5000
-    url: http://www.gstatic.com/generate_204
-  - name: í ½íº‘ æ•…éšœè½¬ç§»
+    url: https://www.google.com/gen_204
+
+  - name: ğŸš‘ æ•…éšœè½¬ç§»
     type: fallback
     include-all-proxies: true
-    lazy: false
+    lazy: true
     interval: 300
     timeout: 5000
-    url: http://www.gstatic.com/generate_204
+    url: https://www.google.com/gen_204
+
   - name: âš–ï¸ è´Ÿè½½å‡è¡¡
     type: load-balance
     strategy: consistent-hashing
     include-all-proxies: true
-    lazy: false
+    lazy: true
     interval: 300
     timeout: 5000
-    url: http://www.gstatic.com/generate_204
-  - name: í ¼í¾¯ å…¨çƒç›´è¿
+    url: https://www.google.com/gen_204
+
+  - name: ğŸŒ å›½å¤–åª’ä½“
     type: select
-    proxies:
-      - DIRECT
-      - í ½íº€ èŠ‚ç‚¹é€‰æ‹©
-      - â™»ï¸ è‡ªåŠ¨é€‰æ‹©
-      - í ½íº‘ æ•…éšœè½¬ç§»
-      - âš–ï¸ è´Ÿè½½å‡è¡¡
+    proxies: ["ğŸš€ èŠ‚ç‚¹é€‰æ‹©", "â™»ï¸ è‡ªåŠ¨é€‰æ‹©", "ğŸš‘ æ•…éšœè½¬ç§»", "âš–ï¸ è´Ÿè½½å‡è¡¡", "ğŸ¯ å…¨çƒç›´è¿"]
     include-all-proxies: true
-  - name: í ½í»‘ å…¨çƒæ‹¦æˆª
+  
+  - name: ğŸ“² ç”µæŠ¥ä¿¡æ¯
     type: select
-    proxies:
-      - REJECT
-      - DIRECT
-  - name: í ½í°Ÿ æ¼ç½‘ä¹‹é±¼
-    type: select
-    proxies:
-      - í ½íº€ èŠ‚ç‚¹é€‰æ‹©
-      - í ¼í¾¯ å…¨çƒç›´è¿
-      - â™»ï¸ è‡ªåŠ¨é€‰æ‹©
-      - í ½íº‘ æ•…éšœè½¬ç§»
-      - âš–ï¸ è´Ÿè½½å‡è¡¡
+    proxies: ["ğŸš€ èŠ‚ç‚¹é€‰æ‹©", "â™»ï¸ è‡ªåŠ¨é€‰æ‹©", "ğŸš‘ æ•…éšœè½¬ç§»", "âš–ï¸ è´Ÿè½½å‡è¡¡", "ğŸ¯ å…¨çƒç›´è¿"]
     include-all-proxies: true
 
-rule-providers:    
-  acl4ssr_direct_local:
+  - name: â“‚ï¸ å¾®è½¯æœåŠ¡
+    type: select
+    proxies: ["ğŸ¯ å…¨çƒç›´è¿", "ğŸš€ èŠ‚ç‚¹é€‰æ‹©", "â™»ï¸ è‡ªåŠ¨é€‰æ‹©", "ğŸš‘ æ•…éšœè½¬ç§»", "âš–ï¸ è´Ÿè½½å‡è¡¡"]
+    include-all-proxies: true
+
+  - name: ğŸ è‹¹æœæœåŠ¡
+    type: select
+    proxies: ["ğŸš€ èŠ‚ç‚¹é€‰æ‹©", "â™»ï¸ è‡ªåŠ¨é€‰æ‹©", "ğŸš‘ æ•…éšœè½¬ç§»", "âš–ï¸ è´Ÿè½½å‡è¡¡", "ğŸ¯ å…¨çƒç›´è¿"]
+    include-all-proxies: true
+
+  - name: ğŸ“¢ è°·æ­ŒFCM
+    type: select
+    proxies: ["ğŸš€ èŠ‚ç‚¹é€‰æ‹©", "â™»ï¸ è‡ªåŠ¨é€‰æ‹©", "ğŸš‘ æ•…éšœè½¬ç§»", "âš–ï¸ è´Ÿè½½å‡è¡¡", "ğŸ¯ å…¨çƒç›´è¿"]
+    include-all-proxies: true
+
+  - name: ğŸ¯ å…¨çƒç›´è¿
+    type: select
+    proxies: ["DIRECT", "ğŸš€ èŠ‚ç‚¹é€‰æ‹©", "â™»ï¸ è‡ªåŠ¨é€‰æ‹©", "ğŸš‘ æ•…éšœè½¬ç§»", "âš–ï¸ è´Ÿè½½å‡è¡¡"]
+
+  - name: ğŸ›‘ å…¨çƒæ‹¦æˆª
+    type: select
+    proxies: ["REJECT", "DIRECT"]
+
+  - name: ğŸƒ åº”ç”¨å‡€åŒ–
+    type: select
+    proxies: ["REJECT", "DIRECT"]
+
+  - name: ğŸŸ æ¼ç½‘ä¹‹é±¼
+    type: select
+    proxies: ["ğŸš€ èŠ‚ç‚¹é€‰æ‹©", "â™»ï¸ è‡ªåŠ¨é€‰æ‹©", "ğŸš‘ æ•…éšœè½¬ç§»", "âš–ï¸ è´Ÿè½½å‡è¡¡", "ğŸ¯ å…¨çƒç›´è¿"]
+    include-all-proxies: true
+
+rule-providers:
+  LocalAreaNetwork:
     type: http
     behavior: classical
     format: text
     url: https://raw.gitmirror.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
-    path: ./rulesets/acl4ssr/direct_local.txt
+    path: ./rulesets/acl4ssr/LocalAreaNetwork.list
     interval: 86400
-
-  acl4ssr_reject_ad:
+  UnBan:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.gitmirror.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
+    path: ./rulesets/acl4ssr/UnBan.list
+    interval: 86400
+  BanAD:
     type: http
     behavior: classical
     format: text
     url: https://raw.gitmirror.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
-    path: ./rulesets/acl4ssr/reject_ad.txt
+    path: ./rulesets/acl4ssr/BanAD.list
     interval: 86400
-
-  acl4ssr_reject_program_ad:
+  BanProgramAD:
     type: http
     behavior: classical
     format: text
     url: https://raw.gitmirror.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
-    path: ./rulesets/acl4ssr/reject_program_ad.txt
+    path: ./rulesets/acl4ssr/BanProgramAD.list
     interval: 86400
-
-  acl4ssr_direct_china_ip:
+  GoogleFCM:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list
+    path: ./rulesets/acl4ssr/GoogleFCM.list
+    interval: 86400
+  GoogleCN:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.gitmirror.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
+    path: ./rulesets/acl4ssr/GoogleCN.list
+    interval: 86400
+  SteamCN:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
+    path: ./rulesets/acl4ssr/SteamCN.list
+    interval: 86400
+  Microsoft:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.gitmirror.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
+    path: ./rulesets/acl4ssr/Microsoft.list
+    interval: 86400
+  Apple:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.gitmirror.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
+    path: ./rulesets/acl4ssr/Apple.list
+    interval: 86400
+  Telegram:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.gitmirror.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+    path: ./rulesets/acl4ssr/Telegram.list
+    interval: 86400
+  ProxyMedia:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.gitmirror.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+    path: ./rulesets/acl4ssr/ProxyMedia.list
+    interval: 86400
+  ProxyGFWlist:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.gitmirror.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+    path: ./rulesets/acl4ssr/ProxyGFWlist.list
+    interval: 86400
+  ChinaIp:
     type: http
     behavior: classical
     format: text
     url: https://raw.gitmirror.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
-    path: ./rulesets/acl4ssr/direct_china_ip.txt
+    path: ./rulesets/acl4ssr/ChinaIp.list
     interval: 86400
-
-  acl4ssr_direct_china_domain:
+  ChinaDomain:
     type: http
     behavior: classical
     format: text
     url: https://raw.gitmirror.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
-    path: ./rulesets/acl4ssr/direct_china_domain.txt
+    path: ./rulesets/acl4ssr/ChinaDomain.list
     interval: 86400
-    
-  acl4ssr_direct_download:
+  ChinaCompanyIp:
     type: http
     behavior: classical
     format: text
     url: https://raw.gitmirror.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
-    path: ./rulesets/acl4ssr/direct_download.txt
+    path: ./rulesets/acl4ssr/ChinaCompanyIp.list
+    interval: 86400
+  Download:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.gitmirror.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
+    path: ./rulesets/acl4ssr/Download.list
     interval: 86400
 
 rules:
-  # acl4ssr
-  - RULE-SET,acl4ssr_direct_china_domain,í ¼í¾¯ å…¨çƒç›´è¿
-  - RULE-SET,acl4ssr_direct_china_ip,í ¼í¾¯ å…¨çƒç›´è¿
-  - RULE-SET,acl4ssr_direct_download,í ¼í¾¯ å…¨çƒç›´è¿
-  - RULE-SET,acl4ssr_direct_local,í ¼í¾¯ å…¨çƒç›´è¿
-  - RULE-SET,acl4ssr_reject_ad,í ½í»‘ å…¨çƒæ‹¦æˆª
-  - RULE-SET,acl4ssr_reject_program_ad,í ½í»‘ å…¨çƒæ‹¦æˆª
-  # other
-  - GEOIP,LAN,í ¼í¾¯ å…¨çƒç›´è¿
-  - GEOIP,CN,í ¼í¾¯ å…¨çƒç›´è¿
-  - MATCH,í ½í°Ÿ æ¼ç½‘ä¹‹é±¼
+  - RULE-SET,LocalAreaNetwork,ğŸ¯ å…¨çƒç›´è¿
+  - RULE-SET,UnBan,ğŸ¯ å…¨çƒç›´è¿
+  - RULE-SET,BanAD,ğŸ›‘ å…¨çƒæ‹¦æˆª
+  - RULE-SET,BanProgramAD,ğŸƒ åº”ç”¨å‡€åŒ–
+  - RULE-SET,GoogleFCM,ğŸ“¢ è°·æ­ŒFCM
+  - RULE-SET,GoogleCN,ğŸ¯ å…¨çƒç›´è¿
+  - RULE-SET,SteamCN,ğŸ¯ å…¨çƒç›´è¿
+  - RULE-SET,Microsoft,â“‚ï¸ å¾®è½¯æœåŠ¡
+  - RULE-SET,Apple,ğŸ è‹¹æœæœåŠ¡
+  - RULE-SET,Telegram,ğŸ“² ç”µæŠ¥ä¿¡æ¯
+  - RULE-SET,ProxyMedia,ğŸŒ å›½å¤–åª’ä½“
+  - RULE-SET,ProxyGFWlist,ğŸš€ èŠ‚ç‚¹é€‰æ‹©
+  - RULE-SET,ChinaIp,ğŸ¯ å…¨çƒç›´è¿
+  - RULE-SET,ChinaDomain,ğŸ¯ å…¨çƒç›´è¿
+  - RULE-SET,ChinaCompanyIp,ğŸ¯ å…¨çƒç›´è¿
+  - RULE-SET,Download,ğŸ¯ å…¨çƒç›´è¿
+  - GEOIP,LAN,ğŸ¯ å…¨çƒç›´è¿
+  - GEOIP,CN,ğŸ¯ å…¨çƒç›´è¿
+  - MATCH,ğŸŸ æ¼ç½‘ä¹‹é±¼
 

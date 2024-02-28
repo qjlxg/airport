@@ -1,0 +1,284 @@
+allow-lan: true
+dns:
+  enable: true
+  ipv6: true
+  default-nameserver:
+    - 1.1.1.1
+    - 8.8.8.8
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '+.msftconnecttest.com'
+    - '+.msftncsi.com'
+  use-hosts: true
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fallback:
+    - https://1.1.1.1/dns-query
+    - https://1.0.0.1/dns-query
+    - https://208.67.222.222/dns-query
+    - https://208.67.220.220/dns-query
+  fallback-filter: 
+    geoip: true
+    geoip-code: CN
+    geosite:
+      - gfw
+    ipcidr:
+      - 240.0.0.0/4
+
+proxies:
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_1","network":"ws","port":"80","server":"104.21.232.40","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_2","network":"ws","port":"80","server":"104.21.232.43","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_3","network":"ws","port":"80","server":"104.21.227.39","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_4","network":"ws","port":"80","server":"104.21.225.122","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_5","network":"ws","port":"80","server":"104.21.237.67","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_6","network":"ws","port":"80","server":"104.21.227.38","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_7","network":"ws","port":"80","server":"104.21.231.37","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_8","network":"ws","port":"80","server":"104.21.230.33","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_9","network":"ws","port":"80","server":"172.67.253.194","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"my1.tooters.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_10","network":"ws","port":"80","server":"104.21.229.45","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_11","network":"ws","port":"80","server":"104.21.225.90","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_12","network":"ws","port":"80","server":"104.21.224.2","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_13","network":"ws","port":"80","server":"104.21.225.72","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_14","network":"ws","port":"80","server":"104.21.225.220","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_15","network":"ws","port":"80","server":"104.21.231.55","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_16","network":"ws","port":"80","server":"104.21.225.207","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_17","network":"ws","port":"80","server":"104.21.225.134","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_18","network":"ws","port":"80","server":"104.21.228.23","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_19","network":"ws","port":"80","server":"172.67.241.165","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_20","network":"ws","port":"80","server":"104.21.225.180","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_21","network":"ws","port":"80","server":"104.21.228.44","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_22","network":"ws","port":"80","server":"104.21.233.68","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_23","network":"ws","port":"80","server":"104.21.225.142","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_24","network":"ws","port":"80","server":"104.21.234.72","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_25","network":"ws","port":"80","server":"104.21.236.82","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_26","network":"ws","port":"80","server":"104.21.225.67","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_27","network":"ws","port":"80","server":"104.21.230.52","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_28","network":"ws","port":"80","server":"172.67.254.3","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_29","network":"ws","port":"80","server":"104.21.225.202","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_30","network":"ws","port":"80","server":"104.20.231.30","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"my1.tooters.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_31","network":"ws","port":"80","server":"104.21.225.148","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_32","network":"ws","port":"80","server":"104.21.225.7","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_33","network":"ws","port":"80","server":"104.21.224.24","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_34","network":"ws","port":"80","server":"104.21.225.79","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_35","network":"ws","port":"80","server":"104.21.225.104","servername":"","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_36","network":"ws","port":"80","server":"104.21.233.47","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_37","network":"ws","port":"80","server":"104.21.226.30","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_38","network":"ws","port":"80","server":"172.67.253.134","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"my1.tooters.ir"},"path":"/?ed=2048"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_39","network":"ws","port":"80","server":"104.21.224.4","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+  - {"alterId":"0","cipher":"auto","name":"🌩️ CLOUDFLARE_40","network":"ws","port":"80","server":"104.21.225.186","tls":false,"type":"vmess","uuid":"7022982f-da4c-48c9-c660-b2315abdcf7e","ws-opts":{"headers":{"Host":"a.prapt5.ir"},"path":"/"}}
+
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🚑 故障转移
+      - ⚖️ 负载均衡
+      - DIRECT
+    include-all-proxies: true
+
+  - name: ♻️ 自动选择
+    type: url-test
+    tolerance: 50
+    include-all-proxies: true
+    lazy: true
+    interval: 300
+    timeout: 5000
+    url: https://www.google.com/gen_204
+
+  - name: 🚑 故障转移
+    type: fallback
+    include-all-proxies: true
+    lazy: true
+    interval: 300
+    timeout: 5000
+    url: https://www.google.com/gen_204
+
+  - name: ⚖️ 负载均衡
+    type: load-balance
+    strategy: consistent-hashing
+    include-all-proxies: true
+    lazy: true
+    interval: 300
+    timeout: 5000
+    url: https://www.google.com/gen_204
+
+  - name: 🌍 国外媒体
+    type: select
+    proxies: ["🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡", "🎯 全球直连"]
+    include-all-proxies: true
+  
+  - name: 📲 电报信息
+    type: select
+    proxies: ["🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡", "🎯 全球直连"]
+    include-all-proxies: true
+
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies: ["🎯 全球直连", "🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡"]
+    include-all-proxies: true
+
+  - name: 🍎 苹果服务
+    type: select
+    proxies: ["🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡", "🎯 全球直连"]
+    include-all-proxies: true
+
+  - name: 📢 谷歌FCM
+    type: select
+    proxies: ["🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡", "🎯 全球直连"]
+    include-all-proxies: true
+
+  - name: 🎯 全球直连
+    type: select
+    proxies: ["DIRECT", "🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡"]
+
+  - name: 🛑 全球拦截
+    type: select
+    proxies: ["REJECT", "DIRECT"]
+
+  - name: 🍃 应用净化
+    type: select
+    proxies: ["REJECT", "DIRECT"]
+
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies: ["🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡", "🎯 全球直连"]
+    include-all-proxies: true
+
+rule-providers:
+  LocalAreaNetwork:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+    path: ./rulesets/acl4ssr/LocalAreaNetwork.list
+    interval: 86400
+  UnBan:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
+    path: ./rulesets/acl4ssr/UnBan.list
+    interval: 86400
+  BanAD:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+    path: ./rulesets/acl4ssr/BanAD.list
+    interval: 86400
+  BanProgramAD:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+    path: ./rulesets/acl4ssr/BanProgramAD.list
+    interval: 86400
+  GoogleFCM:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list
+    path: ./rulesets/acl4ssr/GoogleFCM.list
+    interval: 86400
+  GoogleCN:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
+    path: ./rulesets/acl4ssr/GoogleCN.list
+    interval: 86400
+  SteamCN:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
+    path: ./rulesets/acl4ssr/SteamCN.list
+    interval: 86400
+  Microsoft:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
+    path: ./rulesets/acl4ssr/Microsoft.list
+    interval: 86400
+  Apple:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
+    path: ./rulesets/acl4ssr/Apple.list
+    interval: 86400
+  Telegram:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+    path: ./rulesets/acl4ssr/Telegram.list
+    interval: 86400
+  ProxyMedia:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+    path: ./rulesets/acl4ssr/ProxyMedia.list
+    interval: 86400
+  ProxyGFWlist:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+    path: ./rulesets/acl4ssr/ProxyGFWlist.list
+    interval: 86400
+  ChinaIp:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
+    path: ./rulesets/acl4ssr/ChinaIp.list
+    interval: 86400
+  ChinaDomain:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+    path: ./rulesets/acl4ssr/ChinaDomain.list
+    interval: 86400
+  ChinaCompanyIp:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+    path: ./rulesets/acl4ssr/ChinaCompanyIp.list
+    interval: 86400
+  Download:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
+    path: ./rulesets/acl4ssr/Download.list
+    interval: 86400
+
+rules:
+  - RULE-SET,LocalAreaNetwork,🎯 全球直连
+  - RULE-SET,UnBan,🎯 全球直连
+  - RULE-SET,BanAD,🛑 全球拦截
+  - RULE-SET,BanProgramAD,🍃 应用净化
+  - RULE-SET,GoogleFCM,📢 谷歌FCM
+  - RULE-SET,GoogleCN,🎯 全球直连
+  - RULE-SET,SteamCN,🎯 全球直连
+  - RULE-SET,Microsoft,Ⓜ️ 微软服务
+  - RULE-SET,Apple,🍎 苹果服务
+  - RULE-SET,Telegram,📲 电报信息
+  - RULE-SET,ProxyMedia,🌍 国外媒体
+  - RULE-SET,ProxyGFWlist,🚀 节点选择
+  - RULE-SET,ChinaIp,🎯 全球直连
+  - RULE-SET,ChinaDomain,🎯 全球直连
+  - RULE-SET,ChinaCompanyIp,🎯 全球直连
+  - RULE-SET,Download,🎯 全球直连
+  - GEOIP,LAN,🎯 全球直连
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐟 漏网之鱼
+

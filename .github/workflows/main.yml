@@ -25,12 +25,14 @@ jobs:
           for file_name in "${!files[@]}"; do
             file_url="${files[$file_name]}"
             curl -o "$file_name" -L "$file_url"
-            git add "$file_name"
           done
 
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          for file_name in "${!files[@]}"; do
+            git add "$file_name"
+          done
           git commit -m "Add downloaded files"
           git push

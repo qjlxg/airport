@@ -33,18 +33,18 @@ jobs:
 
       - name: Add files to Git
         run: |
-          git add subs/ClodQiu.yaml
-          git add subs/Pawdroid.yaml
-          git add subs/a2470982985.yaml
-          git add subs/abshare.yaml
-          git add subs/chengaopan.yaml
-          git add subs/mianayang.yaml
-          git add subs/mksshare.yaml
-          git add subs/oneclash.yaml
-          git add subs/shunfeng.yaml
-          git add subs/tolinkshare.yaml
-          git add subs/xrayvip.yaml
-          git add subs/zhangkaiitugithub.yaml
+          git add ClodQiu.yaml
+          git add Pawdroid.yaml
+          git add a2470982985.yaml
+          git add abshare.yaml
+          git add chengaopan.yaml
+          git add mianayang.yaml
+          git add mksshare.yaml
+          git add oneclash.yaml
+          git add shunfeng.yaml
+          git add tolinkshare.yaml
+          git add xrayvip.yaml
+          git add zhangkaiitugithub.yaml
 
       - name: Commit and Push files
         run: |

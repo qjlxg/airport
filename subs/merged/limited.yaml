@@ -1,18 +1,10 @@
-# 混合端口（同时支持 HTTP(S) 和 SOCKS5 协议）
 mixed-port: 7890
-# 允许局域网
 allow-lan: true
-# 运行模式：rule、global、direct
 mode: rule
-# 日志级别
 log-level: info
-# 外部控制（使用 RESTful API 来控制Clash内核）
 external-controller: 0.0.0.0:9090
-# TCP连接并发，如果域名解析结果对应多个IP，并发所有IP，选择握手最快的IP进行连接
 tcp-concurrent: true
-# 全局UA
 global-ua: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
-# DNS
 dns:
   enable: true
   ipv6: true
@@ -48,31 +40,29 @@ proxy_provider_common_config: &proxy_provider_common_config
     enable: true
     interval: 300
     timeout: 5000
-    url: https://github.com/
+    url: https://www.google.com/gen_204
 proxy_group_common_config: &proxy_group_common_config
   lazy: false
   interval: 300
   timeout: 5000
-  url: https://github.com/
-# 排除节点
-exclude_proxy_filter: &exclude_proxy_filter "剩余流量|套餐到期|官网"
+  url: https://www.google.com/gen_204
 
 # 订阅地址
 proxy-providers:
-  github_tolinkshare:
+  abshare:
     type: http
-    url: "https://sub.xeton.dev/sub?target=clash&new_name=true&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&url=https%3A%2F%2Fmarkdown.2424014450.workers.dev%2F%3Ftarget%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Ftolinkshare%2Ffreenode%2Fmain%2FREADME.md"
-    path: ./providers/limited/github_tolinkshare.yaml
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/abshare.yaml"
+    path: ./providers/abshare.yaml
     <<: *proxy_provider_common_config
-  github_mksshare:
+  mksshare:
     type: http
-    url: "https://raw.githubusercontent.com/dongchengjie/airport/main/mksshare.yaml"
-    path: ./providers/limited/github_mksshare.yaml
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/mksshare.yaml"
+    path: ./providers/mksshare.yaml
     <<: *proxy_provider_common_config
-  github_abshare:
+  tolinkshare:
     type: http
-    url: "https://sub.xeton.dev/sub?target=clash&new_name=true&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&url=https%3A%2F%2Fmarkdown.2424014450.workers.dev%2F%3Ftarget%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fabshare%2Fabshare.github.io%2Fmain%2FREADME.md"
-    path: ./providers/limited/github_abshare.yaml
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/tolinkshare.yaml"
+    path: ./providers/tolinkshare.yaml
     <<: *proxy_provider_common_config
 
 # 代理组

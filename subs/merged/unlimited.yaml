@@ -1,18 +1,10 @@
-# 混合端口（同时支持 HTTP(S) 和 SOCKS5 协议）
 mixed-port: 7890
-# 允许局域网
 allow-lan: true
-# 运行模式：rule、global、direct
 mode: rule
-# 日志级别
 log-level: info
-# 外部控制（使用 RESTful API 来控制Clash内核）
 external-controller: 0.0.0.0:9090
-# TCP连接并发，如果域名解析结果对应多个IP，并发所有IP，选择握手最快的IP进行连接
 tcp-concurrent: true
-# 全局UA
 global-ua: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
-# DNS
 dns:
   enable: true
   ipv6: true
@@ -48,66 +40,69 @@ proxy_provider_common_config: &proxy_provider_common_config
     enable: true
     interval: 300
     timeout: 5000
-    url: https://github.com/
+    url: https://www.google.com/gen_204
 proxy_group_common_config: &proxy_group_common_config
   lazy: false
   interval: 300
   timeout: 5000
-  url: https://github.com/
-# 排除节点
-exclude_proxy_filter: &exclude_proxy_filter "剩余流量|套餐到期|官网"
+  url: https://www.google.com/gen_204
 
 # 订阅地址
 proxy-providers:
-  github_mianayang:
+  ClodQiu:
     type: http
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/mianayang/chromego_merge/main/sub/merged_proxies_new.yaml"
-    path: ./providers/unlimited/github_mianayang.yaml
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/ClodQiu.yaml"
+    path: ./providers/ClodQiu.yaml
     <<: *proxy_provider_common_config
-  github_chengaopan:
+  Pawdroid:
     type: http
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml"
-    path: ./providers/unlimited/github_chengaopan.yaml
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/Pawdroid.yaml"
+    path: ./providers/Pawdroid.yaml
     <<: *proxy_provider_common_config
-  github_ClodQiu:
+  a2470982985:
     type: http
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/ClodQiu/STARS/master/list.yml"
-    path: ./providers/unlimited/github_ClodQiu.yaml
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/a2470982985.yaml"
+    path: ./providers/a2470982985.yaml
     <<: *proxy_provider_common_config
-  github_Flik6:
+  allenchengji:
     type: http
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/a2470982985/getNode/main/clash.yaml"
-    path: ./providers/unlimited/github_Flik6.yaml
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/allenchengji.yaml"
+    path: ./providers/allenchengji.yaml
     <<: *proxy_provider_common_config
-  github_zhangkaiitugithub:
+  chengaopan:
     type: http
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml"
-    path: ./providers/unlimited/github_zhangkaiitugithub.yaml
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/chengaopan.yaml"
+    path: ./providers/chengaopan.yaml
     <<: *proxy_provider_common_config
-  github_dongchengjie:
+  dongchengjie:
     type: http
     url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/dongchengjie.yaml"
-    path: ./providers/unlimited/github_dongchengjie.yaml
+    path: ./providers/dongchengjie.yaml
     <<: *proxy_provider_common_config
-  github_Pawdroid:
+  mianayang:
     type: http
-    url: "https://sub.xeton.dev/sub?target=clash&new_name=true&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&url=https%3A%2F%2Fgithub.com%2FPawdroid%2FFree-servers%2Fraw%2Fmain%2Fsub"
-    path: ./providers/unlimited/github_Pawdroid.yaml
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/mianayang.yaml"
+    path: ./providers/mianayang.yaml
     <<: *proxy_provider_common_config
-  youtube_顺丰资源:
+  oneclash:
     type: http
-    url: "https://shunfeng.2424014450.workers.dev"
-    path: ./providers/unlimited/youtube_顺丰资源.yaml
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/oneclash.yaml"
+    path: ./providers/oneclash.yaml
     <<: *proxy_provider_common_config
-  youtube_免费节点:
+  shunfeng:
     type: http
-    url: "https://www.xrayvip.com/free.yaml"
-    path: ./providers/unlimited/youtube_免费节点.yaml
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/shunfeng.yaml"
+    path: ./providers/shunfeng.yaml
     <<: *proxy_provider_common_config
-  site_oneclash:
+  xrayvip:
     type: http
-    url: "https://oneclash.2424014450.workers.dev"
-    path: ./providers/unlimited/site_oneclash.yaml
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/xrayvip.yaml"
+    path: ./providers/xrayvip.yaml
+    <<: *proxy_provider_common_config
+  zhangkaiitugithub:
+    type: http
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/zhangkaiitugithub.yaml"
+    path: ./providers/zhangkaiitugithub.yaml
     <<: *proxy_provider_common_config
 
 # 代理组
@@ -125,7 +120,6 @@ proxy-groups:
     tolerance: 50
     include-all-providers: true
     <<: *proxy_group_common_config
-    exclude-filter: *exclude_proxy_filter
   - name: 🚑 故障转移
     type: fallback
     include-all-providers: true
@@ -166,7 +160,7 @@ rule-providers:
     type: http
     behavior: classical
     format: yaml
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/rules/direct.txt
+    url: https://mirror.ghproxy.com/https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/rules/direct.txt
     path: ./rulesets/customize/direct.txt
     interval: 86400
 
@@ -175,7 +169,7 @@ rule-providers:
     type: http
     behavior: classical
     format: yaml
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/rules/proxy.txt
+    url: https://mirror.ghproxy.com/https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/rules/proxy.txt
     path: ./rulesets/customize/proxy.txt
     interval: 86400
 
@@ -184,7 +178,7 @@ rule-providers:
     type: http
     behavior: classical
     format: yaml
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/rules/reject.txt
+    url: https://mirror.ghproxy.com/https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/rules/reject.txt
     path: ./rulesets/customize/reject.txt
     interval: 86400
     
@@ -193,7 +187,7 @@ rule-providers:
     type: http
     behavior: classical
     format: text
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+    url: https://mirror.ghproxy.com/https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
     path: ./rulesets/acl4ssr/direct_local.txt
     interval: 86400
 
@@ -202,7 +196,7 @@ rule-providers:
     type: http
     behavior: classical
     format: text
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+    url: https://mirror.ghproxy.com/https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
     path: ./rulesets/acl4ssr/reject_ad.txt
     interval: 86400
 
@@ -211,7 +205,7 @@ rule-providers:
     type: http
     behavior: classical
     format: text
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+    url: https://mirror.ghproxy.com/https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
     path: ./rulesets/acl4ssr/reject_program_ad.txt
     interval: 86400
 
@@ -220,7 +214,7 @@ rule-providers:
     type: http
     behavior: classical
     format: text
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
+    url: https://mirror.ghproxy.com/https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
     path: ./rulesets/acl4ssr/direct_china_ip.txt
     interval: 86400
 
@@ -229,7 +223,7 @@ rule-providers:
     type: http
     behavior: classical
     format: text
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+    url: https://mirror.ghproxy.com/https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
     path: ./rulesets/acl4ssr/direct_china_domain.txt
     interval: 86400
     
@@ -238,7 +232,7 @@ rule-providers:
     type: http
     behavior: classical
     format: text
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+    url: https://mirror.ghproxy.com/https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
     path: ./rulesets/acl4ssr/direct_download.txt
     interval: 86400
   

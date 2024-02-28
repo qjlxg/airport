@@ -5,7 +5,7 @@ set output=elected.yaml
 
 set repo=https://github.com/dongchengjie/airport
 set file=subs/merged/elected.yaml
-set token=填写Token
+for /f "usebackq delims=" %%a in ("token") do set "token=%%a"
 
 rem 循环执行
 :loop

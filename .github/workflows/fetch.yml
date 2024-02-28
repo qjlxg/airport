@@ -18,6 +18,7 @@ jobs:
       - name: Download files
         run: |
           mkdir -p subs && cd subs
+          curl -s -o cf.yaml                 'https://cf.2424014450.workers.dev/94d9fdb1-5ff7-4fc9-988e-0a851c894f7c' -H 'User-Agent: clash'
           curl -s -o ClodQiu.yaml            'https://raw.githubusercontent.com/ClodQiu/STARS/master/list.yml'
           curl -s -o Pawdroid.yaml           'https://sub.xeton.dev/sub?target=clash&new_name=true&url=https%3A%2F%2Fgithub.com%2FPawdroid%2FFree-servers%2Fraw%2Fmain%2Fsub&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini'
           curl -s -o a2470982985.yaml        'https://raw.githubusercontent.com/a2470982985/getNode/main/clash.yaml'
@@ -58,6 +59,7 @@ jobs:
 
       - name: Git Add
         run: |
+          git add subs/cf.yaml
           git add subs/ClodQiu.yaml
           git add subs/Pawdroid.yaml
           git add subs/a2470982985.yaml

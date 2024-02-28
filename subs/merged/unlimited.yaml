@@ -48,6 +48,11 @@ proxy_provider_common_config: &proxy_provider_common_config
 
 # 订阅地址
 proxy-providers:
+  cf:
+    type: http
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/cf.yaml"
+    path: ./providers/cf.yaml
+    <<: *proxy_provider_common_config
   ClodQiu:
     type: http
     url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/ClodQiu.yaml"

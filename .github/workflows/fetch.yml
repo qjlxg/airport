@@ -41,9 +41,19 @@ jobs:
         run: |
           mkdir -p subs && cd subs
           for file in *.yaml; do
+            # acl4ssr convert fail
             if [[ $(head -n 1 "$file") == "The following link doesn't contain any valid node info"* ]]; then
-              echo 'proxies: [{"name": "vmess", "type": "vmess", "server": "server", "port": 443, "uuid": "uuid", "alterId": 32, "cipher": "auto"}]' > "$file"
+              echo 'proxies: [{"name": "__demo__", "type": "vmess", "server": "server", "port": 443, "uuid": "uuid", "alterId": 32, "cipher": "auto"}]' > "$file"
             fi
+            
+            # deprecate unsupported ciphers
+            while IFS= read -r line; do
+            	if [[ "$line" != *"- {"* || "$line" != *"cipher: chacha20-poly1305,"* ]]; then
+            		echo "$line" >> "temp_$file"
+            	fi
+            done < "$file"
+            mv "temp_$file" "$file"
+          
           done
 
       - name: Git Add

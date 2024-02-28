@@ -66,7 +66,7 @@ proxy-providers:
     <<: *proxy_provider_common_config
   github_mksshare:
     type: http
-    url: "https://sub.xeton.dev/sub?target=clash&new_name=true&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&url=https%3A%2F%2Fmarkdown.2424014450.workers.dev%2F%3Ftarget%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fmksshare%2Fmksshare.github.io%2Fmain%2FREADME.md"
+    url: "https://raw.githubusercontent.com/dongchengjie/airport/main/mksshare.yaml"
     path: ./providers/limited/github_mksshare.yaml
     <<: *proxy_provider_common_config
   github_abshare:

@@ -18,7 +18,7 @@ jobs:
       - name: Test proxies
         run: |
           cd tools
-          .\meta_speedtest.exe --config ..\subs\merged\unlimited.yaml -o ..\subs\merged\elected.yaml --timeout 2000 --log-level debug
+          .\meta_speedtest.exe --config https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/limited.yaml -o ..\subs\merged\elected.yaml --timeout 2000 --log-level debug
 
       - name: Git Add
         run: |

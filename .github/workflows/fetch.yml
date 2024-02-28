@@ -36,6 +36,15 @@ jobs:
           curl -s -o tolinkshare.yaml        'https://sub.xeton.dev/sub?target=clash&new_name=true&url=https%3A%2F%2Fmarkdown.2424014450.workers.dev%2F%3Ftarget%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Ftolinkshare%2Ffreenode%2Fmain%2FREADME.md&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini'
           curl -s -o xrayvip.yaml            'https://www.xrayvip.com/free.yaml'
           curl -s -o zhangkaiitugithub.yaml  'https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml'
+          
+      - name: Preprocess files
+        run: |
+          mkdir -p subs && cd subs
+          for file in *.yaml; do
+            if [[ $(head -n 1 "$file") == "The following link doesn't contain any valid node info"* ]]; then
+              echo 'proxies: [{"name": "vmess", "type": "vmess", "server": "server", "port": 443, "uuid": "uuid", "alterId": 32, "cipher": "auto"}]' > "$file"
+            fi
+          done
 
       - name: Git Add
         run: |

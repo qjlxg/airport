@@ -1,25 +1,35 @@
-name: Download and Place File
+name: Auto pull 
 
 on:
-  push:
-    branches:
-      - main
+  schedule:
+    - cron: '0 */6 * * *'
 
 jobs:
-  download-file:
+  download-and-add-files:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+        
+      - name: Set up environment
+        run: |
+          declare -A files=(
+            ["tolinkshare.yaml"]="https://sub.xeton.dev/sub?target=clash&new_name=true&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&url=https%3A%2F%2Fmarkdown.2424014450.workers.dev%2F%3Ftarget%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Ftolinkshare%2Ffreenode%2Fmain%2FREADME.md" "https://example.com/file2.yaml"
+            ["mksshare.yaml"]="https://sub.xeton.dev/sub?target=clash&new_name=true&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&url=https%3A%2F%2Fmarkdown.2424014450.workers.dev%2F%3Ftarget%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fmksshare%2Fmksshare.github.io%2Fmain%2FREADME.md"
+          )
 
-      - name: Download file
-        run: curl -o tolinkshare.yaml -L 'https://sub.xeton.dev/sub?target=clash&new_name=true&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&url=https%3A%2F%2Fmarkdown.2424014450.workers.dev%2F%3Ftarget%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Ftolinkshare%2Ffreenode%2Fmain%2FREADME.md'
+      - name: Download and add files
+        run: |
+          for file_name in "${!files[@]}"; do
+            file_url="${files[$file_name]}"
+            curl -o "$file_name" -L "$file_url"
+            git add "$file_name"
+          done
 
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add tolinkshare.yaml
-          git commit -m "Add downloaded file"
+          git commit -m "Add downloaded files"
           git push

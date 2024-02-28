@@ -28,11 +28,11 @@ jobs:
 
       - name: Add files to Git
         run: |
-          cat tolinkshare.yaml
-          echo 'dongchengasdasdada'
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           for file_name in "${!files[@]}"; do
+            cat tolinkshare.yaml
+            cat mksshare.yaml
             git add ${file_name}
           done
 

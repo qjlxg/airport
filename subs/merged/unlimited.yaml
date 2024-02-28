@@ -79,11 +79,6 @@ proxy-providers:
     url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/chengaopan.yaml"
     path: ./providers/chengaopan.yaml
     <<: *proxy_provider_common_config
-  ermaozi:
-    type: http
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/ermaozi.yaml"
-    path: ./providers/ermaozi.yaml
-    <<: *proxy_provider_common_config
   dongchengjie:
     type: http
     url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/dongchengjie.yaml"

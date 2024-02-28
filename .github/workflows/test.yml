@@ -22,7 +22,7 @@ jobs:
 
       - name: Git Add
         run: |
-          git add subs/elected.yaml
+          git add subs/merged/elected.yaml
 
       - name: Git Commit
         run: |

@@ -32,8 +32,12 @@ dns:
       - gfw
     ipcidr:
       - 240.0.0.0/4
+geox-url:
+  geoip: https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.dat
+  geosite: https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat
+  mmdb: https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country.mmdb
 
-# 代理通用配置
+# 通用配置
 proxy_provider_common_config: &proxy_provider_common_config
   interval: 86400
   health-check:
@@ -41,11 +45,6 @@ proxy_provider_common_config: &proxy_provider_common_config
     interval: 300
     timeout: 5000
     url: https://www.google.com/gen_204
-proxy_group_common_config: &proxy_group_common_config
-  lazy: false
-  interval: 300
-  timeout: 5000
-  url: https://www.google.com/gen_204
 
 # 订阅地址
 proxy-providers:
@@ -145,7 +144,7 @@ proxy-groups:
     type: url-test
     tolerance: 50
     include-all: true
-    lazy: true
+    lazy: false
     interval: 300
     timeout: 5000
     url: https://www.google.com/gen_204
@@ -153,7 +152,7 @@ proxy-groups:
   - name: 🚑 故障转移
     type: fallback
     include-all: true
-    lazy: true
+    lazy: false
     interval: 300
     timeout: 5000
     url: https://www.google.com/gen_204
@@ -162,7 +161,7 @@ proxy-groups:
     type: load-balance
     strategy: consistent-hashing
     include-all: true
-    lazy: true
+    lazy: false
     interval: 300
     timeout: 5000
     url: https://www.google.com/gen_204

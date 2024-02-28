@@ -715,7 +715,7 @@ proxy-groups:
     type: url-test
     tolerance: 50
     include-all-proxies: true
-    lazy: true
+    lazy: false
     interval: 300
     timeout: 5000
     url: https://www.google.com/gen_204
@@ -723,7 +723,7 @@ proxy-groups:
   - name: 🚑 故障转移
     type: fallback
     include-all-proxies: true
-    lazy: true
+    lazy: false
     interval: 300
     timeout: 5000
     url: https://www.google.com/gen_204
@@ -732,7 +732,7 @@ proxy-groups:
     type: load-balance
     strategy: consistent-hashing
     include-all-proxies: true
-    lazy: true
+    lazy: false
     interval: 300
     timeout: 5000
     url: https://www.google.com/gen_204

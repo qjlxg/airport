@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  fetch-files:
+  test-proxies:
     runs-on: windows-latest
 
     steps:
@@ -18,7 +18,7 @@ jobs:
       - name: Test proxies
         run: |
           cd tools
-          .\meta_speedtest.exe --config ..\subs\aaa.yaml -o ..\subs\merged\elected.yaml --timeout 2000 --log-level debug
+          .\meta_speedtest.exe --config ..\subs\aaa.yaml -o ..\subs\merged\elected.yaml --timeout 10000 --delay-filter 10000 --log-level debug
 
       - name: Git Add
         run: |

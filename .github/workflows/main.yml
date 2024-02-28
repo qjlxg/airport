@@ -14,26 +14,23 @@ jobs:
     steps:
       - name: Git Checkout
         uses: actions/checkout@v2
-        
-      - name: Create Directory
-        run: |
-          mkdir -p subs && cd subs
 
       - name: Download files
         run: |
-          curl -L -o ClodQiu.yaml            'https://raw.githubusercontent.com/ClodQiu/STARS/master/list.yml'
-          curl -L -o Pawdroid.yaml           'https://sub.xeton.dev/sub?target=clash&new_name=true&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&url=https%3A%2F%2Fgithub.com%2FPawdroid%2FFree-servers%2Fraw%2Fmain%2Fsub'
-          curl -L -o a2470982985.yaml        'https://raw.githubusercontent.com/a2470982985/getNode/main/clash.yaml'
-          curl -L -o abshare.yaml            'https://sub.xeton.dev/sub?target=clash&new_name=true&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&url=https%3A%2F%2Fmarkdown.2424014450.workers.dev%2F%3Ftarget%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fabshare%2Fabshare.github.io%2Fmain%2FREADME.md'
-          curl -L -o allenchengji.yaml       'https://sub.xeton.dev/sub?target=clash&new_name=true&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&url=https%3A%2F%2Fsubs.2424014450.workers.dev%2Fsub%2F1.2.3.4%3Fmax%3D9999'
-          curl -L -o chengaopan.yaml         'https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml'
-          curl -L -o mianayang.yaml          'https://raw.githubusercontent.com/mianayang/chromego_merge/main/sub/merged_proxies_new.yaml'
-          curl -L -o mksshare.yaml           'https://sub.xeton.dev/sub?target=clash&new_name=true&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&url=https%3A%2F%2Fmarkdown.2424014450.workers.dev%2F%3Ftarget%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fmksshare%2Fmksshare.github.io%2Fmain%2FREADME.md'
-          curl -L -o oneclash.yaml           'https://oneclash.2424014450.workers.dev'
-          curl -L -o shunfeng.yaml           'https://shunfeng.2424014450.workers.dev'
-          curl -L -o tolinkshare.yaml        'https://sub.xeton.dev/sub?target=clash&new_name=true&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&url=https%3A%2F%2Fmarkdown.2424014450.workers.dev%2F%3Ftarget%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Ftolinkshare%2Ffreenode%2Fmain%2FREADME.md'
-          curl -L -o xrayvip.yaml            'https://www.xrayvip.com/free.yaml'
-          curl -L -o zhangkaiitugithub.yaml  'https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml'
+          mkdir -p subs && cd subs
+          curl -s -o ClodQiu.yaml            'https://raw.githubusercontent.com/ClodQiu/STARS/master/list.yml'
+          curl -s -o Pawdroid.yaml           'https://sub.xeton.dev/sub?target=clash&new_name=true&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&url=https%3A%2F%2Fgithub.com%2FPawdroid%2FFree-servers%2Fraw%2Fmain%2Fsub'
+          curl -s -o a2470982985.yaml        'https://raw.githubusercontent.com/a2470982985/getNode/main/clash.yaml'
+          curl -s -o abshare.yaml            'https://sub.xeton.dev/sub?target=clash&new_name=true&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&url=https%3A%2F%2Fmarkdown.2424014450.workers.dev%2F%3Ftarget%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fabshare%2Fabshare.github.io%2Fmain%2FREADME.md'
+          curl -s -o allenchengji.yaml       'https://sub.xeton.dev/sub?target=clash&new_name=true&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&url=https%3A%2F%2Fsubs.2424014450.workers.dev%2Fsub%2F1.2.3.4%3Fmax%3D9999'
+          curl -s -o chengaopan.yaml         'https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml'
+          curl -s -o mianayang.yaml          'https://raw.githubusercontent.com/mianayang/chromego_merge/main/sub/merged_proxies_new.yaml'
+          curl -s -o mksshare.yaml           'https://sub.xeton.dev/sub?target=clash&new_name=true&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&url=https%3A%2F%2Fmarkdown.2424014450.workers.dev%2F%3Ftarget%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fmksshare%2Fmksshare.github.io%2Fmain%2FREADME.md'
+          curl -s -o oneclash.yaml           'https://oneclash.2424014450.workers.dev'
+          curl -s -o shunfeng.yaml           'https://shunfeng.2424014450.workers.dev'
+          curl -s -o tolinkshare.yaml        'https://sub.xeton.dev/sub?target=clash&new_name=true&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&url=https%3A%2F%2Fmarkdown.2424014450.workers.dev%2F%3Ftarget%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Ftolinkshare%2Ffreenode%2Fmain%2FREADME.md'
+          curl -s -o xrayvip.yaml            'https://www.xrayvip.com/free.yaml'
+          curl -s -o zhangkaiitugithub.yaml  'https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml'
 
       - name: Git Add
         run: |

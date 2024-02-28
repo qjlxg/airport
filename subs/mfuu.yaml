@@ -252,7 +252,6 @@ proxies:
   - {name: 广东省江门市+移动, server: service.ouluyun9803.com, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: cfa17a0d-5e7d-4871-976e-f116e0818123}
   - {name: 🇺🇲 美国 CloudFlare节点 17, server: 104.16.192.155, port: 443, type: trojan, password: e8105dfd24414268b6c7652c63731097, sni: jobscareerfortoday.com, skip-cert-verify: false, network: ws, ws-opts: {path: 6b777a91, headers: {Host: jobscareerfortoday.com}}}
   - {name: 🇮🇪 爱尔兰 都柏林Amazon数据中心, server: 54.195.100.55, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: false}
-  - {name: 🇺🇲 美国+麻省理工学院, server: 18.132.234.67, port: 443, type: ss, cipher: chacha20-poly1305, password: u17T3BvpYaaiuW2c}
   - {name: 🇺🇲 美国 Amazon EC2服务器 2, server: 3.76.207.201, port: 14668, type: trojan, password: hWZHufpTE3gO, sni: www.myethblog.com, skip-cert-verify: false}
   - {name: 🇺🇲 美国 Amazon数据中心 3, server: 13.58.160.83, port: 14671, type: trojan, password: 3BNvVwPNV55T, sni: www.myethblog.com, skip-cert-verify: false}
   - {name: 广东省江门市+移动 2, server: service.ouluyun9803.com, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: cfa17a0d-5e7d-4871-976e-f116e0818123}

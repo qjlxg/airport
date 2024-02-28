@@ -1,1 +1,1 @@
-proxies: [{"name": "vmess", "type": "vmess", "server": "server", "port": 443, "uuid": "uuid", "alterId": 32, "cipher": "auto"}]
+proxies: [{"name": "__demo__", "type": "vmess", "server": "server", "port": 443, "uuid": "uuid", "alterId": 32, "cipher": "auto"}]

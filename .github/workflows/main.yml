@@ -17,6 +17,7 @@ jobs:
         run: |
           pwd
           ls
+          mkdir -p subs && cd subs
           curl -L -o ClodQiu.yaml            'https://raw.githubusercontent.com/ClodQiu/STARS/master/list.yml'
           curl -L -o Pawdroid.yaml           'https://sub.xeton.dev/sub?target=clash&new_name=true&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&url=https%3A%2F%2Fgithub.com%2FPawdroid%2FFree-servers%2Fraw%2Fmain%2Fsub'
           curl -L -o a2470982985.yaml        'https://raw.githubusercontent.com/a2470982985/getNode/main/clash.yaml'

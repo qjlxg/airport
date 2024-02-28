@@ -30,12 +30,16 @@ jobs:
             cat "$file_name"
           done
 
-      - name: Commit and Push files
+      - name: Add files to Git
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           for file_name in "${!files[@]}"; do
+            echo "Adding file: $file_name"
             git add "$file_name"
           done
+
+      - name: Commit and Push files
+        run: |
           git commit -m "Add downloaded files"
           git push

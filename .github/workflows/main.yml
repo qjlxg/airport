@@ -23,11 +23,7 @@ jobs:
       - name: Download files
         run: |
           for file_name in "${!files[@]}"; do
-            file_url="${files[$file_name]}"
-            echo "$file_name"
-            echo "$file_url"
-            curl -o "$file_name" -L "$file_url"
-            cat "$file_name"
+            curl -o ${file_name} -L ${files[$file_name]}
           done
 
       - name: Add files to Git
@@ -35,8 +31,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           for file_name in "${!files[@]}"; do
-            echo "Adding file: $file_name"
-            git add "$file_name"
+            git add ${file_name}
           done
 
       - name: Commit and Push files

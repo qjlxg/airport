@@ -114,198 +114,210 @@ proxy-groups:
       - 🚑 故障转移
       - ⚖️ 负载均衡
       - DIRECT
-    include-all-providers: true
+    include-all: true
+
   - name: ♻️ 自动选择
     type: url-test
     tolerance: 50
-    include-all-providers: true
-    <<: *proxy_group_common_config
+    include-all: true
+    lazy: true
+    interval: 300
+    timeout: 5000
+    url: https://www.google.com/gen_204
+
   - name: 🚑 故障转移
     type: fallback
-    include-all-providers: true
-    <<: *proxy_group_common_config
+    include-all: true
+    lazy: true
+    interval: 300
+    timeout: 5000
+    url: https://www.google.com/gen_204
+
   - name: ⚖️ 负载均衡
     type: load-balance
     strategy: consistent-hashing
-    include-all-providers: true
-    <<: *proxy_group_common_config
+    include-all: true
+    lazy: true
+    interval: 300
+    timeout: 5000
+    url: https://www.google.com/gen_204
+
+  - name: 🌍 国外媒体
+    type: select
+    proxies: ["🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡", "🎯 全球直连"]
+    include-all: true
+  
+  - name: 📲 电报信息
+    type: select
+    proxies: ["🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡", "🎯 全球直连"]
+    include-all: true
+
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies: ["🎯 全球直连", "🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡"]
+    include-all: true
+
+  - name: 🍎 苹果服务
+    type: select
+    proxies: ["🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡", "🎯 全球直连"]
+    include-all: true
+
+  - name: 📢 谷歌FCM
+    type: select
+    proxies: ["🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡", "🎯 全球直连"]
+    include-all: true
+
   - name: 🎯 全球直连
     type: select
-    proxies:
-      - DIRECT
-      - 🚀 节点选择
-      - ♻️ 自动选择
-      - 🚑 故障转移
-      - ⚖️ 负载均衡
-    include-all-providers: true
+    proxies: ["DIRECT", "🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡"]
+
   - name: 🛑 全球拦截
     type: select
-    proxies:
-      - REJECT
-      - DIRECT
+    proxies: ["REJECT", "DIRECT"]
+
+  - name: 🍃 应用净化
+    type: select
+    proxies: ["REJECT", "DIRECT"]
+
   - name: 🐟 漏网之鱼
     type: select
-    proxies:
-      - 🚀 节点选择
-      - 🎯 全球直连
-      - ♻️ 自动选择
-      - 🚑 故障转移
-      - ⚖️ 负载均衡
-    include-all-providers: true
+    proxies: ["🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡", "🎯 全球直连"]
+    include-all: true
 
 # 规则集
 rule-providers:
-  # 直连_自定义
   customize_direct:
     type: http
     behavior: classical
     format: yaml
-    url: https://mirror.ghproxy.com/https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/rules/direct.txt
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/rules/direct.txt
     path: ./rulesets/customize/direct.txt
     interval: 86400
-
-  # 代理_自定义
   customize_proxy:
     type: http
     behavior: classical
     format: yaml
-    url: https://mirror.ghproxy.com/https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/rules/proxy.txt
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/rules/proxy.txt
     path: ./rulesets/customize/proxy.txt
     interval: 86400
-
-  # 拦截_自定义
   customize_reject:
     type: http
     behavior: classical
     format: yaml
-    url: https://mirror.ghproxy.com/https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/rules/reject.txt
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/rules/reject.txt
     path: ./rulesets/customize/reject.txt
     interval: 86400
-    
-  # 直连_本地地址和路由器
-  acl4ssr_direct_local:
+  LocalAreaNetwork:
     type: http
     behavior: classical
     format: text
-    url: https://mirror.ghproxy.com/https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
-    path: ./rulesets/acl4ssr/direct_local.txt
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+    path: ./rulesets/acl4ssr/LocalAreaNetwork.list
     interval: 86400
-
-  # 拦截_常见广告关键字、广告联盟
-  acl4ssr_reject_ad:
+  UnBan:
     type: http
     behavior: classical
     format: text
-    url: https://mirror.ghproxy.com/https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
-    path: ./rulesets/acl4ssr/reject_ad.txt
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
+    path: ./rulesets/acl4ssr/UnBan.list
     interval: 86400
-
-  # 拦截_常用应用去广告
-  acl4ssr_reject_program_ad:
+  BanAD:
     type: http
     behavior: classical
     format: text
-    url: https://mirror.ghproxy.com/https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
-    path: ./rulesets/acl4ssr/reject_program_ad.txt
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+    path: ./rulesets/acl4ssr/BanAD.list
     interval: 86400
-
-  # 直连_中国IP
-  acl4ssr_direct_china_ip:
+  BanProgramAD:
     type: http
     behavior: classical
     format: text
-    url: https://mirror.ghproxy.com/https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
-    path: ./rulesets/acl4ssr/direct_china_ip.txt
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+    path: ./rulesets/acl4ssr/BanProgramAD.list
     interval: 86400
-
-  # 直连_中国域名
-  acl4ssr_direct_china_domain:
+  GoogleFCM:
     type: http
     behavior: classical
     format: text
-    url: https://mirror.ghproxy.com/https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
-    path: ./rulesets/acl4ssr/direct_china_domain.txt
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list
+    path: ./rulesets/acl4ssr/GoogleFCM.list
     interval: 86400
-    
-  # 直连_下载用域名
-  acl4ssr_direct_download:
+  GoogleCN:
     type: http
     behavior: classical
     format: text
-    url: https://mirror.ghproxy.com/https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
-    path: ./rulesets/acl4ssr/direct_download.txt
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
+    path: ./rulesets/acl4ssr/GoogleCN.list
     interval: 86400
-  
-  # 直连_域名
-  loyalsoldier_direct:
-    type: http
-    behavior: domain
-    format: yaml
-    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt
-    path: ./rulesets/loyalsoldier/direct.txt
-    interval: 86400
-
-  # 代理_域名
-  loyalsoldier_proxy:
-    type: http
-    behavior: domain
-    format: yaml
-    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt
-    path: ./rulesets/loyalsoldier/proxy.txt
-    interval: 86400
-
-  # 拦截_广告
-  loyalsoldier_reject_ad:
-    type: http
-    behavior: domain
-    format: yaml
-    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt
-    path: ./rulesets/loyalsoldier/reject_ad.txt
-    interval: 86400
-
-  # 代理_GFW
-  loyalsoldier_proxy_gfw:
-    type: http
-    behavior: domain
-    format: yaml
-    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt
-    path: ./rulesets/loyalsoldier/proxy_gfw.txt
-    interval: 86400
-
-  # 代理_非中国大陆使用的顶级域名
-  loyalsoldier_proxy_tld_not_cn:
-    type: http
-    behavior: domain
-    format: yaml
-    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt
-    path: ./rulesets/loyalsoldier/proxy_tld_not_cn.txt
-    interval: 86400
-
-  # 直连_本地网络
-  loyalsoldier_direct_lancidr:
-    type: http
-    behavior: ipcidr
-    format: yaml
-    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt
-    path: ./rulesets/loyalsoldier/direct_lancidr.txt
-    interval: 86400
-
-  # 直连_中国IP
-  loyalsoldier_direct_cncidr:
-    type: http
-    behavior: ipcidr
-    format: yaml
-    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt
-    path: ./rulesets/loyalsoldier/direct_cncidr.txt
-    interval: 86400
-
-  # 直连_常见软件
-  loyalsoldier_direct_applications:
+  SteamCN:
     type: http
     behavior: classical
-    format: yaml
-    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt
-    path: ./rulesets/loyalsoldier/direct_applications.txt
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
+    path: ./rulesets/acl4ssr/SteamCN.list
+    interval: 86400
+  Microsoft:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
+    path: ./rulesets/acl4ssr/Microsoft.list
+    interval: 86400
+  Apple:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
+    path: ./rulesets/acl4ssr/Apple.list
+    interval: 86400
+  Telegram:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+    path: ./rulesets/acl4ssr/Telegram.list
+    interval: 86400
+  ProxyMedia:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+    path: ./rulesets/acl4ssr/ProxyMedia.list
+    interval: 86400
+  ProxyGFWlist:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+    path: ./rulesets/acl4ssr/ProxyGFWlist.list
+    interval: 86400
+  ChinaIp:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
+    path: ./rulesets/acl4ssr/ChinaIp.list
+    interval: 86400
+  ChinaDomain:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+    path: ./rulesets/acl4ssr/ChinaDomain.list
+    interval: 86400
+  ChinaCompanyIp:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+    path: ./rulesets/acl4ssr/ChinaCompanyIp.list
+    interval: 86400
+  Download:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
+    path: ./rulesets/acl4ssr/Download.list
     interval: 86400
 
 # 规则
@@ -315,21 +327,22 @@ rules:
   - RULE-SET,customize_reject,🛑 全球拦截
   - RULE-SET,customize_proxy,🚀 节点选择
   # acl4ssr
-  - RULE-SET,acl4ssr_direct_china_domain,🎯 全球直连
-  - RULE-SET,acl4ssr_direct_china_ip,🎯 全球直连
-  - RULE-SET,acl4ssr_direct_download,🎯 全球直连
-  - RULE-SET,acl4ssr_direct_local,🎯 全球直连
-  - RULE-SET,acl4ssr_reject_ad,🛑 全球拦截
-  - RULE-SET,acl4ssr_reject_program_ad,🛑 全球拦截
-  # Loyalsoldier
-  - RULE-SET,loyalsoldier_direct,🎯 全球直连
-  - RULE-SET,loyalsoldier_direct_applications,🎯 全球直连
-  - RULE-SET,loyalsoldier_direct_cncidr,🎯 全球直连
-  - RULE-SET,loyalsoldier_direct_lancidr,🎯 全球直连
-  - RULE-SET,loyalsoldier_proxy,🚀 节点选择
-  - RULE-SET,loyalsoldier_proxy_gfw,🚀 节点选择
-  - RULE-SET,loyalsoldier_proxy_tld_not_cn,🚀 节点选择
-  - RULE-SET,loyalsoldier_reject_ad,🛑 全球拦截
+  - RULE-SET,LocalAreaNetwork,🎯 全球直连
+  - RULE-SET,UnBan,🎯 全球直连
+  - RULE-SET,BanAD,🛑 全球拦截
+  - RULE-SET,BanProgramAD,🍃 应用净化
+  - RULE-SET,GoogleFCM,📢 谷歌FCM
+  - RULE-SET,GoogleCN,🎯 全球直连
+  - RULE-SET,SteamCN,🎯 全球直连
+  - RULE-SET,Microsoft,Ⓜ️ 微软服务
+  - RULE-SET,Apple,🍎 苹果服务
+  - RULE-SET,Telegram,📲 电报信息
+  - RULE-SET,ProxyMedia,🌍 国外媒体
+  - RULE-SET,ProxyGFWlist,🚀 节点选择
+  - RULE-SET,ChinaIp,🎯 全球直连
+  - RULE-SET,ChinaDomain,🎯 全球直连
+  - RULE-SET,ChinaCompanyIp,🎯 全球直连
+  - RULE-SET,Download,🎯 全球直连
   # 其他
   - GEOIP,LAN,🎯 全球直连
   - GEOIP,CN,🎯 全球直连

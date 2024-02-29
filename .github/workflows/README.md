@@ -1,6 +1,6 @@
 ## 注意事项
 
-1. 使用Workflow需要为机器人**github-actions[bot]**授予读写权限，允许其访问仓库。
+1. 使用Workflow需要为机器人**github-actions**授予读写权限，允许其访问仓库。
    1. 打开[Github Action设置](https://github.com/dongchengjie/airport/settings/actions)
    2. 找到**Workflow permissions**选项，勾选**Read and write permissions**
    3. 点击**Save**保存

@@ -43,7 +43,7 @@ proxy_provider_common_config: &proxy_provider_common_config
   health-check:
     enable: true
     interval: 300
-    timeout: 5000
+    timeout: 500
     url: https://www.google.com/gen_204
 
 # 订阅地址
@@ -77,11 +77,11 @@ proxy-groups:
 
   - name: ♻️ 自动选择
     type: url-test
-    tolerance: 50
+    tolerance: 100
     include-all: true
     lazy: false
     interval: 300
-    timeout: 5000
+    timeout: 500
     url: https://www.google.com/gen_204
 
   - name: 🚑 故障转移
@@ -89,7 +89,7 @@ proxy-groups:
     include-all: true
     lazy: false
     interval: 300
-    timeout: 5000
+    timeout: 500
     url: https://www.google.com/gen_204
 
   - name: ⚖️ 负载均衡
@@ -98,7 +98,7 @@ proxy-groups:
     include-all: true
     lazy: false
     interval: 300
-    timeout: 5000
+    timeout: 500
     url: https://www.google.com/gen_204
 
   - name: 🌍 国外媒体

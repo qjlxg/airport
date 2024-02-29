@@ -12,7 +12,7 @@
 ```mermaid
 flowchart LR
 fetch("Github Action定时拉取订阅")
-fetch --> |存放|save[("/subs目录")]
+fetch --> |存放|save[("/subs")]
 save --> subs1("/subs/subs1.yaml")
          subs1 --> |proxy-provider|merged1
 save --> subs2("/subs/subs2.yaml")

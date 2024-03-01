@@ -39,11 +39,11 @@ geox-url:
 
 # 通用配置
 proxy_provider_common_config: &proxy_provider_common_config
-  interval: 86400
+  interval: 21600
   health-check:
     enable: true
     interval: 300
-    timeout: 500
+    timeout: 5000
     url: https://www.google.com/gen_204
 
 # 订阅地址

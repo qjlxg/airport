@@ -39,7 +39,7 @@ geox-url:
 
 # 通用配置
 proxy_provider_common_config: &proxy_provider_common_config
-  interval: 86400
+  interval: 21600
   health-check:
     enable: true
     interval: 300

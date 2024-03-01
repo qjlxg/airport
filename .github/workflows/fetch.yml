@@ -4,7 +4,7 @@ on:
   # workflow文件变动时触发
   push:
     paths:
-      - '.github/workflows/fetch.yaml'
+      - '.github/workflows/fetch.yml'
   # 定时触发
   schedule:
     - cron: '0 */1 * * *'

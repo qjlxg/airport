@@ -43,8 +43,15 @@ proxy_provider_common_config: &proxy_provider_common_config
   health-check:
     enable: true
     interval: 300
-    timeout: 500
+    timeout: 5000
     url: https://www.google.com/gen_204
+proxy_group_common_config: &proxy_group_common_config
+    lazy: false
+    interval: 300
+    timeout: 5000
+    tolerance: 50
+    url: https://www.google.com/gen_204
+    hidden: true
 
 # 订阅地址
 proxy-providers:
@@ -135,65 +142,117 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择
-      - 🚑 故障转移
-      - ⚖️ 负载均衡
       - DIRECT
     include-all: true
 
   - name: ♻️ 自动选择
     type: url-test
-    tolerance: 100
-    include-all: true
-    lazy: false
-    interval: 300
-    timeout: 500
-    url: https://www.google.com/gen_204
+    proxies:
+      - ClodQiu
+      - Pawdroid
+      - a2470982985
+      - aiboboxx
+      - autoproxy
+      - chengaopan
+      - dongchengjie
+      - ermaozi
+      - freefq
+      - mfuu
+      - mianayang
+      - oneclash
+      - peasoft
+      - shunfeng
+      - xrayvip
+      - zhangkaiitugithub
 
-  - name: 🚑 故障转移
-    type: fallback
-    include-all: true
-    lazy: false
-    interval: 300
-    timeout: 500
-    url: https://www.google.com/gen_204
-
-  - name: ⚖️ 负载均衡
-    type: load-balance
-    strategy: consistent-hashing
-    include-all: true
-    lazy: false
-    interval: 300
-    timeout: 500
-    url: https://www.google.com/gen_204
+  - name: ClodQiu
+    type: url-test
+    use: [ClodQiu]
+    <<: *proxy_group_common_config
+  - name: Pawdroid
+    type: url-test
+    use: [Pawdroid]
+    <<: *proxy_group_common_config
+  - name: a2470982985
+    type: url-test
+    use: [a2470982985]
+    <<: *proxy_group_common_config
+  - name: aiboboxx
+    type: url-test
+    use: [aiboboxx]
+    <<: *proxy_group_common_config
+  - name: autoproxy
+    type: url-test
+    use: [autoproxy]
+    <<: *proxy_group_common_config
+  - name: chengaopan
+    type: url-test
+    use: [chengaopan]
+    <<: *proxy_group_common_config
+  - name: dongchengjie
+    type: url-test
+    use: [dongchengjie]
+    <<: *proxy_group_common_config
+  - name: ermaozi
+    type: url-test
+    use: [ermaozi]
+    <<: *proxy_group_common_config
+  - name: freefq
+    type: url-test
+    use: [freefq]
+    <<: *proxy_group_common_config
+  - name: mfuu
+    type: url-test
+    use: [mfuu]
+    <<: *proxy_group_common_config
+  - name: mianayang
+    type: url-test
+    use: [mianayang]
+    <<: *proxy_group_common_config
+  - name: oneclash
+    type: url-test
+    use: [oneclash]
+    <<: *proxy_group_common_config
+  - name: peasoft
+    type: url-test
+    use: [peasoft]
+    <<: *proxy_group_common_config
+  - name: shunfeng
+    type: url-test
+    use: [shunfeng]
+    <<: *proxy_group_common_config
+  - name: xrayvip
+    type: url-test
+    use: [xrayvip]
+    <<: *proxy_group_common_config
+  - name: zhangkaiitugithub
+    type: url-test
+    use: [zhangkaiitugithub]
+    <<: *proxy_group_common_config
 
   - name: 🌍 国外媒体
     type: select
-    proxies: ["🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡", "🎯 全球直连"]
-    include-all: true
-  
+    proxies: ["🚀 节点选择", "♻️ 自动选择", "🎯 全球直连"]
+
   - name: 📲 电报信息
     type: select
-    proxies: ["🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡", "🎯 全球直连"]
-    include-all: true
+    proxies: ["🚀 节点选择", "♻️ 自动选择", "🎯 全球直连"]
 
   - name: Ⓜ️ 微软服务
     type: select
-    proxies: ["🎯 全球直连", "🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡"]
-    include-all: true
+    proxies: ["🎯 全球直连", "🚀 节点选择", "♻️ 自动选择"]
 
   - name: 🍎 苹果服务
     type: select
-    proxies: ["🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡", "🎯 全球直连"]
-    include-all: true
+    proxies: ["🚀 节点选择", "♻️ 自动选择", "🎯 全球直连"]
 
   - name: 📢 谷歌FCM
     type: select
-    proxies: ["🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡", "🎯 全球直连"]
-    include-all: true
+    proxies: ["🚀 节点选择", "♻️ 自动选择", "🎯 全球直连"]
 
   - name: 🎯 全球直连
     type: select
-    proxies: ["DIRECT", "🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡"]
+    proxies: ["DIRECT", "🚀 节点选择", "♻️ 自动选择"]
 
   - name: 🛑 全球拦截
     type: select
@@ -205,7 +264,7 @@ proxy-groups:
 
   - name: 🐟 漏网之鱼
     type: select
-    proxies: ["🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡", "🎯 全球直连"]
+    proxies: ["🚀 节点选择", "♻️ 自动选择", "🎯 全球直连"]
     include-all: true
 
 # 规则集

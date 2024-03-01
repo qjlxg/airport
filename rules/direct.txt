@@ -14,7 +14,6 @@ payload:
   - DOMAIN,raw.kkgithub.com
   - DOMAIN,regex101.com
   - DOMAIN,screenshots.downloadtorrentfile.com
-  - DOMAIN,surrit.com
   - DOMAIN,text-compare.com
   - DOMAIN,wiki.metacubex.one
   - DOMAIN,www.baeldung.com

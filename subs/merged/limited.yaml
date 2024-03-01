@@ -91,10 +91,12 @@ proxy-groups:
     type: url-test
     use: [abshare]
     <<: *proxy_group_common_config
+
   - name: mksshare
     type: url-test
     use: [mksshare]
     <<: *proxy_group_common_config
+
   - name: tolinkshare
     type: url-test
     use: [tolinkshare]

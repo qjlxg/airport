@@ -169,62 +169,77 @@ proxy-groups:
     type: url-test
     use: [ClodQiu]
     <<: *proxy_group_common_config
+
   - name: Pawdroid
     type: url-test
     use: [Pawdroid]
     <<: *proxy_group_common_config
+
   - name: a2470982985
     type: url-test
     use: [a2470982985]
     <<: *proxy_group_common_config
+
   - name: aiboboxx
     type: url-test
     use: [aiboboxx]
     <<: *proxy_group_common_config
+
   - name: autoproxy
     type: url-test
     use: [autoproxy]
     <<: *proxy_group_common_config
+
   - name: chengaopan
     type: url-test
     use: [chengaopan]
     <<: *proxy_group_common_config
+
   - name: dongchengjie
     type: url-test
     use: [dongchengjie]
     <<: *proxy_group_common_config
+
   - name: ermaozi
     type: url-test
     use: [ermaozi]
     <<: *proxy_group_common_config
+
   - name: freefq
     type: url-test
     use: [freefq]
     <<: *proxy_group_common_config
+
   - name: mfuu
     type: url-test
     use: [mfuu]
     <<: *proxy_group_common_config
+
   - name: mianayang
     type: url-test
     use: [mianayang]
     <<: *proxy_group_common_config
+
   - name: oneclash
     type: url-test
     use: [oneclash]
     <<: *proxy_group_common_config
+
   - name: peasoft
     type: url-test
     use: [peasoft]
     <<: *proxy_group_common_config
+
   - name: shunfeng
     type: url-test
     use: [shunfeng]
     <<: *proxy_group_common_config
+
   - name: xrayvip
     type: url-test
     use: [xrayvip]
     <<: *proxy_group_common_config
+
   - name: zhangkaiitugithub
     type: url-test
     use: [zhangkaiitugithub]

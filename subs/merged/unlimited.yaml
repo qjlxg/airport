@@ -51,7 +51,6 @@ proxy_group_common_config: &proxy_group_common_config
     timeout: 5000
     tolerance: 100
     url: https://www.google.com/gen_204
-    hidden: true
 
 # 订阅地址
 proxy-providers:
@@ -142,11 +141,57 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择
+      - 🚑 故障转移
+      - ⚖️ 负载均衡
       - DIRECT
     include-all: true
 
   - name: ♻️ 自动选择
     type: url-test
+    <<: *proxy_group_common_config
+    proxies:
+      - ClodQiu
+      - Pawdroid
+      - a2470982985
+      - aiboboxx
+      - autoproxy
+      - chengaopan
+      - dongchengjie
+      - ermaozi
+      - freefq
+      - mfuu
+      - mianayang
+      - oneclash
+      - peasoft
+      - shunfeng
+      - xrayvip
+      - zhangkaiitugithub
+      
+  - name: 🚑 故障转移
+    type: fallback
+    <<: *proxy_group_common_config
+    proxies:
+      - ClodQiu
+      - Pawdroid
+      - a2470982985
+      - aiboboxx
+      - autoproxy
+      - chengaopan
+      - dongchengjie
+      - ermaozi
+      - freefq
+      - mfuu
+      - mianayang
+      - oneclash
+      - peasoft
+      - shunfeng
+      - xrayvip
+      - zhangkaiitugithub
+
+  - name: ⚖️ 负载均衡
+    type: load-balance
+    strategy: consistent-hashing
+    <<: *proxy_group_common_config
     proxies:
       - ClodQiu
       - Pawdroid
@@ -168,81 +213,97 @@ proxy-groups:
   - name: ClodQiu
     type: url-test
     use: [ClodQiu]
+    hidden: true
     <<: *proxy_group_common_config
 
   - name: Pawdroid
     type: url-test
     use: [Pawdroid]
+    hidden: true
     <<: *proxy_group_common_config
 
   - name: a2470982985
     type: url-test
     use: [a2470982985]
+    hidden: true
     <<: *proxy_group_common_config
 
   - name: aiboboxx
     type: url-test
     use: [aiboboxx]
+    hidden: true
     <<: *proxy_group_common_config
 
   - name: autoproxy
     type: url-test
     use: [autoproxy]
+    hidden: true
     <<: *proxy_group_common_config
 
   - name: chengaopan
     type: url-test
     use: [chengaopan]
+    hidden: true
     <<: *proxy_group_common_config
 
   - name: dongchengjie
     type: url-test
     use: [dongchengjie]
+    hidden: true
     <<: *proxy_group_common_config
 
   - name: ermaozi
     type: url-test
     use: [ermaozi]
+    hidden: true
     <<: *proxy_group_common_config
 
   - name: freefq
     type: url-test
     use: [freefq]
+    hidden: true
     <<: *proxy_group_common_config
 
   - name: mfuu
     type: url-test
     use: [mfuu]
+    hidden: true
     <<: *proxy_group_common_config
 
   - name: mianayang
     type: url-test
     use: [mianayang]
+    hidden: true
     <<: *proxy_group_common_config
 
   - name: oneclash
     type: url-test
     use: [oneclash]
+    hidden: true
     <<: *proxy_group_common_config
 
   - name: peasoft
     type: url-test
     use: [peasoft]
+    hidden: true
     <<: *proxy_group_common_config
 
   - name: shunfeng
     type: url-test
     use: [shunfeng]
+    hidden: true
     <<: *proxy_group_common_config
 
   - name: xrayvip
     type: url-test
     use: [xrayvip]
+    hidden: true
     <<: *proxy_group_common_config
 
   - name: zhangkaiitugithub
     type: url-test
     use: [zhangkaiitugithub]
+    hidden: true
     <<: *proxy_group_common_config
 
   - name: 🌍 国外媒体

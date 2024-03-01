@@ -51,7 +51,6 @@ proxy_group_common_config: &proxy_group_common_config
     timeout: 5000
     tolerance: 100
     url: https://www.google.com/gen_204
-    hidden: true
 
 # 订阅地址
 proxy-providers:
@@ -77,6 +76,8 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择
+      - 🚑 故障转移
+      - ⚖️ 负载均衡
       - DIRECT
     include-all: true
 
@@ -87,19 +88,39 @@ proxy-groups:
       - mksshare
       - tolinkshare
 
+  - name: 🚑 故障转移
+    type: fallback
+    <<: *proxy_group_common_config
+    proxies:
+      - abshare
+      - mksshare
+      - tolinkshare
+
+  - name: ⚖️ 负载均衡
+    type: load-balance
+    strategy: consistent-hashing
+    <<: *proxy_group_common_config
+    proxies:
+      - abshare
+      - mksshare
+      - tolinkshare
+
   - name: abshare
     type: url-test
     use: [abshare]
+    hidden: true
     <<: *proxy_group_common_config
 
   - name: mksshare
     type: url-test
     use: [mksshare]
+    hidden: true
     <<: *proxy_group_common_config
 
   - name: tolinkshare
     type: url-test
     use: [tolinkshare]
+    hidden: true
     <<: *proxy_group_common_config
 
   - name: 🌍 国外媒体

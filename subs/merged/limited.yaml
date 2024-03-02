@@ -162,26 +162,26 @@ proxy-groups:
 
 # 规则集
 rule-providers:
-  customize_direct:
+  custom_direct:
     type: http
     behavior: classical
     format: yaml
     url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/rules/direct.txt
-    path: ./rulesets/customize/direct.txt
+    path: ./rulesets/custom/direct.txt
     interval: 86400
-  customize_proxy:
+  custom_proxy:
     type: http
     behavior: classical
     format: yaml
     url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/rules/proxy.txt
-    path: ./rulesets/customize/proxy.txt
+    path: ./rulesets/custom/proxy.txt
     interval: 86400
-  customize_reject:
+  custom_reject:
     type: http
     behavior: classical
     format: yaml
     url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/rules/reject.txt
-    path: ./rulesets/customize/reject.txt
+    path: ./rulesets/custom/reject.txt
     interval: 86400
   LocalAreaNetwork:
     type: http
@@ -299,9 +299,9 @@ rule-providers:
 # 规则
 rules:
   # 自定义规则
-  - RULE-SET,customize_direct,🎯 全球直连
-  - RULE-SET,customize_reject,🛑 全球拦截
-  - RULE-SET,customize_proxy,🚀 节点选择
+  - RULE-SET,custom_direct,🎯 全球直连
+  - RULE-SET,custom_reject,🛑 全球拦截
+  - RULE-SET,custom_proxy,🚀 节点选择
   # acl4ssr
   - RULE-SET,LocalAreaNetwork,🎯 全球直连
   - RULE-SET,UnBan,🎯 全球直连

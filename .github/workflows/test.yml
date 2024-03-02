@@ -1,0 +1,36 @@
+name: Auto-test Subscribed Proxies
+
+on:
+  # workflow文件变动时触发
+  push:
+    paths:
+      - '.github/workflows/test.yml'
+  # 定时触发
+  schedule:
+    - cron: '0 */1 * * *'
+  # 手动触发
+  workflow_dispatch:
+
+jobs:
+  test-proxies:
+    runs-on: windows-latest
+
+    steps:
+      - name: Git Checkout
+        uses: actions/checkout@v2
+
+      - name: Test proxies
+        run: |
+          cd tools
+          .\meta_speedtest.exe --config ..\subs\merged\unlimited.yaml -o ..\subs\dongchengjie.yaml --timeout 10000 --delay-filter 10000 --log-level debug
+
+      - name: Git Add
+        run: |
+          git add subs/merged/elected.yaml
+
+      - name: Git Commit
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "Updated by GitHub Action"
+          git push

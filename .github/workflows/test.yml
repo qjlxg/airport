@@ -1,10 +1,6 @@
 name: Auto-test Subscribed Proxies
 
 on:
-  # workflow文件变动时触发
-  push:
-    paths:
-      - '.github/workflows/test.yml'
   # fetch执行后触发
   workflow_run:
     workflows: ["Auto-fetch Subscribed Files"]

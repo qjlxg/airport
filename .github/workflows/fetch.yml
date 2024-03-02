@@ -34,7 +34,6 @@ jobs:
           curl -s -o mfuu.yaml               'https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml'
           curl -s -o mianayang.yaml          'https://raw.githubusercontent.com/mianayang/chromego_merge/main/sub/merged_proxies_new.yaml'
           curl -s -o mksshare.yaml           'https://sub.xeton.dev/sub?target=clash&new_name=true&url=https%3A%2F%2Fmarkdown.2424014450.workers.dev%2F%3Ftarget%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fmksshare%2Fmksshare.github.io%2Fmain%2FREADME.md&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini'
-          curl -s -o oneclash.yaml           'https://oneclash.2424014450.workers.dev'
           curl -s -o peasoft.yaml            'https://sub.xeton.dev/sub?target=clash&new_name=true&url=https%3A%2F%2Fraw.githubusercontent.com%2Fpeasoft%2FNoMoreWalls%2Fmaster%2Flist_raw.txt&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini'
           curl -s -o shunfeng.yaml           'https://shunfeng.2424014450.workers.dev'
           curl -s -o tolinkshare.yaml        'https://sub.xeton.dev/sub?target=clash&new_name=true&url=https%3A%2F%2Fmarkdown.2424014450.workers.dev%2F%3Ftarget%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Ftolinkshare%2Ffreenode%2Fmain%2FREADME.md&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini'
@@ -75,7 +74,6 @@ jobs:
           git add subs/mfuu.yaml
           git add subs/mianayang.yaml
           git add subs/mksshare.yaml
-          git add subs/oneclash.yaml
           git add subs/peasoft.yaml
           git add subs/shunfeng.yaml
           git add subs/tolinkshare.yaml

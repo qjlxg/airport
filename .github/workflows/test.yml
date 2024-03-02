@@ -22,7 +22,7 @@ jobs:
       - name: Test proxies
         run: |
           cd tools
-          .\meta_speedtest.exe --config ..\subs\merged\unlimited.yaml -o ..\subs\dongchengjie.yaml --timeout 2000 --delay-filter 2000 --download --download-duration 5000 --rename-tag Github_Action --log-level debug
+          .\meta_speedtest.exe --config ..\subs\merged\unlimited.yaml -o ..\subs\dongchengjie.yaml --timeout 2000 --delay-filter 2000 --rename-tag Github_Action --log-level debug
 
       - name: Git Add
         run: |

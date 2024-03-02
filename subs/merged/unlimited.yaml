@@ -154,7 +154,6 @@ proxy-groups:
       - Pawdroid
       - a2470982985
       - aiboboxx
-      - autoproxy
       - chengaopan
       - edgetunnel
       - ermaozi
@@ -164,6 +163,7 @@ proxy-groups:
       - oneclash
       - peasoft
       - shunfeng
+      - w1770946466
       - xrayvip
       - zhangkaiitugithub
       
@@ -175,7 +175,6 @@ proxy-groups:
       - Pawdroid
       - a2470982985
       - aiboboxx
-      - autoproxy
       - chengaopan
       - edgetunnel
       - ermaozi
@@ -185,6 +184,7 @@ proxy-groups:
       - oneclash
       - peasoft
       - shunfeng
+      - w1770946466
       - xrayvip
       - zhangkaiitugithub
 
@@ -197,7 +197,6 @@ proxy-groups:
       - Pawdroid
       - a2470982985
       - aiboboxx
-      - autoproxy
       - chengaopan
       - edgetunnel
       - ermaozi
@@ -207,6 +206,7 @@ proxy-groups:
       - oneclash
       - peasoft
       - shunfeng
+      - w1770946466
       - xrayvip
       - zhangkaiitugithub
 
@@ -231,12 +231,6 @@ proxy-groups:
   - name: aiboboxx
     type: url-test
     use: [aiboboxx]
-    hidden: true
-    <<: *proxy_group_common_config
-
-  - name: autoproxy
-    type: url-test
-    use: [autoproxy]
     hidden: true
     <<: *proxy_group_common_config
 
@@ -291,6 +285,12 @@ proxy-groups:
   - name: shunfeng
     type: url-test
     use: [shunfeng]
+    hidden: true
+    <<: *proxy_group_common_config
+
+  - name: w1770946466
+    type: url-test
+    use: [w1770946466]
     hidden: true
     <<: *proxy_group_common_config
 

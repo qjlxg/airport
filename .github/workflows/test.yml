@@ -7,7 +7,7 @@ on:
       - '.github/workflows/test.yml'
   # 定时触发
   schedule:
-    - cron: '0 */1 * * *'
+    - cron: '0 */6 * * *'
   # 手动触发
   workflow_dispatch:
 
@@ -22,11 +22,11 @@ jobs:
       - name: Test proxies
         run: |
           cd tools
-          .\meta_speedtest.exe --config ..\subs\merged\unlimited.yaml -o ..\subs\dongchengjie.yaml --timeout 10000 --delay-filter 10000 --log-level debug
+          .\meta_speedtest.exe --config ..\subs\merged\unlimited.yaml -o ..\subs\dongchengjie.yaml --timeout 2000 --delay-filter 2000 --download --download-duration 5000 --rename-tag Github_Action --log-level debug
 
       - name: Git Add
         run: |
-          git add subs/merged/elected.yaml
+          git add subs/dongchengjie.yaml
 
       - name: Git Commit
         run: |

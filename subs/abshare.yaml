@@ -5,85 +5,85 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 永久域名发布页：abpubs.xyz, server: 8h2k01.2weradf.xyz, port: 36016, type: ss, cipher: chacha20-ietf-poly1305, password: 3b42236e-63cc-4206-8863-2caff6d16424}
-  - {name: 永久中文域名：蓝色海洋.xyz, server: 8h2k01.2weradf.xyz, port: 36016, type: ss, cipher: chacha20-ietf-poly1305, password: 3b42236e-63cc-4206-8863-2caff6d16424}
-  - {name: 🇭🇰 香港01 | 专线, server: 8h2k01.2weradf.xyz, port: 36016, type: ss, cipher: chacha20-ietf-poly1305, password: 3b42236e-63cc-4206-8863-2caff6d16424}
-  - {name: 🇭🇰 香港02 | 专线, server: 8h2k02.2weradf.xyz, port: 36017, type: ss, cipher: chacha20-ietf-poly1305, password: 3b42236e-63cc-4206-8863-2caff6d16424}
-  - {name: 🇭🇰 香港03 | 专线, server: 8h2k03.2weradf.xyz, port: 36018, type: ss, cipher: chacha20-ietf-poly1305, password: 3b42236e-63cc-4206-8863-2caff6d16424}
-  - {name: 🇨🇳 台湾01 | 专线, server: 8t6w01.2weradf.xyz, port: 36026, type: ss, cipher: chacha20-ietf-poly1305, password: 3b42236e-63cc-4206-8863-2caff6d16424}
-  - {name: 🇨🇳 台湾02 | 专线, server: 8t6w02.2weradf.xyz, port: 36027, type: ss, cipher: chacha20-ietf-poly1305, password: 3b42236e-63cc-4206-8863-2caff6d16424}
-  - {name: 🇨🇳 台湾03 | 专线, server: 8t6w03.2weradf.xyz, port: 36028, type: ss, cipher: chacha20-ietf-poly1305, password: 3b42236e-63cc-4206-8863-2caff6d16424}
-  - {name: 🇯🇵 日本01 | 专线, server: 1j8p01.2weradf.xyz, port: 36010, type: ss, cipher: chacha20-ietf-poly1305, password: 3b42236e-63cc-4206-8863-2caff6d16424}
-  - {name: 🇯🇵 日本02 | 专线, server: 1j8p01.2weradf.xyz, port: 36011, type: ss, cipher: chacha20-ietf-poly1305, password: 3b42236e-63cc-4206-8863-2caff6d16424}
-  - {name: 🇯🇵 日本03 | 专线, server: 1j8p03.2weradf.xyz, port: 36012, type: ss, cipher: chacha20-ietf-poly1305, password: 3b42236e-63cc-4206-8863-2caff6d16424}
-  - {name: 🇸🇬 新加坡01 | 专线, server: 9s5g01.2weradf.xyz, port: 36020, type: ss, cipher: chacha20-ietf-poly1305, password: 3b42236e-63cc-4206-8863-2caff6d16424}
-  - {name: 🇸🇬 新加坡02 | 专线, server: 9s5g02.2weradf.xyz, port: 36021, type: ss, cipher: chacha20-ietf-poly1305, password: 3b42236e-63cc-4206-8863-2caff6d16424}
-  - {name: 🇸🇬 新加坡03 | 专线, server: 9s5g03.2weradf.xyz, port: 36022, type: ss, cipher: chacha20-ietf-poly1305, password: 3b42236e-63cc-4206-8863-2caff6d16424}
-  - {name: 🇺🇲 美国01 | 专线, server: 3u1s01.2weradf.xyz, port: 36030, type: ss, cipher: chacha20-ietf-poly1305, password: 3b42236e-63cc-4206-8863-2caff6d16424}
-  - {name: 🇺🇲 美国02 | 专线, server: 3u1s02.2weradf.xyz, port: 36031, type: ss, cipher: chacha20-ietf-poly1305, password: 3b42236e-63cc-4206-8863-2caff6d16424}
-  - {name: 🇺🇲 美国03 | 专线, server: 3u1s03.2weradf.xyz, port: 36032, type: ss, cipher: chacha20-ietf-poly1305, password: 3b42236e-63cc-4206-8863-2caff6d16424}
-  - {name: 🇭🇰 香港01, server: 8h2k01.abzoones.xyz, port: 36601, type: trojan, password: 3b42236e-63cc-4206-8863-2caff6d16424, sni: hk01.abpilot.xyz, skip-cert-verify: false}
-  - {name: 🇭🇰 香港02, server: 8h2k02.abzoones.xyz, port: 36606, type: trojan, password: 3b42236e-63cc-4206-8863-2caff6d16424, sni: hk02.abpilot.xyz, skip-cert-verify: false}
-  - {name: 🇭🇰 香港03, server: 8h2k03.abzoones.xyz, port: 36611, type: trojan, password: 3b42236e-63cc-4206-8863-2caff6d16424, sni: hk03.abpilot.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 日本01, server: 1j8p01.abzoones.xyz, port: 36116, type: trojan, password: 3b42236e-63cc-4206-8863-2caff6d16424, sni: jp01.abpilot.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 日本02, server: 1j8p02.abzoones.xyz, port: 36106, type: trojan, password: 3b42236e-63cc-4206-8863-2caff6d16424, sni: jp02.abpilot.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 日本03, server: 1j8p03.abzoones.xyz, port: 36111, type: trojan, password: 3b42236e-63cc-4206-8863-2caff6d16424, sni: jp03.abpilot.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 日本04, server: 1j8p04.abzoones.xyz, port: 36116, type: vmess, uuid: 3b42236e-63cc-4206-8863-2caff6d16424, alterId: 0, cipher: auto, tls: true, servername: jp04.abpilot.xyz}
-  - {name: 🇯🇵 日本05, server: 1j8p05.abzoones.xyz, port: 36106, type: vmess, uuid: 3b42236e-63cc-4206-8863-2caff6d16424, alterId: 0, cipher: auto, tls: true, servername: jp05.abpilot.xyz}
-  - {name: 🇯🇵 日本06, server: 1j8p06.abzoones.xyz, port: 36111, type: vmess, uuid: 3b42236e-63cc-4206-8863-2caff6d16424, alterId: 0, cipher: auto, tls: true, servername: jp06.abpilot.xyz}
-  - {name: 🇨🇳 台湾01, server: 8t6w01.abzoones.xyz, port: 36301, type: trojan, password: 3b42236e-63cc-4206-8863-2caff6d16424, sni: tw01.abpilot.xyz, skip-cert-verify: false}
-  - {name: 🇨🇳 台湾02, server: 8t6w02.abzoones.xyz, port: 36306, type: trojan, password: 3b42236e-63cc-4206-8863-2caff6d16424, sni: tw02.abpilot.xyz, skip-cert-verify: false}
-  - {name: 🇨🇳 台湾03, server: 8t6w03.abzoones.xyz, port: 36311, type: trojan, password: 3b42236e-63cc-4206-8863-2caff6d16424, sni: tw03.abpilot.xyz, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡01, server: 9s5g01.abzoones.xyz, port: 36201, type: trojan, password: 3b42236e-63cc-4206-8863-2caff6d16424, sni: sg01.abpilot.xyz, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡02, server: 9s5g02.abzoones.xyz, port: 36206, type: trojan, password: 3b42236e-63cc-4206-8863-2caff6d16424, sni: sg02.abpilot.xyz, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡03, server: 9s5g03.abzoones.xyz, port: 36211, type: trojan, password: 3b42236e-63cc-4206-8863-2caff6d16424, sni: sg03.abpilot.xyz, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡04, server: 9s5g04.abzoones.xyz, port: 36201, type: vmess, uuid: 3b42236e-63cc-4206-8863-2caff6d16424, alterId: 0, cipher: auto, tls: true, servername: sg04.abpilot.xyz}
-  - {name: 🇸🇬 新加坡05, server: 9s5g05.abzoones.xyz, port: 36206, type: vmess, uuid: 3b42236e-63cc-4206-8863-2caff6d16424, alterId: 0, cipher: auto, tls: true, servername: sg05.abpilot.xyz}
-  - {name: 🇸🇬 新加坡06, server: 9s5g06.abzoones.xyz, port: 36211, type: vmess, uuid: 3b42236e-63cc-4206-8863-2caff6d16424, alterId: 0, cipher: auto, tls: true, servername: sg06.abpilot.xyz}
-  - {name: 🇺🇲 美国01, server: 3u1s01.abzoones.xyz, port: 36501, type: trojan, password: 3b42236e-63cc-4206-8863-2caff6d16424, sni: us01.abpilot.xyz, skip-cert-verify: false}
-  - {name: 🇺🇲 美国02, server: 3u1s02.abzoones.xyz, port: 36506, type: trojan, password: 3b42236e-63cc-4206-8863-2caff6d16424, sni: us02.abpilot.xyz, skip-cert-verify: false}
-  - {name: 🇺🇲 美国03, server: 3u1s03.abzoones.xyz, port: 36511, type: trojan, password: 3b42236e-63cc-4206-8863-2caff6d16424, sni: us03.abpilot.xyz, skip-cert-verify: false}
-  - {name: 🇺🇲 美国04, server: 3u1s04.abzoones.xyz, port: 36501, type: vmess, uuid: 3b42236e-63cc-4206-8863-2caff6d16424, alterId: 0, cipher: auto, tls: true, servername: us04.abpilot.xyz}
-  - {name: 🇺🇲 美国05, server: 3u1s05.abzoones.xyz, port: 36506, type: vmess, uuid: 3b42236e-63cc-4206-8863-2caff6d16424, alterId: 0, cipher: auto, tls: true, servername: us05.abpilot.xyz}
-  - {name: 🇺🇲 美国06, server: 3u1s06.abzoones.xyz, port: 36511, type: vmess, uuid: 3b42236e-63cc-4206-8863-2caff6d16424, alterId: 0, cipher: auto, tls: true, servername: us06.abpilot.xyz}
-  - {name: 🇷🇺 俄罗斯01, server: 8r5u01.abzoones.xyz, port: 36851, type: trojan, password: 3b42236e-63cc-4206-8863-2caff6d16424, sni: ru01.abpilot.xyz, skip-cert-verify: false}
-  - {name: 🇷🇺 俄罗斯04, server: 8r5u04.abzoones.xyz, port: 36851, type: vmess, uuid: 3b42236e-63cc-4206-8863-2caff6d16424, alterId: 0, cipher: auto, tls: true, servername: ru04.abpilot.xyz}
-  - {name: 🇲🇾 马来西亚01, server: 8m6y01.abzoones.xyz, port: 36887, type: trojan, password: 3b42236e-63cc-4206-8863-2caff6d16424, sni: my01.abpilot.xyz, skip-cert-verify: false}
-  - {name: 🇲🇾 马来西亚04, server: 8m6y01.abzoones.xyz, port: 36887, type: vmess, uuid: 3b42236e-63cc-4206-8863-2caff6d16424, alterId: 0, cipher: auto, tls: true, servername: my04.abpilot.xyz}
-  - {name: 🇹🇭 泰国01, server: 1t8h01.abzoones.xyz, port: 36904, type: trojan, password: 3b42236e-63cc-4206-8863-2caff6d16424, sni: th01.abpilot.xyz, skip-cert-verify: false}
-  - {name: 🇹🇭 泰国04, server: 1t8h04.abzoones.xyz, port: 36904, type: vmess, uuid: 3b42236e-63cc-4206-8863-2caff6d16424, alterId: 0, cipher: auto, tls: true, servername: th04.abpilot.xyz}
-  - {name: 🇵🇭 菲律宾01, server: 7p3h01.abzoones.xyz, port: 36801, type: trojan, password: 3b42236e-63cc-4206-8863-2caff6d16424, sni: ph01.abpilot.xyz, skip-cert-verify: false}
-  - {name: 🇵🇭 菲律宾04, server: 7p3h04.abzoones.xyz, port: 36801, type: vmess, uuid: 3b42236e-63cc-4206-8863-2caff6d16424, alterId: 0, cipher: auto, tls: true, servername: ph04.abpilot.xyz}
-  - {name: 🇰🇷 韩国01, server: 8k2r01.abzoones.xyz, port: 36401, type: trojan, password: 3b42236e-63cc-4206-8863-2caff6d16424, sni: kr01.abpilot.xyz, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国04, server: 8k2r04.abzoones.xyz, port: 36401, type: vmess, uuid: 3b42236e-63cc-4206-8863-2caff6d16424, alterId: 0, cipher: auto, tls: true, servername: kr04.abpilot.xyz}
-  - {name: 🇮🇳 印度01, server: 7i4n01.abzoones.xyz, port: 36831, type: trojan, password: 3b42236e-63cc-4206-8863-2caff6d16424, sni: in01.abpilot.xyz, skip-cert-verify: false}
-  - {name: 🇮🇳 印度04, server: 7i4n04.abzoones.xyz, port: 36831, type: vmess, uuid: 3b42236e-63cc-4206-8863-2caff6d16424, alterId: 0, cipher: auto, tls: true, servername: in04.abpilot.xyz}
-  - {name: 🇧🇷 巴西01, server: 6i2r01.abzoones.xyz, port: 36877, type: trojan, password: 3b42236e-63cc-4206-8863-2caff6d16424, sni: br01.abpilot.xyz, skip-cert-verify: false}
-  - {name: 🇧🇷 巴西04, server: 6i2r04.abzoones.xyz, port: 36877, type: vmess, uuid: 3b42236e-63cc-4206-8863-2caff6d16424, alterId: 0, cipher: auto, tls: true, servername: br04.abpilot.xyz}
-  - {name: 🇻🇳 越南01, server: 3v4n01.abzoones.xyz, port: 36874, type: trojan, password: 3b42236e-63cc-4206-8863-2caff6d16424, sni: vn01.abpilot.xyz, skip-cert-verify: false}
-  - {name: 🇻🇳 越南04, server: 3v4n04.abzoones.xyz, port: 36874, type: vmess, uuid: 3b42236e-63cc-4206-8863-2caff6d16424, alterId: 0, cipher: auto, tls: true, servername: vn04.abpilot.xyz}
-  - {name: 匈牙利01, server: 2h4u01.abzoones.xyz, port: 36864, type: trojan, password: 3b42236e-63cc-4206-8863-2caff6d16424, sni: hu01.abpilot.xyz, skip-cert-verify: false}
-  - {name: 匈牙利04, server: 2h4u04.abzoones.xyz, port: 36864, type: vmess, uuid: 3b42236e-63cc-4206-8863-2caff6d16424, alterId: 0, cipher: auto, tls: true, servername: hu04.abpilot.xyz}
-  - {name: 🇦🇷 阿根廷01, server: 9a8r01.abzoones.xyz, port: 36861, type: trojan, password: 3b42236e-63cc-4206-8863-2caff6d16424, sni: ar01.abpilot.xyz, skip-cert-verify: false}
-  - {name: 🇦🇷 阿根廷04, server: 9a8r04.abzoones.xyz, port: 36861, type: vmess, uuid: 3b42236e-63cc-4206-8863-2caff6d16424, alterId: 0, cipher: auto, tls: true, servername: ar04.abpilot.xyz}
-  - {name: 🇹🇷 土耳其01, server: 2t1u01.abzoones.xyz, port: 36868, type: trojan, password: 3b42236e-63cc-4206-8863-2caff6d16424, sni: tr01.abpilot.xyz, skip-cert-verify: false}
-  - {name: 🇹🇷 土耳其04, server: 2t1u04.abzoones.xyz, port: 36868, type: vmess, uuid: 3b42236e-63cc-4206-8863-2caff6d16424, alterId: 0, cipher: auto, tls: true, servername: tr04.abpilot.xyz}
-  - {name: 乌克兰01, server: 8u9a01.abzoones.xyz, port: 36871, type: trojan, password: 3b42236e-63cc-4206-8863-2caff6d16424, sni: ua01.abpilot.xyz, skip-cert-verify: false}
-  - {name: 乌克兰04, server: 8u9a04.abzoones.xyz, port: 36871, type: vmess, uuid: 3b42236e-63cc-4206-8863-2caff6d16424, alterId: 0, cipher: auto, tls: true, servername: ua04.abpilot.xyz}
-  - {name: 🇦🇺 澳大利亚01, server: 5a4u01.abzoones.xyz, port: 36821, type: trojan, password: 3b42236e-63cc-4206-8863-2caff6d16424, sni: au01.abpilot.xyz, skip-cert-verify: false}
-  - {name: 🇦🇺 澳大利亚04, server: 5a4u04.abzoones.xyz, port: 36821, type: vmess, uuid: 3b42236e-63cc-4206-8863-2caff6d16424, alterId: 0, cipher: auto, tls: true, servername: au04.abpilot.xyz}
-  - {name: 🇬🇧 英国01, server: 2u3k01.abzoones.xyz, port: 36811, type: trojan, password: 3b42236e-63cc-4206-8863-2caff6d16424, sni: uk01.abpilot.xyz, skip-cert-verify: false}
-  - {name: 🇬🇧 英国04, server: 2u3k04.abzoones.xyz, port: 36811, type: vmess, uuid: 3b42236e-63cc-4206-8863-2caff6d16424, alterId: 0, cipher: auto, tls: true, servername: uk04.abpilot.xyz}
-  - {name: 🇩🇪 德国01, server: 3d6e01.abzoones.xyz, port: 36841, type: trojan, password: 3b42236e-63cc-4206-8863-2caff6d16424, sni: de01.abpilot.xyz, skip-cert-verify: false}
-  - {name: 🇩🇪 德国04, server: 3d6e04.abzoones.xyz, port: 36841, type: vmess, uuid: 3b42236e-63cc-4206-8863-2caff6d16424, alterId: 0, cipher: auto, tls: true, servername: de04.abpilot.xyz}
-  - {name: 🇨🇦 加拿大01, server: 5c1a01.abzoones.xyz, port: 36701, type: trojan, password: 3b42236e-63cc-4206-8863-2caff6d16424, sni: ca01.abpilot.xyz, skip-cert-verify: false}
-  - {name: 🇨🇦 加拿大04, server: 5c1a04.abzoones.xyz, port: 36701, type: vmess, uuid: 3b42236e-63cc-4206-8863-2caff6d16424, alterId: 0, cipher: auto, tls: true, servername: ca04.abpilot.xyz}
-  - {name: 西班牙01, server: 6e2s01.abzoones.xyz, port: 36884, type: trojan, password: 3b42236e-63cc-4206-8863-2caff6d16424, sni: es01.abpilot.xyz, skip-cert-verify: false}
-  - {name: 西班牙04, server: 6e2s04.abzoones.xyz, port: 36884, type: vmess, uuid: 3b42236e-63cc-4206-8863-2caff6d16424, alterId: 0, cipher: auto, tls: true, servername: es04.abpilot.xyz}
-  - {name: "🇯🇵 日本[国外直连]", server: dir01.netorigins2u.site, port: 36116, type: trojan, password: 3b42236e-63cc-4206-8863-2caff6d16424, sni: jp01.abpilot.xyz, skip-cert-verify: false}
-  - {name: "🇸🇬 新加坡[国外直连]", server: dir01.netorigins2u.site, port: 36201, type: trojan, password: 3b42236e-63cc-4206-8863-2caff6d16424, sni: sg01.abpilot.xyz, skip-cert-verify: false}
-  - {name: "🇺🇲 美国[国外直连]", server: dir01.netorigins2u.site, port: 36501, type: trojan, password: 3b42236e-63cc-4206-8863-2caff6d16424, sni: us01.abpilot.xyz, skip-cert-verify: false}
-  - {name: "匈牙利[国外直连]", server: dir01.netorigins2u.site, port: 36864, type: trojan, password: 3b42236e-63cc-4206-8863-2caff6d16424, sni: hu01.abpilot.xyz, skip-cert-verify: false}
+  - {name: 永久域名发布页：abpubs.xyz, server: 8h2k01.2weradf.xyz, port: 36016, type: ss, cipher: chacha20-ietf-poly1305, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4}
+  - {name: 永久中文域名：蓝色海洋.xyz, server: 8h2k01.2weradf.xyz, port: 36016, type: ss, cipher: chacha20-ietf-poly1305, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4}
+  - {name: 🇭🇰 香港01 | 专线, server: 8h2k01.2weradf.xyz, port: 36016, type: ss, cipher: chacha20-ietf-poly1305, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4}
+  - {name: 🇭🇰 香港02 | 专线, server: 8h2k02.2weradf.xyz, port: 36017, type: ss, cipher: chacha20-ietf-poly1305, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4}
+  - {name: 🇭🇰 香港03 | 专线, server: 8h2k03.2weradf.xyz, port: 36018, type: ss, cipher: chacha20-ietf-poly1305, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4}
+  - {name: 🇨🇳 台湾01 | 专线, server: 8t6w01.2weradf.xyz, port: 36026, type: ss, cipher: chacha20-ietf-poly1305, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4}
+  - {name: 🇨🇳 台湾02 | 专线, server: 8t6w02.2weradf.xyz, port: 36027, type: ss, cipher: chacha20-ietf-poly1305, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4}
+  - {name: 🇨🇳 台湾03 | 专线, server: 8t6w03.2weradf.xyz, port: 36028, type: ss, cipher: chacha20-ietf-poly1305, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4}
+  - {name: 🇯🇵 日本01 | 专线, server: 1j8p01.2weradf.xyz, port: 36010, type: ss, cipher: chacha20-ietf-poly1305, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4}
+  - {name: 🇯🇵 日本02 | 专线, server: 1j8p01.2weradf.xyz, port: 36011, type: ss, cipher: chacha20-ietf-poly1305, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4}
+  - {name: 🇯🇵 日本03 | 专线, server: 1j8p03.2weradf.xyz, port: 36012, type: ss, cipher: chacha20-ietf-poly1305, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4}
+  - {name: 🇸🇬 新加坡01 | 专线, server: 9s5g01.2weradf.xyz, port: 36020, type: ss, cipher: chacha20-ietf-poly1305, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4}
+  - {name: 🇸🇬 新加坡02 | 专线, server: 9s5g02.2weradf.xyz, port: 36021, type: ss, cipher: chacha20-ietf-poly1305, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4}
+  - {name: 🇸🇬 新加坡03 | 专线, server: 9s5g03.2weradf.xyz, port: 36022, type: ss, cipher: chacha20-ietf-poly1305, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4}
+  - {name: 🇺🇲 美国01 | 专线, server: 3u1s01.2weradf.xyz, port: 36030, type: ss, cipher: chacha20-ietf-poly1305, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4}
+  - {name: 🇺🇲 美国02 | 专线, server: 3u1s02.2weradf.xyz, port: 36031, type: ss, cipher: chacha20-ietf-poly1305, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4}
+  - {name: 🇺🇲 美国03 | 专线, server: 3u1s03.2weradf.xyz, port: 36032, type: ss, cipher: chacha20-ietf-poly1305, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4}
+  - {name: 🇭🇰 香港01, server: 8h2k01.abzoones.xyz, port: 36601, type: trojan, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, sni: hk01.abpilot.xyz, skip-cert-verify: false}
+  - {name: 🇭🇰 香港02, server: 8h2k02.abzoones.xyz, port: 36606, type: trojan, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, sni: hk02.abpilot.xyz, skip-cert-verify: false}
+  - {name: 🇭🇰 香港03, server: 8h2k03.abzoones.xyz, port: 36611, type: trojan, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, sni: hk03.abpilot.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 日本01, server: 1j8p01.abzoones.xyz, port: 36116, type: trojan, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, sni: jp01.abpilot.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 日本02, server: 1j8p02.abzoones.xyz, port: 36106, type: trojan, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, sni: jp02.abpilot.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 日本03, server: 1j8p03.abzoones.xyz, port: 36111, type: trojan, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, sni: jp03.abpilot.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 日本04, server: 1j8p04.abzoones.xyz, port: 36116, type: vmess, uuid: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, alterId: 0, cipher: auto, tls: true, servername: jp04.abpilot.xyz}
+  - {name: 🇯🇵 日本05, server: 1j8p05.abzoones.xyz, port: 36106, type: vmess, uuid: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, alterId: 0, cipher: auto, tls: true, servername: jp05.abpilot.xyz}
+  - {name: 🇯🇵 日本06, server: 1j8p06.abzoones.xyz, port: 36111, type: vmess, uuid: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, alterId: 0, cipher: auto, tls: true, servername: jp06.abpilot.xyz}
+  - {name: 🇨🇳 台湾01, server: 8t6w01.abzoones.xyz, port: 36301, type: trojan, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, sni: tw01.abpilot.xyz, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾02, server: 8t6w02.abzoones.xyz, port: 36306, type: trojan, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, sni: tw02.abpilot.xyz, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾03, server: 8t6w03.abzoones.xyz, port: 36311, type: trojan, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, sni: tw03.abpilot.xyz, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡01, server: 9s5g01.abzoones.xyz, port: 36201, type: trojan, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, sni: sg01.abpilot.xyz, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡02, server: 9s5g02.abzoones.xyz, port: 36206, type: trojan, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, sni: sg02.abpilot.xyz, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡03, server: 9s5g03.abzoones.xyz, port: 36211, type: trojan, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, sni: sg03.abpilot.xyz, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡04, server: 9s5g04.abzoones.xyz, port: 36201, type: vmess, uuid: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, alterId: 0, cipher: auto, tls: true, servername: sg04.abpilot.xyz}
+  - {name: 🇸🇬 新加坡05, server: 9s5g05.abzoones.xyz, port: 36206, type: vmess, uuid: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, alterId: 0, cipher: auto, tls: true, servername: sg05.abpilot.xyz}
+  - {name: 🇸🇬 新加坡06, server: 9s5g06.abzoones.xyz, port: 36211, type: vmess, uuid: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, alterId: 0, cipher: auto, tls: true, servername: sg06.abpilot.xyz}
+  - {name: 🇺🇲 美国01, server: 3u1s01.abzoones.xyz, port: 36501, type: trojan, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, sni: us01.abpilot.xyz, skip-cert-verify: false}
+  - {name: 🇺🇲 美国02, server: 3u1s02.abzoones.xyz, port: 36506, type: trojan, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, sni: us02.abpilot.xyz, skip-cert-verify: false}
+  - {name: 🇺🇲 美国03, server: 3u1s03.abzoones.xyz, port: 36511, type: trojan, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, sni: us03.abpilot.xyz, skip-cert-verify: false}
+  - {name: 🇺🇲 美国04, server: 3u1s04.abzoones.xyz, port: 36501, type: vmess, uuid: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, alterId: 0, cipher: auto, tls: true, servername: us04.abpilot.xyz}
+  - {name: 🇺🇲 美国05, server: 3u1s05.abzoones.xyz, port: 36506, type: vmess, uuid: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, alterId: 0, cipher: auto, tls: true, servername: us05.abpilot.xyz}
+  - {name: 🇺🇲 美国06, server: 3u1s06.abzoones.xyz, port: 36511, type: vmess, uuid: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, alterId: 0, cipher: auto, tls: true, servername: us06.abpilot.xyz}
+  - {name: 🇷🇺 俄罗斯01, server: 8r5u01.abzoones.xyz, port: 36851, type: trojan, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, sni: ru01.abpilot.xyz, skip-cert-verify: false}
+  - {name: 🇷🇺 俄罗斯04, server: 8r5u04.abzoones.xyz, port: 36851, type: vmess, uuid: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, alterId: 0, cipher: auto, tls: true, servername: ru04.abpilot.xyz}
+  - {name: 🇲🇾 马来西亚01, server: 8m6y01.abzoones.xyz, port: 36887, type: trojan, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, sni: my01.abpilot.xyz, skip-cert-verify: false}
+  - {name: 🇲🇾 马来西亚04, server: 8m6y01.abzoones.xyz, port: 36887, type: vmess, uuid: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, alterId: 0, cipher: auto, tls: true, servername: my04.abpilot.xyz}
+  - {name: 🇹🇭 泰国01, server: 1t8h01.abzoones.xyz, port: 36904, type: trojan, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, sni: th01.abpilot.xyz, skip-cert-verify: false}
+  - {name: 🇹🇭 泰国04, server: 1t8h04.abzoones.xyz, port: 36904, type: vmess, uuid: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, alterId: 0, cipher: auto, tls: true, servername: th04.abpilot.xyz}
+  - {name: 🇵🇭 菲律宾01, server: 7p3h01.abzoones.xyz, port: 36801, type: trojan, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, sni: ph01.abpilot.xyz, skip-cert-verify: false}
+  - {name: 🇵🇭 菲律宾04, server: 7p3h04.abzoones.xyz, port: 36801, type: vmess, uuid: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, alterId: 0, cipher: auto, tls: true, servername: ph04.abpilot.xyz}
+  - {name: 🇰🇷 韩国01, server: 8k2r01.abzoones.xyz, port: 36401, type: trojan, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, sni: kr01.abpilot.xyz, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国04, server: 8k2r04.abzoones.xyz, port: 36401, type: vmess, uuid: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, alterId: 0, cipher: auto, tls: true, servername: kr04.abpilot.xyz}
+  - {name: 🇮🇳 印度01, server: 7i4n01.abzoones.xyz, port: 36831, type: trojan, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, sni: in01.abpilot.xyz, skip-cert-verify: false}
+  - {name: 🇮🇳 印度04, server: 7i4n04.abzoones.xyz, port: 36831, type: vmess, uuid: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, alterId: 0, cipher: auto, tls: true, servername: in04.abpilot.xyz}
+  - {name: 🇧🇷 巴西01, server: 6i2r01.abzoones.xyz, port: 36877, type: trojan, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, sni: br01.abpilot.xyz, skip-cert-verify: false}
+  - {name: 🇧🇷 巴西04, server: 6i2r04.abzoones.xyz, port: 36877, type: vmess, uuid: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, alterId: 0, cipher: auto, tls: true, servername: br04.abpilot.xyz}
+  - {name: 🇻🇳 越南01, server: 3v4n01.abzoones.xyz, port: 36874, type: trojan, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, sni: vn01.abpilot.xyz, skip-cert-verify: false}
+  - {name: 🇻🇳 越南04, server: 3v4n04.abzoones.xyz, port: 36874, type: vmess, uuid: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, alterId: 0, cipher: auto, tls: true, servername: vn04.abpilot.xyz}
+  - {name: 匈牙利01, server: 2h4u01.abzoones.xyz, port: 36864, type: trojan, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, sni: hu01.abpilot.xyz, skip-cert-verify: false}
+  - {name: 匈牙利04, server: 2h4u04.abzoones.xyz, port: 36864, type: vmess, uuid: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, alterId: 0, cipher: auto, tls: true, servername: hu04.abpilot.xyz}
+  - {name: 🇦🇷 阿根廷01, server: 9a8r01.abzoones.xyz, port: 36861, type: trojan, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, sni: ar01.abpilot.xyz, skip-cert-verify: false}
+  - {name: 🇦🇷 阿根廷04, server: 9a8r04.abzoones.xyz, port: 36861, type: vmess, uuid: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, alterId: 0, cipher: auto, tls: true, servername: ar04.abpilot.xyz}
+  - {name: 🇹🇷 土耳其01, server: 2t1u01.abzoones.xyz, port: 36868, type: trojan, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, sni: tr01.abpilot.xyz, skip-cert-verify: false}
+  - {name: 🇹🇷 土耳其04, server: 2t1u04.abzoones.xyz, port: 36868, type: vmess, uuid: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, alterId: 0, cipher: auto, tls: true, servername: tr04.abpilot.xyz}
+  - {name: 乌克兰01, server: 8u9a01.abzoones.xyz, port: 36871, type: trojan, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, sni: ua01.abpilot.xyz, skip-cert-verify: false}
+  - {name: 乌克兰04, server: 8u9a04.abzoones.xyz, port: 36871, type: vmess, uuid: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, alterId: 0, cipher: auto, tls: true, servername: ua04.abpilot.xyz}
+  - {name: 🇦🇺 澳大利亚01, server: 5a4u01.abzoones.xyz, port: 36821, type: trojan, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, sni: au01.abpilot.xyz, skip-cert-verify: false}
+  - {name: 🇦🇺 澳大利亚04, server: 5a4u04.abzoones.xyz, port: 36821, type: vmess, uuid: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, alterId: 0, cipher: auto, tls: true, servername: au04.abpilot.xyz}
+  - {name: 🇬🇧 英国01, server: 2u3k01.abzoones.xyz, port: 36811, type: trojan, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, sni: uk01.abpilot.xyz, skip-cert-verify: false}
+  - {name: 🇬🇧 英国04, server: 2u3k04.abzoones.xyz, port: 36811, type: vmess, uuid: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, alterId: 0, cipher: auto, tls: true, servername: uk04.abpilot.xyz}
+  - {name: 🇩🇪 德国01, server: 3d6e01.abzoones.xyz, port: 36841, type: trojan, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, sni: de01.abpilot.xyz, skip-cert-verify: false}
+  - {name: 🇩🇪 德国04, server: 3d6e04.abzoones.xyz, port: 36841, type: vmess, uuid: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, alterId: 0, cipher: auto, tls: true, servername: de04.abpilot.xyz}
+  - {name: 🇨🇦 加拿大01, server: 5c1a01.abzoones.xyz, port: 36701, type: trojan, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, sni: ca01.abpilot.xyz, skip-cert-verify: false}
+  - {name: 🇨🇦 加拿大04, server: 5c1a04.abzoones.xyz, port: 36701, type: vmess, uuid: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, alterId: 0, cipher: auto, tls: true, servername: ca04.abpilot.xyz}
+  - {name: 西班牙01, server: 6e2s01.abzoones.xyz, port: 36884, type: trojan, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, sni: es01.abpilot.xyz, skip-cert-verify: false}
+  - {name: 西班牙04, server: 6e2s04.abzoones.xyz, port: 36884, type: vmess, uuid: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, alterId: 0, cipher: auto, tls: true, servername: es04.abpilot.xyz}
+  - {name: "🇯🇵 日本[国外直连]", server: dir01.netorigins2u.site, port: 36116, type: trojan, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, sni: jp01.abpilot.xyz, skip-cert-verify: false}
+  - {name: "🇸🇬 新加坡[国外直连]", server: dir01.netorigins2u.site, port: 36201, type: trojan, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, sni: sg01.abpilot.xyz, skip-cert-verify: false}
+  - {name: "🇺🇲 美国[国外直连]", server: dir01.netorigins2u.site, port: 36501, type: trojan, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, sni: us01.abpilot.xyz, skip-cert-verify: false}
+  - {name: "匈牙利[国外直连]", server: dir01.netorigins2u.site, port: 36864, type: trojan, password: 24e339a1-ecc8-4658-ad1e-c90c82dfbec4, sni: hu01.abpilot.xyz, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select

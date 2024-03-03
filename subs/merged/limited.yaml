@@ -46,11 +46,11 @@ proxy_provider_common_config: &proxy_provider_common_config
     timeout: 5000
     url: https://www.google.com/gen_204
 proxy_group_common_config: &proxy_group_common_config
-    lazy: false
-    interval: 300
-    timeout: 5000
-    tolerance: 100
-    url: https://www.google.com/gen_204
+  lazy: false
+  interval: 300
+  timeout: 5000
+  tolerance: 100
+  url: https://www.google.com/gen_204
 
 # 订阅地址
 proxy-providers:

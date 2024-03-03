@@ -5,85 +5,85 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 永久域名发布页：mcrelease.xyz, server: 5m4h0k01.6vczxw.xyz, port: 31016, type: ss, cipher: chacha20-ietf-poly1305, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5}
-  - {name: 永久中文域名：米卡莎.xyz, server: 5m4h0k01.6vczxw.xyz, port: 31016, type: ss, cipher: chacha20-ietf-poly1305, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5}
-  - {name: 🇭🇰 【专线】| 香港01 | 1x HK, server: 5m4h0k01.m7k6s.xyz, port: 31016, type: ss, cipher: chacha20-ietf-poly1305, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5}
-  - {name: 🇭🇰 【专线】| 香港02 | 1x HK, server: 5m4h0k02.m7k6s.xyz, port: 31017, type: ss, cipher: chacha20-ietf-poly1305, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5}
-  - {name: 🇭🇰 【专线】| 香港03 | 1x HK, server: 5m4h0k03.m7k6s.xyz, port: 31018, type: ss, cipher: chacha20-ietf-poly1305, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5}
-  - {name: 🇨🇳 【专线】| 台湾 01 | 1x TWN, server: 2d1t5w01.m7k6s.xyz, port: 31026, type: ss, cipher: chacha20-ietf-poly1305, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5}
-  - {name: 🇨🇳 【专线】| 台湾 02 | 1x TWN, server: 2d1t5w02.m7k6s.xyz, port: 31027, type: ss, cipher: chacha20-ietf-poly1305, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5}
-  - {name: 🇨🇳 【专线】| 台湾 03 | 1x TWN, server: 2d1t5w03.m7k6s.xyz, port: 31028, type: ss, cipher: chacha20-ietf-poly1305, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5}
-  - {name: 🇯🇵 【专线】| 日本 01 | 1x JP, server: 7z7j3p01.m7k6s.xyz, port: 31010, type: ss, cipher: chacha20-ietf-poly1305, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5}
-  - {name: 🇯🇵 【专线】| 日本 02 | 1x JP, server: 7z7j3p02.m7k6s.xyz, port: 31011, type: ss, cipher: chacha20-ietf-poly1305, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5}
-  - {name: 🇯🇵 【专线】| 日本 03 | 1x JP, server: 7z7j3p03.m7k6s.xyz, port: 31012, type: ss, cipher: chacha20-ietf-poly1305, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5}
-  - {name: 🇸🇬 【专线】| 新加坡 01 | 1x SG, server: 1c7s2g01.m7k6s.xyz, port: 31020, type: ss, cipher: chacha20-ietf-poly1305, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5}
-  - {name: 🇸🇬 【专线】| 新加坡 02 | 1x SG, server: 1c7s2g02.m7k6s.xyz, port: 31021, type: ss, cipher: chacha20-ietf-poly1305, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5}
-  - {name: 🇸🇬 【专线】| 新加坡 03 | 1x SG, server: 1c7s2g03.m7k6s.xyz, port: 31022, type: ss, cipher: chacha20-ietf-poly1305, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5}
-  - {name: 🇺🇲 【专线】| 美国 01 | 1x US, server: 4a2u0a01.m7k6s.xyz, port: 31030, type: ss, cipher: chacha20-ietf-poly1305, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5}
-  - {name: 🇺🇲 【专线】| 美国 02 | 1x US, server: 4a2u0a02.m7k6s.xyz, port: 31031, type: ss, cipher: chacha20-ietf-poly1305, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5}
-  - {name: 🇺🇲 【专线】| 美国 03 | 1x US, server: 4a2u0a03.m7k6s.xyz, port: 31032, type: ss, cipher: chacha20-ietf-poly1305, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5}
-  - {name: 🇭🇰 【BGP】香港 01 | 1x HK, server: 5m4h0k01.m7k6s.xyz, port: 31601, type: trojan, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, sni: hk01.lovemc.xyz, skip-cert-verify: false}
-  - {name: 🇭🇰 【BGP】香港 02 | 1x HK, server: 5m4h0k02.m7k6s.xyz, port: 31606, type: trojan, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, sni: hk02.lovemc.xyz, skip-cert-verify: false}
-  - {name: 🇭🇰 【BGP】香港 03 | 1x HK, server: 5m4h0k03.m7k6s.xyz, port: 31611, type: trojan, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, sni: hk03.lovemc.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 【BGP】日本 01 | 1x JP, server: 7z7j3p01.m1k2s.xyz, port: 31116, type: trojan, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, sni: jp01.lovemc.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 【BGP】日本 02  | 1x JP, server: 7z7j3p02.m1k2s.xyz, port: 31106, type: trojan, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, sni: jp02.lovemc.xyz, skip-cert-verify: true}
-  - {name: 🇯🇵 【BGP】日本 03  | 1x JP, server: 7z7j3p03.m1k2s.xyz, port: 31111, type: trojan, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, sni: jp03.lovemc.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 【BGP】日本 04  | 1x JP, server: 6w7j3p04.m1k2s.xyz, port: 31116, type: vmess, uuid: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, alterId: 0, cipher: auto, tls: true, servername: jp04.lovemc.xyz}
-  - {name: 🇯🇵 【BGP】日本 05  | 1x JP, server: 6w7j3p05.m1k2s.xyz, port: 31106, type: vmess, uuid: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, alterId: 0, cipher: auto, tls: true, servername: jp05.lovemc.xyz}
-  - {name: 🇯🇵 【BGP】日本 06  | 1x JP, server: 6w7j3p06.m1k2s.xyz, port: 31111, type: vmess, uuid: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, alterId: 0, cipher: auto, tls: true, servername: jp06.lovemc.xyz}
-  - {name: 🇨🇳 【BGP】台湾 01  | 1x TWN, server: 2d1t5w01.m1k2s.xyz, port: 31301, type: trojan, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, sni: tw01.lovemc.xyz, skip-cert-verify: false}
-  - {name: 🇨🇳 【BGP】台湾 02  | 1x TWN, server: 2d1t5w02.m1k2s.xyz, port: 31306, type: trojan, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, sni: tw02.lovemc.xyz, skip-cert-verify: false}
-  - {name: 🇨🇳 【BGP】台湾 03  | 1x TWN, server: 2d1t5w03.m1k2s.xyz, port: 31311, type: trojan, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, sni: tw03.lovemc.xyz, skip-cert-verify: false}
-  - {name: 🇸🇬 【BGP】新加坡 01  | 1x SG, server: 1c7s2g01.m1k2s.xyz, port: 31201, type: trojan, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, sni: sg01.lovemc.xyz, skip-cert-verify: false}
-  - {name: 🇸🇬 【BGP】新加坡 02 | 1x SG, server: 1c7s2g02.m1k2s.xyz, port: 31206, type: trojan, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, sni: sg02.lovemc.xyz, skip-cert-verify: false}
-  - {name: 🇸🇬 【BGP】新加坡 03 | 1x SG, server: 1c7s2g03.m1k2s.xyz, port: 31211, type: trojan, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, sni: sg03.lovemc.xyz, skip-cert-verify: false}
-  - {name: 🇸🇬 【BGP】新加坡 04 | 1x SG, server: 1c7s2g04.m1k2s.xyz, port: 31201, type: vmess, uuid: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, alterId: 0, cipher: auto, tls: true, servername: sg04.lovemc.xyz}
-  - {name: 🇸🇬 【BGP】新加坡 05 | 1x SG, server: 1c7s2g05.m1k2s.xyz, port: 31206, type: vmess, uuid: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, alterId: 0, cipher: auto, tls: true, servername: sg05.lovemc.xyz}
-  - {name: 🇸🇬 【BGP】新加坡 06 | 1x SG, server: 1c7s2g06.m1k2s.xyz, port: 31211, type: vmess, uuid: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, alterId: 0, cipher: auto, tls: true, servername: sg06.lovemc.xyz}
-  - {name: 🇺🇲 【BGP】美国01 | 1x US, server: 4a2u0a01.m1k2s.xyz, port: 31501, type: trojan, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, sni: us01.lovemc.xyz, skip-cert-verify: false}
-  - {name: 🇺🇲 【BGP】美国 02 | 1x US, server: 4a2u0a02.m1k2s.xyz, port: 31506, type: trojan, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, sni: us02.lovemc.xyz, skip-cert-verify: false}
-  - {name: 🇺🇲 【BGP】美国 03 | 1x US, server: 4a2u0a03.m1k2s.xyz, port: 31511, type: trojan, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, sni: us03.lovemc.xyz, skip-cert-verify: false}
-  - {name: 🇺🇲 【BGP】美国 04 | 1x US, server: 4a2u0a04.m1k2s.xyz, port: 31501, type: vmess, uuid: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, alterId: 0, cipher: auto, tls: true, servername: us04.lovemc.xyz}
-  - {name: 🇺🇲 【BGP】美国 05 | 1x US, server: 4a2u0a05.m1k2s.xyz, port: 31506, type: vmess, uuid: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, alterId: 0, cipher: auto, tls: true, servername: us05.lovemc.xyz}
-  - {name: 🇺🇲 【BGP】美国 06 | 1x US, server: 4a2u0a06.m1k2s.xyz, port: 31511, type: vmess, uuid: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, alterId: 0, cipher: auto, tls: true, servername: us06.lovemc.xyz}
-  - {name: 🇰🇷 【BGP】韩国 01 | 1x KR, server: 8l2k1r01.m1k2s.xyz, port: 31401, type: trojan, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, sni: kr01.lovemc.xyz, skip-cert-verify: false}
-  - {name: 🇰🇷 【BGP】韩国 02 | 1x KR, server: 8l2k1r04.m1k2s.xyz, port: 31401, type: vmess, uuid: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, alterId: 0, cipher: auto, tls: true, servername: kr04.lovemc.xyz}
-  - {name: 🇵🇭 【BGP】菲律宾 01 | 1x PH, server: 1a4p0h01.m1k2s.xyz, port: 31801, type: trojan, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, sni: ph01.lovemc.xyz, skip-cert-verify: false}
-  - {name: 🇵🇭 【BGP】菲律宾 04 | 1x PH, server: 1a4p0h04.m1k2s.xyz, port: 31801, type: vmess, uuid: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, alterId: 0, cipher: auto, tls: true, servername: ph04.lovemc.xyz}
-  - {name: 🇷🇺 【BGP】俄罗斯 01 | 1x RU, server: 4t1r5u01.m1k2s.xyz, port: 31851, type: trojan, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, sni: ru01.lovemc.xyz, skip-cert-verify: false}
-  - {name: 🇷🇺 【BGP】俄罗斯 04 | 1x RU, server: 4t1r5u04.m1k2s.xyz, port: 31851, type: vmess, uuid: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, alterId: 0, cipher: auto, tls: true, servername: ru04.lovemc.xyz}
-  - {name: 🇲🇾 【BGP】马来西亚 01 | 1x MY, server: 6e3m6y01.m1k2s.xyz, port: 31887, type: trojan, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, sni: my01.lovemc.xyz, skip-cert-verify: false}
-  - {name: 🇲🇾 【BGP】马来西亚 04 | 1x MY, server: 6e3m6y04.m1k2s.xyz, port: 31887, type: vmess, uuid: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, alterId: 0, cipher: auto, tls: true, servername: my04.lovemc.xyz}
-  - {name: 🇹🇭 【BGP】泰国 01 | 1x TH, server: 2c2t8h01.m1k2s.xyz, port: 31904, type: trojan, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, sni: th01.lovemc.xyz, skip-cert-verify: false}
-  - {name: 🇹🇭 【BGP】泰国 04 | 1x TH, server: 2c2t8h04.m1k2s.xyz, port: 31904, type: vmess, uuid: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, alterId: 0, cipher: auto, tls: true, servername: th04.lovemc.xyz}
-  - {name: 🇦🇷 【BGP】阿根廷 01 | 1x AR, server: 7c1a1r01.m1k2s.xyz, port: 31861, type: trojan, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, sni: ar01.lovemc.xyz, skip-cert-verify: false}
-  - {name: 🇦🇷 【BGP】阿根廷 04 | 1x AR, server: 7c1a1r04.m1k2s.xyz, port: 31861, type: vmess, uuid: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, alterId: 0, cipher: auto, tls: true, servername: ar04.lovemc.xyz}
-  - {name: 【BGP】匈牙利 01 | 1x HU, server: 3c2h4u01.m1k2s.xyz, port: 31864, type: trojan, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, sni: hu01.lovemc.xyz, skip-cert-verify: false}
-  - {name: 【BGP】匈牙利 04 | 1x HU, server: 3c2h4u04.m1k2s.xyz, port: 31864, type: vmess, uuid: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, alterId: 0, cipher: auto, tls: true, servername: hu04.lovemc.xyz}
-  - {name: 🇹🇷 【BGP】土耳其 01 | 1x TR, server: 4t1u6r01.m1k2s.xyz, port: 31868, type: trojan, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, sni: tr01.lovemc.xyz, skip-cert-verify: false}
-  - {name: 🇹🇷 【BGP】土耳其 04 | 1x TR, server: 4t1u6r04.m1k2s.xyz, port: 31868, type: vmess, uuid: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, alterId: 0, cipher: auto, tls: true, servername: tr04.lovemc.xyz}
-  - {name: 【BGP】乌克兰 01 | 1x UA, server: 4w7u4a01.m1k2s.xyz, port: 31871, type: trojan, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, sni: ua01.lovemc.xyz, skip-cert-verify: false}
-  - {name: 【BGP】乌克兰 04 | 1x UA, server: 4w7u4a04.m1k2s.xyz, port: 31871, type: vmess, uuid: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, alterId: 0, cipher: auto, tls: true, servername: ua04.lovemc.xyz}
-  - {name: 🇻🇳 【BGP】越南 01 | 1x VN, server: 2w8u2a01.mcfront.xyz, port: 31874, type: trojan, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, sni: vn01.lovemc.xyz, skip-cert-verify: false}
-  - {name: 🇻🇳 【BGP】越南 04 | 1x VN, server: 2w8u2a04.mcfront.xyz, port: 31874, type: vmess, uuid: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, alterId: 0, cipher: auto, tls: true, servername: vn04.lovemc.xyz}
-  - {name: 🇧🇷 【BGP】巴西 01 | 1x BR, server: 7c6i2r01.m1k2s.xyz, port: 31877, type: trojan, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, sni: br01.lovemc.xyz, skip-cert-verify: false}
-  - {name: 🇧🇷 【BGP】巴西 04 | 1x BR, server: 7c6i2r04.m1k2s.xyz, port: 31877, type: vmess, uuid: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, alterId: 0, cipher: auto, tls: true, servername: br04.lovemc.xyz}
-  - {name: 🇮🇳 【BGP】印度 01 | 1x IN, server: 6q3i1n01.m1k2s.xyz, port: 31831, type: trojan, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, sni: in01.lovemc.xyz, skip-cert-verify: false}
-  - {name: 🇮🇳 【BGP】印度 04 | 1x IN, server: 6q3i1n04.m1k2s.xyz, port: 31831, type: vmess, uuid: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, alterId: 0, cipher: auto, tls: true, servername: in04.lovemc.xyz}
-  - {name: 🇦🇺 【BGP】澳大利亚 01 | 1x AU, server: 4o5a3u01.m1k2s.xyz, port: 31821, type: trojan, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, sni: au01.lovemc.xyz, skip-cert-verify: false}
-  - {name: 🇦🇺 【BGP】澳大利亚 04 | 1x AU, server: 4o5a3u04.m1k2s.xyz, port: 31821, type: vmess, uuid: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, alterId: 0, cipher: auto, tls: true, servername: au04.lovemc.xyz}
-  - {name: 🇬🇧 【BGP】英国 01 | 1x UK, server: 3a4u0k01.m1k2s.xyz, port: 31811, type: trojan, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, sni: uk01.lovemc.xyz, skip-cert-verify: false}
-  - {name: 🇬🇧 【BGP】英国 04 | 1x UK, server: 3a4u0k04.m1k2s.xyz, port: 31811, type: vmess, uuid: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, alterId: 0, cipher: auto, tls: true, servername: uk04.lovemc.xyz}
-  - {name: 🇩🇪 【BGP】德国 01 | 1x DE, server: 9t1d5e01.m1k2s.xyz, port: 31841, type: trojan, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, sni: de01.lovemc.xyz, skip-cert-verify: false}
-  - {name: 🇦🇺 【BGP】德国 04 | 1x AU, server: 9t1d5e04.m1k2s.xyz, port: 31841, type: vmess, uuid: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, alterId: 0, cipher: auto, tls: true, servername: de04.lovemc.xyz}
-  - {name: 🇨🇦 【BGP】加拿大 01 | 1x CA, server: 3d1c4a01.m1k2s.xyz, port: 31701, type: trojan, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, sni: ca01.lovemc.xyz, skip-cert-verify: false}
-  - {name: 🇨🇦 【BGP】加拿大 02 | 1x CA, server: 3d1c4a04.m1k2s.xyz, port: 31701, type: vmess, uuid: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, alterId: 0, cipher: auto, tls: true, servername: ca04.lovemc.xyz}
-  - {name: 🇪🇸 【BGP】西班牙 01 | 1x ES, server: 2d3e6s01.m1k2s.xyz, port: 31884, type: trojan, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, sni: es01.lovemc.xyz, skip-cert-verify: false}
-  - {name: 🇪🇸 【BGP】西班牙 02 | 1x ES, server: 2d3e6s01.m1k2s.xyz, port: 31884, type: vmess, uuid: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, alterId: 0, cipher: auto, tls: true, servername: es04.lovemc.xyz}
-  - {name: 🇺🇲 【国外直连】美国, server: dir01.netorigins2u.site, port: 31501, type: trojan, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, sni: us01.lovemc.xyz, skip-cert-verify: false}
-  - {name: 【国外直连】匈牙利, server: dir01.netorigins2u.site, port: 31864, type: trojan, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, sni: hu01.lovemc.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 【国外直连】日本, server: dir01.netorigins2u.site, port: 31116, type: trojan, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, sni: jp01.lovemc.xyz, skip-cert-verify: false}
-  - {name: 🇸🇬 【国外直连】新加坡, server: dir01.netorigins2u.site, port: 31201, type: trojan, password: ccf1de50-f9a8-43ec-b0ea-2360fbec45b5, sni: sg01.lovemc.xyz, skip-cert-verify: false}
+  - {name: 永久域名发布页：mcrelease.xyz, server: 5m4h0k01.6vczxw.xyz, port: 31016, type: ss, cipher: chacha20-ietf-poly1305, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825}
+  - {name: 永久中文域名：米卡莎.xyz, server: 5m4h0k01.6vczxw.xyz, port: 31016, type: ss, cipher: chacha20-ietf-poly1305, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825}
+  - {name: 🇭🇰 【专线】| 香港01 | 1x HK, server: 5m4h0k01.m7k6s.xyz, port: 31016, type: ss, cipher: chacha20-ietf-poly1305, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825}
+  - {name: 🇭🇰 【专线】| 香港02 | 1x HK, server: 5m4h0k02.m7k6s.xyz, port: 31017, type: ss, cipher: chacha20-ietf-poly1305, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825}
+  - {name: 🇭🇰 【专线】| 香港03 | 1x HK, server: 5m4h0k03.m7k6s.xyz, port: 31018, type: ss, cipher: chacha20-ietf-poly1305, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825}
+  - {name: 🇨🇳 【专线】| 台湾 01 | 1x TWN, server: 2d1t5w01.m7k6s.xyz, port: 31026, type: ss, cipher: chacha20-ietf-poly1305, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825}
+  - {name: 🇨🇳 【专线】| 台湾 02 | 1x TWN, server: 2d1t5w02.m7k6s.xyz, port: 31027, type: ss, cipher: chacha20-ietf-poly1305, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825}
+  - {name: 🇨🇳 【专线】| 台湾 03 | 1x TWN, server: 2d1t5w03.m7k6s.xyz, port: 31028, type: ss, cipher: chacha20-ietf-poly1305, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825}
+  - {name: 🇯🇵 【专线】| 日本 01 | 1x JP, server: 7z7j3p01.m7k6s.xyz, port: 31010, type: ss, cipher: chacha20-ietf-poly1305, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825}
+  - {name: 🇯🇵 【专线】| 日本 02 | 1x JP, server: 7z7j3p02.m7k6s.xyz, port: 31011, type: ss, cipher: chacha20-ietf-poly1305, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825}
+  - {name: 🇯🇵 【专线】| 日本 03 | 1x JP, server: 7z7j3p03.m7k6s.xyz, port: 31012, type: ss, cipher: chacha20-ietf-poly1305, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825}
+  - {name: 🇸🇬 【专线】| 新加坡 01 | 1x SG, server: 1c7s2g01.m7k6s.xyz, port: 31020, type: ss, cipher: chacha20-ietf-poly1305, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825}
+  - {name: 🇸🇬 【专线】| 新加坡 02 | 1x SG, server: 1c7s2g02.m7k6s.xyz, port: 31021, type: ss, cipher: chacha20-ietf-poly1305, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825}
+  - {name: 🇸🇬 【专线】| 新加坡 03 | 1x SG, server: 1c7s2g03.m7k6s.xyz, port: 31022, type: ss, cipher: chacha20-ietf-poly1305, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825}
+  - {name: 🇺🇲 【专线】| 美国 01 | 1x US, server: 4a2u0a01.m7k6s.xyz, port: 31030, type: ss, cipher: chacha20-ietf-poly1305, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825}
+  - {name: 🇺🇲 【专线】| 美国 02 | 1x US, server: 4a2u0a02.m7k6s.xyz, port: 31031, type: ss, cipher: chacha20-ietf-poly1305, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825}
+  - {name: 🇺🇲 【专线】| 美国 03 | 1x US, server: 4a2u0a03.m7k6s.xyz, port: 31032, type: ss, cipher: chacha20-ietf-poly1305, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825}
+  - {name: 🇭🇰 【BGP】香港 01 | 1x HK, server: 5m4h0k01.m7k6s.xyz, port: 31601, type: trojan, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, sni: hk01.lovemc.xyz, skip-cert-verify: false}
+  - {name: 🇭🇰 【BGP】香港 02 | 1x HK, server: 5m4h0k02.m7k6s.xyz, port: 31606, type: trojan, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, sni: hk02.lovemc.xyz, skip-cert-verify: false}
+  - {name: 🇭🇰 【BGP】香港 03 | 1x HK, server: 5m4h0k03.m7k6s.xyz, port: 31611, type: trojan, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, sni: hk03.lovemc.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 【BGP】日本 01 | 1x JP, server: 7z7j3p01.m1k2s.xyz, port: 31116, type: trojan, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, sni: jp01.lovemc.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 【BGP】日本 02  | 1x JP, server: 7z7j3p02.m1k2s.xyz, port: 31106, type: trojan, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, sni: jp02.lovemc.xyz, skip-cert-verify: true}
+  - {name: 🇯🇵 【BGP】日本 03  | 1x JP, server: 7z7j3p03.m1k2s.xyz, port: 31111, type: trojan, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, sni: jp03.lovemc.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 【BGP】日本 04  | 1x JP, server: 6w7j3p04.m1k2s.xyz, port: 31116, type: vmess, uuid: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, alterId: 0, cipher: auto, tls: true, servername: jp04.lovemc.xyz}
+  - {name: 🇯🇵 【BGP】日本 05  | 1x JP, server: 6w7j3p05.m1k2s.xyz, port: 31106, type: vmess, uuid: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, alterId: 0, cipher: auto, tls: true, servername: jp05.lovemc.xyz}
+  - {name: 🇯🇵 【BGP】日本 06  | 1x JP, server: 6w7j3p06.m1k2s.xyz, port: 31111, type: vmess, uuid: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, alterId: 0, cipher: auto, tls: true, servername: jp06.lovemc.xyz}
+  - {name: 🇨🇳 【BGP】台湾 01  | 1x TWN, server: 2d1t5w01.m1k2s.xyz, port: 31301, type: trojan, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, sni: tw01.lovemc.xyz, skip-cert-verify: false}
+  - {name: 🇨🇳 【BGP】台湾 02  | 1x TWN, server: 2d1t5w02.m1k2s.xyz, port: 31306, type: trojan, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, sni: tw02.lovemc.xyz, skip-cert-verify: false}
+  - {name: 🇨🇳 【BGP】台湾 03  | 1x TWN, server: 2d1t5w03.m1k2s.xyz, port: 31311, type: trojan, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, sni: tw03.lovemc.xyz, skip-cert-verify: false}
+  - {name: 🇸🇬 【BGP】新加坡 01  | 1x SG, server: 1c7s2g01.m1k2s.xyz, port: 31201, type: trojan, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, sni: sg01.lovemc.xyz, skip-cert-verify: false}
+  - {name: 🇸🇬 【BGP】新加坡 02 | 1x SG, server: 1c7s2g02.m1k2s.xyz, port: 31206, type: trojan, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, sni: sg02.lovemc.xyz, skip-cert-verify: false}
+  - {name: 🇸🇬 【BGP】新加坡 03 | 1x SG, server: 1c7s2g03.m1k2s.xyz, port: 31211, type: trojan, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, sni: sg03.lovemc.xyz, skip-cert-verify: false}
+  - {name: 🇸🇬 【BGP】新加坡 04 | 1x SG, server: 1c7s2g04.m1k2s.xyz, port: 31201, type: vmess, uuid: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, alterId: 0, cipher: auto, tls: true, servername: sg04.lovemc.xyz}
+  - {name: 🇸🇬 【BGP】新加坡 05 | 1x SG, server: 1c7s2g05.m1k2s.xyz, port: 31206, type: vmess, uuid: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, alterId: 0, cipher: auto, tls: true, servername: sg05.lovemc.xyz}
+  - {name: 🇸🇬 【BGP】新加坡 06 | 1x SG, server: 1c7s2g06.m1k2s.xyz, port: 31211, type: vmess, uuid: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, alterId: 0, cipher: auto, tls: true, servername: sg06.lovemc.xyz}
+  - {name: 🇺🇲 【BGP】美国01 | 1x US, server: 4a2u0a01.m1k2s.xyz, port: 31501, type: trojan, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, sni: us01.lovemc.xyz, skip-cert-verify: false}
+  - {name: 🇺🇲 【BGP】美国 02 | 1x US, server: 4a2u0a02.m1k2s.xyz, port: 31506, type: trojan, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, sni: us02.lovemc.xyz, skip-cert-verify: false}
+  - {name: 🇺🇲 【BGP】美国 03 | 1x US, server: 4a2u0a03.m1k2s.xyz, port: 31511, type: trojan, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, sni: us03.lovemc.xyz, skip-cert-verify: false}
+  - {name: 🇺🇲 【BGP】美国 04 | 1x US, server: 4a2u0a04.m1k2s.xyz, port: 31501, type: vmess, uuid: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, alterId: 0, cipher: auto, tls: true, servername: us04.lovemc.xyz}
+  - {name: 🇺🇲 【BGP】美国 05 | 1x US, server: 4a2u0a05.m1k2s.xyz, port: 31506, type: vmess, uuid: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, alterId: 0, cipher: auto, tls: true, servername: us05.lovemc.xyz}
+  - {name: 🇺🇲 【BGP】美国 06 | 1x US, server: 4a2u0a06.m1k2s.xyz, port: 31511, type: vmess, uuid: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, alterId: 0, cipher: auto, tls: true, servername: us06.lovemc.xyz}
+  - {name: 🇰🇷 【BGP】韩国 01 | 1x KR, server: 8l2k1r01.m1k2s.xyz, port: 31401, type: trojan, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, sni: kr01.lovemc.xyz, skip-cert-verify: false}
+  - {name: 🇰🇷 【BGP】韩国 02 | 1x KR, server: 8l2k1r04.m1k2s.xyz, port: 31401, type: vmess, uuid: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, alterId: 0, cipher: auto, tls: true, servername: kr04.lovemc.xyz}
+  - {name: 🇵🇭 【BGP】菲律宾 01 | 1x PH, server: 1a4p0h01.m1k2s.xyz, port: 31801, type: trojan, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, sni: ph01.lovemc.xyz, skip-cert-verify: false}
+  - {name: 🇵🇭 【BGP】菲律宾 04 | 1x PH, server: 1a4p0h04.m1k2s.xyz, port: 31801, type: vmess, uuid: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, alterId: 0, cipher: auto, tls: true, servername: ph04.lovemc.xyz}
+  - {name: 🇷🇺 【BGP】俄罗斯 01 | 1x RU, server: 4t1r5u01.m1k2s.xyz, port: 31851, type: trojan, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, sni: ru01.lovemc.xyz, skip-cert-verify: false}
+  - {name: 🇷🇺 【BGP】俄罗斯 04 | 1x RU, server: 4t1r5u04.m1k2s.xyz, port: 31851, type: vmess, uuid: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, alterId: 0, cipher: auto, tls: true, servername: ru04.lovemc.xyz}
+  - {name: 🇲🇾 【BGP】马来西亚 01 | 1x MY, server: 6e3m6y01.m1k2s.xyz, port: 31887, type: trojan, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, sni: my01.lovemc.xyz, skip-cert-verify: false}
+  - {name: 🇲🇾 【BGP】马来西亚 04 | 1x MY, server: 6e3m6y04.m1k2s.xyz, port: 31887, type: vmess, uuid: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, alterId: 0, cipher: auto, tls: true, servername: my04.lovemc.xyz}
+  - {name: 🇹🇭 【BGP】泰国 01 | 1x TH, server: 2c2t8h01.m1k2s.xyz, port: 31904, type: trojan, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, sni: th01.lovemc.xyz, skip-cert-verify: false}
+  - {name: 🇹🇭 【BGP】泰国 04 | 1x TH, server: 2c2t8h04.m1k2s.xyz, port: 31904, type: vmess, uuid: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, alterId: 0, cipher: auto, tls: true, servername: th04.lovemc.xyz}
+  - {name: 🇦🇷 【BGP】阿根廷 01 | 1x AR, server: 7c1a1r01.m1k2s.xyz, port: 31861, type: trojan, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, sni: ar01.lovemc.xyz, skip-cert-verify: false}
+  - {name: 🇦🇷 【BGP】阿根廷 04 | 1x AR, server: 7c1a1r04.m1k2s.xyz, port: 31861, type: vmess, uuid: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, alterId: 0, cipher: auto, tls: true, servername: ar04.lovemc.xyz}
+  - {name: 【BGP】匈牙利 01 | 1x HU, server: 3c2h4u01.m1k2s.xyz, port: 31864, type: trojan, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, sni: hu01.lovemc.xyz, skip-cert-verify: false}
+  - {name: 【BGP】匈牙利 04 | 1x HU, server: 3c2h4u04.m1k2s.xyz, port: 31864, type: vmess, uuid: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, alterId: 0, cipher: auto, tls: true, servername: hu04.lovemc.xyz}
+  - {name: 🇹🇷 【BGP】土耳其 01 | 1x TR, server: 4t1u6r01.m1k2s.xyz, port: 31868, type: trojan, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, sni: tr01.lovemc.xyz, skip-cert-verify: false}
+  - {name: 🇹🇷 【BGP】土耳其 04 | 1x TR, server: 4t1u6r04.m1k2s.xyz, port: 31868, type: vmess, uuid: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, alterId: 0, cipher: auto, tls: true, servername: tr04.lovemc.xyz}
+  - {name: 【BGP】乌克兰 01 | 1x UA, server: 4w7u4a01.m1k2s.xyz, port: 31871, type: trojan, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, sni: ua01.lovemc.xyz, skip-cert-verify: false}
+  - {name: 【BGP】乌克兰 04 | 1x UA, server: 4w7u4a04.m1k2s.xyz, port: 31871, type: vmess, uuid: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, alterId: 0, cipher: auto, tls: true, servername: ua04.lovemc.xyz}
+  - {name: 🇻🇳 【BGP】越南 01 | 1x VN, server: 2w8u2a01.mcfront.xyz, port: 31874, type: trojan, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, sni: vn01.lovemc.xyz, skip-cert-verify: false}
+  - {name: 🇻🇳 【BGP】越南 04 | 1x VN, server: 2w8u2a04.mcfront.xyz, port: 31874, type: vmess, uuid: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, alterId: 0, cipher: auto, tls: true, servername: vn04.lovemc.xyz}
+  - {name: 🇧🇷 【BGP】巴西 01 | 1x BR, server: 7c6i2r01.m1k2s.xyz, port: 31877, type: trojan, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, sni: br01.lovemc.xyz, skip-cert-verify: false}
+  - {name: 🇧🇷 【BGP】巴西 04 | 1x BR, server: 7c6i2r04.m1k2s.xyz, port: 31877, type: vmess, uuid: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, alterId: 0, cipher: auto, tls: true, servername: br04.lovemc.xyz}
+  - {name: 🇮🇳 【BGP】印度 01 | 1x IN, server: 6q3i1n01.m1k2s.xyz, port: 31831, type: trojan, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, sni: in01.lovemc.xyz, skip-cert-verify: false}
+  - {name: 🇮🇳 【BGP】印度 04 | 1x IN, server: 6q3i1n04.m1k2s.xyz, port: 31831, type: vmess, uuid: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, alterId: 0, cipher: auto, tls: true, servername: in04.lovemc.xyz}
+  - {name: 🇦🇺 【BGP】澳大利亚 01 | 1x AU, server: 4o5a3u01.m1k2s.xyz, port: 31821, type: trojan, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, sni: au01.lovemc.xyz, skip-cert-verify: false}
+  - {name: 🇦🇺 【BGP】澳大利亚 04 | 1x AU, server: 4o5a3u04.m1k2s.xyz, port: 31821, type: vmess, uuid: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, alterId: 0, cipher: auto, tls: true, servername: au04.lovemc.xyz}
+  - {name: 🇬🇧 【BGP】英国 01 | 1x UK, server: 3a4u0k01.m1k2s.xyz, port: 31811, type: trojan, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, sni: uk01.lovemc.xyz, skip-cert-verify: false}
+  - {name: 🇬🇧 【BGP】英国 04 | 1x UK, server: 3a4u0k04.m1k2s.xyz, port: 31811, type: vmess, uuid: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, alterId: 0, cipher: auto, tls: true, servername: uk04.lovemc.xyz}
+  - {name: 🇩🇪 【BGP】德国 01 | 1x DE, server: 9t1d5e01.m1k2s.xyz, port: 31841, type: trojan, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, sni: de01.lovemc.xyz, skip-cert-verify: false}
+  - {name: 🇦🇺 【BGP】德国 04 | 1x AU, server: 9t1d5e04.m1k2s.xyz, port: 31841, type: vmess, uuid: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, alterId: 0, cipher: auto, tls: true, servername: de04.lovemc.xyz}
+  - {name: 🇨🇦 【BGP】加拿大 01 | 1x CA, server: 3d1c4a01.m1k2s.xyz, port: 31701, type: trojan, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, sni: ca01.lovemc.xyz, skip-cert-verify: false}
+  - {name: 🇨🇦 【BGP】加拿大 02 | 1x CA, server: 3d1c4a04.m1k2s.xyz, port: 31701, type: vmess, uuid: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, alterId: 0, cipher: auto, tls: true, servername: ca04.lovemc.xyz}
+  - {name: 🇪🇸 【BGP】西班牙 01 | 1x ES, server: 2d3e6s01.m1k2s.xyz, port: 31884, type: trojan, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, sni: es01.lovemc.xyz, skip-cert-verify: false}
+  - {name: 🇪🇸 【BGP】西班牙 02 | 1x ES, server: 2d3e6s01.m1k2s.xyz, port: 31884, type: vmess, uuid: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, alterId: 0, cipher: auto, tls: true, servername: es04.lovemc.xyz}
+  - {name: 🇺🇲 【国外直连】美国, server: dir01.netorigins2u.site, port: 31501, type: trojan, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, sni: us01.lovemc.xyz, skip-cert-verify: false}
+  - {name: 【国外直连】匈牙利, server: dir01.netorigins2u.site, port: 31864, type: trojan, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, sni: hu01.lovemc.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 【国外直连】日本, server: dir01.netorigins2u.site, port: 31116, type: trojan, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, sni: jp01.lovemc.xyz, skip-cert-verify: false}
+  - {name: 🇸🇬 【国外直连】新加坡, server: dir01.netorigins2u.site, port: 31201, type: trojan, password: 5d57eda5-6c74-4f14-ad1c-5c29ce36f825, sni: sg01.lovemc.xyz, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select

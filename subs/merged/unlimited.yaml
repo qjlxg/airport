@@ -139,7 +139,21 @@ proxy-groups:
       - 🚑 故障转移
       - ⚖️ 负载均衡
       - DIRECT
-    include-all: true
+      - ClodQiu
+      - Pawdroid
+      - a2470982985
+      - aiboboxx
+      - chengaopan
+      - edgetunnel
+      - ermaozi
+      - freefq
+      - mfuu
+      - mianayang
+      - peasoft
+      - shunfeng
+      - w1770946466
+      - xrayvip
+      - zhangkaiitugithub
 
   - name: ♻️ 自动选择
     type: url-test

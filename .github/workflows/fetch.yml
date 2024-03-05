@@ -44,13 +44,16 @@ jobs:
       - name: Preprocess files
         run: |
           mkdir -p subs && cd subs
+          # 移除非法字符
+          find . -type f -name "*.yaml" -exec sed -i 's/\r//g' {} +
+          
           for file in *.yaml; do
-            # acl4ssr convert fail
+            # acl4ssr转换失败
             if [[ $(head -n 1 "$file") == "The following link doesn't contain any valid node info"* ]]; then
               echo 'proxies: [{"name": "__demo__", "type": "vmess", "server": "server", "port": 443, "uuid": "uuid", "alterId": 32, "cipher": "auto"}]' > "$file"
             fi
             
-            # deprecate unsupported ciphers
+            # 移除不支持的cipher
             while IFS= read -r line; do
             	if [[ "$line" != *"- {"* || "$line" != *"cipher: chacha20-poly1305,"* ]]; then
             		echo "$line" >> "temp_$file"

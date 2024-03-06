@@ -61,7 +61,8 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🚑 故障转移
-      - ⚖️ 负载均衡
+      - ⚖️ 负载均衡-轮询
+      - ⚖️ 负载均衡-散列
       - DIRECT
     include-all: true
 
@@ -82,7 +83,16 @@ proxy-groups:
     timeout: 500
     url: https://www.google.com/gen_204
 
-  - name: ⚖️ 负载均衡
+  - name: ⚖️ 负载均衡-轮询
+    type: load-balance
+    strategy: round-robin
+    include-all: true
+    lazy: false
+    interval: 300
+    timeout: 500
+    url: https://www.google.com/gen_204
+
+  - name: ⚖️ 负载均衡-散列
     type: load-balance
     strategy: consistent-hashing
     include-all: true
@@ -93,32 +103,27 @@ proxy-groups:
 
   - name: 🌍 国外媒体
     type: select
-    proxies: ["🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡", "🎯 全球直连"]
-    include-all: true
-  
+    proxies: ["🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡-轮询", "⚖️ 负载均衡-散列", "🎯 全球直连"]
+
   - name: 📲 电报信息
     type: select
-    proxies: ["🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡", "🎯 全球直连"]
-    include-all: true
+    proxies: ["🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡-轮询", "⚖️ 负载均衡-散列", "🎯 全球直连"]
 
   - name: Ⓜ️ 微软服务
     type: select
-    proxies: ["🎯 全球直连", "🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡"]
-    include-all: true
+    proxies: ["🎯 全球直连", "🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡-轮询", "⚖️ 负载均衡-散列"]
 
   - name: 🍎 苹果服务
     type: select
-    proxies: ["🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡", "🎯 全球直连"]
-    include-all: true
+    proxies: ["🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡-轮询", "⚖️ 负载均衡-散列", "🎯 全球直连"]
 
   - name: 📢 谷歌FCM
     type: select
-    proxies: ["🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡", "🎯 全球直连"]
-    include-all: true
+    proxies: ["🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡-轮询", "⚖️ 负载均衡-散列", "🎯 全球直连"]
 
   - name: 🎯 全球直连
     type: select
-    proxies: ["DIRECT", "🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡"]
+    proxies: ["DIRECT", "🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡-轮询", "⚖️ 负载均衡-散列"]
 
   - name: 🛑 全球拦截
     type: select
@@ -130,8 +135,7 @@ proxy-groups:
 
   - name: 🐟 漏网之鱼
     type: select
-    proxies: ["🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡", "🎯 全球直连"]
-    include-all: true
+    proxies: ["🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡-轮询", "⚖️ 负载均衡-散列", "🎯 全球直连"]
 
 # 规则集
 rule-providers:

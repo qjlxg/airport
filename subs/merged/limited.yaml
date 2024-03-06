@@ -160,7 +160,6 @@ proxy-groups:
   - name: 🐟 漏网之鱼
     type: select
     proxies: ["🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡", "🎯 全球直连"]
-    include-all: true
 
 # 规则集
 rule-providers:

@@ -18,8 +18,23 @@ jobs:
         run: |
           cd .\tools\CloudflareST
           .\CloudflareST.exe -n 200 -t 10 -dn 50 -tl 200 -sl 5 -p 0 -o result.csv
+          setlocal enabledelayedexpansion
+          set "skip_line=0"
+          set "line_count=0"
+          for /f "usebackq tokens=*" %%a in ("result.csv") do (
+            if !skip_line! equ 0 (
+              set "line=%%a"
+              for /f "tokens=1 delims=," %%b in ("!line!") do (
+                echo %%b>> output.csv
+              )
+            )
+            set /a "skip_line+=1"
+          )
 
       - name: Upload
-        run: .\tools\gfp.exe -r https://github.com/${{ github.repository }} -f ips/cf.txt -l .\tools\CloudflareST\ip.txt -t ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd .\tools
+          .\gfp.exe -r https://github.com/${{ github.repository }} -f ips/cf.txt -l .\tools\CloudflareST\ip.txt -t ${{ secrets.GITHUB_TOKEN }}
+
 
 

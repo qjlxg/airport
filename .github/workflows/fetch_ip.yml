@@ -17,5 +17,6 @@ jobs:
           
       - name: Preprocess files
         run: |
-          echo asdasdasdas${{ secrets.GITHUB_TOKEN }}asdasdasdasda
+          echo ${{ github.repository }}
+          echo ${{ secrets.GITHUB_TOKEN }}
           

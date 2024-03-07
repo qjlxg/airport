@@ -8,20 +8,21 @@ on:
   workflow_dispatch:
 
 jobs:
-  env:
-    REPOSITORY: "https://github.com/" + ${{ github.repository }}
+  build:
+    env:
+      REPOSITORY: "https://github.com/" + ${{ github.repository }}
 
-  fetch-files:
-    runs-on: windows-latest
-
-    steps:
-      - name: Git Checkout
-        uses: actions/checkout@v2
-          
-      - name: Preprocess files
-        run: |
-          echo ${{ github.repository }}
-          echo ${{ secrets.GITHUB_TOKEN }}
-          echo ${{ github.ref }}
-          echo %REPOSITORY%
+    fetch-files:
+      runs-on: windows-latest
+    
+      steps:
+        - name: Git Checkout
+          uses: actions/checkout@v2
+            
+        - name: Preprocess files
+          run: |
+            echo ${{ github.repository }}
+            echo ${{ secrets.GITHUB_TOKEN }}
+            echo ${{ github.ref }}
+            echo %REPOSITORY%
           

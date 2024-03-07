@@ -17,24 +17,18 @@ jobs:
       - name: Test
         run: |
           cd .\tools\CloudflareST
-          .\CloudflareST.exe -n 200 -t 10 -dn 50 -tl 200 -sl 5 -p 0 -o result.csv
+          .\CloudflareST.exe -n 200 -t 10 -dn 50 -tl 200 -p 0 -o result.csv
           setlocal enabledelayedexpansion
-          set "skip_line=0"
-          set "line_count=0"
+          set skip_line=0
           for /f "usebackq tokens=*" %%a in ("result.csv") do (
-            if !skip_line! equ 0 (
-              set "line=%%a"
-              for /f "tokens=1 delims=," %%b in ("!line!") do (
-                echo %%b>> output.csv
-              )
-            )
+            if !skip_line! neq 0 (for /f "tokens=1 delims=," %%b in ("%%a") do (echo %%b>> cloudflare_official.txt))
             set /a "skip_line+=1"
           )
 
       - name: Upload
         run: |
           cd .\tools
-          .\gfp.exe -r https://github.com/${{ github.repository }} -f ips/cf.txt -l .\tools\CloudflareST\ip.txt -t ${{ secrets.GITHUB_TOKEN }}
+          .\gfp.exe -r https://github.com/${{ github.repository }} -f ips/cloudflare_official.txt -l .\tools\CloudflareST\cloudflare_official.txt -t ${{ secrets.GITHUB_TOKEN }}
 
 
 

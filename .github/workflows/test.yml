@@ -11,7 +11,7 @@ on:
 
 jobs:
   test-proxies:
-    runs-on: self-hosted
+    runs-on: [self-hosted, windows, x64]
 
     steps:
       - name: Git Checkout
@@ -19,16 +19,11 @@ jobs:
 
       - name: Test proxies
         run: |
-          cd tools
-          .\meta_speedtest.exe --config ..\subs\merged\unlimited.yaml -o ..\subs\dongchengjie.yaml --timeout 2000 --delay-filter 2000 --rename-tag Github_Action --log-level debug
+          cd tools\meta_speedtest
+          .\meta_speedtest.exe --config ..\..\subs\merged\unlimited.yaml -o ..\..\subs\dongchengjie.yaml --timeout 2000 --delay-filter 2000 --rename-tag Github_Action --log-level debug
 
-      - name: Git Add
+      - name: Upload Result
         run: |
-          git add subs/dongchengjie.yaml
+          cd .\tools
+          .\gfp.exe -r https://github.com/${{ github.repository }} -f subs/dongchengjie.yaml -l ..\subs\dongchengjie.yaml -t ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Git Commit
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git commit -m "Updated by GitHub Action"
-          git fetch && git push --force

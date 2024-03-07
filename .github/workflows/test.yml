@@ -11,7 +11,7 @@ on:
 
 jobs:
   test-proxies:
-    runs-on: windows-latest
+    runs-on: iZxrnsayhew6o2Z
 
     steps:
       - name: Git Checkout

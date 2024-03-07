@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 env:
-  REPOSITORY: Monday
+  REPOSITORY: Monday${{ github.repository }}
 
 jobs:
   greeting_job:
@@ -24,4 +24,4 @@ jobs:
           echo ${{ github.repository }}
           echo ${{ secrets.GITHUB_TOKEN }}
           echo ${{ github.ref }}
-          echo %REPOSITORY%
+          echo ${{ REPOSITORY }}

@@ -22,7 +22,7 @@ jobs:
       - name: Upload
         run: |
           cd .\tools
-          .\gfp.exe -r https://github.com/${{ github.repository }} -f ips/cloudflare_official.txt -l .\tools\CloudflareST\cloudflare_official.txt -t ${{ secrets.GITHUB_TOKEN }}
+          .\gfp.exe -r https://github.com/${{ github.repository }} -f ips/cloudflare_official.txt -l .\CloudflareST\cloudflare_official.txt -t ${{ secrets.GITHUB_TOKEN }}
 
 
 

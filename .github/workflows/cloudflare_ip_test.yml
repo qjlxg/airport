@@ -20,7 +20,9 @@ jobs:
 
       - name: Ip Test
         run: |
-          cd .\tools\CloudflareST
+          cd .\tools
+          powershell -command "Expand-Archive .\CloudflareST.zip .\CloudflareST" 
+          cd .\CloudflareST
           .\test.bat
 
       - name: Upload Result

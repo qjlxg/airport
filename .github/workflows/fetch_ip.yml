@@ -18,7 +18,6 @@ jobs:
         run: .\tools\CloudflareST\CloudflareST.exe -n 200 -t 10 -dn 50 -tl 200 -sl 5 -p 0 -f ip.txt -o result.csv
 
       - name: Upload
-        run: .\tools\gfp.exe -r https://github.com/${{ github.repository }} -f ips/cf.txt .\tools\CloudflareST\ip.txt -t ${{ secrets.GITHUB_TOKEN }}
-          
-          
+        run: .\tools\gfp.exe -r https://github.com/${{ github.repository }} -f ips/cf.txt -l .\tools\CloudflareST\ip.txt -t ${{ secrets.GITHUB_TOKEN }}
+
 

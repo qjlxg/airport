@@ -1,0 +1,21 @@
+name: Auto-fetch Preferred IP
+
+on:
+  # 定时触发
+  schedule:
+    - cron: '0 */1 * * *'
+  # 手动触发
+  workflow_dispatch:
+
+jobs:
+  fetch-files:
+    runs-on: windows-latest
+
+    steps:
+      - name: Git Checkout
+        uses: actions/checkout@v2
+          
+      - name: Preprocess files
+        run: |
+          echo $env:GITHUB_TOKEN
+          

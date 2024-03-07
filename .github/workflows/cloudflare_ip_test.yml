@@ -18,9 +18,6 @@ jobs:
       - name: Git Checkout
         uses: actions/checkout@v2
 
-      - name: Git Checkout
-        run: git config --global core.autocrlf false
-
       - name: Ip Test
         run: |
           cd .\tools\CloudflareST

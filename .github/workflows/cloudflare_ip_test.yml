@@ -14,7 +14,10 @@ on:
 jobs:
   cloudfalre_ip_test:
     runs-on: [self-hosted, windows, x64]
-    steps:
+     steps:
+      - name: Prepare git
+        run: git config --global core.autocrlf false
+
       - name: Git Checkout
         uses: actions/checkout@v2
 

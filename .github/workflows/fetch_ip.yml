@@ -17,5 +17,5 @@ jobs:
           
       - name: Preprocess files
         run: |
-          echo %secrets.GITHUB_TOKEN%
+          echo ${{ secrets.GITHUB_TOKEN }}
           

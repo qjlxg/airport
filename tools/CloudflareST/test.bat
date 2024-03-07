@@ -1,5 +1,5 @@
 @echo off
-rem 下载IP地址清单
+rem 下载IP地址清单...
 echo Downloading IP list files...
 curl -s -o ip_official.txt "https://www.cloudflare.com/ips-v4"
 curl -s -o ip_reverse.txt "https://www.baipiao.eu.org/cloudflare/ips-v4"

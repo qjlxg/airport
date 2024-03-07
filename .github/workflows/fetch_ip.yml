@@ -1,27 +1,18 @@
-name: Auto-fetch Preferred IP
+name: Greeting on variable day
 
 on:
-  # 定时触发
-  schedule:
-    - cron: '0 */1 * * *'
-  # 手动触发
-  workflow_dispatch:
+  workflow_dispatch
 
 env:
   DAY_OF_WEEK: Monday
 
 jobs:
-  fetch-files:
-    runs-on: windows-latest
-  
+  greeting_job:
+    runs-on: ubuntu-latest
+    env:
+      Greeting: Hello
     steps:
-      - name: Git Checkout
-        uses: actions/checkout@v2
-          
-      - name: Preprocess files
-        run: |
-          echo ${{ github.repository }}
-          echo ${{ secrets.GITHUB_TOKEN }}
-          echo ${{ github.ref }}
-            echo %REPOSITORY%
-          
+      - name: "Say Hello Mona it's Monday"
+        run: echo "$Greeting $First_Name. Today is $DAY_OF_WEEK!"
+        env:
+          First_Name: Mona

@@ -26,8 +26,8 @@ jobs:
       - name: Upload Result
         run: |
           cd .\tools
-          if exist ".\CloudflareST\cloudflare_official.txt" (.\gfp.exe -r https://github.com/${{ github.repository }} -f ips/cloudflare_official.txt -l .\CloudflareST\cloudflare_official.txt -t ${{ secrets.GITHUB_TOKEN }})
-          if exist ".\CloudflareST\cloudflare_reverse.txt" (.\gfp.exe -r https://github.com/${{ github.repository }} -f ips/cloudflare_reverse.txt -l .\CloudflareST\cloudflare_reverse.txt -t ${{ secrets.GITHUB_TOKEN }})
+          .\gfp.exe -r https://github.com/${{ github.repository }} -f ips/cloudflare_official.txt -l .\CloudflareST\cloudflare_official.txt -t ${{ secrets.GITHUB_TOKEN }}
+          .\gfp.exe -r https://github.com/${{ github.repository }} -f ips/cloudflare_reverse.txt -l .\CloudflareST\cloudflare_reverse.txt -t ${{ secrets.GITHUB_TOKEN }}
           
           
 

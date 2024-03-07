@@ -1,22 +1,22 @@
 @echo off
-rem ä¸‹è½½IPåœ°å€æ¸…å•
+rem ÏÂÔØIPµØÖ·Çåµ¥
 echo Downloading IP list files...
 curl -s -o ip_official.txt "https://www.cloudflare.com/ips-v4"
 curl -s -o ip_reverse.txt "https://www.baipiao.eu.org/cloudflare/ips-v4"
 echo Downloading IP list files completed.
 
 set args=-n 500 -t 10 -dn 50 -tl 250 -p 0
-rem å®˜æ–¹IPä¼˜é€‰æµ‹é€Ÿ
+rem ¹Ù·½IPÓÅÑ¡²âËÙ
 echo Testing official IP...
 .\CloudflareST.exe %args% -f ip_official.txt -o ip_official.csv
 echo Testing official completed.
 
-rem åä»£IPä¼˜é€‰æµ‹é€Ÿ
+rem ·´´úIPÓÅÑ¡²âËÙ
 echo Testing reverse IP...
 .\CloudflareST.exe %args% -f ip_reverse.txt -o ip_reverse.csv
 echo Testing reverse completed.
 
-rem csvè½¬txt
+rem csv×ªtxt
 setlocal enabledelayedexpansion
 set skip_line=0
 if exist "ip_official.csv" (

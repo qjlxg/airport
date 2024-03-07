@@ -24,4 +24,4 @@ jobs:
           echo ${{ github.repository }}
           echo ${{ secrets.GITHUB_TOKEN }}
           echo ${{ github.ref }}
-          echo ${{ REPOSITORY }}
+          echo %REPOSITORY%

@@ -1,2 +1,2 @@
 * text=auto
-tools/CloudflareST/test.bat text crlf
+tools/CloudflareST/* text eol=crlf

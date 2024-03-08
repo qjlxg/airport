@@ -6,98 +6,6 @@ mode: rule
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,3,4,8,19,20|🇺🇸_US_美国 #17'
-  network: ws
-  port: 8080
-  server: 172.67.143.192
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.velvetmountain.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '0,3,4,8,20|🇨🇦_CA_加拿大->🇺🇸_US_美国 #3'
-  network: ws
-  port: 8080
-  server: 23.227.38.11
-  tls: false
-  type: vmess
-  uuid: 4a5ae806-ee72-473a-83b2-531808f454d5
-  ws-opts:
-    headers:
-      Host: championship-bidding-oxygen-brochure.trycloudflare.com
-    path: 4a5ae806-ee72-473a-83b2-531808f454d5-vm
-- alterId: 0
-  cipher: auto
-  name: 0,3,4,8,20,24|🇨🇦_CA_加拿大_23
-  network: ws
-  port: 8080
-  server: 23.227.38.22
-  tls: false
-  type: vmess
-  uuid: e9d23b60-6e44-45a2-b24f-c8521c04c310
-  ws-opts:
-    headers:
-      Host: per-essex-patterns-bowling.trycloudflare.com
-    path: e9d23b60-6e44-45a2-b24f-c8521c04c310-vm
-- alterId: 0
-  cipher: auto
-  name: 0,3,4,8,9,20,24|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_21
-  network: ws
-  port: 2082
-  server: 172.67.130.140
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      Host: s1c.v2.v001sss.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '0,3,4,8,20|🇺🇸_US_美国 #16'
-  network: ws
-  port: 2082
-  server: us-01.cococloud.online
-  tls: false
-  type: vmess
-  uuid: 23337bcf-ea22-4efe-a0bc-8be84706c8bd
-  ws-opts:
-    headers:
-      Host: us-01.cococloud.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,3,4,8,20,24|🇷🇺_RU_俄罗斯联邦_20
-  network: ws
-  port: 443
-  server: 176.120.74.142
-  tls: false
-  type: vmess
-  uuid: 75695f5a-b6af-44f4-9983-ae250b53ff9c
-  ws-opts:
-    headers:
-      Host: internet.life.com.by
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,3,4,8,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
-  network: ws
-  port: 8080
-  server: de-01.cloudlion.me
-  tls: false
-  type: vmess
-  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
-  ws-opts:
-    headers:
-      Host: de-01.cloudlion.me
-    path: /
-- alterId: 0
-  cipher: auto
   name: 0,3,4,8,9,20,24|🇦🇪_AE_阿联酋->🇫🇷_FR_法国_4
   network: ws
   port: 8880
@@ -111,42 +19,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,8,20|🇺🇸_US_美国 #15'
+  name: 0,3,4,8,9,14,20,24|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_21
   network: ws
-  port: 8080
-  server: www.velvetmountain.shop
+  port: 2082
+  server: 172.67.130.140
+  servername: ''
   tls: false
   type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   ws-opts:
     headers:
-      Host: www.velvetmountain.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,3,4,8,20,24|🇺🇸_US_美国->🇨🇦_CA_加拿大_由快嘴科技提供：kk...
-  network: ws
-  port: 8080
-  server: fbi.gov
-  tls: false
-  type: vmess
-  uuid: 0a5903c5-0ff3-4d79-9420-2a966873f787
-  ws-opts:
-    headers:
-      Host: pcs-referenced-camera-concerns.trycloudflare.com
-    path: 0a5903c5-0ff3-4d79-9420-2a966873f787-vm
-- alterId: 0
-  cipher: auto
-  name: 0,3,4,8,20,24|🇺🇸_US_美国_2_22
-  network: ws
-  port: 80
-  server: cloudflare.cfgo.cc
-  tls: false
-  type: vmess
-  uuid: 22a13aa2-4854-44cb-e090-ec71ab84b1ff
-  ws-opts:
-    headers:
-      Host: wap.hostmjj.com
+      Host: s1c.v2.v001sss.xyz
     path: /
 - alterId: 0
   cipher: auto
@@ -313,14 +196,28 @@ proxies:
     headers:
       host: wap.hostmjj.com
     path: /
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-cfb
   name: 6|-https://t.me/MrXbin-1
-  password: Bog0ELmMM9DSxDdQ
+  password: rpgbNnU9rDDU4aWZ
+  port: 9094
+  server: 80.92.204.106
+  type: ss
+- cipher: aes-128-gcm
+  name: 6|-https://t.me/MrXbin-2
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
   port: 443
-  server: jseyu.arvancode.eu.org
+  server: 47.243.196.229
   type: ss
 - cipher: aes-256-cfb
-  name: 6|-https://t.me/MrXbin-3
+  name: 6|-https://t.me/MrXbin-11
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
@@ -328,7 +225,7 @@ proxies:
   server: us-am3.eqnode.net
   type: ssr
 - cipher: aes-256-ctr
-  name: 6|-https://t.me/MrXbin-6
+  name: 6|-https://t.me/MrXbin-12
   obfs: tls1.2_ticket_auth
   obfs-param: cdn.appsflyer.com
   password: NewBypasser2023
@@ -340,24 +237,31 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-12
+  name: 6|-https://t.me/MrXbin-13
   network: ws
-  port: 80
-  server: 185.218.126.248
+  port: 20207
+  server: data-hk-v1.shwjfkw.cn
   skip-cert-verify: true
   type: vmess
   udp: true
-  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
   ws-opts:
     headers:
-      Host: internet.life.com.by
-    path: /v1893298323Py
+      Host: data-hk-v1.shwjfkw.cn
+    path: /debian
+- cipher: chacha20-ietf-poly1305
+  country: CN
+  name: 6|-https://t.me/MrXbin-16
+  password: d7bee830-09aa-43b2-8945-3b341b8787db
+  port: 24103
+  server: p1.bxy-fun2.com
+  type: ss
 - alterId: 0
   cipher: auto
   country: US
   h2-opts: {}
   http-opts: {}
-  name: 6|-https://t.me/MrXbin-52
+  name: 6|-https://t.me/MrXbin-48
   network: ws
   port: 80
   server: 172.67.217.144
@@ -413,7 +317,125 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '9|🇺🇸_US_美国->🇨🇦_CA_加拿大 #3'
+  name: 8,14,19|日本2|@ripaojiedian
+  network: ws
+  port: '8080'
+  server: 172.67.143.192
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.velvetmountain.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 8|🇨🇦_CA_加拿大->🇺🇸_US_美国
+  network: ws
+  port: 8080
+  server: 23.227.38.11
+  tls: false
+  type: vmess
+  uuid: 4a5ae806-ee72-473a-83b2-531808f454d5
+  ws-opts:
+    headers:
+      Host: championship-bidding-oxygen-brochure.trycloudflare.com
+    path: 4a5ae806-ee72-473a-83b2-531808f454d5-vm
+- alterId: 0
+  cipher: auto
+  name: 8,24|🇨🇦_CA_加拿大_23
+  network: ws
+  port: 8080
+  server: 23.227.38.22
+  tls: false
+  type: vmess
+  uuid: e9d23b60-6e44-45a2-b24f-c8521c04c310
+  ws-opts:
+    headers:
+      Host: per-essex-patterns-bowling.trycloudflare.com
+    path: e9d23b60-6e44-45a2-b24f-c8521c04c310-vm
+- alterId: 0
+  cipher: auto
+  name: '8|🇺🇸_US_美国 #2'
+  network: ws
+  port: 2082
+  server: us-01.cococloud.online
+  tls: false
+  type: vmess
+  uuid: 23337bcf-ea22-4efe-a0bc-8be84706c8bd
+  ws-opts:
+    headers:
+      Host: us-01.cococloud.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 8,24|🇷🇺_RU_俄罗斯联邦_20
+  network: ws
+  port: 443
+  server: 176.120.74.142
+  tls: false
+  type: vmess
+  uuid: 75695f5a-b6af-44f4-9983-ae250b53ff9c
+  ws-opts:
+    headers:
+      Host: internet.life.com.by
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 8,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
+  network: ws
+  port: 8080
+  server: de-01.cloudlion.me
+  tls: false
+  type: vmess
+  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
+  ws-opts:
+    headers:
+      Host: de-01.cloudlion.me
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '8|🇺🇸_US_美国 #3'
+  network: ws
+  port: 8080
+  server: www.velvetmountain.shop
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.velvetmountain.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 8,24|🇺🇸_US_美国->🇨🇦_CA_加拿大_由快嘴科技提供：kk...
+  network: ws
+  port: 8080
+  server: fbi.gov
+  tls: false
+  type: vmess
+  uuid: 0a5903c5-0ff3-4d79-9420-2a966873f787
+  ws-opts:
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+    path: 0a5903c5-0ff3-4d79-9420-2a966873f787-vm
+- alterId: 0
+  cipher: auto
+  name: 8,24|🇺🇸_US_美国_2_22
+  network: ws
+  port: 80
+  server: cloudflare.cfgo.cc
+  tls: false
+  type: vmess
+  uuid: 22a13aa2-4854-44cb-e090-ec71ab84b1ff
+  ws-opts:
+    headers:
+      Host: wap.hostmjj.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '9|🇺🇸_US_美国->🇨🇦_CA_加拿大 #1'
   network: ws
   port: 8080
   server: fbi.gov
@@ -654,7 +676,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a2bec41b-4503-42b7-abfd-2bf40aa22735
+  uuid: 9f88c800-a824-4c76-9923-bda9f99b5d2a
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵日本05
@@ -664,7 +686,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a2bec41b-4503-42b7-abfd-2bf40aa22735
+  uuid: 9f88c800-a824-4c76-9923-bda9f99b5d2a
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵日本06
@@ -674,7 +696,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a2bec41b-4503-42b7-abfd-2bf40aa22735
+  uuid: 9f88c800-a824-4c76-9923-bda9f99b5d2a
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡04
@@ -684,7 +706,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a2bec41b-4503-42b7-abfd-2bf40aa22735
+  uuid: 9f88c800-a824-4c76-9923-bda9f99b5d2a
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡05
@@ -694,7 +716,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a2bec41b-4503-42b7-abfd-2bf40aa22735
+  uuid: 9f88c800-a824-4c76-9923-bda9f99b5d2a
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡06
@@ -704,7 +726,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a2bec41b-4503-42b7-abfd-2bf40aa22735
+  uuid: 9f88c800-a824-4c76-9923-bda9f99b5d2a
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国04
@@ -714,7 +736,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a2bec41b-4503-42b7-abfd-2bf40aa22735
+  uuid: 9f88c800-a824-4c76-9923-bda9f99b5d2a
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国05
@@ -724,7 +746,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a2bec41b-4503-42b7-abfd-2bf40aa22735
+  uuid: 9f88c800-a824-4c76-9923-bda9f99b5d2a
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国06
@@ -734,7 +756,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a2bec41b-4503-42b7-abfd-2bf40aa22735
+  uuid: 9f88c800-a824-4c76-9923-bda9f99b5d2a
 - alterId: 0
   cipher: auto
   name: 13|🇷🇺俄罗斯04
@@ -744,7 +766,7 @@ proxies:
   servername: ru04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a2bec41b-4503-42b7-abfd-2bf40aa22735
+  uuid: 9f88c800-a824-4c76-9923-bda9f99b5d2a
 - alterId: 0
   cipher: auto
   name: 13|🇲🇾马来西亚04
@@ -754,7 +776,7 @@ proxies:
   servername: my04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a2bec41b-4503-42b7-abfd-2bf40aa22735
+  uuid: 9f88c800-a824-4c76-9923-bda9f99b5d2a
 - alterId: 0
   cipher: auto
   name: 13|🇹🇭泰国04
@@ -764,7 +786,7 @@ proxies:
   servername: th04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a2bec41b-4503-42b7-abfd-2bf40aa22735
+  uuid: 9f88c800-a824-4c76-9923-bda9f99b5d2a
 - alterId: 0
   cipher: auto
   name: 13|🇵🇭菲律宾04
@@ -774,7 +796,7 @@ proxies:
   servername: ph04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a2bec41b-4503-42b7-abfd-2bf40aa22735
+  uuid: 9f88c800-a824-4c76-9923-bda9f99b5d2a
 - alterId: 0
   cipher: auto
   name: 13|🇰🇷韩国04
@@ -784,7 +806,7 @@ proxies:
   servername: kr04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a2bec41b-4503-42b7-abfd-2bf40aa22735
+  uuid: 9f88c800-a824-4c76-9923-bda9f99b5d2a
 - alterId: 0
   cipher: auto
   name: 13|🇮🇳印度04
@@ -794,7 +816,7 @@ proxies:
   servername: in04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a2bec41b-4503-42b7-abfd-2bf40aa22735
+  uuid: 9f88c800-a824-4c76-9923-bda9f99b5d2a
 - alterId: 0
   cipher: auto
   name: 13|🇧🇷巴西04
@@ -804,7 +826,7 @@ proxies:
   servername: br04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a2bec41b-4503-42b7-abfd-2bf40aa22735
+  uuid: 9f88c800-a824-4c76-9923-bda9f99b5d2a
 - alterId: 0
   cipher: auto
   name: 13|🇻🇳越南04
@@ -814,7 +836,7 @@ proxies:
   servername: vn04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a2bec41b-4503-42b7-abfd-2bf40aa22735
+  uuid: 9f88c800-a824-4c76-9923-bda9f99b5d2a
 - alterId: 0
   cipher: auto
   name: 13|🇭🇺匈牙利04
@@ -824,7 +846,7 @@ proxies:
   servername: hu04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a2bec41b-4503-42b7-abfd-2bf40aa22735
+  uuid: 9f88c800-a824-4c76-9923-bda9f99b5d2a
 - alterId: 0
   cipher: auto
   name: 13|🇦🇷阿根廷04
@@ -834,7 +856,7 @@ proxies:
   servername: ar04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a2bec41b-4503-42b7-abfd-2bf40aa22735
+  uuid: 9f88c800-a824-4c76-9923-bda9f99b5d2a
 - alterId: 0
   cipher: auto
   name: 13|🇹🇷土耳其04
@@ -844,7 +866,7 @@ proxies:
   servername: tr04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a2bec41b-4503-42b7-abfd-2bf40aa22735
+  uuid: 9f88c800-a824-4c76-9923-bda9f99b5d2a
 - alterId: 0
   cipher: auto
   name: 13|🇺🇦乌克兰04
@@ -854,7 +876,7 @@ proxies:
   servername: ua04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a2bec41b-4503-42b7-abfd-2bf40aa22735
+  uuid: 9f88c800-a824-4c76-9923-bda9f99b5d2a
 - alterId: 0
   cipher: auto
   name: 13|🇦🇺澳大利亚04
@@ -864,7 +886,7 @@ proxies:
   servername: au04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a2bec41b-4503-42b7-abfd-2bf40aa22735
+  uuid: 9f88c800-a824-4c76-9923-bda9f99b5d2a
 - alterId: 0
   cipher: auto
   name: 13|🇬🇧英国04
@@ -874,7 +896,7 @@ proxies:
   servername: uk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a2bec41b-4503-42b7-abfd-2bf40aa22735
+  uuid: 9f88c800-a824-4c76-9923-bda9f99b5d2a
 - alterId: 0
   cipher: auto
   name: 13|🇩🇪德国04
@@ -884,7 +906,7 @@ proxies:
   servername: de04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a2bec41b-4503-42b7-abfd-2bf40aa22735
+  uuid: 9f88c800-a824-4c76-9923-bda9f99b5d2a
 - alterId: 0
   cipher: auto
   name: 13|🇨🇦加拿大04
@@ -894,7 +916,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a2bec41b-4503-42b7-abfd-2bf40aa22735
+  uuid: 9f88c800-a824-4c76-9923-bda9f99b5d2a
 - alterId: 0
   cipher: auto
   name: 13|🇪🇸西班牙04
@@ -904,34 +926,47 @@ proxies:
   servername: es04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a2bec41b-4503-42b7-abfd-2bf40aa22735
+  uuid: 9f88c800-a824-4c76-9923-bda9f99b5d2a
 - alterId: 0
   cipher: auto
-  name: 14,19|美国|@ripaojiedian
+  name: 14|美国 CloudFlare节点
   network: ws
-  port: '8880'
-  server: cfcdn1.sanfencdn9.com
-  servername: ''
+  port: '8080'
+  server: 104.17.123.55
   tls: false
   type: vmess
-  uuid: 5bfd0956-dfa6-4c63-a8a8-adbf6f9e8366
+  uuid: 1d47288a-699d-45ca-b4f0-4e5b36940e6f
   ws-opts:
     headers:
-      Host: us6gzxQRrE4.fzbqfrse.xyz
-    path: /video/bYdJ7Vc2We
-- alterId: 64
+      Host: pq.kmoljklj.top
+    path: /qZTtpya?ed=2048
+- alterId: 0
   cipher: auto
-  name: 14|美国加利福尼亚州洛杉矶 PetaExpress
+  name: 14,15|github.com/freefq - 印度  3
   network: ws
-  port: '37000'
-  server: 198.2.203.116
+  port: 443
+  server: 202.78.162.5
+  servername: ''
   tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
   ws-opts:
     headers:
-      Host: www.43537463.xyz
-    path: /path/153428133302
+      Host: sahand.serveminecraft.net
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: '14|美国 CloudFlare节点 #2'
+  network: ws
+  port: '8080'
+  server: 104.21.46.66
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.ywnouvbale.biz
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -951,113 +986,18 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '14|美国 CloudFlare节点 #2'
+  name: 14,15|github.com/freefq - 广东省移动 7
   network: ws
-  port: 2086
-  server: cfcdn1.sanfencdn9.com
-  tls: false
-  type: vmess
-  uuid: 5bfd0956-dfa6-4c63-a8a8-adbf6f9e8366
-  ws-opts:
-    headers:
-      Host: us77SmSk86j.fzbqfrse.xyz
-    path: /video/Z7qdcrAGRw
-- alterId: 0
-  cipher: auto
-  name: '14|美国 CloudFlare节点 #3'
-  network: ws
-  port: 8080
-  server: 162.159.130.208
-  tls: false
-  type: vmess
-  uuid: 33eb512b-8f3a-459b-b823-3cccb6e82049
-  ws-opts:
-    headers:
-      Host: widescreen-instruction-breakdown-postage.trycloudflare.com
-    path: 33eb512b-8f3a-459b-b823-3cccb6e82049-vm
-- alterId: 0
-  cipher: auto
-  name: '14|美国 CloudFlare节点 #4'
-  network: ws
-  port: '8080'
-  server: 104.17.123.55
+  port: '20401'
+  server: data-us-v1.shwjfkw.cn
   servername: ''
   tls: false
   type: vmess
-  uuid: 1d47288a-699d-45ca-b4f0-4e5b36940e6f
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
   ws-opts:
     headers:
-      Host: pq.kmoljklj.top
-    path: /qZTtpya?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '14|美国 CloudFlare节点 #5'
-  network: ws
-  port: '8080'
-  server: 104.21.54.252
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.velvetmountain.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 14,19|香港2|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: onea.flha.ru
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 14,15|github.com/freefq - 印度  2
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
-  ws-opts:
-    headers:
-      Host: irsoft.sytes.net
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: 14,15|github.com/freefq - 印度  3
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
-  ws-opts:
-    headers:
-      Host: sahand.serveminecraft.net
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: 14,15|github.com/freefq - 美国CloudFla...
-  network: ws
-  port: 8080
-  server: www.darkroom.lol
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.darkroom.lol
-    path: /
+      Host: data-us-v1.shwjfkw.cn
+    path: /debian
 - alterId: 0
   cipher: auto
   name: '14,15|github.com/freefq - 美国CloudFla... #1'
@@ -1074,18 +1014,59 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 14,15|github.com/freefq - 广东省移动 7
+  name: 14,15|github.com/freefq - 印度  10
   network: ws
-  port: '20401'
-  server: data-us-v1.shwjfkw.cn
+  port: 443
+  server: 202.78.162.5
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+  ws-opts:
+    headers:
+      Host: pendar.onthewifi.com
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: 14|美国 Fastly全球Anycast节点
+  network: ws
+  port: '80'
+  server: fastly.com
   servername: ''
   tls: false
   type: vmess
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
   ws-opts:
     headers:
-      Host: data-us-v1.shwjfkw.cn
-    path: /debian
+      Host: nmsl.kp
+    path: /aries?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 14,15|github.com/freefq - 印度  2
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+  ws-opts:
+    headers:
+      Host: irsoft.sytes.net
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: 14,15|github.com/freefq - 美国CloudFla...
+  network: ws
+  port: 8080
+  server: www.darkroom.lol
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.darkroom.lol
+    path: /
 - alterId: 0
   cipher: auto
   name: '14,15|github.com/freefq - 美国CloudFla... #2'
@@ -1100,20 +1081,6 @@ proxies:
     headers:
       Host: server26.beheshtbaneh.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 14,15|github.com/freefq - 印度  10
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
-  ws-opts:
-    headers:
-      Host: pendar.onthewifi.com
-    path: /@forwardv2ray
 - alterId: 0
   cipher: auto
   name: 14,15|github.com/freefq - 美国Fastly全球...
@@ -1776,7 +1743,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2900d76a-6ab7-450d-b1fa-c48babf9f1d2
+  uuid: 968e110b-f077-4f00-9625-242e15ca3678
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 05  | 1x JP
@@ -1786,7 +1753,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2900d76a-6ab7-450d-b1fa-c48babf9f1d2
+  uuid: 968e110b-f077-4f00-9625-242e15ca3678
 - alterId: 0
   cipher: auto
   name: 17|【BGP】日本 06  | 1x JP
@@ -1796,7 +1763,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2900d76a-6ab7-450d-b1fa-c48babf9f1d2
+  uuid: 968e110b-f077-4f00-9625-242e15ca3678
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 04 | 1x SG
@@ -1806,7 +1773,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2900d76a-6ab7-450d-b1fa-c48babf9f1d2
+  uuid: 968e110b-f077-4f00-9625-242e15ca3678
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 05 | 1x SG
@@ -1816,7 +1783,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2900d76a-6ab7-450d-b1fa-c48babf9f1d2
+  uuid: 968e110b-f077-4f00-9625-242e15ca3678
 - alterId: 0
   cipher: auto
   name: 17|【BGP】新加坡 06 | 1x SG
@@ -1826,7 +1793,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2900d76a-6ab7-450d-b1fa-c48babf9f1d2
+  uuid: 968e110b-f077-4f00-9625-242e15ca3678
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 04 | 1x US
@@ -1836,7 +1803,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2900d76a-6ab7-450d-b1fa-c48babf9f1d2
+  uuid: 968e110b-f077-4f00-9625-242e15ca3678
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 05 | 1x US
@@ -1846,7 +1813,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2900d76a-6ab7-450d-b1fa-c48babf9f1d2
+  uuid: 968e110b-f077-4f00-9625-242e15ca3678
 - alterId: 0
   cipher: auto
   name: 17|【BGP】美国 06 | 1x US
@@ -1856,7 +1823,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2900d76a-6ab7-450d-b1fa-c48babf9f1d2
+  uuid: 968e110b-f077-4f00-9625-242e15ca3678
 - alterId: 0
   cipher: auto
   name: 17|【BGP】韩国 02 | 1x KR
@@ -1866,7 +1833,7 @@ proxies:
   servername: kr04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2900d76a-6ab7-450d-b1fa-c48babf9f1d2
+  uuid: 968e110b-f077-4f00-9625-242e15ca3678
 - alterId: 0
   cipher: auto
   name: 17|【BGP】菲律宾 04 | 1x PH
@@ -1876,7 +1843,7 @@ proxies:
   servername: ph04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2900d76a-6ab7-450d-b1fa-c48babf9f1d2
+  uuid: 968e110b-f077-4f00-9625-242e15ca3678
 - alterId: 0
   cipher: auto
   name: 17|【BGP】俄罗斯 04 | 1x RU
@@ -1886,7 +1853,7 @@ proxies:
   servername: ru04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2900d76a-6ab7-450d-b1fa-c48babf9f1d2
+  uuid: 968e110b-f077-4f00-9625-242e15ca3678
 - alterId: 0
   cipher: auto
   name: 17|【BGP】马来西亚 04 | 1x MY
@@ -1896,7 +1863,7 @@ proxies:
   servername: my04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2900d76a-6ab7-450d-b1fa-c48babf9f1d2
+  uuid: 968e110b-f077-4f00-9625-242e15ca3678
 - alterId: 0
   cipher: auto
   name: 17|【BGP】泰国 04 | 1x TH
@@ -1906,7 +1873,7 @@ proxies:
   servername: th04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2900d76a-6ab7-450d-b1fa-c48babf9f1d2
+  uuid: 968e110b-f077-4f00-9625-242e15ca3678
 - alterId: 0
   cipher: auto
   name: 17|【BGP】阿根廷 04 | 1x AR
@@ -1916,7 +1883,7 @@ proxies:
   servername: ar04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2900d76a-6ab7-450d-b1fa-c48babf9f1d2
+  uuid: 968e110b-f077-4f00-9625-242e15ca3678
 - alterId: 0
   cipher: auto
   name: 17|【BGP】匈牙利 04 | 1x HU
@@ -1926,7 +1893,7 @@ proxies:
   servername: hu04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2900d76a-6ab7-450d-b1fa-c48babf9f1d2
+  uuid: 968e110b-f077-4f00-9625-242e15ca3678
 - alterId: 0
   cipher: auto
   name: 17|【BGP】土耳其 04 | 1x TR
@@ -1936,7 +1903,7 @@ proxies:
   servername: tr04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2900d76a-6ab7-450d-b1fa-c48babf9f1d2
+  uuid: 968e110b-f077-4f00-9625-242e15ca3678
 - alterId: 0
   cipher: auto
   name: 17|【BGP】乌克兰 04 | 1x UA
@@ -1946,7 +1913,7 @@ proxies:
   servername: ua04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2900d76a-6ab7-450d-b1fa-c48babf9f1d2
+  uuid: 968e110b-f077-4f00-9625-242e15ca3678
 - alterId: 0
   cipher: auto
   name: 17|【BGP】越南 04 | 1x VN
@@ -1956,7 +1923,7 @@ proxies:
   servername: vn04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2900d76a-6ab7-450d-b1fa-c48babf9f1d2
+  uuid: 968e110b-f077-4f00-9625-242e15ca3678
 - alterId: 0
   cipher: auto
   name: 17|【BGP】巴西 04 | 1x BR
@@ -1966,7 +1933,7 @@ proxies:
   servername: br04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2900d76a-6ab7-450d-b1fa-c48babf9f1d2
+  uuid: 968e110b-f077-4f00-9625-242e15ca3678
 - alterId: 0
   cipher: auto
   name: 17|【BGP】印度 04 | 1x IN
@@ -1976,7 +1943,7 @@ proxies:
   servername: in04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2900d76a-6ab7-450d-b1fa-c48babf9f1d2
+  uuid: 968e110b-f077-4f00-9625-242e15ca3678
 - alterId: 0
   cipher: auto
   name: 17|【BGP】澳大利亚 04 | 1x AU
@@ -1986,7 +1953,7 @@ proxies:
   servername: au04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2900d76a-6ab7-450d-b1fa-c48babf9f1d2
+  uuid: 968e110b-f077-4f00-9625-242e15ca3678
 - alterId: 0
   cipher: auto
   name: 17|【BGP】英国 04 | 1x UK
@@ -1996,7 +1963,7 @@ proxies:
   servername: uk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2900d76a-6ab7-450d-b1fa-c48babf9f1d2
+  uuid: 968e110b-f077-4f00-9625-242e15ca3678
 - alterId: 0
   cipher: auto
   name: 17|【BGP】德国 04 | 1x AU
@@ -2006,7 +1973,7 @@ proxies:
   servername: de04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2900d76a-6ab7-450d-b1fa-c48babf9f1d2
+  uuid: 968e110b-f077-4f00-9625-242e15ca3678
 - alterId: 0
   cipher: auto
   name: 17|【BGP】加拿大 02 | 1x CA
@@ -2016,7 +1983,7 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2900d76a-6ab7-450d-b1fa-c48babf9f1d2
+  uuid: 968e110b-f077-4f00-9625-242e15ca3678
 - alterId: 0
   cipher: auto
   name: 17|【BGP】西班牙 02 | 1x ES
@@ -2026,7 +1993,7 @@ proxies:
   servername: es04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2900d76a-6ab7-450d-b1fa-c48babf9f1d2
+  uuid: 968e110b-f077-4f00-9625-242e15ca3678
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 18|🇭🇰 香港KT|@ripaojiedian
@@ -2270,6 +2237,20 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 19|香港2|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: onea.flha.ru
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
   name: 19|台湾2|@ripaojiedian
   network: ws
   port: '40568'
@@ -2298,6 +2279,20 @@ proxies:
     path: /video/c9efxRCi
 - alterId: 0
   cipher: auto
+  name: 19|美国|@ripaojiedian
+  network: ws
+  port: '8880'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5bfd0956-dfa6-4c63-a8a8-adbf6f9e8366
+  ws-opts:
+    headers:
+      Host: us6gzxQRrE4.fzbqfrse.xyz
+    path: /video/bYdJ7Vc2We
+- alterId: 0
+  cipher: auto
   name: 24|🇨🇦_CA_加拿大_3
   network: ws
   port: 8080
@@ -2321,198 +2316,198 @@ proxy-groups:
 - interval: 300
   name: 🎯 负载均衡
   proxies: &id001
-  - 17|【BGP】乌克兰 04 | 1x UA
-  - 16|🇺🇸 美国 013
-  - 17|【BGP】越南 04 | 1x VN
-  - 16|🌷2@oneclickvpnkeys
-  - 16|🇨🇦 加拿大 022
-  - 6|-https://t.me/MrXbin-1
-  - 17|【BGP】德国 04 | 1x AU
-  - 16|新加坡 001
-  - 12|美国聖荷西|Github搜索TrojanLinks
-  - 17|【BGP】巴西 04 | 1x BR
-  - 16|🔒 VM-WS-TLS 🇺🇸 US-172.67.198.1...
-  - 16|🇺🇲 美国52_9@5
-  - 1|_RU_
-  - 1|_CA_
-  - '0,3,4,8,20|🇨🇦_CA_加拿大->🇺🇸_US_美国 #3'
-  - '16|VPN招代理电报联系@xiaoying229 #1'
-  - 7|德国3
-  - 13|🇮🇳印度04
-  - 1|_US__5
-  - 14,15|github.com/freefq - 美国Fastly全球...
-  - 17|【BGP】美国 05 | 1x US
-  - 16|🌷7@oneclickvpnkeys
-  - 16|VPN招代理电报联系@xiaoying229
-  - 1|_US__4
-  - 14,15|github.com/freefq - 印度  10
-  - 13|🇦🇺澳大利亚04
-  - 16|美国 038
-  - 16|【TG：@ccbaohe}定时更新节点订阅  US00940...
-  - 17|【BGP】新加坡 04 | 1x SG
-  - 13|🇨🇦加拿大04
-  - 18|🇸🇬 新加坡2|@ripaojiedian 2
-  - '12|美国聖荷西|Github搜索TrojanLinks #5'
-  - 16|🔒 VM-TCP-NA 🇳🇴 NO-185.175.56.1...
-  - '14|美国 CloudFlare节点 #2'
-  - 1|_CA_->_US__2
-  - 18|🇯🇵 日本特殊|@ripaojiedian
-  - 1|_CA_->_US__1
-  - 18|🇭🇰 香港2|@ripaojiedian
-  - 1|_AE_->_FR_
-  - 24|🇨🇦_CA_加拿大_3
-  - 17|【BGP】日本 04  | 1x JP
-  - 18|🇰🇷 韩国|@ripaojiedian
-  - 12|荷兰阿姆斯特丹|Github搜索TrojanLinks
-  - 16|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
-  - 16|🔒 VM-WS-NA 🇨🇦 CA-23.26.239.147...
-  - 7|德国2
-  - 16|美国 032
-  - 16|🇺🇸 US 99 → tg@nicevpn123
-  - 12|荷兰乌得勒支|Github搜索TrojanLinks
-  - 16|🔒 VM-WS-NA 🇰🇷 KR-140.238.18.10...
-  - '0,3,4,8,20|🇺🇸_US_美国 #16'
-  - 19|新加坡3|@ripaojiedian
-  - 13|🇸🇬新加坡06
-  - 16|🔒 VM-TCP-NA 🇨🇭 CH-188.244.117....
-  - 17|【BGP】马来西亚 04 | 1x MY
-  - '16|@Hope_Net-join-us-on-Telegram #1'
-  - '16|关注电报https://t.me/aifenxiang202... #2'
-  - 13|🇺🇸美国06
-  - '14,15|github.com/freefq - 美国CloudFla... #1'
-  - '12|美国聖荷西|Github搜索TrojanLinks #3'
-  - 16|俄罗斯 002
-  - 13|🇺🇸美国05
-  - 16|🇺🇸 美国 045
-  - 12|美国洛杉矶|Github搜索TrojanLinks
-  - 19|台湾2|@ripaojiedian
-  - 18|🇯🇵 日本2|@ripaojiedian
-  - 1|_US__2
-  - 16|关注电报https://t.me/aifenxiang202...
-  - 16|🔒 VM-WS-NA 🇺🇸 US-172.67.229.25...
-  - 16|🔒 VM-WS-TLS 🇺🇸 US-172.67.133.7...
-  - 6|-https://t.me/MrXbin-52
-  - 16|加拿大 016
-  - 12|中国哈尔滨市|Github搜索TrojanLinks
-  - 16|🔒 VM-WS-NA 🇩🇪 DE-217.160.45.31...
-  - 13|🇸🇬新加坡05
-  - 0,3,4,8,9,20,24|🇦🇪_AE_阿联酋->🇫🇷_FR_法国_4
-  - 13|🇭🇺匈牙利04
-  - 13|🇯🇵日本06
-  - 13|🇰🇷韩国04
-  - 12|美国紐約|Github搜索TrojanLinks
-  - 16|🔒 VM-TCP-NA 🇺🇸 US-51.81.210.17...
-  - 13|🇦🇷阿根廷04
-  - 18|🇸🇬 新加坡2|@ripaojiedian
-  - 18|🇰🇷 韩国2|@ripaojiedian
-  - 17|【BGP】加拿大 02 | 1x CA
-  - 6|-https://t.me/MrXbin-6
-  - 17|【BGP】泰国 04 | 1x TH
-  - 13|🇬🇧英国04
-  - 13|🇺🇸美国04
-  - 16|美国(yudou66.com 玉豆免费节点)
-  - '12|荷兰乌得勒支|Github搜索TrojanLinks #1'
-  - 1|_US__3
-  - 14,19|美国|@ripaojiedian
-  - 18|🇰🇷 韩国3|@ripaojiedian
-  - '12|美国聖荷西|Github搜索TrojanLinks #4'
-  - '12|美国洛杉矶|Github搜索TrojanLinks #1'
-  - 13|🇺🇦乌克兰04
-  - 13|🇪🇸西班牙04
-  - '12|美国洛杉矶|Github搜索TrojanLinks #2'
-  - 16|🇨🇿|CZ|捷克|@wxgqlfx|37
-  - '9|🇺🇸_US_美国->🇨🇦_CA_加拿大 #3'
-  - 18|🇸🇬 狮城特殊|@ripaojiedian
-  - 13|🇯🇵日本04
-  - 16|🇨🇿|CZ|捷克|@wxgqlfx|40
-  - 14,15|github.com/freefq - 印度  2
-  - 13|🇵🇭菲律宾04
-  - 18|🇭🇰 香港|@ripaojiedian
-  - 0,3,4,8,9,20,24|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_21
-  - 16|US_youtube@资源分享师_157
-  - 13|🇹🇷土耳其04
-  - 0,3,4,8,20,24|🇺🇸_US_美国_2_22
-  - 16|🔒 VM-TCP-NA 🇱🇺 LU-172.86.76.20...
-  - 18|🇭🇰 香港5|@ripaojiedian
-  - 14,15|github.com/freefq - 广东省移动 7
-  - 17|【BGP】澳大利亚 04 | 1x AU
   - 13|🇧🇷巴西04
-  - '14,15|github.com/freefq - 美国CloudFla... #2'
-  - 16|🇨🇦 加拿大 001
-  - 7|德国1
-  - 16|🌷52@oneclickvpnkeys
-  - 17|【BGP】印度 04 | 1x IN
-  - 6|-https://t.me/MrXbin-3
-  - 6|-https://t.me/MrXbin-12
-  - 14|美国加利福尼亚州洛杉矶 PetaExpress
-  - 17|【BGP】阿根廷 04 | 1x AR
-  - 17|【BGP】菲律宾 04 | 1x PH
-  - 13|🇹🇭泰国04
-  - 17|【BGP】日本 05  | 1x JP
-  - 18|🇯🇵 日本4|@ripaojiedian
-  - '0,3,4,8,19,20|🇺🇸_US_美国 #17'
-  - 18|🇭🇰 香港KT|@ripaojiedian
-  - 16|🌷24@oneclickvpnkeys
-  - 18|🇯🇵 日本|@ripaojiedian
-  - 13|🇩🇪德国04
-  - 17|【BGP】韩国 02 | 1x KR
-  - 17|【BGP】美国 06 | 1x US
-  - 18|🇰🇷 韩国特殊|@ripaojiedian
-  - '16|关注电报https://t.me/aifenxiang202... #1'
-  - 0,3,4,8,20,24|🇷🇺_RU_俄罗斯联邦_20
-  - 17|【BGP】匈牙利 04 | 1x HU
-  - 12|中国泉州市|Github搜索TrojanLinks
-  - 16|乌克兰 V2CROSS.COM
-  - 12|中国新山村|Github搜索TrojanLinks
-  - 18|🇰🇷 韩国1|@ripaojiedian
-  - 16|加拿大 014
-  - '16|VPN招代理电报联系@xiaoying229 #2'
-  - 17|【BGP】新加坡 06 | 1x SG
-  - 16|@Hope_Net-join-us-on-Telegram
-  - '14|美国 CloudFlare节点 #3'
-  - 13|🇯🇵日本05
-  - 17|【BGP】英国 04 | 1x UK
-  - 13|🇷🇺俄罗斯04
-  - 18|🇭🇰 香港1|@ripaojiedian
-  - 14,16,18,19|美国2|@ripaojiedian
-  - '14|美国 CloudFlare节点 #5'
-  - 1|_US_->_CA_
-  - 16|🌷30@oneclickvpnkeys
-  - 16|🔒 VM-WS-NA 🇺🇸 US-172.67.170.10...
-  - 1|_US__1
-  - '14,15|github.com/freefq - 美国CloudFla... #3'
-  - 13|🇲🇾马来西亚04
-  - 18|🇹🇼 台湾|@ripaojiedian
-  - 16|🔒 VM-TCP-NA 🇩🇪 DE-193.36.84.67...
-  - 18|🇹🇼 台湾1|@ripaojiedian
-  - 17|【BGP】新加坡 05 | 1x SG
-  - 1|_US_->_DE_
-  - 16|🔒 VM-WS-TLS 🇺🇸 US-38.14.107.23...
-  - 17|【BGP】俄罗斯 04 | 1x RU
-  - 16|🌷17@oneclickvpnkeys
-  - '14|美国 CloudFlare节点 #4'
-  - 16|美国 加利福尼亚州圣何塞PEG TECH
-  - 18|🇯🇵 日本3|@ripaojiedian
+  - '12|美国洛杉矶|Github搜索TrojanLinks #1'
+  - 1|_US__2
   - 13|🇸🇬新加坡04
-  - 0,3,4,8,20,24|🇨🇦_CA_加拿大_23
-  - '0,3,4,8,20|🇺🇸_US_美国 #15'
-  - 16|加拿大 011
-  - 13|🇻🇳越南04
-  - 17|【BGP】日本 06  | 1x JP
-  - 18|🇭🇰 香港3|@ripaojiedian
-  - 14,19|香港2|@ripaojiedian
+  - 16|🔒 VM-WS-TLS 🇺🇸 US-172.67.198.1...
+  - 19|新加坡3|@ripaojiedian
+  - 16|美国 038
+  - 12|中国新山村|Github搜索TrojanLinks
+  - '12|美国聖荷西|Github搜索TrojanLinks #3'
+  - 1|_US_->_CA_
+  - 12|美国聖荷西|Github搜索TrojanLinks
+  - 12|荷兰阿姆斯特丹|Github搜索TrojanLinks
+  - 8,24|🇺🇸_US_美国_2_22
+  - 8,24|🇷🇺_RU_俄罗斯联邦_20
+  - 13|🇯🇵日本05
+  - 16|加拿大 016
+  - 17|【BGP】澳大利亚 04 | 1x AU
+  - 18|🇭🇰 香港2|@ripaojiedian
+  - 16|🌷7@oneclickvpnkeys
+  - '12|美国聖荷西|Github搜索TrojanLinks #4'
+  - 13|🇸🇬新加坡06
+  - 17|【BGP】俄罗斯 04 | 1x RU
+  - 6|-https://t.me/MrXbin-16
+  - 13|🇩🇪德国04
+  - 13|🇹🇭泰国04
+  - 6|-https://t.me/MrXbin-48
   - '12|美国聖荷西|Github搜索TrojanLinks #1'
-  - 12|中国石家庄市|Github搜索TrojanLinks
+  - 16|加拿大 011
+  - '14,15|github.com/freefq - 美国CloudFla... #1'
+  - 0,3,4,8,9,14,20,24|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_21
+  - 7|德国2
+  - 1|_US__1
+  - 16|🔒 VM-WS-NA 🇰🇷 KR-140.238.18.10...
+  - 17|【BGP】英国 04 | 1x UK
+  - 6|-https://t.me/MrXbin-12
+  - 7|德国1
+  - 16|🔒 VM-TCP-NA 🇳🇴 NO-185.175.56.1...
+  - 16|🇺🇸 US 99 → tg@nicevpn123
+  - 13|🇮🇳印度04
+  - '14|美国 CloudFlare节点 #2'
+  - 16|关注电报https://t.me/aifenxiang202...
+  - 18|🇯🇵 日本特殊|@ripaojiedian
+  - 1|_US__5
+  - 17|【BGP】印度 04 | 1x IN
+  - 16|@Hope_Net-join-us-on-Telegram
+  - 14,15|github.com/freefq - 印度  2
+  - 6|-https://t.me/MrXbin-13
+  - 18|🇹🇼 台湾1|@ripaojiedian
+  - '8|🇺🇸_US_美国 #3'
+  - 13|🇯🇵日本04
+  - 16|🇺🇲 美国52_9@5
+  - 16|🇺🇸 美国 045
+  - 12|中国泉州市|Github搜索TrojanLinks
+  - 13|🇻🇳越南04
   - 14,15|github.com/freefq - 印度  3
-  - 14,15|github.com/freefq - 美国CloudFla...
-  - 17|【BGP】土耳其 04 | 1x TR
-  - 18|🇭🇰 香港KT2|@ripaojiedian
-  - 17|【BGP】西班牙 02 | 1x ES
-  - 17|【BGP】美国 04 | 1x US
-  - 0,3,4,8,20,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
-  - 0,3,4,8,20,24|🇺🇸_US_美国->🇨🇦_CA_加拿大_由快嘴科技提供：kk...
+  - 6|-https://t.me/MrXbin-2
+  - '16|VPN招代理电报联系@xiaoying229 #1'
+  - 17|【BGP】韩国 02 | 1x KR
+  - 18|🇯🇵 日本3|@ripaojiedian
+  - 16|🌷30@oneclickvpnkeys
+  - 18|🇰🇷 韩国1|@ripaojiedian
+  - 17|【BGP】马来西亚 04 | 1x MY
+  - 13|🇨🇦加拿大04
+  - 12|美国紐約|Github搜索TrojanLinks
+  - 14|美国 Fastly全球Anycast节点
+  - 16|【TG：@ccbaohe}定时更新节点订阅  US00940...
+  - 16|🇨🇦 加拿大 001
+  - 16|🇨🇿|CZ|捷克|@wxgqlfx|37
   - 18|🇭🇰 香港4|@ripaojiedian
+  - 13|🇭🇺匈牙利04
+  - 1|_AE_->_FR_
+  - 17|【BGP】新加坡 06 | 1x SG
+  - 17|【BGP】乌克兰 04 | 1x UA
+  - 18|🇭🇰 香港3|@ripaojiedian
+  - '16|@Hope_Net-join-us-on-Telegram #1'
+  - 18|🇸🇬 新加坡2|@ripaojiedian 2
+  - 12|美国洛杉矶|Github搜索TrojanLinks
+  - 17|【BGP】日本 06  | 1x JP
+  - 18|🇰🇷 韩国3|@ripaojiedian
+  - 17|【BGP】土耳其 04 | 1x TR
+  - 18|🇸🇬 新加坡2|@ripaojiedian
+  - 17|【BGP】匈牙利 04 | 1x HU
+  - 1|_US_->_DE_
+  - 18|🇰🇷 韩国|@ripaojiedian
+  - 16|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
+  - 7|德国3
+  - 16|🔒 VM-TCP-NA 🇩🇪 DE-193.36.84.67...
+  - 8,24|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
+  - 16|🌷17@oneclickvpnkeys
+  - 16|乌克兰 V2CROSS.COM
+  - 6|-https://t.me/MrXbin-1
+  - '12|荷兰乌得勒支|Github搜索TrojanLinks #1'
+  - 14|美国 CloudFlare节点
+  - 17|【BGP】美国 04 | 1x US
+  - 8|🇨🇦_CA_加拿大->🇺🇸_US_美国
+  - '12|美国聖荷西|Github搜索TrojanLinks #5'
   - '12|美国聖荷西|Github搜索TrojanLinks #2'
+  - 8,14,19|日本2|@ripaojiedian
+  - 17|【BGP】西班牙 02 | 1x ES
+  - 16|美国 032
+  - 16|🌷24@oneclickvpnkeys
+  - 1|_CA_->_US__2
+  - '16|VPN招代理电报联系@xiaoying229 #2'
+  - 18|🇭🇰 香港1|@ripaojiedian
+  - 18|🇭🇰 香港5|@ripaojiedian
+  - 14,16,18,19|美国2|@ripaojiedian
+  - 6|-https://t.me/MrXbin-11
+  - 24|🇨🇦_CA_加拿大_3
+  - 13|🇲🇾马来西亚04
+  - 13|🇦🇺澳大利亚04
+  - 18|🇭🇰 香港KT|@ripaojiedian
+  - 8,24|🇨🇦_CA_加拿大_23
+  - 13|🇺🇦乌克兰04
+  - '8|🇺🇸_US_美国 #2'
+  - 16|🔒 VM-WS-TLS 🇺🇸 US-38.14.107.23...
+  - 16|🇨🇦 加拿大 022
+  - 17|【BGP】加拿大 02 | 1x CA
+  - 16|🌷52@oneclickvpnkeys
+  - 13|🇬🇧英国04
+  - 16|🔒 VM-TCP-NA 🇨🇭 CH-188.244.117....
+  - 17|【BGP】巴西 04 | 1x BR
+  - 16|🔒 VM-TCP-NA 🇱🇺 LU-172.86.76.20...
+  - 13|🇷🇺俄罗斯04
+  - '14,15|github.com/freefq - 美国CloudFla... #2'
+  - 14,15|github.com/freefq - 美国CloudFla...
+  - 17|【BGP】菲律宾 04 | 1x PH
+  - 17|【BGP】美国 05 | 1x US
+  - '14,15|github.com/freefq - 美国CloudFla... #3'
+  - 17|【BGP】日本 04  | 1x JP
+  - 1|_RU_
+  - 18|🇹🇼 台湾|@ripaojiedian
+  - '9|🇺🇸_US_美国->🇨🇦_CA_加拿大 #1'
+  - 17|【BGP】越南 04 | 1x VN
+  - 16|🇺🇸 美国 013
+  - 17|【BGP】泰国 04 | 1x TH
+  - 16|🔒 VM-WS-NA 🇨🇦 CA-23.26.239.147...
+  - 19|台湾2|@ripaojiedian
+  - 16|🔒 VM-TCP-NA 🇺🇸 US-51.81.210.17...
+  - 0,3,4,8,9,20,24|🇦🇪_AE_阿联酋->🇫🇷_FR_法国_4
+  - 16|VPN招代理电报联系@xiaoying229
+  - 14,15|github.com/freefq - 印度  10
+  - '12|美国洛杉矶|Github搜索TrojanLinks #2'
+  - 16|🔒 VM-WS-TLS 🇺🇸 US-172.67.133.7...
+  - 16|新加坡 001
+  - 16|俄罗斯 002
+  - 17|【BGP】日本 05  | 1x JP
+  - 16|🔒 VM-WS-NA 🇺🇸 US-172.67.170.10...
+  - 16|US_youtube@资源分享师_157
+  - 16|美国(yudou66.com 玉豆免费节点)
+  - 19|美国|@ripaojiedian
+  - 14,15|github.com/freefq - 美国Fastly全球...
+  - 12|中国哈尔滨市|Github搜索TrojanLinks
+  - 17|【BGP】阿根廷 04 | 1x AR
+  - 13|🇯🇵日本06
+  - 16|🔒 VM-WS-NA 🇺🇸 US-172.67.229.25...
+  - 16|🌷2@oneclickvpnkeys
+  - 16|美国 加利福尼亚州圣何塞PEG TECH
+  - 13|🇰🇷韩国04
+  - 16|🔒 VM-WS-NA 🇩🇪 DE-217.160.45.31...
+  - 1|_CA_->_US__1
+  - 17|【BGP】新加坡 04 | 1x SG
+  - 13|🇦🇷阿根廷04
+  - '16|关注电报https://t.me/aifenxiang202... #2'
+  - 8,24|🇺🇸_US_美国->🇨🇦_CA_加拿大_由快嘴科技提供：kk...
+  - 13|🇺🇸美国04
+  - 17|【BGP】新加坡 05 | 1x SG
+  - 18|🇰🇷 韩国特殊|@ripaojiedian
+  - 18|🇯🇵 日本4|@ripaojiedian
+  - 16|🇨🇿|CZ|捷克|@wxgqlfx|40
+  - 18|🇭🇰 香港KT2|@ripaojiedian
+  - 16|加拿大 014
+  - 17|【BGP】美国 06 | 1x US
+  - 19|香港2|@ripaojiedian
+  - 13|🇺🇸美国05
+  - 12|荷兰乌得勒支|Github搜索TrojanLinks
+  - 18|🇯🇵 日本2|@ripaojiedian
+  - 1|_US__4
+  - 18|🇰🇷 韩国2|@ripaojiedian
+  - 18|🇸🇬 狮城特殊|@ripaojiedian
+  - 13|🇵🇭菲律宾04
+  - 18|🇯🇵 日本|@ripaojiedian
+  - '16|关注电报https://t.me/aifenxiang202... #1'
+  - 1|_US__3
+  - 17|【BGP】德国 04 | 1x AU
+  - 13|🇹🇷土耳其04
+  - 13|🇺🇸美国06
+  - 14,15|github.com/freefq - 广东省移动 7
+  - 13|🇪🇸西班牙04
+  - 1|_CA_
+  - 12|中国石家庄市|Github搜索TrojanLinks
+  - 18|🇭🇰 香港|@ripaojiedian
+  - 13|🇸🇬新加坡05
   type: load-balance
   url: https://www.google.com/
 - interval: 300
@@ -2577,16 +2572,15 @@ proxy-groups:
 - interval: 300
   name: 🇺🇸 美国
   proxies:
-  - '0,3,4,8,19,20|🇺🇸_US_美国 #17'
-  - 0,3,4,8,9,20,24|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_21
-  - '0,3,4,8,20|🇺🇸_US_美国 #16'
-  - '0,3,4,8,20|🇺🇸_US_美国 #15'
-  - 0,3,4,8,20,24|🇺🇸_US_美国_2_22
   - 1|_US__1
   - 1|_US__2
   - 1|_US__3
   - 1|_US__4
   - 1|_US__5
+  - 8,14,19|日本2|@ripaojiedian
+  - '8|🇺🇸_US_美国 #2'
+  - '8|🇺🇸_US_美国 #3'
+  - 8,24|🇺🇸_US_美国_2_22
   - 12|美国聖荷西|Github搜索TrojanLinks
   - 12|美国洛杉矶|Github搜索TrojanLinks
   - '12|美国洛杉矶|Github搜索TrojanLinks #1'
@@ -2600,16 +2594,12 @@ proxy-groups:
   - 13|🇺🇸美国04
   - 13|🇺🇸美国05
   - 13|🇺🇸美国06
-  - 14,19|美国|@ripaojiedian
-  - 14|美国加利福尼亚州洛杉矶 PetaExpress
-  - 14,16,18,19|美国2|@ripaojiedian
+  - 14|美国 CloudFlare节点
   - '14|美国 CloudFlare节点 #2'
-  - '14|美国 CloudFlare节点 #3'
-  - '14|美国 CloudFlare节点 #4'
-  - '14|美国 CloudFlare节点 #5'
-  - 14,19|香港2|@ripaojiedian
-  - 14,15|github.com/freefq - 美国CloudFla...
+  - 14,16,18,19|美国2|@ripaojiedian
   - '14,15|github.com/freefq - 美国CloudFla... #1'
+  - 14|美国 Fastly全球Anycast节点
+  - 14,15|github.com/freefq - 美国CloudFla...
   - '14,15|github.com/freefq - 美国CloudFla... #2'
   - 14,15|github.com/freefq - 美国Fastly全球...
   - '14,15|github.com/freefq - 美国CloudFla... #3'
@@ -2632,6 +2622,7 @@ proxy-groups:
   - 17|【BGP】美国 04 | 1x US
   - 17|【BGP】美国 05 | 1x US
   - 17|【BGP】美国 06 | 1x US
+  - 19|美国|@ripaojiedian
   tolerance: 20
   type: url-test
   url: https://www.google.com/
@@ -2642,7 +2633,6 @@ proxy-groups:
   - 12|中国泉州市|Github搜索TrojanLinks
   - 12|中国石家庄市|Github搜索TrojanLinks
   - 12|中国哈尔滨市|Github搜索TrojanLinks
-  - 14,15|github.com/freefq - 广东省移动 7
   tolerance: 20
   type: url-test
   url: https://www.google.com/
@@ -2657,6 +2647,7 @@ proxy-groups:
   - 18|🇭🇰 香港3|@ripaojiedian
   - 18|🇭🇰 香港4|@ripaojiedian
   - 18|🇭🇰 香港5|@ripaojiedian
+  - 19|香港2|@ripaojiedian
   tolerance: 20
   type: url-test
   url: https://www.google.com/
@@ -2672,8 +2663,8 @@ proxy-groups:
 - interval: 300
   name: 🇨🇦 加拿大
   proxies:
-  - 0,3,4,8,20,24|🇨🇦_CA_加拿大_23
   - 1|_CA_
+  - 8,24|🇨🇦_CA_加拿大_23
   - 13|🇨🇦加拿大04
   - 16|加拿大 016
   - 16|🇨🇦 加拿大 022

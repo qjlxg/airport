@@ -5,7 +5,7 @@ curl -s -o ip_official.txt "https://www.cloudflare.com/ips-v4"
 curl -s -o ip_reverse.txt "https://www.baipiao.eu.org/cloudflare/ips-v4"
 echo Downloading IP list files completed.
 
-set args=-n 500 -t 10 -dn 50 -sl 5 -tl 300 -p 0 -url https://cdn.cloudflare.steamstatic.com/steam/apps/256843155/movie_max.mp4
+set args=-n 500 -t 10 -dn 100 -sl 5 -tl 300 -p 0 -url https://cdn.cloudflare.steamstatic.com/steam/apps/256843155/movie_max.mp4
 rem 官方IP优选测速
 echo Testing official IP...
 .\CloudflareST.exe %args% -f ip_official.txt -o ip_official.csv

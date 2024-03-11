@@ -16,78 +16,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Git Checkout
-        uses: actions/checkout@v2
-
-      - name: Download files
-        run: |
-          mkdir -p subs && cd subs
-          curl -s -o ClodQiu.yaml            'https://raw.githubusercontent.com/ClodQiu/STARS/master/list.yml'
-          curl -s -o Pawdroid.yaml           'https://sub.xeton.dev/sub?target=clash&new_name=true&url=https%3A%2F%2Fgithub.com%2FPawdroid%2FFree-servers%2Fraw%2Fmain%2Fsub&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini'
-          curl -s -o a2470982985.yaml        'https://raw.githubusercontent.com/a2470982985/getNode/main/clash.yaml'
-          curl -s -o abshare.yaml            'https://sub.xeton.dev/sub?target=clash&new_name=true&url=https%3A%2F%2Futils.2424014450.workers.dev%2Fmarkdown%3Ftarget%3Dhttps%253A%252F%252Fraw.githubusercontent.com%252Fabshare%252Fabshare.github.io%252Fmain%252FREADME.md&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini'
-          curl -s -o aiboboxx.yaml           'https://sub.xeton.dev/sub?target=clash&new_name=true&url=https%3A%2F%2Fraw.githubusercontent.com%2Faiboboxx%2Fv2rayfree%2Fmain%2Fv2&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini'
-          curl -s -o chengaopan.yaml         'https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml'
-          curl -s -o edgetunnel.yaml         'https://edgetunnel.2424014450.workers.dev/113dd109-540e-4497-9d47-eed30315260f' -H 'User-Agent: clash'
-          curl -s -o ermaozi.yaml            'https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml'
-          curl -s -o freefq.yaml             'https://sub.xeton.dev/sub?target=clash&new_name=true&url=https%3A%2F%2Fraw.githubusercontent.com%2Ffreefq%2Ffree%2Fmaster%2Fv2&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini'
-          curl -s -o mfuu.yaml               'https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml'
-          curl -s -o mianayang.yaml          'https://raw.githubusercontent.com/mianayang/chromego_merge/main/sub/merged_proxies_new.yaml'
-          curl -s -o mksshare.yaml           'https://sub.xeton.dev/sub?target=clash&new_name=true&url=https%3A%2F%2Futils.2424014450.workers.dev%2Fmarkdown%3Ftarget%3Dhttps%253A%252F%252Fraw.githubusercontent.com%252Fmksshare%252Fmksshare.github.io%252Fmain%252FREADME.md&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini'
-          curl -s -o peasoft.yaml            'https://sub.xeton.dev/sub?target=clash&new_name=true&url=https%3A%2F%2Futils.2424014450.workers.dev%3Ftarget%3Dhttps%253A%252F%252Fraw.githubusercontent.com%252Fpeasoft%252FNoMoreWalls%252Fmaster%252Flist_raw.txt&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini'
-          curl -s -o shunfeng.yaml           'https://shunfeng.2424014450.workers.dev'
-          curl -s -o tolinkshare.yaml        'https://sub.xeton.dev/sub?target=clash&new_name=true&url=https%3A%2F%2Futils.2424014450.workers.dev%2Fmarkdown%3Ftarget%3Dhttps%253A%252F%252Fraw.githubusercontent.com%252Ftolinkshare%252Ffreenode%252Fmain%252FREADME.md&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini'
-          curl -s -o w1770946466.yaml        'https://sub.xeton.dev/sub?target=clash&new_name=true&url=https%3A%2F%2Fraw.githubusercontent.com%2Fw1770946466%2FAuto_proxy%2Fmain%2FLong_term_subscription1%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fw1770946466%2FAuto_proxy%2Fmain%2FLong_term_subscription2%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fw1770946466%2FAuto_proxy%2Fmain%2FLong_term_subscription3%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fw1770946466%2FAuto_proxy%2Fmain%2FLong_term_subscription4%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fw1770946466%2FAuto_proxy%2Fmain%2FLong_term_subscription5%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fw1770946466%2FAuto_proxy%2Fmain%2FLong_term_subscription6%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fw1770946466%2FAuto_proxy%2Fmain%2FLong_term_subscription7%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fw1770946466%2FAuto_proxy%2Fmain%2FLong_term_subscription8&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini'
-          curl -s -o xrayvip.yaml            'https://www.xrayvip.com/free.yaml'
-          curl -s -o zhangkaiitugithub.yaml  'https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml'
-          
-      - name: Preprocess files
-        run: |
-          mkdir -p subs && cd subs
-          # 移除非法字符
-          find . -type f -name "*.yaml" -exec sed -i 's/\r//g' {} +
-          
-          for file in *.yaml; do
-            # acl4ssr转换失败
-            if [[ $(head -n 1 "$file") == "The following link doesn't contain any valid node info"* ]]; then
-              echo 'proxies: [{"name": "__demo__", "type": "vmess", "server": "server", "port": 443, "uuid": "uuid", "alterId": 32, "cipher": "auto"}]' > "$file"
-            fi
-            
-            # 移除不支持的cipher
-            while IFS= read -r line; do
-            	if [[ "$line" != *"- {"* || "$line" != *"cipher: chacha20-poly1305,"* ]]; then
-            		echo "$line" >> "temp_$file"
-            	fi
-            done < "$file"
-            mv "temp_$file" "$file"
-          
-          done
-
-      - name: Git Add
-        run: |
-          git add subs/ClodQiu.yaml
-          git add subs/Pawdroid.yaml
-          git add subs/a2470982985.yaml
-          git add subs/abshare.yaml
-          git add subs/aiboboxx.yaml
-          git add subs/chengaopan.yaml
-          git add subs/edgetunnel.yaml
-          git add subs/ermaozi.yaml
-          git add subs/freefq.yaml
-          git add subs/mfuu.yaml
-          git add subs/mianayang.yaml
-          git add subs/mksshare.yaml
-          git add subs/peasoft.yaml
-          git add subs/shunfeng.yaml
-          git add subs/tolinkshare.yaml
-          git add subs/w1770946466.yaml
-          git add subs/xrayvip.yaml
-          git add subs/zhangkaiitugithub.yaml
-
-      - name: Git Commit
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git commit -m "Updated by GitHub Action"
-          git fetch && git push --force
-          
+      - name: Fetch subscribe files
+        uses: dongchengjie/subs-puller@master
+        with:
+          repository: ${{ github.repository }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          config: http://raw.githubusercontent.com/dongchengjie/airport/subs/_config.yaml

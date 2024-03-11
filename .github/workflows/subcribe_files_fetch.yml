@@ -21,4 +21,4 @@ jobs:
         with:
           repository: ${{ github.repository }}
           token: ${{ secrets.GITHUB_TOKEN }}
-          config: http://raw.githubusercontent.com/dongchengjie/airport/subs/_config.yaml
+          config: https://raw.githubusercontent.com/dongchengjie/airport/main/subs/_config.yaml

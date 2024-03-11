@@ -1,923 +1,417 @@
-port: 7890
+mixed-port: 7890
+allow-lan: true
 mode: rule
-external-controller: 127.0.0.1:9090
-proxies:
-  - {name: BR_speednode_0001, server: s3.956256.xyz, port: 80, type: vmess, uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /, headers: {Host: caonimashabiwanyi5.daxiongda.top}}}
-  - {name: BR_speednode_0002, server: s4.956256.xyz, port: 80, type: vmess, uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /, headers: {Host: caonimashabiwanyi5.daxiongda.top}}}
-  - {name: CL_speednode_0003, server: s11.956256.xyz, port: 80, type: vmess, uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /, headers: {Host: caonimashabiwanyi21.daxiongda.top}}}
-  - {name: CL_speednode_0004, server: s12.956256.xyz, port: 80, type: vmess, uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /, headers: {Host: caonimashabiwanyi21.daxiongda.top}}}
-  - {name: CN_speednode_0005, server: zebra2.2022.2025.mlinuu.top, port: 888, type: vmess, alterId: 0, cipher: auto, skip-cert-verify: true, tls: false, udp: true, uuid: 0136f633-8f20-3e15-9853-226fb53ec965}
-  - {name: CN_speednode_0006, server: zebra2.2022.2025.mlinuu.top, port: 890, type: vmess, alterId: 1, cipher: auto, skip-cert-verify: true, tls: false, udp: true, uuid: 0136f633-8f20-3e15-9853-226fb53ec965}
-  - {name: CN_speednode_0007, server: zebra2.2022.2025.mlinuu.top, port: 4501, type: vmess, alterId: 0, cipher: auto, skip-cert-verify: true, tls: false, udp: true, uuid: 0136f633-8f20-3e15-9853-226fb53ec965}
-  - {name: CN_speednode_0008, server: smart.2022.2024.mlinuu.top, port: 11001, type: vmess, alterId: 0, cipher: auto, skip-cert-verify: true, tls: false, udp: true, uuid: 0136f633-8f20-3e15-9853-226fb53ec965}
-  - {name: CN_speednode_0009, server: gdct003.theyydsnode.top, port: 14490, type: ss, cipher: chacha20-ietf-poly1305, password: 5fd760b5-b3e6-4006-9e8d-bcd8feafa374}
-  - {name: CN_speednode_0010, server: gdct001.theyydsnode.top, port: 14490, type: ss, cipher: chacha20-ietf-poly1305, password: 5fd760b5-b3e6-4006-9e8d-bcd8feafa374}
-  - {name: CN_speednode_0011, server: gdct003.theyydsnode.top, port: 15976, type: ss, cipher: chacha20-ietf-poly1305, password: 5fd760b5-b3e6-4006-9e8d-bcd8feafa374}
-  - {name: CN_speednode_0012, server: zebra2.2022.2025.mlinuu.top, port: 4504, type: vmess, alterId: 0, cipher: auto, skip-cert-verify: true, tls: false, udp: true, uuid: 0136f633-8f20-3e15-9853-226fb53ec965}
-  - {name: CN_speednode_0013, server: zebra2.2022.2025.mlinuu.top, port: 889, type: vmess, alterId: 0, cipher: auto, skip-cert-verify: true, tls: false, udp: true, uuid: 0136f633-8f20-3e15-9853-226fb53ec965}
-  - {name: CN_speednode_0014, server: gdct001.theyydsnode.top, port: 22704, type: ss, cipher: chacha20-ietf-poly1305, password: 5fd760b5-b3e6-4006-9e8d-bcd8feafa374}
-  - {name: CN_speednode_0015, server: gdct001.theyydsnode.top, port: 35672, type: ss, cipher: chacha20-ietf-poly1305, password: 5fd760b5-b3e6-4006-9e8d-bcd8feafa374}
-  - {name: CN_speednode_0016, server: data-hk-v1.shwjfkw.cn, port: 20207, type: vmess, alterId: 0, cipher: auto, network: ws, skip-cert-verify: true, tls: false, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, ws-opts: {headers: {Host: data-hk-v1.shwjfkw.cn}, path: /debian}}
-  - {name: CN_speednode_0017, server: smart.2022.2024.mlinuu.top, port: 11005, type: vmess, alterId: 0, cipher: auto, skip-cert-verify: true, tls: false, udp: true, uuid: 0136f633-8f20-3e15-9853-226fb53ec965}
-  - {name: CN_speednode_0018, server: gdct001.theyydsnode.top, port: 21526, type: ss, cipher: chacha20-ietf-poly1305, password: 5fd760b5-b3e6-4006-9e8d-bcd8feafa374}
-  - {name: CN_speednode_0019, server: smart.2022.2024.mlinuu.top, port: 11008, type: vmess, alterId: 0, cipher: auto, skip-cert-verify: true, tls: false, udp: true, uuid: 0136f633-8f20-3e15-9853-226fb53ec965}
-  - {name: CN_speednode_0020, server: smart.2022.2024.mlinuu.top, port: 11009, type: vmess, alterId: 0, cipher: auto, skip-cert-verify: true, tls: false, udp: true, uuid: 0136f633-8f20-3e15-9853-226fb53ec965}
-  - {name: CN_speednode_0021, server: for2.2022.2026.mlinuu.top, port: 4507, type: vmess, alterId: 0, cipher: auto, skip-cert-verify: true, tls: false, udp: true, uuid: 0136f633-8f20-3e15-9853-226fb53ec965}
-  - {name: CN_speednode_0022, server: gdct001.theyydsnode.top, port: 15976, type: ss, cipher: chacha20-ietf-poly1305, password: 5fd760b5-b3e6-4006-9e8d-bcd8feafa374}
-  - {name: CN_speednode_0023, server: shcm002.theyydsnode.top, port: 25881, type: ss, cipher: chacha20-ietf-poly1305, password: 5fd760b5-b3e6-4006-9e8d-bcd8feafa374}
-  - {name: CN_speednode_0024, server: smart.2022.2024.mlinuu.top, port: 11012, type: vmess, alterId: 0, cipher: auto, skip-cert-verify: true, tls: false, udp: true, uuid: 0136f633-8f20-3e15-9853-226fb53ec965}
-  - {name: CN_speednode_0025, server: gdct001.theyydsnode.top, port: 20356, type: ss, cipher: chacha20-ietf-poly1305, password: 5fd760b5-b3e6-4006-9e8d-bcd8feafa374}
-  - {name: CN_speednode_0026, server: smart.2022.2024.mlinuu.top, port: 11004, type: vmess, alterId: 0, cipher: auto, skip-cert-verify: true, tls: false, udp: true, uuid: 0136f633-8f20-3e15-9853-226fb53ec965}
-  - {name: CN_speednode_0027, server: 183.236.51.6, port: 10813, type: trojan, country: 🇨🇳CN, password: 4623e7ff-47b4-41d6-8f5a-33c8e6ac3fd5, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true, udp: true, delay: 1260}
-  - {name: CN_speednode_0028, server: nc.cm.go002.xyz, port: 19584, type: ss, cipher: chacha20-ietf-poly1305, password: cee88329-2d02-437e-9754-fd201c8fba2f, udp: true}
-  - {name: CN_speednode_0029, server: for2.2022.2026.mlinuu.top, port: 4508, type: vmess, alterId: 0, cipher: auto, skip-cert-verify: true, tls: false, udp: true, uuid: 0136f633-8f20-3e15-9853-226fb53ec965}
-  - {name: CN_speednode_0030, server: shcm002.theyydsnode.top, port: 25074, type: ss, cipher: chacha20-ietf-poly1305, password: 5fd760b5-b3e6-4006-9e8d-bcd8feafa374}
-  - {name: CN_speednode_0031, server: smart.2022.2024.mlinuu.top, port: 11010, type: vmess, alterId: 0, cipher: auto, skip-cert-verify: true, tls: false, udp: true, uuid: 0136f633-8f20-3e15-9853-226fb53ec965}
-  - {name: CN_speednode_0032, server: gdct001.theyydsnode.top, port: 25881, type: ss, cipher: chacha20-ietf-poly1305, password: 5fd760b5-b3e6-4006-9e8d-bcd8feafa374}
-  - {name: CN_speednode_0033, server: shcm002.theyydsnode.top, port: 22704, type: ss, cipher: chacha20-ietf-poly1305, password: 5fd760b5-b3e6-4006-9e8d-bcd8feafa374}
-  - {name: CN_speednode_0034, server: zebra2.2022.2025.mlinuu.top, port: 4120, type: vmess, alterId: 0, cipher: auto, skip-cert-verify: true, tls: false, udp: true, uuid: 0136f633-8f20-3e15-9853-226fb53ec965}
-  - {name: CN_speednode_0035, server: smart.2022.2024.mlinuu.top, port: 11006, type: vmess, alterId: 0, cipher: auto, skip-cert-verify: true, tls: false, udp: true, uuid: 0136f633-8f20-3e15-9853-226fb53ec965}
-  - {name: CN_speednode_0036, server: shcm002.theyydsnode.top, port: 10658, type: trojan, password: 3be4156f-bbde-43da-acc8-b398b68138fe, sni: us2.ckcloud.info, skip-cert-verify: true}
-  - {name: CN_speednode_0037, server: gdct003.theyydsnode.top, port: 35672, type: ss, cipher: chacha20-ietf-poly1305, password: 5fd760b5-b3e6-4006-9e8d-bcd8feafa374}
-  - {name: CN_speednode_0038, server: 61.155.196.242, port: 19036, type: socks5, client-fingerprint: chrome, skip-cert-verify: true, udp: true}
-  - {name: CN_speednode_0039, server: gdct001.theyydsnode.top, port: 37581, type: ss, cipher: chacha20-ietf-poly1305, password: 5fd760b5-b3e6-4006-9e8d-bcd8feafa374}
-  - {name: CN_speednode_0040, server: service.ouluyun9803.com, port: 50004, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2, udp: true}
-  - {name: CN_speednode_0041, server: shcm002.theyydsnode.top, port: 48560, type: trojan, password: 3be4156f-bbde-43da-acc8-b398b68138fe, sni: us03.ckcloud.info, skip-cert-verify: true}
-  - {name: CN_speednode_0042, server: rl1.269999.xyz, port: 27102, type: vmess, uuid: 460d53e3-3fa4-456a-83d1-d75d17d87c65, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: u2.269999.xyz, network: ws, ws-opts: {path: /, headers: {Host: rl1.269999.xyz}}, delay: 2278}
-  - {name: CN_speednode_0043, server: rl1.269999.xyz, port: 27102, type: vmess, alterId: 0, cipher: auto, network: ws, skip-cert-verify: true, tls: true, uuid: 460d53e3-3fa4-456a-83d1-d75d17d87c65, ws-opts: {headers: {Host: rl1.269999.xyz}, path: /}}
-  - {name: CN_speednode_0044, server: shcm002.theyydsnode.top, port: 45852, type: ss, cipher: chacha20-ietf-poly1305, password: 5fd760b5-b3e6-4006-9e8d-bcd8feafa374}
-  - {name: CN_speednode_0045, server: shcm002.theyydsnode.top, port: 10598, type: ss, cipher: chacha20-ietf-poly1305, password: 5fd760b5-b3e6-4006-9e8d-bcd8feafa374}
-  - {name: CN_speednode_0046, server: gdct001.theyydsnode.top, port: 26094, type: trojan, password: 3be4156f-bbde-43da-acc8-b398b68138fe, sni: id01.ckcloud.info, skip-cert-verify: true}
-  - {name: CN_speednode_0047, server: gdct001.theyydsnode.top, port: 10519, type: ss, cipher: chacha20-ietf-poly1305, password: 5fd760b5-b3e6-4006-9e8d-bcd8feafa374}
-  - {name: CN_speednode_0048, server: gdct003.theyydsnode.top, port: 10598, type: ss, cipher: chacha20-ietf-poly1305, password: 5fd760b5-b3e6-4006-9e8d-bcd8feafa374}
-  - {name: CN_speednode_0049, server: gdct003.theyydsnode.top, port: 10519, type: ss, cipher: chacha20-ietf-poly1305, password: 5fd760b5-b3e6-4006-9e8d-bcd8feafa374}
-  - {name: CN_speednode_0050, server: c.skrspc.org, port: 29126, type: ss, cipher: aes-256-gcm, password: 5160550c-3029-4300-bfd1-d7e056049694, udp: true}
-  - {name: DE_speednode_0051, server: 128.140.4.212, port: 3389, type: vmess, alterId: 0, cipher: auto, http-opts: {headers: {Host: [internet.life.com.by]}, method: GET}, network: http, skip-cert-verify: true, tls: false, udp: true, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7}
-  - {name: DE_speednode_0052, server: 5.75.190.50, port: 3389, type: vmess, alterId: 0, cipher: auto, http-opts: {headers: {Host: [internet.life.com.by]}, method: GET}, network: http, skip-cert-verify: true, tls: false, udp: true, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7}
-  - {name: DE_speednode_0053, server: 209.38.208.73, port: 2086, type: vmess, client-fingerprint: chrome, uuid: 1abc186e-fc0f-43e4-9839-4f23cccd77e7, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: DE_speednode_0054, server: 92.223.124.30, port: 443, type: vmess, uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /@forwardv2ray, headers: {Host: irsoft.sytes.net}}}
-  - {name: DE_speednode_0055, server: 92.223.124.30, port: 443, type: vmess, uuid: 29a47c42-6c3a-46d0-a184-2c1a6ea192ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /@forwardv2ray, headers: {Host: kosar37.sytes.net}}}
-  - {name: DE_speednode_0056, server: 92.223.124.30, port: 443, type: vmess, uuid: 238c9557-f231-423a-ba6f-668d1cc64cf2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /@forwardv2ray, headers: {Host: mom6.sytes.net}}}
-  - {name: DE_speednode_0057, server: 92.223.124.30, port: 443, type: vmess, uuid: 208bb4c5-e9d4-4b2e-b269-baaef130924f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /@forwardv2ray, headers: {Host: kosar31.sytes.net}}}
-  - {name: DE_speednode_0058, server: 92.223.124.30, port: 443, type: vmess, uuid: 630936c0-547a-4fe7-99ee-a43888d7932c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /@forwardv2ray, headers: {Host: mom10.sytes.net}}}
-  - {name: DE_speednode_0059, server: 116.203.116.244, port: 3389, type: vmess, alterId: 0, cipher: auto, http-opts: {headers: {Host: [internet.life.com.by]}, method: GET}, network: http, skip-cert-verify: true, tls: false, udp: true, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7}
-  - {name: FR_speednode_0060, server: 146.59.207.100, port: 80, type: vmess, alterId: 0, cipher: auto, network: ws, skip-cert-verify: true, tls: false, udp: true, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, ws-opts: {headers: {Host: internet.life.com.by}, path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY}}
-  - {name: FR_speednode_0061, server: 51.210.123.74, port: 80, type: vmess, alterId: 0, cipher: auto, network: ws, skip-cert-verify: true, tls: false, udp: true, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, ws-opts: {headers: {Host: internet.life.com.by}, path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY}}
-  - {name: FR_speednode_0062, server: 146.59.192.162, port: 80, type: vmess, alterId: 0, cipher: auto, network: ws, skip-cert-verify: true, tls: false, udp: true, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, ws-opts: {headers: {Host: internet.life.com.by}, path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY}}
-  - {name: FR_speednode_0064, server: 57.128.173.202, port: 8880, type: vmess, alterId: 0, cipher: auto, network: ws, skip-cert-verify: true, tls: false, udp: true, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, ws-opts: {headers: {Host: internet.life.com.by}, path: /}}
-  - {name: FR_speednode_0065, server: 146.59.203.191, port: 80, type: vmess, alterId: 0, cipher: auto, network: ws, skip-cert-verify: true, tls: false, udp: true, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, ws-opts: {headers: {Host: internet.life.com.by}, path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY}}
-  - {name: GB_speednode_0066, server: java.ct.arvancode.eu.org, port: 443, type: ss, client-fingerprint: chrome, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, tfo: false, udp: true}
-  - {name: GB_speednode_0067, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, client-fingerprint: chrome, password: W74XFALLLuw6m5IA, tfo: false, udp: true}
-  - {name: GB_speednode_0068, server: jseyu.arvancode.eu.org, port: 443, type: ss, client-fingerprint: chrome, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, tfo: false, udp: true}
-  - {name: GB_speednode_0069, server: java.ct.arvancode.eu.Org, port: 443, type: ss, client-fingerprint: chrome, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, tfo: false, udp: true}
-  - {name: GB_speednode_0070, server: 18.175.19.194, port: 443, type: ss, client-fingerprint: chrome, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, tfo: false, udp: true}
-  - {name: GB_speednode_0071, server: series-a2.samanehha.co, port: 443, type: ss, client-fingerprint: chrome, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg, tfo: false, udp: true}
-  - {name: GB_speednode_0072, server: Fast_2ray_Telchannelll.fast2rayy.eu.org, port: 443, type: ss, client-fingerprint: chrome, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, tfo: false, udp: true}
-  - {name: GB_speednode_0073, server: v1.arvancode.eu.org, port: 443, type: ss, client-fingerprint: chrome, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg, tfo: false, udp: true}
-  - {name: GB_speednode_0074, server: 51.38.64.145, port: 2086, type: vmess, alterId: 0, cipher: auto, network: ws, skip-cert-verify: true, tls: false, udp: true, uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7, ws-opts: {headers: {Host: internet.life.com.by}}}
-  - {name: GB_speednode_0075, server: 45.154.14.201, port: 28514, type: vmess, alterId: 0, cipher: auto, http-opts: {method: GET, path: [/]}, network: http, skip-cert-verify: true, tls: false, udp: true, uuid: c119b176-7240-43f7-b26f-9b67d54e2b95}
-  - {name: GB_speednode_0076, server: 45.154.14.201, port: 28514, type: vmess, alterId: 0, cipher: auto, h2-opts: {}, http-opts: {method: GET, path: [/]}, network: http, skip-cert-verify: true, udp: true, uuid: c119b176-7240-43f7-b26f-9b67d54e2b95}
-  - {name: GB_speednode_0077, server: series-a2-me.samanehha.co, port: 443, type: ss, client-fingerprint: chrome, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, tfo: false, udp: true}
-  - {name: GB_speednode_0078, server: fast_2ray_telchannelll.fast2rayy.eu.org, port: 443, type: ss, client-fingerprint: chrome, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, tfo: false, udp: true}
-  - {name: GB_speednode_0079, server: 45.154.14.209, port: 48852, type: vmess, alterId: 0, cipher: auto, country: 🇬🇧 GB, h2-opts: {}, http-opts: {method: GET, path: [/]}, network: http, skip-cert-verify: true, uuid: 557769ba-e085-49ef-8ac6-96cf3d1a9730}
-  - {name: GB_speednode_0080, server: 45.154.14.209, port: 48852, type: vmess, uuid: 557769ba-e085-49ef-8ac6-96cf3d1a9730, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}}
-  - {name: HK_speednode_0081, server: hk01.trojanyyds.xyz, port: 443, type: trojan, password: 4a39dba7-463b-4c8a-a804-758282c11c62, skip-cert-verify: false, sni: hk01.trojanyyds.xyz, udp: true}
-  - {name: HK_speednode_0082, server: 1.65.139.54, port: 443, type: ss, cipher: aes-128-gcm, delay: 929, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {host: "", mode: websocket, mux: true, path: "", tls: false}}
-  - {name: HK_speednode_0083, server: 185.244.208.61, port: 3389, type: vmess, alterId: 0, cipher: auto, http-opts: {headers: {Host: [internet.life.com.by]}, method: GET}, network: http, skip-cert-verify: true, tls: false, udp: true, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7}
-  - {name: HK_speednode_0084, server: 52.175.23.201, port: 443, type: trojan, client-fingerprint: chrome, password: 4a39dba7-463b-4c8a-a804-758282c11c62, sni: sk01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
-  - {name: HK_speednode_0085, server: de01.trojanyyds.xyz, port: 443, type: trojan, password: 4a39dba7-463b-4c8a-a804-758282c11c62, skip-cert-verify: false, sni: de01.trojanyyds.xyz, udp: true}
-  - {name: HK_speednode_0086, server: 150.107.46.21, port: 8083, type: ssr, cipher: aes-256-cfb, obfs: tls1.2_ticket_auth, password: iFqnzSscN, protocol: origin}
-  - {name: HK_speednode_0087, server: us01.trojanyyds.xyz, port: 443, type: trojan, password: 4a39dba7-463b-4c8a-a804-758282c11c62, skip-cert-verify: false, sni: us01.trojanyyds.xyz, udp: true}
-  - {name: IN_speednode_0088, server: s8.956256.xyz, port: 80, type: vmess, uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /, headers: {Host: caonimashabiwanyi21.daxiongda.top}}}
-  - {name: IN_speednode_0089, server: s7.956256.xyz, port: 80, type: vmess, uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /, headers: {Host: caonimashabiwanyi21.daxiongda.top}}}
-  - {name: JP_speednode_0090, server: 20.243.242.154, port: 443, type: trojan, client-fingerprint: chrome, password: 4a39dba7-463b-4c8a-a804-758282c11c62, sni: sg01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
-  - {name: JP_speednode_0091, server: sg01.trojanyyds.xyz, port: 443, type: trojan, password: 4a39dba7-463b-4c8a-a804-758282c11c62, skip-cert-verify: false, sni: sg01.trojanyyds.xyz, udp: true}
-  - {name: JP_speednode_0092, server: in01.trojanyyds.xyz, port: 443, type: trojan, password: 4a39dba7-463b-4c8a-a804-758282c11c62, skip-cert-verify: false, sni: in01.trojanyyds.xyz, udp: true}
-  - {name: JP_speednode_0093, server: sk01.trojanyyds.xyz, port: 443, type: trojan, password: 4a39dba7-463b-4c8a-a804-758282c11c62, skip-cert-verify: false, sni: sk01.trojanyyds.xyz, udp: true}
-  - {name: JP_speednode_0094, server: uk01.trojanyyds.xyz, port: 443, type: trojan, password: 4a39dba7-463b-4c8a-a804-758282c11c62, skip-cert-verify: false, sni: uk01.trojanyyds.xyz, udp: true}
-  - {name: JP_speednode_0095, server: jp.doushimeng.com, port: 21853, type: ss, cipher: chacha20-ietf-poly1305, password: 3b34151f-8a87-413c-803b-18d70bd69f95}
-  - {name: JP_speednode_0096, server: s5.956256.xyz, port: 80, type: vmess, uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /, headers: {Host: a.189.cn}}}
-  - {name: JP_speednode_0097, server: s6.956256.xyz, port: 80, type: vmess, uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /, headers: {Host: a.189.cn}}}
-  - {name: KR_speednode_0098, server: 43.202.6.72, port: 443, type: ss, client-fingerprint: chrome, cipher: aes-256-cfb, password: amazonskr05, tfo: false, udp: true}
-  - {name: KR_speednode_0099, server: 125.141.26.7, port: 2020, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: NL_speednode_0100, server: 91.242.229.69, port: 2086, type: vmess, client-fingerprint: chrome, uuid: 88c216b8-56c6-4f34-bcfd-e198ce11f7d6, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: nl1.xv2ray.net}}, udp: true}
-  - {name: NL_speednode_0101, server: 91.242.229.77, port: 80, type: vmess, client-fingerprint: chrome, uuid: 56890326-df58-432d-be1e-67064e2b4355, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, servername: nl2.xv2ray.net, network: ws, ws-opts: {path: /vmess}, udp: true}
-  - {name: NL_speednode_0102, server: 91.242.229.77, port: 80, type: vmess, uuid: 56890326-df58-432d-be1e-67064e2b4355, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: 91.242.229.77}}}
-  - {name: SG_speednode_0103, server: 103.172.116.79, port: 9032, type: ss, country: 🇸🇬SG, password: UWZQeLRWnkqgkseq, cipher: aes-256-cfb, delay: 1376}
-  - {name: SG_speednode_0104, server: 103.172.116.79, port: 9059, type: ssr, country: 🏁 ZZ, password: 9XwYyZsK8SNzQDtY, cipher: aes-256-cfb, protocol: origin, obfs: plain, delay: 1344}
-  - {name: SG_speednode_0105, server: 103.172.116.79, port: 9027, type: ss, client-fingerprint: chrome, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, tfo: false, udp: true}
-  - {name: SG_speednode_0106, server: 103.172.116.79, port: 9011, type: ss, udp: true, password: M3t2ZEQcMGRWBjRa, cipher: aes-256-cfb, delay: 2820}
-  - {name: SG_speednode_0107, server: 103.172.116.79, port: 9056, type: ss, client-fingerprint: chrome, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, tfo: false, udp: true}
-  - {name: SG_speednode_0108, server: 103.172.116.79, port: 9064, type: ss, password: cp8pRSUAyLhTfVWH, cipher: aes-256-cfb, delay: 2390}
-  - {name: SG_speednode_0109, server: 103.172.116.79, port: 9037, type: ss, country: 🏁 ZZ, password: TN2YqghxeFDKZfLU, cipher: aes-256-cfb, delay: 2923}
-  - {name: SG_speednode_0110, server: 103.172.116.79, port: 9042, type: ss, password: S7KwUu7yBy58S3Ga, cipher: aes-256-cfb, delay: 1421}
-  - {name: SG_speednode_0111, server: 103.172.116.79, port: 9057, type: ssr, country: 🏁 ZZ, password: wjTugX3ZtHMB9c3Z, cipher: aes-256-cfb, protocol: origin, obfs: plain, delay: 1330}
-  - {name: SG_speednode_0112, server: 103.172.116.79, port: 9057, type: ss, client-fingerprint: chrome, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, tfo: false, udp: true}
-  - {name: SG_speednode_0113, server: 103.172.116.79, port: 9003, type: ss, client-fingerprint: chrome, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, tfo: false, udp: true}
-  - {name: SG_speednode_0114, server: 172.105.117.129, port: 80, type: vmess, alterId: 0, cipher: auto, client-fingerprint: chrome, network: ws, skip-cert-verify: false, tfo: false, tls: false, uuid: f686f0c9-e69c-412c-bc5d-cb296705a2c4, ws-opts: {headers: {Host: www.tesla.com}, path: /}}
-  - {name: SG_speednode_0115, server: s9.956256.xyz, port: 80, type: vmess, uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /, headers: {Host: caonimashabiwanyi5.daxiongda.top}}}
-  - {name: SG_speednode_0116, server: s10.956256.xyz, port: 80, type: vmess, uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /, headers: {Host: caonimashabiwanyi5.daxiongda.top}}}
-  - {name: SG_speednode_0117, server: 103.172.116.79, port: 9059, type: ssr, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, protocol: origin, obfs: plain, protocol-param: "", obfs-param: None}
-  - {name: TR_speednode_0118, server: 185.123.101.241, port: 989, type: ss, cipher: aes-256-cfb, country: 🇹🇷 TR, delay: 1797, password: f8f7aCzcPKbsF8p3}
-  - {name: TW_speednode_0119, server: ffbf920.t3.gladns.com, port: 3331, type: vmess, alterId: 0, cipher: auto, network: ws, servername: n2.gladns.com, skip-cert-verify: true, tls: true, udp: true, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, ws-opts: {headers: {Host: tls.apple.com}, path: /s/ffbf920.fm.apple.com:68447}}
-  - {name: TW_speednode_0120, server: ffbf920.t2.gladns.com, port: 3331, type: vmess, alterId: 0, cipher: auto, network: ws, servername: n2.gladns.com, skip-cert-verify: true, tls: true, udp: true, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, ws-opts: {headers: {Host: tls.apple.com}, path: /s/ffbf920.fm.apple.com:68447}}
-  - {name: TW_speednode_0121, server: taiwan2.209966.xyz, port: 18803, type: vmess, uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /, headers: {Host: a.189.cn}}}
-  - {name: US_speednode_0122, server: 5.78.74.214, port: 3389, type: vmess, alterId: 0, cipher: auto, http-opts: {headers: {Host: [internet.life.com.by]}, method: GET}, network: http, skip-cert-verify: true, tls: false, udp: true, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7}
-  - {name: US_speednode_0123, server: 5.78.75.87, port: 3389, type: vmess, alterId: 0, cipher: auto, http-opts: {headers: {Host: [internet.life.com.by]}, method: GET}, network: http, skip-cert-verify: true, tls: false, udp: true, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7}
-  - {name: US_speednode_0124, server: 5.78.72.21, port: 3389, type: vmess, alterId: 0, cipher: auto, http-opts: {headers: {Host: [internet.life.com.by]}, method: GET}, network: http, skip-cert-verify: true, tls: false, udp: true, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7}
-  - {name: US_speednode_0125, server: 5.78.81.59, port: 3389, type: vmess, alterId: 0, cipher: auto, http-opts: {headers: {Host: [internet.life.com.by]}, method: GET}, network: http, skip-cert-verify: true, tls: false, udp: true, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7}
-  - {name: US_speednode_0126, server: 5.78.113.48, port: 3389, type: vmess, alterId: 0, cipher: auto, http-opts: {headers: {Host: [internet.life.com.by]}, method: GET}, network: http, skip-cert-verify: true, tls: false, udp: true, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7}
-  - {name: US_speednode_0127, server: ffbf920.u2.gladns.com, port: 3331, type: vmess, alterId: 0, cipher: auto, network: ws, servername: n2.gladns.com, skip-cert-verify: true, tls: true, udp: true, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, ws-opts: {headers: {Host: tls.apple.com}, path: /s/ffbf920.fm.apple.com:68447}}
-  - {name: US_speednode_0128, server: ip.sb, port: 80, type: vmess, alterId: 0, cipher: auto, client-fingerprint: chrome, network: ws, servername: "", skip-cert-verify: false, tfo: false, tls: false, uuid: 113a74cc-f13b-48ec-bbb2-2bbab77a2f35, ws-opts: {headers: {Host: kr1.ljyyds.top}, path: /}}
-  - {name: US_speednode_0129, server: 5.78.71.104, port: 3389, type: vmess, alterId: 0, cipher: auto, http-opts: {headers: {Host: [internet.life.com.by]}, method: GET}, network: http, skip-cert-verify: true, tls: false, udp: true, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7}
-  - {name: US_speednode_0130, server: ffbf920.u3.gladns.com, port: 3331, type: vmess, alterId: 0, cipher: auto, network: ws, servername: n2.gladns.com, skip-cert-verify: true, tls: true, udp: true, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, ws-opts: {headers: {Host: tls.apple.com}, path: /s/ffbf920.fm.apple.com:68447}}
-  - {name: US_speednode_0131, server: 151.101.64.144, port: 443, type: vmess, alterId: 0, cipher: auto, network: ws, servername: gov.uk, skip-cert-verify: true, tls: true, udp: true, uuid: 77848824-93b7-4b89-ffd0-e91afff406ce, ws-opts: {headers: {Host: zheshiscp.com}, path: /77848824}}
-  - {name: US_speednode_0132, server: cdn.yifenjichang.top, port: 2086, type: vmess, uuid: 900ceafc-30b8-4581-a305-31854f563e4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: 900ceafc-30b8-4581-a305-31854f563e4f-vm, headers: {Host: marina-stupid-integration-tennis.trycloudflare.com}}}
-  - {name: US_speednode_0133, server: 172.67.212.114, port: 8080, type: vmess, alterId: 0, cipher: auto, network: ws, skip-cert-verify: true, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, ws-opts: {headers: {Host: www.crispyrainbow.biz}, path: /}}
-  - {name: US_speednode_0134, server: 172.67.166.190, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.crispyrainbow.online}}}
-  - {name: US_speednode_0135, server: 172.67.166.194, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.coldstone.club}}}
-  - {name: US_speednode_0136, server: s2.956256.xyz, port: 80, type: vmess, uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /, headers: {Host: caonimashabiwanyi5.daxiongda.top}}}
-  - {name: US_speednode_0137, server: s13.956256.xyz, port: 80, type: vmess, uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /, headers: {Host: caonimashabiwanyi20.daxiongda.top}}}
-  - {name: US_speednode_0138, server: s1.956256.xyz, port: 80, type: vmess, uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /, headers: {Host: caonimashabiwanyi4.daxiongda.top}}}
-  - {name: US_speednode_0139, server: s14.956256.xyz, port: 80, type: vmess, uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, udp: true, ws-opts: {path: /, headers: {Host: caonimashabiwanyi21.daxiongda.top}}}
+log-level: info
+external-controller: 0.0.0.0:9090
+tcp-concurrent: true
+dns:
+  enable: true
+  ipv6: true
+  default-nameserver:
+    - 1.1.1.1
+    - 8.8.8.8
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '+.msftconnecttest.com'
+    - '+.msftncsi.com'
+  use-hosts: true
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fallback:
+    - https://1.1.1.1/dns-query
+    - https://1.0.0.1/dns-query
+    - https://208.67.222.222/dns-query
+    - https://208.67.220.220/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    geosite:
+      - gfw
+    ipcidr:
+      - 240.0.0.0/4
+geox-url:
+  geoip: https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.dat
+  geosite: https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat
+  mmdb: https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country.mmdb
+
+# 代理
+proxies: 
+- {'name': 'BR_speednode_0001', 'server': 's3.956256.xyz', 'port': 80, 'type': 'vmess', 'uuid': '1b5857d5-a7b8-445b-bcc8-f34745e75929', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'udp': true, 'ws-opts': {'path': '/', 'headers': {'Host': 'caonimashabiwanyi5.daxiongda.top'}}}
+- {'name': 'BR_speednode_0002', 'server': 's4.956256.xyz', 'port': 80, 'type': 'vmess', 'uuid': '1b5857d5-a7b8-445b-bcc8-f34745e75929', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'udp': true, 'ws-opts': {'path': '/', 'headers': {'Host': 'caonimashabiwanyi5.daxiongda.top'}}}
+- {'name': 'CL_speednode_0003', 'server': 's11.956256.xyz', 'port': 80, 'type': 'vmess', 'uuid': '1b5857d5-a7b8-445b-bcc8-f34745e75929', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'udp': true, 'ws-opts': {'path': '/', 'headers': {'Host': 'caonimashabiwanyi21.daxiongda.top'}}}
+- {'name': 'CL_speednode_0004', 'server': 's12.956256.xyz', 'port': 80, 'type': 'vmess', 'uuid': '1b5857d5-a7b8-445b-bcc8-f34745e75929', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'udp': true, 'ws-opts': {'path': '/', 'headers': {'Host': 'caonimashabiwanyi21.daxiongda.top'}}}
+- {'name': 'CN_speednode_0005', 'server': 'zebra2.2022.2025.mlinuu.top', 'port': 888, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'uuid': '0136f633-8f20-3e15-9853-226fb53ec965'}
+- {'name': 'CN_speednode_0006', 'server': 'zebra2.2022.2025.mlinuu.top', 'port': 890, 'type': 'vmess', 'alterId': 1, 'cipher': 'auto', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'uuid': '0136f633-8f20-3e15-9853-226fb53ec965'}
+- {'name': 'CN_speednode_0007', 'server': 'zebra2.2022.2025.mlinuu.top', 'port': 4501, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'uuid': '0136f633-8f20-3e15-9853-226fb53ec965'}
+- {'name': 'CN_speednode_0008', 'server': 'smart.2022.2024.mlinuu.top', 'port': 11001, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'uuid': '0136f633-8f20-3e15-9853-226fb53ec965'}
+- {'name': 'CN_speednode_0009', 'server': 'gdct003.theyydsnode.top', 'port': 14490, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '5fd760b5-b3e6-4006-9e8d-bcd8feafa374'}
+- {'name': 'CN_speednode_0010', 'server': 'gdct001.theyydsnode.top', 'port': 14490, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '5fd760b5-b3e6-4006-9e8d-bcd8feafa374'}
+- {'name': 'CN_speednode_0011', 'server': 'gdct003.theyydsnode.top', 'port': 15976, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '5fd760b5-b3e6-4006-9e8d-bcd8feafa374'}
+- {'name': 'CN_speednode_0012', 'server': 'zebra2.2022.2025.mlinuu.top', 'port': 4504, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'uuid': '0136f633-8f20-3e15-9853-226fb53ec965'}
+- {'name': 'CN_speednode_0013', 'server': 'zebra2.2022.2025.mlinuu.top', 'port': 889, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'uuid': '0136f633-8f20-3e15-9853-226fb53ec965'}
+- {'name': 'CN_speednode_0014', 'server': 'gdct001.theyydsnode.top', 'port': 22704, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '5fd760b5-b3e6-4006-9e8d-bcd8feafa374'}
+- {'name': 'CN_speednode_0015', 'server': 'gdct001.theyydsnode.top', 'port': 35672, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '5fd760b5-b3e6-4006-9e8d-bcd8feafa374'}
+- {'name': 'CN_speednode_0016', 'server': 'data-hk-v1.shwjfkw.cn', 'port': 20207, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'network': 'ws', 'skip-cert-verify': true, 'tls': false, 'uuid': 'b1478e24-4916-3abe-8f17-15931012ecbe', 'ws-opts': {'headers': {'Host': 'data-hk-v1.shwjfkw.cn'}, 'path': '/debian'}}
+- {'name': 'CN_speednode_0017', 'server': 'smart.2022.2024.mlinuu.top', 'port': 11005, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'uuid': '0136f633-8f20-3e15-9853-226fb53ec965'}
+- {'name': 'CN_speednode_0018', 'server': 'gdct001.theyydsnode.top', 'port': 21526, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '5fd760b5-b3e6-4006-9e8d-bcd8feafa374'}
+- {'name': 'CN_speednode_0019', 'server': 'smart.2022.2024.mlinuu.top', 'port': 11008, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'uuid': '0136f633-8f20-3e15-9853-226fb53ec965'}
+- {'name': 'CN_speednode_0020', 'server': 'smart.2022.2024.mlinuu.top', 'port': 11009, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'uuid': '0136f633-8f20-3e15-9853-226fb53ec965'}
+- {'name': 'CN_speednode_0021', 'server': 'for2.2022.2026.mlinuu.top', 'port': 4507, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'uuid': '0136f633-8f20-3e15-9853-226fb53ec965'}
+- {'name': 'CN_speednode_0022', 'server': 'gdct001.theyydsnode.top', 'port': 15976, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '5fd760b5-b3e6-4006-9e8d-bcd8feafa374'}
+- {'name': 'CN_speednode_0023', 'server': 'shcm002.theyydsnode.top', 'port': 25881, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '5fd760b5-b3e6-4006-9e8d-bcd8feafa374'}
+- {'name': 'CN_speednode_0024', 'server': 'smart.2022.2024.mlinuu.top', 'port': 11012, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'uuid': '0136f633-8f20-3e15-9853-226fb53ec965'}
+- {'name': 'CN_speednode_0025', 'server': 'gdct001.theyydsnode.top', 'port': 20356, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '5fd760b5-b3e6-4006-9e8d-bcd8feafa374'}
+- {'name': 'CN_speednode_0026', 'server': 'smart.2022.2024.mlinuu.top', 'port': 11004, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'uuid': '0136f633-8f20-3e15-9853-226fb53ec965'}
+- {'name': 'CN_speednode_0027', 'server': '183.236.51.6', 'port': 10813, 'type': 'trojan', 'country': '🇨🇳CN', 'password': '4623e7ff-47b4-41d6-8f5a-33c8e6ac3fd5', 'sni': 'cloudflare.node-ssl.cdn-alibaba.com', 'skip-cert-verify': true, 'udp': true, 'delay': 1260}
+- {'name': 'CN_speednode_0028', 'server': 'nc.cm.go002.xyz', 'port': 19584, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'cee88329-2d02-437e-9754-fd201c8fba2f', 'udp': true}
+- {'name': 'CN_speednode_0029', 'server': 'for2.2022.2026.mlinuu.top', 'port': 4508, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'uuid': '0136f633-8f20-3e15-9853-226fb53ec965'}
+- {'name': 'CN_speednode_0030', 'server': 'shcm002.theyydsnode.top', 'port': 25074, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '5fd760b5-b3e6-4006-9e8d-bcd8feafa374'}
+- {'name': 'CN_speednode_0031', 'server': 'smart.2022.2024.mlinuu.top', 'port': 11010, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'uuid': '0136f633-8f20-3e15-9853-226fb53ec965'}
+- {'name': 'CN_speednode_0032', 'server': 'gdct001.theyydsnode.top', 'port': 25881, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '5fd760b5-b3e6-4006-9e8d-bcd8feafa374'}
+- {'name': 'CN_speednode_0033', 'server': 'shcm002.theyydsnode.top', 'port': 22704, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '5fd760b5-b3e6-4006-9e8d-bcd8feafa374'}
+- {'name': 'CN_speednode_0034', 'server': 'zebra2.2022.2025.mlinuu.top', 'port': 4120, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'uuid': '0136f633-8f20-3e15-9853-226fb53ec965'}
+- {'name': 'CN_speednode_0035', 'server': 'smart.2022.2024.mlinuu.top', 'port': 11006, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'uuid': '0136f633-8f20-3e15-9853-226fb53ec965'}
+- {'name': 'CN_speednode_0036', 'server': 'shcm002.theyydsnode.top', 'port': 10658, 'type': 'trojan', 'password': '3be4156f-bbde-43da-acc8-b398b68138fe', 'sni': 'us2.ckcloud.info', 'skip-cert-verify': true}
+- {'name': 'CN_speednode_0037', 'server': 'gdct003.theyydsnode.top', 'port': 35672, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '5fd760b5-b3e6-4006-9e8d-bcd8feafa374'}
+- {'name': 'CN_speednode_0038', 'server': '61.155.196.242', 'port': 19036, 'type': 'socks5', 'client-fingerprint': 'chrome', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'CN_speednode_0039', 'server': 'gdct001.theyydsnode.top', 'port': 37581, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '5fd760b5-b3e6-4006-9e8d-bcd8feafa374'}
+- {'name': 'CN_speednode_0040', 'server': 'service.ouluyun9803.com', 'port': 50004, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'd6105bbd-be0d-45b2-82ad-31fd1071c1d2', 'udp': true}
+- {'name': 'CN_speednode_0041', 'server': 'shcm002.theyydsnode.top', 'port': 48560, 'type': 'trojan', 'password': '3be4156f-bbde-43da-acc8-b398b68138fe', 'sni': 'us03.ckcloud.info', 'skip-cert-verify': true}
+- {'name': 'CN_speednode_0042', 'server': 'rl1.269999.xyz', 'port': 27102, 'type': 'vmess', 'uuid': '460d53e3-3fa4-456a-83d1-d75d17d87c65', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'servername': 'u2.269999.xyz', 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'rl1.269999.xyz'}}, 'delay': 2278}
+- {'name': 'CN_speednode_0044', 'server': 'shcm002.theyydsnode.top', 'port': 45852, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '5fd760b5-b3e6-4006-9e8d-bcd8feafa374'}
+- {'name': 'CN_speednode_0045', 'server': 'shcm002.theyydsnode.top', 'port': 10598, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '5fd760b5-b3e6-4006-9e8d-bcd8feafa374'}
+- {'name': 'CN_speednode_0046', 'server': 'gdct001.theyydsnode.top', 'port': 26094, 'type': 'trojan', 'password': '3be4156f-bbde-43da-acc8-b398b68138fe', 'sni': 'id01.ckcloud.info', 'skip-cert-verify': true}
+- {'name': 'CN_speednode_0047', 'server': 'gdct001.theyydsnode.top', 'port': 10519, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '5fd760b5-b3e6-4006-9e8d-bcd8feafa374'}
+- {'name': 'CN_speednode_0048', 'server': 'gdct003.theyydsnode.top', 'port': 10598, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '5fd760b5-b3e6-4006-9e8d-bcd8feafa374'}
+- {'name': 'CN_speednode_0049', 'server': 'gdct003.theyydsnode.top', 'port': 10519, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '5fd760b5-b3e6-4006-9e8d-bcd8feafa374'}
+- {'name': 'CN_speednode_0050', 'server': 'c.skrspc.org', 'port': 29126, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': '5160550c-3029-4300-bfd1-d7e056049694', 'udp': true}
+- {'name': 'DE_speednode_0051', 'server': '128.140.4.212', 'port': 3389, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'http-opts': {'headers': {'Host': ['internet.life.com.by']}, 'method': 'GET'}, 'network': 'http', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'uuid': '9c050a86-d612-48f1-ec32-e573df08a1b7'}
+- {'name': 'DE_speednode_0052', 'server': '5.75.190.50', 'port': 3389, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'http-opts': {'headers': {'Host': ['internet.life.com.by']}, 'method': 'GET'}, 'network': 'http', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'uuid': '9c050a86-d612-48f1-ec32-e573df08a1b7'}
+- {'name': 'DE_speednode_0053', 'server': '209.38.208.73', 'port': 2086, 'type': 'vmess', 'client-fingerprint': 'chrome', 'uuid': '1abc186e-fc0f-43e4-9839-4f23cccd77e7', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'tfo': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/'}, 'udp': true}
+- {'name': 'DE_speednode_0054', 'server': '92.223.124.30', 'port': 443, 'type': 'vmess', 'uuid': '2ff97c6d-8557-42a4-b43f-19c77c5959ea', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'network': 'ws', 'udp': true, 'ws-opts': {'path': '/@forwardv2ray', 'headers': {'Host': 'irsoft.sytes.net'}}}
+- {'name': 'DE_speednode_0059', 'server': '116.203.116.244', 'port': 3389, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'http-opts': {'headers': {'Host': ['internet.life.com.by']}, 'method': 'GET'}, 'network': 'http', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'uuid': '9c050a86-d612-48f1-ec32-e573df08a1b7'}
+- {'name': 'FR_speednode_0060', 'server': '146.59.207.100', 'port': 80, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'network': 'ws', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'uuid': '617c9bc4-4116-41c6-99e0-ace49a38fcdb', 'ws-opts': {'headers': {'Host': 'internet.life.com.by'}, 'path': '/Jnv8ViZOUVgijjOh0p5uGjHnXIiY'}}
+- {'name': 'FR_speednode_0061', 'server': '51.210.123.74', 'port': 80, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'network': 'ws', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'uuid': '617c9bc4-4116-41c6-99e0-ace49a38fcdb', 'ws-opts': {'headers': {'Host': 'internet.life.com.by'}, 'path': '/Jnv8ViZOUVgijjOh0p5uGjHnXIiY'}}
+- {'name': 'FR_speednode_0062', 'server': '146.59.192.162', 'port': 80, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'network': 'ws', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'uuid': '617c9bc4-4116-41c6-99e0-ace49a38fcdb', 'ws-opts': {'headers': {'Host': 'internet.life.com.by'}, 'path': '/Jnv8ViZOUVgijjOh0p5uGjHnXIiY'}}
+- {'name': 'FR_speednode_0063', 'server': '146.59.200.89', 'port': 80, 'type': 'vmess', 'alterId': 0, 'cipher': 'chacha20-poly1305', 'network': 'ws', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'uuid': '617c9bc4-4116-41c6-99e0-ace49a38fcdb', 'ws-opts': {'headers': {'Host': 'internet.life.com.by'}, 'path': '/Jnv8ViZOUVgijjOh0p5uGjHnXIiY'}}
+- {'name': 'FR_speednode_0064', 'server': '57.128.173.202', 'port': 8880, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'network': 'ws', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'uuid': '0d1bf26a-ce97-4707-a270-7f4d2ae37334', 'ws-opts': {'headers': {'Host': 'internet.life.com.by'}, 'path': '/'}}
+- {'name': 'FR_speednode_0065', 'server': '146.59.203.191', 'port': 80, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'network': 'ws', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'uuid': '617c9bc4-4116-41c6-99e0-ace49a38fcdb', 'ws-opts': {'headers': {'Host': 'internet.life.com.by'}, 'path': '/Jnv8ViZOUVgijjOh0p5uGjHnXIiY'}}
+- {'name': 'GB_speednode_0066', 'server': 'java.ct.arvancode.eu.org', 'port': 443, 'type': 'ss', 'client-fingerprint': 'chrome', 'cipher': 'chacha20-ietf-poly1305', 'password': 'W74XFALLLuw6m5IA', 'tfo': false, 'udp': true}
+- {'name': 'GB_speednode_0067', 'server': 'series-a1.samanehha.co', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'client-fingerprint': 'chrome', 'password': 'W74XFALLLuw6m5IA', 'tfo': false, 'udp': true}
+- {'name': 'GB_speednode_0068', 'server': 'jseyu.arvancode.eu.org', 'port': 443, 'type': 'ss', 'client-fingerprint': 'chrome', 'cipher': 'chacha20-ietf-poly1305', 'password': 'Bog0ELmMM9DSxDdQ', 'tfo': false, 'udp': true}
+- {'name': 'GB_speednode_0069', 'server': 'java.ct.arvancode.eu.Org', 'port': 443, 'type': 'ss', 'client-fingerprint': 'chrome', 'cipher': 'chacha20-ietf-poly1305', 'password': 'W74XFALLLuw6m5IA', 'tfo': false, 'udp': true}
+- {'name': 'GB_speednode_0070', 'server': '18.175.19.194', 'port': 443, 'type': 'ss', 'client-fingerprint': 'chrome', 'cipher': 'chacha20-ietf-poly1305', 'password': 'Bog0ELmMM9DSxDdQ', 'tfo': false, 'udp': true}
+- {'name': 'GB_speednode_0071', 'server': 'series-a2.samanehha.co', 'port': 443, 'type': 'ss', 'client-fingerprint': 'chrome', 'cipher': 'chacha20-ietf-poly1305', 'password': 'mps3FwmDjLrWaOVg', 'tfo': false, 'udp': true}
+- {'name': 'GB_speednode_0072', 'server': 'Fast_2ray_Telchannelll.fast2rayy.eu.org', 'port': 443, 'type': 'ss', 'client-fingerprint': 'chrome', 'cipher': 'chacha20-ietf-poly1305', 'password': 'Bog0ELmMM9DSxDdQ', 'tfo': false, 'udp': true}
+- {'name': 'GB_speednode_0073', 'server': 'v1.arvancode.eu.org', 'port': 443, 'type': 'ss', 'client-fingerprint': 'chrome', 'cipher': 'chacha20-ietf-poly1305', 'password': 'mps3FwmDjLrWaOVg', 'tfo': false, 'udp': true}
+- {'name': 'GB_speednode_0074', 'server': '51.38.64.145', 'port': 2086, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'network': 'ws', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'uuid': 'e690ff9e-1676-4be3-d136-dcae586cb1e7', 'ws-opts': {'headers': {'Host': 'internet.life.com.by'}}}
+- {'name': 'GB_speednode_0075', 'server': '45.154.14.201', 'port': 28514, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'http-opts': {'method': 'GET', 'path': ['/']}, 'network': 'http', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'uuid': 'c119b176-7240-43f7-b26f-9b67d54e2b95'}
+- {'name': 'GB_speednode_0077', 'server': 'series-a2-me.samanehha.co', 'port': 443, 'type': 'ss', 'client-fingerprint': 'chrome', 'cipher': 'chacha20-ietf-poly1305', 'password': 'Bog0ELmMM9DSxDdQ', 'tfo': false, 'udp': true}
+- {'name': 'GB_speednode_0078', 'server': 'fast_2ray_telchannelll.fast2rayy.eu.org', 'port': 443, 'type': 'ss', 'client-fingerprint': 'chrome', 'cipher': 'chacha20-ietf-poly1305', 'password': 'Bog0ELmMM9DSxDdQ', 'tfo': false, 'udp': true}
+- {'name': 'GB_speednode_0079', 'server': '45.154.14.209', 'port': 48852, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'country': '🇬🇧 GB', 'h2-opts': {}, 'http-opts': {'method': 'GET', 'path': ['/']}, 'network': 'http', 'skip-cert-verify': true, 'uuid': '557769ba-e085-49ef-8ac6-96cf3d1a9730'}
+- {'name': 'HK_speednode_0081', 'server': 'hk01.trojanyyds.xyz', 'port': 443, 'type': 'trojan', 'password': '4a39dba7-463b-4c8a-a804-758282c11c62', 'skip-cert-verify': false, 'sni': 'hk01.trojanyyds.xyz', 'udp': true}
+- {'name': 'HK_speednode_0082', 'server': '1.65.139.54', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'delay': 929, 'password': 'a-wym4ovY4Yw', 'plugin': 'v2ray-plugin', 'plugin-opts': {'host': '', 'mode': 'websocket', 'mux': true, 'path': '', 'tls': false}}
+- {'name': 'HK_speednode_0083', 'server': '185.244.208.61', 'port': 3389, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'http-opts': {'headers': {'Host': ['internet.life.com.by']}, 'method': 'GET'}, 'network': 'http', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'uuid': '9c050a86-d612-48f1-ec32-e573df08a1b7'}
+- {'name': 'HK_speednode_0084', 'server': '52.175.23.201', 'port': 443, 'type': 'trojan', 'client-fingerprint': 'chrome', 'password': '4a39dba7-463b-4c8a-a804-758282c11c62', 'sni': 'sk01.trojanyyds.xyz', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'HK_speednode_0085', 'server': 'de01.trojanyyds.xyz', 'port': 443, 'type': 'trojan', 'password': '4a39dba7-463b-4c8a-a804-758282c11c62', 'skip-cert-verify': false, 'sni': 'de01.trojanyyds.xyz', 'udp': true}
+- {'name': 'HK_speednode_0086', 'server': '150.107.46.21', 'port': 8083, 'type': 'ssr', 'cipher': 'aes-256-cfb', 'obfs': 'tls1.2_ticket_auth', 'password': 'iFqnzSscN', 'protocol': 'origin'}
+- {'name': 'HK_speednode_0087', 'server': 'us01.trojanyyds.xyz', 'port': 443, 'type': 'trojan', 'password': '4a39dba7-463b-4c8a-a804-758282c11c62', 'skip-cert-verify': false, 'sni': 'us01.trojanyyds.xyz', 'udp': true}
+- {'name': 'IN_speednode_0088', 'server': 's8.956256.xyz', 'port': 80, 'type': 'vmess', 'uuid': '1b5857d5-a7b8-445b-bcc8-f34745e75929', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'udp': true, 'ws-opts': {'path': '/', 'headers': {'Host': 'caonimashabiwanyi21.daxiongda.top'}}}
+- {'name': 'IN_speednode_0089', 'server': 's7.956256.xyz', 'port': 80, 'type': 'vmess', 'uuid': '1b5857d5-a7b8-445b-bcc8-f34745e75929', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'udp': true, 'ws-opts': {'path': '/', 'headers': {'Host': 'caonimashabiwanyi21.daxiongda.top'}}}
+- {'name': 'JP_speednode_0090', 'server': '20.243.242.154', 'port': 443, 'type': 'trojan', 'client-fingerprint': 'chrome', 'password': '4a39dba7-463b-4c8a-a804-758282c11c62', 'sni': 'sg01.trojanyyds.xyz', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'JP_speednode_0091', 'server': 'sg01.trojanyyds.xyz', 'port': 443, 'type': 'trojan', 'password': '4a39dba7-463b-4c8a-a804-758282c11c62', 'skip-cert-verify': false, 'sni': 'sg01.trojanyyds.xyz', 'udp': true}
+- {'name': 'JP_speednode_0092', 'server': 'in01.trojanyyds.xyz', 'port': 443, 'type': 'trojan', 'password': '4a39dba7-463b-4c8a-a804-758282c11c62', 'skip-cert-verify': false, 'sni': 'in01.trojanyyds.xyz', 'udp': true}
+- {'name': 'JP_speednode_0093', 'server': 'sk01.trojanyyds.xyz', 'port': 443, 'type': 'trojan', 'password': '4a39dba7-463b-4c8a-a804-758282c11c62', 'skip-cert-verify': false, 'sni': 'sk01.trojanyyds.xyz', 'udp': true}
+- {'name': 'JP_speednode_0094', 'server': 'uk01.trojanyyds.xyz', 'port': 443, 'type': 'trojan', 'password': '4a39dba7-463b-4c8a-a804-758282c11c62', 'skip-cert-verify': false, 'sni': 'uk01.trojanyyds.xyz', 'udp': true}
+- {'name': 'JP_speednode_0095', 'server': 'jp.doushimeng.com', 'port': 21853, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '3b34151f-8a87-413c-803b-18d70bd69f95'}
+- {'name': 'JP_speednode_0096', 'server': 's5.956256.xyz', 'port': 80, 'type': 'vmess', 'uuid': '1b5857d5-a7b8-445b-bcc8-f34745e75929', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'udp': true, 'ws-opts': {'path': '/', 'headers': {'Host': 'a.189.cn'}}}
+- {'name': 'JP_speednode_0097', 'server': 's6.956256.xyz', 'port': 80, 'type': 'vmess', 'uuid': '1b5857d5-a7b8-445b-bcc8-f34745e75929', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'udp': true, 'ws-opts': {'path': '/', 'headers': {'Host': 'a.189.cn'}}}
+- {'name': 'KR_speednode_0098', 'server': '43.202.6.72', 'port': 443, 'type': 'ss', 'client-fingerprint': 'chrome', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05', 'tfo': false, 'udp': true}
+- {'name': 'KR_speednode_0099', 'server': '125.141.26.7', 'port': 2020, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'qwerREWQ@@'}
+- {'name': 'NL_speednode_0100', 'server': '91.242.229.69', 'port': 2086, 'type': 'vmess', 'client-fingerprint': 'chrome', 'uuid': '88c216b8-56c6-4f34-bcfd-e198ce11f7d6', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'tfo': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/vmess', 'headers': {'Host': 'nl1.xv2ray.net'}}, 'udp': true}
+- {'name': 'NL_speednode_0101', 'server': '91.242.229.77', 'port': 80, 'type': 'vmess', 'client-fingerprint': 'chrome', 'uuid': '56890326-df58-432d-be1e-67064e2b4355', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'tfo': false, 'skip-cert-verify': true, 'servername': 'nl2.xv2ray.net', 'network': 'ws', 'ws-opts': {'path': '/vmess'}, 'udp': true}
+- {'name': 'SG_speednode_0103', 'server': '103.172.116.79', 'port': 9032, 'type': 'ss', 'country': '🇸🇬SG', 'password': 'UWZQeLRWnkqgkseq', 'cipher': 'aes-256-cfb', 'delay': 1376}
+- {'name': 'SG_speednode_0104', 'server': '103.172.116.79', 'port': 9059, 'type': 'ssr', 'country': '🏁 ZZ', 'password': '9XwYyZsK8SNzQDtY', 'cipher': 'aes-256-cfb', 'protocol': 'origin', 'obfs': 'plain', 'delay': 1344}
+- {'name': 'SG_speednode_0105', 'server': '103.172.116.79', 'port': 9027, 'type': 'ss', 'client-fingerprint': 'chrome', 'cipher': 'aes-256-cfb', 'password': 'EXN3S3eQpjE7EJu8', 'tfo': false, 'udp': true}
+- {'name': 'SG_speednode_0106', 'server': '103.172.116.79', 'port': 9011, 'type': 'ss', 'udp': true, 'password': 'M3t2ZEQcMGRWBjRa', 'cipher': 'aes-256-cfb', 'delay': 2820}
+- {'name': 'SG_speednode_0107', 'server': '103.172.116.79', 'port': 9056, 'type': 'ss', 'client-fingerprint': 'chrome', 'cipher': 'aes-256-cfb', 'password': 'rNBfNuuANFCAk7KB', 'tfo': false, 'udp': true}
+- {'name': 'SG_speednode_0108', 'server': '103.172.116.79', 'port': 9064, 'type': 'ss', 'password': 'cp8pRSUAyLhTfVWH', 'cipher': 'aes-256-cfb', 'delay': 2390}
+- {'name': 'SG_speednode_0109', 'server': '103.172.116.79', 'port': 9037, 'type': 'ss', 'country': '🏁 ZZ', 'password': 'TN2YqghxeFDKZfLU', 'cipher': 'aes-256-cfb', 'delay': 2923}
+- {'name': 'SG_speednode_0110', 'server': '103.172.116.79', 'port': 9042, 'type': 'ss', 'password': 'S7KwUu7yBy58S3Ga', 'cipher': 'aes-256-cfb', 'delay': 1421}
+- {'name': 'SG_speednode_0111', 'server': '103.172.116.79', 'port': 9057, 'type': 'ssr', 'country': '🏁 ZZ', 'password': 'wjTugX3ZtHMB9c3Z', 'cipher': 'aes-256-cfb', 'protocol': 'origin', 'obfs': 'plain', 'delay': 1330}
+- {'name': 'SG_speednode_0112', 'server': '103.172.116.79', 'port': 9057, 'type': 'ss', 'client-fingerprint': 'chrome', 'cipher': 'aes-256-cfb', 'password': 'wjTugX3ZtHMB9c3Z', 'tfo': false, 'udp': true}
+- {'name': 'SG_speednode_0113', 'server': '103.172.116.79', 'port': 9003, 'type': 'ss', 'client-fingerprint': 'chrome', 'cipher': 'aes-256-cfb', 'password': 'JdmRK9gMEqFgs8nP', 'tfo': false, 'udp': true}
+- {'name': 'SG_speednode_0114', 'server': '172.105.117.129', 'port': 80, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'client-fingerprint': 'chrome', 'network': 'ws', 'skip-cert-verify': false, 'tfo': false, 'tls': false, 'uuid': 'f686f0c9-e69c-412c-bc5d-cb296705a2c4', 'ws-opts': {'headers': {'Host': 'www.tesla.com'}, 'path': '/'}}
+- {'name': 'SG_speednode_0115', 'server': 's9.956256.xyz', 'port': 80, 'type': 'vmess', 'uuid': '1b5857d5-a7b8-445b-bcc8-f34745e75929', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'udp': true, 'ws-opts': {'path': '/', 'headers': {'Host': 'caonimashabiwanyi5.daxiongda.top'}}}
+- {'name': 'SG_speednode_0116', 'server': 's10.956256.xyz', 'port': 80, 'type': 'vmess', 'uuid': '1b5857d5-a7b8-445b-bcc8-f34745e75929', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'udp': true, 'ws-opts': {'path': '/', 'headers': {'Host': 'caonimashabiwanyi5.daxiongda.top'}}}
+- {'name': 'TR_speednode_0118', 'server': '185.123.101.241', 'port': 989, 'type': 'ss', 'cipher': 'aes-256-cfb', 'country': '🇹🇷 TR', 'delay': 1797, 'password': 'f8f7aCzcPKbsF8p3'}
+- {'name': 'TW_speednode_0119', 'server': 'ffbf920.t3.gladns.com', 'port': 3331, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'network': 'ws', 'servername': 'n2.gladns.com', 'skip-cert-verify': true, 'tls': true, 'udp': true, 'uuid': '57e0cb4d-eae5-48ec-8091-149dc2b309e0', 'ws-opts': {'headers': {'Host': 'tls.apple.com'}, 'path': '/s/ffbf920.fm.apple.com:68447'}}
+- {'name': 'TW_speednode_0120', 'server': 'ffbf920.t2.gladns.com', 'port': 3331, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'network': 'ws', 'servername': 'n2.gladns.com', 'skip-cert-verify': true, 'tls': true, 'udp': true, 'uuid': '57e0cb4d-eae5-48ec-8091-149dc2b309e0', 'ws-opts': {'headers': {'Host': 'tls.apple.com'}, 'path': '/s/ffbf920.fm.apple.com:68447'}}
+- {'name': 'TW_speednode_0121', 'server': 'taiwan2.209966.xyz', 'port': 18803, 'type': 'vmess', 'uuid': '1b5857d5-a7b8-445b-bcc8-f34745e75929', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'udp': true, 'ws-opts': {'path': '/', 'headers': {'Host': 'a.189.cn'}}}
+- {'name': 'US_speednode_0122', 'server': '5.78.74.214', 'port': 3389, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'http-opts': {'headers': {'Host': ['internet.life.com.by']}, 'method': 'GET'}, 'network': 'http', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'uuid': '9c050a86-d612-48f1-ec32-e573df08a1b7'}
+- {'name': 'US_speednode_0123', 'server': '5.78.75.87', 'port': 3389, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'http-opts': {'headers': {'Host': ['internet.life.com.by']}, 'method': 'GET'}, 'network': 'http', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'uuid': '9c050a86-d612-48f1-ec32-e573df08a1b7'}
+- {'name': 'US_speednode_0124', 'server': '5.78.72.21', 'port': 3389, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'http-opts': {'headers': {'Host': ['internet.life.com.by']}, 'method': 'GET'}, 'network': 'http', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'uuid': '9c050a86-d612-48f1-ec32-e573df08a1b7'}
+- {'name': 'US_speednode_0125', 'server': '5.78.81.59', 'port': 3389, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'http-opts': {'headers': {'Host': ['internet.life.com.by']}, 'method': 'GET'}, 'network': 'http', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'uuid': '9c050a86-d612-48f1-ec32-e573df08a1b7'}
+- {'name': 'US_speednode_0126', 'server': '5.78.113.48', 'port': 3389, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'http-opts': {'headers': {'Host': ['internet.life.com.by']}, 'method': 'GET'}, 'network': 'http', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'uuid': '9c050a86-d612-48f1-ec32-e573df08a1b7'}
+- {'name': 'US_speednode_0127', 'server': 'ffbf920.u2.gladns.com', 'port': 3331, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'network': 'ws', 'servername': 'n2.gladns.com', 'skip-cert-verify': true, 'tls': true, 'udp': true, 'uuid': '57e0cb4d-eae5-48ec-8091-149dc2b309e0', 'ws-opts': {'headers': {'Host': 'tls.apple.com'}, 'path': '/s/ffbf920.fm.apple.com:68447'}}
+- {'name': 'US_speednode_0128', 'server': 'ip.sb', 'port': 80, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'client-fingerprint': 'chrome', 'network': 'ws', 'servername': '', 'skip-cert-verify': false, 'tfo': false, 'tls': false, 'uuid': '113a74cc-f13b-48ec-bbb2-2bbab77a2f35', 'ws-opts': {'headers': {'Host': 'kr1.ljyyds.top'}, 'path': '/'}}
+- {'name': 'US_speednode_0129', 'server': '5.78.71.104', 'port': 3389, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'http-opts': {'headers': {'Host': ['internet.life.com.by']}, 'method': 'GET'}, 'network': 'http', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'uuid': '9c050a86-d612-48f1-ec32-e573df08a1b7'}
+- {'name': 'US_speednode_0130', 'server': 'ffbf920.u3.gladns.com', 'port': 3331, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'network': 'ws', 'servername': 'n2.gladns.com', 'skip-cert-verify': true, 'tls': true, 'udp': true, 'uuid': '57e0cb4d-eae5-48ec-8091-149dc2b309e0', 'ws-opts': {'headers': {'Host': 'tls.apple.com'}, 'path': '/s/ffbf920.fm.apple.com:68447'}}
+- {'name': 'US_speednode_0131', 'server': '151.101.64.144', 'port': 443, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'network': 'ws', 'servername': 'gov.uk', 'skip-cert-verify': true, 'tls': true, 'udp': true, 'uuid': '77848824-93b7-4b89-ffd0-e91afff406ce', 'ws-opts': {'headers': {'Host': 'zheshiscp.com'}, 'path': '/77848824'}}
+- {'name': 'US_speednode_0132', 'server': 'cdn.yifenjichang.top', 'port': 2086, 'type': 'vmess', 'uuid': '900ceafc-30b8-4581-a305-31854f563e4f', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'udp': true, 'ws-opts': {'path': '900ceafc-30b8-4581-a305-31854f563e4f-vm', 'headers': {'Host': 'marina-stupid-integration-tennis.trycloudflare.com'}}}
+- {'name': 'US_speednode_0133', 'server': '172.67.212.114', 'port': 8080, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'network': 'ws', 'skip-cert-verify': true, 'uuid': '22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0', 'ws-opts': {'headers': {'Host': 'www.crispyrainbow.biz'}, 'path': '/'}}
+- {'name': 'US_speednode_0134', 'server': '172.67.166.190', 'port': 8080, 'type': 'vmess', 'uuid': '22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'www.crispyrainbow.online'}}}
+- {'name': 'US_speednode_0135', 'server': '172.67.166.194', 'port': 8080, 'type': 'vmess', 'uuid': '22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'www.coldstone.club'}}}
+- {'name': 'US_speednode_0136', 'server': 's2.956256.xyz', 'port': 80, 'type': 'vmess', 'uuid': '1b5857d5-a7b8-445b-bcc8-f34745e75929', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'udp': true, 'ws-opts': {'path': '/', 'headers': {'Host': 'caonimashabiwanyi5.daxiongda.top'}}}
+- {'name': 'US_speednode_0137', 'server': 's13.956256.xyz', 'port': 80, 'type': 'vmess', 'uuid': '1b5857d5-a7b8-445b-bcc8-f34745e75929', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'udp': true, 'ws-opts': {'path': '/', 'headers': {'Host': 'caonimashabiwanyi20.daxiongda.top'}}}
+- {'name': 'US_speednode_0138', 'server': 's1.956256.xyz', 'port': 80, 'type': 'vmess', 'uuid': '1b5857d5-a7b8-445b-bcc8-f34745e75929', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'udp': true, 'ws-opts': {'path': '/', 'headers': {'Host': 'caonimashabiwanyi4.daxiongda.top'}}}
+- {'name': 'US_speednode_0139', 'server': 's14.956256.xyz', 'port': 80, 'type': 'vmess', 'uuid': '1b5857d5-a7b8-445b-bcc8-f34745e75929', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'udp': true, 'ws-opts': {'path': '/', 'headers': {'Host': 'caonimashabiwanyi21.daxiongda.top'}}}
+
+
+# 代理组
 proxy-groups:
-- name: Proxy
-  type: select
-  proxies:
-  - ♻️ automatic
-  - BR_speednode_0001
-  - BR_speednode_0002
-  - CL_speednode_0003
-  - CL_speednode_0004
-  - CN_speednode_0005
-  - CN_speednode_0006
-  - CN_speednode_0007
-  - CN_speednode_0008
-  - CN_speednode_0009
-  - CN_speednode_0010
-  - CN_speednode_0011
-  - CN_speednode_0012
-  - CN_speednode_0013
-  - CN_speednode_0014
-  - CN_speednode_0015
-  - CN_speednode_0016
-  - CN_speednode_0017
-  - CN_speednode_0018
-  - CN_speednode_0019
-  - CN_speednode_0020
-  - CN_speednode_0021
-  - CN_speednode_0022
-  - CN_speednode_0023
-  - CN_speednode_0024
-  - CN_speednode_0025
-  - CN_speednode_0026
-  - CN_speednode_0027
-  - CN_speednode_0028
-  - CN_speednode_0029
-  - CN_speednode_0030
-  - CN_speednode_0031
-  - CN_speednode_0032
-  - CN_speednode_0033
-  - CN_speednode_0034
-  - CN_speednode_0035
-  - CN_speednode_0036
-  - CN_speednode_0037
-  - CN_speednode_0038
-  - CN_speednode_0039
-  - CN_speednode_0040
-  - CN_speednode_0041
-  - CN_speednode_0042
-  - CN_speednode_0043
-  - CN_speednode_0044
-  - CN_speednode_0045
-  - CN_speednode_0046
-  - CN_speednode_0047
-  - CN_speednode_0048
-  - CN_speednode_0049
-  - CN_speednode_0050
-  - DE_speednode_0051
-  - DE_speednode_0052
-  - DE_speednode_0053
-  - DE_speednode_0054
-  - DE_speednode_0055
-  - DE_speednode_0056
-  - DE_speednode_0057
-  - DE_speednode_0058
-  - DE_speednode_0059
-  - FR_speednode_0060
-  - FR_speednode_0061
-  - FR_speednode_0062
-  - FR_speednode_0063
-  - FR_speednode_0064
-  - FR_speednode_0065
-  - GB_speednode_0066
-  - GB_speednode_0067
-  - GB_speednode_0068
-  - GB_speednode_0069
-  - GB_speednode_0070
-  - GB_speednode_0071
-  - GB_speednode_0072
-  - GB_speednode_0073
-  - GB_speednode_0074
-  - GB_speednode_0075
-  - GB_speednode_0076
-  - GB_speednode_0077
-  - GB_speednode_0078
-  - GB_speednode_0079
-  - GB_speednode_0080
-  - HK_speednode_0081
-  - HK_speednode_0082
-  - HK_speednode_0083
-  - HK_speednode_0084
-  - HK_speednode_0085
-  - HK_speednode_0086
-  - HK_speednode_0087
-  - IN_speednode_0088
-  - IN_speednode_0089
-  - JP_speednode_0090
-  - JP_speednode_0091
-  - JP_speednode_0092
-  - JP_speednode_0093
-  - JP_speednode_0094
-  - JP_speednode_0095
-  - JP_speednode_0096
-  - JP_speednode_0097
-  - KR_speednode_0098
-  - KR_speednode_0099
-  - NL_speednode_0100
-  - NL_speednode_0101
-  - NL_speednode_0102
-  - SG_speednode_0103
-  - SG_speednode_0104
-  - SG_speednode_0105
-  - SG_speednode_0106
-  - SG_speednode_0107
-  - SG_speednode_0108
-  - SG_speednode_0109
-  - SG_speednode_0110
-  - SG_speednode_0111
-  - SG_speednode_0112
-  - SG_speednode_0113
-  - SG_speednode_0114
-  - SG_speednode_0115
-  - SG_speednode_0116
-  - SG_speednode_0117
-  - TR_speednode_0118
-  - TW_speednode_0119
-  - TW_speednode_0120
-  - TW_speednode_0121
-  - US_speednode_0122
-  - US_speednode_0123
-  - US_speednode_0124
-  - US_speednode_0125
-  - US_speednode_0126
-  - US_speednode_0127
-  - US_speednode_0128
-  - US_speednode_0129
-  - US_speednode_0130
-  - US_speednode_0131
-  - US_speednode_0132
-  - US_speednode_0133
-  - US_speednode_0134
-  - US_speednode_0135
-  - US_speednode_0136
-  - US_speednode_0137
-  - US_speednode_0138
-  - US_speednode_0139
-- name: ♻️ automatic
-  type: url-test
-  proxies:
-  - BR_speednode_0001
-  - BR_speednode_0002
-  - CL_speednode_0003
-  - CL_speednode_0004
-  - CN_speednode_0005
-  - CN_speednode_0006
-  - CN_speednode_0007
-  - CN_speednode_0008
-  - CN_speednode_0009
-  - CN_speednode_0010
-  - CN_speednode_0011
-  - CN_speednode_0012
-  - CN_speednode_0013
-  - CN_speednode_0014
-  - CN_speednode_0015
-  - CN_speednode_0016
-  - CN_speednode_0017
-  - CN_speednode_0018
-  - CN_speednode_0019
-  - CN_speednode_0020
-  - CN_speednode_0021
-  - CN_speednode_0022
-  - CN_speednode_0023
-  - CN_speednode_0024
-  - CN_speednode_0025
-  - CN_speednode_0026
-  - CN_speednode_0027
-  - CN_speednode_0028
-  - CN_speednode_0029
-  - CN_speednode_0030
-  - CN_speednode_0031
-  - CN_speednode_0032
-  - CN_speednode_0033
-  - CN_speednode_0034
-  - CN_speednode_0035
-  - CN_speednode_0036
-  - CN_speednode_0037
-  - CN_speednode_0038
-  - CN_speednode_0039
-  - CN_speednode_0040
-  - CN_speednode_0041
-  - CN_speednode_0042
-  - CN_speednode_0043
-  - CN_speednode_0044
-  - CN_speednode_0045
-  - CN_speednode_0046
-  - CN_speednode_0047
-  - CN_speednode_0048
-  - CN_speednode_0049
-  - CN_speednode_0050
-  - DE_speednode_0051
-  - DE_speednode_0052
-  - DE_speednode_0053
-  - DE_speednode_0054
-  - DE_speednode_0055
-  - DE_speednode_0056
-  - DE_speednode_0057
-  - DE_speednode_0058
-  - DE_speednode_0059
-  - FR_speednode_0060
-  - FR_speednode_0061
-  - FR_speednode_0062
-  - FR_speednode_0063
-  - FR_speednode_0064
-  - FR_speednode_0065
-  - GB_speednode_0066
-  - GB_speednode_0067
-  - GB_speednode_0068
-  - GB_speednode_0069
-  - GB_speednode_0070
-  - GB_speednode_0071
-  - GB_speednode_0072
-  - GB_speednode_0073
-  - GB_speednode_0074
-  - GB_speednode_0075
-  - GB_speednode_0076
-  - GB_speednode_0077
-  - GB_speednode_0078
-  - GB_speednode_0079
-  - GB_speednode_0080
-  - HK_speednode_0081
-  - HK_speednode_0082
-  - HK_speednode_0083
-  - HK_speednode_0084
-  - HK_speednode_0085
-  - HK_speednode_0086
-  - HK_speednode_0087
-  - IN_speednode_0088
-  - IN_speednode_0089
-  - JP_speednode_0090
-  - JP_speednode_0091
-  - JP_speednode_0092
-  - JP_speednode_0093
-  - JP_speednode_0094
-  - JP_speednode_0095
-  - JP_speednode_0096
-  - JP_speednode_0097
-  - KR_speednode_0098
-  - KR_speednode_0099
-  - NL_speednode_0100
-  - NL_speednode_0101
-  - NL_speednode_0102
-  - SG_speednode_0103
-  - SG_speednode_0104
-  - SG_speednode_0105
-  - SG_speednode_0106
-  - SG_speednode_0107
-  - SG_speednode_0108
-  - SG_speednode_0109
-  - SG_speednode_0110
-  - SG_speednode_0111
-  - SG_speednode_0112
-  - SG_speednode_0113
-  - SG_speednode_0114
-  - SG_speednode_0115
-  - SG_speednode_0116
-  - SG_speednode_0117
-  - TR_speednode_0118
-  - TW_speednode_0119
-  - TW_speednode_0120
-  - TW_speednode_0121
-  - US_speednode_0122
-  - US_speednode_0123
-  - US_speednode_0124
-  - US_speednode_0125
-  - US_speednode_0126
-  - US_speednode_0127
-  - US_speednode_0128
-  - US_speednode_0129
-  - US_speednode_0130
-  - US_speednode_0131
-  - US_speednode_0132
-  - US_speednode_0133
-  - US_speednode_0134
-  - US_speednode_0135
-  - US_speednode_0136
-  - US_speednode_0137
-  - US_speednode_0138
-  - US_speednode_0139
-  url: https://www.google.com/favicon.ico
-  interval: 300
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🚑 故障转移
+      - ⚖️ 负载均衡-轮询
+      - ⚖️ 负载均衡-散列
+      - DIRECT
+    include-all: true
+
+  - name: ♻️ 自动选择
+    type: url-test
+    lazy: false
+    interval: 300
+    timeout: 5000
+    tolerance: 100
+    url: https://www.google.com/gen_204
+    include-all: true
+
+  - name: 🚑 故障转移
+    type: fallback
+    lazy: false
+    interval: 300
+    timeout: 5000
+    tolerance: 100
+    url: https://www.google.com/gen_204
+    include-all: true
+
+  - name: ⚖️ 负载均衡-轮询
+    type: load-balance
+    strategy: round-robin
+    lazy: false
+    interval: 300
+    timeout: 5000
+    tolerance: 100
+    url: https://www.google.com/gen_204
+    include-all: true
+
+  - name: ⚖️ 负载均衡-散列
+    type: load-balance
+    strategy: consistent-hashing
+    lazy: false
+    interval: 300
+    timeout: 5000
+    tolerance: 100
+    url: https://www.google.com/gen_204
+    include-all: true
+
+  - name: 🌍 国外媒体
+    type: select
+    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
+
+  - name: 📲 电报信息
+    type: select
+    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
+
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies: ['🎯 全球直连', '🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列']
+
+  - name: 🍎 苹果服务
+    type: select
+    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
+
+  - name: 📢 谷歌FCM
+    type: select
+    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
+
+  - name: 🎯 全球直连
+    type: select
+    proxies: ['DIRECT', '🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列']
+
+  - name: 🛑 全球拦截
+    type: select
+    proxies: ['REJECT', 'DIRECT']
+
+  - name: 🍃 应用净化
+    type: select
+    proxies: ['REJECT', 'DIRECT']
+
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
+
+# 规则集
+rule-providers:
+  custom_direct:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/rules/direct.txt
+    path: ./rulesets/custom/direct.txt
+    interval: 86400
+  custom_proxy:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/rules/proxy.txt
+    path: ./rulesets/custom/proxy.txt
+    interval: 86400
+  custom_reject:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/rules/reject.txt
+    path: ./rulesets/custom/reject.txt
+    interval: 86400
+  LocalAreaNetwork:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+    path: ./rulesets/acl4ssr/LocalAreaNetwork.list
+    interval: 86400
+  UnBan:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
+    path: ./rulesets/acl4ssr/UnBan.list
+    interval: 86400
+  BanAD:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+    path: ./rulesets/acl4ssr/BanAD.list
+    interval: 86400
+  BanProgramAD:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+    path: ./rulesets/acl4ssr/BanProgramAD.list
+    interval: 86400
+  GoogleFCM:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list
+    path: ./rulesets/acl4ssr/GoogleFCM.list
+    interval: 86400
+  GoogleCN:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
+    path: ./rulesets/acl4ssr/GoogleCN.list
+    interval: 86400
+  SteamCN:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
+    path: ./rulesets/acl4ssr/SteamCN.list
+    interval: 86400
+  Microsoft:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
+    path: ./rulesets/acl4ssr/Microsoft.list
+    interval: 86400
+  Apple:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
+    path: ./rulesets/acl4ssr/Apple.list
+    interval: 86400
+  Telegram:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+    path: ./rulesets/acl4ssr/Telegram.list
+    interval: 86400
+  ProxyMedia:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+    path: ./rulesets/acl4ssr/ProxyMedia.list
+    interval: 86400
+  ProxyGFWlist:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+    path: ./rulesets/acl4ssr/ProxyGFWlist.list
+    interval: 86400
+  ChinaIp:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
+    path: ./rulesets/acl4ssr/ChinaIp.list
+    interval: 86400
+  ChinaDomain:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+    path: ./rulesets/acl4ssr/ChinaDomain.list
+    interval: 86400
+  ChinaCompanyIp:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+    path: ./rulesets/acl4ssr/ChinaCompanyIp.list
+    interval: 86400
+  Download:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
+    path: ./rulesets/acl4ssr/Download.list
+    interval: 86400
+
+# 规则
 rules:
-- DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
-- DOMAIN,safebrowsing.googleapis.com,DIRECT
-- DOMAIN,developer.apple.com,Proxy
-- DOMAIN-SUFFIX,digicert.com,Proxy
-- DOMAIN,ocsp.apple.com,Proxy
-- DOMAIN,ocsp.comodoca.com,Proxy
-- DOMAIN,ocsp.usertrust.com,Proxy
-- DOMAIN,ocsp.sectigo.com,Proxy
-- DOMAIN,ocsp.verisign.net,Proxy
-- DOMAIN-SUFFIX,apple-dns.net,Proxy
-- DOMAIN,testflight.apple.com,Proxy
-- DOMAIN,sandbox.itunes.apple.com,Proxy
-- DOMAIN,itunes.apple.com,Proxy
-- DOMAIN-SUFFIX,apps.apple.com,Proxy
-- DOMAIN-SUFFIX,blobstore.apple.com,Proxy
-- DOMAIN,cvws.icloud-content.com,Proxy
-- DOMAIN-SUFFIX,mzstatic.com,DIRECT
-- DOMAIN-SUFFIX,itunes.apple.com,DIRECT
-- DOMAIN-SUFFIX,icloud.com,DIRECT
-- DOMAIN-SUFFIX,icloud-content.com,DIRECT
-- DOMAIN-SUFFIX,me.com,DIRECT
-- DOMAIN-SUFFIX,aaplimg.com,DIRECT
-- DOMAIN-SUFFIX,cdn20.com,DIRECT
-- DOMAIN-SUFFIX,cdn-apple.com,DIRECT
-- DOMAIN-SUFFIX,akadns.net,DIRECT
-- DOMAIN-SUFFIX,akamaiedge.net,DIRECT
-- DOMAIN-SUFFIX,edgekey.net,DIRECT
-- DOMAIN-SUFFIX,mwcloudcdn.com,DIRECT
-- DOMAIN-SUFFIX,mwcname.com,DIRECT
-- DOMAIN-SUFFIX,apple.com,DIRECT
-- DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT
-- DOMAIN-SUFFIX,apple-mapkit.com,DIRECT
-- DOMAIN-SUFFIX,cn,DIRECT
-- DOMAIN-KEYWORD,-cn,DIRECT
-- DOMAIN-SUFFIX,126.com,DIRECT
-- DOMAIN-SUFFIX,126.net,DIRECT
-- DOMAIN-SUFFIX,127.net,DIRECT
-- DOMAIN-SUFFIX,163.com,DIRECT
-- DOMAIN-SUFFIX,360buyimg.com,DIRECT
-- DOMAIN-SUFFIX,36kr.com,DIRECT
-- DOMAIN-SUFFIX,acfun.tv,DIRECT
-- DOMAIN-SUFFIX,air-matters.com,DIRECT
-- DOMAIN-SUFFIX,aixifan.com,DIRECT
-- DOMAIN-KEYWORD,alicdn,DIRECT
-- DOMAIN-KEYWORD,alipay,DIRECT
-- DOMAIN-KEYWORD,taobao,DIRECT
-- DOMAIN-SUFFIX,amap.com,DIRECT
-- DOMAIN-SUFFIX,autonavi.com,DIRECT
-- DOMAIN-KEYWORD,baidu,DIRECT
-- DOMAIN-SUFFIX,bdimg.com,DIRECT
-- DOMAIN-SUFFIX,bdstatic.com,DIRECT
-- DOMAIN-SUFFIX,bilibili.com,DIRECT
-- DOMAIN-SUFFIX,bilivideo.com,DIRECT
-- DOMAIN-SUFFIX,caiyunapp.com,DIRECT
-- DOMAIN-SUFFIX,clouddn.com,DIRECT
-- DOMAIN-SUFFIX,cnbeta.com,DIRECT
-- DOMAIN-SUFFIX,cnbetacdn.com,DIRECT
-- DOMAIN-SUFFIX,cootekservice.com,DIRECT
-- DOMAIN-SUFFIX,csdn.net,DIRECT
-- DOMAIN-SUFFIX,ctrip.com,DIRECT
-- DOMAIN-SUFFIX,dgtle.com,DIRECT
-- DOMAIN-SUFFIX,dianping.com,DIRECT
-- DOMAIN-SUFFIX,douban.com,DIRECT
-- DOMAIN-SUFFIX,doubanio.com,DIRECT
-- DOMAIN-SUFFIX,duokan.com,DIRECT
-- DOMAIN-SUFFIX,easou.com,DIRECT
-- DOMAIN-SUFFIX,ele.me,DIRECT
-- DOMAIN-SUFFIX,feng.com,DIRECT
-- DOMAIN-SUFFIX,fir.im,DIRECT
-- DOMAIN-SUFFIX,frdic.com,DIRECT
-- DOMAIN-SUFFIX,g-cores.com,DIRECT
-- DOMAIN-SUFFIX,godic.net,DIRECT
-- DOMAIN-SUFFIX,gtimg.com,DIRECT
-- DOMAIN,cdn.hockeyapp.net,DIRECT
-- DOMAIN-SUFFIX,hongxiu.com,DIRECT
-- DOMAIN-SUFFIX,hxcdn.net,DIRECT
-- DOMAIN-SUFFIX,iciba.com,DIRECT
-- DOMAIN-SUFFIX,ifeng.com,DIRECT
-- DOMAIN-SUFFIX,ifengimg.com,DIRECT
-- DOMAIN-SUFFIX,ipip.net,DIRECT
-- DOMAIN-SUFFIX,iqiyi.com,DIRECT
-- DOMAIN-SUFFIX,jd.com,DIRECT
-- DOMAIN-SUFFIX,jianshu.com,DIRECT
-- DOMAIN-SUFFIX,knewone.com,DIRECT
-- DOMAIN-SUFFIX,le.com,DIRECT
-- DOMAIN-SUFFIX,lecloud.com,DIRECT
-- DOMAIN-SUFFIX,lemicp.com,DIRECT
-- DOMAIN-SUFFIX,licdn.com,DIRECT
-- DOMAIN-SUFFIX,luoo.net,DIRECT
-- DOMAIN-SUFFIX,meituan.com,DIRECT
-- DOMAIN-SUFFIX,meituan.net,DIRECT
-- DOMAIN-SUFFIX,mi.com,DIRECT
-- DOMAIN-SUFFIX,miaopai.com,DIRECT
-- DOMAIN-SUFFIX,microsoft.com,DIRECT
-- DOMAIN-SUFFIX,microsoftonline.com,DIRECT
-- DOMAIN-SUFFIX,miui.com,DIRECT
-- DOMAIN-SUFFIX,miwifi.com,DIRECT
-- DOMAIN-SUFFIX,mob.com,DIRECT
-- DOMAIN-SUFFIX,netease.com,DIRECT
-- DOMAIN-SUFFIX,office.com,DIRECT
-- DOMAIN-SUFFIX,office365.com,DIRECT
-- DOMAIN-KEYWORD,officecdn,DIRECT
-- DOMAIN-SUFFIX,oschina.net,DIRECT
-- DOMAIN-SUFFIX,ppsimg.com,DIRECT
-- DOMAIN-SUFFIX,pstatp.com,DIRECT
-- DOMAIN-SUFFIX,qcloud.com,DIRECT
-- DOMAIN-SUFFIX,qdaily.com,DIRECT
-- DOMAIN-SUFFIX,qdmm.com,DIRECT
-- DOMAIN-SUFFIX,qhimg.com,DIRECT
-- DOMAIN-SUFFIX,qhres.com,DIRECT
-- DOMAIN-SUFFIX,qidian.com,DIRECT
-- DOMAIN-SUFFIX,qihucdn.com,DIRECT
-- DOMAIN-SUFFIX,qiniu.com,DIRECT
-- DOMAIN-SUFFIX,qiniucdn.com,DIRECT
-- DOMAIN-SUFFIX,qiyipic.com,DIRECT
-- DOMAIN-SUFFIX,qq.com,DIRECT
-- DOMAIN-SUFFIX,qqurl.com,DIRECT
-- DOMAIN-SUFFIX,rarbg.to,DIRECT
-- DOMAIN-SUFFIX,ruguoapp.com,DIRECT
-- DOMAIN-SUFFIX,segmentfault.com,DIRECT
-- DOMAIN-SUFFIX,sinaapp.com,DIRECT
-- DOMAIN-SUFFIX,smzdm.com,DIRECT
-- DOMAIN-SUFFIX,snapdrop.net,DIRECT
-- DOMAIN-SUFFIX,sogou.com,DIRECT
-- DOMAIN-SUFFIX,sogoucdn.com,DIRECT
-- DOMAIN-SUFFIX,sohu.com,DIRECT
-- DOMAIN-SUFFIX,soku.com,DIRECT
-- DOMAIN-SUFFIX,speedtest.net,Proxy
-- DOMAIN-SUFFIX,sspai.com,DIRECT
-- DOMAIN-SUFFIX,suning.com,DIRECT
-- DOMAIN-SUFFIX,taobao.com,DIRECT
-- DOMAIN-SUFFIX,tencent.com,DIRECT
-- DOMAIN-SUFFIX,tenpay.com,DIRECT
-- DOMAIN-SUFFIX,tianyancha.com,DIRECT
-- DOMAIN-SUFFIX,tmall.com,DIRECT
-- DOMAIN-SUFFIX,tudou.com,DIRECT
-- DOMAIN-SUFFIX,umetrip.com,DIRECT
-- DOMAIN-SUFFIX,upaiyun.com,DIRECT
-- DOMAIN-SUFFIX,upyun.com,DIRECT
-- DOMAIN-SUFFIX,veryzhun.com,DIRECT
-- DOMAIN-SUFFIX,weather.com,DIRECT
-- DOMAIN-SUFFIX,weibo.com,DIRECT
-- DOMAIN-SUFFIX,xiami.com,DIRECT
-- DOMAIN-SUFFIX,xiami.net,DIRECT
-- DOMAIN-SUFFIX,xiaomicp.com,DIRECT
-- DOMAIN-SUFFIX,ximalaya.com,DIRECT
-- DOMAIN-SUFFIX,xmcdn.com,DIRECT
-- DOMAIN-SUFFIX,xunlei.com,DIRECT
-- DOMAIN-SUFFIX,yhd.com,DIRECT
-- DOMAIN-SUFFIX,yihaodianimg.com,DIRECT
-- DOMAIN-SUFFIX,yinxiang.com,DIRECT
-- DOMAIN-SUFFIX,ykimg.com,DIRECT
-- DOMAIN-SUFFIX,youdao.com,DIRECT
-- DOMAIN-SUFFIX,youku.com,DIRECT
-- DOMAIN-SUFFIX,zealer.com,DIRECT
-- DOMAIN-SUFFIX,zhihu.com,DIRECT
-- DOMAIN-SUFFIX,zhimg.com,DIRECT
-- DOMAIN-SUFFIX,zimuzu.tv,DIRECT
-- DOMAIN-SUFFIX,zoho.com,DIRECT
-- DOMAIN-KEYWORD,amazon,Proxy
-- DOMAIN-KEYWORD,google,Proxy
-- DOMAIN-KEYWORD,gmail,Proxy
-- DOMAIN-KEYWORD,youtube,Proxy
-- DOMAIN-KEYWORD,facebook,Proxy
-- DOMAIN-SUFFIX,fb.me,Proxy
-- DOMAIN-SUFFIX,fbcdn.net,Proxy
-- DOMAIN-KEYWORD,twitter,Proxy
-- DOMAIN-KEYWORD,instagram,Proxy
-- DOMAIN-KEYWORD,dropbox,Proxy
-- DOMAIN-SUFFIX,twimg.com,Proxy
-- DOMAIN-KEYWORD,blogspot,Proxy
-- DOMAIN-SUFFIX,youtu.be,Proxy
-- DOMAIN-KEYWORD,whatsapp,Proxy
-- DOMAIN-KEYWORD,admarvel,REJECT
-- DOMAIN-KEYWORD,admaster,REJECT
-- DOMAIN-KEYWORD,adsage,REJECT
-- DOMAIN-KEYWORD,adsmogo,REJECT
-- DOMAIN-KEYWORD,adsrvmedia,REJECT
-- DOMAIN-KEYWORD,adwords,REJECT
-- DOMAIN-KEYWORD,adservice,REJECT
-- DOMAIN-SUFFIX,appsflyer.com,REJECT
-- DOMAIN-KEYWORD,domob,REJECT
-- DOMAIN-SUFFIX,doubleclick.net,REJECT
-- DOMAIN-KEYWORD,duomeng,REJECT
-- DOMAIN-KEYWORD,dwtrack,REJECT
-- DOMAIN-KEYWORD,guanggao,REJECT
-- DOMAIN-KEYWORD,lianmeng,REJECT
-- DOMAIN-SUFFIX,mmstat.com,REJECT
-- DOMAIN-KEYWORD,mopub,REJECT
-- DOMAIN-KEYWORD,omgmta,REJECT
-- DOMAIN-KEYWORD,openx,REJECT
-- DOMAIN-KEYWORD,partnerad,REJECT
-- DOMAIN-KEYWORD,pingfore,REJECT
-- DOMAIN-KEYWORD,supersonicads,REJECT
-- DOMAIN-KEYWORD,uedas,REJECT
-- DOMAIN-KEYWORD,umeng,REJECT
-- DOMAIN-KEYWORD,usage,REJECT
-- DOMAIN-SUFFIX,vungle.com,REJECT
-- DOMAIN-KEYWORD,wlmonitor,REJECT
-- DOMAIN-KEYWORD,zjtoolbar,REJECT
-- DOMAIN-SUFFIX,9to5mac.com,Proxy
-- DOMAIN-SUFFIX,abpchina.org,Proxy
-- DOMAIN-SUFFIX,adblockplus.org,Proxy
-- DOMAIN-SUFFIX,adobe.com,Proxy
-- DOMAIN-SUFFIX,akamaized.net,Proxy
-- DOMAIN-SUFFIX,alfredapp.com,Proxy
-- DOMAIN-SUFFIX,amplitude.com,Proxy
-- DOMAIN-SUFFIX,ampproject.org,Proxy
-- DOMAIN-SUFFIX,android.com,Proxy
-- DOMAIN-SUFFIX,angularjs.org,Proxy
-- DOMAIN-SUFFIX,aolcdn.com,Proxy
-- DOMAIN-SUFFIX,apkpure.com,Proxy
-- DOMAIN-SUFFIX,appledaily.com,Proxy
-- DOMAIN-SUFFIX,appshopper.com,Proxy
-- DOMAIN-SUFFIX,appspot.com,Proxy
-- DOMAIN-SUFFIX,arcgis.com,Proxy
-- DOMAIN-SUFFIX,archive.org,Proxy
-- DOMAIN-SUFFIX,armorgames.com,Proxy
-- DOMAIN-SUFFIX,aspnetcdn.com,Proxy
-- DOMAIN-SUFFIX,att.com,Proxy
-- DOMAIN-SUFFIX,awsstatic.com,Proxy
-- DOMAIN-SUFFIX,azureedge.net,Proxy
-- DOMAIN-SUFFIX,azurewebsites.net,Proxy
-- DOMAIN-SUFFIX,bing.com,Proxy
-- DOMAIN-SUFFIX,bintray.com,Proxy
-- DOMAIN-SUFFIX,bit.com,Proxy
-- DOMAIN-SUFFIX,bit.ly,Proxy
-- DOMAIN-SUFFIX,bitbucket.org,Proxy
-- DOMAIN-SUFFIX,bjango.com,Proxy
-- DOMAIN-SUFFIX,bkrtx.com,Proxy
-- DOMAIN-SUFFIX,blog.com,Proxy
-- DOMAIN-SUFFIX,blogcdn.com,Proxy
-- DOMAIN-SUFFIX,blogger.com,Proxy
-- DOMAIN-SUFFIX,blogsmithmedia.com,Proxy
-- DOMAIN-SUFFIX,blogspot.com,Proxy
-- DOMAIN-SUFFIX,blogspot.hk,Proxy
-- DOMAIN-SUFFIX,bloomberg.com,Proxy
-- DOMAIN-SUFFIX,box.com,Proxy
-- DOMAIN-SUFFIX,box.net,Proxy
-- DOMAIN-SUFFIX,cachefly.net,Proxy
-- DOMAIN-SUFFIX,chromium.org,Proxy
-- DOMAIN-SUFFIX,cl.ly,Proxy
-- DOMAIN-SUFFIX,cloudflare.com,Proxy
-- DOMAIN-SUFFIX,cloudfront.net,Proxy
-- DOMAIN-SUFFIX,cloudmagic.com,Proxy
-- DOMAIN-SUFFIX,cmail19.com,Proxy
-- DOMAIN-SUFFIX,cnet.com,Proxy
-- DOMAIN-SUFFIX,cocoapods.org,Proxy
-- DOMAIN-SUFFIX,comodoca.com,Proxy
-- DOMAIN-SUFFIX,crashlytics.com,Proxy
-- DOMAIN-SUFFIX,culturedcode.com,Proxy
-- DOMAIN-SUFFIX,d.pr,Proxy
-- DOMAIN-SUFFIX,danilo.to,Proxy
-- DOMAIN-SUFFIX,dayone.me,Proxy
-- DOMAIN-SUFFIX,db.tt,Proxy
-- DOMAIN-SUFFIX,deskconnect.com,Proxy
-- DOMAIN-SUFFIX,disq.us,Proxy
-- DOMAIN-SUFFIX,disqus.com,Proxy
-- DOMAIN-SUFFIX,disquscdn.com,Proxy
-- DOMAIN-SUFFIX,dnsimple.com,Proxy
-- DOMAIN-SUFFIX,docker.com,Proxy
-- DOMAIN-SUFFIX,dribbble.com,Proxy
-- DOMAIN-SUFFIX,droplr.com,Proxy
-- DOMAIN-SUFFIX,duckduckgo.com,Proxy
-- DOMAIN-SUFFIX,dueapp.com,Proxy
-- DOMAIN-SUFFIX,dytt8.net,Proxy
-- DOMAIN-SUFFIX,edgecastcdn.net,Proxy
-- DOMAIN-SUFFIX,edgekey.net,Proxy
-- DOMAIN-SUFFIX,edgesuite.net,Proxy
-- DOMAIN-SUFFIX,engadget.com,Proxy
-- DOMAIN-SUFFIX,entrust.net,Proxy
-- DOMAIN-SUFFIX,eurekavpt.com,Proxy
-- DOMAIN-SUFFIX,evernote.com,Proxy
-- DOMAIN-SUFFIX,fabric.io,Proxy
-- DOMAIN-SUFFIX,fast.com,Proxy
-- DOMAIN-SUFFIX,fastly.net,Proxy
-- DOMAIN-SUFFIX,fc2.com,Proxy
-- DOMAIN-SUFFIX,feedburner.com,Proxy
-- DOMAIN-SUFFIX,feedly.com,Proxy
-- DOMAIN-SUFFIX,feedsportal.com,Proxy
-- DOMAIN-SUFFIX,fiftythree.com,Proxy
-- DOMAIN-SUFFIX,firebaseio.com,Proxy
-- DOMAIN-SUFFIX,flexibits.com,Proxy
-- DOMAIN-SUFFIX,flickr.com,Proxy
-- DOMAIN-SUFFIX,flipboard.com,Proxy
-- DOMAIN-SUFFIX,g.co,Proxy
-- DOMAIN-SUFFIX,gabia.net,Proxy
-- DOMAIN-SUFFIX,geni.us,Proxy
-- DOMAIN-SUFFIX,gfx.ms,Proxy
-- DOMAIN-SUFFIX,ggpht.com,Proxy
-- DOMAIN-SUFFIX,ghostnoteapp.com,Proxy
-- DOMAIN-SUFFIX,git.io,Proxy
-- DOMAIN-KEYWORD,github,Proxy
-- DOMAIN-SUFFIX,globalsign.com,Proxy
-- DOMAIN-SUFFIX,gmodules.com,Proxy
-- DOMAIN-SUFFIX,godaddy.com,Proxy
-- DOMAIN-SUFFIX,golang.org,Proxy
-- DOMAIN-SUFFIX,gongm.in,Proxy
-- DOMAIN-SUFFIX,goo.gl,Proxy
-- DOMAIN-SUFFIX,goodreaders.com,Proxy
-- DOMAIN-SUFFIX,goodreads.com,Proxy
-- DOMAIN-SUFFIX,gravatar.com,Proxy
-- DOMAIN-SUFFIX,gstatic.com,Proxy
-- DOMAIN-SUFFIX,gvt0.com,Proxy
-- DOMAIN-SUFFIX,hockeyapp.net,Proxy
-- DOMAIN-SUFFIX,hotmail.com,Proxy
-- DOMAIN-SUFFIX,icons8.com,Proxy
-- DOMAIN-SUFFIX,ifixit.com,Proxy
-- DOMAIN-SUFFIX,ift.tt,Proxy
-- DOMAIN-SUFFIX,ifttt.com,Proxy
-- DOMAIN-SUFFIX,iherb.com,Proxy
-- DOMAIN-SUFFIX,imageshack.us,Proxy
-- DOMAIN-SUFFIX,img.ly,Proxy
-- DOMAIN-SUFFIX,imgur.com,Proxy
-- DOMAIN-SUFFIX,imore.com,Proxy
-- DOMAIN-SUFFIX,instapaper.com,Proxy
-- DOMAIN-SUFFIX,ipn.li,Proxy
-- DOMAIN-SUFFIX,is.gd,Proxy
-- DOMAIN-SUFFIX,issuu.com,Proxy
-- DOMAIN-SUFFIX,itgonglun.com,Proxy
-- DOMAIN-SUFFIX,itun.es,Proxy
-- DOMAIN-SUFFIX,ixquick.com,Proxy
-- DOMAIN-SUFFIX,j.mp,Proxy
-- DOMAIN-SUFFIX,js.revsci.net,Proxy
-- DOMAIN-SUFFIX,jshint.com,Proxy
-- DOMAIN-SUFFIX,jtvnw.net,Proxy
-- DOMAIN-SUFFIX,justgetflux.com,Proxy
-- DOMAIN-SUFFIX,kat.cr,Proxy
-- DOMAIN-SUFFIX,klip.me,Proxy
-- DOMAIN-SUFFIX,libsyn.com,Proxy
-- DOMAIN-SUFFIX,linkedin.com,Proxy
-- DOMAIN-SUFFIX,linode.com,Proxy
-- DOMAIN-SUFFIX,lithium.com,Proxy
-- DOMAIN-SUFFIX,littlehj.com,Proxy
-- DOMAIN-SUFFIX,live.com,Proxy
-- DOMAIN-SUFFIX,live.net,Proxy
-- DOMAIN-SUFFIX,livefilestore.com,Proxy
-- DOMAIN-SUFFIX,llnwd.net,Proxy
-- DOMAIN-SUFFIX,macid.co,Proxy
-- DOMAIN-SUFFIX,macromedia.com,Proxy
-- DOMAIN-SUFFIX,macrumors.com,Proxy
-- DOMAIN-SUFFIX,mashable.com,Proxy
-- DOMAIN-SUFFIX,mathjax.org,Proxy
-- DOMAIN-SUFFIX,medium.com,Proxy
-- DOMAIN-SUFFIX,mega.co.nz,Proxy
-- DOMAIN-SUFFIX,mega.nz,Proxy
-- DOMAIN-SUFFIX,megaupload.com,Proxy
-- DOMAIN-SUFFIX,microsofttranslator.com,Proxy
-- DOMAIN-SUFFIX,mindnode.com,Proxy
-- DOMAIN-SUFFIX,mobile01.com,Proxy
-- DOMAIN-SUFFIX,modmyi.com,Proxy
-- DOMAIN-SUFFIX,msedge.net,Proxy
-- DOMAIN-SUFFIX,myfontastic.com,Proxy
-- DOMAIN-SUFFIX,name.com,Proxy
-- DOMAIN-SUFFIX,nextmedia.com,Proxy
-- DOMAIN-SUFFIX,nsstatic.net,Proxy
-- DOMAIN-SUFFIX,nssurge.com,Proxy
-- DOMAIN-SUFFIX,nyt.com,Proxy
-- DOMAIN-SUFFIX,nytimes.com,Proxy
-- DOMAIN-SUFFIX,omnigroup.com,Proxy
-- DOMAIN-SUFFIX,onedrive.com,Proxy
-- DOMAIN-SUFFIX,onenote.com,Proxy
-- DOMAIN-SUFFIX,ooyala.com,Proxy
-- DOMAIN-SUFFIX,openvpn.net,Proxy
-- DOMAIN-SUFFIX,openwrt.org,Proxy
-- DOMAIN-SUFFIX,orkut.com,Proxy
-- DOMAIN-SUFFIX,osxdaily.com,Proxy
-- DOMAIN-SUFFIX,outlook.com,Proxy
-- DOMAIN-SUFFIX,ow.ly,Proxy
-- DOMAIN-SUFFIX,paddleapi.com,Proxy
-- DOMAIN-SUFFIX,parallels.com,Proxy
-- DOMAIN-SUFFIX,parse.com,Proxy
-- DOMAIN-SUFFIX,pdfexpert.com,Proxy
-- DOMAIN-SUFFIX,periscope.tv,Proxy
-- DOMAIN-SUFFIX,pinboard.in,Proxy
-- DOMAIN-SUFFIX,pinterest.com,Proxy
-- DOMAIN-SUFFIX,pixelmator.com,Proxy
-- DOMAIN-SUFFIX,pixiv.net,Proxy
-- DOMAIN-SUFFIX,playpcesor.com,Proxy
-- DOMAIN-SUFFIX,playstation.com,Proxy
-- DOMAIN-SUFFIX,playstation.com.hk,Proxy
-- DOMAIN-SUFFIX,playstation.net,Proxy
-- DOMAIN-SUFFIX,playstationnetwork.com,Proxy
-- DOMAIN-SUFFIX,pushwoosh.com,Proxy
-- DOMAIN-SUFFIX,rime.im,Proxy
-- DOMAIN-SUFFIX,servebom.com,Proxy
-- DOMAIN-SUFFIX,sfx.ms,Proxy
-- DOMAIN-SUFFIX,shadowsocks.org,Proxy
-- DOMAIN-SUFFIX,sharethis.com,Proxy
-- DOMAIN-SUFFIX,shazam.com,Proxy
-- DOMAIN-SUFFIX,skype.com,Proxy
-- DOMAIN-SUFFIX,smartdnsProxy.com,Proxy
-- DOMAIN-SUFFIX,smartmailcloud.com,Proxy
-- DOMAIN-SUFFIX,sndcdn.com,Proxy
-- DOMAIN-SUFFIX,sony.com,Proxy
-- DOMAIN-SUFFIX,soundcloud.com,Proxy
-- DOMAIN-SUFFIX,sourceforge.net,Proxy
-- DOMAIN-SUFFIX,spotify.com,Proxy
-- DOMAIN-SUFFIX,squarespace.com,Proxy
-- DOMAIN-SUFFIX,sstatic.net,Proxy
-- DOMAIN-SUFFIX,st.luluku.pw,Proxy
-- DOMAIN-SUFFIX,stackoverflow.com,Proxy
-- DOMAIN-SUFFIX,startpage.com,Proxy
-- DOMAIN-SUFFIX,staticflickr.com,Proxy
-- DOMAIN-SUFFIX,steamcommunity.com,Proxy
-- DOMAIN-SUFFIX,symauth.com,Proxy
-- DOMAIN-SUFFIX,symcb.com,Proxy
-- DOMAIN-SUFFIX,symcd.com,Proxy
-- DOMAIN-SUFFIX,tapbots.com,Proxy
-- DOMAIN-SUFFIX,tapbots.net,Proxy
-- DOMAIN-SUFFIX,tdesktop.com,Proxy
-- DOMAIN-SUFFIX,techcrunch.com,Proxy
-- DOMAIN-SUFFIX,techsmith.com,Proxy
-- DOMAIN-SUFFIX,thepiratebay.org,Proxy
-- DOMAIN-SUFFIX,theverge.com,Proxy
-- DOMAIN-SUFFIX,time.com,Proxy
-- DOMAIN-SUFFIX,timeinc.net,Proxy
-- DOMAIN-SUFFIX,tiny.cc,Proxy
-- DOMAIN-SUFFIX,tinypic.com,Proxy
-- DOMAIN-SUFFIX,tmblr.co,Proxy
-- DOMAIN-SUFFIX,todoist.com,Proxy
-- DOMAIN-SUFFIX,trello.com,Proxy
-- DOMAIN-SUFFIX,trustasiassl.com,Proxy
-- DOMAIN-SUFFIX,tumblr.co,Proxy
-- DOMAIN-SUFFIX,tumblr.com,Proxy
-- DOMAIN-SUFFIX,tweetdeck.com,Proxy
-- DOMAIN-SUFFIX,tweetmarker.net,Proxy
-- DOMAIN-SUFFIX,twitch.tv,Proxy
-- DOMAIN-SUFFIX,txmblr.com,Proxy
-- DOMAIN-SUFFIX,typekit.net,Proxy
-- DOMAIN-SUFFIX,ubertags.com,Proxy
-- DOMAIN-SUFFIX,ublock.org,Proxy
-- DOMAIN-SUFFIX,ubnt.com,Proxy
-- DOMAIN-SUFFIX,ulyssesapp.com,Proxy
-- DOMAIN-SUFFIX,urchin.com,Proxy
-- DOMAIN-SUFFIX,usertrust.com,Proxy
-- DOMAIN-SUFFIX,v.gd,Proxy
-- DOMAIN-SUFFIX,v2ex.com,Proxy
-- DOMAIN-SUFFIX,vimeo.com,Proxy
-- DOMAIN-SUFFIX,vimeocdn.com,Proxy
-- DOMAIN-SUFFIX,vine.co,Proxy
-- DOMAIN-SUFFIX,vivaldi.com,Proxy
-- DOMAIN-SUFFIX,vox-cdn.com,Proxy
-- DOMAIN-SUFFIX,vsco.co,Proxy
-- DOMAIN-SUFFIX,vultr.com,Proxy
-- DOMAIN-SUFFIX,w.org,Proxy
-- DOMAIN-SUFFIX,w3schools.com,Proxy
-- DOMAIN-SUFFIX,webtype.com,Proxy
-- DOMAIN-SUFFIX,wikiwand.com,Proxy
-- DOMAIN-SUFFIX,wikileaks.org,Proxy
-- DOMAIN-SUFFIX,wikimedia.org,Proxy
-- DOMAIN-SUFFIX,wikipedia.com,Proxy
-- DOMAIN-SUFFIX,wikipedia.org,Proxy
-- DOMAIN-SUFFIX,windows.com,Proxy
-- DOMAIN-SUFFIX,windows.net,Proxy
-- DOMAIN-SUFFIX,wire.com,Proxy
-- DOMAIN-SUFFIX,wordpress.com,Proxy
-- DOMAIN-SUFFIX,workflowy.com,Proxy
-- DOMAIN-SUFFIX,wp.com,Proxy
-- DOMAIN-SUFFIX,wsj.com,Proxy
-- DOMAIN-SUFFIX,wsj.net,Proxy
-- DOMAIN-SUFFIX,xda-developers.com,Proxy
-- DOMAIN-SUFFIX,xeeno.com,Proxy
-- DOMAIN-SUFFIX,xiti.com,Proxy
-- DOMAIN-SUFFIX,yahoo.com,Proxy
-- DOMAIN-SUFFIX,yimg.com,Proxy
-- DOMAIN-SUFFIX,ying.com,Proxy
-- DOMAIN-SUFFIX,yoyo.org,Proxy
-- DOMAIN-SUFFIX,ytimg.com,Proxy
-- DOMAIN-SUFFIX,telegra.ph,Proxy
-- DOMAIN-SUFFIX,telegram.org,Proxy
-- IP-CIDR,91.108.4.0/22,Proxy
-- IP-CIDR,91.108.8.0/21,Proxy
-- IP-CIDR,91.108.16.0/22,Proxy
-- IP-CIDR,91.108.56.0/22,Proxy
-- IP-CIDR,149.154.160.0/20,Proxy
-- IP-CIDR6,2001:67c:4e8::/48,Proxy
-- IP-CIDR6,2001:b28:f23d::/48,Proxy
-- IP-CIDR6,2001:b28:f23f::/48,Proxy
-- DOMAIN,injections.adguard.org,DIRECT
-- DOMAIN,local.adguard.org,DIRECT
-- DOMAIN-SUFFIX,local,DIRECT
-- IP-CIDR,127.0.0.0/8,DIRECT
-- IP-CIDR,172.16.0.0/12,DIRECT
-- IP-CIDR,192.168.0.0/16,DIRECT
-- IP-CIDR,10.0.0.0/8,DIRECT
-- IP-CIDR,17.0.0.0/8,DIRECT
-- IP-CIDR,100.64.0.0/10,DIRECT
-- IP-CIDR,224.0.0.0/4,DIRECT
-- IP-CIDR6,fe80::/10,DIRECT
-- GEOIP,CN,DIRECT
-- MATCH,Proxy
+  # acl4ssr
+  - RULE-SET,LocalAreaNetwork,🎯 全球直连
+  - RULE-SET,UnBan,🎯 全球直连
+  - RULE-SET,BanAD,🛑 全球拦截
+  - RULE-SET,BanProgramAD,🍃 应用净化
+  - RULE-SET,GoogleFCM,📢 谷歌FCM
+  - RULE-SET,GoogleCN,🎯 全球直连
+  - RULE-SET,SteamCN,🎯 全球直连
+  - RULE-SET,Microsoft,Ⓜ️ 微软服务
+  - RULE-SET,Apple,🍎 苹果服务
+  - RULE-SET,Telegram,📲 电报信息
+  - RULE-SET,ProxyMedia,🌍 国外媒体
+  - RULE-SET,ProxyGFWlist,🚀 节点选择
+  - RULE-SET,ChinaIp,🎯 全球直连
+  - RULE-SET,ChinaDomain,🎯 全球直连
+  - RULE-SET,ChinaCompanyIp,🎯 全球直连
+  - RULE-SET,Download,🎯 全球直连
+  # 其他
+  - GEOIP,LAN,🎯 全球直连
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐟 漏网之鱼

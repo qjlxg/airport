@@ -54,6 +54,11 @@ proxy_group_common_config: &proxy_group_common_config
 
 # 订阅地址
 proxy-providers:
+  ChromeGo:
+    type: http
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/ChromeGo.yaml"
+    path: ./providers/ChromeGo.yaml
+    <<: *proxy_provider_common_config
   ClodQiu:
     type: http
     url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/ClodQiu.yaml"
@@ -99,11 +104,6 @@ proxy-providers:
     url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/mfuu.yaml"
     path: ./providers/mfuu.yaml
     <<: *proxy_provider_common_config
-  mianayang:
-    type: http
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/mianayang.yaml"
-    path: ./providers/mianayang.yaml
-    <<: *proxy_provider_common_config
   peasoft:
     type: http
     url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/peasoft.yaml"
@@ -146,6 +146,7 @@ proxy-groups:
     type: url-test
     <<: *proxy_group_common_config
     proxies:
+      - ChromeGo
       - ClodQiu
       - Pawdroid
       - a2470982985
@@ -155,7 +156,6 @@ proxy-groups:
       - ermaozi
       - freefq
       - mfuu
-      - mianayang
       - peasoft
       - shunfeng
       - w1770946466
@@ -166,6 +166,7 @@ proxy-groups:
     type: fallback
     <<: *proxy_group_common_config
     proxies:
+      - ChromeGo
       - ClodQiu
       - Pawdroid
       - a2470982985
@@ -175,7 +176,6 @@ proxy-groups:
       - ermaozi
       - freefq
       - mfuu
-      - mianayang
       - peasoft
       - shunfeng
       - w1770946466
@@ -187,6 +187,7 @@ proxy-groups:
     strategy: round-robin
     <<: *proxy_group_common_config
     proxies:
+      - ChromeGo
       - ClodQiu
       - Pawdroid
       - a2470982985
@@ -196,7 +197,6 @@ proxy-groups:
       - ermaozi
       - freefq
       - mfuu
-      - mianayang
       - peasoft
       - shunfeng
       - w1770946466
@@ -208,6 +208,12 @@ proxy-groups:
     strategy: consistent-hashing
     <<: *proxy_group_common_config
     include-all: true
+
+  - name: ChromeGo
+    type: url-test
+    use: [ChromeGo]
+    hidden: true
+    <<: *proxy_group_common_config
 
   - name: ClodQiu
     type: url-test
@@ -260,12 +266,6 @@ proxy-groups:
   - name: mfuu
     type: url-test
     use: [mfuu]
-    hidden: true
-    <<: *proxy_group_common_config
-
-  - name: mianayang
-    type: url-test
-    use: [mianayang]
     hidden: true
     <<: *proxy_group_common_config
 

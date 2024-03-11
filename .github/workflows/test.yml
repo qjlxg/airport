@@ -5,7 +5,7 @@ on:
   workflow_run:
     workflows: ["Auto-fetch Subscribed Files"]
     types:
-      - success
+      - completed
   # 手动触发
   workflow_dispatch:
 

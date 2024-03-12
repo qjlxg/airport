@@ -1,6 +1,8 @@
-function toBase64(str) {
-    return btoa(String.fromCharCode.apply(null, new TextEncoder().encode(str)));
-}
+const base64Encode = str => bytesToBase64(new TextEncoder().encode(str));
+
+function bytesToBase64(bytes) {
+    return btoa(new Uint8Array(bytes).reduce((data, byte) => data + String.fromCharCode(byte), ''));
+  }
 
 function getParam(params, paramName, defaultVal) {
     const val = params.get(paramName);
@@ -20,7 +22,7 @@ export default {
                 case '/base64':
                     const t1 = getParam(params, 'target');
                     let c1 = await fetch(t1, {"method": "GET"}).then((res) => res.text());
-                    return new Response(toBase64(c1));
+                    return new Response(base64Encode(c1));
                 case '/markdown':
                     const t2 = getParam(params, 'target');
                     let c2 = await fetch(t2, {"method": "GET"}).then((res) => res.text());
@@ -30,7 +32,7 @@ export default {
                     if (arr.length < 3) {
                         throw new Error('invalid markdown content');
                     }
-                    return new Response(toBase64(arr[pos]));
+                    return new Response(base64Encode(arr[pos]));
             }
         } catch (e) {
             return new Response(e.toString(), {status: 500});

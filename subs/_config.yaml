@@ -6,10 +6,10 @@ data:
       - https://raw.githubusercontent.com/ClodQiu/STARS/master/list.yml
     output: subs/ClodQiu.yaml
   - id: Pawdroid
-    source: clash
+    source: v2ray
     target: clash
     urls:
-      - https://sub.xeton.dev/sub?target=clash&new_name=true&url=https%3A%2F%2Fgithub.com%2FPawdroid%2FFree-servers%2Fraw%2Fmain%2Fsub&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini
+      - https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
     output: subs/Pawdroid.yaml
   - id: a2470982985
     source: clash
@@ -18,16 +18,16 @@ data:
       - https://raw.githubusercontent.com/a2470982985/getNode/main/clash.yaml
     output: subs/a2470982985.yaml
   - id: abshare
-    source: clash
+    source: v2ray
     target: clash
     urls:
-      - https://sub.xeton.dev/sub?target=clash&new_name=true&url=https%3A%2F%2Futils.2424014450.workers.dev%2Fmarkdown%3Ftarget%3Dhttps%253A%252F%252Fraw.githubusercontent.com%252Fabshare%252Fabshare.github.io%252Fmain%252FREADME.md&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini
+      - https://utils.2424014450.workers.dev/markdown?target=https%3A%2F%2Fraw.githubusercontent.com%2Fabshare%2Fabshare.github.io%2Fmain%2FREADME.md
     output: subs/abshare.yaml
   - id: aiboboxx
-    source: clash
+    source: v2ray
     target: clash
     urls:
-      - https://sub.xeton.dev/sub?target=clash&new_name=true&url=https%3A%2F%2Fraw.githubusercontent.com%2Faiboboxx%2Fv2rayfree%2Fmain%2Fv2&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini
+      - https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
     output: subs/aiboboxx.yaml
   - id: chengaopan
     source: clash
@@ -52,7 +52,7 @@ data:
     source: clash
     target: clash
     urls:
-      - https://sub.xeton.dev/sub?target=clash&new_name=true&url=https%3A%2F%2Fraw.githubusercontent.com%2Ffreefq%2Ffree%2Fmaster%2Fv2&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini
+      - https://raw.githubusercontent.com/freefq/free/master/v2
     output: subs/freefq.yaml
   - id: mfuu
     source: clash
@@ -72,16 +72,16 @@ data:
       - https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/15/config.yaml
     output: subs/ChromeGo.yaml
   - id: mksshare
-    source: clash
+    source: v2ray
     target: clash
     urls:
-      - https://sub.xeton.dev/sub?target=clash&new_name=true&url=https%3A%2F%2Futils.2424014450.workers.dev%2Fmarkdown%3Ftarget%3Dhttps%253A%252F%252Fraw.githubusercontent.com%252Fmksshare%252Fmksshare.github.io%252Fmain%252FREADME.md&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini
+      - https://utils.2424014450.workers.dev/markdown?target=https%3A%2F%2Fraw.githubusercontent.com%2Fmksshare%2Fmksshare.github.io%2Fmain%2FREADME.md
     output: subs/mksshare.yaml
   - id: peasoft
     source: clash
     target: clash
     urls:
-      - https://sub.xeton.dev/sub?target=clash&new_name=true&url=https%3A%2F%2Futils.2424014450.workers.dev%3Ftarget%3Dhttps%253A%252F%252Fraw.githubusercontent.com%252Fpeasoft%252FNoMoreWalls%252Fmaster%252Flist_raw.txt&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini
+      - https://utils.2424014450.workers.dev?target=https%3A%2F%2Fraw.githubusercontent.com%2Fpeasoft%2FNoMoreWalls%2Fmaster%2Flist_raw.txt
     output: subs/peasoft.yaml
   - id: shunfeng
     source: clash
@@ -93,13 +93,21 @@ data:
     source: clash
     target: clash
     urls:
-      - https://sub.xeton.dev/sub?target=clash&new_name=true&url=https%3A%2F%2Futils.2424014450.workers.dev%2Fmarkdown%3Ftarget%3Dhttps%253A%252F%252Fraw.githubusercontent.com%252Ftolinkshare%252Ffreenode%252Fmain%252FREADME.md&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini
+      -https://utils.2424014450.workers.dev/markdown?target=https%3A%2F%2Fraw.githubusercontent.com%2Ftolinkshare%2Ffreenode%2Fmain%2FREADME.md
     output: subs/tolinkshare.yaml
   - id: w1770946466
     source: clash
     target: clash
     urls:
-      - https://sub.xeton.dev/sub?target=clash&new_name=true&url=https%3A%2F%2Fraw.githubusercontent.com%2Fw1770946466%2FAuto_proxy%2Fmain%2FLong_term_subscription1%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fw1770946466%2FAuto_proxy%2Fmain%2FLong_term_subscription2%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fw1770946466%2FAuto_proxy%2Fmain%2FLong_term_subscription3%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fw1770946466%2FAuto_proxy%2Fmain%2FLong_term_subscription4%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fw1770946466%2FAuto_proxy%2Fmain%2FLong_term_subscription5%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fw1770946466%2FAuto_proxy%2Fmain%2FLong_term_subscription6%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fw1770946466%2FAuto_proxy%2Fmain%2FLong_term_subscription7%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fw1770946466%2FAuto_proxy%2Fmain%2FLong_term_subscription8&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini
+      - https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription_num
+      - https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1
+      - https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription2
+      - https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription3
+      - https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription4
+      - https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription5
+      - https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription6
+      - https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription7
+      - https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription8
     output: subs/w1770946466.yaml
   - id: xrayvip
     source: clash

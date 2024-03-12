@@ -93,7 +93,7 @@ data:
     source: clash
     target: clash
     urls:
-      -https://utils.2424014450.workers.dev/markdown?target=https%3A%2F%2Fraw.githubusercontent.com%2Ftolinkshare%2Ffreenode%2Fmain%2FREADME.md
+      - https://utils.2424014450.workers.dev/markdown?target=https%3A%2F%2Fraw.githubusercontent.com%2Ftolinkshare%2Ffreenode%2Fmain%2FREADME.md
     output: subs/tolinkshare.yaml
   - id: w1770946466
     source: clash

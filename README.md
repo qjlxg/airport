@@ -4,7 +4,7 @@
 
 ### 所有节点汇总
 
-汇总后的所有节点集合
+> 汇总后的所有节点集合
 
 ```
 https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/merged.yaml
@@ -12,9 +12,9 @@ https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airpor
 
 ### 国内测速筛选
 
-筛选条件：延迟低于2000ms，下载速度 >= 1MB/s
-
-需要国内的self-hosted主机，随缘执行（定时更新间隔：6小时）
+> 筛选条件：延迟低于2000ms，下载速度 >= 1MB/s
+>
+> 需要国内的self-hosted主机，随缘执行（定时更新间隔：6小时）
 
 ```
 https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml
@@ -22,9 +22,9 @@ https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airpor
 
 ### 国外测速筛选
 
-筛选条件：延迟低于2000ms，下载速度 >= 1MB/s
-
-Github服务器运行，全天候不宕机，但结果不保真（定时更新间隔：6小时）
+>筛选条件：延迟低于200ms，下载速度 >= 20MB/s
+>
+>Github服务器运行，全天候不宕机，但结果不保真（定时更新间隔：6小时）
 
 ```
 https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml

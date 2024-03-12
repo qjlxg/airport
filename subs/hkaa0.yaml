@@ -1,0 +1,321 @@
+mixed-port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+external-controller: 0.0.0.0:9090
+tcp-concurrent: true
+dns:
+  enable: true
+  ipv6: true
+  default-nameserver:
+    - 1.1.1.1
+    - 8.8.8.8
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '+.msftconnecttest.com'
+    - '+.msftncsi.com'
+  use-hosts: true
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fallback:
+    - https://1.1.1.1/dns-query
+    - https://1.0.0.1/dns-query
+    - https://208.67.222.222/dns-query
+    - https://208.67.220.220/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    geosite:
+      - gfw
+    ipcidr:
+      - 240.0.0.0/4
+geox-url:
+  geoip: https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.dat
+  geosite: https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat
+  mmdb: https://mirror.ghproxy.com/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country.mmdb
+
+# 代理
+proxies: 
+- {'name': 'TG频道:@hkaa0▓美国_1', 'server': '104.21.54.252', 'port': 8080, 'type': 'vmess', 'uuid': '22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'www.velvetmountain.shop'}}, 'udp': true}
+- {'name': 'TG频道:@hkaa0▓美国_2', 'server': 'www.ywnouvbale.biz', 'port': 8080, 'type': 'vmess', 'uuid': '22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'www.ywnouvbale.biz'}}, 'udp': true}
+- {'name': 'TG频道:@hkaa0▓美国_3', 'server': 'www.velvetmountain.shop', 'port': 8080, 'type': 'vmess', 'uuid': '22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'www.velvetmountain.shop'}}, 'udp': true}
+- {'name': 'TG频道:@hkaa0▓美国_4', 'server': '172.67.136.12', 'port': 8080, 'type': 'vmess', 'uuid': '22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'www.ywnouvbale.biz'}}, 'udp': true}
+- {'name': 'TG频道:@hkaa0▓美国_5', 'server': 'de-01.cloudlion.me', 'port': 8080, 'type': 'vmess', 'uuid': '70666776-4e9f-4350-b3f0-afaff6a70db0', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'de-01.cloudlion.me'}}, 'udp': true}
+- {'name': "TG频道:@hkaa0▓新加坡\r_1", 'server': '13.250.104.109', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05', 'udp': true}
+- {'name': "TG频道:@hkaa0▓美国\r_1", 'server': 'kz-full.privateip.net', 'port': 443, 'type': 'trojan', 'password': '62011b3d-2706-4a97-98b7-9986003c5fe0', 'skip-cert-verify': true, 'udp': true}
+- {'name': "TG频道:@hkaa0▓台湾\r", 'server': 'e001.panda003.net', 'port': 2003, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'qwerREWQ@@', 'udp': true}
+- {'name': "TG频道:@hkaa0▓美国\r_2", 'server': 'es-full.privateip.net', 'port': 443, 'type': 'trojan', 'password': 'e2486b91-71a6-421b-9d53-3c080fb0edb8', 'skip-cert-verify': true, 'udp': true}
+- {'name': "TG频道:@hkaa0▓中国\r_1", 'server': 'xibaozi.19890604.day', 'port': 10845, 'type': 'trojan', 'password': '1fce7b14-5ce9-4dfd-aea6-db881d50ec87', 'sni': 'cloudflare.node-ssl.cdn-alibaba.com', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'TG频道:@hkaa0▓美国_6', 'server': '104.21.69.44', 'port': 80, 'type': 'vmess', 'uuid': '7022982f-da4c-48c9-c660-b2315abdcf7e', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'a.prapt4.ir'}}, 'udp': true}
+- {'name': "TG频道:@hkaa0▓中国\r_2", 'server': 'tank.19890604.day', 'port': 10830, 'type': 'trojan', 'password': '1fce7b14-5ce9-4dfd-aea6-db881d50ec87', 'sni': 'cloudflare.node-ssl.cdn-alibaba.com', 'skip-cert-verify': true, 'udp': true}
+- {'name': "TG频道:@hkaa0▓英国\r_1", 'server': 'java.ct.arvancode.eu.org', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'W74XFALLLuw6m5IA', 'udp': true}
+- {'name': "TG频道:@hkaa0▓中国\r_3", 'server': 'xijinping.19890604.day', 'port': 10818, 'type': 'trojan', 'password': '1fce7b14-5ce9-4dfd-aea6-db881d50ec87', 'sni': 'cloudflare.node-ssl.cdn-alibaba.com', 'skip-cert-verify': true, 'udp': true}
+- {'name': "TG频道:@hkaa0▓中国\r_4", 'server': 'falungong.19890604.day', 'port': 10826, 'type': 'trojan', 'password': '1fce7b14-5ce9-4dfd-aea6-db881d50ec87', 'sni': 'cloudflare.node-ssl.cdn-alibaba.com', 'skip-cert-verify': true, 'udp': true}
+- {'name': "TG频道:@hkaa0▓中国\r_5", 'server': 'xibaozi.19890604.day', 'port': 10837, 'type': 'trojan', 'password': '1fce7b14-5ce9-4dfd-aea6-db881d50ec87', 'sni': 'cloudflare.node-ssl.cdn-alibaba.com', 'skip-cert-verify': true, 'udp': true}
+- {'name': "TG频道:@hkaa0▓中国\r_6", 'server': 'xibaozi.19890604.day', 'port': 10841, 'type': 'trojan', 'password': '1fce7b14-5ce9-4dfd-aea6-db881d50ec87', 'sni': 'cloudflare.node-ssl.cdn-alibaba.com', 'skip-cert-verify': true, 'udp': true}
+- {'name': "TG频道:@hkaa0▓中国\r_7", 'server': 'xibaozi.19890604.day', 'port': 10847, 'type': 'trojan', 'password': '1fce7b14-5ce9-4dfd-aea6-db881d50ec87', 'sni': 'cloudflare.node-ssl.cdn-alibaba.com', 'skip-cert-verify': true, 'udp': true}
+- {'name': "TG频道:@hkaa0▓中国\r_8", 'server': 'xibaozi.19890604.day', 'port': 10836, 'type': 'trojan', 'password': '1fce7b14-5ce9-4dfd-aea6-db881d50ec87', 'sni': 'cloudflare.node-ssl.cdn-alibaba.com', 'skip-cert-verify': true, 'udp': true}
+- {'name': "TG频道:@hkaa0▓英国\r_2", 'server': 'series-a1.samanehha.co', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'W74XFALLLuw6m5IA', 'udp': true}
+- {'name': "TG频道:@hkaa0▓英国\r_3", 'server': 'v1.arvancode.eu.org', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'mps3FwmDjLrWaOVg', 'udp': true}
+- {'name': "TG频道:@hkaa0▓英国\r_4", 'server': 'series-a2.samanehha.co', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'mps3FwmDjLrWaOVg', 'udp': true}
+- {'name': "TG频道:@hkaa0▓中国\r_9", 'server': 'xijinping.19890604.day', 'port': 10817, 'type': 'trojan', 'password': '2fadf1dc-f401-4225-ac95-da030118eaef', 'sni': 'cloudflare.node-ssl.cdn-alibaba.com', 'skip-cert-verify': true, 'udp': true}
+- {'name': "TG频道:@hkaa0▓中国\r_10", 'server': 'xijinping.19890604.day', 'port': 10813, 'type': 'trojan', 'password': '2fadf1dc-f401-4225-ac95-da030118eaef', 'sni': 'cloudflare.node-ssl.cdn-alibaba.com', 'skip-cert-verify': true, 'udp': true}
+- {'name': "TG频道:@hkaa0▓中国\r_11", 'server': 'service.ouluyun9803.com', 'port': 20009, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'cfa17a0d-5e7d-4871-976e-f116e0818123', 'udp': true}
+- {'name': "TG频道:@hkaa0▓新加坡\r_2", 'server': '18.143.132.154', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05', 'udp': true}
+- {'name': "TG频道:@hkaa0▓新加坡\r_3", 'server': '54.251.73.151', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05', 'udp': true}
+- {'name': "TG频道:@hkaa0▓香港\r", 'server': 'dx.xxmd.online', 'port': 7004, 'type': 'trojan', 'password': '6685b4eb-aa84-454a-8049-5f5d39f0d9a0', 'skip-cert-verify': true, 'udp': true}
+- {'name': "TG频道:@hkaa0▓英国\r_5", 'server': 'wxwctxxx.arvancode.eu.org', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'u17T3BvpYaaiuW2c', 'udp': true}
+- {'name': "TG频道:@hkaa0▓韩国\r_1", 'server': 'p110.panda001.net', 'port': 54345, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'qwerREWQ@@', 'udp': true}
+- {'name': "TG频道:@hkaa0▓韩国\r_2", 'server': '211.201.169.70', 'port': 54345, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'qwerREWQ@@', 'udp': true}
+- {'name': 'TG频道:@hkaa0▓美国_7', 'server': 'cf.openxai.link', 'port': 8080, 'type': 'vmess', 'uuid': 'c18beb85-c67b-46ed-b8cc-4cbfeae5f194', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'eu1.openxai.link'}}, 'udp': true}
+- {'name': "TG频道:@hkaa0▓中国\r_12", 'server': 'xibaozi.19890604.day', 'port': 10850, 'type': 'trojan', 'password': '2fadf1dc-f401-4225-ac95-da030118eaef', 'sni': 'cloudflare.node-ssl.cdn-alibaba.com', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'TG频道:@hkaa0▓中国', 'server': 'falungong.19890604.day', 'port': 10823, 'type': 'trojan', 'password': '2fadf1dc-f401-4225-ac95-da030118eaef', 'sni': 'cloudflare.node-ssl.cdn-alibaba.com', 'skip-cert-verify': true, 'udp': true}
+
+
+# 代理组
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🚑 故障转移
+      - ⚖️ 负载均衡-轮询
+      - ⚖️ 负载均衡-散列
+      - DIRECT
+    include-all: true
+
+  - name: ♻️ 自动选择
+    type: url-test
+    lazy: false
+    interval: 300
+    timeout: 5000
+    tolerance: 100
+    url: https://www.google.com/gen_204
+    include-all: true
+
+  - name: 🚑 故障转移
+    type: fallback
+    lazy: false
+    interval: 300
+    timeout: 5000
+    tolerance: 100
+    url: https://www.google.com/gen_204
+    include-all: true
+
+  - name: ⚖️ 负载均衡-轮询
+    type: load-balance
+    strategy: round-robin
+    lazy: false
+    interval: 300
+    timeout: 5000
+    tolerance: 100
+    url: https://www.google.com/gen_204
+    include-all: true
+
+  - name: ⚖️ 负载均衡-散列
+    type: load-balance
+    strategy: consistent-hashing
+    lazy: false
+    interval: 300
+    timeout: 5000
+    tolerance: 100
+    url: https://www.google.com/gen_204
+    include-all: true
+
+  - name: 🌍 国外媒体
+    type: select
+    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
+
+  - name: 📲 电报信息
+    type: select
+    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
+
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies: ['🎯 全球直连', '🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列']
+
+  - name: 🍎 苹果服务
+    type: select
+    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
+
+  - name: 📢 谷歌FCM
+    type: select
+    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
+
+  - name: 🎯 全球直连
+    type: select
+    proxies: ['DIRECT', '🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列']
+
+  - name: 🛑 全球拦截
+    type: select
+    proxies: ['REJECT', 'DIRECT']
+
+  - name: 🍃 应用净化
+    type: select
+    proxies: ['REJECT', 'DIRECT']
+
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
+
+# 规则集
+rule-providers:
+  custom_direct:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/rules/direct.txt
+    path: ./rulesets/custom/direct.txt
+    interval: 86400
+  custom_proxy:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/rules/proxy.txt
+    path: ./rulesets/custom/proxy.txt
+    interval: 86400
+  custom_reject:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/rules/reject.txt
+    path: ./rulesets/custom/reject.txt
+    interval: 86400
+  LocalAreaNetwork:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+    path: ./rulesets/acl4ssr/LocalAreaNetwork.list
+    interval: 86400
+  UnBan:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
+    path: ./rulesets/acl4ssr/UnBan.list
+    interval: 86400
+  BanAD:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+    path: ./rulesets/acl4ssr/BanAD.list
+    interval: 86400
+  BanProgramAD:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+    path: ./rulesets/acl4ssr/BanProgramAD.list
+    interval: 86400
+  GoogleFCM:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list
+    path: ./rulesets/acl4ssr/GoogleFCM.list
+    interval: 86400
+  GoogleCN:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
+    path: ./rulesets/acl4ssr/GoogleCN.list
+    interval: 86400
+  SteamCN:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
+    path: ./rulesets/acl4ssr/SteamCN.list
+    interval: 86400
+  Microsoft:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
+    path: ./rulesets/acl4ssr/Microsoft.list
+    interval: 86400
+  Apple:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
+    path: ./rulesets/acl4ssr/Apple.list
+    interval: 86400
+  Telegram:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+    path: ./rulesets/acl4ssr/Telegram.list
+    interval: 86400
+  ProxyMedia:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+    path: ./rulesets/acl4ssr/ProxyMedia.list
+    interval: 86400
+  ProxyGFWlist:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+    path: ./rulesets/acl4ssr/ProxyGFWlist.list
+    interval: 86400
+  ChinaIp:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
+    path: ./rulesets/acl4ssr/ChinaIp.list
+    interval: 86400
+  ChinaDomain:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+    path: ./rulesets/acl4ssr/ChinaDomain.list
+    interval: 86400
+  ChinaCompanyIp:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+    path: ./rulesets/acl4ssr/ChinaCompanyIp.list
+    interval: 86400
+  Download:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
+    path: ./rulesets/acl4ssr/Download.list
+    interval: 86400
+
+# 规则
+rules:
+  # acl4ssr
+  - RULE-SET,LocalAreaNetwork,🎯 全球直连
+  - RULE-SET,UnBan,🎯 全球直连
+  - RULE-SET,BanAD,🛑 全球拦截
+  - RULE-SET,BanProgramAD,🍃 应用净化
+  - RULE-SET,GoogleFCM,📢 谷歌FCM
+  - RULE-SET,GoogleCN,🎯 全球直连
+  - RULE-SET,SteamCN,🎯 全球直连
+  - RULE-SET,Microsoft,Ⓜ️ 微软服务
+  - RULE-SET,Apple,🍎 苹果服务
+  - RULE-SET,Telegram,📲 电报信息
+  - RULE-SET,ProxyMedia,🌍 国外媒体
+  - RULE-SET,ProxyGFWlist,🚀 节点选择
+  - RULE-SET,ChinaIp,🎯 全球直连
+  - RULE-SET,ChinaDomain,🎯 全球直连
+  - RULE-SET,ChinaCompanyIp,🎯 全球直连
+  - RULE-SET,Download,🎯 全球直连
+  # 其他
+  - GEOIP,LAN,🎯 全球直连
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐟 漏网之鱼

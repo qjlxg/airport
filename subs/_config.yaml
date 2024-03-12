@@ -49,7 +49,7 @@ data:
       - https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml
     output: subs/ermaozi.yaml
   - id: freefq
-    source: clash
+    source: v2ray
     target: clash
     urls:
       - https://raw.githubusercontent.com/freefq/free/master/v2
@@ -78,7 +78,7 @@ data:
       - https://utils.2424014450.workers.dev/markdown?target=https%3A%2F%2Fraw.githubusercontent.com%2Fmksshare%2Fmksshare.github.io%2Fmain%2FREADME.md
     output: subs/mksshare.yaml
   - id: peasoft
-    source: clash
+    source: v2ray
     target: clash
     urls:
       - https://utils.2424014450.workers.dev?target=https%3A%2F%2Fraw.githubusercontent.com%2Fpeasoft%2FNoMoreWalls%2Fmaster%2Flist_raw.txt
@@ -96,7 +96,7 @@ data:
       - https://utils.2424014450.workers.dev/markdown?target=https%3A%2F%2Fraw.githubusercontent.com%2Ftolinkshare%2Ffreenode%2Fmain%2FREADME.md
     output: subs/tolinkshare.yaml
   - id: w1770946466
-    source: clash
+    source: v2ray
     target: clash
     urls:
       - https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription_num

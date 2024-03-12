@@ -125,6 +125,33 @@ data:
     urls:
       - https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/V2ray
     output: subs/hkaa0.yaml
-
-
-
+  - id: soroushmirzaei
+    source: v2ray
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/channels/networks/grpc
+      - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/channels/networks/http
+      - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/channels/networks/tcp
+      - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/channels/networks/ws
+      - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/networks/grpc
+      - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/networks/http
+      - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/networks/tcp
+      - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/networks/ws
+      - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/subscribe/networks/grpc
+      - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/subscribe/networks/http
+      - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/subscribe/networks/tcp
+      - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/subscribe/networks/ws
+    output: subs/soroushmirzaei.yaml
+  - id: mheidari98
+    source: v2ray
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/mheidari98/.proxy/main/all
+    output: subs/mheidari98.yaml
+  - id: mahdibland
+    source: clash
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml
+      - https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/EternityAir.yml
+    output: subs/mahdibland.yaml

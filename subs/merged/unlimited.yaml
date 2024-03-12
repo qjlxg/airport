@@ -114,11 +114,6 @@ proxy-providers:
     url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/shunfeng.yaml"
     path: ./providers/shunfeng.yaml
     <<: *proxy_provider_common_config
-  w1770946466:
-    type: http
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/w1770946466.yaml"
-    path: ./providers/w1770946466.yaml
-    <<: *proxy_provider_common_config
   xrayvip:
     type: http
     url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/xrayvip.yaml"
@@ -128,6 +123,21 @@ proxy-providers:
     type: http
     url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/zhangkaiitugithub.yaml"
     path: ./providers/zhangkaiitugithub.yaml
+    <<: *proxy_provider_common_config
+  ripaojiedian:
+    type: http
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/ripaojiedian.yaml"
+    path: ./providers/ripaojiedian.yaml
+    <<: *proxy_provider_common_config
+  yaney01:
+    type: http
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/yaney01.yaml"
+    path: ./providers/yaney01.yaml
+    <<: *proxy_provider_common_config
+  hkaa0:
+    type: http
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/hkaa0.yaml"
+    path: ./providers/hkaa0.yaml
     <<: *proxy_provider_common_config
 
 # 代理组
@@ -158,9 +168,11 @@ proxy-groups:
       - mfuu
       - peasoft
       - shunfeng
-      - w1770946466
       - xrayvip
       - zhangkaiitugithub
+      - ripaojiedian
+      - yaney01
+      - hkaa0
       
   - name: 🚑 故障转移
     type: fallback
@@ -178,9 +190,11 @@ proxy-groups:
       - mfuu
       - peasoft
       - shunfeng
-      - w1770946466
       - xrayvip
       - zhangkaiitugithub
+      - ripaojiedian
+      - yaney01
+      - hkaa0
 
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
@@ -199,9 +213,11 @@ proxy-groups:
       - mfuu
       - peasoft
       - shunfeng
-      - w1770946466
       - xrayvip
       - zhangkaiitugithub
+      - ripaojiedian
+      - yaney01
+      - hkaa0
 
   - name: ⚖️ 负载均衡-散列
     type: load-balance
@@ -281,12 +297,6 @@ proxy-groups:
     hidden: true
     <<: *proxy_group_common_config
 
-  - name: w1770946466
-    type: url-test
-    use: [w1770946466]
-    hidden: true
-    <<: *proxy_group_common_config
-
   - name: xrayvip
     type: url-test
     use: [xrayvip]
@@ -296,6 +306,24 @@ proxy-groups:
   - name: zhangkaiitugithub
     type: url-test
     use: [zhangkaiitugithub]
+    hidden: true
+    <<: *proxy_group_common_config
+    
+  - name: ripaojiedian
+    type: url-test
+    use: [ripaojiedian]
+    hidden: true
+    <<: *proxy_group_common_config
+    
+  - name: yaney01
+    type: url-test
+    use: [yaney01]
+    hidden: true
+    <<: *proxy_group_common_config
+    
+  - name: hkaa0
+    type: url-test
+    use: [hkaa0]
     hidden: true
     <<: *proxy_group_common_config
 

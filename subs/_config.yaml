@@ -95,20 +95,6 @@ data:
     urls:
       - https://utils.2424014450.workers.dev/markdown?target=https%3A%2F%2Fraw.githubusercontent.com%2Ftolinkshare%2Ffreenode%2Fmain%2FREADME.md
     output: subs/tolinkshare.yaml
-  - id: w1770946466
-    source: v2ray
-    target: clash
-    urls:
-      - https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription_num
-      - https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription1
-      - https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription2
-      - https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription3
-      - https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription4
-      - https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription5
-      - https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription6
-      - https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription7
-      - https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription8
-    output: subs/w1770946466.yaml
   - id: xrayvip
     source: clash
     target: clash
@@ -121,3 +107,24 @@ data:
     urls:
       - https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml
     output: subs/zhangkaiitugithub.yaml
+  - id: ripaojiedian
+    source: v2ray
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub
+    output: subs/ripaojiedian.yaml
+  - id: yaney01
+    source: v2ray
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/yaney01/Yaney01/main/temporary
+    output: subs/yaney01.yaml
+  - id: hkaa0
+    source: v2ray
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/V2ray
+    output: subs/hkaa0.yaml
+
+
+

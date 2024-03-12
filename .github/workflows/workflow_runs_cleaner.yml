@@ -1,4 +1,4 @@
-name: Delete workflow runs on schedule
+name: 定时清理执行日志
 
 on:
   schedule:
@@ -15,4 +15,4 @@ jobs:
         with:
           repository: ${{ github.repository }}
           token: ${{ secrets.GITHUB_TOKEN }}
-          maintain-span: '1d'
+          maintain-span: '3d'

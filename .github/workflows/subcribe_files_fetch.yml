@@ -1,14 +1,11 @@
-name: Auto-fetch Subscribed Files
+name: 拉取订阅文件
 
 on:
-  # workflow文件变动时触发
   push:
     paths:
       - '.github/workflows/subcribe_files_fetch.yml'
-  # 定时触发
   schedule:
     - cron: '0 */6 * * *'
-  # 手动触发
   workflow_dispatch:
 
 jobs:

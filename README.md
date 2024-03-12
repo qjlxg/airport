@@ -1,13 +1,36 @@
-## Clash订阅链接
+## clash订阅链接
 
-| 文件        | 说明             | 优点                           | 缺点                                                   | 订阅链接                                                     |
-| ----------- | ---------------- | ------------------------------ | ------------------------------------------------------ | ------------------------------------------------------------ |
-| 🔒limited    | 机场公益流量     | 速度较快<br />延迟较低         | 公益流量每日限量                                       | [订阅链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/limited.yaml) |
-| ♾️unlimited  | 网络节点整理     | 速度随缘<br />大量节点拒绝失联 | 健康检查压力较大                                       | [订阅链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/unlimited.yaml) |
-| 📈elected    | 测速工具优选     | 速度较快<br />节点名称统一命名 | 时效性低，随缘测速更新                                 | [订阅链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/elected.yaml) |
-| 🌩edgetunnel | Cloudflare优选IP | 速度较快<br />延迟较低         | 受优选服务器地域影响<br />非反代IP无法访问CF托管的服务 | [订阅链接](https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/edgetunnel.yaml) |
+> 节点来自网络收集、整理、汇总
 
-## 支持Clash内核客户端
+### 所有节点汇总
+
+汇总后的所有节点集合
+
+```
+https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/merged.yaml
+```
+
+### 国内测速筛选
+
+筛选条件：延迟低于2000ms，下载速度 >= 1MB/s
+
+需要国内的self-hosted主机，随缘执行（定时更新间隔：6小时）
+
+```
+https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml
+```
+
+### 国外测速筛选
+
+筛选条件：延迟低于2000ms，下载速度 >= 1MB/s
+
+Github服务器运行，全天候不宕机，但结果不保真（定时更新间隔：6小时）
+
+```
+https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml
+```
+
+## clash内核客户端
 
 | 客户端                                                       | 平台                                                         | Stars                                                        | 创建时间                                                     | 上次提交时间                                                 | 下载链接                                                     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |

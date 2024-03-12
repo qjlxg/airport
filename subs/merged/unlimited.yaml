@@ -139,6 +139,21 @@ proxy-providers:
     url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/hkaa0.yaml"
     path: ./providers/hkaa0.yaml
     <<: *proxy_provider_common_config
+  soroushmirzaei:
+    type: http
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/soroushmirzaei.yaml"
+    path: ./providers/soroushmirzaei.yaml
+    <<: *proxy_provider_common_config
+  mheidari98:
+    type: http
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/mheidari98.yaml"
+    path: ./providers/mheidari98.yaml
+    <<: *proxy_provider_common_config
+  mahdibland:
+    type: http
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/mahdibland.yaml"
+    path: ./providers/mahdibland.yaml
+    <<: *proxy_provider_common_config
 
 # 代理组
 proxy-groups:
@@ -173,6 +188,9 @@ proxy-groups:
       - ripaojiedian
       - yaney01
       - hkaa0
+      - soroushmirzaei
+      - mheidari98
+      - mahdibland
       
   - name: 🚑 故障转移
     type: fallback
@@ -195,6 +213,9 @@ proxy-groups:
       - ripaojiedian
       - yaney01
       - hkaa0
+      - soroushmirzaei
+      - mheidari98
+      - mahdibland
 
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
@@ -218,6 +239,9 @@ proxy-groups:
       - ripaojiedian
       - yaney01
       - hkaa0
+      - soroushmirzaei
+      - mheidari98
+      - mahdibland
 
   - name: ⚖️ 负载均衡-散列
     type: load-balance
@@ -308,22 +332,40 @@ proxy-groups:
     use: [zhangkaiitugithub]
     hidden: true
     <<: *proxy_group_common_config
-    
+
   - name: ripaojiedian
     type: url-test
     use: [ripaojiedian]
     hidden: true
     <<: *proxy_group_common_config
-    
+
   - name: yaney01
     type: url-test
     use: [yaney01]
     hidden: true
     <<: *proxy_group_common_config
-    
+
   - name: hkaa0
     type: url-test
     use: [hkaa0]
+    hidden: true
+    <<: *proxy_group_common_config
+
+  - name: soroushmirzaei
+    type: url-test
+    use: [soroushmirzaei]
+    hidden: true
+    <<: *proxy_group_common_config
+
+  - name: mheidari98
+    type: url-test
+    use: [mheidari98]
+    hidden: true
+    <<: *proxy_group_common_config
+
+  - name: mahdibland
+    type: url-test
+    use: [mahdibland]
     hidden: true
     <<: *proxy_group_common_config
 

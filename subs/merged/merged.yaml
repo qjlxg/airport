@@ -221,7 +221,7 @@ proxy-groups:
       - xrayvip
       - yaney01
       - zhangkaiitugithub
-      - youdou
+      - yudou
       - fromzero
       
   - name: 🚑 故障转移
@@ -251,7 +251,7 @@ proxy-groups:
       - xrayvip
       - yaney01
       - zhangkaiitugithub
-      - youdou
+      - yudou
       - fromzero
 
   - name: ⚖️ 负载均衡-轮询
@@ -282,7 +282,7 @@ proxy-groups:
       - xrayvip
       - yaney01
       - zhangkaiitugithub
-      - youdou
+      - yudou
       - fromzero
 
   - name: ⚖️ 负载均衡-散列

@@ -170,6 +170,18 @@ proxy-providers:
     path: ./providers/tolinkshare.yaml
     <<: *proxy_provider_common_config
 
+  yudou:
+    type: http
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/yudou.yaml"
+    path: ./providers/yudou.yaml
+    <<: *proxy_provider_common_config
+
+  fromzero:
+    type: http
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/fromzero.yaml"
+    path: ./providers/fromzero.yaml
+    <<: *proxy_provider_common_config
+
 # 代理组
 proxy-groups:
   - name: 🚀 节点选择
@@ -209,6 +221,8 @@ proxy-groups:
       - xrayvip
       - yaney01
       - zhangkaiitugithub
+      - youdou
+      - fromzero
       
   - name: 🚑 故障转移
     type: fallback
@@ -237,6 +251,8 @@ proxy-groups:
       - xrayvip
       - yaney01
       - zhangkaiitugithub
+      - youdou
+      - fromzero
 
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
@@ -266,6 +282,8 @@ proxy-groups:
       - xrayvip
       - yaney01
       - zhangkaiitugithub
+      - youdou
+      - fromzero
 
   - name: ⚖️ 负载均衡-散列
     type: load-balance
@@ -408,6 +426,18 @@ proxy-groups:
   - name: zhangkaiitugithub
     type: url-test
     use: [zhangkaiitugithub]
+    hidden: true
+    <<: *proxy_group_common_config
+
+  - name: yudou
+    type: url-test
+    use: [yudou]
+    hidden: true
+    <<: *proxy_group_common_config
+
+  - name: fromzero
+    type: url-test
+    use: [fromzero]
     hidden: true
     <<: *proxy_group_common_config
 

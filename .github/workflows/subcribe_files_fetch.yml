@@ -16,6 +16,5 @@ jobs:
       - name: Fetch subscribe files
         uses: dongchengjie/subs-puller@main
         with:
-          repository: dongchengjie/airport
           token: ${{ secrets.GITHUB_TOKEN }}
           config: https://raw.githubusercontent.com/dongchengjie/airport/main/subs/_config.yaml

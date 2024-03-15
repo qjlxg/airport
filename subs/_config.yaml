@@ -167,3 +167,9 @@ data:
     urls:
       - https://raw.githubusercontent.com/dongchengjie/proxy_workers/main/subs/fromzero.yaml
     output: subs/fromzero.yaml
+  - id: maskedman
+    source: clash
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/dongchengjie/proxy_workers/main/subs/maskedman.yaml
+    output: subs/maskedman.yaml

@@ -155,3 +155,15 @@ data:
       - https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml
       - https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/EternityAir.yml
     output: subs/mahdibland.yaml
+  - id: yudou
+    source: clash
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/dongchengjie/proxy_workers/main/subs/yudou.yaml
+    output: subs/yudou.yaml
+  - id: fromzero
+    source: clash
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/dongchengjie/proxy_workers/main/subs/fromzero.yaml
+    output: subs/fromzero.yaml

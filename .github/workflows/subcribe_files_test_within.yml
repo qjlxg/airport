@@ -20,7 +20,7 @@ jobs:
       - name: 测试节点
         run: |
           cd tools
-          .\meta_speedtest.exe --config ..\subs\merged\merged.yaml -o ..\subs\merged\tested_within.yaml --timeout 2000 --delay-filter 2000 --download --download-url steam --download-duration 10000 --down-filter 4096000 --log-level debug
+          .\meta_speedtest.exe --config ..\subs\merged\merged.yaml -o ..\subs\merged\tested_within.yaml --timeout 500 --delay-filter 500 --log-level debug
 
       - name: 上传测试结果
         run: |

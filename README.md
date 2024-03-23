@@ -14,7 +14,7 @@ https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airpor
 
 > 筛选条件：延迟低于1000ms
 >
-> 需要国内的self-hosted主机，随缘执行（定时更新间隔：3小时）
+> 需要国内的self-hosted主机，随缘执行（定时更新间隔：6小时）
 
 ```
 https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml

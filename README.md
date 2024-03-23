@@ -12,19 +12,9 @@ https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airpor
 
 ### 国内测速筛选
 
-> 筛选条件：延迟低于2000ms，下载速度 >= 500KB/s
+> 筛选条件：延迟低于1000ms
 >
 > 需要国内的self-hosted主机，随缘执行（定时更新间隔：3小时）
-
-```
-https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml
-```
-
-### 国外测速筛选
-
->筛选条件：延迟低于200ms，下载速度 >= 10MB/s
->
->Github服务器运行，全天候不宕机，结果不保真（定时更新间隔：3小时）
 
 ```
 https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml

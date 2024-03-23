@@ -38,28 +38,37 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': 'TG频道:@hkaa0▓卢森堡_1', 'server': '45.82.31.164', 'port': 3389, 'type': 'vmess', 'uuid': '9c050a86-d612-48f1-ec32-e573df08a1b7', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
-- {'name': 'TG频道:@hkaa0▓卢森堡_2', 'server': '78.111.102.232', 'port': 3389, 'type': 'vmess', 'uuid': '9c050a86-d612-48f1-ec32-e573df08a1b7', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
-- {'name': 'TG频道:@hkaa0▓美国_1', 'server': 'us65.netfilx.live', 'port': 80, 'type': 'vmess', 'uuid': '60f12435-bb55-4da2-cb7d-4fea34ecfa37', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'us65.netfilx.live'}}, 'udp': true}
-- {'name': 'TG频道:@hkaa0▓荷兰', 'server': '46.182.107.127', 'port': 41001, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/path/1710760555155', 'headers': {'Host': '46.182.107.127'}}, 'udp': true}
-- {'name': 'TG频道:@hkaa0▓美国_2', 'server': '104.21.69.44', 'port': 80, 'type': 'vmess', 'uuid': 'a174e49c-b69a-454c-a8bd-94debc7e4f59', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/vmess', 'headers': {'Host': 'pt2-vmess.sshmax.xyz'}}, 'udp': true}
-- {'name': 'TG频道:@hkaa0▓中国', 'server': '47.106.112.114', 'port': 80, 'type': 'vmess', 'uuid': '7c1d9869-ecac-4ca6-b7e7-ecb60f503078', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/'}, 'udp': true}
-- {'name': 'TG频道:@hkaa0▓德国_1', 'server': '18.185.15.96', 'port': 2087, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'rpBTRJslrkw1mzbFIENpcWer9OSYfJbbpQPUi27zSLw=', 'udp': true}
-- {'name': 'TG频道:@hkaa0▓德国_2', 'server': '18.185.59.146', 'port': 2087, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '/Ty5rY3O4szP4YT7kDDRa9zck7j/dpgQ1aepGq+dViQ=', 'udp': true}
-- {'name': 'TG频道:@hkaa0▓德国_3', 'server': '52.57.119.147', 'port': 2087, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'aHwi8+yDVR3jIJyRMX/ar85PDI2vJzHX1dGUWY7sIwY=', 'udp': true}
-- {'name': 'TG频道:@hkaa0▓美国_3', 'server': 'cfcdn1.sanfencdn9.com', 'port': 2052, 'type': 'vmess', 'uuid': 'ba4e86e7-d4f7-4c4e-aa8f-a91b8cd9de8a', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/video/GQ2qE5Us9g', 'headers': {'Host': 'tw1bQiWSE4x.fzbqfrse.xyz'}}, 'udp': true}
-- {'name': 'TG频道:@hkaa0▓美国_4', 'server': 'sg-full.privateip.net', 'port': 443, 'type': 'trojan', 'password': 'e85bfecf-62f5-4e92-b974-31dd953d15bf', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'TG频道:@hkaa0▓英国_1', 'server': '51.140.32.78', 'port': 54295, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'gevxg7mpES2FXZY1Q7B8FM', 'udp': true}
-- {'name': 'TG频道:@hkaa0▓美国_5', 'server': '213.35.113.150', 'port': 80, 'type': 'vmess', 'uuid': 'eaf5e01b-f27d-44cf-94ae-87196143eef9', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/'}, 'udp': true}
-- {'name': 'TG频道:@hkaa0▓美国_6', 'server': 'us02.freeflyingcloud.xyz', 'port': 30017, 'type': 'trojan', 'password': '658e0e50-ce27-4f4d-ab2c-bd48859f4cb6', 'sni': 'us02.freeflyingcloud.xyz', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'TG频道:@hkaa0▓台湾_1', 'server': 'ty11t.twty.dynu.net', 'port': 13761, 'type': 'trojan', 'password': 'c0aeab85-0e75-48bb-98a5-65092b120e64', 'sni': 'ty11t.twty.dynu.net', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'TG频道:@hkaa0▓英国', 'server': '51.140.32.78', 'port': 54295, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'gevxg7mpES2FXZY1Q7B8FM', 'udp': true}
+- {'name': 'TG频道:@hkaa0▓美国', 'server': '38.75.137.105', 'port': 6697, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'TEzjfAYq2IjtuoS', 'udp': true}
+- {'name': 'TG频道:@hkaa0▓美国 2', 'server': '38.75.137.42', 'port': 2376, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'faBAoD54k87UJG7', 'udp': true}
 - {'name': 'TG频道:@hkaa0▓直布罗陀', 'server': '95.164.68.116', 'port': 2053, 'type': 'trojan', 'password': 'f37a931d-7092-48fe-b82f-a98da3040eb2', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'TG频道:@hkaa0▓俄罗斯联邦', 'server': 'ru01.freeflyingcloud.xyz', 'port': 30002, 'type': 'trojan', 'password': '658e0e50-ce27-4f4d-ab2c-bd48859f4cb6', 'sni': 'ru01.freeflyingcloud.xyz', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'TG频道:@hkaa0▓台湾_2', 'server': '36.233.198.122', 'port': 13989, 'type': 'trojan', 'password': 'ff0a98ef-e829-4a62-b625-998593df5249', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'TG频道:@hkaa0▓英国_2', 'server': 'jp01.freeflyingcloud.xyz', 'port': 44402, 'type': 'trojan', 'password': '658e0e50-ce27-4f4d-ab2c-bd48859f4cb6', 'sni': 'jp01.freeflyingcloud.xyz', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'TG频道:@hkaa0▓台湾_3', 'server': '114.37.119.13', 'port': 3271, 'type': 'trojan', 'password': 'ff0a98ef-e829-4a62-b625-998593df5249', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'TG频道:@hkaa0▓美国_7', 'server': 'cfcdn1.sanfencdn9.com', 'port': 2086, 'type': 'vmess', 'uuid': 'ba4e86e7-d4f7-4c4e-aa8f-a91b8cd9de8a', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/video/Z7qdcrAGRw', 'headers': {'Host': 'us77SmSk86j.fzbqfrse.xyz'}}, 'udp': true}
-- {'name': 'TG频道:@hkaa0▓美国_8', 'server': 'cf.iepl1.me', 'port': 443, 'type': 'vmess', 'uuid': 'a9e6d731-478b-4413-a17a-31e171de7505', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/CAT', 'headers': {'Host': 'sg.appleid.bf'}}, 'udp': true}
+- {'name': 'TG频道:@hkaa0▓美国 3', 'server': '38.75.136.33', 'port': 5600, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC', 'udp': true}
+- {'name': 'TG频道:@hkaa0▓美国 4', 'server': '38.75.136.33', 'port': 8881, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'kDWvXYZoTBcGkC4', 'udp': true}
+- {'name': 'TG频道:@hkaa0▓美国 5', 'server': '38.75.137.42', 'port': 5600, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC', 'udp': true}
+- {'name': 'TG频道:@hkaa0▓美国 6', 'server': '38.75.137.93', 'port': 5500, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'KixLvKzwjekG00rm', 'udp': true}
+- {'name': 'TG频道:@hkaa0▓美国 7', 'server': '38.75.136.33', 'port': 5003, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'g5MeD6Ft3CWlJId', 'udp': true}
+- {'name': 'TG频道:@hkaa0▓美国 8', 'server': '38.75.137.42', 'port': 8882, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'kDWvXYZoTBcGkC4', 'udp': true}
+- {'name': 'TG频道:@hkaa0▓美国 9', 'server': '38.75.136.33', 'port': 6379, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'zDNVedRFPQexG9v', 'udp': true}
+- {'name': 'TG频道:@hkaa0▓美国 10', 'server': '38.75.137.42', 'port': 7002, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'RexnBgU7EV5ADxG', 'udp': true}
+- {'name': 'TG频道:@hkaa0▓美国 11', 'server': '38.75.137.93', 'port': 2375, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'faBAoD54k87UJG7', 'udp': true}
+- {'name': 'TG频道:@hkaa0▓美国 12', 'server': '38.75.137.42', 'port': 3389, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC', 'udp': true}
+- {'name': 'TG频道:@hkaa0▓美国 13', 'server': '38.75.137.42', 'port': 7306, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FoOiGlkAA9yPEGP', 'udp': true}
+- {'name': 'TG频道:@hkaa0▓美国 14', 'server': '38.75.136.33', 'port': 8118, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'cdBIDV42DCwnfIN', 'udp': true}
+- {'name': 'TG频道:@hkaa0▓美国 15', 'server': '38.75.137.93', 'port': 5001, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC', 'udp': true}
+- {'name': 'TG频道:@hkaa0▓美国 16', 'server': '38.75.136.33', 'port': 2376, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'faBAoD54k87UJG7', 'udp': true}
+- {'name': 'TG频道:@hkaa0▓美国 17', 'server': '38.75.137.93', 'port': 2376, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'faBAoD54k87UJG7', 'udp': true}
+- {'name': 'TG频道:@hkaa0▓美国 18', 'server': '38.75.137.42', 'port': 8000, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'KixLvKzwjekG00rm', 'udp': true}
+- {'name': 'TG频道:@hkaa0▓俄罗斯联邦', 'server': 'ru.sptnk.space', 'port': 57456, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '3fbeb668f48414f6', 'udp': true}
+- {'name': 'TG频道:@hkaa0▓美国 19', 'server': '38.75.136.33', 'port': 8882, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'kDWvXYZoTBcGkC4', 'udp': true}
+- {'name': 'TG频道:@hkaa0▓美国 20', 'server': '38.75.137.105', 'port': 9101, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'e4FCWrgpkji3QY', 'udp': true}
+- {'name': 'TG频道:@hkaa0▓美国 21', 'server': '38.75.136.33', 'port': 6679, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'TEzjfAYq2IjtuoS', 'udp': true}
+- {'name': 'TG频道:@hkaa0▓瑞典', 'server': '13.51.224.100', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'TG频道:@hkaa0▓台湾', 'server': 'ty12t.twty.dynu.net', 'port': 18912, 'type': 'trojan', 'password': '8258210b-4b61-4d96-be4f-4e6be911a6e7', 'sni': 'ty12t.twty.dynu.net', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'TG频道:@hkaa0▓台湾 2', 'server': 'b22.ntbq.dynu.net', 'port': 19489, 'type': 'trojan', 'password': 'a8edb463-0f11-4909-8bc7-2e1624c21ab3', 'sni': 'b22.ntbq.dynu.net', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'TG频道:@hkaa0▓台湾 3', 'server': 'ty11t.twty.dynu.net', 'port': 13761, 'type': 'trojan', 'password': '6c7e728e-29d9-41be-8be0-1e56b536e840', 'sni': 'ty11t.twty.dynu.net', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'TG频道:@hkaa0▓台湾 4', 'server': 'b12.ntbq.dynu.net', 'port': 9755, 'type': 'trojan', 'password': 'a2db6566-32c7-4e6e-89d7-b258ff55959f', 'sni': 'b12.ntbq.dynu.net', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'TG频道:@hkaa0▓台湾 5', 'server': 'b24.ntbq.dynu.net', 'port': 3271, 'type': 'trojan', 'password': 'a2db6566-32c7-4e6e-89d7-b258ff55959f', 'sni': 'b24.ntbq.dynu.net', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'TG频道:@hkaa0▓台湾 6', 'server': 'b13.ntbq.dynu.net', 'port': 9489, 'type': 'trojan', 'password': 'a8edb463-0f11-4909-8bc7-2e1624c21ab3', 'sni': 'b13.ntbq.dynu.net', 'skip-cert-verify': true, 'udp': true}
 
 
 # 代理组

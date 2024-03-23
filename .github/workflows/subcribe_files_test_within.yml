@@ -20,7 +20,7 @@ jobs:
       - name: 测试节点
         run: |
           cd tools
-          .\meta_speedtest.exe --config ..\subs\merged\merged.yaml -o ..\subs\merged\tested_within.yaml --timeout 800 --delay-filter 800 --log-level debug
+          .\metaST-win-amd64.exe --config ..\subs\merged\merged.yaml --output ..\subs\merged\tested_within.yaml --dt 1500 --df 1000
 
       - name: 上传测试结果
         run: |

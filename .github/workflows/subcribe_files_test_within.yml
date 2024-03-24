@@ -20,7 +20,7 @@ jobs:
       - name: 测试节点
         run: |
           cd tools
-          .\metaST-win-amd64.exe --config ..\subs\merged\merged.yaml --output ..\subs\merged\tested_within.yaml --dt 1500 --df 1000
+          .\metaST-win-amd64.exe --config ..\subs\merged\merged.yaml --output ..\subs\merged\tested_within.yaml --dt 800 --df 1000 --dn 32
 
       - name: 上传测试结果
         run: |

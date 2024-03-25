@@ -188,10 +188,10 @@ proxy-providers:
     path: ./providers/maskedman.yaml
     <<: *proxy_provider_common_config
 
-  39360507:
+  yaney:
     type: http
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/39360507.yaml"
-    path: ./providers/39360507.yaml
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/yaney.yaml"
+    path: ./providers/yaney.yaml
     <<: *proxy_provider_common_config
 
   getafreenode:
@@ -242,7 +242,7 @@ proxy-groups:
       - yudou
       - fromzero
       - maskedman
-      - 39360507
+      - aa39360507
       - getafreenode
       
   - name: 🚑 故障转移
@@ -275,7 +275,7 @@ proxy-groups:
       - yudou
       - fromzero
       - maskedman
-      - 39360507
+      - aa39360507
       - getafreenode
 
   - name: ⚖️ 负载均衡-轮询
@@ -309,7 +309,7 @@ proxy-groups:
       - yudou
       - fromzero
       - maskedman
-      - 39360507
+      - aa39360507
       - getafreenode
 
   - name: ⚖️ 负载均衡-散列
@@ -474,9 +474,9 @@ proxy-groups:
     hidden: true
     <<: *proxy_group_common_config
 
-  - name: 39360507
+  - name: aa39360507
     type: url-test
-    use: [39360507]
+    use: [aa39360507]
     hidden: true
     <<: *proxy_group_common_config
 

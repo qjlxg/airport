@@ -174,12 +174,12 @@ data:
     urls:
       - https://raw.githubusercontent.com/dongchengjie/proxy_workers/main/subs/maskedman.yaml
     output: subs/maskedman.yaml
-  - id: 39360507
+  - id: yaney
     source: clash
     target: clash
     urls:
       - https://gitlab.com/api/v4/projects/39360507/repository/files/data%2Fclash%2Fyaney.yaml/raw?ref=main&private_token=glpat-_xG7s-sYJPRDPgKxAk-c
-    output: subs/39360507.yaml
+    output: subs/yaney.yaml
   - id: getafreenode
     source: v2ray
     target: clash

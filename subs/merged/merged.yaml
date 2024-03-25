@@ -242,7 +242,7 @@ proxy-groups:
       - yudou
       - fromzero
       - maskedman
-      - aa39360507
+      - yaney
       - getafreenode
       
   - name: 🚑 故障转移
@@ -275,7 +275,7 @@ proxy-groups:
       - yudou
       - fromzero
       - maskedman
-      - aa39360507
+      - yaney
       - getafreenode
 
   - name: ⚖️ 负载均衡-轮询
@@ -309,7 +309,7 @@ proxy-groups:
       - yudou
       - fromzero
       - maskedman
-      - aa39360507
+      - yaney
       - getafreenode
 
   - name: ⚖️ 负载均衡-散列
@@ -474,9 +474,9 @@ proxy-groups:
     hidden: true
     <<: *proxy_group_common_config
 
-  - name: aa39360507
+  - name: yaney
     type: url-test
-    use: [aa39360507]
+    use: [yaney]
     hidden: true
     <<: *proxy_group_common_config
 

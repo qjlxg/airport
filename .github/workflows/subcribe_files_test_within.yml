@@ -23,7 +23,7 @@ jobs:
 
       - name: 测试节点
         run: |
-          .\metaS.exe --config .\subs\merged\merged.yaml --output .\tested_within.yaml --dt 800 --df 1000 --dn 32
+          .\metaST.exe --config .\subs\merged\merged.yaml --output .\tested_within.yaml --dt 800 --df 1000 --dn 32
 
       - name: 上传测试结果
         run: |

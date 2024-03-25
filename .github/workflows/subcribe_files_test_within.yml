@@ -3,7 +3,7 @@ name: 节点测速
 on:
   # fetch执行后触发
   workflow_run:
-    workflows: ["拉取订阅文件"]
+    workflows: ['拉取订阅文件']
     types:
       - completed
   # 手动触发
@@ -17,13 +17,14 @@ jobs:
       - name: 拉取代码
         uses: actions/checkout@v4
 
+      - name: 下载metaST
+        run: |
+          curl -s -o metaST.exe "https://github.com/dongchengjie/metaST/releases/latest/download/metaST-win-amd64.exe"
+
       - name: 测试节点
         run: |
-          cd tools
-          .\metaST-win-amd64.exe --config ..\subs\merged\merged.yaml --output ..\subs\merged\tested_within.yaml --dt 800 --df 1000 --dn 32
+          .\metaS.exe --config .\subs\merged\merged.yaml --output .\tested_within.yaml --dt 800 --df 1000 --dn 32
 
       - name: 上传测试结果
         run: |
-          cd .\tools
-          .\gfp.exe -r https://github.com/${{ github.repository }} -f subs/merged/tested_within.yaml -l ..\subs\merged\tested_within.yaml -t ${{ secrets.GITHUB_TOKEN }}
-
+          .\tools\gfp.exe -r https://github.com/${{ github.repository }} -f subs/merged/tested_within.yaml -l .\tested_within.yaml -t ${{ secrets.GITHUB_TOKEN }}

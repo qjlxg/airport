@@ -191,7 +191,7 @@ proxy-providers:
 
   getafreenode:
     type: http
-    url: "https://raw.githubusercontent.com/dongchengjie/proxy_workers/main/subs/getafreenode.yaml"
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/getafreenode.yaml"
     path: ./providers/getafreenode.yaml
     <<: *proxy_provider_common_config
 

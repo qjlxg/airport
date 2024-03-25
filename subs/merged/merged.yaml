@@ -144,11 +144,6 @@ proxy-providers:
     url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/soroushmirzaei.yaml"
     path: ./providers/soroushmirzaei.yaml
     <<: *proxy_provider_common_config
-  mheidari98:
-    type: http
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/mheidari98.yaml"
-    path: ./providers/mheidari98.yaml
-    <<: *proxy_provider_common_config
   mahdibland:
     type: http
     url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/mahdibland.yaml"
@@ -229,7 +224,6 @@ proxy-groups:
       - hkaa0
       - mahdibland
       - mfuu
-      - mheidari98
       - mksshare
       - peasoft
       - ripaojiedian
@@ -262,7 +256,6 @@ proxy-groups:
       - hkaa0
       - mahdibland
       - mfuu
-      - mheidari98
       - mksshare
       - peasoft
       - ripaojiedian
@@ -296,7 +289,6 @@ proxy-groups:
       - hkaa0
       - mahdibland
       - mfuu
-      - mheidari98
       - mksshare
       - peasoft
       - ripaojiedian
@@ -393,12 +385,6 @@ proxy-groups:
   - name: mfuu
     type: url-test
     use: [mfuu]
-    hidden: true
-    <<: *proxy_group_common_config
-
-  - name: mheidari98
-    type: url-test
-    use: [mheidari98]
     hidden: true
     <<: *proxy_group_common_config
 

@@ -143,12 +143,6 @@ data:
       - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/subscribe/networks/tcp
       - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/subscribe/networks/ws
     output: subs/soroushmirzaei.yaml
-  - id: mheidari98
-    source: v2ray
-    target: clash
-    urls:
-      - https://raw.githubusercontent.com/mheidari98/.proxy/main/all
-    output: subs/mheidari98.yaml
   - id: mahdibland
     source: clash
     target: clash

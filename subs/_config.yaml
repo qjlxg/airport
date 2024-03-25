@@ -90,7 +90,7 @@ data:
       - https://shunfeng.2424014450.workers.dev
     output: subs/shunfeng.yaml
   - id: tolinkshare
-    source: clash
+    source: v2ray
     target: clash
     urls:
       - https://utils.2424014450.workers.dev/markdown?target=https%3A%2F%2Fraw.githubusercontent.com%2Ftolinkshare%2Ffreenode%2Fmain%2FREADME.md

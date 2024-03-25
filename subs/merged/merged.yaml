@@ -56,127 +56,127 @@ proxy_group_common_config: &proxy_group_common_config
 proxy-providers: 
   ClodQiu:
     type: http
-    url: 'https://raw.githubusercontent.com//subs/ClodQiu.yaml'
+    url: 'https://raw.githubusercontent.com//main/subs/ClodQiu.yaml'
     path: ./providers/ClodQiu.yaml
   Pawdroid:
     type: http
-    url: 'https://raw.githubusercontent.com//subs/Pawdroid.yaml'
+    url: 'https://raw.githubusercontent.com//main/subs/Pawdroid.yaml'
     path: ./providers/Pawdroid.yaml
   a2470982985:
     type: http
-    url: 'https://raw.githubusercontent.com//subs/a2470982985.yaml'
+    url: 'https://raw.githubusercontent.com//main/subs/a2470982985.yaml'
     path: ./providers/a2470982985.yaml
   abshare:
     type: http
-    url: 'https://raw.githubusercontent.com//subs/abshare.yaml'
+    url: 'https://raw.githubusercontent.com//main/subs/abshare.yaml'
     path: ./providers/abshare.yaml
   aiboboxx:
     type: http
-    url: 'https://raw.githubusercontent.com//subs/aiboboxx.yaml'
+    url: 'https://raw.githubusercontent.com//main/subs/aiboboxx.yaml'
     path: ./providers/aiboboxx.yaml
   chengaopan:
     type: http
-    url: 'https://raw.githubusercontent.com//subs/chengaopan.yaml'
+    url: 'https://raw.githubusercontent.com//main/subs/chengaopan.yaml'
     path: ./providers/chengaopan.yaml
   edgetunnel:
     type: http
-    url: 'https://raw.githubusercontent.com//subs/edgetunnel.yaml'
+    url: 'https://raw.githubusercontent.com//main/subs/edgetunnel.yaml'
     path: ./providers/edgetunnel.yaml
   ermaozi:
     type: http
-    url: 'https://raw.githubusercontent.com//subs/ermaozi.yaml'
+    url: 'https://raw.githubusercontent.com//main/subs/ermaozi.yaml'
     path: ./providers/ermaozi.yaml
   freefq:
     type: http
-    url: 'https://raw.githubusercontent.com//subs/freefq.yaml'
+    url: 'https://raw.githubusercontent.com//main/subs/freefq.yaml'
     path: ./providers/freefq.yaml
   mfuu:
     type: http
-    url: 'https://raw.githubusercontent.com//subs/mfuu.yaml'
+    url: 'https://raw.githubusercontent.com//main/subs/mfuu.yaml'
     path: ./providers/mfuu.yaml
   ChromeGo:
     type: http
-    url: 'https://raw.githubusercontent.com//subs/ChromeGo.yaml'
+    url: 'https://raw.githubusercontent.com//main/subs/ChromeGo.yaml'
     path: ./providers/ChromeGo.yaml
   mksshare:
     type: http
-    url: 'https://raw.githubusercontent.com//subs/mksshare.yaml'
+    url: 'https://raw.githubusercontent.com//main/subs/mksshare.yaml'
     path: ./providers/mksshare.yaml
   peasoft:
     type: http
-    url: 'https://raw.githubusercontent.com//subs/peasoft.yaml'
+    url: 'https://raw.githubusercontent.com//main/subs/peasoft.yaml'
     path: ./providers/peasoft.yaml
   shunfeng:
     type: http
-    url: 'https://raw.githubusercontent.com//subs/shunfeng.yaml'
+    url: 'https://raw.githubusercontent.com//main/subs/shunfeng.yaml'
     path: ./providers/shunfeng.yaml
   tolinkshare:
     type: http
-    url: 'https://raw.githubusercontent.com//subs/tolinkshare.yaml'
+    url: 'https://raw.githubusercontent.com//main/subs/tolinkshare.yaml'
     path: ./providers/tolinkshare.yaml
   xrayvip:
     type: http
-    url: 'https://raw.githubusercontent.com//subs/xrayvip.yaml'
+    url: 'https://raw.githubusercontent.com//main/subs/xrayvip.yaml'
     path: ./providers/xrayvip.yaml
   zhangkaiitugithub:
     type: http
-    url: 'https://raw.githubusercontent.com//subs/zhangkaiitugithub.yaml'
+    url: 'https://raw.githubusercontent.com//main/subs/zhangkaiitugithub.yaml'
     path: ./providers/zhangkaiitugithub.yaml
   ripaojiedian:
     type: http
-    url: 'https://raw.githubusercontent.com//subs/ripaojiedian.yaml'
+    url: 'https://raw.githubusercontent.com//main/subs/ripaojiedian.yaml'
     path: ./providers/ripaojiedian.yaml
   yaney01:
     type: http
-    url: 'https://raw.githubusercontent.com//subs/yaney01.yaml'
+    url: 'https://raw.githubusercontent.com//main/subs/yaney01.yaml'
     path: ./providers/yaney01.yaml
   hkaa0:
     type: http
-    url: 'https://raw.githubusercontent.com//subs/hkaa0.yaml'
+    url: 'https://raw.githubusercontent.com//main/subs/hkaa0.yaml'
     path: ./providers/hkaa0.yaml
   soroushmirzaei:
     type: http
-    url: 'https://raw.githubusercontent.com//subs/soroushmirzaei.yaml'
+    url: 'https://raw.githubusercontent.com//main/subs/soroushmirzaei.yaml'
     path: ./providers/soroushmirzaei.yaml
   mahdibland:
     type: http
-    url: 'https://raw.githubusercontent.com//subs/mahdibland.yaml'
+    url: 'https://raw.githubusercontent.com//main/subs/mahdibland.yaml'
     path: ./providers/mahdibland.yaml
   yudou:
     type: http
-    url: 'https://raw.githubusercontent.com//subs/yudou.yaml'
+    url: 'https://raw.githubusercontent.com//main/subs/yudou.yaml'
     path: ./providers/yudou.yaml
   fromzero:
     type: http
-    url: 'https://raw.githubusercontent.com//subs/fromzero.yaml'
+    url: 'https://raw.githubusercontent.com//main/subs/fromzero.yaml'
     path: ./providers/fromzero.yaml
   maskedman:
     type: http
-    url: 'https://raw.githubusercontent.com//subs/maskedman.yaml'
+    url: 'https://raw.githubusercontent.com//main/subs/maskedman.yaml'
     path: ./providers/maskedman.yaml
   yaney:
     type: http
-    url: 'https://raw.githubusercontent.com//subs/yaney.yaml'
+    url: 'https://raw.githubusercontent.com//main/subs/yaney.yaml'
     path: ./providers/yaney.yaml
   getafreenode:
     type: http
-    url: 'https://raw.githubusercontent.com//subs/getafreenode.yaml'
+    url: 'https://raw.githubusercontent.com//main/subs/getafreenode.yaml'
     path: ./providers/getafreenode.yaml
   anaer:
     type: http
-    url: 'https://raw.githubusercontent.com//subs/anaer.yaml'
+    url: 'https://raw.githubusercontent.com//main/subs/anaer.yaml'
     path: ./providers/anaer.yaml
   tssf:
     type: http
-    url: 'https://raw.githubusercontent.com//subs/tssf.yaml'
+    url: 'https://raw.githubusercontent.com//main/subs/tssf.yaml'
     path: ./providers/tssf.yaml
   ttvg:
     type: http
-    url: 'https://raw.githubusercontent.com//subs/ttvg.yaml'
+    url: 'https://raw.githubusercontent.com//main/subs/ttvg.yaml'
     path: ./providers/ttvg.yaml
   zonghewang:
     type: http
-    url: 'https://raw.githubusercontent.com//subs/zonghewang.yaml'
+    url: 'https://raw.githubusercontent.com//main/subs/zonghewang.yaml'
     path: ./providers/zonghewang.yaml
 
 # 代理组

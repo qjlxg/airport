@@ -19,7 +19,7 @@ jobs:
 
       - name: 下载metaST
         run: |
-          curl -s https://github.com/dongchengjie/metaST/releases/latest/download/metaST-win-amd64.exe -o metaST.exe
+          curl https://github.com/dongchengjie/metaST/releases/latest/download/metaST-win-amd64.exe -o metaST.exe
 
       - name: 测试节点
         run: |

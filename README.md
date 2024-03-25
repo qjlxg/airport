@@ -2,22 +2,24 @@
 
 > 节点来自网络收集、整理、汇总
 
+### 国内测速筛选
+
+> 所有节点汇总测速筛选而来
+>
+> 筛选条件：延迟低于800ms
+>
+> 需要运行在国内的self-hosted主机，有闲置机器才更新（定时更新间隔：6小时）
+
+```
+https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml
+```
+
 ### 所有节点汇总
 
 > 汇总后的所有节点集合
 
 ```
 https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/merged.yaml
-```
-
-### 国内测速筛选
-
-> 筛选条件：延迟低于1000ms
->
-> 需要国内的self-hosted主机，随缘执行（定时更新间隔：6小时）
-
-```
-https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml
 ```
 
 ## clash内核客户端

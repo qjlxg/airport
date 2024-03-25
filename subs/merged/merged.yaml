@@ -25,7 +25,7 @@ dns:
     - https://1.0.0.1/dns-query
     - https://208.67.222.222/dns-query
     - https://208.67.220.220/dns-query
-  fallback-filter: 
+  fallback-filter:
     geoip: true
     geoip-code: CN
     geosite:
@@ -53,147 +53,15 @@ proxy_group_common_config: &proxy_group_common_config
   url: https://www.google.com/gen_204
 
 # 订阅地址
-proxy-providers:
-  ChromeGo:
-    type: http
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/ChromeGo.yaml"
-    path: ./providers/ChromeGo.yaml
-    <<: *proxy_provider_common_config
+proxy-providers: 
   ClodQiu:
     type: http
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/ClodQiu.yaml"
+    url: 'https://raw.githubusercontent.com/dongchengjie/airport/subs/ClodQiu.yaml'
     path: ./providers/ClodQiu.yaml
-    <<: *proxy_provider_common_config
   Pawdroid:
     type: http
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/Pawdroid.yaml"
+    url: 'https://raw.githubusercontent.com/dongchengjie/airport/subs/Pawdroid.yaml'
     path: ./providers/Pawdroid.yaml
-    <<: *proxy_provider_common_config
-  a2470982985:
-    type: http
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/a2470982985.yaml"
-    path: ./providers/a2470982985.yaml
-    <<: *proxy_provider_common_config
-  aiboboxx:
-    type: http
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/aiboboxx.yaml"
-    path: ./providers/aiboboxx.yaml
-    <<: *proxy_provider_common_config
-  chengaopan:
-    type: http
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/chengaopan.yaml"
-    path: ./providers/chengaopan.yaml
-    <<: *proxy_provider_common_config
-  edgetunnel:
-    type: http
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/edgetunnel.yaml"
-    path: ./providers/edgetunnel.yaml
-    <<: *proxy_provider_common_config
-  ermaozi:
-    type: http
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/ermaozi.yaml"
-    path: ./providers/ermaozi.yaml
-    <<: *proxy_provider_common_config
-  freefq:
-    type: http
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/freefq.yaml"
-    path: ./providers/freefq.yaml
-    <<: *proxy_provider_common_config
-  mfuu:
-    type: http
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/mfuu.yaml"
-    path: ./providers/mfuu.yaml
-    <<: *proxy_provider_common_config
-  peasoft:
-    type: http
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/peasoft.yaml"
-    path: ./providers/peasoft.yaml
-    <<: *proxy_provider_common_config
-  shunfeng:
-    type: http
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/shunfeng.yaml"
-    path: ./providers/shunfeng.yaml
-    <<: *proxy_provider_common_config
-  xrayvip:
-    type: http
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/xrayvip.yaml"
-    path: ./providers/xrayvip.yaml
-    <<: *proxy_provider_common_config
-  zhangkaiitugithub:
-    type: http
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/zhangkaiitugithub.yaml"
-    path: ./providers/zhangkaiitugithub.yaml
-    <<: *proxy_provider_common_config
-  ripaojiedian:
-    type: http
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/ripaojiedian.yaml"
-    path: ./providers/ripaojiedian.yaml
-    <<: *proxy_provider_common_config
-  yaney01:
-    type: http
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/yaney01.yaml"
-    path: ./providers/yaney01.yaml
-    <<: *proxy_provider_common_config
-  hkaa0:
-    type: http
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/hkaa0.yaml"
-    path: ./providers/hkaa0.yaml
-    <<: *proxy_provider_common_config
-  soroushmirzaei:
-    type: http
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/soroushmirzaei.yaml"
-    path: ./providers/soroushmirzaei.yaml
-    <<: *proxy_provider_common_config
-  mahdibland:
-    type: http
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/mahdibland.yaml"
-    path: ./providers/mahdibland.yaml
-    <<: *proxy_provider_common_config
-  abshare:
-    type: http
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/abshare.yaml"
-    path: ./providers/abshare.yaml
-    <<: *proxy_provider_common_config
-  mksshare:
-    type: http
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/mksshare.yaml"
-    path: ./providers/mksshare.yaml
-    <<: *proxy_provider_common_config
-  tolinkshare:
-    type: http
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/tolinkshare.yaml"
-    path: ./providers/tolinkshare.yaml
-    <<: *proxy_provider_common_config
-
-  yudou:
-    type: http
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/yudou.yaml"
-    path: ./providers/yudou.yaml
-    <<: *proxy_provider_common_config
-
-  fromzero:
-    type: http
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/fromzero.yaml"
-    path: ./providers/fromzero.yaml
-    <<: *proxy_provider_common_config
-
-  maskedman:
-    type: http
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/maskedman.yaml"
-    path: ./providers/maskedman.yaml
-    <<: *proxy_provider_common_config
-
-  yaney:
-    type: http
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/yaney.yaml"
-    path: ./providers/yaney.yaml
-    <<: *proxy_provider_common_config
-
-  getafreenode:
-    type: http
-    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/getafreenode.yaml"
-    path: ./providers/getafreenode.yaml
-    <<: *proxy_provider_common_config
 
 # 代理组
 proxy-groups:
@@ -210,99 +78,18 @@ proxy-groups:
   - name: ♻️ 自动选择
     type: url-test
     <<: *proxy_group_common_config
-    proxies:
-      - ChromeGo
-      - ClodQiu
-      - Pawdroid
-      - a2470982985
-      - abshare
-      - aiboboxx
-      - chengaopan
-      - edgetunnel
-      - ermaozi
-      - freefq
-      - hkaa0
-      - mahdibland
-      - mfuu
-      - mksshare
-      - peasoft
-      - ripaojiedian
-      - shunfeng
-      - soroushmirzaei
-      - tolinkshare
-      - xrayvip
-      - yaney01
-      - zhangkaiitugithub
-      - yudou
-      - fromzero
-      - maskedman
-      - yaney
-      - getafreenode
-      
+    include-all: true
+
   - name: 🚑 故障转移
     type: fallback
     <<: *proxy_group_common_config
-    proxies:
-      - ChromeGo
-      - ClodQiu
-      - Pawdroid
-      - a2470982985
-      - abshare
-      - aiboboxx
-      - chengaopan
-      - edgetunnel
-      - ermaozi
-      - freefq
-      - hkaa0
-      - mahdibland
-      - mfuu
-      - mksshare
-      - peasoft
-      - ripaojiedian
-      - shunfeng
-      - soroushmirzaei
-      - tolinkshare
-      - xrayvip
-      - yaney01
-      - zhangkaiitugithub
-      - yudou
-      - fromzero
-      - maskedman
-      - yaney
-      - getafreenode
+    include-all: true
 
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
     strategy: round-robin
     <<: *proxy_group_common_config
-    proxies:
-      - ChromeGo
-      - ClodQiu
-      - Pawdroid
-      - a2470982985
-      - abshare
-      - aiboboxx
-      - chengaopan
-      - edgetunnel
-      - ermaozi
-      - freefq
-      - hkaa0
-      - mahdibland
-      - mfuu
-      - mksshare
-      - peasoft
-      - ripaojiedian
-      - shunfeng
-      - soroushmirzaei
-      - tolinkshare
-      - xrayvip
-      - yaney01
-      - zhangkaiitugithub
-      - yudou
-      - fromzero
-      - maskedman
-      - yaney
-      - getafreenode
+    include-all: true
 
   - name: ⚖️ 负载均衡-散列
     type: load-balance
@@ -310,203 +97,41 @@ proxy-groups:
     <<: *proxy_group_common_config
     include-all: true
 
-  - name: ChromeGo
-    type: url-test
-    use: [ChromeGo]
-    hidden: true
-    <<: *proxy_group_common_config
-
-  - name: ClodQiu
-    type: url-test
-    use: [ClodQiu]
-    hidden: true
-    <<: *proxy_group_common_config
-
-  - name: Pawdroid
-    type: url-test
-    use: [Pawdroid]
-    hidden: true
-    <<: *proxy_group_common_config
-
-  - name: a2470982985
-    type: url-test
-    use: [a2470982985]
-    hidden: true
-    <<: *proxy_group_common_config
-
-  - name: abshare
-    type: url-test
-    use: [abshare]
-    hidden: true
-    <<: *proxy_group_common_config
-
-  - name: aiboboxx
-    type: url-test
-    use: [aiboboxx]
-    hidden: true
-    <<: *proxy_group_common_config
-
-  - name: chengaopan
-    type: url-test
-    use: [chengaopan]
-    hidden: true
-    <<: *proxy_group_common_config
-    
-  - name: edgetunnel
-    type: url-test
-    use: [edgetunnel]
-    hidden: true
-    <<: *proxy_group_common_config
-
-  - name: ermaozi
-    type: url-test
-    use: [ermaozi]
-    hidden: true
-    <<: *proxy_group_common_config
-
-  - name: freefq
-    type: url-test
-    use: [freefq]
-    hidden: true
-    <<: *proxy_group_common_config
-
-  - name: hkaa0
-    type: url-test
-    use: [hkaa0]
-    hidden: true
-    <<: *proxy_group_common_config
-
-  - name: mahdibland
-    type: url-test
-    use: [mahdibland]
-    hidden: true
-    <<: *proxy_group_common_config
-
-  - name: mfuu
-    type: url-test
-    use: [mfuu]
-    hidden: true
-    <<: *proxy_group_common_config
-
-  - name: mksshare
-    type: url-test
-    use: [mksshare]
-    hidden: true
-    <<: *proxy_group_common_config
-
-  - name: peasoft
-    type: url-test
-    use: [peasoft]
-    hidden: true
-    <<: *proxy_group_common_config
-
-  - name: ripaojiedian
-    type: url-test
-    use: [ripaojiedian]
-    hidden: true
-    <<: *proxy_group_common_config
-
-  - name: shunfeng
-    type: url-test
-    use: [shunfeng]
-    hidden: true
-    <<: *proxy_group_common_config
-
-  - name: soroushmirzaei
-    type: url-test
-    use: [soroushmirzaei]
-    hidden: true
-    <<: *proxy_group_common_config
-
-  - name: tolinkshare
-    type: url-test
-    use: [tolinkshare]
-    hidden: true
-    <<: *proxy_group_common_config
-
-  - name: xrayvip
-    type: url-test
-    use: [xrayvip]
-    hidden: true
-    <<: *proxy_group_common_config
-
-  - name: yaney01
-    type: url-test
-    use: [yaney01]
-    hidden: true
-    <<: *proxy_group_common_config
-
-  - name: zhangkaiitugithub
-    type: url-test
-    use: [zhangkaiitugithub]
-    hidden: true
-    <<: *proxy_group_common_config
-
-  - name: yudou
-    type: url-test
-    use: [yudou]
-    hidden: true
-    <<: *proxy_group_common_config
-
-  - name: fromzero
-    type: url-test
-    use: [fromzero]
-    hidden: true
-    <<: *proxy_group_common_config
-
-  - name: maskedman
-    type: url-test
-    use: [maskedman]
-    hidden: true
-    <<: *proxy_group_common_config
-
-  - name: yaney
-    type: url-test
-    use: [yaney]
-    hidden: true
-    <<: *proxy_group_common_config
-
-  - name: getafreenode
-    type: url-test
-    use: [getafreenode]
-    hidden: true
-    <<: *proxy_group_common_config
-
   - name: 🌍 国外媒体
     type: select
-    proxies: ["🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡-轮询", "⚖️ 负载均衡-散列", "🎯 全球直连"]
+    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
 
   - name: 📲 电报信息
     type: select
-    proxies: ["🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡-轮询", "⚖️ 负载均衡-散列", "🎯 全球直连"]
+    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
 
   - name: Ⓜ️ 微软服务
     type: select
-    proxies: ["🎯 全球直连", "🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡-轮询", "⚖️ 负载均衡-散列"]
+    proxies: ['🎯 全球直连', '🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列']
 
   - name: 🍎 苹果服务
     type: select
-    proxies: ["🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡-轮询", "⚖️ 负载均衡-散列", "🎯 全球直连"]
+    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
 
   - name: 📢 谷歌FCM
     type: select
-    proxies: ["🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡-轮询", "⚖️ 负载均衡-散列", "🎯 全球直连"]
+    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
 
   - name: 🎯 全球直连
     type: select
-    proxies: ["DIRECT", "🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡-轮询", "⚖️ 负载均衡-散列"]
+    proxies: ['DIRECT', '🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列']
 
   - name: 🛑 全球拦截
     type: select
-    proxies: ["REJECT", "DIRECT"]
+    proxies: ['REJECT', 'DIRECT']
 
   - name: 🍃 应用净化
     type: select
-    proxies: ["REJECT", "DIRECT"]
+    proxies: ['REJECT', 'DIRECT']
 
   - name: 🐟 漏网之鱼
     type: select
-    proxies: ["🚀 节点选择", "♻️ 自动选择", "🚑 故障转移", "⚖️ 负载均衡-轮询", "⚖️ 负载均衡-散列", "🎯 全球直连"]
+    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
 
 # 规则集
 rule-providers:

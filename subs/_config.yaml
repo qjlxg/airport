@@ -1,3 +1,4 @@
+github-mirror: https://mirror.ghproxy.com/
 data:
   - id: ClodQiu
     type: http

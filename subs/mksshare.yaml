@@ -38,7 +38,7 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '永久域名发布页：mcrelease.xyz', 'server': '5m4h0k01.m3c5wy.xyz', 'port': 31016, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'aa04d203-f221-433f-b283-cf3f755f76c3', 'udp': true}
+- {'name': '剩余流量：10 GB', 'server': '5m4h0k01.m3c5wy.xyz', 'port': 31016, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'aa04d203-f221-433f-b283-cf3f755f76c3', 'udp': true}
 - {'name': '【专线】| 香港02 | 1x HK', 'server': '5m4h0k02.m3c5wy.xyz', 'port': 31017, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'aa04d203-f221-433f-b283-cf3f755f76c3', 'udp': true}
 - {'name': '【专线】| 香港03 | 1x HK', 'server': '5m4h0k03.m3c5wy.xyz', 'port': 31018, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'aa04d203-f221-433f-b283-cf3f755f76c3', 'udp': true}
 - {'name': '【专线】| 台湾 01 | 1x TWN', 'server': '2d1t5w01.m3c5wy.xyz', 'port': 31026, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'aa04d203-f221-433f-b283-cf3f755f76c3', 'udp': true}

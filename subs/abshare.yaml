@@ -38,7 +38,7 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '永久域名发布页：abpubs.xyz', 'server': '8h2k01.a3b5wy.xyz', 'port': 36016, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '67f2d1eb-f6bf-47bd-826c-d52e0765ea6d', 'udp': true}
+- {'name': '剩余流量：10 GB', 'server': '8h2k01.a3b5wy.xyz', 'port': 36016, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '67f2d1eb-f6bf-47bd-826c-d52e0765ea6d', 'udp': true}
 - {'name': '香港02 | 专线', 'server': '8h2k02.a3b5wy.xyz', 'port': 36017, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '67f2d1eb-f6bf-47bd-826c-d52e0765ea6d', 'udp': true}
 - {'name': '香港03 | 专线', 'server': '8h2k03.a3b5wy.xyz', 'port': 36018, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '67f2d1eb-f6bf-47bd-826c-d52e0765ea6d', 'udp': true}
 - {'name': '台湾01 | 专线', 'server': '8t6w01.a3b5wy.xyz', 'port': 36026, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '67f2d1eb-f6bf-47bd-826c-d52e0765ea6d', 'udp': true}

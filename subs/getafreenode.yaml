@@ -38,7 +38,7 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': 'Dallas-GetAFreeNode.com', 'server': 'realityforus.com', 'port': 443, 'type': 'vmess', 'uuid': '6c158f1b-66af-431d-aa40-d8e93866f17a', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'servername': 'Dallas.realityforus.com', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Dallas.realityforus.com'}}, 'udp': true}
+- {'name': 'Texas-GetAFreeNode.com', 'server': 'realityforus.com', 'port': 443, 'type': 'vmess', 'uuid': '6d2e83bc-ad9b-40a0-9078-64a1610939d9', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'servername': 'Texas.realityforus.com', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Texas.realityforus.com'}}, 'udp': true}
 
 
 # 代理组

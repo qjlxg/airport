@@ -58,6 +58,10 @@ proxy-providers:
     type: http
     url: 'https://raw.githubusercontent.com/dongchengjie/airport//main/subs/chxxyz2004.yaml'
     path: ./providers/chxxyz2004.yaml
+  changfengoss:
+    type: http
+    url: 'https://raw.githubusercontent.com/dongchengjie/airport//main/subs/chxxyz2004.yaml'
+    path: ./providers/changfengoss.yaml
 
 # 代理组
 proxy-groups:

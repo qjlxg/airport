@@ -22,20 +22,10 @@ jobs:
           curl https://mirror.ghproxy.com/https://github.com/dongchengjie/metaST/releases/latest/download/metaST-win-amd64.zip -o metaST.zip
           Expand-Archive .\metaST.zip .\ -Force
 
-      - name: 测试节点（初筛）
+      - name: 测试节点
         run: |
-          .\metaST-win-amd64.exe --config .\subs\merged\merged.yaml --output .\tested_1.yaml --dt 1500 --dr 5 --df 1500 --dn 32 --ff 0.5
-
-      - name: 测试节点（二筛）
-        run: |
-          .\metaST-win-amd64.exe --config .\tested_1.yaml --output .\tested_2.yaml --dt 1000 --dr 10 --df 1000 --dn 32 --ff 0.5
-
-      - name: 测试节点（三筛）
-        run: |
-          .\metaST-win-amd64.exe --config .\tested_2.yaml --output .\tested_3.yaml --dt 500 --dr 20 --df 500 --dn 32 --ff 0.5
+          .\metaST-win-amd64.exe --config .\subs\merged\merged.yaml --output .\tested_within.yaml --dt 1000 --dr 10 --df 1000 --dn 32 --ff 0.2
 
       - name: 上传测试结果
         run: |
-          .\tools\gfp.exe -r https://github.com/${{ github.repository }} -f subs/merged/tested_1.yaml -l .\tested_1.yaml -t ${{ secrets.GITHUB_TOKEN }}
-          .\tools\gfp.exe -r https://github.com/${{ github.repository }} -f subs/merged/tested_2.yaml -l .\tested_2.yaml -t ${{ secrets.GITHUB_TOKEN }}
-          .\tools\gfp.exe -r https://github.com/${{ github.repository }} -f subs/merged/tested_3.yaml -l .\tested_3.yaml -t ${{ secrets.GITHUB_TOKEN }}
+          .\tools\gfp.exe -r https://github.com/${{ github.repository }} -f subs/merged/tested_within.yaml -l .\tested_within.yaml -t ${{ secrets.GITHUB_TOKEN }}

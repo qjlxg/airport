@@ -204,3 +204,23 @@ data:
     urls:
       - https://raw.githubusercontent.com/zonghewang/get_subscribe/main/subscribe/clash.yml
     output: subs/zonghewang.yaml
+  - id: chxxyz2004
+    type: github
+    source: clash
+    target: clash
+    urls:
+      - https://github.com/chxxyz2004/zy2309
+    output: subs/chxxyz2004.yaml
+    options:
+      span: 604800000
+      exts: .yaml
+  - id: changfengoss
+    type: github
+    source: clash
+    target: clash
+    urls:
+      - https://github.com/changfengoss/pub
+    output: subs/chxxyz2004.yaml
+    options:
+      span: 604800000
+      exts: .yaml

@@ -54,10 +54,10 @@ proxy_group_common_config: &proxy_group_common_config
 
 # 订阅地址
 proxy-providers: 
-  changfengoss:
+  chxxyz2004:
     type: http
-    url: 'https://raw.githubusercontent.com/dongchengjie/airport//main/subs/changfengoss.yaml'
-    path: ./providers/changfengoss.yaml
+    url: 'https://raw.githubusercontent.com/dongchengjie/airport//main/subs/chxxyz2004.yaml'
+    path: ./providers/chxxyz2004.yaml
 
 # 代理组
 proxy-groups:

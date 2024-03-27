@@ -19,7 +19,8 @@ jobs:
 
       - name: 下载metaST
         run: |
-          curl https://mirror.ghproxy.com/https://github.com/dongchengjie/metaST/releases/latest/download/metaST-win-amd64.exe -o metaST.exe
+          curl https://mirror.ghproxy.com/https://github.com/dongchengjie/metaST/releases/latest/download/metaST-win-amd64.zip -o metaST.zip
+          Expand-Archive .\metaST.zip .\ -Force
 
       - name: 测试节点（初筛）
         run: |

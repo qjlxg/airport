@@ -251,7 +251,7 @@ data:
     target: clash
     urls:
       - https://github.com/changfengoss/pub
-    output: subs/chxxyz2004.yaml
+    output: subs/changfengoss.yaml
     options:
       span: 604800000
       exts: .yaml

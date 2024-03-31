@@ -28,10 +28,10 @@ jobs:
         run: |
           ./metaST --config ~/mihomo/config.yaml --output ./subs/merged/tested_within.yaml --dt 1000 --dr 10 --df 800 --dn 32 --ff 0.2
 
-      - name: 更新代理
+      - name: 更新本地代理
         run: |
           cp -f ./subs/merged/tested_within.yaml ~/mihomo/config.yaml
-          curl "127.0.0.1:9090/configs?force=true" -X PUT -d '{"path": "", "payload": ""}'
+          curl -X PUT -H 'content-type: application/json' -d '{"path": "","payload": ""}' http://127.0.0.1:9090/configs?force=true
 
       - name: 上传测试结果
         run: |

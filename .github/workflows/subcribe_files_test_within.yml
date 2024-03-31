@@ -19,12 +19,17 @@ jobs:
 
       - name: 下载metaST
         run: |
-          curl -s -o metaST.zip -L https://mirror.ghproxy.com/https://github.com/dongchengjie/metaST/releases/latest/download/metaST-linux-amd64.zip
+          curl -s -x 127.0.0.1:7890 -o metaST.zip https://github.com/dongchengjie/metaST/releases/latest/download/metaST-linux-amd64.zip
           7za -o./ x metaST.zip
 
       - name: 测试节点
         run: |
-          ./metaST --config ./subs/merged/merged.yaml --output ./subs/merged/tested_within.yaml --dt 1000 --dr 10 --df 800 --dn 32 --ff 0.2
+          ./metaST --config ~/mihomo/config.yaml --output ./subs/merged/tested_within.yaml --dt 1000 --dr 10 --df 800 --dn 32 --ff 0.2
+
+      - name: 更新代理
+        run: |
+          cp -f ./subs/merged/tested_within.yaml ~/mihomo/config.yaml
+          curl "127.0.0.1:9090/configs?force=true" -X PUT -d '{"path": "", "payload": ""}'
 
       - name: 上传测试结果
         run: |

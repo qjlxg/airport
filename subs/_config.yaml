@@ -1,5 +1,12 @@
 github-mirror: https://mirror.ghproxy.com/
 data:
+  - id: _pool
+    type: http
+    source: clash
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/dongchengjie/airport/main/subs/_pool.yaml
+    output: subs/_pool.yaml
   - id: ClodQiu
     type: http
     source: clash

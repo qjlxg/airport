@@ -28,7 +28,7 @@ jobs:
 
       - name: 上传测试结果
         run: |
-          git subs/merged/tested_within.yaml
+          git add subs/merged/tested_within.yaml
           git commit -m "Tested by meataST"
 
       - name: 更新本地代理

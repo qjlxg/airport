@@ -21,6 +21,8 @@ jobs:
         run: |
           curl -s -x 127.0.0.1:7890 -o metaST.zip -L https://github.com/dongchengjie/metaST/releases/latest/download/metaST-linux-amd64.zip
           7za -o./ x metaST.zip
+          mv ./metaST-linux-amd64 ./metaST
+          chmod +x ./metaST
 
       - name: 测试节点
         run: |

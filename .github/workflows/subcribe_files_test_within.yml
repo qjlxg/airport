@@ -20,21 +20,19 @@ jobs:
       - name: 下载metaST
         run: |
           curl -s -x 127.0.0.1:7890 -o metaST.zip --retry 5 -L https://github.com/dongchengjie/metaST/releases/latest/download/metaST-linux-amd64.zip
-          7za -o./ x metaST.zip
-          mv ./metaST-linux-amd64 ./metaST
-          chmod +x ./metaST
+          7za -o./ x metaST.zip && mv ./metaST-linux-amd64 ./metaST && chmod +x ./metaST
 
       - name: 测试节点
         run: |
-          ./metaST --config ~/mihomo/config.yaml --output ./subs/merged/tested_within.yaml --dt 1000 --dr 10 --df 800 --dn 32 --ff 0.2
-
-      - name: 更新本地代理
-        run: |
-          cp -f ./subs/merged/tested_within.yaml ~/mihomo/config.yaml
-          curl -X PUT -H 'content-type: application/json' -d '{"path": "","payload": ""}' http://127.0.0.1:9090/configs?force=true
+          ./metaST --config ~/mihomo/config.yaml --output ./subs/merged/tested_within.yaml --dt 1000 --dr 10 --df 800 --dn 64 --ff 0.2
 
       - name: 上传测试结果
         run: |
           git subs/merged/tested_within.yaml
           git commit -m "Tested by meataST"
+
+      - name: 更新本地代理
+        run: |
+          cp -f ./subs/merged/tested_within.yaml ~/mihomo/config.yaml
+          curl -X PUT -H 'content-type: application/json' -d '{"path": "","payload": ""}' http://127.0.0.1:9090/configs?force=true
           

@@ -28,6 +28,8 @@ jobs:
 
       - name: 上传测试结果
         run: |
+          git config --global user.email "metast@github.com"
+          git config --global user.name "metast"
           git add subs/merged/tested_within.yaml
           git commit -m "Tested by meataST"
 

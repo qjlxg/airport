@@ -102,7 +102,7 @@ data:
     source: clash
     target: clash
     urls:
-      - https://shunfeng.2424014450.workers.dev
+      - https://raw.githubusercontent.com/dongchengjie/proxy_workers/main/subs/shunfeng.yaml
     output: subs/shunfeng.yaml
   - id: tolinkshare
     type: http

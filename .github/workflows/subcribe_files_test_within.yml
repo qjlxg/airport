@@ -19,7 +19,7 @@ jobs:
 
       - name: 下载metaST
         run: |
-          curl -o metaST.zip -L https://mirror.ghproxy.com/https://github.com/dongchengjie/metaST/releases/latest/download/metaST-linux-amd64.zip
+          curl -s -o metaST.zip -L https://mirror.ghproxy.com/https://github.com/dongchengjie/metaST/releases/latest/download/metaST-linux-amd64.zip
           7za -o./ x metaST.zip
 
       - name: 测试节点

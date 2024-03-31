@@ -11,21 +11,18 @@ on:
 
 jobs:
   test-proxies-within:
-    runs-on: [self-hosted, windows, x64]
+    runs-on: [self-hosted, linux, x64]
 
     steps:
       - name: 拉取代码
         uses: actions/checkout@v4
 
-      - name: 下载metaST
-        run: |
-          curl https://mirror.ghproxy.com/https://github.com/dongchengjie/metaST/releases/latest/download/metaST-win-amd64.zip -o metaST.zip
-          Expand-Archive .\metaST.zip .\ -Force
-
       - name: 测试节点
         run: |
-          .\metaST-win-amd64.exe --config .\subs\merged\merged.yaml --output .\tested_within.yaml --dt 1000 --dr 10 --df 800 --dn 32 --ff 0.2
+          ~/metaST --config ./subs/merged/merged.yaml --output ./subs/merged/tested_within.yaml --dt 1000 --dr 10 --df 800 --dn 64 --ff 0.2
 
       - name: 上传测试结果
         run: |
-          .\tools\gfp.exe -r https://github.com/${{ github.repository }} -f subs/merged/tested_within.yaml -l .\tested_within.yaml -t ${{ secrets.GITHUB_TOKEN }}
+          git subs/merged/tested_within.yaml
+          git commit -m "Tested by meataST"
+          

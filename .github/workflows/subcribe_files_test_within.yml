@@ -24,7 +24,7 @@ jobs:
 
       - name: 测试节点
         run: |
-          ./metaST --config ~/mihomo/config.yaml --output ./subs/merged/tested_within.yaml --dt 1000 --dr 10 --df 800 --dn 64 --ff 0.2
+          ./metaST --config ./subs/merged/merged.yaml --output ./subs/merged/tested_within.yaml --dt 1000 --dr 10 --df 800 --dn 64 --ff 0.2
 
       - name: 上传测试结果
         run: |

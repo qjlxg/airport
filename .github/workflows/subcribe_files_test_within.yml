@@ -36,5 +36,4 @@ jobs:
       - name: 更新本地代理
         run: |
           cp -f ./subs/merged/tested_within.yaml ~/mihomo/config.yaml
-          curl -X PUT -H 'content-type: application/json' -d '{"path": "","payload": ""}' http://localhost:9090/configs?force=true
           

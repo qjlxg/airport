@@ -1,14 +1,14 @@
-## clash订阅链接
+## clash 订阅链接
 
 > 节点来自网络收集、整理、汇总
 >
-> 测试链接：https://www.google.com/gen_204
+> 测试链接：`https://www.google.com/gen_204`
 >
-> 测试条件：平均延迟 <= 800ms（测试4轮）
+> 测试条件：平均延迟 <= `800ms`（测试 `4` 轮）
 >
-> 服务器：华北（北京）
+> 测试地域：华北（北京联通）
 >
-> 测试间隔：6小时
+> 测试间隔：`6 `小时
 
 ### 订阅地址
 
@@ -22,7 +22,7 @@ https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_w
 https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml
 ```
 
-## clash内核客户端
+## clash 内核客户端
 
 | 客户端                                                       | 平台                                                         | Stars                                                        | 创建时间                                                     | 上次提交时间                                                 | 下载链接                                                     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -34,4 +34,3 @@ https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airpor
 | [ClashX.Meta](https://github.com/MetaCubeX/ClashX.Meta)      | <img width="24" height="24" src="https://img.icons8.com/color/48/mac-logo.png" alt="mac-logo"/> | <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/MetaCubeX/ClashX.Meta"> | <img alt="Github Created At" src="https://img.shields.io/github/created-at/MetaCubeX/ClashX.Meta"> | <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/MetaCubeX/ClashX.Meta"> | <a href='https://github.com/MetaCubeX/ClashX.Meta/releases/latest'><img alt="GitHub Release" src="https://img.shields.io/github/v/release/MetaCubeX/ClashX.Meta"><img alt="GitHub Downloads (all assets, latest release)" src="https://img.shields.io/github/downloads/MetaCubeX/ClashX.Meta/latest/total"></a> |
 | [ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid) | <img width="24" height="24" src="https://img.icons8.com/color/24/android-os.png" alt="android-os"/><a href='https://play.google.com/store/apps/details?id=com.github.metacubex.clash.meta'><img width="24" height="24" src="https://img.icons8.com/color/24/google-play.png" alt="google-play"/></a> | <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/MetaCubeX/ClashMetaForAndroid"> | <img alt="Github Created At" src="https://img.shields.io/github/created-at/MetaCubeX/ClashMetaForAndroid"> | <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/MetaCubeX/ClashMetaForAndroid"> | <a href='https://github.com/MetaCubeX/ClashMetaForAndroid/releases/latest'><img alt="GitHub Release" src="https://img.shields.io/github/v/release/MetaCubeX/ClashMetaForAndroid"><img alt="GitHub Downloads (all assets, latest release)" src="https://img.shields.io/github/downloads/MetaCubeX/ClashMetaForAndroid/latest/total"></a> |
 | [ClashForAndroid](https://github.com/Kr328/ClashForAndroid)  | <img width="24" height="24" src="https://img.icons8.com/color/24/android-os.png" alt="android-os"/> | <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Kr328/ClashForAndroid"> | <img alt="Github Created At" src="https://img.shields.io/github/created-at/Kr328/ClashForAndroid"> | <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Kr328/ClashForAndroid"> | <a href='https://github.com/clashdownload/Clash_for_Android/releases/latest'><img alt="GitHub Release" src="https://img.shields.io/github/v/release/clashdownload/Clash_for_Android?color=red"><img alt="GitHub Downloads (all assets, latest release)" src="https://img.shields.io/github/downloads/clashdownload/Clash_for_Android/latest/total"></a> |
-

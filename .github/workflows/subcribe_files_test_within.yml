@@ -14,6 +14,11 @@ jobs:
     runs-on: [self-hosted, linux, x64]
 
     steps:
+      - name: 设置Git代理
+        run: |
+          git config --global http.proxy  http://127.0.0.1:7890
+          git config --global https.proxy http://127.0.0.1:7890
+
       - name: 拉取代码
         uses: actions/checkout@v4
 

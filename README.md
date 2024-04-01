@@ -1,25 +1,25 @@
 ## clash订阅链接
 
 > 节点来自网络收集、整理、汇总
-
-### 国内测速筛选
-
-> 所有节点汇总测速筛选而来
 >
-> 筛选条件：延迟低于800ms
+> 测试链接：https://www.google.com/gen_204
 >
-> 需要运行在国内的self-hosted主机，有闲置机器才更新（定时更新间隔：6小时）
+> 测试条件：平均延迟 <= 800ms（测试4轮）
+>
+> 服务器：华北（北京）
+>
+> 测试间隔：6小时
+
+### 订阅地址
+
+```
+https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml
+```
+
+### 订阅加速地址
 
 ```
 https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml
-```
-
-### 所有节点汇总
-
-> 汇总后的所有节点集合
-
-```
-https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/merged.yaml
 ```
 
 ## clash内核客户端

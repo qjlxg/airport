@@ -29,7 +29,7 @@ jobs:
 
       - name: 测试节点
         run: |
-          ./metaST --config ./subs/merged/merged.yaml --proxy http://127.0.0.1:7890 --output ./subs/merged/tested_within.yaml --dt 1500 --dr 4 --df 1000 --dn 64 --ff 0.5
+          ./metaST --config ./subs/merged/merged.yaml --proxy http://127.0.0.1:7890 --output ./subs/merged/tested_within.yaml --dt 1000 --dr 4 --df 1000 --dn 32 --ff 0.5
           mv -f ./subs/merged/tested_within.csv ./subs/statistics/tested_within.csv
           mv -f ./subs/merged/tested_within.md ./subs/statistics/tested_within.md
 

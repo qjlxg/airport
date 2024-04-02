@@ -24,12 +24,12 @@ jobs:
 
       - name: 下载解压metaST
         run: |
-          curl -s -x 127.0.0.1:7890 -o metaST.zip --retry 5 -L https://github.com/dongchengjie/metaST/releases/latest/download/metaST-linux-amd64.zip
+          curl -s -x 127.0.0.1:7890 -o metaST.zip --retry 10 -L https://github.com/dongchengjie/metaST/releases/latest/download/metaST-linux-amd64.zip
           7za -o./ x metaST.zip && mv ./metaST-linux-amd64 ./metaST && chmod +x ./metaST
 
       - name: 测试节点
         run: |
-          ./metaST --config ./subs/merged/merged.yaml --output ./subs/merged/tested_within.yaml --dt 1500 --dr 4 --df 1000 --dn 64 --ff 0.5
+          ./metaST --config ./subs/merged/merged.yaml --proxy http://127.0.0.1:7890 --output ./subs/merged/tested_within.yaml --dt 1500 --dr 4 --df 1000 --dn 64 --ff 0.5
           mv -f ./subs/merged/tested_within.csv ./subs/statistics/tested_within.csv
           mv -f ./subs/merged/tested_within.md ./subs/statistics/tested_within.md
 

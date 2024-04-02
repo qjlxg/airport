@@ -14,8 +14,10 @@ jobs:
     runs-on: [self-hosted, linux, x64]
 
     steps:
-      - name: Git使用本地代理
+      - name: Git配置
         run: |
+          git config --global user.email "metaST@github.com"
+          git config --global user.name "metaST"
           git config --global http.proxy  http://127.0.0.1:7890
           git config --global https.proxy http://127.0.0.1:7890
 
@@ -30,18 +32,19 @@ jobs:
       - name: 测试节点
         run: |
           ./metaST --config ./subs/merged/merged.yaml --proxy http://127.0.0.1:7890 --output ./subs/merged/tested_within.yaml --dt 1000 --dr 4 --df 1000 --dn 32 --ff 0.5
-          mv -f ./subs/merged/tested_within.csv ./subs/statistics/tested_within.csv
-          mv -f ./subs/merged/tested_within.md ./subs/statistics/tested_within.md
+
+      - name: 统计文件
+        run: |
+          cp -f ./subs/merged/tested_within.csv ./subs/statistics/tested_within.csv
+          cp -f ./subs/merged/tested_within.md ./subs/statistics/tested_within.md
 
       - name: 上传测试结果
         run: |
-          git config --global user.email "metaST@github.com"
-          git config --global user.name "metaST"
           git pull
           git add subs/merged/tested_within.yaml
           git add subs/statistics/tested_within.csv
           git add subs/statistics/tested_within.md
-          git commit -m "Tested by metaST" && git push
+          git commit -m "Tested by metaST" && git push --force
 
       - name: 更新本地代理
         run: |

@@ -29,13 +29,18 @@ jobs:
 
       - name: 测试节点
         run: |
-          ./metaST --config ./subs/merged/merged.yaml --output ./subs/merged/tested_within.yaml --dt 500 --dr 10 --df 500 --dn 64 --ff 0.2
+          ./metaST --config ./subs/merged/merged.yaml --output ./subs/merged/tested_within.yaml --dt 1500 --dr 4 --df 1000 --dn 64 --ff 0.5
+          mv -f ./subs/merged/tested_within.csv ./subs/statistics/tested_within.csv
+          mv -f ./subs/merged/tested_within.md ./subs/statistics/tested_within.md
 
       - name: 上传测试结果
         run: |
           git config --global user.email "metaST@github.com"
           git config --global user.name "metaST"
-          git pull && git add subs/merged/tested_within.yaml
+          git pull
+          git add subs/merged/tested_within.yaml
+          git add subs/statistics/tested_within.csv
+          git add subs/statistics/tested_within.md
           git commit -m "Tested by metaST" && git push
 
       - name: 更新本地代理

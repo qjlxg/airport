@@ -10,6 +10,11 @@
 >
 > 测试间隔：`6 `小时
 
+### 测试结果
+
+- [饼图](https://github.com/dongchengjie/airport/blob/main/subs/statistics/tested_within.md)
+- [CSV](https://github.com/dongchengjie/airport/blob/main/subs/statistics/tested_within.csv)
+
 ### 订阅地址
 
 ```

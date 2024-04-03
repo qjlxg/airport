@@ -2,32 +2,28 @@
 ```mermaid
 pie showData
 title 延迟分布
-"210-290ms" : 28
-"290-370ms" : 28
-"370-450ms" : 21
-"450-530ms" : 35
-"530-610ms" : 29
+"258-358ms" : 16
+"358-458ms" : 15
+"458-558ms" : 25
+"558-658ms" : 8
 ```
 ```mermaid
 pie showData
 title 地域分布
-"香港" : 12
-"Cloudflare" : 52
-"新加坡" : 15
-"日本" : 21
-"未知" : 11
-"台湾" : 4
-"印度尼西亚" : 1
-"韩国" : 17
-"美国" : 7
-"泰国" : 1
+"新加坡" : 3
+"Cloudflare" : 28
+"未知" : 12
+"香港" : 6
+"日本" : 7
+"韩国" : 5
+"美国" : 3
 ```
 ```mermaid
 pie showData
 title 协议分布
-"ss" : 57
-"vless" : 53
+"ss" : 26
+"vless" : 32
 "http" : 1
-"trojan" : 23
-"vmess" : 7
+"vmess" : 1
+"trojan" : 4
 ```

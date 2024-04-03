@@ -263,3 +263,10 @@ data:
     options:
       span: 604800000
       exts: .yaml
+  - id: go4sharing
+    type: http
+    source: clash
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/go4sharing/sub/main/sub.yaml
+    output: subs/go4sharing.yaml

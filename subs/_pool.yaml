@@ -2191,24 +2191,18 @@ proxies:
 - {'name': '🇴🇲 阿曼', 'server': '231103level2.unclemanco.com', 'port': '36454', 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': '1mj21sr', 'plugin': 'obfs', 'plugin-opts': {'mode': 'http', 'host': '3d25891109.download.windowsupdate.com'}, 'udp': true}
 - {'name': '🇮🇹 意大利', 'type': 'vless', 'server': '193.123.81.105', 'port': '443', 'uuid': 'a13df940-020c-465f-bc89-ee5279b5cd6a', 'tls': true, 'servername': '01k.ylks.link', 'network': 'ws', 'ws-opts': {'path': '/blue', 'headers': {'host': '01k.ylks.link'}}}
 - {'name': '🇸🇪 瑞典', 'server': '95.164.33.62', 'port': '443', 'type': 'trojan', 'password': '0b1371aa-649d-41dc-9126-338c87936500', 'sni': 'sourceforge.net', 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/websocket', 'headers': {'Host': 'sourceforge.net'}}, 'udp': true}
-- {"name":"🇭🇰 香港_1","type":"ss","server":"8.218.196.35","port":"443","password":"a-wym4ovY4Yw","cipher":"aes-128-gcm","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"/","tls":false,"skip-cert-verify":true,"mux":true}}
-- {"name":"🇰🇷 韩国_1","type":"ss","server":"43.201.110.81","port":"443","password":"amazonskr05","cipher":"aes-256-cfb"}
-- {"name":"🇸🇬 新加坡_1","type":"trojan","server":"china2.one.edu.kg","port":"12021","password":"9d9e1051-aa4f-44ce-86b8-912d993fa4e2","sni":"cdn.alibaba.com","skip-cert-verify":true}
-- {"name":"🇭🇰 香港_2","type":"ss","server":"47.243.196.229","port":"443","password":"a-wym4ovY4Yw","cipher":"aes-128-gcm","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"/","tls":false,"skip-cert-verify":true,"mux":true}}
-- {"name":"🇰🇷 韩国_2","type":"trojan","server":"china3.one.edu.kg","port":"12041","password":"9d9e1051-aa4f-44ce-86b8-912d993fa4e2","sni":"cdn.alibaba.com","skip-cert-verify":true}
-- {"name":"🇭🇰 香港_3","type":"ss","server":"1.65.218.192","port":"443","password":"a-wym4ovY4Yw","cipher":"aes-128-gcm","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"/","tls":false,"skip-cert-verify":true,"mux":true}}
-- {"name":"🇸🇬 新加坡_2","type":"trojan","server":"china2.one.edu.kg","port":"12023","password":"9d9e1051-aa4f-44ce-86b8-912d993fa4e2","sni":"cdn.alibaba.com","skip-cert-verify":true}
-- {"name":"🇸🇬 新加坡_3","type":"trojan","server":"china2.one.edu.kg","port":"12024","password":"9d9e1051-aa4f-44ce-86b8-912d993fa4e2","sni":"cdn.alibaba.com","skip-cert-verify":true}
-- {"name":"🇰🇷 韩国_3","type":"ss","server":"43.203.220.68","port":"443","password":"amazonskr05","cipher":"aes-256-cfb"}
-- {"name":"🇸🇬 新加坡_4","type":"trojan","server":"china2.one.edu.kg","port":"12025","password":"9d9e1051-aa4f-44ce-86b8-912d993fa4e2","sni":"cdn.alibaba.com","skip-cert-verify":true}
-- {"name":"🇫🇷 法国","type":"trojan","server":"china4.one.edu.kg","port":"12065","password":"9d9e1051-aa4f-44ce-86b8-912d993fa4e2","sni":"cdn.alibaba.com","skip-cert-verify":true}
-- {"name":"🇸🇬 新加坡_5","type":"trojan","server":"china2.one.edu.kg","port":"12022","password":"9d9e1051-aa4f-44ce-86b8-912d993fa4e2","sni":"cdn.alibaba.com","skip-cert-verify":true}
-- {"name":"🇷🇴 罗马尼亚","type":"ss","server":"163.172.64.22","port":"989","password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-- {"name":"🇭🇰 香港_4","type":"ss","server":"101.91.164.138","port":"29126","password":"34a547cd-0bfe-4905-9076-0d7c9a61f325","cipher":"aes-256-gcm"}
-- {"name":"❓ 未知_1","type":"ss","server":"8.218.82.85","port":"443","password":"a-wym4ovY4Yw","cipher":"aes-128-gcm","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","host":"","path":"/","tls":false,"skip-cert-verify":true,"mux":true}}
-- {"name":"❓ 未知_2","type":"ss","server":"203.234.238.145","port":"4005","password":"qwerREWQ@@","cipher":"aes-256-cfb"}
-- {"name":"🇺🇸 美国","type":"vless","server":"94.242.230.177","port":"2096","uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-- {"name":"🇯🇵 日本","type":"ss","server":"43.207.117.29","port":"443","password":"amazonskr05","cipher":"aes-256-cfb"}
+- {'name': '🇸🇬 新加坡_1_1', 'type': 'trojan', 'server': 'china2.one.edu.kg', 'port': '12021', 'password': '9d9e1051-aa4f-44ce-86b8-912d993fa4e2', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
+- {'name': '🇰🇷 韩国_2_1', 'type': 'trojan', 'server': 'china3.one.edu.kg', 'port': '12041', 'password': '9d9e1051-aa4f-44ce-86b8-912d993fa4e2', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
+- {'name': '🇭🇰 香港_3_1', 'type': 'ss', 'server': '1.65.218.192', 'port': '443', 'password': 'a-wym4ovY4Yw', 'cipher': 'aes-128-gcm', 'plugin': 'v2ray-plugin', 'plugin-opts': {'mode': 'websocket', 'host': '', 'path': '/', 'tls': false, 'skip-cert-verify': true, 'mux': true}}
+- {'name': '🇸🇬 新加坡_2_1', 'type': 'trojan', 'server': 'china2.one.edu.kg', 'port': '12023', 'password': '9d9e1051-aa4f-44ce-86b8-912d993fa4e2', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
+- {'name': '🇸🇬 新加坡_3_1', 'type': 'trojan', 'server': 'china2.one.edu.kg', 'port': '12024', 'password': '9d9e1051-aa4f-44ce-86b8-912d993fa4e2', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
+- {'name': '🇰🇷 韩国_3_1', 'type': 'ss', 'server': '43.203.220.68', 'port': '443', 'password': 'amazonskr05', 'cipher': 'aes-256-cfb'}
+- {'name': '🇸🇬 新加坡_4_1', 'type': 'trojan', 'server': 'china2.one.edu.kg', 'port': '12025', 'password': '9d9e1051-aa4f-44ce-86b8-912d993fa4e2', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
+- {'name': '🇫🇷 法国', 'type': 'trojan', 'server': 'china4.one.edu.kg', 'port': '12065', 'password': '9d9e1051-aa4f-44ce-86b8-912d993fa4e2', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
+- {'name': '🇸🇬 新加坡_5_1', 'type': 'trojan', 'server': 'china2.one.edu.kg', 'port': '12022', 'password': '9d9e1051-aa4f-44ce-86b8-912d993fa4e2', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
+- {'name': '❓ 未知_2_1', 'type': 'ss', 'server': '203.234.238.145', 'port': '4005', 'password': 'qwerREWQ@@', 'cipher': 'aes-256-cfb'}
+- {'name': '🇺🇸 美国', 'type': 'vless', 'server': '94.242.230.177', 'port': '2096', 'uuid': 'f775978b-6e22-41a8-ae5e-5f9779e6745f', 'tls': true, 'servername': 'juzibaipiao.5112233.xyz', 'network': 'ws', 'ws-opts': {'path': '/?ed=2048', 'headers': {'host': 'juzibaipiao.5112233.xyz'}}}
+- {'name': '🇯🇵 日本', 'type': 'ss', 'server': '43.207.117.29', 'port': '443', 'password': 'amazonskr05', 'cipher': 'aes-256-cfb'}
 
 
 # 代理组

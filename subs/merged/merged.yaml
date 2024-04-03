@@ -190,6 +190,10 @@ proxy-providers:
     type: http
     url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/changfengoss.yaml'
     path: ./providers/changfengoss.yaml
+  go4sharing:
+    type: http
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/go4sharing.yaml'
+    path: ./providers/go4sharing.yaml
 
 # 代理组
 proxy-groups:

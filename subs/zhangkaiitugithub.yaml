@@ -38,94 +38,47 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': 'CN_speednode_0001', 'server': 'gzyd.pmxu.link', 'port': 26841, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'delay': 991, 'network': 'tcp', 'skip-cert-verify': true, 'tls': false, 'uuid': '32cd139b-237d-3574-bc52-64428e3e238d'}
-- {'name': 'CN_speednode_0002', 'server': '183.240.180.226', 'port': 16110, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'network': 'tcp', 'skip-cert-vertify': true, 'tls': false, 'uuid': '1534454e-13c1-332c-a1f6-dffb2e51f778', 'ws-opts': {'headers': {'Host': 'cnone.nnslink.xyz'}, 'path': '/'}}
-- {'name': 'CN_speednode_0003', 'server': 'cn1.one.edu.kg', 'port': 12004, 'type': 'trojan', 'password': '694d996c-ce03-4e23-8722-54c9ed7972c4', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
-- {'name': 'CN_speednode_0004', 'server': 'cn1.one.edu.kg', 'port': 12001, 'type': 'trojan', 'password': '694d996c-ce03-4e23-8722-54c9ed7972c4', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
-- {'name': 'CN_speednode_0005', 'server': 'cn1.one.edu.kg', 'port': 12006, 'type': 'trojan', 'password': '694d996c-ce03-4e23-8722-54c9ed7972c4', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
-- {'name': 'CN_speednode_0006', 'server': 'cn1.one.edu.kg', 'port': 12003, 'type': 'trojan', 'password': '694d996c-ce03-4e23-8722-54c9ed7972c4', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
-- {'name': 'CN_speednode_0007', 'server': 'china2.one.edu.kg', 'port': 12025, 'type': 'trojan', 'password': '694d996c-ce03-4e23-8722-54c9ed7972c4', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
-- {'name': 'CN_speednode_0008', 'server': 'china2.one.edu.kg', 'port': 12021, 'type': 'trojan', 'password': '694d996c-ce03-4e23-8722-54c9ed7972c4', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
-- {'name': 'CN_speednode_0009', 'server': 'cn1.one.edu.kg', 'port': 12005, 'type': 'trojan', 'password': '694d996c-ce03-4e23-8722-54c9ed7972c4', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
-- {'name': 'CN_speednode_0010', 'server': 'china3.one.edu.kg', 'port': 12033, 'type': 'trojan', 'password': '694d996c-ce03-4e23-8722-54c9ed7972c4', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
-- {'name': 'CN_speednode_0011', 'server': 'cn1.one.edu.kg', 'port': 12002, 'type': 'trojan', 'password': '694d996c-ce03-4e23-8722-54c9ed7972c4', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
-- {'name': 'CN_speednode_0012', 'server': 'china2.one.edu.kg', 'port': 12061, 'type': 'trojan', 'password': '694d996c-ce03-4e23-8722-54c9ed7972c4', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
-- {'name': 'CN_speednode_0013', 'server': '101.91.164.138', 'port': 29126, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': '34a547cd-0bfe-4905-9076-0d7c9a61f325', 'udp': true}
-- {'name': 'CN_speednode_0014', 'server': 'china3.one.edu.kg', 'port': 12032, 'type': 'trojan', 'password': '694d996c-ce03-4e23-8722-54c9ed7972c4', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
-- {'name': 'CN_speednode_0015', 'server': 'china2.one.edu.kg', 'port': 12022, 'type': 'trojan', 'password': '694d996c-ce03-4e23-8722-54c9ed7972c4', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
-- {'name': 'CN_speednode_0016', 'server': 'china3.one.edu.kg', 'port': 12035, 'type': 'trojan', 'password': '694d996c-ce03-4e23-8722-54c9ed7972c4', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
-- {'name': 'CN_speednode_0017', 'server': 'cn1.one.edu.kg', 'port': 12012, 'type': 'trojan', 'password': '694d996c-ce03-4e23-8722-54c9ed7972c4', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
-- {'name': 'CN_speednode_0018', 'server': 'china2.one.edu.kg', 'port': 12076, 'type': 'trojan', 'password': '694d996c-ce03-4e23-8722-54c9ed7972c4', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
-- {'name': 'CN_speednode_0019', 'server': '120.232.242.117', 'port': 41492, 'type': 'vmess', 'alterId': 64, 'cipher': 'auto', 'network': 'tcp', 'servername': '', 'tls': false, 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24'}
-- {'name': 'CN_speednode_0020', 'server': 'china2.one.edu.kg', 'port': 12067, 'type': 'trojan', 'password': '694d996c-ce03-4e23-8722-54c9ed7972c4', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
-- {'name': 'CN_speednode_0021', 'server': 'china2.one.edu.kg', 'port': 12072, 'type': 'trojan', 'password': '694d996c-ce03-4e23-8722-54c9ed7972c4', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
-- {'name': 'CN_speednode_0022', 'server': 'china3.one.edu.kg', 'port': 12041, 'type': 'trojan', 'password': '694d996c-ce03-4e23-8722-54c9ed7972c4', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
-- {'name': 'CN_speednode_0023', 'server': 'dgyd1.pmxu.link', 'port': 29214, 'type': 'vmess', 'cipher': 'auto', 'uuid': 'c3d17744-7f95-40a4-9bf5-e0cbdb84f92b', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'tcp'}
-- {'name': 'CN_speednode_0024', 'server': 'china3.one.edu.kg', 'port': 12034, 'type': 'trojan', 'password': '694d996c-ce03-4e23-8722-54c9ed7972c4', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
-- {'name': 'CN_speednode_0025', 'server': 'china2.one.edu.kg', 'port': 12024, 'type': 'trojan', 'password': '694d996c-ce03-4e23-8722-54c9ed7972c4', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
-- {'name': 'CN_speednode_0026', 'server': 'china4.one.edu.kg', 'port': 12069, 'type': 'trojan', 'password': '694d996c-ce03-4e23-8722-54c9ed7972c4', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
-- {'name': 'CN_speednode_0027', 'server': 'china4.one.edu.kg', 'port': 12070, 'type': 'trojan', 'password': '694d996c-ce03-4e23-8722-54c9ed7972c4', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
-- {'name': 'CN_speednode_0028', 'server': 'china4.one.edu.kg', 'port': 12074, 'type': 'trojan', 'password': '694d996c-ce03-4e23-8722-54c9ed7972c4', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
-- {'name': 'CN_speednode_0029', 'server': 'china4.one.edu.kg', 'port': 12065, 'type': 'trojan', 'password': '694d996c-ce03-4e23-8722-54c9ed7972c4', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
-- {'name': 'CN_speednode_0030', 'server': 'china3.one.edu.kg', 'port': 12031, 'type': 'trojan', 'password': '694d996c-ce03-4e23-8722-54c9ed7972c4', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
-- {'name': 'CN_speednode_0031', 'server': 'china3.one.edu.kg', 'port': 12055, 'type': 'trojan', 'password': '694d996c-ce03-4e23-8722-54c9ed7972c4', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
-- {'name': 'CN_speednode_0032', 'server': 'china4.one.edu.kg', 'port': 12071, 'type': 'trojan', 'password': '694d996c-ce03-4e23-8722-54c9ed7972c4', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
-- {'name': 'CN_speednode_0033', 'server': 'china3.one.edu.kg', 'port': 12052, 'type': 'trojan', 'password': '694d996c-ce03-4e23-8722-54c9ed7972c4', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
-- {'name': 'CN_speednode_0034', 'server': 'china3.one.edu.kg', 'port': 12053, 'type': 'trojan', 'password': '694d996c-ce03-4e23-8722-54c9ed7972c4', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
-- {'name': 'CN_speednode_0035', 'server': 'china4.one.edu.kg', 'port': 12062, 'type': 'trojan', 'password': '694d996c-ce03-4e23-8722-54c9ed7972c4', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
-- {'name': 'CN_speednode_0036', 'server': 'china3.one.edu.kg', 'port': 12051, 'type': 'trojan', 'password': '694d996c-ce03-4e23-8722-54c9ed7972c4', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
-- {'name': 'CN_speednode_0037', 'server': 'v3-js-sg.as9929.uk', 'port': 29978, 'type': 'ss', 'cipher': 'aes-128-gcm', 'delay': 1845, 'password': 'e41b8b00-d940-4006-80ff-bc7865b3b5e0'}
-- {'name': 'CN_speednode_0038', 'server': 'v3-js-hk.as9929.uk', 'port': 34936, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'e41b8b00-d940-4006-80ff-bc7865b3b5e0', 'delay': 2544}
-- {'name': 'CN_speednode_0039', 'server': 'china2.one.edu.kg', 'port': 12068, 'type': 'trojan', 'password': '694d996c-ce03-4e23-8722-54c9ed7972c4', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
-- {'name': 'CN_speednode_0040', 'server': 'v3-js-sg.as9929.uk', 'port': 22466, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'e41b8b00-d940-4006-80ff-bc7865b3b5e0'}
-- {'name': 'CN_speednode_0041', 'server': 'v3-js-us.as9929.uk', 'port': 19387, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'e41b8b00-d940-4006-80ff-bc7865b3b5e0', 'delay': 1588}
-- {'name': 'CN_speednode_0042', 'server': 'china4.one.edu.kg', 'port': 12073, 'type': 'trojan', 'password': '694d996c-ce03-4e23-8722-54c9ed7972c4', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
-- {'name': 'DE_speednode_0043', 'server': '95.164.68.116', 'port': 2053, 'type': 'trojan', 'udp': true, 'password': 'f37a931d-7092-48fe-b82f-a98da3040eb2', 'sni': 'ftp.debian.org', 'skip-cert-verify': true, 'network': 'tcp'}
-- {'name': 'HK_speednode_0044', 'server': '1.65.218.192', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'country': '🇭🇰 HK', 'password': 'a-wym4ovY4Yw', 'plugin': 'v2ray-plugin', 'plugin-opts': {'host': '', 'mode': 'websocket', 'tls': false}}
-- {'name': 'JP_speednode_0045', 'server': '35.77.92.181', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': 'KR_speednode_0046', 'server': 'p231.panda004.net', 'port': 43926, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'qwerREWQ@@'}
-- {'name': 'KR_speednode_0047', 'server': '3.38.162.154', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': 'KR_speednode_0048', 'server': 'p226.panda004.net', 'port': 58449, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'qwerREWQ@@'}
-- {'name': 'KR_speednode_0049', 'server': '43.201.69.200', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': 'KR_speednode_0050', 'server': 'p220.panda001.net', 'port': 42185, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'qwerREWQ@@'}
-- {'name': 'LU_speednode_0051', 'server': '87.120.204.64', 'port': 8080, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'h2-opts': {}, 'http-opts': {}, 'network': 'ws', 'servername': 'jp-17.trollfunny.net', 'tls': true, 'uuid': 'bdd22841-c4d2-4aa8-acf2-95aa9125f159', 'ws-opts': {'path': '/'}}
-- {'name': 'NL_speednode_0052', 'server': '185.236.233.111', 'port': 2053, 'type': 'trojan', 'country': '🇳🇱NL', 'delay': 1680, 'password': 'ba74833c-8c0f-4dcd-8cbc-13e3c32d3765', 'skip-cert-verify': true, 'sni': 'ftp.debian.org', 'udp': true}
-- {'name': 'NL_speednode_0053', 'server': '159.223.211.229', 'port': 49585, 'type': 'vmess', 'LLC - 1': 'None', 'alterId': 0, 'cipher': 'auto', 'h2-opts': {}, 'http-opts': {}, 'network': 'http', 'servername': 'www.speedtest.net', 'skip-cert-verify': true, 'tls': true, 'udp': true, 'uuid': '6d0f5e10-3d0e-4a0b-9566-202c66ced84f', 'delay': 1017}
-- {'name': 'SE_speednode_0055', 'server': '95.164.33.62', 'port': 443, 'type': 'trojan', 'network': 'ws', 'password': '0b1371aa-649d-41dc-9126-338c87936500', 'skip-cert-verify': true, 'sni': 'sourceforge.net', 'udp': true, 'ws-opts': {'headers': {'Host': 'sourceforge.net'}, 'path': '%252525252525252525252525252Fwebsocket'}}
-- {'name': 'SG_speednode_0056', 'server': '103.172.116.79', 'port': 9058, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'dML2sfhbVwvtfNPe'}
-- {'name': 'SG_speednode_0057', 'server': '103.172.116.79', 'port': 9042, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'S7KwUu7yBy58S3Ga'}
-- {'name': 'SG_speednode_0058', 'server': '103.172.116.79', 'port': 9005, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'ZET59LF6DvCC8KVt'}
-- {'name': 'SG_speednode_0059', 'server': '103.172.116.79', 'port': 9019, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'GA9KzeEgvfxNrgmM'}
-- {'name': 'SG_speednode_0060', 'server': '103.172.116.79', 'port': 9031, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'BwcAUZk8hUFAkDGN'}
-- {'name': 'SG_speednode_0061', 'server': '103.172.116.79', 'port': 9030, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'GeregetR8cvQHzYr'}
-- {'name': 'SG_speednode_0062', 'server': '103.172.116.79', 'port': 9056, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'rNBfNuuANFCAk7KB'}
-- {'name': 'SG_speednode_0063', 'server': '103.172.116.79', 'port': 9045, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'Lp27rqyJq72bZsqX'}
-- {'name': 'SG_speednode_0064', 'server': '103.172.116.79', 'port': 9046, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'NvS8N4Vf8qAGPSCL'}
-- {'name': 'SG_speednode_0065', 'server': '103.172.116.79', 'port': 9003, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'JdmRK9gMEqFgs8nP'}
-- {'name': 'SG_speednode_0066', 'server': '103.172.116.79', 'port': 9061, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': '4R3hUfZ2FHhDmNcP'}
-- {'name': 'SG_speednode_0067', 'server': '103.172.116.79', 'port': 9032, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'UWZQeLRWnkqgkseq'}
-- {'name': 'SG_speednode_0068', 'server': '103.172.116.79', 'port': 9073, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'daFYagqDdBdA6VTX'}
-- {'name': 'SG_speednode_0069', 'server': '103.172.116.79', 'port': 9093, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'wfLC2y7rzZyCmuyt'}
-- {'name': 'SG_speednode_0070', 'server': '103.172.116.79', 'port': 9015, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'ZpNDDKRu9MagNvaf'}
-- {'name': 'SG_speednode_0071', 'server': '103.172.116.79', 'port': 9020, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'BNmAXXxAHYpTRdzu'}
-- {'name': 'SG_speednode_0072', 'server': '103.172.116.79', 'port': 9037, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'TN2YqghxeFDKZfLU'}
-- {'name': 'SG_speednode_0073', 'server': '103.172.116.79', 'port': 9014, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'KnJGad3FqTvjqbaX'}
-- {'name': 'SG_speednode_0074', 'server': '103.172.116.79', 'port': 9026, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'QWDDvVE9npNurQfA'}
-- {'name': 'SG_speednode_0075', 'server': '103.172.116.79', 'port': 9007, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'kSPmvwdFzGMMW5pY'}
-- {'name': 'SG_speednode_0076', 'server': '103.172.116.79', 'port': 9097, 'type': 'ss', 'password': 'Sn5B7jTqr76aCJT8', 'cipher': 'aes-256-cfb'}
-- {'name': 'SG_speednode_0077', 'server': '103.172.116.79', 'port': 9044, 'type': 'ss', 'password': 'KBGjZYcy4SyRShmA', 'cipher': 'aes-256-cfb'}
-- {'name': 'SG_speednode_0078', 'server': '103.172.116.79', 'port': 9073, 'type': 'ssr', 'cipher': 'aes-256-cfb', 'obfs': 'plain', 'obfs-param': '', 'password': 'daFYagqDdBdA6VTX', 'protocol': 'origin', 'protocol-param': '', 'udp': true}
-- {'name': 'SG_speednode_0079', 'server': '103.172.116.79', 'port': 9050, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'FG5ddLsMPbV5CutE'}
-- {'name': 'SG_speednode_0080', 'server': '103.172.116.79', 'port': 9084, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'c3NtHJ5ujV2tGDfj'}
-- {'name': 'SG_speednode_0081', 'server': '103.172.116.79', 'port': 9060, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'ueLXVkvh4hckhErQ'}
-- {'name': 'SG_speednode_0082', 'server': '103.172.116.79', 'port': 9038, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'gYCYXfkUQEs2TaJQ'}
-- {'name': 'SG_speednode_0083', 'server': '103.172.116.79', 'port': 9025, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'XPtzA9sCug3SPR4c'}
-- {'name': 'SG_speednode_0084', 'server': '103.172.116.79', 'port': 9010, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'f63gg8EruDnUrmz4'}
-- {'name': 'SG_speednode_0085', 'server': '103.172.116.79', 'port': 9079, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'TPqX8edgbAURcAMb'}
-- {'name': 'SG_speednode_0086', 'server': '103.172.116.79', 'port': 9024, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'BejrQvtu9sqUeNuZ'}
-- {'name': 'US_speednode_0087', 'server': '34.221.163.96', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': 'US_speednode_0088', 'server': '104.20.30.205', 'port': 80, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'country': '🏁ZZ', 'h2-opts': {}, 'http-opts': {}, 'network': 'ws', 'servername': 'newsg1.xn--mes53ddysu0o3gl.top', 'skip-cert-verify': true, 'uuid': '1cfaad16-d2ba-4c49-af07-d7b9f11f43d0', 'ws-opts': {'headers': {'HOST': 'newsg1.xn--mes53ddysu0o3gl.top'}, 'path': '/xn--mes53ddysu0o3gl'}}
-- {'name': 'US_speednode_0089', 'server': '91.199.82.78', 'port': 8080, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'client-fingerprint': 'chrome', 'network': 'ws', 'servername': 'usma-12.trollfunny.net', 'skip-cert-verify': false, 'tfo': false, 'tls': true, 'udp': true, 'uuid': 'bdd22841-c4d2-4aa8-acf2-95aa9125f159', 'ws-opts': {'headers': {'Host': '91.199.82.78'}, 'path': '/'}}
+- {'name': 'CA_speednode_0001', 'server': '3.99.183.252', 'port': 17349, 'type': 'trojan', 'password': 'eMVKnqoHhcVC', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'CA_speednode_0002', 'server': '35.183.57.44', 'port': 17366, 'type': 'trojan', 'password': 'vDFdHewHUaG0', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'CA_speednode_0003', 'server': '3.99.157.91', 'port': 17369, 'type': 'trojan', 'password': 'B4KZ(E63(kNk', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'CN_speednode_0004', 'server': 'gzyd.pmxu.link', 'port': 26841, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'delay': 991, 'network': 'tcp', 'skip-cert-verify': true, 'tls': false, 'uuid': '32cd139b-237d-3574-bc52-64428e3e238d'}
+- {'name': 'CN_speednode_0005', 'server': 'v3-js-us.as9929.uk', 'port': 29483, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'e41b8b00-d940-4006-80ff-bc7865b3b5e0', 'udp': true}
+- {'name': 'CN_speednode_0006', 'server': '183.237.20.158', 'port': 41242, 'type': 'vmess', 'alterId': 64, 'cipher': 'auto', 'country': '🇨🇳CN', 'h2-opts': {}, 'http-opts': {}, 'network': 'tcp', 'skip-cert-verify': true, 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24'}
+- {'name': 'CN_speednode_0007', 'server': 'v3-js-us.as9929.uk', 'port': 19387, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'e41b8b00-d940-4006-80ff-bc7865b3b5e0', 'udp': true}
+- {'name': 'CN_speednode_0008', 'server': 'ddbcb0bb-0765-dacc-887b-bf8c113b6d02.xn--37qy2m7z0cohn.xn--6qq986b3xl', 'port': 20012, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'network': 'ws', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'uuid': '2c715d12-69d4-468b-8c24-e631cf5aeb95', 'ws-opts': {'headers': {'Host': 'ddbcb0bb-0765-dacc-887b-bf8c113b6d02.xn--37qy2m7z0cohn.xn--6qq986b3xl'}, 'path': '/'}}
+- {'name': 'DE_speednode_0009', 'server': '92.246.136.190', 'port': 32025, 'type': 'ss', 'country': '🇷🇺RU', 'password': 'VRKnPTULDqxaExI5yLJjoc', 'cipher': 'chacha20-ietf-poly1305', 'delay': 1855}
+- {'name': 'DE_speednode_0010', 'server': '95.164.68.116', 'port': 2053, 'type': 'trojan', 'udp': true, 'password': 'f37a931d-7092-48fe-b82f-a98da3040eb2', 'sni': 'ftp.debian.org', 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': 'DE_speednode_0011', 'server': '18.156.80.248', 'port': 17348, 'type': 'trojan', 'password': 'u7JJwpEYkBqc', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'DE_speednode_0012', 'server': '3.79.178.43', 'port': 17353, 'type': 'trojan', 'password': 'NyYR8c1IORvj', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'DE_speednode_0013', 'server': '3.124.189.182', 'port': 17348, 'type': 'trojan', 'password': '3(N)n53x8mJH', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'FR_speednode_0014', 'server': '51.44.14.91', 'port': 17343, 'type': 'trojan', 'password': 'rKbxbC)VC13S', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'FR_speednode_0015', 'server': '13.38.32.188', 'port': 17354, 'type': 'trojan', 'password': 'kVH54Ac2gj(5', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'FR_speednode_0016', 'server': '35.180.121.127', 'port': 17353, 'type': 'trojan', 'password': 'aGOyTKKy)Nvo', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'GB_speednode_0017', 'server': '51.140.37.161', 'port': 23226, 'type': 'ss', 'country': '🇬🇧GB', 'password': 'e8k7TiCtC5iZ6UQD0S9SGI', 'cipher': 'chacha20-ietf-poly1305', 'delay': 751}
+- {'name': 'GB_speednode_0018', 'server': '52.56.176.179', 'port': 17342, 'type': 'trojan', 'password': '7wDcLjG)9BbK', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'GB_speednode_0019', 'server': '35.177.170.69', 'port': 17345, 'type': 'trojan', 'password': 'TSoanOFuy9To', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'JP_speednode_0020', 'server': '13.112.97.69', 'port': 17343, 'type': 'trojan', 'password': 'gJ1emTQmhQZN', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'JP_speednode_0021', 'server': '3.112.205.111', 'port': 17367, 'type': 'trojan', 'password': 'tRwNtfCUAN(5', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'KR_speednode_0022', 'server': '43.201.57.177', 'port': 17363, 'type': 'trojan', 'password': 'Ufu7mp)jquvR', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'KR_speednode_0023', 'server': '54.180.138.121', 'port': 17355, 'type': 'trojan', 'password': 'Aotx(PXTAVFX', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'KR_speednode_0024', 'server': '221.150.109.85', 'port': 51472, 'type': 'ss', 'cipher': 'aes-256-cfb', 'country': '🏁 ZZ', 'password': 'qwerREWQ@@'}
+- {'name': 'KR_speednode_0025', 'server': '221.150.109.81', 'port': 42978, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'qwerREWQ@@', 'udp': true}
+- {'name': 'KR_speednode_0026', 'server': 'p233.panda004.net', 'port': 50942, 'type': 'ss', 'cipher': 'aes-256-cfb', 'country': '🏁 ZZ', 'password': 'qwerREWQ@@'}
+- {'name': 'KR_speednode_0027', 'server': 'p232.panda004.net', 'port': 51472, 'type': 'ss', 'cipher': 'aes-256-cfb', 'country': '🏁 ZZ', 'password': 'qwerREWQ@@'}
+- {'name': 'LU_speednode_0028', 'server': '87.120.204.64', 'port': 8080, 'type': 'vmess', 'alterId': 0, 'cipher': 'auto', 'h2-opts': {}, 'http-opts': {}, 'network': 'ws', 'servername': 'jp-17.trollfunny.net', 'tls': true, 'uuid': 'bdd22841-c4d2-4aa8-acf2-95aa9125f159', 'ws-opts': {'path': '/'}}
+- {'name': 'NL_speednode_0029', 'server': '159.223.211.229', 'port': 49585, 'type': 'vmess', 'LLC - 1': 'None', 'uuid': '6d0f5e10-3d0e-4a0b-9566-202c66ced84f', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'servername': 'www.speedtest.net', 'network': 'http', 'http-opts': {'method': 'GET', 'path': ['/']}, 'udp': true, 'delay': 1312}
+- {'name': 'NL_speednode_0030', 'server': '103.214.68.57', 'port': 10003, 'type': 'trojan', 'udp': true, 'password': '6x8HcghsjS', 'sni': 'yes998.chickenkiller.com', 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': 'RU_speednode_0031', 'server': '194.26.229.18', 'port': 50744, 'type': 'ss', 'country': '🏁ZZ', 'password': 'sIZ80DZsAC9ZSshS69gYql', 'cipher': 'chacha20-ietf-poly1305', 'delay': 810}
+- {'name': 'SG_speednode_0032', 'server': '13.212.182.235', 'port': 17352, 'type': 'trojan', 'password': 'fVTtA8rx8GMX', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'SG_speednode_0033', 'server': '47.128.153.210', 'port': 17358, 'type': 'trojan', 'password': 'bDBQZ)evYawi', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'SG_speednode_0034', 'server': '13.229.184.181', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'country': '🇸🇬 SG', 'password': 'amazonskr05'}
+- {'name': 'SG_speednode_0035', 'server': '54.179.101.194', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'country': '🇸🇬SG', 'password': 'amazonskr05'}
+- {'name': 'US_speednode_0036', 'server': '54.213.97.99', 'port': 17346, 'type': 'trojan', 'password': '9P8W2UFF2C02', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'US_speednode_0037', 'server': '35.87.253.0', 'port': 17351, 'type': 'trojan', 'password': 'eK3DRrnIIbLu', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'US_speednode_0038', 'server': '3.145.106.83', 'port': 17359, 'type': 'trojan', 'password': '73S7RWX5sWC0', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'US_speednode_0039', 'server': '34.219.254.255', 'port': 17340, 'type': 'trojan', 'password': 'LHM0cdjLYgx1', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'US_speednode_0040', 'server': '13.59.50.196', 'port': 17365, 'type': 'trojan', 'password': 'tLZuvHVM9eel', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'US_speednode_0041', 'server': 'ip.sb', 'port': 2086, 'type': 'vmess', 'cipher': 'none', 'uuid': '900ceafc-30b8-4581-a305-31854f563e4f', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'servername': '', 'network': 'ws', 'ws-opts': {'path': '900ceafc-30b8-4581-a305-31854f563e4f-vm', 'headers': {'host': 'answer-unfortunately-brighton-determination.trycloudflare.com'}}}
 
 
 # 代理组

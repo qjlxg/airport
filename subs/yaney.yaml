@@ -38,42 +38,54 @@ geox-url:
 
 # 代理
 proxies: 
-- {'type': 'vmess', 'name': '🇺🇸_US_美国_1', 'ws-opts': {'path': '/', 'headers': {'host': 'mizban.arzonhost.ir'}}, 'server': 'mizban.arzonhost.ir', 'port': '2086', 'uuid': 'e690ff9e-1676-4be3-d136-dcae586cb1e7', 'alterId': '0', 'cipher': 'auto', 'network': 'ws'}
-- {'type': 'vmess', 'name': '🇺🇸_US_美国_2', 'ws-opts': {'path': '/6a7cfe2b', 'headers': {'host': 'wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc'}}, 'server': '104.164.223.55', 'port': '443', 'uuid': '6a7cfe2b-4bc8-448b-de12-8414bc73d4a8', 'alterId': '0', 'cipher': 'auto', 'network': 'ws'}
-- {'type': 'vmess', 'name': '🇺🇸_US_美国_3', 'ws-opts': {'path': '/', 'headers': {'host': 'admin.arzonhost.ir'}}, 'server': '104.21.4.14', 'port': '2086', 'uuid': '7d93e992-48cf-42d4-84f8-75768e815a4c', 'alterId': '0', 'cipher': 'auto', 'network': 'ws'}
-- {'type': 'ss', 'name': '🇰🇷_KR_韩国_4', 'server': '43.201.34.246', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'type': 'vmess', 'name': '🇺🇸_US_美国_5', 'ws-opts': {'path': '/hms02.fxiaomi.sbs/link', 'headers': {'host': 'range-shape-b3fuegu.bananok182.workers.dev'}}, 'server': 'speed.cloudflare.com', 'port': '80', 'uuid': '6c168fcc-2231-4f3b-8c1e-f6391692df4a', 'alterId': '0', 'cipher': 'auto', 'network': 'ws'}
-- {'type': 'vmess', 'name': '🇺🇸_US_美国_6', 'ws-opts': {'path': '/', 'headers': {'host': 'oiictw.yydsii.com'}}, 'server': 'kkyx.yydsii.com', 'port': '8080', 'uuid': 'b551aa22-22af-11ee-b8d8-f23c932eb68d', 'alterId': '0', 'cipher': 'auto', 'network': 'ws'}
-- {'type': 'vmess', 'name': '🇱🇺_LU_卢森堡_7', 'ws-opts': {'path': '/', 'headers': {'host': '87.120.204.161'}}, 'server': '87.120.204.161', 'port': '8080', 'uuid': 'bdd22841-c4d2-4aa8-acf2-95aa9125f159', 'alterId': '0', 'cipher': 'auto', 'network': 'ws', 'tls': true}
-- {'type': 'trojan', 'name': '🇬🇮_GI_直布罗陀_10', 'server': '95.164.68.116', 'port': 2053, 'password': 'f37a931d-7092-48fe-b82f-a98da3040eb2', 'udp': true, 'skip-cert-verify': true}
-- {'type': 'vmess', 'name': '🇭🇰_HK_香港_11', 'server': 'UNLIMITED.HUY.0.SRL', 'port': '80', 'uuid': 'f0d23e27-d3cf-4476-b75b-87552f9eee1a', 'alterId': '0', 'cipher': 'auto', 'network': 'tcp'}
-- {'type': 'vmess', 'name': '🇨🇳_CN_中国_13', 'ws-opts': {'path': '/hinet', 'headers': {'host': 'hinet.luodi.xyz'}}, 'server': 'tw.lianjianode.cc', 'port': '21004', 'uuid': 'bf5a01c5-c2d8-4ef8-a260-2ec07161cb2b', 'alterId': '0', 'cipher': 'auto', 'network': 'ws'}
-- {'type': 'ss', 'name': '🇯🇵_JP_日本_16', 'server': '52.195.225.184', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'type': 'ss', 'name': '🇰🇷_KR_韩国_17', 'server': '43.201.110.81', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'type': 'ss', 'name': '🇰🇷_KR_韩国_18', 'server': '43.201.24.53', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'type': 'ss', 'name': '🇰🇷_KR_韩国_19', 'server': '43.201.69.200', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'type': 'ss', 'name': '🇰🇷_KR_韩国_20', 'server': '222.112.15.140', 'port': 58449, 'cipher': 'aes-256-cfb', 'password': 'qwerREWQ@@'}
-- {'type': 'ss', 'name': '🇰🇷_KR_韩国_21', 'server': 'p234.panda004.net', 'port': 58449, 'cipher': 'aes-256-cfb', 'password': 'qwerREWQ@@'}
-- {'type': 'ss', 'name': '🇰🇷_KR_韩国_22', 'server': '43.203.192.6', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'type': 'ss', 'name': '🇰🇷_KR_韩国_23', 'server': '43.202.41.139', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'type': 'ss', 'name': '🇰🇷_KR_韩国_24', 'server': 'p238.panda004.net', 'port': 57743, 'cipher': 'aes-256-cfb', 'password': 'qwerREWQ@@'}
-- {'type': 'vmess', 'name': '🇺🇸_US_美国_25', 'ws-opts': {'path': '/', 'headers': {'host': 'admin.arzonhost.ir'}}, 'server': '172.67.223.242', 'port': '2086', 'uuid': '7d93e992-48cf-42d4-84f8-75768e815a4c', 'alterId': '0', 'cipher': 'auto', 'network': 'ws'}
-- {'type': 'ss', 'name': '🇰🇷_KR_韩国_26', 'server': '43.203.220.68', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'type': 'vmess', 'name': '🇺🇸_US_美国_27', 'server': '149.28.36.167', 'port': '37664', 'uuid': '116217e3-be8b-4a11-826c-b32479f67166', 'alterId': '0', 'cipher': 'auto', 'network': 'tcp'}
-- {'type': 'ss', 'name': '🇹🇷_TR_土耳其_28', 'server': '94.131.108.133', 'port': 8881, 'cipher': 'chacha20-ietf-poly1305', 'password': 'a8H2xE6f0ubGLeSvZrfQIWRDKE1LgY'}
-- {'type': 'vmess', 'name': '🇨🇳_CN_中国_29', 'server': 'tanz-kr.01byx31qzn.download', 'port': '35008', 'uuid': '2add5c39-f353-3b58-b886-195251fab44f', 'alterId': '0', 'cipher': 'auto', 'network': 'tcp'}
-- {'type': 'vmess', 'name': '🇩🇪_DE_德国_30', 'http-opts': {'path': ['/']}, 'server': '164.92.198.210', 'port': '6969', 'uuid': '1eb6aad5-993a-4bcb-a9c4-5c98ba01b963', 'alterId': '0', 'cipher': 'auto', 'network': 'http'}
-- {'type': 'ss', 'name': '🇰🇷_KR_韩国_31', 'server': 'p226.panda004.net', 'port': 58449, 'cipher': 'aes-256-cfb', 'password': 'qwerREWQ@@'}
-- {'type': 'ss', 'name': '🇷🇺_RU_俄罗斯联邦_32', 'server': '5.42.72.241', 'port': 30482, 'cipher': 'chacha20-ietf-poly1305', 'password': '2gUQ2cQTPtBGNjbCXKMKeH'}
-- {'type': 'ss', 'name': '🇸🇬_SG_新加坡_33', 'server': '47.128.64.71', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'type': 'vmess', 'name': '🇨🇳_CN_中国_34', 'ws-opts': {'path': '/debian', 'headers': {'host': 'data-us-v1.shwjfkw.cn'}}, 'server': 'data-us-v1.shwjfkw.cn', 'port': '20401', 'uuid': 'b1478e24-4916-3abe-8f17-15931012ecbe', 'alterId': '0', 'cipher': 'auto', 'network': 'ws'}
-- {'type': 'ss', 'name': '🇫🇷_FR_法国_35', 'server': '163.172.64.22', 'port': 989, 'cipher': 'aes-256-cfb', 'password': 'f8f7aCzcPKbsF8p3'}
-- {'type': 'vmess', 'name': '🇨🇳_CN_中国_36', 'ws-opts': {'path': '/debian', 'headers': {'host': 'data-jp-v1.usabooks.com.cn'}}, 'server': 'data-jp-v1.usabooks.com.cn', 'port': '20301', 'uuid': 'b1478e24-4916-3abe-8f17-15931012ecbe', 'alterId': '0', 'cipher': 'auto', 'network': 'ws'}
-- {'type': 'trojan', 'name': '🇷🇺_RU_俄罗斯联邦_38', 'server': '185.236.233.111', 'port': 2053, 'password': 'ba74833c-8c0f-4dcd-8cbc-13e3c32d3765', 'udp': true, 'skip-cert-verify': true}
-- {'type': 'ss', 'name': '🇰🇷_KR_韩国_39', 'server': 'p227.panda004.net', 'port': 49032, 'cipher': 'aes-256-cfb', 'password': 'qwerREWQ@@'}
-- {'type': 'ss', 'name': '🇰🇷_KR_韩国_40', 'server': 'p230.panda004.net', 'port': 42978, 'cipher': 'aes-256-cfb', 'password': 'qwerREWQ@@'}
-- {'type': 'vmess', 'name': '🇱🇺_LU_卢森堡_41', 'ws-opts': {'path': '/', 'headers': {'host': '185.244.208.61'}}, 'server': '185.244.208.61', 'port': '8080', 'uuid': 'bdd22841-c4d2-4aa8-acf2-95aa9125f159', 'alterId': '0', 'cipher': 'auto', 'network': 'ws', 'tls': true}
-- {'type': 'vmess', 'name': '🇺🇸_US_美国_42', 'ws-opts': {'path': '/', 'headers': {'host': 'onea.flha.ru'}}, 'server': '104.21.23.231', 'port': '2095', 'uuid': '7a737f41-b792-4260-94ff-3d864da67b80', 'alterId': '0', 'cipher': 'auto', 'network': 'ws'}
+- {'type': 'vmess', 'name': '🇱🇺_LU_卢森堡_13', 'ws-opts': {'path': '/', 'headers': {'host': '87.120.204.161'}}, 'server': '87.120.204.161', 'port': '8080', 'uuid': 'bdd22841-c4d2-4aa8-acf2-95aa9125f159', 'alterId': '0', 'cipher': 'auto', 'network': 'ws', 'tls': true}
+- {'type': 'vmess', 'name': '🇺🇸_US_美国_36', 'ws-opts': {'path': '/', 'headers': {'host': 'mizban.arzonhost.ir'}}, 'server': 'mizban.arzonhost.ir', 'port': '2086', 'uuid': 'e690ff9e-1676-4be3-d136-dcae586cb1e7', 'alterId': '0', 'cipher': 'auto', 'network': 'ws'}
+- {'type': 'ss', 'name': '🇺🇸_US_美国_65', 'server': '57.181.42.0', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇸🇬_SG_新加坡_50', 'server': '54.169.147.64', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'vmess', 'name': '🇺🇸_US_美国_25', 'ws-opts': {'path': '/', 'headers': {'host': 'cdn.vds-server.ir'}}, 'server': 'cdn.vds-server.ir', 'port': '8880', 'uuid': '0d1bf26a-ce97-4707-a270-7f4d2ae37334', 'alterId': '0', 'cipher': 'auto', 'network': 'ws'}
+- {'type': 'ss', 'name': '🇸🇬_SG_新加坡_64', 'server': '47.128.64.71', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇯🇵_JP_日本_59', 'server': '13.231.229.48', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇸🇬_SG_新加坡_62', 'server': '54.254.167.160', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_19', 'server': 'p236.panda004.net', 'port': 42839, 'cipher': 'aes-256-cfb', 'password': 'qwerREWQ@@'}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_56', 'server': '43.201.34.246', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇯🇵_JP_日本_10', 'server': '54.199.15.70', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'vmess', 'name': '🇺🇸_US_美国_57', 'ws-opts': {'path': '/linkvws', 'headers': {'host': 'naomir.cfd'}}, 'server': 'naomir.cfd', 'port': '443', 'uuid': '03fcc618-b93d-6796-6aed-8a38c975d581', 'alterId': '0', 'cipher': 'auto', 'network': 'ws', 'tls': true}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_26', 'server': '54.180.156.133', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_40', 'server': '43.201.69.200', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_53', 'server': '43.203.192.6', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'vmess', 'name': '🇸🇬_SG_新加坡_54', 'ws-opts': {'path': '/', 'headers': {'host': 'sg02.handsomequinlan.online'}}, 'server': 'sg02.handsomequinlan.online', 'port': '80', 'uuid': 'b363045d-0589-4cf3-8d02-209e406853c5', 'alterId': '0', 'cipher': 'auto', 'network': 'ws'}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_34', 'server': '43.203.201.192', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_37', 'server': '43.201.110.81', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_55', 'server': '3.36.96.75', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'vmess', 'name': '🇺🇸_US_美国_17', 'ws-opts': {'path': '/linkvws', 'headers': {'host': 'novia.makeup'}}, 'server': 'novia.makeup', 'port': '443', 'uuid': '03fcc618-b93d-6796-6aed-8a38c975d581', 'alterId': '0', 'cipher': 'auto', 'network': 'ws', 'tls': true}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_21', 'server': '43.203.220.68', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_47', 'server': 'p234.panda004.net', 'port': 58449, 'cipher': 'aes-256-cfb', 'password': 'qwerREWQ@@'}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_12', 'server': 'p233.panda004.net', 'port': 50942, 'cipher': 'aes-256-cfb', 'password': 'qwerREWQ@@'}
+- {'type': 'vmess', 'name': '🇰🇷_KR_韩国_45', 'ws-opts': {'path': '/', 'headers': {'host': 'kr03.handsomequinlan.online'}}, 'server': 'kr03.handsomequinlan.online', 'port': '80', 'uuid': '8643b6c5-d037-41f4-9081-43756b1e9e8d', 'alterId': '0', 'cipher': 'auto', 'network': 'ws'}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_42', 'server': '222.112.15.140', 'port': 58449, 'cipher': 'aes-256-cfb', 'password': 'qwerREWQ@@'}
+- {'type': 'vmess', 'name': '🇰🇷_KR_韩国_46', 'ws-opts': {'path': '/', 'headers': {'host': 'kr04.thomasinaglorious.online'}}, 'server': 'kr04.thomasinaglorious.online', 'port': '80', 'uuid': '42e97605-d7cb-4b90-a5e5-aeddefda4b2d', 'alterId': '0', 'cipher': 'auto', 'network': 'ws'}
+- {'type': 'vmess', 'name': '🇺🇸_US_美国_35', 'ws-opts': {'path': '/rongseven?ed=2048', 'headers': {'host': 'us-phoenix-oracle-3e4543.ip1.shop'}}, 'server': 'us-phoenix-oracle-3e4543.ip1.shop', 'port': '46666', 'uuid': 'f0f067fe-8e6d-4d95-816b-601038fd5876', 'alterId': '0', 'cipher': 'auto', 'network': 'ws'}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_11', 'server': 'p230.panda004.net', 'port': 42978, 'cipher': 'aes-256-cfb', 'password': 'qwerREWQ@@'}
+- {'type': 'vmess', 'name': '🇺🇸_US_美国_38', 'server': '149.28.119.196', 'port': '52817', 'uuid': '39b454ae-2d59-4cf1-8379-b3ccb6c46659', 'alterId': '0', 'cipher': 'auto', 'network': 'tcp'}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_51', 'server': '3.34.200.94', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_31', 'server': '203.234.238.145', 'port': 4005, 'cipher': 'aes-256-cfb', 'password': 'qwerREWQ@@'}
+- {'type': 'ss', 'name': '🇫🇷_FR_法国_44', 'server': '163.172.64.22', 'port': 989, 'cipher': 'aes-256-cfb', 'password': 'f8f7aCzcPKbsF8p3'}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_29', 'server': 'p225.panda004.net', 'port': 4005, 'cipher': 'aes-256-cfb', 'password': 'qwerREWQ@@'}
+- {'type': 'trojan', 'name': '🇷🇺_RU_俄罗斯联邦_28', 'server': '185.236.233.111', 'port': 2053, 'password': 'ba74833c-8c0f-4dcd-8cbc-13e3c32d3765', 'udp': true, 'skip-cert-verify': true}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_24', 'server': 'p227.panda004.net', 'port': 49032, 'cipher': 'aes-256-cfb', 'password': 'qwerREWQ@@'}
+- {'type': 'ss', 'name': '🇷🇺_RU_俄罗斯联邦_1', 'server': '5.42.72.241', 'port': 30482, 'cipher': 'chacha20-ietf-poly1305', 'password': '2gUQ2cQTPtBGNjbCXKMKeH'}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_52', 'server': '3.38.162.154', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'vmess', 'name': '🇰🇷_KR_韩国_27', 'ws-opts': {'path': '/', 'headers': {'host': 'kr03.36routes.online'}}, 'server': 'kr03.36routes.online', 'port': '80', 'uuid': '42e97605-d7cb-4b90-a5e5-aeddefda4b2d', 'alterId': '0', 'cipher': 'auto', 'network': 'ws'}
+- {'type': 'vmess', 'name': '🇨🇳_CN_中国_5', 'ws-opts': {'path': '/debian', 'headers': {'host': 'data-jp-v1.usabooks.com.cn'}}, 'server': 'data-jp-v1.usabooks.com.cn', 'port': '20301', 'uuid': 'b1478e24-4916-3abe-8f17-15931012ecbe', 'alterId': '0', 'cipher': 'auto', 'network': 'ws'}
+- {'type': 'vmess', 'name': '🇺🇸_US_美国_66', 'ws-opts': {'path': '/', 'headers': {'host': 'admin.arzonhost.ir'}}, 'server': 'admin.arzonhost.ir', 'port': '2086', 'uuid': '7d93e992-48cf-42d4-84f8-75768e815a4c', 'alterId': '0', 'cipher': 'auto', 'network': 'ws'}
+- {'type': 'vmess', 'name': '🇺🇸_US_美国_2', 'ws-opts': {'path': '/', 'headers': {'host': 'admin.arzonhost.ir'}}, 'server': '104.21.4.14', 'port': '2086', 'uuid': '7d93e992-48cf-42d4-84f8-75768e815a4c', 'alterId': '0', 'cipher': 'auto', 'network': 'ws'}
+- {'type': 'vmess', 'name': '🇺🇸_US_美国_22', 'ws-opts': {'path': '/linkvws', 'headers': {'host': 'martina.quest'}}, 'server': 'martina.quest', 'port': '443', 'uuid': '03fcc618-b93d-6796-6aed-8a38c975d581', 'alterId': '0', 'cipher': 'auto', 'network': 'ws', 'tls': true}
+- {'type': 'vmess', 'name': '🇨🇳_CN_中国_16', 'ws-opts': {'path': '/debian', 'headers': {'host': 'data-us-v1.shwjfkw.cn'}}, 'server': 'data-us-v1.shwjfkw.cn', 'port': '20401', 'uuid': 'b1478e24-4916-3abe-8f17-15931012ecbe', 'alterId': '0', 'cipher': 'auto', 'network': 'ws'}
+- {'type': 'ss', 'name': '🇹🇷_TR_土耳其_15', 'server': '94.131.108.133', 'port': 8881, 'cipher': 'chacha20-ietf-poly1305', 'password': 'a8H2xE6f0ubGLeSvZrfQIWRDKE1LgY'}
+- {'type': 'ss', 'name': '🇸🇬_SG_新加坡_60', 'server': '13.229.182.149', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_49', 'server': 'p220.panda001.net', 'port': 42185, 'cipher': 'aes-256-cfb', 'password': 'qwerREWQ@@'}
+- {'type': 'ss', 'name': '🇸🇬_SG_新加坡_61', 'server': '13.250.61.18', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'trojan', 'name': '🇬🇮_GI_直布罗陀_20', 'server': '95.164.68.116', 'port': 2053, 'password': 'f37a931d-7092-48fe-b82f-a98da3040eb2', 'udp': true, 'skip-cert-verify': true}
 
 
 # 代理组

@@ -1,31 +1,52 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema",
-  "$id": "https://github.com/MetaCubeX/mihomo/schema/schema.json",
+  "$id": "https://github.com/MetaCubeX/meta-json-schema/schema/meta-json-schema.json",
   "type": "object",
   "title": "Clash.Meta Config Schema",
   "additionalProperties": true,
   "definitions": {
     "types": {
-      "str_arr": {
+      "stringArray": {
         "oneOf": [
-          { "type": "string" },
-          { "type": "array", "items": { "type": "string" } }
+          {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+          {"type": "string"}
         ]
+      },
+      "ipv4Array": {
+        "oneOf": [
+          {
+            "type": "array",
+            "items": {"$ref": "#/definitions/patterns/ipv4"},
+            "uniqueItems": true
+          },
+          {"$ref": "#/definitions/patterns/ipv4"}
+        ],
+        "errorMessage": "shasa"
       }
     },
     "patterns": {
       "port": {
         "type": "integer",
-        "default": 7890,
         "minimum": 0,
-        "maximum": 65535
+        "maximum": 65535,
+        "errorMessage": "无效的端口号(0~65535)"
+      },
+      "ipv4": {
+        "type": "string",
+        "pattern": "^(?:(?:25[0-5]|2[0-4]\\d|1?\\d{1,2})(?:\\.(?!$)|$)){4}$",
+        "errorMessage": "无效的IPv4地址"
+      },
+      "ipv4Port": {
+        "type": "string",
+        "pattern": "^(?:(?:25[0-5]|2[0-4]\\d|1?\\d{1,2})(?:\\.(?!$)|$)){4}:(?:[0-9]|[1-9][0-9]{1,3}|[1-5][0-9]{4}|6(?:[0-4][0-9]{3}|5(?:[0-4][0-9]{2}|5(?:[0-2][0-9]|3[0-5]))))$",
+        "errorMessage": "无效的IPv4地址:端口"
       }
     }
   },
   "properties": {
     "port": {
-      "description": "HTTP(S) 代理服务器端口",
-      "$ref": "#/definitions/patterns/port"
+      "description": "HTTP(S) 代理服务器端口`code`",
+      "$ref": "#/definitions/patterns/ipv4"
     },
     "socks-port": {
       "description": "SOCKS 代理端口",
@@ -43,7 +64,7 @@
       "description": "透明代理端口，用于 Linux (TProxy TCP 和 TProxy UDP)",
       "$ref": "#/definitions/patterns/port"
     },
-    "allow-lan": { "description": "允许局域网连接", "type": "boolean" },
+    "allow-lan": {"description": "允许局域网连接", "type": "boolean"},
     "bind-address": {
       "description": "绑定 IP 地址，仅当 allow-lan 为 true 时生效,'*'表示所有地址",
       "type": "string",
@@ -51,16 +72,16 @@
     },
     "authentication": {
       "description": "http,socks入口的验证用户名,密码",
-      "$ref": "#/definitions/types/str_arr"
+      "$ref": "#/definitions/types/stringArray"
     },
     "skip-auth-prefixes": {
       "description": "设置跳过验证的IP段",
-      "$ref": "#/definitions/types/str_arr",
+      "$ref": "#/definitions/types/stringArray",
       "default": ["127.0.0.1/8", "::1/128"]
     },
     "lan-allowed-ips": {
       "description": "允许连接的 IP 地址段,仅当 allow-lan 为 true 时生效",
-      "$ref": "#/definitions/types/str_arr",
+      "$ref": "#/definitions/types/stringArray",
       "default": ["0.0.0.0/0", "::/0"]
     },
     "find-process-mode": {
@@ -78,9 +99,9 @@
     "geox-url": {
       "type": "object",
       "properties": {
-        "geoip": { "type": "string", "description": "geoip下载url" },
-        "geosite": { "type": "string", "description": "geosite下载url" },
-        "mmdb": { "type": "string", "description": "mmdb下载url" }
+        "geoip": {"type": "string", "description": "geoip下载url"},
+        "geosite": {"type": "string", "description": "geosite下载url"},
+        "mmdb": {"type": "string", "description": "mmdb下载url"}
       }
     },
     "geo-auto-update": {
@@ -123,7 +144,7 @@
         },
         "custom-certifactes": {
           "description": "自定义tls证书(PEM 格式，或者 证书的路径)",
-          "$ref": "#/definitions/types/str_arr"
+          "$ref": "#/definitions/types/stringArray"
         }
       }
     },
@@ -135,18 +156,15 @@
       "type": "string",
       "description": "外部控制 (HTTPS-API)监听地址"
     },
-    "secret": { "type": "string", "description": "API访问Bearer Token" },
+    "secret": {"type": "string", "description": "API访问Bearer Token"},
     "tcp-concurrent": {
       "type": "boolean",
       "description": "TCP并发连接所有 IP,并使用最快握手的TCP"
     },
-    "external-ui": { "type": "string", "description": "外部UI界面目录" },
-    "external-ui-name": { "type": "string", "description": "外部UI界面名字" },
-    "external-ui-url": {
-      "type": "string",
-      "description": "外部UI界面下载地址"
-    },
-    "interface-name": { "type": "string", "description": "指定流量出口网卡" },
+    "external-ui": {"type": "string", "description": "外部UI界面目录"},
+    "external-ui-name": {"type": "string", "description": "外部UI界面名字"},
+    "external-ui-url": {"type": "string", "description": "外部UI界面下载地址"},
+    "interface-name": {"type": "string", "description": "指定流量出口网卡"},
     "global-client-fingerprint": {
       "type": "string",
       "description": "全局 TLS 指纹(优先低于 proxy 中配置的 client-fingerprint),当前支持 VLESS/Vmess/trojan 的 TCP/grpc/WS/HTTP TLS传输",
@@ -163,12 +181,11 @@
       "default": 15
     },
     "experimental": {
-      "$schema": "http://json-schema.org/draft-07/schema",
       "type": "object",
       "description": "实验性内容",
       "definitions": {
-        "types": { "$ref": "#/definitions/types" },
-        "patterns": { "$ref": "#/definitions/patterns" }
+        "types": {"$ref": "#/definitions/types"},
+        "patterns": {"$ref": "#/definitions/patterns"}
       },
       "properties": {
         "quic-go-disable-gso": {
@@ -187,15 +204,14 @@
     },
     "hosts": {
       "description": "自定义hosts(仅支持配置单个IP)",
-      "$ref": "#/definitions/types/str_arr"
+      "$ref": "#/definitions/types/stringArray"
     },
     "profile": {
-      "$schema": "http://json-schema.org/draft-07/schema",
       "type": "object",
       "description": "缓存",
       "definitions": {
-        "types": { "$ref": "#/definitions/types" },
-        "patterns": { "$ref": "#/definitions/patterns" }
+        "types": {"$ref": "#/definitions/types"},
+        "patterns": {"$ref": "#/definitions/patterns"}
       },
       "properties": {
         "store-selected": {
@@ -211,12 +227,11 @@
       }
     },
     "tun": {
-      "$schema": "http://json-schema.org/draft-07/schema",
       "type": "object",
       "description": "TUN配置",
       "definitions": {
-        "types": { "$ref": "#/definitions/types" },
-        "patterns": { "$ref": "#/definitions/patterns" }
+        "types": {"$ref": "#/definitions/types"},
+        "patterns": {"$ref": "#/definitions/patterns"}
       },
       "properties": {
         "enable": {
@@ -232,7 +247,7 @@
         },
         "dns-hijack": {
           "description": "DNS劫持列表",
-          "$ref": "#/definitions/types/str_arr"
+          "$ref": "#/definitions/types/stringArray"
         },
         "auto-detect-interface": {
           "type": "boolean",
@@ -266,11 +281,11 @@
         },
         "inet4-route-address": {
           "description": "启用auto-route时,指定使用自定义路由而不是默认路由的IPV4地址",
-          "$ref": "#/definitions/types/str_arr"
+          "$ref": "#/definitions/types/stringArray"
         },
         "inet6-route-address": {
           "description": "启用auto-route时,指定使用自定义路由而不是默认路由的IPV5地址",
-          "$ref": "#/definitions/types/str_arr"
+          "$ref": "#/definitions/types/stringArray"
         },
         "endpoint-independent-nat": {
           "type": "boolean",
@@ -287,46 +302,45 @@
         },
         "include-uid": {
           "description": "包含被路由的Linux用户,使其被Tun路由流量(需要启用auto-route)",
-          "$ref": "#/definitions/types/str_arr"
+          "$ref": "#/definitions/types/stringArray"
         },
         "include-uid-range": {
           "description": "限制被路由的的Linux用户范围",
-          "$ref": "#/definitions/types/str_arr"
+          "$ref": "#/definitions/types/stringArray"
         },
         "exclude-uid": {
           "description": "排除被路由的Linux用户,使其不被Tun路由流量(需要启用auto-route)",
-          "$ref": "#/definitions/types/str_arr"
+          "$ref": "#/definitions/types/stringArray"
         },
         "exclude-uid-range": {
           "description": "排除被路由的的Linux用户范围",
-          "$ref": "#/definitions/types/str_arr"
+          "$ref": "#/definitions/types/stringArray"
         },
         "include-android-user": {
           "description": "限制被路由的Android用户",
-          "$ref": "#/definitions/types/str_arr"
+          "$ref": "#/definitions/types/stringArray"
         },
         "include-package": {
           "description": "限制被路由的Android应用包名",
-          "$ref": "#/definitions/types/str_arr"
+          "$ref": "#/definitions/types/stringArray"
         },
         "exclude-package": {
           "description": "排除被路由的Android应用包名",
-          "$ref": "#/definitions/types/str_arr"
+          "$ref": "#/definitions/types/stringArray"
         }
       }
     },
     "ebpf": {
-      "$schema": "http://json-schema.org/draft-07/schema",
       "type": "object",
       "description": "eBPF配置",
       "definitions": {
-        "types": { "$ref": "#/definitions/types" },
-        "patterns": { "$ref": "#/definitions/patterns" }
+        "types": {"$ref": "#/definitions/types"},
+        "patterns": {"$ref": "#/definitions/patterns"}
       },
       "properties": {
         "auto-redir": {
           "description": "自动重定向,redirect模式(仅支持TCP)",
-          "$ref": "#/definitions/types/str_arr"
+          "$ref": "#/definitions/types/stringArray"
         },
         "redirect-to-tun": {
           "type": "boolean",
@@ -334,17 +348,16 @@
         },
         "auto-route": {
           "description": "自动路由",
-          "$ref": "#/definitions/types/str_arr"
+          "$ref": "#/definitions/types/stringArray"
         }
       }
     },
     "sniffer": {
-      "$schema": "http://json-schema.org/draft-07/schema",
       "type": "object",
       "description": "域名嗅探",
       "definitions": {
-        "types": { "$ref": "#/definitions/types" },
-        "patterns": { "$ref": "#/definitions/patterns" }
+        "types": {"$ref": "#/definitions/types"},
+        "patterns": {"$ref": "#/definitions/patterns"}
       },
       "properties": {
         "enable": {
@@ -377,11 +390,7 @@
                 "ports": {
                   "type": "array",
                   "description": "嗅探端口列表",
-                  "items": {
-                    "type": "integer",
-                    "minimum": 0,
-                    "maximum": 65535
-                  },
+                  "items": {"type": "integer", "minimum": 0, "maximum": 65535},
                   "default": [443]
                 }
               }
@@ -392,11 +401,7 @@
                 "ports": {
                   "type": "array",
                   "description": "嗅探端口列表",
-                  "items": {
-                    "type": "integer",
-                    "minimum": 0,
-                    "maximum": 65535
-                  },
+                  "items": {"type": "integer", "minimum": 0, "maximum": 65535},
                   "default": [443]
                 }
               }
@@ -407,11 +412,7 @@
                 "ports": {
                   "type": "array",
                   "description": "嗅探端口列表",
-                  "items": {
-                    "type": "integer",
-                    "minimum": 0,
-                    "maximum": 65535
-                  },
+                  "items": {"type": "integer", "minimum": 0, "maximum": 65535},
                   "default": [80]
                 },
                 "override-destination": {
@@ -425,11 +426,11 @@
         },
         "force-domain": {
           "description": "需要强制嗅探的域名(默认情况下只对IP进行嗅探)",
-          "$ref": "#/definitions/types/str_arr"
+          "$ref": "#/definitions/types/stringArray"
         },
         "skip-domain": {
           "description": "需要跳过嗅探的域名",
-          "$ref": "#/definitions/types/str_arr"
+          "$ref": "#/definitions/types/stringArray"
         }
       }
     },
@@ -437,17 +438,17 @@
       "type": "array",
       "items": {
         "anyOf": [
-          { "type": "string", "pattern": "^.+,.+,.+,.+$" },
+          {"type": "string", "pattern": "^.+,.+,.+,.+$"},
           {
             "type": "object",
             "properties": {
               "network": {
                 "type": "array",
-                "items": { "type": "string", "enum": ["tcp", "udp"] }
+                "items": {"type": "string", "enum": ["tcp", "udp"]}
               },
-              "address": { "type": "string" },
-              "target": { "type": "string" },
-              "proxy": { "type": "string" }
+              "address": {"type": "string"},
+              "target": {"type": "string"},
+              "proxy": {"type": "string"}
             }
           }
         ]
@@ -488,8 +489,7 @@
           "default": 100
         },
         "default-nameserver": {
-          "description": "用于解析nameserver,fallback以及其他DNS服务器配置的DNS服务域名(只能使用纯IP地址,支持加密DNS)",
-          "$ref": "#/definitions/types/str_arr"
+          "description": "用于解析nameserver,fallback以及其他DNS服务器配置的DNS服务域名(只能使用纯IP地址,支持加密DNS)"
         },
         "enhanced-mode": {
           "type": "string",
@@ -498,7 +498,7 @@
           "default": "fake-ip"
         },
         "fake-ip-range": {
-          "$ref": "#/definitions/types/str_arr",
+          "$ref": "#/definitions/types/stringArray",
           "description": "fake-ip的预留映射地址段"
         },
         "use-hosts": {
@@ -508,19 +508,19 @@
         },
         "fake-ip-filter": {
           "description": "配置不使用fake-ip的域名",
-          "$ref": "#/definitions/types/str_arr"
+          "$ref": "#/definitions/types/stringArray"
         },
         "nameserver": {
           "description": "默认的域名解析服务器(支持UDP,TCP,DoT,DoH,DoQ)",
-          "$ref": "#/definitions/types/str_arr"
+          "$ref": "#/definitions/types/stringArray"
         },
         "fallback": {
           "description": "后备域名解析服务器(一般情况下使用境外 DNS, 保证结果可信)",
-          "$ref": "#/definitions/types/str_arr"
+          "$ref": "#/definitions/types/stringArray"
         },
         "proxy-server-nameserver": {
           "description": "代理节点域名解析服务器(仅用于解析代理节点的域名)",
-          "$ref": "#/definitions/types/str_arr"
+          "$ref": "#/definitions/types/stringArray"
         },
         "fallback-filter": {
           "type": "object",
@@ -532,26 +532,26 @@
               "default": true
             },
             "geoip-code": {
-              "$ref": "#/definitions/types/str_arr",
+              "$ref": "#/definitions/types/stringArray",
               "description": "geoip-code配置的国家的结果会直接采用,否则将采用fallback结果",
-              "items": { "type": "string" },
+              "items": {"type": "string"},
               "default": ["CN"]
             },
             "geosite": {
               "description": "geosite列表的内容被视为已污染,匹配到geosite的域名,将只使用fallback解析,不去使用nameserver",
-              "$ref": "#/definitions/types/str_arr"
+              "$ref": "#/definitions/types/stringArray"
             },
             "ipcidr": {
               "description": "这些网段的结果会被视为污染,nameserver解析出这些结果时将会采用fallback的解析结果",
-              "$ref": "#/definitions/types/str_arr"
+              "$ref": "#/definitions/types/stringArray"
             },
             "domain": {
               "description": "这些域名被视为已污染,匹配到这些域名,会直接使用fallback解析,不去使用nameserver",
-              "$ref": "#/definitions/types/str_arr"
+              "$ref": "#/definitions/types/stringArray"
             },
             "nameserver-policy": {
               "description": "指定域名查询的解析服务器(可使用 geosite,优先于nameserver/fallback查询)",
-              "$ref": "#/definitions/types/str_arr"
+              "$ref": "#/definitions/types/stringArray"
             }
           }
         }
@@ -567,10 +567,10 @@
             "required": ["name", "type", "server", "port"],
             "additionalProperties": true,
             "properties": {
-              "name": { "type": "string" },
-              "type": { "title": "socks5", "const": "socks5" },
-              "server": { "type": "string" },
-              "port": { "type": "integer", "minimum": 0, "maximum": 65535 }
+              "name": {"type": "string"},
+              "type": {"title": "socks5", "const": "socks5"},
+              "server": {"type": "string"},
+              "port": {"type": "integer", "minimum": 0, "maximum": 65535}
             }
           },
           {
@@ -578,10 +578,10 @@
             "required": ["name", "type", "server", "port"],
             "additionalProperties": true,
             "properties": {
-              "name": { "type": "string" },
-              "type": { "title": "http", "const": "http" },
-              "server": { "type": "string" },
-              "port": { "type": "integer", "minimum": 0, "maximum": 65535 }
+              "name": {"type": "string"},
+              "type": {"title": "http", "const": "http"},
+              "server": {"type": "string"},
+              "port": {"type": "integer", "minimum": 0, "maximum": 65535}
             }
           },
           {
@@ -589,10 +589,10 @@
             "required": ["name", "type", "server", "port"],
             "additionalProperties": true,
             "properties": {
-              "name": { "type": "string" },
-              "type": { "title": "snell", "const": "snell" },
-              "server": { "type": "string" },
-              "port": { "type": "integer", "minimum": 0, "maximum": 65535 }
+              "name": {"type": "string"},
+              "type": {"title": "snell", "const": "snell"},
+              "server": {"type": "string"},
+              "port": {"type": "integer", "minimum": 0, "maximum": 65535}
             }
           },
           {
@@ -607,10 +607,10 @@
             ],
             "additionalProperties": true,
             "properties": {
-              "name": { "type": "string" },
-              "type": { "title": "ss", "const": "ss" },
-              "server": { "type": "string" },
-              "port": { "type": "integer", "minimum": 0, "maximum": 65535 },
+              "name": {"type": "string"},
+              "type": {"title": "ss", "const": "ss"},
+              "server": {"type": "string"},
+              "port": {"type": "integer", "minimum": 0, "maximum": 65535},
               "cipher": {
                 "type": "string",
                 "enum": [
@@ -634,8 +634,8 @@
                   "2022-blake3-chacha20-poly1305"
                 ]
               },
-              "udp": { "type": "boolean", "default": true },
-              "udp-over-tcp": { "type": "boolean", "default": false },
+              "udp": {"type": "boolean", "default": true},
+              "udp-over-tcp": {"type": "boolean", "default": false},
               "ip-version": {
                 "type": "string",
                 "enum": ["dual", "ipv4", "ipv6", "ipv4-prefer", "ipv6-prefer"],
@@ -645,22 +645,22 @@
                 "type": "string",
                 "enum": ["obfs", "v2ray-plugin", "shadow-tls", "restls"]
               },
-              "plugin-opts": { "type": "object", "additionalProperties": true },
+              "plugin-opts": {"type": "object", "additionalProperties": true},
               "smux": {
                 "type": "object",
                 "properties": {
-                  "enabled": { "type": "boolean", "default": false },
+                  "enabled": {"type": "boolean", "default": false},
                   "protocol": {
                     "type": "string",
                     "enum": ["smux", "yamux", "h2mux"],
                     "default": "smux"
                   },
-                  "max-connections": { "type": "integer", "default": 4 },
-                  "min-streams": { "type": "integer", "default": 4 },
-                  "max-streams": { "type": "integer", "default": 0 },
-                  "padding": { "type": "boolean", "default": false },
-                  "statistic": { "type": "boolean", "default": false },
-                  "only-tcp": { "type": "boolean", "default": false }
+                  "max-connections": {"type": "integer", "default": 4},
+                  "min-streams": {"type": "integer", "default": 4},
+                  "max-streams": {"type": "integer", "default": 0},
+                  "padding": {"type": "boolean", "default": false},
+                  "statistic": {"type": "boolean", "default": false},
+                  "only-tcp": {"type": "boolean", "default": false}
                 }
               }
             }

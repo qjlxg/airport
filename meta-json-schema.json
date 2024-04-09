@@ -46,6 +46,7 @@
   "properties": {
     "port": {
       "description": "HTTP(S) 代理服务器端口`code`",
+      "markdownDescription": "HTTP(S) 代理服务器端口`code`",
       "$ref": "#/definitions/patterns/ipv4"
     },
     "socks-port": {

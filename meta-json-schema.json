@@ -7,19 +7,35 @@
   "definitions": {
     "types": {
       "stringArray": {
-        "oneOf": [
+        "anyOf": [
           {"type": "array", "items": {"type": "string"}},
-          {"type": "string"}
+          {"type": "string"},
+          {"pattern": "^\\d+$"}
+        ]
+      },
+      "portArray": {
+        "anyOf": [
+          {"type": "array", "items": {"$ref": "#/definitions/patterns/port"}},
+          {"$ref": "#/definitions/patterns/port"}
+        ]
+      },
+      "portRangeArray": {
+        "anyOf": [
+          {
+            "type": "array",
+            "items": {"$ref": "#/definitions/patterns/portRange"}
+          },
+          {"$ref": "#/definitions/patterns/portRange"}
         ]
       },
       "ipv4Array": {
-        "oneOf": [
+        "anyOf": [
           {"type": "array", "items": {"$ref": "#/definitions/patterns/ipv4"}},
           {"$ref": "#/definitions/patterns/ipv4"}
         ]
       },
       "ipv4PortArray": {
-        "oneOf": [
+        "anyOf": [
           {
             "type": "array",
             "items": {"$ref": "#/definitions/patterns/ipv4Port"}
@@ -28,7 +44,7 @@
         ]
       },
       "ipv4CIDRArray": {
-        "oneOf": [
+        "anyOf": [
           {
             "type": "array",
             "items": {"$ref": "#/definitions/patterns/ipv4CIDR"}
@@ -37,13 +53,13 @@
         ]
       },
       "ipv6Array": {
-        "oneOf": [
+        "anyOf": [
           {"type": "array", "items": {"$ref": "#/definitions/patterns/ipv6"}},
           {"$ref": "#/definitions/patterns/ipv6"}
         ]
       },
       "ipv6PortArray": {
-        "oneOf": [
+        "anyOf": [
           {
             "type": "array",
             "items": {"$ref": "#/definitions/patterns/ipv6Port"}
@@ -52,7 +68,7 @@
         ]
       },
       "ipv6CIDRArray": {
-        "oneOf": [
+        "anyOf": [
           {
             "type": "array",
             "items": {"$ref": "#/definitions/patterns/ipv6CIDR"}
@@ -61,33 +77,54 @@
         ]
       },
       "ipArray": {
-        "oneOf": [
+        "anyOf": [
           {"type": "array", "items": {"$ref": "#/definitions/patterns/ip"}},
           {"$ref": "#/definitions/patterns/ip"}
         ]
       },
       "ipPortArray": {
-        "oneOf": [
+        "anyOf": [
           {"type": "array", "items": {"$ref": "#/definitions/patterns/ipPort"}},
           {"$ref": "#/definitions/patterns/ipPort"}
         ]
       },
       "ipCIDRArray": {
-        "oneOf": [
+        "anyOf": [
           {"type": "array", "items": {"$ref": "#/definitions/patterns/ipCIDR"}},
           {"$ref": "#/definitions/patterns/ipCIDR"}
         ]
       },
       "serverArray": {
-        "oneOf": [
+        "anyOf": [
           {"type": "array", "items": {"$ref": "#/definitions/patterns/server"}},
           {"$ref": "#/definitions/patterns/server"}
         ]
       },
       "domainArray": {
-        "oneOf": [
+        "anyOf": [
           {"type": "array", "items": {"$ref": "#/definitions/patterns/domain"}},
           {"$ref": "#/definitions/patterns/domain"}
+        ]
+      },
+      "domainWildcardArray": {
+        "anyOf": [
+          {
+            "type": "array",
+            "items": {"$ref": "#/definitions/patterns/domainWildcard"}
+          },
+          {"$ref": "#/definitions/patterns/domainWildcard"}
+        ]
+      },
+      "urlArray": {
+        "anyOf": [
+          {"type": "array", "items": {"$ref": "#/definitions/patterns/url"}},
+          {"$ref": "#/definitions/patterns/url"}
+        ]
+      },
+      "ruleArray": {
+        "anyOf": [
+          {"type": "array", "items": {"$ref": "#/definitions/patterns/rule"}},
+          {"$ref": "#/definitions/patterns/rule"}
         ]
       }
     },
@@ -95,6 +132,10 @@
       "port": {
         "pattern": "^(?:[0-9]|[1-9][0-9]{1,3}|[1-5][0-9]{4}|6[0-5]{2}[0-3][0-5])$",
         "errorMessage": "无效的端口号(0~65535)"
+      },
+      "portRange": {
+        "pattern": "^(?:[0-9]|[1-9][0-9]{1,3}|[1-5][0-9]{4}|6[0-5]{2}[0-3][0-5])$|^([0-9]|[1-9][0-9]{1,3}|[1-5][0-9]{4}|6[0-5]{2}[0-3][0-5])-(?:[0-9]|[1-9][0-9]{1,3}|[1-5][0-9]{4}|6[0-5]{2}[0-3][0-5])$",
+        "errorMessage": "无效的端口范围(port 或 port1-port2)"
       },
       "ipv4": {
         "type": "string",
@@ -113,39 +154,39 @@
       },
       "ipv6": {
         "type": "string",
-        "pattern": "^(?:(?:(?:[A-F0-9]{1,4}:){6}|(?=(?:[A-F0-9]{0,4}:){0,6}(?:[0-9]{1,3}\\.){3}[0-9]{1,3}(?![:.\\w]))(([0-9A-F]{1,4}:){0,5}|:)((:[0-9A-F]{1,4}){1,5}:|:)|::(?:[A-F0-9]{1,4}:){5})(?:(?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)|(?:[A-F0-9]{1,4}:){7}[A-F0-9]{1,4}|(?=(?:[A-F0-9]{0,4}:){0,7}[A-F0-9]{0,4}(?![:.\\w]))(([0-9A-F]{1,4}:){1,7}|:)((:[0-9A-F]{1,4}){1,7}|:)|(?:[A-F0-9]{1,4}:){7}:|:(:[A-F0-9]{1,4}){7})(?![:.\\w])$",
+        "pattern": "^([0-9a-fA-F]{1,4}(?::[0-9a-fA-F]{1,4}){7}|::|:(?::[0-9a-fA-F]{1,4}){1,6}|[0-9a-fA-F]{1,4}:(?::[0-9a-fA-F]{1,4}){1,5}|(?:[0-9a-fA-F]{1,4}:){2}(?::[0-9a-fA-F]{1,4}){1,4}|(?:[0-9a-fA-F]{1,4}:){3}(?::[0-9a-fA-F]{1,4}){1,3}|(?:[0-9a-fA-F]{1,4}:){4}(?::[0-9a-fA-F]{1,4}){1,2}|(?:[0-9a-fA-F]{1,4}:){5}:[0-9a-fA-F]{1,4}|(?:[0-9a-fA-F]{1,4}:){1,6}:)$",
         "errorMessage": "无效的IPv6地址"
       },
       "ipv6Port": {
         "type": "string",
-        "pattern": "^\\[(?:(?:(?:[A-F0-9]{1,4}:){6}|(?=(?:[A-F0-9]{0,4}:){0,6}(?:[0-9]{1,3}\\.){3}[0-9]{1,3}(?![:.\\w]))(([0-9A-F]{1,4}:){0,5}|:)((:[0-9A-F]{1,4}){1,5}:|:)|::(?:[A-F0-9]{1,4}:){5})(?:(?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)|(?:[A-F0-9]{1,4}:){7}[A-F0-9]{1,4}|(?=(?:[A-F0-9]{0,4}:){0,7}[A-F0-9]{0,4}(?![:.\\w]))(([0-9A-F]{1,4}:){1,7}|:)((:[0-9A-F]{1,4}){1,7}|:)|(?:[A-F0-9]{1,4}:){7}:|:(:[A-F0-9]{1,4}){7})(?![:.\\w])\\]:(?:[0-9]|[1-9][0-9]{1,3}|[1-5][0-9]{4}|6[0-5]{2}[0-3][0-5])$",
+        "pattern": "^\\[([0-9a-fA-F]{1,4}(?::[0-9a-fA-F]{1,4}){7}|::|:(?::[0-9a-fA-F]{1,4}){1,6}|[0-9a-fA-F]{1,4}:(?::[0-9a-fA-F]{1,4}){1,5}|(?:[0-9a-fA-F]{1,4}:){2}(?::[0-9a-fA-F]{1,4}){1,4}|(?:[0-9a-fA-F]{1,4}:){3}(?::[0-9a-fA-F]{1,4}){1,3}|(?:[0-9a-fA-F]{1,4}:){4}(?::[0-9a-fA-F]{1,4}){1,2}|(?:[0-9a-fA-F]{1,4}:){5}:[0-9a-fA-F]{1,4}|(?:[0-9a-fA-F]{1,4}:){1,6}:)\\]:(?:[0-9]|[1-9][0-9]{1,3}|[1-5][0-9]{4}|6[0-5]{2}[0-3][0-5])$",
         "errorMessage": "无效的IPv6地址:端口"
       },
       "ipv6CIDR": {
         "type": "string",
-        "pattern": "^(?:(?:(?:[A-F0-9]{1,4}:){6}|(?=(?:[A-F0-9]{0,4}:){0,6}(?:[0-9]{1,3}\\.){3}[0-9]{1,3}(?![:.\\w]))(([0-9A-F]{1,4}:){0,5}|:)((:[0-9A-F]{1,4}){1,5}:|:)|::(?:[A-F0-9]{1,4}:){5})(?:(?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)|(?:[A-F0-9]{1,4}:){7}[A-F0-9]{1,4}|(?=(?:[A-F0-9]{0,4}:){0,7}[A-F0-9]{0,4}(?![:.\\w]))(([0-9A-F]{1,4}:){1,7}|:)((:[0-9A-F]{1,4}){1,7}|:)|(?:[A-F0-9]{1,4}:){7}:|:(:[A-F0-9]{1,4}){7})(?![:.\\w])\\/(?:12[0-8]|1[01][0-9]|[1-9]?[0-9])$",
+        "pattern": "^([0-9a-fA-F]{1,4}(?::[0-9a-fA-F]{1,4}){7}|::|:(?::[0-9a-fA-F]{1,4}){1,6}|[0-9a-fA-F]{1,4}:(?::[0-9a-fA-F]{1,4}){1,5}|(?:[0-9a-fA-F]{1,4}:){2}(?::[0-9a-fA-F]{1,4}){1,4}|(?:[0-9a-fA-F]{1,4}:){3}(?::[0-9a-fA-F]{1,4}){1,3}|(?:[0-9a-fA-F]{1,4}:){4}(?::[0-9a-fA-F]{1,4}){1,2}|(?:[0-9a-fA-F]{1,4}:){5}:[0-9a-fA-F]{1,4}|(?:[0-9a-fA-F]{1,4}:){1,6}:)\\/(?:12[0-8]|1[01][0-9]|[1-9]?[0-9])$",
         "errorMessage": "无效的IPv6网段"
       },
       "ip": {
-        "oneOf": [
+        "anyOf": [
           {"$ref": "#/definitions/patterns/ipv4"},
           {"$ref": "#/definitions/patterns/ipv6"}
         ]
       },
       "ipPort": {
-        "oneOf": [
+        "anyOf": [
           {"$ref": "#/definitions/patterns/ipv4Port"},
           {"$ref": "#/definitions/patterns/ipv6Port"}
         ]
       },
       "ipCIDR": {
-        "oneOf": [
+        "anyOf": [
           {"$ref": "#/definitions/patterns/ipv4CIDR"},
           {"$ref": "#/definitions/patterns/ipv6CIDR"}
         ]
       },
       "server": {
-        "oneOf": [
+        "anyOf": [
           {"$ref": "#/definitions/patterns/ipv4"},
           {"$ref": "#/definitions/patterns/ipv4Port"},
           {"$ref": "#/definitions/patterns/ipv6"},
@@ -156,6 +197,11 @@
         "type": "string",
         "pattern": "^(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?\\.)+[a-zA-Z]{2,}$",
         "errorMessage": "无效的域名"
+      },
+      "domainWildcard": {
+        "type": "string",
+        "pattern": "^(?:[\\.\\+]?[a-zA-Z0-9\\*\\.](?:[a-zA-Z0-9-\\*]{0,61})?\\.?)+$",
+        "errorMessage": "无效的域名通配"
       },
       "url": {
         "type": "string",
@@ -281,8 +327,8 @@
   "properties": {
     "port": {
       "description": "HTTP(S) 代理服务器端口",
-      "markdownDescription": "HTTP(S) 代理服务器端口`code`",
-      "$ref": "#/definitions/types/ipv4CIDRArray"
+      "markdownDescription": "HTTP(S) 代理服务器端口",
+      "$ref": "#/definitions/patterns/port"
     },
     "socks-port": {
       "description": "SOCKS 代理端口",
@@ -416,279 +462,9 @@
       "description": "配置策略组出站时附带路由标记(仅用于 Linux)",
       "default": 15
     },
-    "experimental": {
-      "type": "object",
-      "description": "实验性内容",
-      "definitions": {
-        "types": {"$ref": "#/definitions/types"},
-        "patterns": {"$ref": "#/definitions/patterns"}
-      },
-      "properties": {
-        "quic-go-disable-gso": {
-          "type": "boolean",
-          "description": "quic-go禁用GSO(可能会使Linux平台性能下降)"
-        },
-        "quic-go-disable-ecn": {
-          "type": "boolean",
-          "description": "quic-go禁用ECN"
-        },
-        "dialer-ip4p-convert": {
-          "type": "boolean",
-          "description": "启用IP4P地址转换"
-        }
-      }
-    },
     "hosts": {
       "description": "自定义hosts(仅支持配置单个IP)",
       "$ref": "#/definitions/types/stringArray"
-    },
-    "profile": {
-      "type": "object",
-      "description": "缓存",
-      "definitions": {
-        "types": {"$ref": "#/definitions/types"},
-        "patterns": {"$ref": "#/definitions/patterns"}
-      },
-      "properties": {
-        "store-selected": {
-          "type": "boolean",
-          "description": "缓存策略组的选择,以供下次启动时使用",
-          "default": true
-        },
-        "store-fake-ip": {
-          "type": "boolean",
-          "description": "缓存fakeip映射表,域名再次发生连接时,使用原有映射地址",
-          "default": true
-        }
-      }
-    },
-    "tun": {
-      "type": "object",
-      "description": "TUN配置",
-      "definitions": {
-        "types": {"$ref": "#/definitions/types"},
-        "patterns": {"$ref": "#/definitions/patterns"}
-      },
-      "properties": {
-        "enable": {
-          "type": "boolean",
-          "description": "启用TUN模式",
-          "default": false
-        },
-        "stack": {
-          "type": "string",
-          "description": "TUN模式堆栈",
-          "enum": ["system", "gvisor", "mixed"],
-          "default": "system"
-        },
-        "dns-hijack": {
-          "description": "DNS劫持列表",
-          "$ref": "#/definitions/types/stringArray"
-        },
-        "auto-detect-interface": {
-          "type": "boolean",
-          "description": "自动识别出口网卡",
-          "default": true
-        },
-        "auto-route": {
-          "type": "boolean",
-          "description": "自动配置路由表",
-          "default": true
-        },
-        "mtu": {
-          "type": "integer",
-          "description": "最大传输单元",
-          "default": 9000
-        },
-        "gso": {
-          "type": "boolean",
-          "description": "启用通用分段卸载(仅支持Linux)",
-          "default": false
-        },
-        "gso-max-size": {
-          "type": "integer",
-          "description": "通用分段卸载包的最大大小",
-          "default": 65536
-        },
-        "strict-route": {
-          "type": "boolean",
-          "description": "将所有连接路由到TUN来防止泄漏,但你的设备将无法其他设备被访问",
-          "default": true
-        },
-        "inet4-route-address": {
-          "description": "启用auto-route时,指定使用自定义路由而不是默认路由的IPV4地址",
-          "$ref": "#/definitions/types/stringArray"
-        },
-        "inet6-route-address": {
-          "description": "启用auto-route时,指定使用自定义路由而不是默认路由的IPV5地址",
-          "$ref": "#/definitions/types/stringArray"
-        },
-        "endpoint-independent-nat": {
-          "type": "boolean",
-          "description": "启用独立于端点的 NAT",
-          "default": false
-        },
-        "include-interface": {
-          "type": "string",
-          "description": "限制被路由的接口(与exclude-interface冲突)"
-        },
-        "exclude-interface": {
-          "type": "string",
-          "description": "排除被路由的接口(与include-interface冲突)"
-        },
-        "include-uid": {
-          "description": "包含被路由的Linux用户,使其被Tun路由流量(需要启用auto-route)",
-          "$ref": "#/definitions/types/stringArray"
-        },
-        "include-uid-range": {
-          "description": "限制被路由的的Linux用户范围",
-          "$ref": "#/definitions/types/stringArray"
-        },
-        "exclude-uid": {
-          "description": "排除被路由的Linux用户,使其不被Tun路由流量(需要启用auto-route)",
-          "$ref": "#/definitions/types/stringArray"
-        },
-        "exclude-uid-range": {
-          "description": "排除被路由的的Linux用户范围",
-          "$ref": "#/definitions/types/stringArray"
-        },
-        "include-android-user": {
-          "description": "限制被路由的Android用户",
-          "$ref": "#/definitions/types/stringArray"
-        },
-        "include-package": {
-          "description": "限制被路由的Android应用包名",
-          "$ref": "#/definitions/types/stringArray"
-        },
-        "exclude-package": {
-          "description": "排除被路由的Android应用包名",
-          "$ref": "#/definitions/types/stringArray"
-        }
-      }
-    },
-    "ebpf": {
-      "type": "object",
-      "description": "eBPF配置",
-      "definitions": {
-        "types": {"$ref": "#/definitions/types"},
-        "patterns": {"$ref": "#/definitions/patterns"}
-      },
-      "properties": {
-        "auto-redir": {
-          "description": "自动重定向,redirect模式(仅支持TCP)",
-          "$ref": "#/definitions/types/stringArray"
-        },
-        "redirect-to-tun": {
-          "type": "boolean",
-          "description": "重定向到TUN(UDP+TCP使用该功能请勿启用)"
-        },
-        "auto-route": {
-          "description": "自动路由",
-          "$ref": "#/definitions/types/stringArray"
-        }
-      }
-    },
-    "sniffer": {
-      "type": "object",
-      "description": "域名嗅探",
-      "definitions": {
-        "types": {"$ref": "#/definitions/types"},
-        "patterns": {"$ref": "#/definitions/patterns"}
-      },
-      "properties": {
-        "enable": {
-          "type": "boolean",
-          "description": "启用域名嗅探",
-          "default": false
-        },
-        "force-dns-mapping": {
-          "type": "boolean",
-          "description": "对redir-host类型识别的流量进行强制嗅探",
-          "default": false
-        },
-        "parse-pure-ip": {
-          "type": "boolean",
-          "description": "对所有未获取到域名的流量进行强制嗅探",
-          "default": false
-        },
-        "override-destination": {
-          "type": "boolean",
-          "description": "是否使用嗅探结果作为实际访问(全局配置,优先级低于sniffer.sniff中的配置)",
-          "default": true
-        },
-        "sniff": {
-          "type": "object",
-          "description": "域名嗅探配置",
-          "properties": {
-            "QUIC": {
-              "type": "object",
-              "properties": {
-                "ports": {
-                  "type": "array",
-                  "description": "嗅探端口列表",
-                  "items": {"type": "integer", "minimum": 0, "maximum": 65535},
-                  "default": [443]
-                }
-              }
-            },
-            "TLS": {
-              "type": "object",
-              "properties": {
-                "ports": {
-                  "type": "array",
-                  "description": "嗅探端口列表",
-                  "items": {"type": "integer", "minimum": 0, "maximum": 65535},
-                  "default": [443]
-                }
-              }
-            },
-            "HTTP": {
-              "type": "object",
-              "properties": {
-                "ports": {
-                  "type": "array",
-                  "description": "嗅探端口列表",
-                  "items": {"type": "integer", "minimum": 0, "maximum": 65535},
-                  "default": [80]
-                },
-                "override-destination": {
-                  "type": "boolean",
-                  "description": "可覆盖",
-                  "default": true
-                }
-              }
-            }
-          }
-        },
-        "force-domain": {
-          "description": "需要强制嗅探的域名(默认情况下只对IP进行嗅探)",
-          "$ref": "#/definitions/types/stringArray"
-        },
-        "skip-domain": {
-          "description": "需要跳过嗅探的域名",
-          "$ref": "#/definitions/types/stringArray"
-        }
-      }
-    },
-    "tunnels": {
-      "type": "array",
-      "items": {
-        "anyOf": [
-          {"type": "string", "pattern": "^.+,.+,.+,.+$"},
-          {
-            "type": "object",
-            "properties": {
-              "network": {
-                "type": "array",
-                "items": {"type": "string", "enum": ["tcp", "udp"]}
-              },
-              "address": {"type": "string"},
-              "target": {"type": "string"},
-              "proxy": {"type": "string"}
-            }
-          }
-        ]
-      }
     },
     "dns": {
       "type": "object",
@@ -795,7 +571,11 @@
         },
         "enhanced-mode": {
           "enum": ["normal", "fake-ip", "redir-host"],
-          "enumDescriptions": ["普通模式", "fake-ip模式", "redir-host模式"],
+          "markdownEnumDescriptions": [
+            "普通模式",
+            "fake-ip模式",
+            "redir-host模式"
+          ],
           "title": "增强模式",
           "description": "DNS处理模式",
           "markdownDescription": "DNS处理模式",
@@ -828,7 +608,7 @@
         },
         "cache-algorithm": {
           "enum": ["lru", "arc"],
-          "enumDescriptions": ["最近最少使用", "自适应替换缓存"],
+          "markdownEnumDescriptions": ["最近最少使用", "自适应替换缓存"],
           "title": "缓存算法",
           "description": "lru: Least Recently Used, arc: Adaptive Replacement Cache",
           "markdownDescription": "`lru`: Least Recently Used, `arc`: Adaptive Replacement Cache",
@@ -847,6 +627,434 @@
           "description": "用于解析代理节点的域名",
           "markdownDescription": "用于解析代理节点的域名"
         }
+      }
+    },
+    "ebpf": {
+      "type": "object",
+      "description": "eBPF配置",
+      "definitions": {
+        "types": {"$ref": "#/definitions/types"},
+        "patterns": {"$ref": "#/definitions/patterns"}
+      },
+      "properties": {
+        "redirect-to-tun": {
+          "$ref": "#/definitions/types/stringArray",
+          "title": "重定向到TUN",
+          "description": "支持TCP+UDP(使用该功能请勿启用auto-route)",
+          "markdownDescription": "支持TCP+UDP(使用该功能请勿启用`auto-route`)"
+        },
+        "auto-redir": {
+          "$ref": "#/definitions/types/stringArray",
+          "title": "redirect模式",
+          "description": "仅支持TCP",
+          "markdownDescription": "仅支持TCP"
+        }
+      }
+    },
+    "experimental": {
+      "type": "object",
+      "description": "实验性配置",
+      "definitions": {
+        "types": {"$ref": "#/definitions/types"},
+        "patterns": {"$ref": "#/definitions/patterns"}
+      },
+      "properties": {
+        "fingerprints": {
+          "$ref": "#/definitions/types/stringArray",
+          "title": "已弃用",
+          "description": "已弃用",
+          "markdownDescription": "已弃用",
+          "deprecationMessage": "已弃用"
+        },
+        "quic-go-disable-gso": {
+          "type": "boolean",
+          "title": "quic-go禁用GSO",
+          "description": "quic禁用GSO(Generic Segmentation Offload)通用分段卸载,可能会导致Linux平台上的性能下降(等价于环境变量QUIC_GO_DISABLE_GSO=1)",
+          "markdownDescription": "quic禁用`GSO`(Generic Segmentation Offload)通用分段卸载,可能会导致Linux平台上的性能下降(等价于环境变量`QUIC_GO_DISABLE_GSO=1`)",
+          "default": false
+        },
+        "quic-go-disable-ecn": {
+          "type": "boolean",
+          "title": "quic-go禁用ECN",
+          "description": "quic禁用ECN(Explicit Congestion Notification)显式拥塞通知(等价于环境变量QUIC_GO_DISABLE_ECN=1)",
+          "markdownDescription": "quic禁用`ECN`(Explicit Congestion Notification)显式拥塞通知(等价于环境变量QUIC_GO_DISABLE_ECN=1)",
+          "default": false
+        },
+        "dialer-ip4p-convert": {
+          "type": "boolean",
+          "title": "启用IP4P地址转换",
+          "description": "NATMap可以打通运营商完全锥型NAT网关的端口,使得通过运营商网关的公网IP:端口能够访问到用户内网的服务。",
+          "markdownDescription": "`NATMap`可以打通运营商完全锥型NAT网关的端口,使得通过运营商网关的公网IP:端口能够访问到用户内网的服务。",
+          "default": false
+        }
+      }
+    },
+    "profile": {
+      "type": "object",
+      "description": "缓存配置",
+      "definitions": {
+        "types": {"$ref": "#/definitions/types"},
+        "patterns": {"$ref": "#/definitions/patterns"}
+      },
+      "properties": {
+        "store-selected": {
+          "type": "boolean",
+          "title": "持久化策略组的选择",
+          "description": "缓存对策略组的选择,以供下次启动时使用",
+          "markdownDescription": "缓存对策略组的选择,以供下次启动时使用",
+          "default": true
+        },
+        "store-fake-ip": {
+          "type": "boolean",
+          "title": "持久化缓存fakeip映射表",
+          "description": "缓存fakeip映射表,域名再次发生连接时,使用原有映射地址",
+          "markdownDescription": "缓存`fakeip`映射表,域名再次发生连接时,使用原有映射地址",
+          "default": false
+        }
+      }
+    },
+    "sniffer": {
+      "type": "object",
+      "description": "域名嗅探配置",
+      "definitions": {
+        "types": {"$ref": "#/definitions/types"},
+        "patterns": {"$ref": "#/definitions/patterns"}
+      },
+      "properties": {
+        "enable": {
+          "type": "boolean",
+          "title": "启用域名嗅探",
+          "description": "Clash使用Mapping机制解决透明代理情况下,无法通过Redir端口传递域名的问题。但此机制会导致如果不使用Clash内置的DNS解析服务,就无法准确还原域名,进行域名分流的问题。Meta内置了Sniffer域名嗅器,通过读取握手包内的域名字段,将IP还原成域名,有效解决Mapping机制的短板。",
+          "markdownDescription": "Clash使用Mapping机制解决透明代理情况下,无法通过Redir端口传递域名的问题。但此机制会导致如果不使用Clash内置的DNS解析服务,就无法准确还原域名,进行域名分流的问题。Meta内置了Sniffer域名嗅器,通过读取握手包内的域名字段,将IP还原成域名,有效解决Mapping机制的短板。",
+          "default": false
+        },
+        "override-destination": {
+          "type": "boolean",
+          "title": "启用嗅探结果作为实际访问",
+          "description": "全局配置,优先级低于sniffer.sniff中的配置",
+          "markdownDescription": "全局配置,优先级低于`sniffer.sniff`中的配置",
+          "default": true
+        },
+        "force-domain": {
+          "$ref": "#/definitions/types/domainWildcardArray",
+          "title": "需要强制嗅探的域名",
+          "description": "默认情况下只对IP进行嗅探",
+          "markdownDescription": "默认情况下只对IP进行嗅探"
+        },
+        "skip-domain": {
+          "$ref": "#/definitions/types/domainWildcardArray",
+          "title": "需要跳过嗅探的域名",
+          "description": "默认情况下只对IP进行嗅探",
+          "markdownDescription": "默认情况下只对IP进行嗅探"
+        },
+        "sniffing": {
+          "$ref": "#/definitions/types/stringArray",
+          "title": "限制嗅探类型范围",
+          "description": "支持TLS,HTTP,QUIC",
+          "markdownDescription": "支持`TLS`,`HTTP`,`QUIC`",
+          "deprecationMessage": "推荐使用sniff"
+        },
+        "port-whitelist": {
+          "$ref": "#/definitions/types/portRangeArray",
+          "title": "限制嗅探端口范围",
+          "description": "要求搭配sniffing使用(格式:80 或 80-88)",
+          "markdownDescription": "要求搭配`sniffing`使用(格式:`80` 或 `80-88`)",
+          "deprecationMessage": "推荐使用sniff"
+        },
+        "force-dns-mapping": {
+          "type": "boolean",
+          "title": "启用redir-host强制嗅探",
+          "description": "对redir-host类型识别的流量进行强制嗅探",
+          "markdownDescription": "对`redir-host`类型识别的流量进行强制嗅探",
+          "default": true
+        },
+        "parse-pure-ip": {
+          "type": "boolean",
+          "title": "启用未获取到域名强制嗅探",
+          "description": "对所有未获取到域名的流量进行强制嗅探",
+          "markdownDescription": "对所有未获取到域名的流量进行强制嗅探",
+          "default": true
+        },
+        "sniff": {
+          "type": "object",
+          "description": "域名嗅探规则",
+          "properties": {
+            "TLS": {
+              "type": "object",
+              "properties": {
+                "ports": {
+                  "$ref": "#/definitions/types/portRangeArray",
+                  "description": "嗅探端口列表"
+                },
+                "override-destination": {
+                  "type": "boolean",
+                  "title": "启用嗅探结果作为实际访问"
+                }
+              }
+            },
+            "HTTP": {
+              "type": "object",
+              "properties": {
+                "ports": {
+                  "$ref": "#/definitions/types/portArray",
+                  "description": "嗅探端口列表"
+                },
+                "override-destination": {
+                  "type": "boolean",
+                  "title": "启用嗅探结果作为实际访问"
+                }
+              }
+            },
+            "QUIC": {
+              "type": "object",
+              "properties": {
+                "ports": {
+                  "$ref": "#/definitions/types/portRangeArray",
+                  "description": "嗅探端口列表"
+                },
+                "override-destination": {
+                  "type": "boolean",
+                  "title": "启用嗅探结果作为实际访问"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "tun": {
+      "type": "object",
+      "description": "TUN配置",
+      "definitions": {
+        "types": {"$ref": "#/definitions/types"},
+        "patterns": {"$ref": "#/definitions/patterns"}
+      },
+      "properties": {
+        "enable": {
+          "type": "boolean",
+          "title": "启用TUN模式",
+          "description": "启用TUN模式",
+          "markdownDescription": "启用`TUN`模式",
+          "default": false
+        },
+        "device": {
+          "type": "string",
+          "title": "指定tun网卡名称",
+          "description": "指定tun网卡名称(macOS强制为utun)",
+          "markdownDescription": "指定tun网卡名称(macOS强制为`utun`)"
+        },
+        "stack": {
+          "type": "string",
+          "title": "TUN模式堆栈",
+          "enum": ["system", "gvisor", "mixed"],
+          "markdownEnumDescriptions": [
+            "可以提供更稳定/全面的tun体验,且占用相对其他堆栈更低",
+            "通过在用户空间中实现网络协议栈,可以提供更高的安全性和隔离性,同时可以避免操作系统内核和用户空间之间的切换,从而在特定情况下具有更好的网络处理性能",
+            "混合堆栈,tcp使用`system`栈,udp使用`gvisor`栈,使用体验可能相对更好"
+          ],
+          "description": "如无使用问题,建议使用mixed(默认gvisor)",
+          "markdownDescription": "如无使用问题,建议使用`mixed`(默认`gvisor`)",
+          "default": "gvisor"
+        },
+        "dns-hijack": {
+          "$ref": "#/definitions/types/stringArray",
+          "title": "DNS劫持",
+          "description": "一般设置为any:53即可,即劫持所有53端口的udp流量",
+          "markdownDescription": "一般设置为`any:53`即可,即劫持所有53端口的udp流量",
+          "default": ["0.0.0.0:53"]
+        },
+        "auto-route": {
+          "type": "boolean",
+          "title": "自动设置全局路由",
+          "description": "可以自动将全局流量路由进入tun网卡",
+          "markdownDescription": "可以自动将全局流量路由进入`tun`网卡",
+          "default": true
+        },
+        "auto-detect-interface": {
+          "type": "boolean",
+          "title": "自动选择流量出口接口",
+          "description": "多出口网卡同时连接的设备建议手动指定出口网卡",
+          "markdownDescription": "多出口网卡同时连接的设备建议手动指定出口网卡",
+          "default": true
+        },
+        "redirect-to-tun": {
+          "$ref": "#/definitions/types/stringArray",
+          "title": "重定向到TUN",
+          "description": "支持TCP+UDP(使用该功能请勿启用auto-route)",
+          "markdownDescription": "支持TCP+UDP(使用该功能请勿启用`auto-route`)",
+          "deprecationMessage": "已弃用(转移到eBPF配置)"
+        },
+        "mtu": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 65534,
+          "title": "最大传输单元",
+          "description": "会影响极限状态下的速率,一般用户默认即可",
+          "markdownDescription": "会影响极限状态下的速率,一般用户默认即可",
+          "default": 9000
+        },
+        "gso": {
+          "type": "boolean",
+          "title": "启用通用分段卸载",
+          "description": "仅支持Linux",
+          "markdownDescription": "仅支持Linux",
+          "default": false
+        },
+        "gso-max-size": {
+          "type": "integer",
+          "title": "通用分段卸载包的最大大小",
+          "description": "通用分段卸载包的最大大小",
+          "markdownDescription": "通用分段卸载包的最大大小",
+          "default": 65536
+        },
+        "inet4-address": {
+          "$ref": "#/definitions/types/ipv4CIDRArray",
+          "title": "已弃用",
+          "description": "已弃用",
+          "markdownDescription": "已弃用",
+          "deprecationMessage": "已弃用"
+        },
+        "inet6-address": {
+          "$ref": "#/definitions/types/ipv6CIDRArray",
+          "title": "已弃用",
+          "description": "已弃用",
+          "markdownDescription": "已弃用",
+          "deprecationMessage": "已弃用"
+        },
+        "strict-route": {
+          "type": "boolean",
+          "title": "严格路由",
+          "description": "它可以防止地址泄漏,并使DNS劫持在Android和使用systemd-resolved的Linux上工作,但你的设备将无法被其他设备访问",
+          "markdownDescription": "它可以防止地址泄漏,并使DNS劫持在Android和使用systemd-resolved的Linux上工作,但你的设备将无法被其他设备访问",
+          "default": false
+        },
+        "inet4-route-address": {
+          "$ref": "#/definitions/types/ipv4CIDRArray",
+          "title": "启用auto-route时,指定这些IPV4网段使用自定义路由",
+          "description": "启用auto-route时,指定这些IPV4网段使用自定义路由",
+          "markdownDescription": "启用`auto-route`时,指定这些IPV4网段使用自定义路由"
+        },
+        "inet6-route-address": {
+          "$ref": "#/definitions/types/ipv6CIDRArray",
+          "title": "启用auto-route时,指定这些IPV6网段使用自定义路由",
+          "description": "启用auto-route时,指定这些IPV6网段使用自定义路由",
+          "markdownDescription": "启用`auto-route`时,指定这些IPV6网段使用自定义路由"
+        },
+        "inet4-route-exclude-address": {
+          "$ref": "#/definitions/types/ipv4CIDRArray",
+          "title": "启用auto-route时,指定这些IPV4网段使用默认路由",
+          "description": "启用auto-route时,指定这些IPV4网段使用默认路由",
+          "markdownDescription": "启用`auto-route`时,指定这些IPV4网段使用默认路由"
+        },
+        "inet6-route-exclude-address": {
+          "$ref": "#/definitions/types/ipv6CIDRArray",
+          "title": "启用auto-route时,指定这些IPV6网段使用默认路由",
+          "description": "启用auto-route时,指定这些IPV6网段使用默认路由",
+          "markdownDescription": "启用`auto-route`时,指定这些IPV6网段使用默认路由"
+        },
+        "include-interface": {
+          "$ref": "#/definitions/types/stringArray",
+          "title": "包含被路由的接口",
+          "description": "与exclude-interface冲突",
+          "markdownDescription": "与`exclude-interface`冲突"
+        },
+        "exclude-interface": {
+          "$ref": "#/definitions/types/stringArray",
+          "title": "排除被路由的接口",
+          "description": "与include-interface冲突",
+          "markdownDescription": "与`include-interface`冲突"
+        },
+        "include-uid": {
+          "$ref": "#/definitions/types/stringArray",
+          "title": "包含被路由的Linux用户",
+          "description": "使其被Tun路由流量(需要启用auto-route)",
+          "markdownDescription": "使其被Tun路由流量(需要启用`auto-route`)"
+        },
+        "include-uid-range": {
+          "type": "array",
+          "items": [{"pattern": "^\\d(+:\\d+)?$", "errorMessage": "uid1:uid2"}],
+          "title": "包含被路由的Linux用户范围",
+          "description": "使其被Tun路由流量",
+          "markdownDescription": "使其被Tun路由流量(需要启用`auto-route`)"
+        },
+        "exclude-uid": {
+          "$ref": "#/definitions/types/stringArray",
+          "title": "排除被路由的Linux用户",
+          "description": "使其避免被Tun路由流量",
+          "markdownDescription": "使其避免被Tun路由流量"
+        },
+        "exclude-uid-range": {
+          "type": "array",
+          "items": [{"pattern": "^\\d(+:\\d+)?$", "errorMessage": "uid1:uid2"}],
+          "title": "排除被路由的Linux用户范围",
+          "description": "使其不被Tun路由流量",
+          "markdownDescription": "使其不被Tun路由流量"
+        },
+        "include-android-user": {
+          "$ref": "#/definitions/types/stringArray",
+          "title": "包含被路由的Android用户",
+          "description": "使其被Tun路由流量(需要启用auto-route)",
+          "markdownDescription": "使其被Tun路由流量(需要启用`auto-route`)"
+        },
+        "include-package": {
+          "$ref": "#/definitions/types/stringArray",
+          "title": "包含被路由的Android应用包名",
+          "description": "使其被Tun路由流量(需要启用auto-route)",
+          "markdownDescription": "使其被Tun路由流量(需要启用`auto-route`)"
+        },
+        "exclude-package": {
+          "$ref": "#/definitions/types/stringArray",
+          "title": "排除被路由的Android应用包名",
+          "description": "使其避免被Tun路由流量",
+          "markdownDescription": "使其避免被Tun路由流量"
+        },
+        "endpoint-independent-nat": {
+          "type": "boolean",
+          "title": "启用独立于端点的NAT",
+          "description": "性能可能会略有下降,不建议在不需要的时候开启",
+          "markdownDescription": "性能可能会略有下降,不建议在不需要的时候开启",
+          "default": false
+        },
+        "udp-timeout": {
+          "type": "integer",
+          "title": "UDP NAT过期时间",
+          "description": "单位:s",
+          "markdownDescription": "单位:s",
+          "default": 300
+        },
+        "file-descriptor": {
+          "type": "integer",
+          "title": "文件描述符",
+          "description": "绑定到文件描述符对应设备接口(Unix-like系统)",
+          "markdownDescription": "绑定到文件描述符对应设备接口(Unix-like系统)"
+        },
+        "table-index": {
+          "type": "integer",
+          "title": "使用的路由表索引",
+          "description": "docker子系统限制最高1023",
+          "markdownDescription": "docker子系统限制最高1023",
+          "default": 2022
+        }
+      }
+    },
+    "tunnels": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {"type": "string", "pattern": "^.+,.+,.+,.+$"},
+          {
+            "type": "object",
+            "properties": {
+              "network": {
+                "type": "array",
+                "items": {"type": "string", "enum": ["tcp", "udp"]}
+              },
+              "address": {"type": "string"},
+              "target": {"type": "string"},
+              "proxy": {"type": "string"}
+            }
+          }
+        ]
       }
     },
     "proxies": {

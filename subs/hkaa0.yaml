@@ -38,13 +38,19 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': 'TG频道:@hkaa0|美国', 'server': 'fcdn.flha.ru', 'port': 2095, 'type': 'vmess', 'uuid': '7a737f41-b792-4260-94ff-3d864da67b80', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'fcdn.flha.ru'}}, 'udp': true}
-- {'name': 'TG频道:@hkaa0|中国', 'server': '119.23.104.213', 'port': 8474, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'a501c82c72d790b8', 'udp': true}
-- {'name': 'TG频道:@hkaa0|英属维尔京群岛', 'server': '89.39.161.122', 'port': 8080, 'type': 'vmess', 'uuid': 'bdd22841-c4d2-4aa8-acf2-95aa9125f159', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/'}, 'udp': true}
 - {'name': 'TG频道:@hkaa0|加拿大', 'server': '158.51.123.111', 'port': 443, 'type': 'vmess', 'uuid': '03fcc618-b93d-6796-6aed-8a38c975d581', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/linkvws'}, 'udp': true}
-- {'name': 'TG频道:@hkaa0|美国 2', 'server': 'speed.cloudflare.com', 'port': 8880, 'type': 'vmess', 'uuid': '03fcc618-b93d-6796-6aed-8a38c975d581', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/nina.bond/linkvws', 'headers': {'Host': 'nd-truth-210a8hwjhs.bonar11011.workers.dev'}}, 'udp': true}
+- {'name': 'TG频道:@hkaa0|美国', 'server': '172.67.223.242', 'port': 2086, 'type': 'vmess', 'uuid': 'e690ff9e-1676-4be3-d136-dcae586cb1e7', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'mizban.arzonhost.ir'}}, 'udp': true}
+- {'name': 'TG频道:@hkaa0|加拿大 2', 'server': '158.51.121.36', 'port': 443, 'type': 'vmess', 'uuid': '03fcc618-b93d-6796-6aed-8a38c975d581', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/linkvws'}, 'udp': true}
 - {'name': 'TG频道:@hkaa0|德意志联邦共和国', 'server': '23.158.56.60', 'port': 443, 'type': 'vmess', 'uuid': '03fcc618-b93d-6796-6aed-8a38c975d581', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/linkvws'}, 'udp': true}
-- {'name': 'TG频道:@hkaa0|德意志联邦共和国 2', 'server': '23.158.56.229', 'port': 443, 'type': 'vmess', 'uuid': '03fcc618-b93d-6796-6aed-8a38c975d581', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/linkvws'}, 'udp': true}
+- {'name': 'TG频道:@hkaa0|中国', 'server': 'nc.cm.xiaomi-api.xyz', 'port': 19593, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '2bfaafe5-d825-424e-bb6b-471c8f4daef3', 'udp': true}
+- {'name': 'TG频道:@hkaa0|中国 2', 'server': '119.23.104.213', 'port': 8474, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'a501c82c72d790b8', 'udp': true}
+- {'name': 'TG频道:@hkaa0|法国', 'server': 'fr01.freeflyingcloud.xyz', 'port': 30502, 'type': 'trojan', 'password': 'e68ecafd-6565-44e3-9de2-a37eb3234b62', 'sni': 'fr01.freeflyingcloud.xyz', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'TG频道:@hkaa0|英国', 'server': 'uk01.freeflyingcloud.xyz', 'port': 22252, 'type': 'trojan', 'password': '99c36038-8c1f-44cb-8463-c9c555e80b58', 'sni': 'uk01.freeflyingcloud.xyz', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'TG频道:@hkaa0|韩国', 'server': '103.214.68.57', 'port': 10001, 'type': 'vmess', 'uuid': 'ebca5f68-bf59-4081-e658-f158839c2f5c', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'TG频道:@hkaa0|俄罗斯联邦', 'server': 'ru01.freeflyingcloud.xyz', 'port': 30002, 'type': 'trojan', 'password': '25706894-07da-45cc-a119-6faa8e9cdd7b', 'sni': 'ru01.freeflyingcloud.xyz', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'TG频道:@hkaa0|美国 2', 'server': 'us219.netfilx.live', 'port': 80, 'type': 'vmess', 'uuid': '1e65ec6d-9a42-4cd0-8c51-63030970134f', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'us219.netfilx.live'}}, 'udp': true}
+- {'name': 'TG频道:@hkaa0|美国 3', 'server': '3.17.105.88', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'TG频道:@hkaa0|美国 4', 'server': 'admin.arzonhost.ir', 'port': 2086, 'type': 'vmess', 'uuid': '7d93e992-48cf-42d4-84f8-75768e815a4c', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'admin.arzonhost.ir'}}, 'udp': true}
 
 
 # 代理组

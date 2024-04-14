@@ -47,24 +47,6 @@ proxies:
 - {'name': 'Hys-1.2.3.4', 'type': 'hysteria', 'server': '1.2.3.4', 'port': 12854, 'sni': 'wechat.com', 'skip-cert-verify': true, 'alpn': ['h3'], 'protocol': 'udp', 'auth_str': 'pekopeko', 'up': 50, 'down': 250}
 - {'name': 'test', 'type': 'vless', 'server': '1.2.3.4', 'port': 7777, 'uuid': 'abc-def-ghi-fge-zsx', 'tls': true, 'network': 'tcp'}
 - {'name': 'defaultName_4', 'type': 'socks5', 'server': '1.2.3.4', 'port': 123, 'username': 'username', 'password': 'password'}
-- {'name': '🇨🇳_CN_中国->🇬🇧_GB_英国_1', 'type': 'vmess', 'server': '112.16.228.112', 'port': 41999, 'cipher': 'auto', 'uuid': '22212159-1be2-4c81-afbb-6203b6a51739', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'tcp'}
-- {'name': '🇺🇸_US_美国_1', 'type': 'trojan', 'server': '23.142.200.175', 'port': 443, 'udp': true, 'password': '27876_t7d7f4e3f', 'skip-cert-verify': true, 'network': 'tcp'}
-- {'name': '🇦🇪_AE_阿联酋->🇬🇧_GB_英国', 'type': 'vmess', 'server': '94.140.0.110', 'port': 8880, 'cipher': 'auto', 'uuid': '0d1bf26a-ce97-4707-a270-7f4d2ae37334', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'host': 'food.zhaal.ir'}}}
-- {'name': '🇺🇸_US_美国->🇹🇷_TR_土耳其', 'type': 'vmess', 'server': 'tu.mahilu.site', 'port': 2095, 'cipher': 'auto', 'uuid': '7a737f41-b792-4260-94ff-3d864da67b80', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'host': 'tu.mahilu.site'}}}
-- {'name': '🇺🇸_US_美国->🇬🇧_GB_英国', 'type': 'vmess', 'server': 'mizban.arzonhost.ir', 'port': 2086, 'cipher': 'auto', 'uuid': 'e690ff9e-1676-4be3-d136-dcae586cb1e7', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'host': 'mizban.arzonhost.ir'}}}
-- {'name': '🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦', 'type': 'trojan', 'server': '172.67.204.84', 'port': 443, 'udp': true, 'password': 'qj1Dz1CJmFQRhWr1SP80aA', 'sni': 'cdn-21.gsmxreality.com', 'skip-cert-verify': true, 'network': 'grpc', 'grpc-opts': {'grpc-service-name': '443trojan'}}
-- {'name': '🇫🇮_FI_芬兰', 'type': 'ss', 'server': '95.217.181.48', 'port': 443, 'password': 'Telegram-AlfredConfig-13', 'cipher': 'chacha20-ietf-poly1305'}
-- {'name': '🇺🇸_US_美国_2', 'type': 'vmess', 'server': 'cold-dawn-9246.fly.dev', 'port': 443, 'cipher': 'auto', 'uuid': 'ea4909ef-7ca6-4b46-bf2e-6c07896ef338', 'alterId': 0, 'tls': true, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm'}}
-- {'name': '🇺🇸_US_美国_3', 'type': 'trojan', 'server': 'us03.421421.xyz', 'port': 20230, 'udp': true, 'password': '2e660d96-f2d2-43c0-aa62-bf92edbac0cf', 'sni': 'us03.421421.xyz', 'skip-cert-verify': true, 'network': 'tcp'}
-- {'name': '🇨🇳_CN_中国->🇬🇧_GB_英国_2', 'type': 'vmess', 'server': '7569erzy.of08zo0-et55lpt-uk01.my777999.top', 'port': 41999, 'cipher': 'auto', 'uuid': '22212159-1be2-4c81-afbb-6203b6a51739', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'tcp'}
-- {'name': '🇷🇺_RU_俄罗斯联邦', 'type': 'ss', 'server': '46.226.162.112', 'port': 32913, 'password': 'KTwIQM1cQJwtkrjfld6Usn', 'cipher': 'chacha20-ietf-poly1305'}
-- {'name': '🇺🇸_US_美国_1_1', 'type': 'trojan', 'server': '95.164.33.62', 'port': 443, 'udp': true, 'password': '0b1371aa-649d-41dc-9126-338c87936500', 'sni': 'sourceforge.net', 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/websocket', 'headers': {'host': 'se1.trojanvpn.de'}}}
-- {'name': '🇺🇸_US_美国_2_1', 'type': 'vmess', 'server': 'cdn.vds-server.ir', 'port': 8880, 'cipher': 'auto', 'uuid': '0d1bf26a-ce97-4707-a270-7f4d2ae37334', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'host': 'cdn.vds-server.ir'}}}
-- {'name': '🇱🇺_LU_卢森堡', 'type': 'vmess', 'server': '78.111.102.232', 'port': 3389, 'cipher': 'auto', 'uuid': '9c050a86-d612-48f1-ec32-e573df08a1b7', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'http'}
-- {'name': '🇺🇸_US_美国->🇫🇷_FR_法国_1', 'type': 'vmess', 'server': '104.21.4.14', 'port': 2086, 'cipher': 'auto', 'uuid': '7d93e992-48cf-42d4-84f8-75768e815a4c', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'host': 'admin.arzonhost.ir'}}}
-- {'name': '🇺🇸_US_美国->🇫🇷_FR_法国_2', 'type': 'vmess', 'server': '104.18.25.92', 'port': 2052, 'cipher': 'auto', 'uuid': 'f584de15-2034-4170-a723-f48c2bae5e0f', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/afrhms16v.bestxray.buzz/linkws', 'headers': {'host': 'mysan2.jaquay22.workers.dev'}}}
-- {'name': '🇺🇸_US_美国_3_1', 'type': 'vmess', 'server': 'us219.netfilx.live', 'port': 80, 'cipher': 'auto', 'uuid': '1e65ec6d-9a42-4cd0-8c51-63030970134f', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'host': 'us219.netfilx.live'}}}
-- {'name': '🇺🇸_US_美国->🇫🇷_FR_法国_3', 'type': 'vmess', 'server': '172.67.223.242', 'port': 2086, 'cipher': 'auto', 'uuid': '7d93e992-48cf-42d4-84f8-75768e815a4c', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'host': 'admin.arzonhost.ir'}}}
 - {'name': '⚡️@DeamNet', 'server': '172.67.155.82', 'port': 443, 'type': 'vmess', 'uuid': '03fcc618-b93d-6796-6aed-8a38c975d581', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'servername': 'kristin.makeup', 'network': 'ws', 'ws-opts': {'path': '/linkvws', 'headers': {'Host': 'kristin.makeup'}}, 'udp': true}
 - {'name': '⚡️@DeamNet 2', 'server': '173.245.58.37', 'port': 443, 'type': 'vmess', 'uuid': '03fcc618-b93d-6796-6aed-8a38c975d581', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'servername': '7wih-darkness-f0af.jivegoh116.workers.dev', 'network': 'ws', 'ws-opts': {'path': '/nina.bond/linkvws', 'headers': {'Host': '7wih-darkness-f0af.jivegoh116.workers.dev'}}, 'udp': true}
 - {'name': '⚡️@DeamNet 🇧🇬Bulgaria', 'server': '147.78.140.30', 'port': 443, 'type': 'vmess', 'uuid': '03fcc618-b93d-6796-6aed-8a38c975d581', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'servername': 'd396-flower-d396.megare7260.workers.dev', 'network': 'ws', 'ws-opts': {'path': '/kellie.makeup/linkvws', 'headers': {'Host': 'd396-flower-d396.megare7260.workers.dev'}}, 'udp': true}
@@ -155,54 +137,24 @@ proxies:
 - {'name': '@DeamNet_🇺🇸United States 2', 'server': '38.75.136.135', 'port': 8881, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'kDWvXYZoTBcGkC4', 'udp': true}
 - {'name': '@DeamNet_🇺🇸United States 3', 'server': '38.75.136.135', 'port': 8008, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'XKFKl2rULjIp74', 'udp': true}
 - {'name': '@DeamNet_🇺🇸United States 4', 'server': '38.121.43.51', 'port': 2376, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'faBAoD54k87UJG7', 'udp': true}
+- {'name': '🇷🇺_RU_俄罗斯联邦', 'type': 'ss', 'server': '46.226.162.112', 'port': 32913, 'password': 'KTwIQM1cQJwtkrjfld6Usn', 'cipher': 'chacha20-ietf-poly1305'}
+- {'name': '🇺🇸_US_美国_1', 'type': 'trojan', 'server': '95.164.33.62', 'port': 443, 'udp': true, 'password': '0b1371aa-649d-41dc-9126-338c87936500', 'sni': 'sourceforge.net', 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/websocket', 'headers': {'host': 'se1.trojanvpn.de'}}}
+- {'name': '🇺🇸_US_美国_2', 'type': 'vmess', 'server': 'cdn.vds-server.ir', 'port': 8880, 'cipher': 'auto', 'uuid': '0d1bf26a-ce97-4707-a270-7f4d2ae37334', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'host': 'cdn.vds-server.ir'}}}
+- {'name': '🇨🇳_CN_中国->🇬🇧_GB_英国_1', 'type': 'vmess', 'server': '7569erzy.of08zo0-et55lpt-uk01.my777999.top', 'port': 41999, 'cipher': 'auto', 'uuid': '22212159-1be2-4c81-afbb-6203b6a51739', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '🇱🇺_LU_卢森堡', 'type': 'vmess', 'server': '78.111.102.232', 'port': 3389, 'cipher': 'auto', 'uuid': '9c050a86-d612-48f1-ec32-e573df08a1b7', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'http'}
+- {'name': '🇦🇪_AE_阿联酋->🇬🇧_GB_英国', 'type': 'vmess', 'server': '94.140.0.110', 'port': 8880, 'cipher': 'auto', 'uuid': '0d1bf26a-ce97-4707-a270-7f4d2ae37334', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'host': 'food.zhaal.ir'}}}
+- {'name': '🇨🇳_CN_中国->🇬🇧_GB_英国_2', 'type': 'vmess', 'server': '112.16.228.112', 'port': 41999, 'cipher': 'auto', 'uuid': '22212159-1be2-4c81-afbb-6203b6a51739', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '🇺🇸_US_美国->🇫🇷_FR_法国_1', 'type': 'vmess', 'server': '104.21.4.14', 'port': 2086, 'cipher': 'auto', 'uuid': '7d93e992-48cf-42d4-84f8-75768e815a4c', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'host': 'admin.arzonhost.ir'}}}
+- {'name': '🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦', 'type': 'trojan', 'server': '172.67.204.84', 'port': 443, 'udp': true, 'password': 'qj1Dz1CJmFQRhWr1SP80aA', 'sni': 'cdn-21.gsmxreality.com', 'skip-cert-verify': true, 'network': 'grpc', 'grpc-opts': {'grpc-service-name': '443trojan'}}
+- {'name': '🇺🇸_US_美国->🇫🇷_FR_法国_2', 'type': 'vmess', 'server': '104.18.25.92', 'port': 2052, 'cipher': 'auto', 'uuid': 'f584de15-2034-4170-a723-f48c2bae5e0f', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/afrhms16v.bestxray.buzz/linkws', 'headers': {'host': 'mysan2.jaquay22.workers.dev'}}}
+- {'name': '🇺🇸_US_美国_3', 'type': 'vmess', 'server': 'us219.netfilx.live', 'port': 80, 'cipher': 'auto', 'uuid': '1e65ec6d-9a42-4cd0-8c51-63030970134f', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'host': 'us219.netfilx.live'}}}
+- {'name': '🇺🇸_US_美国->🇫🇷_FR_法国_3', 'type': 'vmess', 'server': '172.67.223.242', 'port': 2086, 'cipher': 'auto', 'uuid': '7d93e992-48cf-42d4-84f8-75768e815a4c', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'host': 'admin.arzonhost.ir'}}}
+- {'name': '🇫🇮_FI_芬兰', 'type': 'ss', 'server': '95.217.181.48', 'port': 443, 'password': 'Telegram-AlfredConfig-13', 'cipher': 'chacha20-ietf-poly1305'}
 - {'name': "wjw168.ydnptt03-bcf.workers.dev\r", 'type': 'vless', 'server': 'www.iakeys.com', 'port': 80, 'uuid': '13f05604-e791-4cfe-bf99-8bfb3fb74965', 'tls': false, 'servername': 'wjw168.ydnptt03-bcf.workers.dev', 'network': 'ws', 'ws-opts': {'path': '/?ed=2048', 'headers': {'host': 'wjw168.ydnptt03-bcf.workers.dev'}}, 'client-fingerprint': 'randomized'}
 - {'name': "wjw168.sripfeur.workers.dev-clone\r", 'type': 'vless', 'server': 'www.gov.se', 'port': 80, 'uuid': '8cfa5127-ef30-424a-9b15-3e88500ffae9', 'tls': false, 'servername': 'wjw168.sripfeur.workers.dev', 'network': 'ws', 'ws-opts': {'path': '/?ed=2048', 'headers': {'host': 'wjw168.sripfeur.workers.dev'}}, 'client-fingerprint': 'randomized'}
 - {'name': "wjw168.sripfeur.workers.dev\r", 'type': 'vless', 'server': 'www.gov.ua', 'port': 80, 'uuid': '8cfa5127-ef30-424a-9b15-3e88500ffae9', 'tls': false, 'servername': 'wjw168.sripfeur.workers.dev', 'network': 'ws', 'ws-opts': {'path': '/?ed=2048', 'headers': {'host': 'wjw168.sripfeur.workers.dev'}}, 'client-fingerprint': 'randomized'}
 - {'name': "wjw.sripfeur.workers.dev\r", 'type': 'vless', 'server': 'fbi.gov', 'port': 8080, 'uuid': '399a2781-48ba-4b43-ba9b-1ea0b66c1736', 'tls': false, 'servername': 'wjw.sripfeur.workers.dev', 'network': 'ws', 'ws-opts': {'path': '/?ed=2048', 'headers': {'host': 'wjw.sripfeur.workers.dev'}}, 'client-fingerprint': 'randomized'}
 - {'name': "wang.sripfeur.workers.dev\r", 'type': 'vless', 'server': 'www.visa.com.hk', 'port': 8080, 'uuid': '255cb27e-ab7f-4d1b-bcdb-7e08083ff14d', 'tls': false, 'servername': 'wang.sripfeur.workers.dev', 'network': 'ws', 'ws-opts': {'path': '/?ed=2048', 'headers': {'host': 'wang.sripfeur.workers.dev'}}, 'client-fingerprint': 'randomized'}
-- {'name': '香港 01', 'type': 'ss', 'server': '211.99.97.3', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '香港 02', 'type': 'ss', 'server': '211.99.97.4', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '香港 03', 'type': 'ss', 'server': '211.99.97.5', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '香港 04', 'type': 'ss', 'server': '211.99.97.6', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '香港 05', 'type': 'ss', 'server': '211.99.97.7', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '香港 06', 'type': 'ss', 'server': '211.99.97.8', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '香港 07', 'type': 'ss', 'server': '211.99.97.9', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '香港 08', 'type': 'ss', 'server': '211.99.97.10', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '香港 09', 'type': 'ss', 'server': '211.99.97.11', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '香港 10', 'type': 'ss', 'server': '211.99.97.12', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '香港 11', 'type': 'ss', 'server': '211.99.97.13', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '香港 12', 'type': 'ss', 'server': '211.99.97.14', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '香港 13', 'type': 'ss', 'server': '211.99.97.15', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '香港 14', 'type': 'ss', 'server': '211.99.97.16', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '香港 15', 'type': 'ss', 'server': '211.99.97.17', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '香港 17', 'type': 'ss', 'server': '211.99.97.19', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '香港 18', 'type': 'ss', 'server': '211.99.97.20', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '香港 19', 'type': 'ss', 'server': '211.99.97.21', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '香港 20', 'type': 'ss', 'server': '211.99.97.22', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '中国-加拿大 IPLC D01', 'type': 'ss', 'server': 'ca01.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '中国-印度 马哈拉施特拉 IPLC D01', 'type': 'ss', 'server': 'in01.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '中国-台湾IEPL Hinet固接  D01', 'type': 'ss', 'server': 'tw11.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '中国-台湾IEPL Hinet固接  D02', 'type': 'ss', 'server': 'tw12.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '中国-台湾IEPL Hinet固接  D03', 'type': 'ss', 'server': 'tw13.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '中国-台湾IEPL Hinet固接  D04', 'type': 'ss', 'server': 'tw14.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '中国-台湾IEPL Hinet固接  D05', 'type': 'ss', 'server': 'tw15.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '中国-法国 IPLC D01', 'type': 'ss', 'server': 'fr01.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '中国-澳大利亚 IPLC 悉尼 D01', 'type': 'ss', 'server': 'au01.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '中国-爱尔兰 IPLC D01', 'type': 'ss', 'server': 'ir01.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '中国-韩国 IPLC D01 Netflix', 'type': 'ss', 'server': 'kr01.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '中国-香港 IEPL Equinix HK2 D 05 1Gbps HBO TVB', 'type': 'ss', 'server': 'hk05.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '德国 H1', 'type': 'ss', 'server': 'ge01.htz.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '新加坡 Legacy Magic IEPL 中继 D01 Netflix', 'type': 'ss', 'server': 'sgp01.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '新加坡 Legacy Magic IEPL 中继 D02 Netflix', 'type': 'ss', 'server': 'sgp02.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '新加坡 Legacy Magic IEPL 中继 D03 Netflix', 'type': 'ss', 'server': 'sgp03.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '日本 まつやまし auひかり ホーム1ギガ D 01', 'type': 'ss', 'server': 'jp01.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '日本 まつやまし auひかり ホーム1ギガ D 02', 'type': 'ss', 'server': 'jp02.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '日本 まつやまし auひかり ホーム1ギガ D 03', 'type': 'ss', 'server': 'jp03.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '日本 まつやまし auひかり ホーム1ギガ D 04', 'type': 'ss', 'server': 'jp04.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '日本 まつやまし auひかり ホーム1ギガ D 10', 'type': 'ss', 'server': 'jp10.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '美国实验性 IEPL 中继 D01', 'type': 'ss', 'server': 'us06.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '美国实验性 IEPL 中继 D02', 'type': 'ss', 'server': 'us07.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
-- {'name': '美国实验性 IEPL 中继 D03', 'type': 'ss', 'server': 'us08.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
 - {'name': '@DeamNet -', 'server': '54.36.174.181', 'port': 8080, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'KixLvKzwjekG00rm', 'udp': true}
 - {'name': '@DeamNet - 2', 'server': 'changupmecca.com', 'port': 443, 'type': 'vmess', 'uuid': 'a4a23449-5267-41bc-b32c-c903cef6a6e3', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'servername': 'cpisub7.cPifoRpERSIA.uk', 'network': 'ws', 'ws-opts': {'path': '/hdfy8c2.mahsaamini.cc/Av8czorIlYicU6D349brWUw6a', 'headers': {'Host': 'cpisub7.cPifoRpERSIA.uk'}}, 'udp': true}
 - {'name': '@DeamNet - 3', 'server': '104.26.0.95', 'port': 443, 'type': 'vmess', 'uuid': '05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'servername': 'obdii.cfd', 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'obdii.cfd'}}, 'udp': true}
@@ -445,6 +397,49 @@ proxies:
 - {'name': '⚡️@DeamNet+🇺🇸United+States 11', 'server': 'beedoost.org', 'port': 8080, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'a8bt9fY0QsLS6eLnXUe0Ym', 'udp': true}
 - {'name': '⚡️@DeamNet+🇺🇸United+States 14', 'server': '45.77.167.12', 'port': 443, 'type': 'trojan', 'password': 'wkmY1R4EcP', 'sni': 'z-v2-003319.kailib.com', 'skip-cert-verify': true, 'udp': true}
 - {'name': '⚡️@DeamNet+🇺🇸United+States 15', 'server': '66.42.84.121', 'port': 443, 'type': 'trojan', 'password': 'wkmY1R4EcP', 'sni': 'z-v2-002797.kailib.com', 'skip-cert-verify': true, 'udp': true}
+- {'name': '中国-加拿大 IPLC D01', 'type': 'ss', 'server': 'ca01.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '中国-印度 马哈拉施特拉 IPLC D01', 'type': 'ss', 'server': 'in01.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '中国-台湾IEPL Hinet固接  D01', 'type': 'ss', 'server': 'tw11.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '中国-台湾IEPL Hinet固接  D02', 'type': 'ss', 'server': 'tw12.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '中国-台湾IEPL Hinet固接  D03', 'type': 'ss', 'server': 'tw13.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '中国-台湾IEPL Hinet固接  D04', 'type': 'ss', 'server': 'tw14.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '中国-台湾IEPL Hinet固接  D05', 'type': 'ss', 'server': 'tw15.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '中国-法国 IPLC D01', 'type': 'ss', 'server': 'fr01.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '中国-澳大利亚 IPLC 悉尼 D01', 'type': 'ss', 'server': 'au01.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '中国-爱尔兰 IPLC D01', 'type': 'ss', 'server': 'ir01.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '中国-韩国 IPLC D01 Netflix', 'type': 'ss', 'server': 'kr01.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '中国-香港 IEPL Equinix HK2 D 05 1Gbps HBO TVB', 'type': 'ss', 'server': 'hk05.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '德国 H1', 'type': 'ss', 'server': 'ge01.htz.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '新加坡 Legacy Magic IEPL 中继 D01 Netflix', 'type': 'ss', 'server': 'sgp01.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '新加坡 Legacy Magic IEPL 中继 D02 Netflix', 'type': 'ss', 'server': 'sgp02.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '新加坡 Legacy Magic IEPL 中继 D03 Netflix', 'type': 'ss', 'server': 'sgp03.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '日本 まつやまし auひかり ホーム1ギガ D 01', 'type': 'ss', 'server': 'jp01.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '日本 まつやまし auひかり ホーム1ギガ D 02', 'type': 'ss', 'server': 'jp02.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '日本 まつやまし auひかり ホーム1ギガ D 03', 'type': 'ss', 'server': 'jp03.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '日本 まつやまし auひかり ホーム1ギガ D 04', 'type': 'ss', 'server': 'jp04.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '日本 まつやまし auひかり ホーム1ギガ D 10', 'type': 'ss', 'server': 'jp10.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '美国实验性 IEPL 中继 D01', 'type': 'ss', 'server': 'us06.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '美国实验性 IEPL 中继 D02', 'type': 'ss', 'server': 'us07.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '美国实验性 IEPL 中继 D03', 'type': 'ss', 'server': 'us08.ktp.wtf', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '香港 01', 'type': 'ss', 'server': '211.99.97.3', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '香港 02', 'type': 'ss', 'server': '211.99.97.4', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '香港 03', 'type': 'ss', 'server': '211.99.97.5', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '香港 04', 'type': 'ss', 'server': '211.99.97.6', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '香港 05', 'type': 'ss', 'server': '211.99.97.7', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '香港 06', 'type': 'ss', 'server': '211.99.97.8', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '香港 07', 'type': 'ss', 'server': '211.99.97.9', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '香港 08', 'type': 'ss', 'server': '211.99.97.10', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '香港 09', 'type': 'ss', 'server': '211.99.97.11', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '香港 10', 'type': 'ss', 'server': '211.99.97.12', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '香港 11', 'type': 'ss', 'server': '211.99.97.13', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '香港 12', 'type': 'ss', 'server': '211.99.97.14', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '香港 13', 'type': 'ss', 'server': '211.99.97.15', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '香港 14', 'type': 'ss', 'server': '211.99.97.16', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '香港 15', 'type': 'ss', 'server': '211.99.97.17', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '香港 17', 'type': 'ss', 'server': '211.99.97.19', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '香港 18', 'type': 'ss', 'server': '211.99.97.20', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '香港 19', 'type': 'ss', 'server': '211.99.97.21', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
+- {'name': '香港 20', 'type': 'ss', 'server': '211.99.97.22', 'port': 24603, 'password': 'dbEcUJ', 'cipher': 'rc4-md5'}
 - {'name': 'defaultName', 'type': 'http', 'server': '127.0.0.1', 'port': 7890}
 - {'name': 'SG_粉爱福利线路_2', 'type': 'vmess', 'server': 'sg4g.xn--vhq70hxyat50h6wk.com', 'port': 80, 'cipher': 'auto', 'uuid': '1f9b54af-3ab1-48c8-b58c-59d8d78277af', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/'}}
 - {'name': 'JP_粉爱福利线路_3', 'type': 'vmess', 'server': 'jp5g.xn--vhq70hxyat50h6wk.com', 'port': 80, 'cipher': 'auto', 'uuid': '5f64e25e-490d-4929-b901-a5adc6907ecc', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/'}}
@@ -548,6 +543,11 @@ proxies:
 - {'name': '🇯🇵JP-183.181.36.194-0388', 'type': 'vmess', 'server': '183.181.36.194', 'port': 41597, 'cipher': 'auto', 'uuid': '4a6eaa2d-5603-4c05-d967-fb6f42250a5a', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'servername': '', 'network': 'ws', 'ws-opts': {'path': ''}}
 - {'name': '🇺🇦 UA_221', 'type': 'ss', 'server': '95.164.9.144', 'port': 2927, 'password': 'ug4Fu79SEREdFGlt2sUyT4', 'cipher': 'chacha20-ietf-poly1305'}
 - {'name': '🔒 SS-TCP-NA 🇷🇺 RU-37.140.241.40:55223 📡 PING-119.05-MS', 'type': 'ss', 'server': '37.140.241.40', 'port': 55223, 'password': '1NKp5UR0YRE28mdf', 'cipher': 'aes-256-gcm'}
+- {'name': '🇺🇸_US_美国_1_1', 'type': 'trojan', 'server': '23.142.200.175', 'port': 443, 'udp': true, 'password': '27876_t7d7f4e3f', 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': '🇺🇸_US_美国->🇹🇷_TR_土耳其', 'type': 'vmess', 'server': 'tu.mahilu.site', 'port': 2095, 'cipher': 'auto', 'uuid': '7a737f41-b792-4260-94ff-3d864da67b80', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'host': 'tu.mahilu.site'}}}
+- {'name': '🇺🇸_US_美国->🇬🇧_GB_英国', 'type': 'vmess', 'server': 'mizban.arzonhost.ir', 'port': 2086, 'cipher': 'auto', 'uuid': 'e690ff9e-1676-4be3-d136-dcae586cb1e7', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'host': 'mizban.arzonhost.ir'}}}
+- {'name': '🇺🇸_US_美国_2_1', 'type': 'vmess', 'server': 'cold-dawn-9246.fly.dev', 'port': 443, 'cipher': 'auto', 'uuid': 'ea4909ef-7ca6-4b46-bf2e-6c07896ef338', 'alterId': 0, 'tls': true, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm'}}
+- {'name': '🇺🇸_US_美国_3_1', 'type': 'trojan', 'server': 'us03.421421.xyz', 'port': 20230, 'udp': true, 'password': '2e660d96-f2d2-43c0-aa62-bf92edbac0cf', 'sni': 'us03.421421.xyz', 'skip-cert-verify': true, 'network': 'tcp'}
 - {'name': '🇷🇺_RU_俄罗斯联邦_1', 'type': 'trojan', 'server': 'ru01.freeflyingcloud.xyz', 'port': 30002, 'udp': true, 'password': '4aa4c780-e45f-4011-8b0d-5ce48071bfa0', 'sni': 'ru01.freeflyingcloud.xyz', 'skip-cert-verify': true, 'network': 'tcp'}
 - {'name': '🇺🇸_US_美国_1_2', 'type': 'vmess', 'server': '172.67.130.140', 'port': 2082, 'cipher': 'auto', 'uuid': '112ac36f-3f53-4e26-8371-d25c028e1b9a', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'host': 's1c.v2.v001sss.xyz'}}}
 - {'name': '🇨🇳_CN_中国->🇩🇪_DE_德国_1', 'type': 'trojan', 'server': 'gcdddd0005.likeone.lol', 'port': 53279, 'udp': true, 'password': '575bc4d8-e9e0-48d4-9286-f922c17b35fc', 'sni': 'de01.ckcloud.info', 'skip-cert-verify': true, 'network': 'tcp'}

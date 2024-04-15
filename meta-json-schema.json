@@ -1049,7 +1049,7 @@
               },
               "properties": {
                 "enabled": {
-                  "type": "boolean",
+                  "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/compatible/boolean",
                   "title": "启用多路复用",
                   "description": "启用多路复用",
                   "markdownDescription": "启用多路复用",
@@ -1068,24 +1068,24 @@
                   "default": "h2mux"
                 },
                 "max-connections": {
-                  "type": "integer",
+                  "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/compatible/integer",
                   "title": "最大连接数量",
                   "description": "与max-streams冲突",
                   "markdownDescription": "与`max-streams`冲突"
                 },
                 "min-streams": {
-                  "type": "integer",
+                  "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/compatible/integer",
                   "title": "在打开新连接之前,连接中的最小多路复用流数量",
                   "description": "与max-streams冲突",
                   "markdownDescription": "与`max-streams`冲突"
                 },
                 "max-streams": {
-                  "type": "integer",
+                  "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/compatible/integer",
                   "title": "在打开新连接之前,连接中的最大多路复用流数量",
                   "description": "与max-connections, max-streams冲突"
                 },
                 "padding": {
-                  "type": "boolean",
+                  "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/compatible/boolean",
                   "title": "启用填充",
                   "description": "启用填充",
                   "markdownDescription": "启用填充",
@@ -1098,20 +1098,20 @@
                   "markdownDescription": "[Brutal](https://github.com/apernet/tcp-brutal)拥塞控制",
                   "properties": {
                     "enabled": {
-                      "type": "boolean",
+                      "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/compatible/boolean",
                       "title": "启用Brutal拥塞控制算法",
                       "description": "启用Brutal拥塞控制算法",
                       "markdownDescription": "启用Brutal拥塞控制算法",
                       "default": false
                     },
                     "up": {
-                      "type": "integer",
+                      "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/compatible/integer",
                       "title": "上行带宽",
                       "description": "以Mbps为单位",
                       "markdownDescription": "以`Mbps`为单位"
                     },
                     "down": {
-                      "type": "integer",
+                      "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/compatible/integer",
                       "title": "下行带宽",
                       "description": "以Mbps为单位",
                       "markdownDescription": "以`Mbps`为单位"
@@ -1119,14 +1119,14 @@
                   }
                 },
                 "statistic": {
-                  "type": "boolean",
+                  "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/compatible/boolean",
                   "title": "将底层连接显示在面板中",
                   "description": "方便打断底层连接",
                   "markdownDescription": "方便打断底层连接",
                   "default": false
                 },
                 "only-tcp": {
-                  "type": "boolean",
+                  "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/compatible/boolean",
                   "title": "是否仅允许tcp",
                   "description": "smux配置将不会对udp生效(udp连接会直接走节点默认udp协议传输)",
                   "markdownDescription": "smux配置将不会对`udp`生效(udp连接会直接走节点默认`udp`协议传输)"
@@ -3640,7 +3640,7 @@
                   "title": "outbound基础配置",
                   "properties": {
                     "name": {
-                      "type": "string",
+                      "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/compatible/string",
                       "title": "outbound名称",
                       "description": "outbound名称",
                       "markdownDescription": "outbound名称"
@@ -3665,7 +3665,7 @@
                       "markdownDescription": "outbound类型"
                     },
                     "interface-name": {
-                      "type": "string",
+                      "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/compatible/string",
                       "title": "流量出站接口",
                       "description": "流量出站接口",
                       "markdownDescription": "流量出站接口"

@@ -9,9 +9,9 @@
       "type": "object",
       "title": "实验性内容配置",
       "definitions": {
-        "types": {"$ref": "#/definitions/authentication/definitions/types"},
+        "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
         "patterns": {
-          "$ref": "#/definitions/authentication/definitions/patterns"
+          "$ref": "#/definitions/rule-providers/definitions/patterns"
         }
       },
       "properties": {
@@ -42,9 +42,9 @@
       "type": "object",
       "title": "缓存配置",
       "definitions": {
-        "types": {"$ref": "#/definitions/authentication/definitions/types"},
+        "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
         "patterns": {
-          "$ref": "#/definitions/authentication/definitions/patterns"
+          "$ref": "#/definitions/rule-providers/definitions/patterns"
         }
       },
       "properties": {
@@ -57,9 +57,9 @@
         },
         "store-fake-ip": {
           "type": "boolean",
-          "title": "持久化缓存fakeip映射表",
-          "description": "缓存fakeip映射表,域名再次发生连接时,使用原有映射地址",
-          "markdownDescription": "缓存`fakeip`映射表,域名再次发生连接时,使用原有映射地址",
+          "title": "持久化缓存fake-ip映射表",
+          "description": "缓存fake-ip映射表,域名再次发生连接时,使用原有映射地址",
+          "markdownDescription": "缓存`fake-ip`映射表,域名再次发生连接时,使用原有映射地址",
           "default": false
         }
       }
@@ -68,9 +68,9 @@
       "type": "object",
       "title": "iptables配置",
       "definitions": {
-        "types": {"$ref": "#/definitions/authentication/definitions/types"},
+        "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
         "patterns": {
-          "$ref": "#/definitions/authentication/definitions/patterns"
+          "$ref": "#/definitions/rule-providers/definitions/patterns"
         }
       },
       "properties": {
@@ -89,7 +89,7 @@
           "default": "lo"
         },
         "bypass": {
-          "$ref": "#/definitions/authentication/definitions/types/stringArray",
+          "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
           "title": "需要绕过iptables规则的IP地址或网段列表",
           "description": "需要绕过iptables规则的IP地址或网段列表",
           "markdownDescription": "需要绕过`iptables`规则的IP地址或网段列表",
@@ -108,9 +108,9 @@
       "type": "object",
       "title": "TLS配置",
       "definitions": {
-        "types": {"$ref": "#/definitions/authentication/definitions/types"},
+        "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
         "patterns": {
-          "$ref": "#/definitions/authentication/definitions/patterns"
+          "$ref": "#/definitions/rule-providers/definitions/patterns"
         }
       },
       "properties": {
@@ -127,7 +127,7 @@
           "markdownDescription": "私钥"
         },
         "custom-certifactes": {
-          "$ref": "#/definitions/authentication/definitions/types/stringArray",
+          "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
           "title": "自定义证书列表",
           "description": "自定义证书列表",
           "markdownDescription": "自定义证书列表"
@@ -138,47 +138,47 @@
       "type": "object",
       "title": "全局配置",
       "definitions": {
-        "types": {"$ref": "#/definitions/authentication/definitions/types"},
+        "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
         "patterns": {
-          "$ref": "#/definitions/authentication/definitions/patterns"
+          "$ref": "#/definitions/rule-providers/definitions/patterns"
         },
-        "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"},
+        "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
         "inbound": {
           "type": "object",
           "title": "inbound配置",
           "definitions": {
-            "types": {"$ref": "#/definitions/authentication/definitions/types"},
+            "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
             "patterns": {
-              "$ref": "#/definitions/authentication/definitions/patterns"
+              "$ref": "#/definitions/rule-providers/definitions/patterns"
             }
           },
           "properties": {
             "port": {
-              "$ref": "#/definitions/authentication/definitions/patterns/port",
-              "title": "HTTP(S)代理服务器端口",
-              "description": "HTTP(S)代理服务器端口",
-              "markdownDescription": "`HTTP(S)`代理服务器端口"
+              "$ref": "#/definitions/rule-providers/definitions/patterns/port",
+              "title": "HTTP(S)代理端口",
+              "description": "HTTP(S)代理端口",
+              "markdownDescription": "`HTTP(S)`代理端口"
             },
             "socks-port": {
-              "$ref": "#/definitions/authentication/definitions/patterns/port",
+              "$ref": "#/definitions/rule-providers/definitions/patterns/port",
               "title": "SOCKS代理端口",
               "description": "SOCKS代理端口",
               "markdownDescription": "`SOCKS`代理端口"
             },
             "redir-port": {
-              "$ref": "#/definitions/authentication/definitions/patterns/port",
-              "title": "透明代理端口()",
+              "$ref": "#/definitions/rule-providers/definitions/patterns/port",
+              "title": "透明代理端口",
               "description": "用于Linux和MacOS",
               "markdownDescription": "用于`Linux`和`MacOS`"
             },
             "tproxy-port": {
-              "$ref": "#/definitions/authentication/definitions/patterns/port",
+              "$ref": "#/definitions/rule-providers/definitions/patterns/port",
               "title": "透明代理端口",
               "description": "用于Linux(TProxy TCP 和 TProxy UDP)",
               "markdownDescription": "用于`Linux`(TProxy TCP 和 TProxy UDP)"
             },
             "mixed-port": {
-              "$ref": "#/definitions/authentication/definitions/patterns/port",
+              "$ref": "#/definitions/rule-providers/definitions/patterns/port",
               "title": "HTTP(S)和SOCKS代理混合端口",
               "description": "HTTP(S)和SOCKS代理混合端口",
               "markdownDescription": "`HTTP(S)`和`SOCKS`代理混合端口",
@@ -204,29 +204,29 @@
               "default": false
             },
             "skip-auth-prefixes": {
-              "$ref": "#/definitions/authentication/definitions/patterns/ipCIDR",
+              "$ref": "#/definitions/rule-providers/definitions/patterns/ipCIDR",
               "title": "允许跳过验证的IP段",
               "description": "允许跳过验证的IP段",
               "markdownDescription": "允许跳过验证的IP段"
             },
             "lan-allowed-ips": {
-              "$ref": "#/definitions/authentication/definitions/patterns/ipCIDR",
+              "$ref": "#/definitions/rule-providers/definitions/patterns/ipCIDR",
               "title": "允许连接的IP地址段",
               "description": "需要启用allow-lan",
               "markdownDescription": "需要启用`allow-lan`",
               "default": ["0.0.0.0/0", "::/0"]
             },
             "lan-disallowed-ips": {
-              "$ref": "#/definitions/authentication/definitions/patterns/ipCIDR",
+              "$ref": "#/definitions/rule-providers/definitions/patterns/ipCIDR",
               "title": "不允许连接的IP地址段",
               "description": "需要启用allow-lan(优先级高于lan-allowed-ips)",
               "markdownDescription": "需要启用`allow-lan`(优先级高于`lan-allowed-ips`)"
             },
             "bind-address": {
-              "$ref": "#/definitions/authentication/definitions/patterns/ipPort",
-              "title": "绑定地址(*绑定所有IP地址)",
-              "description": "仅允许其他设备通过这个地址访问",
-              "markdownDescription": "仅允许其他设备通过这个地址访问",
+              "$ref": "#/definitions/rule-providers/definitions/patterns/ipPort",
+              "title": "绑定地址",
+              "description": "仅允许其他设备通过这个地址访问(*绑定所有IP地址)",
+              "markdownDescription": "仅允许其他设备通过这个地址访问(*绑定所有IP地址)",
               "default": "*"
             },
             "inbound-tfo": {
@@ -247,20 +247,20 @@
           "type": "object",
           "title": "controller配置",
           "definitions": {
-            "types": {"$ref": "#/definitions/authentication/definitions/types"},
+            "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
             "patterns": {
-              "$ref": "#/definitions/authentication/definitions/patterns"
+              "$ref": "#/definitions/rule-providers/definitions/patterns"
             }
           },
           "properties": {
             "external-controller": {
-              "$ref": "#/definitions/authentication/definitions/patterns/ipPort",
-              "title": "外部控制器监听地址",
+              "$ref": "#/definitions/rule-providers/definitions/patterns/ipPort",
+              "title": "外部控制器(HTTP)监听地址",
               "description": "可以使用RESTful API来控制内核",
               "markdownDescription": "可以使用RESTful API来控制内核"
             },
             "external-controller-tls": {
-              "$ref": "#/definitions/authentication/definitions/patterns/ipPort",
+              "$ref": "#/definitions/rule-providers/definitions/patterns/ipPort",
               "title": "外部控制器(HTTPS)监听地址",
               "description": "可以使用RESTful API over HTTPS来控制内核",
               "markdownDescription": "可以使用RESTful API over HTTPS来控制内核"
@@ -272,7 +272,7 @@
               "markdownDescription": "可以将静态网页资源运行在RESTful API(可以为绝对路径,或者内核工作目录的相对路径)"
             },
             "external-ui-url": {
-              "$ref": "#/definitions/authentication/definitions/patterns/httpUrl",
+              "$ref": "#/definitions/rule-providers/definitions/patterns/httpUrl",
               "title": "外部用户界面下载地址",
               "description": "外部用户界面下载地址",
               "markdownDescription": "外部用户界面下载地址",
@@ -286,7 +286,7 @@
             },
             "secret": {
               "type": "string",
-              "title": "RESTful API访问密钥",
+              "title": "外部控制器RESTful API访问密钥",
               "description": "请求头Authorization:Bearer <secret>",
               "markdownDescription": "请求头Authorization:Bearer <`secret`>"
             }
@@ -296,35 +296,35 @@
           "type": "object",
           "title": "geox-url配置",
           "definitions": {
-            "types": {"$ref": "#/definitions/authentication/definitions/types"},
+            "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
             "patterns": {
-              "$ref": "#/definitions/authentication/definitions/patterns"
+              "$ref": "#/definitions/rule-providers/definitions/patterns"
             }
           },
           "properties": {
             "geoip": {
-              "$ref": "#/definitions/authentication/definitions/patterns/httpUrl",
+              "$ref": "#/definitions/rule-providers/definitions/patterns/httpUrl",
               "title": "geoip文件下载地址",
               "description": "geoip文件下载地址",
               "markdownDescription": "`geoip`文件下载地址",
               "default": "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.dat"
             },
             "mmdb": {
-              "$ref": "#/definitions/authentication/definitions/patterns/httpUrl",
+              "$ref": "#/definitions/rule-providers/definitions/patterns/httpUrl",
               "title": "mmdb文件下载地址",
               "description": "mmdb文件下载地址",
               "markdownDescription": "`mmdb`文件下载地址",
               "default": "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.metadb"
             },
             "asn": {
-              "$ref": "#/definitions/authentication/definitions/patterns/httpUrl",
+              "$ref": "#/definitions/rule-providers/definitions/patterns/httpUrl",
               "title": "asn文件下载地址",
               "description": "asn文件下载地址",
               "markdownDescription": "`asn`文件下载地址",
               "default": "https://github.com/xishang0128/geoip/releases/download/latest/GeoLite2-ASN.mmdb"
             },
             "geosite": {
-              "$ref": "#/definitions/authentication/definitions/patterns/httpUrl",
+              "$ref": "#/definitions/rule-providers/definitions/patterns/httpUrl",
               "title": "geosite文件下载地址",
               "description": "geosite文件下载地址",
               "markdownDescription": "`geosite`文件下载地址",
@@ -336,20 +336,20 @@
           "type": "object",
           "title": "ebpf配置",
           "definitions": {
-            "types": {"$ref": "#/definitions/authentication/definitions/types"},
+            "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
             "patterns": {
-              "$ref": "#/definitions/authentication/definitions/patterns"
+              "$ref": "#/definitions/rule-providers/definitions/patterns"
             }
           },
           "properties": {
             "redirect-to-tun": {
-              "$ref": "#/definitions/authentication/definitions/types/stringArray",
+              "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
               "title": "重定向到TUN接口列表",
               "description": "支持TCP+UDP(使用该功能请勿启用auto-route)",
               "markdownDescription": "支持TCP+UDP(使用该功能请勿启用`auto-route`)"
             },
             "auto-redir": {
-              "$ref": "#/definitions/authentication/definitions/types/stringArray",
+              "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
               "title": "自动重定向接口列表",
               "description": "仅支持TCP",
               "markdownDescription": "仅支持TCP"
@@ -489,7 +489,7 @@
               "$ref": "#/definitions/general/definitions/ebpf"
             },
             "global-client-fingerprint": {
-              "$ref": "#/definitions/proxy-groups/definitions/enums/fingerprint",
+              "$ref": "#/definitions/rule-providers/definitions/enums/fingerprint",
               "title": "全局客户端指纹",
               "description": "支持协议有VLESS,Vmess,trojan",
               "markdownDescription": "支持协议有`VLESS`,`Vmess`,`trojan`"
@@ -509,11 +509,11 @@
       "type": "array",
       "title": "代理配置",
       "definitions": {
-        "types": {"$ref": "#/definitions/authentication/definitions/types"},
+        "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
         "patterns": {
-          "$ref": "#/definitions/authentication/definitions/patterns"
+          "$ref": "#/definitions/rule-providers/definitions/patterns"
         },
-        "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"},
+        "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
         "direct": {
           "type": "object",
           "title": "outbound-direct",
@@ -521,11 +521,11 @@
             "compatible": {
               "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/compatible"
             },
-            "types": {"$ref": "#/definitions/authentication/definitions/types"},
+            "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
             "patterns": {
-              "$ref": "#/definitions/authentication/definitions/patterns"
+              "$ref": "#/definitions/rule-providers/definitions/patterns"
             },
-            "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"},
+            "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
             "basic-option": {
               "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/basic-option"
             },
@@ -576,11 +576,11 @@
             "compatible": {
               "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/compatible"
             },
-            "types": {"$ref": "#/definitions/authentication/definitions/types"},
+            "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
             "patterns": {
-              "$ref": "#/definitions/authentication/definitions/patterns"
+              "$ref": "#/definitions/rule-providers/definitions/patterns"
             },
-            "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"},
+            "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
             "basic-option": {
               "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/basic-option"
             },
@@ -631,11 +631,11 @@
             "compatible": {
               "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/compatible"
             },
-            "types": {"$ref": "#/definitions/authentication/definitions/types"},
+            "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
             "patterns": {
-              "$ref": "#/definitions/authentication/definitions/patterns"
+              "$ref": "#/definitions/rule-providers/definitions/patterns"
             },
-            "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"},
+            "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
             "basic-option": {
               "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/basic-option"
             },
@@ -653,7 +653,7 @@
                   "markdownDescription": "混淆模式"
                 },
                 "host": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/server",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/server",
                   "title": "主机地址",
                   "description": "主机地址",
                   "markdownDescription": "主机地址",
@@ -673,7 +673,7 @@
                   "markdownDescription": "混淆模式"
                 },
                 "host": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/server",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/server",
                   "title": "主机地址",
                   "description": "主机地址",
                   "markdownDescription": "主机地址",
@@ -692,7 +692,7 @@
                   "markdownDescription": "启用`TLS`"
                 },
                 "fingerprint": {
-                  "$ref": "#/definitions/proxy-groups/definitions/enums/fingerprint",
+                  "$ref": "#/definitions/rule-providers/definitions/enums/fingerprint",
                   "title": "指纹",
                   "description": "指纹",
                   "markdownDescription": "指纹"
@@ -743,13 +743,13 @@
                   "markdownDescription": "密码"
                 },
                 "host": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/server",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/server",
                   "title": "主机地址",
                   "description": "主机地址",
                   "markdownDescription": "主机地址"
                 },
                 "fingerprint": {
-                  "$ref": "#/definitions/proxy-groups/definitions/enums/fingerprint",
+                  "$ref": "#/definitions/rule-providers/definitions/enums/fingerprint",
                   "title": "指纹",
                   "description": "指纹",
                   "markdownDescription": "指纹"
@@ -781,7 +781,7 @@
                   "markdownDescription": "密码"
                 },
                 "host": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/server",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/server",
                   "title": "主机地址",
                   "description": "主机地址",
                   "markdownDescription": "主机地址"
@@ -824,13 +824,13 @@
                   "markdownDescription": "代理节点名称"
                 },
                 "server": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/server",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/server",
                   "title": "代理节点服务器",
                   "description": "域名或IP",
                   "markdownDescription": "域名或IP"
                 },
                 "port": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/port",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/port",
                   "title": "代理节点端口号",
                   "description": "代理节点端口号",
                   "markdownDescription": "代理节点端口号"
@@ -842,7 +842,7 @@
                   "markdownDescription": "认证密码"
                 },
                 "cipher": {
-                  "$ref": "#/definitions/proxy-groups/definitions/enums/cipher",
+                  "$ref": "#/definitions/rule-providers/definitions/enums/cipher",
                   "title": "加密方法",
                   "description": "加密方法",
                   "markdownDescription": "加密方法"
@@ -875,7 +875,7 @@
                   "default": 2
                 },
                 "client-fingerprint": {
-                  "$ref": "#/definitions/proxy-groups/definitions/enums/fingerprint",
+                  "$ref": "#/definitions/rule-providers/definitions/enums/fingerprint",
                   "title": "客户端指纹",
                   "description": "客户端指纹",
                   "markdownDescription": "客户端指纹"
@@ -969,11 +969,11 @@
                 ]
               }
             },
-            "types": {"$ref": "#/definitions/authentication/definitions/types"},
+            "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
             "patterns": {
-              "$ref": "#/definitions/authentication/definitions/patterns"
+              "$ref": "#/definitions/rule-providers/definitions/patterns"
             },
-            "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"},
+            "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
             "basic-option": {
               "type": "object",
               "title": "outbound基本配置",
@@ -1038,13 +1038,13 @@
                   "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/compatible"
                 },
                 "types": {
-                  "$ref": "#/definitions/authentication/definitions/types"
+                  "$ref": "#/definitions/rule-providers/definitions/types"
                 },
                 "patterns": {
-                  "$ref": "#/definitions/authentication/definitions/patterns"
+                  "$ref": "#/definitions/rule-providers/definitions/patterns"
                 },
                 "enums": {
-                  "$ref": "#/definitions/proxy-groups/definitions/enums"
+                  "$ref": "#/definitions/rule-providers/definitions/enums"
                 }
               },
               "properties": {
@@ -1164,13 +1164,13 @@
                   "markdownDescription": "代理节点名称"
                 },
                 "server": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/server",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/server",
                   "title": "代理节点服务器",
                   "description": "域名或IP",
                   "markdownDescription": "域名或IP"
                 },
                 "port": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/port",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/port",
                   "title": "代理节点端口号",
                   "description": "代理节点端口号",
                   "markdownDescription": "代理节点端口号"
@@ -1182,7 +1182,7 @@
                   "markdownDescription": "认证密码"
                 },
                 "cipher": {
-                  "$ref": "#/definitions/proxy-groups/definitions/enums/cipher",
+                  "$ref": "#/definitions/rule-providers/definitions/enums/cipher",
                   "title": "加密方法",
                   "description": "加密方法",
                   "markdownDescription": "加密方法"
@@ -1313,11 +1313,11 @@
             "compatible": {
               "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/compatible"
             },
-            "types": {"$ref": "#/definitions/authentication/definitions/types"},
+            "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
             "patterns": {
-              "$ref": "#/definitions/authentication/definitions/patterns"
+              "$ref": "#/definitions/rule-providers/definitions/patterns"
             },
-            "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"},
+            "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
             "basic-option": {
               "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/basic-option"
             },
@@ -1348,13 +1348,13 @@
                   "markdownDescription": "代理节点名称"
                 },
                 "server": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/server",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/server",
                   "title": "代理节点服务器",
                   "description": "域名或IP",
                   "markdownDescription": "域名或IP"
                 },
                 "port": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/port",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/port",
                   "title": "代理节点端口号",
                   "description": "代理节点端口号",
                   "markdownDescription": "代理节点端口号"
@@ -1396,11 +1396,11 @@
             "compatible": {
               "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/compatible"
             },
-            "types": {"$ref": "#/definitions/authentication/definitions/types"},
+            "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
             "patterns": {
-              "$ref": "#/definitions/authentication/definitions/patterns"
+              "$ref": "#/definitions/rule-providers/definitions/patterns"
             },
-            "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"},
+            "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
             "basic-option": {
               "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/basic-option"
             },
@@ -1431,13 +1431,13 @@
                   "markdownDescription": "代理节点名称"
                 },
                 "server": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/server",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/server",
                   "title": "代理节点服务器",
                   "description": "域名或IP",
                   "markdownDescription": "域名或IP"
                 },
                 "port": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/port",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/port",
                   "title": "代理节点端口号",
                   "description": "代理节点端口号",
                   "markdownDescription": "代理节点端口号"
@@ -1474,7 +1474,7 @@
                   "markdownDescription": "跳过证书验证"
                 },
                 "fingerprint": {
-                  "$ref": "#/definitions/proxy-groups/definitions/enums/fingerprint",
+                  "$ref": "#/definitions/rule-providers/definitions/enums/fingerprint",
                   "title": "指纹",
                   "description": "指纹",
                   "markdownDescription": "指纹"
@@ -1500,11 +1500,11 @@
             "compatible": {
               "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/compatible"
             },
-            "types": {"$ref": "#/definitions/authentication/definitions/types"},
+            "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
             "patterns": {
-              "$ref": "#/definitions/authentication/definitions/patterns"
+              "$ref": "#/definitions/rule-providers/definitions/patterns"
             },
-            "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"},
+            "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
             "basic-option": {
               "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/basic-option"
             },
@@ -1535,13 +1535,13 @@
                   "markdownDescription": "代理节点名称"
                 },
                 "server": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/server",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/server",
                   "title": "代理节点服务器",
                   "description": "域名或IP",
                   "markdownDescription": "域名或IP"
                 },
                 "port": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/port",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/port",
                   "title": "代理节点端口号",
                   "description": "代理节点端口号",
                   "markdownDescription": "代理节点端口号"
@@ -1584,7 +1584,7 @@
                   "markdownDescription": "跳过证书验证"
                 },
                 "fingerprint": {
-                  "$ref": "#/definitions/proxy-groups/definitions/enums/fingerprint",
+                  "$ref": "#/definitions/rule-providers/definitions/enums/fingerprint",
                   "title": "指纹",
                   "description": "指纹",
                   "markdownDescription": "指纹"
@@ -1617,11 +1617,11 @@
             "compatible": {
               "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/compatible"
             },
-            "types": {"$ref": "#/definitions/authentication/definitions/types"},
+            "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
             "patterns": {
-              "$ref": "#/definitions/authentication/definitions/patterns"
+              "$ref": "#/definitions/rule-providers/definitions/patterns"
             },
-            "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"},
+            "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
             "basic-option": {
               "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/basic-option"
             },
@@ -1643,7 +1643,7 @@
                   "default": "GET"
                 },
                 "path": {
-                  "$ref": "#/definitions/authentication/definitions/types/stringArray",
+                  "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
                   "title": "路径",
                   "description": "路径",
                   "markdownDescription": "路径",
@@ -1663,7 +1663,7 @@
               "title": "HTTP配置",
               "properties": {
                 "host": {
-                  "$ref": "#/definitions/authentication/definitions/types/stringArray",
+                  "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
                   "title": "主机地址",
                   "description": "主机地址",
                   "markdownDescription": "主机地址",
@@ -1765,19 +1765,19 @@
                   "markdownDescription": "代理节点名称"
                 },
                 "server": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/server",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/server",
                   "title": "代理节点服务器",
                   "description": "域名或IP",
                   "markdownDescription": "域名或IP"
                 },
                 "port": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/port",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/port",
                   "title": "代理节点端口号",
                   "description": "代理节点端口号",
                   "markdownDescription": "代理节点端口号"
                 },
                 "uuid": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/uuid",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/uuid",
                   "title": "UUID",
                   "description": "UUID",
                   "markdownDescription": "UUID"
@@ -1789,7 +1789,7 @@
                   "markdownDescription": "Alternate ID(替代标识)"
                 },
                 "cipher": {
-                  "$ref": "#/definitions/proxy-groups/definitions/enums/cipher",
+                  "$ref": "#/definitions/rule-providers/definitions/enums/cipher",
                   "title": "加密方法",
                   "description": "加密方法",
                   "markdownDescription": "加密方法"
@@ -1814,13 +1814,13 @@
                   "markdownDescription": "启用`TLS`"
                 },
                 "alpn": {
-                  "$ref": "#/definitions/authentication/definitions/types/stringArray",
+                  "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
                   "title": "ALPN",
                   "description": "Application-Layer Protocol Negotiation(应用层协议协商)",
                   "markdownDescription": "Application-Layer Protocol Negotiation(应用层协议协商)"
                 },
                 "fingerprint": {
-                  "$ref": "#/definitions/proxy-groups/definitions/enums/fingerprint",
+                  "$ref": "#/definitions/rule-providers/definitions/enums/fingerprint",
                   "title": "指纹",
                   "description": "指纹",
                   "markdownDescription": "指纹"
@@ -1877,7 +1877,7 @@
                   "markdownDescription": "启用验证信息长度"
                 },
                 "client-fingerprint": {
-                  "$ref": "#/definitions/proxy-groups/definitions/enums/fingerprint",
+                  "$ref": "#/definitions/rule-providers/definitions/enums/fingerprint",
                   "title": "客户端指纹",
                   "description": "客户端指纹",
                   "markdownDescription": "客户端指纹"
@@ -1903,11 +1903,11 @@
             "compatible": {
               "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/compatible"
             },
-            "types": {"$ref": "#/definitions/authentication/definitions/types"},
+            "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
             "patterns": {
-              "$ref": "#/definitions/authentication/definitions/patterns"
+              "$ref": "#/definitions/rule-providers/definitions/patterns"
             },
-            "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"},
+            "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
             "basic-option": {
               "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/basic-option"
             },
@@ -1953,19 +1953,19 @@
                   "markdownDescription": "代理节点名称"
                 },
                 "server": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/server",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/server",
                   "title": "代理节点服务器",
                   "description": "域名或IP",
                   "markdownDescription": "域名或IP"
                 },
                 "port": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/port",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/port",
                   "title": "代理节点端口号",
                   "description": "代理节点端口号",
                   "markdownDescription": "代理节点端口号"
                 },
                 "uuid": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/uuid",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/uuid",
                   "title": "UUID",
                   "description": "UUID",
                   "markdownDescription": "UUID"
@@ -1994,7 +1994,7 @@
                   "markdownDescription": "启用`TLS`"
                 },
                 "alpn": {
-                  "$ref": "#/definitions/authentication/definitions/types/stringArray",
+                  "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
                   "title": "ALPN",
                   "description": "Application-Layer Protocol Negotiation(应用层协议协商)",
                   "markdownDescription": "Application-Layer Protocol Negotiation(应用层协议协商)"
@@ -2052,7 +2052,7 @@
                   "additionalProperties": {"type": "string"}
                 },
                 "fingerprint": {
-                  "$ref": "#/definitions/proxy-groups/definitions/enums/fingerprint",
+                  "$ref": "#/definitions/rule-providers/definitions/enums/fingerprint",
                   "title": "指纹",
                   "description": "指纹",
                   "markdownDescription": "指纹"
@@ -2064,7 +2064,7 @@
                   "markdownDescription": "服务器名称"
                 },
                 "client-fingerprint": {
-                  "$ref": "#/definitions/proxy-groups/definitions/enums/fingerprint",
+                  "$ref": "#/definitions/rule-providers/definitions/enums/fingerprint",
                   "title": "客户端指纹",
                   "description": "客户端指纹",
                   "markdownDescription": "客户端指纹"
@@ -2090,11 +2090,11 @@
             "compatible": {
               "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/compatible"
             },
-            "types": {"$ref": "#/definitions/authentication/definitions/types"},
+            "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
             "patterns": {
-              "$ref": "#/definitions/authentication/definitions/patterns"
+              "$ref": "#/definitions/rule-providers/definitions/patterns"
             },
-            "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"},
+            "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
             "basic-option": {
               "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/basic-option"
             },
@@ -2109,13 +2109,13 @@
                   "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/compatible"
                 },
                 "types": {
-                  "$ref": "#/definitions/authentication/definitions/types"
+                  "$ref": "#/definitions/rule-providers/definitions/types"
                 },
                 "patterns": {
-                  "$ref": "#/definitions/authentication/definitions/patterns"
+                  "$ref": "#/definitions/rule-providers/definitions/patterns"
                 },
                 "enums": {
-                  "$ref": "#/definitions/proxy-groups/definitions/enums"
+                  "$ref": "#/definitions/rule-providers/definitions/enums"
                 }
               },
               "required": ["public-key", "short-id"],
@@ -2164,13 +2164,13 @@
                   "markdownDescription": "代理节点名称"
                 },
                 "server": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/server",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/server",
                   "title": "代理节点服务器",
                   "description": "域名或IP",
                   "markdownDescription": "域名或IP"
                 },
                 "port": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/port",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/port",
                   "title": "代理节点端口号",
                   "description": "代理节点端口号",
                   "markdownDescription": "代理节点端口号"
@@ -2182,7 +2182,7 @@
                   "markdownDescription": "认证密码"
                 },
                 "alpn": {
-                  "$ref": "#/definitions/authentication/definitions/types/stringArray",
+                  "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
                   "title": "ALPN",
                   "description": "Application-Layer Protocol Negotiation(应用层协议协商)",
                   "markdownDescription": "Application-Layer Protocol Negotiation(应用层协议协商)"
@@ -2194,7 +2194,7 @@
                   "markdownDescription": "SNI(Server Name Indication)"
                 },
                 "fingerprint": {
-                  "$ref": "#/definitions/proxy-groups/definitions/enums/fingerprint",
+                  "$ref": "#/definitions/rule-providers/definitions/enums/fingerprint",
                   "title": "指纹",
                   "description": "指纹",
                   "markdownDescription": "指纹"
@@ -2215,7 +2215,7 @@
                   "$ref": "#/definitions/proxies/definitions/vmess/definitions/ws-option"
                 },
                 "client-fingerprint": {
-                  "$ref": "#/definitions/proxy-groups/definitions/enums/fingerprint",
+                  "$ref": "#/definitions/rule-providers/definitions/enums/fingerprint",
                   "title": "客户端指纹",
                   "description": "客户端指纹",
                   "markdownDescription": "客户端指纹"
@@ -2241,11 +2241,11 @@
             "compatible": {
               "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/compatible"
             },
-            "types": {"$ref": "#/definitions/authentication/definitions/types"},
+            "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
             "patterns": {
-              "$ref": "#/definitions/authentication/definitions/patterns"
+              "$ref": "#/definitions/rule-providers/definitions/patterns"
             },
-            "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"},
+            "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
             "basic-option": {
               "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/basic-option"
             },
@@ -2276,13 +2276,13 @@
                   "markdownDescription": "代理节点名称"
                 },
                 "server": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/server",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/server",
                   "title": "代理节点服务器",
                   "description": "域名或IP",
                   "markdownDescription": "域名或IP"
                 },
                 "port": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/port",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/port",
                   "title": "代理节点端口号",
                   "description": "代理节点端口号",
                   "markdownDescription": "代理节点端口号"
@@ -2372,13 +2372,13 @@
                   "markdownDescription": "跳过证书验证"
                 },
                 "fingerprint": {
-                  "$ref": "#/definitions/proxy-groups/definitions/enums/fingerprint",
+                  "$ref": "#/definitions/rule-providers/definitions/enums/fingerprint",
                   "title": "指纹",
                   "description": "指纹",
                   "markdownDescription": "指纹"
                 },
                 "alpn": {
-                  "$ref": "#/definitions/authentication/definitions/types/stringArray",
+                  "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
                   "title": "ALPN",
                   "description": "Application-Layer Protocol Negotiation(应用层协议协商)",
                   "markdownDescription": "Application-Layer Protocol Negotiation(应用层协议协商)"
@@ -2447,11 +2447,11 @@
             "compatible": {
               "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/compatible"
             },
-            "types": {"$ref": "#/definitions/authentication/definitions/types"},
+            "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
             "patterns": {
-              "$ref": "#/definitions/authentication/definitions/patterns"
+              "$ref": "#/definitions/rule-providers/definitions/patterns"
             },
-            "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"},
+            "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
             "basic-option": {
               "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/basic-option"
             },
@@ -2483,13 +2483,13 @@
                   "markdownDescription": "代理节点名称"
                 },
                 "server": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/server",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/server",
                   "title": "代理节点服务器",
                   "description": "域名或IP",
                   "markdownDescription": "域名或IP"
                 },
                 "port": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/port",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/port",
                   "title": "代理节点端口号",
                   "description": "代理节点端口号",
                   "markdownDescription": "代理节点端口号"
@@ -2550,13 +2550,13 @@
                   "markdownDescription": "跳过证书验证"
                 },
                 "fingerprint": {
-                  "$ref": "#/definitions/proxy-groups/definitions/enums/fingerprint",
+                  "$ref": "#/definitions/rule-providers/definitions/enums/fingerprint",
                   "title": "指纹",
                   "description": "指纹",
                   "markdownDescription": "指纹"
                 },
                 "alpn": {
-                  "$ref": "#/definitions/authentication/definitions/types/stringArray",
+                  "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
                   "title": "ALPN",
                   "description": "Application-Layer Protocol Negotiation(应用层协议协商)",
                   "markdownDescription": "Application-Layer Protocol Negotiation(应用层协议协商)"
@@ -2607,11 +2607,11 @@
             "compatible": {
               "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/compatible"
             },
-            "types": {"$ref": "#/definitions/authentication/definitions/types"},
+            "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
             "patterns": {
-              "$ref": "#/definitions/authentication/definitions/patterns"
+              "$ref": "#/definitions/rule-providers/definitions/patterns"
             },
-            "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"},
+            "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
             "basic-option": {
               "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/basic-option"
             },
@@ -2624,13 +2624,13 @@
               "required": ["server", "port"],
               "properties": {
                 "server": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/server",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/server",
                   "title": "代理节点服务器",
                   "description": "域名或IP",
                   "markdownDescription": "域名或IP"
                 },
                 "port": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/port",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/port",
                   "title": "代理节点端口号",
                   "description": "代理节点端口号",
                   "markdownDescription": "代理节点端口号"
@@ -2654,7 +2654,7 @@
                   "markdownDescription": "部分`WARP`节点需要使用"
                 },
                 "allowed-ips": {
-                  "$ref": "#/definitions/authentication/definitions/types/ipCIDRArray",
+                  "$ref": "#/definitions/rule-providers/definitions/types/ipCIDRArray",
                   "title": "允许进行流量转发的IP段",
                   "description": "允许进行流量转发的IP段",
                   "markdownDescription": "允许进行流量转发的IP段"
@@ -2685,13 +2685,13 @@
                   "markdownDescription": "代理节点名称"
                 },
                 "ip": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/ipv4",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/ipv4",
                   "title": "本机在Wireguard网络中使用的IPv4地址",
                   "description": "本机在Wireguard网络中使用的IPv4地址",
                   "markdownDescription": "本机在`Wireguard`网络中使用的`IPv4`地址"
                 },
                 "ipv6": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/ipv6",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/ipv6",
                   "title": "本机在Wireguard网络中使用的IPv6地址",
                   "description": "本机在Wireguard网络中使用的IPv6地址",
                   "markdownDescription": "本机在`Wireguard`网络中使用的`IPv6`地址"
@@ -2745,7 +2745,7 @@
                   "default": false
                 },
                 "dns": {
-                  "$ref": "#/definitions/authentication/definitions/types/serverArray",
+                  "$ref": "#/definitions/rule-providers/definitions/types/serverArray",
                   "title": "DNS解析服务器",
                   "description": "DNS解析服务器(要求启用remote-dns-resolve)",
                   "markdownDescription": "DNS解析服务器(要求启用`remote-dns-resolve`)"
@@ -2775,11 +2775,11 @@
             "compatible": {
               "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/compatible"
             },
-            "types": {"$ref": "#/definitions/authentication/definitions/types"},
+            "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
             "patterns": {
-              "$ref": "#/definitions/authentication/definitions/patterns"
+              "$ref": "#/definitions/rule-providers/definitions/patterns"
             },
-            "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"},
+            "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
             "basic-option": {
               "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/basic-option"
             },
@@ -2810,13 +2810,13 @@
                   "markdownDescription": "代理节点名称"
                 },
                 "server": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/server",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/server",
                   "title": "代理节点服务器",
                   "description": "域名或IP",
                   "markdownDescription": "域名或IP"
                 },
                 "port": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/port",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/port",
                   "title": "代理节点端口号",
                   "description": "代理节点端口号",
                   "markdownDescription": "代理节点端口号"
@@ -2828,7 +2828,7 @@
                   "markdownDescription": "TUIC `V4`的用户标识"
                 },
                 "uuid": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/uuid",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/uuid",
                   "title": "TUIC V5的用户标识",
                   "description": "TUIC V5的用户标识",
                   "markdownDescription": "TUIC `V5`的用户标识"
@@ -2840,7 +2840,7 @@
                   "markdownDescription": "TUIC `V5`的用户密码"
                 },
                 "ip": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/ip",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/ip",
                   "title": "覆盖server选项中设置的服务器地址的DNS查找结果",
                   "description": "覆盖server选项中设置的服务器地址的DNS查找结果",
                   "markdownDescription": "覆盖`server`选项中设置的服务器地址的DNS查找结果"
@@ -2853,7 +2853,7 @@
                   "default": 10000
                 },
                 "alpn": {
-                  "$ref": "#/definitions/authentication/definitions/types/stringArray",
+                  "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
                   "title": "ALPN",
                   "description": "Application-Layer Protocol Negotiation(应用层协议协商)",
                   "markdownDescription": "Application-Layer Protocol Negotiation(应用层协议协商)"
@@ -2924,7 +2924,7 @@
                   "markdownDescription": "跳过证书验证"
                 },
                 "fingerprint": {
-                  "$ref": "#/definitions/proxy-groups/definitions/enums/fingerprint",
+                  "$ref": "#/definitions/rule-providers/definitions/enums/fingerprint",
                   "title": "指纹",
                   "description": "指纹",
                   "markdownDescription": "指纹"
@@ -3004,11 +3004,11 @@
             "compatible": {
               "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/compatible"
             },
-            "types": {"$ref": "#/definitions/authentication/definitions/types"},
+            "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
             "patterns": {
-              "$ref": "#/definitions/authentication/definitions/patterns"
+              "$ref": "#/definitions/rule-providers/definitions/patterns"
             },
-            "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"},
+            "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
             "basic-option": {
               "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/basic-option"
             },
@@ -3039,13 +3039,13 @@
                   "markdownDescription": "代理节点名称"
                 },
                 "server": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/server",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/server",
                   "title": "代理节点服务器",
                   "description": "域名或IP",
                   "markdownDescription": "域名或IP"
                 },
                 "port": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/port",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/port",
                   "title": "代理节点端口号",
                   "description": "代理节点端口号",
                   "markdownDescription": "代理节点端口号"
@@ -3075,13 +3075,13 @@
                   "markdownDescription": "私钥密码"
                 },
                 "host-key": {
-                  "$ref": "#/definitions/authentication/definitions/types/stringArray",
+                  "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
                   "title": "主机私钥",
                   "description": "主机私钥",
                   "markdownDescription": "主机私钥"
                 },
                 "host-key-algorithms": {
-                  "$ref": "#/definitions/authentication/definitions/types/stringArray",
+                  "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
                   "title": "主机私钥算法",
                   "description": "主机私钥算法",
                   "markdownDescription": "主机私钥算法"
@@ -3208,20 +3208,20 @@
       "type": "object",
       "title": "代理提供者配置",
       "definitions": {
-        "types": {"$ref": "#/definitions/authentication/definitions/types"},
+        "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
         "patterns": {
-          "$ref": "#/definitions/authentication/definitions/patterns"
+          "$ref": "#/definitions/rule-providers/definitions/patterns"
         },
-        "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"},
+        "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
         "health-check": {
           "type": "object",
           "title": "健康检查",
           "definitions": {
-            "types": {"$ref": "#/definitions/authentication/definitions/types"},
+            "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
             "patterns": {
-              "$ref": "#/definitions/authentication/definitions/patterns"
+              "$ref": "#/definitions/rule-providers/definitions/patterns"
             },
-            "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"}
+            "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"}
           },
           "properties": {
             "enable": {
@@ -3232,7 +3232,7 @@
               "default": false
             },
             "url": {
-              "$ref": "#/definitions/authentication/definitions/patterns/httpUrl",
+              "$ref": "#/definitions/rule-providers/definitions/patterns/httpUrl",
               "title": "健康检查地址",
               "description": "健康检查url",
               "markdownDescription": "健康检查url",
@@ -3304,14 +3304,13 @@
             "markdownEnumDescriptions": ["本地文件", "网络文件"],
             "title": "provider类型",
             "description": "provider类型",
-            "markdownDescription": "provider类型",
-            "default": false
+            "markdownDescription": "provider类型"
           },
           "path": {
             "type": "string",
             "title": "provider文件保存路径",
             "description": "默认使用MD5(url)作为文件名。内核工作目录的相对路径(如果想保存到任意位置,配置环境变量SKIP_SAFE_PATH_CHECK=1)",
-            "markdownDescription": "默认使用MD5(`url`)作为文件名。内核工作目录的相对路径(如果想保存到任意位置,配置环境变量·SKIP_SAFE_PATH_CHECK=1·)"
+            "markdownDescription": "默认使用MD5(`url`)作为文件名。内核工作目录的相对路径(如果想保存到任意位置,配置环境变量`SKIP_SAFE_PATH_CHECK=1`)"
           },
           "interval": {
             "type": "integer",
@@ -3432,7 +3431,7 @@
           "required": ["url"],
           "properties": {
             "url": {
-              "$ref": "#/definitions/authentication/definitions/patterns/httpUrl",
+              "$ref": "#/definitions/rule-providers/definitions/patterns/httpUrl",
               "title": "provider网络文件地址",
               "description": "provider网络文件地址",
               "markdownDescription": "provider网络文件地址"
@@ -3451,124 +3450,20 @@
       "type": "array",
       "title": "代理组配置",
       "definitions": {
-        "types": {"$ref": "#/definitions/authentication/definitions/types"},
+        "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
         "patterns": {
-          "$ref": "#/definitions/authentication/definitions/patterns"
+          "$ref": "#/definitions/rule-providers/definitions/patterns"
         },
-        "enums": {
-          "proxyType": {
-            "description": "代理类型",
-            "enum": [
-              "direct",
-              "dns",
-              "ss",
-              "ssr",
-              "snell",
-              "socks5",
-              "http",
-              "vmess",
-              "vless",
-              "trojan",
-              "hysteria",
-              "hysteria2",
-              "wireguard",
-              "tuic",
-              "ssh"
-            ]
-          },
-          "proxyAdapter": {
-            "description": "代理适配器名称",
-            "enum": [
-              "Direct",
-              "Reject",
-              "RejectDrop",
-              "Compatible",
-              "Pass",
-              "Dns",
-              "Shadowsocks",
-              "ShadowsocksR",
-              "Snell",
-              "Socks5",
-              "Http",
-              "Vmess",
-              "Vless",
-              "Trojan",
-              "Hysteria",
-              "Hysteria2",
-              "WireGuard",
-              "Tuic",
-              "Relay",
-              "Selector",
-              "Fallback",
-              "URLTest",
-              "LoadBalance",
-              "Ssh"
-            ]
-          },
-          "cipher": {
-            "description": "加密方法",
-            "enum": [
-              "auto",
-              "aes-128-gcm",
-              "aes-192-gcm",
-              "aes-256-gcm",
-              "lea-128-gcm",
-              "lea-192-gcm",
-              "lea-256-gcm",
-              "aes-128-gcm-siv",
-              "aes-256-gcm-siv",
-              "2022-blake3-aes-128-gcm",
-              "2022-blake3-aes-256-gcm",
-              "aes-128-cfb",
-              "aes-192-cfb",
-              "aes-256-cfb",
-              "aes-128-ctr",
-              "aes-192-ctr",
-              "aes-256-ctr",
-              "chacha20",
-              "chacha20-ietf",
-              "chacha20-ietf-poly1305",
-              "2022-blake3-chacha20-poly1305",
-              "rabbit128-poly1305",
-              "xchacha20-ietf-poly1305",
-              "xchacha20",
-              "aegis-128l",
-              "aegis-256",
-              "aez-384",
-              "deoxys-ii-256-128",
-              "rc4-md5"
-            ]
-          },
-          "fingerprint": {
-            "description": "指纹",
-            "enum": [
-              "chrome",
-              "chrome_psk",
-              "chrome_psk_shuffle",
-              "chrome_padding_psk_shuffle",
-              "chrome_pq",
-              "chrome_pq_psk",
-              "firefox",
-              "safari",
-              "ios",
-              "android",
-              "edge",
-              "360",
-              "qq",
-              "random",
-              "randomized"
-            ]
-          }
-        },
+        "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
         "url-test": {
           "type": "object",
           "title": "outboundgroup-url-test",
           "definitions": {
-            "types": {"$ref": "#/definitions/authentication/definitions/types"},
+            "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
             "patterns": {
-              "$ref": "#/definitions/authentication/definitions/patterns"
+              "$ref": "#/definitions/rule-providers/definitions/patterns"
             },
-            "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"},
+            "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
             "groupbase": {
               "$ref": "#/definitions/proxy-groups/definitions/load-balance/definitions/groupbase"
             }
@@ -3596,11 +3491,11 @@
           "type": "object",
           "title": "outboundgroup-fallback",
           "definitions": {
-            "types": {"$ref": "#/definitions/authentication/definitions/types"},
+            "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
             "patterns": {
-              "$ref": "#/definitions/authentication/definitions/patterns"
+              "$ref": "#/definitions/rule-providers/definitions/patterns"
             },
-            "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"},
+            "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
             "groupbase": {
               "$ref": "#/definitions/proxy-groups/definitions/load-balance/definitions/groupbase"
             }
@@ -3617,23 +3512,23 @@
           "type": "object",
           "title": "outboundgroup-load-balance",
           "definitions": {
-            "types": {"$ref": "#/definitions/authentication/definitions/types"},
+            "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
             "patterns": {
-              "$ref": "#/definitions/authentication/definitions/patterns"
+              "$ref": "#/definitions/rule-providers/definitions/patterns"
             },
-            "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"},
+            "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
             "groupbase": {
               "type": "object",
               "title": "outboundgroup-groupbase",
               "definitions": {
                 "types": {
-                  "$ref": "#/definitions/authentication/definitions/types"
+                  "$ref": "#/definitions/rule-providers/definitions/types"
                 },
                 "patterns": {
-                  "$ref": "#/definitions/authentication/definitions/patterns"
+                  "$ref": "#/definitions/rule-providers/definitions/patterns"
                 },
                 "enums": {
-                  "$ref": "#/definitions/proxy-groups/definitions/enums"
+                  "$ref": "#/definitions/rule-providers/definitions/enums"
                 },
                 "base-option": {
                   "type": "object",
@@ -3695,13 +3590,13 @@
                       "title": "代理组基础配置",
                       "properties": {
                         "proxies": {
-                          "$ref": "#/definitions/authentication/definitions/types/stringArray",
+                          "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
                           "title": "代理节点列表",
                           "description": "代理节点列表",
                           "markdownDescription": "代理节点列表"
                         },
                         "use": {
-                          "$ref": "#/definitions/authentication/definitions/types/stringArray",
+                          "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
                           "title": "引入proxy-provider中的代理节点",
                           "description": "引入proxy-provider中的代理节点",
                           "markdownDescription": "引入proxy-provider中的代理节点"
@@ -3809,11 +3704,11 @@
           "type": "object",
           "title": "outboundgroup-relay",
           "definitions": {
-            "types": {"$ref": "#/definitions/authentication/definitions/types"},
+            "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
             "patterns": {
-              "$ref": "#/definitions/authentication/definitions/patterns"
+              "$ref": "#/definitions/rule-providers/definitions/patterns"
             },
-            "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"},
+            "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
             "groupbase": {
               "$ref": "#/definitions/proxy-groups/definitions/load-balance/definitions/groupbase"
             }
@@ -3852,20 +3747,20 @@
       "type": "array",
       "title": "listeners配置",
       "definitions": {
-        "types": {"$ref": "#/definitions/authentication/definitions/types"},
+        "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
         "patterns": {
-          "$ref": "#/definitions/authentication/definitions/patterns"
+          "$ref": "#/definitions/rule-providers/definitions/patterns"
         },
-        "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"},
+        "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
         "socks": {
           "type": "object",
           "title": "inbound-socks",
           "definitions": {
-            "types": {"$ref": "#/definitions/authentication/definitions/types"},
+            "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
             "patterns": {
-              "$ref": "#/definitions/authentication/definitions/patterns"
+              "$ref": "#/definitions/rule-providers/definitions/patterns"
             },
-            "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"},
+            "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
             "base-option": {
               "$ref": "#/definitions/listeners/definitions/shadowsocks/definitions/base-option"
             }
@@ -3877,7 +3772,7 @@
             },
             {
               "type": "object",
-              "title": "socks入站配置",
+              "title": "socks配置",
               "properties": {
                 "udp": {
                   "type": "boolean",
@@ -3894,11 +3789,11 @@
           "type": "object",
           "title": "inbound-http",
           "definitions": {
-            "types": {"$ref": "#/definitions/authentication/definitions/types"},
+            "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
             "patterns": {
-              "$ref": "#/definitions/authentication/definitions/patterns"
+              "$ref": "#/definitions/rule-providers/definitions/patterns"
             },
-            "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"},
+            "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
             "base-option": {
               "$ref": "#/definitions/listeners/definitions/shadowsocks/definitions/base-option"
             }
@@ -3908,18 +3803,18 @@
               "title": "入站基础配置",
               "$ref": "#/definitions/listeners/definitions/shadowsocks/definitions/base-option"
             },
-            {"type": "object", "title": "http入站配置", "properties": {}}
+            {"type": "object", "title": "http配置", "properties": {}}
           ]
         },
         "tproxy": {
           "type": "object",
           "title": "inbound-tproxy",
           "definitions": {
-            "types": {"$ref": "#/definitions/authentication/definitions/types"},
+            "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
             "patterns": {
-              "$ref": "#/definitions/authentication/definitions/patterns"
+              "$ref": "#/definitions/rule-providers/definitions/patterns"
             },
-            "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"},
+            "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
             "base-option": {
               "$ref": "#/definitions/listeners/definitions/shadowsocks/definitions/base-option"
             }
@@ -3931,7 +3826,7 @@
             },
             {
               "type": "object",
-              "title": "tproxy入站配置",
+              "title": "tproxy配置",
               "properties": {
                 "udp": {
                   "type": "boolean",
@@ -3948,11 +3843,11 @@
           "type": "object",
           "title": "inbound-redir",
           "definitions": {
-            "types": {"$ref": "#/definitions/authentication/definitions/types"},
+            "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
             "patterns": {
-              "$ref": "#/definitions/authentication/definitions/patterns"
+              "$ref": "#/definitions/rule-providers/definitions/patterns"
             },
-            "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"},
+            "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
             "base-option": {
               "$ref": "#/definitions/listeners/definitions/shadowsocks/definitions/base-option"
             }
@@ -3962,18 +3857,18 @@
               "title": "入站基础配置",
               "$ref": "#/definitions/listeners/definitions/shadowsocks/definitions/base-option"
             },
-            {"type": "object", "title": "redir入站配置", "properties": {}}
+            {"type": "object", "title": "redir配置", "properties": {}}
           ]
         },
         "mixed": {
           "type": "object",
           "title": "inbound-mixed",
           "definitions": {
-            "types": {"$ref": "#/definitions/authentication/definitions/types"},
+            "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
             "patterns": {
-              "$ref": "#/definitions/authentication/definitions/patterns"
+              "$ref": "#/definitions/rule-providers/definitions/patterns"
             },
-            "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"},
+            "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
             "base-option": {
               "$ref": "#/definitions/listeners/definitions/shadowsocks/definitions/base-option"
             }
@@ -3985,7 +3880,7 @@
             },
             {
               "type": "object",
-              "title": "mixed入站配置",
+              "title": "mixed配置",
               "properties": {
                 "udp": {
                   "type": "boolean",
@@ -4002,11 +3897,11 @@
           "type": "object",
           "title": "inbound-tunnel",
           "definitions": {
-            "types": {"$ref": "#/definitions/authentication/definitions/types"},
+            "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
             "patterns": {
-              "$ref": "#/definitions/authentication/definitions/patterns"
+              "$ref": "#/definitions/rule-providers/definitions/patterns"
             },
-            "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"},
+            "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
             "base-option": {
               "$ref": "#/definitions/listeners/definitions/shadowsocks/definitions/base-option"
             }
@@ -4018,7 +3913,7 @@
             },
             {
               "type": "object",
-              "title": "tunnel入站配置",
+              "title": "tunnel配置",
               "required": ["network", "target"],
               "properties": {
                 "network": {
@@ -4029,7 +3924,7 @@
                   "items": {"enum": ["tcp", "udp"]}
                 },
                 "target": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/server",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/server",
                   "title": "目标地址",
                   "description": "目标地址",
                   "markdownDescription": "目标地址"
@@ -4042,11 +3937,11 @@
           "type": "object",
           "title": "inbound-tun",
           "definitions": {
-            "types": {"$ref": "#/definitions/authentication/definitions/types"},
+            "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
             "patterns": {
-              "$ref": "#/definitions/authentication/definitions/patterns"
+              "$ref": "#/definitions/rule-providers/definitions/patterns"
             },
-            "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"},
+            "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
             "base-option": {
               "$ref": "#/definitions/listeners/definitions/shadowsocks/definitions/base-option"
             }
@@ -4058,7 +3953,7 @@
             },
             {
               "type": "object",
-              "title": "tun入站配置",
+              "title": "tun配置",
               "properties": {
                 "device": {
                   "type": "string",
@@ -4080,7 +3975,7 @@
                   "default": "gvisor"
                 },
                 "dns-hijack": {
-                  "$ref": "#/definitions/authentication/definitions/types/stringArray",
+                  "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
                   "title": "DNS劫持",
                   "description": "一般设置为any:53即可,即劫持所有53端口的udp流量",
                   "markdownDescription": "一般设置为`any:53`即可,即劫持所有53端口的udp流量",
@@ -4124,14 +4019,14 @@
                   "default": 65536
                 },
                 "inet4-address": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/ipv4",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/ipv4",
                   "title": "DNS劫持IPv4地址()",
                   "description": "53端口",
                   "markdownDescription": "53端口",
                   "deprecationMessage": "已弃用"
                 },
                 "inet6-address": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/ipv6",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/ipv6",
                   "title": "DNS劫持IPv6地址()",
                   "description": "53端口",
                   "markdownDescription": "53端口"
@@ -4144,79 +4039,79 @@
                   "default": false
                 },
                 "inet4-route-address": {
-                  "$ref": "#/definitions/authentication/definitions/types/ipv4CIDRArray",
+                  "$ref": "#/definitions/rule-providers/definitions/types/ipv4CIDRArray",
                   "title": "启用auto-route时,指定这些IPV4网段使用自定义路由",
                   "description": "启用auto-route时,指定这些IPV4网段使用自定义路由",
                   "markdownDescription": "启用`auto-route`时,指定这些IPV4网段使用自定义路由"
                 },
                 "inet6-route-address": {
-                  "$ref": "#/definitions/authentication/definitions/types/ipv6CIDRArray",
+                  "$ref": "#/definitions/rule-providers/definitions/types/ipv6CIDRArray",
                   "title": "启用auto-route时,指定这些IPV6网段使用自定义路由",
                   "description": "启用auto-route时,指定这些IPV6网段使用自定义路由",
                   "markdownDescription": "启用`auto-route`时,指定这些IPV6网段使用自定义路由"
                 },
                 "inet4-route-exclude-address": {
-                  "$ref": "#/definitions/authentication/definitions/types/ipv4CIDRArray",
+                  "$ref": "#/definitions/rule-providers/definitions/types/ipv4CIDRArray",
                   "title": "启用auto-route时,指定这些IPV4网段使用默认路由",
                   "description": "启用auto-route时,指定这些IPV4网段使用默认路由",
                   "markdownDescription": "启用`auto-route`时,指定这些IPV4网段使用默认路由"
                 },
                 "inet6-route-exclude-address": {
-                  "$ref": "#/definitions/authentication/definitions/types/ipv6CIDRArray",
+                  "$ref": "#/definitions/rule-providers/definitions/types/ipv6CIDRArray",
                   "title": "启用auto-route时,指定这些IPV6网段使用默认路由",
                   "description": "启用auto-route时,指定这些IPV6网段使用默认路由",
                   "markdownDescription": "启用`auto-route`时,指定这些IPV6网段使用默认路由"
                 },
                 "include-interface": {
-                  "$ref": "#/definitions/authentication/definitions/types/stringArray",
+                  "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
                   "title": "包含被路由的接口",
                   "description": "与exclude-interface冲突",
                   "markdownDescription": "与`exclude-interface`冲突"
                 },
                 "exclude-interface": {
-                  "$ref": "#/definitions/authentication/definitions/types/stringArray",
+                  "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
                   "title": "排除被路由的接口",
                   "description": "与include-interface冲突",
                   "markdownDescription": "与`include-interface`冲突"
                 },
                 "include-uid": {
-                  "$ref": "#/definitions/authentication/definitions/types/stringArray",
+                  "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
                   "title": "包含被路由的Linux用户",
                   "description": "使其被Tun路由流量(需要启用auto-route)",
                   "markdownDescription": "使其被Tun路由流量(需要启用`auto-route`)"
                 },
                 "include-uid-range": {
-                  "$ref": "#/definitions/authentication/definitions/types/stringArray",
+                  "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
                   "title": "包含被路由的Linux用户范围,使其被Tun路由流量",
                   "description": "格式: <UID起始>:<UID终止>(需要启用auto-route)",
                   "markdownDescription": "格式: <UID起始>:<UID终止>(需要启用`auto-route`)"
                 },
                 "exclude-uid": {
-                  "$ref": "#/definitions/authentication/definitions/types/stringArray",
+                  "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
                   "title": "排除被路由的Linux用户",
                   "description": "使其避免被Tun路由流量",
                   "markdownDescription": "使其避免被Tun路由流量"
                 },
                 "exclude-uid-range": {
-                  "$ref": "#/definitions/authentication/definitions/types/stringArray",
+                  "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
                   "title": "排除被路由的Linux用户范围,使其不被Tun路由流量",
                   "description": "格式: <UID起始>:<UID终止>(需要启用auto-route)",
                   "markdownDescription": "格式: <UID起始>:<UID终止>(需要启用`auto-route`)"
                 },
                 "include-android-user": {
-                  "$ref": "#/definitions/authentication/definitions/types/stringArray",
+                  "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
                   "title": "包含被路由的Android用户",
                   "description": "使其被Tun路由流量(需要启用auto-route)",
                   "markdownDescription": "使其被Tun路由流量(需要启用`auto-route`)"
                 },
                 "include-package": {
-                  "$ref": "#/definitions/authentication/definitions/types/stringArray",
+                  "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
                   "title": "包含被路由的Android应用包名",
                   "description": "使其被Tun路由流量(需要启用auto-route)",
                   "markdownDescription": "使其被Tun路由流量(需要启用`auto-route`)"
                 },
                 "exclude-package": {
-                  "$ref": "#/definitions/authentication/definitions/types/stringArray",
+                  "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
                   "title": "排除被路由的Android应用包名",
                   "description": "使其避免被Tun路由流量",
                   "markdownDescription": "使其避免被Tun路由流量"
@@ -4256,23 +4151,23 @@
           "type": "object",
           "title": "inbound-shadowsocks",
           "definitions": {
-            "types": {"$ref": "#/definitions/authentication/definitions/types"},
+            "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
             "patterns": {
-              "$ref": "#/definitions/authentication/definitions/patterns"
+              "$ref": "#/definitions/rule-providers/definitions/patterns"
             },
-            "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"},
+            "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
             "base-option": {
               "type": "object",
               "title": "inbound-base",
               "definitions": {
                 "types": {
-                  "$ref": "#/definitions/authentication/definitions/types"
+                  "$ref": "#/definitions/rule-providers/definitions/types"
                 },
                 "patterns": {
-                  "$ref": "#/definitions/authentication/definitions/patterns"
+                  "$ref": "#/definitions/rule-providers/definitions/patterns"
                 },
                 "enums": {
-                  "$ref": "#/definitions/proxy-groups/definitions/enums"
+                  "$ref": "#/definitions/rule-providers/definitions/enums"
                 }
               },
               "required": ["name"],
@@ -4284,14 +4179,14 @@
                   "markdownDescription": "名称"
                 },
                 "listen": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/ip",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/ip",
                   "title": "监听地址",
                   "description": "监听地址",
                   "markdownDescription": "监听地址",
                   "default": "0.0.0.0"
                 },
                 "port": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/port",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/port",
                   "title": "监听端口",
                   "description": "监听端口",
                   "markdownDescription": "监听端口"
@@ -4315,13 +4210,13 @@
               "title": "sing配置",
               "definitions": {
                 "types": {
-                  "$ref": "#/definitions/authentication/definitions/types"
+                  "$ref": "#/definitions/rule-providers/definitions/types"
                 },
                 "patterns": {
-                  "$ref": "#/definitions/authentication/definitions/patterns"
+                  "$ref": "#/definitions/rule-providers/definitions/patterns"
                 },
                 "enums": {
-                  "$ref": "#/definitions/proxy-groups/definitions/enums"
+                  "$ref": "#/definitions/rule-providers/definitions/enums"
                 },
                 "brutal": {
                   "type": "object",
@@ -4369,7 +4264,7 @@
             },
             {
               "type": "object",
-              "title": "shadowsocks入站配置",
+              "title": "shadowsocks配置",
               "required": ["password", "cipher"],
               "properties": {
                 "password": {
@@ -4379,7 +4274,7 @@
                   "markdownDescription": "认证密码"
                 },
                 "cipher": {
-                  "$ref": "#/definitions/proxy-groups/definitions/enums/cipher",
+                  "$ref": "#/definitions/rule-providers/definitions/enums/cipher",
                   "title": "加密方法",
                   "description": "加密方法",
                   "markdownDescription": "加密方法"
@@ -4403,11 +4298,11 @@
           "type": "object",
           "title": "inbound-vmess",
           "definitions": {
-            "types": {"$ref": "#/definitions/authentication/definitions/types"},
+            "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
             "patterns": {
-              "$ref": "#/definitions/authentication/definitions/patterns"
+              "$ref": "#/definitions/rule-providers/definitions/patterns"
             },
-            "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"},
+            "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
             "base-option": {
               "$ref": "#/definitions/listeners/definitions/shadowsocks/definitions/base-option"
             },
@@ -4426,7 +4321,7 @@
                   "markdownDescription": "认证用户名"
                 },
                 "uuid": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/uuid",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/uuid",
                   "title": "UUID",
                   "description": "UUID",
                   "markdownDescription": "UUID"
@@ -4447,7 +4342,7 @@
             },
             {
               "type": "object",
-              "title": "vmess入站配置",
+              "title": "vmess配置",
               "required": ["password", "cipher"],
               "properties": {
                 "users": {
@@ -4489,11 +4384,11 @@
           "type": "object",
           "title": "inbound-hysteria2",
           "definitions": {
-            "types": {"$ref": "#/definitions/authentication/definitions/types"},
+            "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
             "patterns": {
-              "$ref": "#/definitions/authentication/definitions/patterns"
+              "$ref": "#/definitions/rule-providers/definitions/patterns"
             },
-            "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"},
+            "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
             "base-option": {
               "$ref": "#/definitions/listeners/definitions/shadowsocks/definitions/base-option"
             },
@@ -4508,7 +4403,7 @@
             },
             {
               "type": "object",
-              "title": "hysteria2入站配置",
+              "title": "hysteria2配置",
               "required": ["password", "cipher"],
               "properties": {
                 "users": {
@@ -4549,7 +4444,7 @@
                   "markdownDescription": "单位:ms"
                 },
                 "alpn": {
-                  "$ref": "#/definitions/authentication/definitions/types/stringArray",
+                  "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
                   "title": "ALPN",
                   "description": "Application-Layer Protocol Negotiation(应用层协议协商)",
                   "markdownDescription": "Application-Layer Protocol Negotiation(应用层协议协商)"
@@ -4573,7 +4468,7 @@
                   "markdownDescription": "启用后使服务器忽略任何客户端设置的带宽带宽提示,使用传统的BBR拥塞控制算法"
                 },
                 "masquerade": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/url",
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/url",
                   "title": "伪装流量url",
                   "description": "支持file://、http://、https://",
                   "markdownDescription": "支持`file://`、`http://`、`https://`"
@@ -4603,11 +4498,11 @@
           "type": "object",
           "title": "inbound-tuic",
           "definitions": {
-            "types": {"$ref": "#/definitions/authentication/definitions/types"},
+            "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
             "patterns": {
-              "$ref": "#/definitions/authentication/definitions/patterns"
+              "$ref": "#/definitions/rule-providers/definitions/patterns"
             },
-            "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"},
+            "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
             "base-option": {
               "$ref": "#/definitions/listeners/definitions/shadowsocks/definitions/base-option"
             },
@@ -4622,7 +4517,7 @@
             },
             {
               "type": "object",
-              "title": "tuic入站配置",
+              "title": "tuic配置",
               "properties": {
                 "token": {
                   "type": "string",
@@ -4668,7 +4563,7 @@
                   "markdownDescription": "单位:ms"
                 },
                 "alpn": {
-                  "$ref": "#/definitions/authentication/definitions/types/stringArray",
+                  "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
                   "title": "ALPN",
                   "description": "Application-Layer Protocol Negotiation(应用层协议协商)",
                   "markdownDescription": "Application-Layer Protocol Negotiation(应用层协议协商)"
@@ -4771,14 +4666,710 @@
         ]
       }
     },
+    "rule-providers": {
+      "type": "object",
+      "title": "规则提供者配置",
+      "definitions": {
+        "types": {
+          "stringArray": {
+            "anyOf": [
+              {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/compatible/string"
+                }
+              },
+              {
+                "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/compatible/string"
+              }
+            ]
+          },
+          "portArray": {
+            "anyOf": [
+              {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/port"
+                }
+              },
+              {"$ref": "#/definitions/rule-providers/definitions/patterns/port"}
+            ]
+          },
+          "portRangeArray": {
+            "anyOf": [
+              {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/portRange"
+                }
+              },
+              {
+                "$ref": "#/definitions/rule-providers/definitions/patterns/portRange"
+              }
+            ]
+          },
+          "ipv4Array": {
+            "anyOf": [
+              {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/ipv4"
+                }
+              },
+              {"$ref": "#/definitions/rule-providers/definitions/patterns/ipv4"}
+            ]
+          },
+          "ipv4PortArray": {
+            "anyOf": [
+              {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/ipv4Port"
+                }
+              },
+              {
+                "$ref": "#/definitions/rule-providers/definitions/patterns/ipv4Port"
+              }
+            ]
+          },
+          "ipv4CIDRArray": {
+            "anyOf": [
+              {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/ipv4CIDR"
+                }
+              },
+              {
+                "$ref": "#/definitions/rule-providers/definitions/patterns/ipv4CIDR"
+              }
+            ]
+          },
+          "ipv6Array": {
+            "anyOf": [
+              {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/ipv6"
+                }
+              },
+              {"$ref": "#/definitions/rule-providers/definitions/patterns/ipv6"}
+            ]
+          },
+          "ipv6PortArray": {
+            "anyOf": [
+              {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/ipv6Port"
+                }
+              },
+              {
+                "$ref": "#/definitions/rule-providers/definitions/patterns/ipv6Port"
+              }
+            ]
+          },
+          "ipv6CIDRArray": {
+            "anyOf": [
+              {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/ipv6CIDR"
+                }
+              },
+              {
+                "$ref": "#/definitions/rule-providers/definitions/patterns/ipv6CIDR"
+              }
+            ]
+          },
+          "ipArray": {
+            "anyOf": [
+              {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/ip"
+                }
+              },
+              {"$ref": "#/definitions/rule-providers/definitions/patterns/ip"}
+            ]
+          },
+          "ipPortArray": {
+            "anyOf": [
+              {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/ipPort"
+                }
+              },
+              {
+                "$ref": "#/definitions/rule-providers/definitions/patterns/ipPort"
+              }
+            ]
+          },
+          "ipCIDRArray": {
+            "anyOf": [
+              {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/ipCIDR"
+                }
+              },
+              {
+                "$ref": "#/definitions/rule-providers/definitions/patterns/ipCIDR"
+              }
+            ]
+          },
+          "serverArray": {
+            "anyOf": [
+              {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/server"
+                }
+              },
+              {
+                "$ref": "#/definitions/rule-providers/definitions/patterns/server"
+              }
+            ]
+          },
+          "domainArray": {
+            "anyOf": [
+              {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/domain"
+                }
+              },
+              {
+                "$ref": "#/definitions/rule-providers/definitions/patterns/domain"
+              }
+            ]
+          },
+          "domainWildcardArray": {
+            "anyOf": [
+              {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/domainWildcard"
+                }
+              },
+              {
+                "$ref": "#/definitions/rule-providers/definitions/patterns/domainWildcard"
+              }
+            ]
+          },
+          "urlArray": {
+            "anyOf": [
+              {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/url"
+                }
+              },
+              {"$ref": "#/definitions/rule-providers/definitions/patterns/url"}
+            ]
+          },
+          "httpUrlArray": {
+            "anyOf": [
+              {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/rule-providers/definitions/patterns/httpUrl"
+                }
+              },
+              {
+                "$ref": "#/definitions/rule-providers/definitions/patterns/httpUrl"
+              }
+            ]
+          }
+        },
+        "patterns": {
+          "port": {
+            "pattern": "^(?:[1-9]\\d{0,3}|[1-5]\\d{4}|6[0-4]\\d{3}|65[0-4]\\d{2}|655[0-2]\\d|6553[0-5])$",
+            "errorMessage": "无效的端口号(0~65535)"
+          },
+          "portRange": {
+            "pattern": "^(?:[1-9]\\d{0,3}|[1-5]\\d{4}|6[0-4]\\d{3}|65[0-4]\\d{2}|655[0-2]\\d|6553[0-5])$|^([1-9]\\d{0,3}|[1-5]\\d{4}|6[0-4]\\d{3}|65[0-4]\\d{2}|655[0-2]\\d|6553[0-5])-(?:[1-9]\\d{0,3}|[1-5]\\d{4}|6[0-4]\\d{3}|65[0-4]\\d{2}|655[0-2]\\d|6553[0-5])$",
+            "errorMessage": "无效的端口范围(port 或 port1-port2)"
+          },
+          "ipv4": {
+            "pattern": "^(?:(?:[1-9]?[0-9]|1[0-9][0-9]|2(?:[0-4][0-9]|5[0-5]))\\.){3}(?:[1-9]?[0-9]|1[0-9][0-9]|2(?:[0-4][0-9]|5[0-5]))$",
+            "errorMessage": "无效的IPv4地址"
+          },
+          "ipv4Port": {
+            "pattern": "^(?:(?:[1-9]?[0-9]|1[0-9][0-9]|2(?:[0-4][0-9]|5[0-5]))\\.){3}(?:[1-9]?[0-9]|1[0-9][0-9]|2(?:[0-4][0-9]|5[0-5])):(?:[0-9]|[1-9][0-9]{1,3}|[1-5][0-9]{4}|6[0-5]{2}[0-3][0-5])$",
+            "errorMessage": "无效的IPv4地址:端口"
+          },
+          "ipv4CIDR": {
+            "pattern": "^(?:(?:[1-9]?[0-9]|1[0-9][0-9]|2(?:[0-4][0-9]|5[0-5]))\\.){3}(?:[1-9]?[0-9]|1[0-9][0-9]|2(?:[0-4][0-9]|5[0-5]))(?:\\/(?:[12]?[0-9]|3[0-2]))$",
+            "errorMessage": "无效的IPv4网段"
+          },
+          "ipv6": {
+            "pattern": "^([0-9a-fA-F]{1,4}(?::[0-9a-fA-F]{1,4}){7}|::|:(?::[0-9a-fA-F]{1,4}){1,6}|[0-9a-fA-F]{1,4}:(?::[0-9a-fA-F]{1,4}){1,5}|(?:[0-9a-fA-F]{1,4}:){2}(?::[0-9a-fA-F]{1,4}){1,4}|(?:[0-9a-fA-F]{1,4}:){3}(?::[0-9a-fA-F]{1,4}){1,3}|(?:[0-9a-fA-F]{1,4}:){4}(?::[0-9a-fA-F]{1,4}){1,2}|(?:[0-9a-fA-F]{1,4}:){5}:[0-9a-fA-F]{1,4}|(?:[0-9a-fA-F]{1,4}:){1,6}:)$",
+            "errorMessage": "无效的IPv6地址"
+          },
+          "ipv6Port": {
+            "pattern": "^\\[([0-9a-fA-F]{1,4}(?::[0-9a-fA-F]{1,4}){7}|::|:(?::[0-9a-fA-F]{1,4}){1,6}|[0-9a-fA-F]{1,4}:(?::[0-9a-fA-F]{1,4}){1,5}|(?:[0-9a-fA-F]{1,4}:){2}(?::[0-9a-fA-F]{1,4}){1,4}|(?:[0-9a-fA-F]{1,4}:){3}(?::[0-9a-fA-F]{1,4}){1,3}|(?:[0-9a-fA-F]{1,4}:){4}(?::[0-9a-fA-F]{1,4}){1,2}|(?:[0-9a-fA-F]{1,4}:){5}:[0-9a-fA-F]{1,4}|(?:[0-9a-fA-F]{1,4}:){1,6}:)\\]:(?:[0-9]|[1-9][0-9]{1,3}|[1-5][0-9]{4}|6[0-5]{2}[0-3][0-5])$",
+            "errorMessage": "无效的[IPv6地址]:端口"
+          },
+          "ipv6CIDR": {
+            "pattern": "^([0-9a-fA-F]{1,4}(?::[0-9a-fA-F]{1,4}){7}|::|:(?::[0-9a-fA-F]{1,4}){1,6}|[0-9a-fA-F]{1,4}:(?::[0-9a-fA-F]{1,4}){1,5}|(?:[0-9a-fA-F]{1,4}:){2}(?::[0-9a-fA-F]{1,4}){1,4}|(?:[0-9a-fA-F]{1,4}:){3}(?::[0-9a-fA-F]{1,4}){1,3}|(?:[0-9a-fA-F]{1,4}:){4}(?::[0-9a-fA-F]{1,4}){1,2}|(?:[0-9a-fA-F]{1,4}:){5}:[0-9a-fA-F]{1,4}|(?:[0-9a-fA-F]{1,4}:){1,6}:)\\/(?:12[0-8]|1[01][0-9]|[1-9]?[0-9])$",
+            "errorMessage": "无效的IPv6网段"
+          },
+          "ip": {
+            "anyOf": [
+              {
+                "description": "ipv4",
+                "$ref": "#/definitions/rule-providers/definitions/patterns/ipv4"
+              },
+              {
+                "description": "ipv6",
+                "$ref": "#/definitions/rule-providers/definitions/patterns/ipv6"
+              }
+            ]
+          },
+          "ipPort": {
+            "anyOf": [
+              {
+                "description": "ipv4:端口",
+                "$ref": "#/definitions/rule-providers/definitions/patterns/ipv4Port"
+              },
+              {
+                "description": "[ipv6]:端口",
+                "$ref": "#/definitions/rule-providers/definitions/patterns/ipv6Port"
+              }
+            ]
+          },
+          "ipCIDR": {
+            "anyOf": [
+              {
+                "description": "ipv4网段",
+                "$ref": "#/definitions/rule-providers/definitions/patterns/ipv4CIDR"
+              },
+              {
+                "description": "ipv6网段",
+                "$ref": "#/definitions/rule-providers/definitions/patterns/ipv6CIDR"
+              }
+            ]
+          },
+          "domain": {
+            "pattern": "^(xn--)?[a-zA-Z0-9-_]+(?:\\.(xn--)?[a-zA-Z0-9-_]+)+$",
+            "errorMessage": "无效的域名"
+          },
+          "domainWildcard": {
+            "pattern": "^[\\.\\+]?(xn--)?[a-zA-Z0-9-_*]+(?:\\.(xn--)?[a-zA-Z0-9-_*]+)+$",
+            "errorMessage": "无效的域名通配"
+          },
+          "server": {
+            "anyOf": [
+              {
+                "description": "ipv4",
+                "$ref": "#/definitions/rule-providers/definitions/patterns/ipv4"
+              },
+              {
+                "description": "ipv4:端口",
+                "$ref": "#/definitions/rule-providers/definitions/patterns/ipv4Port"
+              },
+              {
+                "description": "ipv6",
+                "$ref": "#/definitions/rule-providers/definitions/patterns/ipv6"
+              },
+              {
+                "description": "[ipv6]:端口",
+                "$ref": "#/definitions/rule-providers/definitions/patterns/ipv6Port"
+              },
+              {
+                "description": "域名",
+                "$ref": "#/definitions/rule-providers/definitions/patterns/domain"
+              }
+            ]
+          },
+          "url": {
+            "pattern": "^.+:\\/\\/([^\\s/$.?#].[^\\s]*)\\.[^\\s]{2,}(\\/[^\\s]*)?$",
+            "errorMessage": "无效的URL"
+          },
+          "httpUrl": {
+            "pattern": "^https?:\\/\\/([^\\s/$.?#].[^\\s]*)\\.[^\\s]{2,}(\\/[^\\s]*)?$",
+            "errorMessage": "无效的HTTP-URL"
+          },
+          "uuid": {
+            "pattern": "^[0-9a-fA-F]{8}(?:-?[0-9a-fA-F]{4}){3}-?[0-9a-fA-F]{12}$",
+            "errorMessage": "无效的UUID"
+          }
+        },
+        "enums": {
+          "proxyType": {
+            "description": "代理类型",
+            "enum": [
+              "direct",
+              "dns",
+              "ss",
+              "ssr",
+              "snell",
+              "socks5",
+              "http",
+              "vmess",
+              "vless",
+              "trojan",
+              "hysteria",
+              "hysteria2",
+              "wireguard",
+              "tuic",
+              "ssh"
+            ]
+          },
+          "proxyAdapter": {
+            "description": "代理适配器名称",
+            "enum": [
+              "Direct",
+              "Reject",
+              "RejectDrop",
+              "Compatible",
+              "Pass",
+              "Dns",
+              "Shadowsocks",
+              "ShadowsocksR",
+              "Snell",
+              "Socks5",
+              "Http",
+              "Vmess",
+              "Vless",
+              "Trojan",
+              "Hysteria",
+              "Hysteria2",
+              "WireGuard",
+              "Tuic",
+              "Relay",
+              "Selector",
+              "Fallback",
+              "URLTest",
+              "LoadBalance",
+              "Ssh"
+            ]
+          },
+          "cipher": {
+            "description": "加密方法",
+            "enum": [
+              "auto",
+              "dummy",
+              "aes-128-gcm",
+              "aes-192-gcm",
+              "aes-256-gcm",
+              "lea-128-gcm",
+              "lea-192-gcm",
+              "lea-256-gcm",
+              "aes-128-gcm-siv",
+              "aes-256-gcm-siv",
+              "2022-blake3-aes-128-gcm",
+              "2022-blake3-aes-256-gcm",
+              "aes-128-cfb",
+              "aes-192-cfb",
+              "aes-256-cfb",
+              "aes-128-ctr",
+              "aes-192-ctr",
+              "aes-256-ctr",
+              "chacha20",
+              "chacha20-ietf",
+              "chacha20-ietf-poly1305",
+              "2022-blake3-chacha20-poly1305",
+              "rabbit128-poly1305",
+              "xchacha20-ietf-poly1305",
+              "xchacha20",
+              "aegis-128l",
+              "aegis-256",
+              "aez-384",
+              "deoxys-ii-256-128",
+              "rc4-md5"
+            ]
+          },
+          "fingerprint": {
+            "description": "指纹",
+            "enum": [
+              "chrome",
+              "chrome_psk",
+              "chrome_psk_shuffle",
+              "chrome_padding_psk_shuffle",
+              "chrome_pq",
+              "chrome_pq_psk",
+              "firefox",
+              "safari",
+              "ios",
+              "android",
+              "edge",
+              "360",
+              "qq",
+              "random",
+              "randomized"
+            ]
+          }
+        }
+      },
+      "additionalProperties": {
+        "type": "object",
+        "required": ["type", "behavior"],
+        "properties": {
+          "type": {
+            "enum": ["file", "http"],
+            "markdownEnumDescriptions": ["本地文件", "网络文件"],
+            "title": "provider类型",
+            "description": "provider类型",
+            "markdownDescription": "provider类型"
+          },
+          "behavior": {
+            "enum": ["domain", "ipcidr", "classical"],
+            "markdownEnumDescriptions": [
+              "域名通配",
+              "IP网段匹配",
+              "支持除`rule-set`/`sub-rule`以外的全部路由规则"
+            ],
+            "title": "规则匹配行为",
+            "description": "规则匹配行为",
+            "markdownDescription": "规则匹配行为"
+          },
+          "path": {
+            "type": "string",
+            "title": "provider文件保存路径",
+            "description": "默认使用MD5(url)作为文件名。内核工作目录的相对路径(如果想保存到任意位置,配置环境变量SKIP_SAFE_PATH_CHECK=1)",
+            "markdownDescription": "默认使用MD5(`url`)作为文件名。内核工作目录的相对路径(如果想保存到任意位置,配置环境变量`SKIP_SAFE_PATH_CHECK=1`)"
+          },
+          "format": {
+            "enum": ["yaml", "text"],
+            "markdownEnumDescriptions": ["YAML格式", "普通文本格式"],
+            "title": "provider文件格式",
+            "description": "provider文件格式",
+            "markdownDescription": "provider文件格式",
+            "default": "yaml"
+          },
+          "interval": {
+            "type": "integer",
+            "title": "provider更新间隔",
+            "description": "单位:s",
+            "markdownDescription": "单位:s"
+          }
+        },
+        "if": {"properties": {"type": {"const": "http"}}},
+        "then": {
+          "required": ["url"],
+          "properties": {
+            "url": {
+              "$ref": "#/definitions/rule-providers/definitions/patterns/httpUrl",
+              "title": "provider网络文件地址",
+              "description": "provider网络文件地址",
+              "markdownDescription": "provider网络文件地址"
+            },
+            "proxy": {
+              "type": "string",
+              "title": "使用指定代理下载/更新provider",
+              "description": "使用指定代理下载/更新provider",
+              "markdownDescription": "使用指定代理下载/更新provider"
+            }
+          }
+        }
+      }
+    },
+    "sub-rules": {
+      "type": "object",
+      "title": "子规则配置",
+      "definitions": {
+        "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
+        "patterns": {
+          "$ref": "#/definitions/rule-providers/definitions/patterns"
+        },
+        "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
+        "rule": {
+          "type": "string",
+          "definitions": {
+            "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
+            "patterns": {
+              "$ref": "#/definitions/rule-providers/definitions/patterns"
+            },
+            "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"}
+          },
+          "anyOf": [
+            {
+              "title": "匹配完整域名",
+              "pattern": "^DOMAIN((?:,[^,]+){2})$",
+              "errorMessage": "无效的规则"
+            },
+            {
+              "title": "匹配域名后缀",
+              "pattern": "^DOMAIN-SUFFIX((?:,[^,]+){2})$",
+              "errorMessage": "无效的规则"
+            },
+            {
+              "title": "匹配域名关键字",
+              "pattern": "^DOMAIN-KEYWORD((?:,[^,]+){2})$",
+              "errorMessage": "无效的规则"
+            },
+            {
+              "title": "匹配域名正则表达式",
+              "pattern": "^DOMAIN-REGEX((?:,[^,]+){2})$",
+              "errorMessage": "无效的规则"
+            },
+            {
+              "title": "匹配Geosite内的域名",
+              "pattern": "^GEOSITE((?:,[^,]+){2})$",
+              "errorMessage": "无效的规则"
+            },
+            {
+              "title": "匹配IP所属国家代码",
+              "pattern": "^GEOIP((?:,[^,]+){2})(,no-resolve)?$",
+              "errorMessage": "无效的规则"
+            },
+            {
+              "title": "匹配来源IP所属国家代码",
+              "pattern": "^SRC-GEOIP((?:,[^,]+){2})$",
+              "errorMessage": "无效的规则"
+            },
+            {
+              "title": "匹配IP所属ASN",
+              "pattern": "^IP-ASN((?:,[^,]+){2})(,no-resolve)?$",
+              "errorMessage": "无效的规则"
+            },
+            {
+              "title": "匹配来源IP所属ASN",
+              "pattern": "^SCR-IP-ASN((?:,[^,]+){2})$",
+              "errorMessage": "无效的规则"
+            },
+            {
+              "title": "匹配IP地址范围",
+              "pattern": "^IP-CIDR((?:,[^,]+){2})(,no-resolve)?$",
+              "errorMessage": "无效的规则"
+            },
+            {
+              "title": "匹配IP地址范围",
+              "pattern": "^IP-CIDR6((?:,[^,]+){2})(,no-resolve)?$",
+              "errorMessage": "无效的规则"
+            },
+            {
+              "title": "匹配来源IP地址范围",
+              "pattern": "^SRC-IP-CIDR((?:,[^,]+){2})$",
+              "errorMessage": "无效的规则"
+            },
+            {
+              "title": "匹配IP后缀范围",
+              "pattern": "^IP-SUFFIX((?:,[^,]+){2})(,no-resolve)?$",
+              "errorMessage": "无效的规则"
+            },
+            {
+              "title": "匹配来源IP后缀范围",
+              "pattern": "^SRC-IP-SUFFIX((?:,[^,]+){2})$",
+              "errorMessage": "无效的规则"
+            },
+            {
+              "title": "匹配请求来源端口范围",
+              "pattern": "^SRC-PORT((?:,[^,]+){2})$",
+              "errorMessage": "无效的规则"
+            },
+            {
+              "title": "匹配请求目标端口范围",
+              "pattern": "^DST-PORT((?:,[^,]+){2})$",
+              "errorMessage": "无效的规则"
+            },
+            {
+              "title": "匹配入站端口,可用端口范围",
+              "pattern": "^IN-PORT((?:,[^,]+){2})$",
+              "errorMessage": "无效的规则"
+            },
+            {
+              "title": "DSCP标记(仅限tproxy udp入站)",
+              "pattern": "^DSCP((?:,[^,]+){2})$",
+              "errorMessage": "无效的规则"
+            },
+            {
+              "title": "匹配进程名称(Android包名)",
+              "pattern": "^PROCESS-NAME((?:,[^,]+){2})$",
+              "errorMessage": "无效的规则"
+            },
+            {
+              "title": "匹配完整进程路径",
+              "pattern": "^PROCESS-PATH((?:,[^,]+){2})$",
+              "errorMessage": "无效的规则"
+            },
+            {
+              "title": "匹配传输协议(tcp/udp)",
+              "pattern": "^NETWORK((?:,[^,]+){2})$",
+              "errorMessage": "无效的规则"
+            },
+            {
+              "title": "匹配Linux USER ID",
+              "pattern": "^UID((?:,[^,]+){2})$",
+              "errorMessage": "无效的规则"
+            },
+            {
+              "title": "匹配入站类型",
+              "pattern": "^IN-TYPE((?:,[^,]+){2})$",
+              "errorMessage": "无效的规则"
+            },
+            {
+              "title": "匹配入站用户名",
+              "pattern": "^IN-USER((?:,[^,]+){2})$",
+              "errorMessage": "无效的规则"
+            },
+            {
+              "title": "匹配入站名称",
+              "pattern": "^IN-NAME((?:,[^,]+){2})$",
+              "errorMessage": "无效的规则"
+            },
+            {
+              "title": "子规则",
+              "pattern": "^SUB-RULE((?:,[^,]+){2})$",
+              "errorMessage": "无效的规则"
+            },
+            {
+              "title": "匹配规则集(rule-providers中定义)",
+              "pattern": "^RULE-SET((?:,[^,]+){2})(,no-resolve)?$",
+              "errorMessage": "无效的规则"
+            },
+            {
+              "title": "逻辑和",
+              "pattern": "^AND,\\(\\(.+,.+\\)\\),.+$",
+              "errorMessage": "无效的规则"
+            },
+            {
+              "title": "逻辑或",
+              "pattern": "^OR,\\(\\(.+,.+\\)\\),.+$",
+              "errorMessage": "无效的规则"
+            },
+            {
+              "title": "逻辑非",
+              "pattern": "^NOT,\\(\\(.+,.+\\)\\),.+$",
+              "errorMessage": "无效的规则"
+            },
+            {
+              "title": "匹配所有请求(无需条件)",
+              "pattern": "^MATCH,.+$",
+              "errorMessage": "无效的规则"
+            }
+          ]
+        }
+      },
+      "additionalProperties": {
+        "type": "array",
+        "items": {"$ref": "#/definitions/sub-rules/definitions/rule"}
+      }
+    },
+    "rules": {
+      "type": "array",
+      "title": "规则配置",
+      "definitions": {
+        "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
+        "patterns": {
+          "$ref": "#/definitions/rule-providers/definitions/patterns"
+        },
+        "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
+        "rule": {"$ref": "#/definitions/sub-rules/definitions/rule"}
+      },
+      "items": {"$ref": "#/definitions/sub-rules/definitions/rule"}
+    },
     "hosts": {
       "type": "object",
       "title": "hosts配置",
       "description": "key: value格式(域名支持通配)",
       "definitions": {
-        "types": {"$ref": "#/definitions/authentication/definitions/types"},
+        "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
         "patterns": {
-          "$ref": "#/definitions/authentication/definitions/patterns"
+          "$ref": "#/definitions/rule-providers/definitions/patterns"
         }
       }
     },
@@ -4786,9 +5377,9 @@
       "type": "object",
       "title": "NTP配置",
       "definitions": {
-        "types": {"$ref": "#/definitions/authentication/definitions/types"},
+        "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
         "patterns": {
-          "$ref": "#/definitions/authentication/definitions/patterns"
+          "$ref": "#/definitions/rule-providers/definitions/patterns"
         }
       },
       "properties": {
@@ -4807,7 +5398,7 @@
           "default": "time.apple.com"
         },
         "port": {
-          "$ref": "#/definitions/authentication/definitions/patterns/port",
+          "$ref": "#/definitions/rule-providers/definitions/patterns/port",
           "title": "NTP服务器端口",
           "description": "NTP服务器端口",
           "markdownDescription": "`NTP`服务器端口",
@@ -4838,9 +5429,9 @@
       "type": "object",
       "description": "DNS配置",
       "definitions": {
-        "types": {"$ref": "#/definitions/authentication/definitions/types"},
+        "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
         "patterns": {
-          "$ref": "#/definitions/authentication/definitions/patterns"
+          "$ref": "#/definitions/rule-providers/definitions/patterns"
         }
       },
       "properties": {
@@ -4880,14 +5471,14 @@
           "default": true
         },
         "nameserver": {
-          "$ref": "#/definitions/authentication/definitions/types/stringArray",
+          "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
           "title": "默认域名解析服务器",
           "description": "支持UDP,TCP,DoT,DoH,DoQ",
           "markdownDescription": "支持`UDP`,`TCP`,`DoT`,`DoH`,`DoQ`",
           "default": ["https://doh.pub/dns-query", "tls://223.5.5.5:853"]
         },
         "fallback": {
-          "$ref": "#/definitions/authentication/definitions/types/stringArray",
+          "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
           "title": "备用域名解析服务器",
           "description": "一般情况下使用境外DNS服务器,保证结果可信",
           "markdownDescription": "一般情况下使用境外DNS服务器,保证结果可信"
@@ -4913,27 +5504,28 @@
               "default": "CN"
             },
             "ipcidr": {
-              "$ref": "#/definitions/authentication/definitions/types/ipCIDRArray",
+              "$ref": "#/definitions/rule-providers/definitions/types/ipCIDRArray",
               "title": "DNS污染网段列表",
               "description": "这些网段的结果会被视为污染,将采用fallback的解析结果",
               "markdownDescription": "这些网段的结果会被视为污染,将采用`fallback`的解析结果"
             },
             "domain": {
-              "$ref": "#/definitions/authentication/definitions/types/stringArray",
+              "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
               "title": "DNS污染域名列表",
               "description": "这些域名的结果会被视为污染,将采用fallback的解析结果",
               "markdownDescription": "这些域名的结果会被视为污染,将采用`fallback`的解析结果"
             },
             "geosite": {
-              "$ref": "#/definitions/authentication/definitions/types/stringArray",
-              "title": "DNS污染geosite列表",
-              "description": "这些geosite的结果会被视为污染,将采用fallback的解析结果",
-              "markdownDescription": "这些geosite的结果会被视为污染,将采用`fallback`的解析结果"
+              "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
+              "title": "DNS污染GeoSite列表",
+              "description": "这些GeoSite的结果会被视为污染,将采用fallback的解析结果",
+              "markdownDescription": "这些[GeoSite](https://github.com/v2ray/domain-list-community/tree/master/data)的结果会被视为污染,将采用`fallback`的解析结果",
+              "deprecationMessage": "使用nameserver-policy代替geosite(geosite将在未来移除)"
             }
           }
         },
         "listen": {
-          "$ref": "#/definitions/authentication/definitions/patterns/ipPort",
+          "$ref": "#/definitions/rule-providers/definitions/patterns/ipPort",
           "title": "DNS服务器监听地址",
           "description": "DNS服务器监听地址",
           "markdownDescription": "DNS服务器监听地址",
@@ -4952,15 +5544,15 @@
           "default": "fake-ip"
         },
         "fake-ip-range": {
-          "$ref": "#/definitions/authentication/definitions/patterns/ipCIDR",
+          "$ref": "#/definitions/rule-providers/definitions/patterns/ipCIDR",
           "title": "fake-ip的预留映射地址段",
           "description": "tun模式的网卡默认IP也使用此值作为参考",
           "markdownDescription": "tun模式的网卡默认IP也使用此值作为参考",
           "default": "198.18.0.1/16"
         },
         "fake-ip-filter": {
-          "$ref": "#/definitions/authentication/definitions/types/stringArray",
-          "title": "fakeip过滤",
+          "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
+          "title": "fake-ip过滤",
           "description": "不使用fake-ip的地址范围",
           "markdownDescription": "不使用`fake-ip`的地址范围",
           "default": [
@@ -4970,7 +5562,7 @@
           ]
         },
         "default-nameserver": {
-          "$ref": "#/definitions/authentication/definitions/types/serverArray",
+          "$ref": "#/definitions/rule-providers/definitions/types/serverArray",
           "title": "元域名解析服务器",
           "description": "解析nameserver,fallback以及其他DNS服务器配置的DNS服务器(只能使用纯IP地址,支持加密DNS)",
           "markdownDescription": "解析`nameserver`,`fallback`以及其他DNS服务器配置的DNS服务器(只能使用纯IP地址,支持加密DNS)",
@@ -4987,14 +5579,14 @@
         "nameserver-policy": {
           "type": "object",
           "additionalProperties": {
-            "$ref": "#/definitions/authentication/definitions/types/stringArray"
+            "$ref": "#/definitions/rule-providers/definitions/types/stringArray"
           },
           "title": "DNS解析服务器策略",
           "description": "指定地址使用特定DNS解析服务器",
           "markdownDescription": "指定地址使用特定DNS解析服务器"
         },
         "proxy-server-nameserver": {
-          "$ref": "#/definitions/authentication/definitions/types/stringArray",
+          "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
           "title": "代理节点DNS解析服务器",
           "description": "用于解析代理节点的域名",
           "markdownDescription": "用于解析代理节点的域名"
@@ -5005,11 +5597,11 @@
       "type": "object",
       "title": "tun配置",
       "definitions": {
-        "types": {"$ref": "#/definitions/authentication/definitions/types"},
+        "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
         "patterns": {
-          "$ref": "#/definitions/authentication/definitions/patterns"
+          "$ref": "#/definitions/rule-providers/definitions/patterns"
         },
-        "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"}
+        "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"}
       },
       "properties": {
         "enable": {
@@ -5039,7 +5631,7 @@
           "default": "gvisor"
         },
         "dns-hijack": {
-          "$ref": "#/definitions/authentication/definitions/types/stringArray",
+          "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
           "title": "DNS劫持",
           "description": "一般设置为any:53即可,即劫持所有53端口的udp流量",
           "markdownDescription": "一般设置为`any:53`即可,即劫持所有53端口的udp流量",
@@ -5083,13 +5675,13 @@
           "default": 65536
         },
         "inet4-address": {
-          "$ref": "#/definitions/authentication/definitions/patterns/ipv4",
+          "$ref": "#/definitions/rule-providers/definitions/patterns/ipv4",
           "title": "DNS劫持IPv4地址()",
           "description": "53端口",
           "markdownDescription": "53端口"
         },
         "inet6-address": {
-          "$ref": "#/definitions/authentication/definitions/patterns/ipv6",
+          "$ref": "#/definitions/rule-providers/definitions/patterns/ipv6",
           "title": "DNS劫持IPv6地址()",
           "description": "53端口",
           "markdownDescription": "53端口"
@@ -5102,79 +5694,79 @@
           "default": false
         },
         "inet4-route-address": {
-          "$ref": "#/definitions/authentication/definitions/types/ipv4CIDRArray",
+          "$ref": "#/definitions/rule-providers/definitions/types/ipv4CIDRArray",
           "title": "启用auto-route时,指定这些IPV4网段使用自定义路由",
           "description": "启用auto-route时,指定这些IPV4网段使用自定义路由",
           "markdownDescription": "启用`auto-route`时,指定这些IPV4网段使用自定义路由"
         },
         "inet6-route-address": {
-          "$ref": "#/definitions/authentication/definitions/types/ipv6CIDRArray",
+          "$ref": "#/definitions/rule-providers/definitions/types/ipv6CIDRArray",
           "title": "启用auto-route时,指定这些IPV6网段使用自定义路由",
           "description": "启用auto-route时,指定这些IPV6网段使用自定义路由",
           "markdownDescription": "启用`auto-route`时,指定这些IPV6网段使用自定义路由"
         },
         "inet4-route-exclude-address": {
-          "$ref": "#/definitions/authentication/definitions/types/ipv4CIDRArray",
+          "$ref": "#/definitions/rule-providers/definitions/types/ipv4CIDRArray",
           "title": "启用auto-route时,指定这些IPV4网段使用默认路由",
           "description": "启用auto-route时,指定这些IPV4网段使用默认路由",
           "markdownDescription": "启用`auto-route`时,指定这些IPV4网段使用默认路由"
         },
         "inet6-route-exclude-address": {
-          "$ref": "#/definitions/authentication/definitions/types/ipv6CIDRArray",
+          "$ref": "#/definitions/rule-providers/definitions/types/ipv6CIDRArray",
           "title": "启用auto-route时,指定这些IPV6网段使用默认路由",
           "description": "启用auto-route时,指定这些IPV6网段使用默认路由",
           "markdownDescription": "启用`auto-route`时,指定这些IPV6网段使用默认路由"
         },
         "include-interface": {
-          "$ref": "#/definitions/authentication/definitions/types/stringArray",
+          "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
           "title": "包含被路由的接口",
           "description": "与exclude-interface冲突",
           "markdownDescription": "与`exclude-interface`冲突"
         },
         "exclude-interface": {
-          "$ref": "#/definitions/authentication/definitions/types/stringArray",
+          "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
           "title": "排除被路由的接口",
           "description": "与include-interface冲突",
           "markdownDescription": "与`include-interface`冲突"
         },
         "include-uid": {
-          "$ref": "#/definitions/authentication/definitions/types/stringArray",
+          "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
           "title": "包含被路由的Linux用户",
           "description": "使其被Tun路由流量(需要启用auto-route)",
           "markdownDescription": "使其被Tun路由流量(需要启用`auto-route`)"
         },
         "include-uid-range": {
-          "$ref": "#/definitions/authentication/definitions/types/stringArray",
+          "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
           "title": "包含被路由的Linux用户范围,使其被Tun路由流量",
           "description": "格式: <UID起始>:<UID终止>(需要启用auto-route)",
           "markdownDescription": "格式: <UID起始>:<UID终止>(需要启用`auto-route`)"
         },
         "exclude-uid": {
-          "$ref": "#/definitions/authentication/definitions/types/stringArray",
+          "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
           "title": "排除被路由的Linux用户",
           "description": "使其避免被Tun路由流量",
           "markdownDescription": "使其避免被Tun路由流量"
         },
         "exclude-uid-range": {
-          "$ref": "#/definitions/authentication/definitions/types/stringArray",
+          "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
           "title": "排除被路由的Linux用户范围,使其不被Tun路由流量",
           "description": "格式: <UID起始>:<UID终止>(需要启用auto-route)",
           "markdownDescription": "格式: <UID起始>:<UID终止>(需要启用`auto-route`)"
         },
         "include-android-user": {
-          "$ref": "#/definitions/authentication/definitions/types/stringArray",
+          "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
           "title": "包含被路由的Android用户",
           "description": "使其被Tun路由流量(需要启用auto-route)",
           "markdownDescription": "使其被Tun路由流量(需要启用`auto-route`)"
         },
         "include-package": {
-          "$ref": "#/definitions/authentication/definitions/types/stringArray",
+          "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
           "title": "包含被路由的Android应用包名",
           "description": "使其被Tun路由流量(需要启用auto-route)",
           "markdownDescription": "使其被Tun路由流量(需要启用`auto-route`)"
         },
         "exclude-package": {
-          "$ref": "#/definitions/authentication/definitions/types/stringArray",
+          "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
           "title": "排除被路由的Android应用包名",
           "description": "使其避免被Tun路由流量",
           "markdownDescription": "使其避免被Tun路由流量"
@@ -5212,20 +5804,20 @@
       "type": "object",
       "title": "tuic-server配置",
       "definitions": {
-        "types": {"$ref": "#/definitions/authentication/definitions/types"},
+        "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
         "patterns": {
-          "$ref": "#/definitions/authentication/definitions/patterns"
+          "$ref": "#/definitions/rule-providers/definitions/patterns"
         },
-        "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"},
+        "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
         "mux-option": {
           "type": "object",
           "title": "sing配置",
           "definitions": {
-            "types": {"$ref": "#/definitions/authentication/definitions/types"},
+            "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
             "patterns": {
-              "$ref": "#/definitions/authentication/definitions/patterns"
+              "$ref": "#/definitions/rule-providers/definitions/patterns"
             },
-            "enums": {"$ref": "#/definitions/proxy-groups/definitions/enums"},
+            "enums": {"$ref": "#/definitions/rule-providers/definitions/enums"},
             "brutal": {
               "type": "object",
               "title": "brutal配置",
@@ -5281,9 +5873,9 @@
         },
         "token": {
           "type": "string",
-          "title": "token",
-          "description": "token",
-          "markdownDescription": "token"
+          "title": "Token",
+          "description": "Token",
+          "markdownDescription": "Token"
         },
         "users": {
           "type": "object",
@@ -5330,7 +5922,7 @@
           "markdownDescription": "单位:ms"
         },
         "alpn": {
-          "$ref": "#/definitions/authentication/definitions/types/stringArray",
+          "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
           "title": "ALPN",
           "description": "Application-Layer Protocol Negotiation(应用层协议协商)",
           "markdownDescription": "Application-Layer Protocol Negotiation(应用层协议协商)"
@@ -5366,493 +5958,9 @@
       "title": "认证配置",
       "description": "格式: <用户>:<密码>",
       "definitions": {
-        "types": {
-          "stringArray": {
-            "anyOf": [
-              {
-                "type": "array",
-                "items": {
-                  "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/compatible/string"
-                }
-              },
-              {
-                "$ref": "#/definitions/proxies/definitions/shadowsocksr/definitions/compatible/string"
-              }
-            ]
-          },
-          "portArray": {
-            "anyOf": [
-              {
-                "type": "array",
-                "items": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/port"
-                }
-              },
-              {"$ref": "#/definitions/authentication/definitions/patterns/port"}
-            ]
-          },
-          "portRangeArray": {
-            "anyOf": [
-              {
-                "type": "array",
-                "items": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/portRange"
-                }
-              },
-              {
-                "$ref": "#/definitions/authentication/definitions/patterns/portRange"
-              }
-            ]
-          },
-          "ipv4Array": {
-            "anyOf": [
-              {
-                "type": "array",
-                "items": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/ipv4"
-                }
-              },
-              {"$ref": "#/definitions/authentication/definitions/patterns/ipv4"}
-            ]
-          },
-          "ipv4PortArray": {
-            "anyOf": [
-              {
-                "type": "array",
-                "items": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/ipv4Port"
-                }
-              },
-              {
-                "$ref": "#/definitions/authentication/definitions/patterns/ipv4Port"
-              }
-            ]
-          },
-          "ipv4CIDRArray": {
-            "anyOf": [
-              {
-                "type": "array",
-                "items": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/ipv4CIDR"
-                }
-              },
-              {
-                "$ref": "#/definitions/authentication/definitions/patterns/ipv4CIDR"
-              }
-            ]
-          },
-          "ipv6Array": {
-            "anyOf": [
-              {
-                "type": "array",
-                "items": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/ipv6"
-                }
-              },
-              {"$ref": "#/definitions/authentication/definitions/patterns/ipv6"}
-            ]
-          },
-          "ipv6PortArray": {
-            "anyOf": [
-              {
-                "type": "array",
-                "items": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/ipv6Port"
-                }
-              },
-              {
-                "$ref": "#/definitions/authentication/definitions/patterns/ipv6Port"
-              }
-            ]
-          },
-          "ipv6CIDRArray": {
-            "anyOf": [
-              {
-                "type": "array",
-                "items": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/ipv6CIDR"
-                }
-              },
-              {
-                "$ref": "#/definitions/authentication/definitions/patterns/ipv6CIDR"
-              }
-            ]
-          },
-          "ipArray": {
-            "anyOf": [
-              {
-                "type": "array",
-                "items": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/ip"
-                }
-              },
-              {"$ref": "#/definitions/authentication/definitions/patterns/ip"}
-            ]
-          },
-          "ipPortArray": {
-            "anyOf": [
-              {
-                "type": "array",
-                "items": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/ipPort"
-                }
-              },
-              {
-                "$ref": "#/definitions/authentication/definitions/patterns/ipPort"
-              }
-            ]
-          },
-          "ipCIDRArray": {
-            "anyOf": [
-              {
-                "type": "array",
-                "items": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/ipCIDR"
-                }
-              },
-              {
-                "$ref": "#/definitions/authentication/definitions/patterns/ipCIDR"
-              }
-            ]
-          },
-          "serverArray": {
-            "anyOf": [
-              {
-                "type": "array",
-                "items": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/server"
-                }
-              },
-              {
-                "$ref": "#/definitions/authentication/definitions/patterns/server"
-              }
-            ]
-          },
-          "domainArray": {
-            "anyOf": [
-              {
-                "type": "array",
-                "items": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/domain"
-                }
-              },
-              {
-                "$ref": "#/definitions/authentication/definitions/patterns/domain"
-              }
-            ]
-          },
-          "domainWildcardArray": {
-            "anyOf": [
-              {
-                "type": "array",
-                "items": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/domainWildcard"
-                }
-              },
-              {
-                "$ref": "#/definitions/authentication/definitions/patterns/domainWildcard"
-              }
-            ]
-          },
-          "urlArray": {
-            "anyOf": [
-              {
-                "type": "array",
-                "items": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/url"
-                }
-              },
-              {"$ref": "#/definitions/authentication/definitions/patterns/url"}
-            ]
-          },
-          "httpUrlArray": {
-            "anyOf": [
-              {
-                "type": "array",
-                "items": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/httpUrl"
-                }
-              },
-              {
-                "$ref": "#/definitions/authentication/definitions/patterns/httpUrl"
-              }
-            ]
-          },
-          "ruleArray": {
-            "anyOf": [
-              {
-                "type": "array",
-                "items": {
-                  "$ref": "#/definitions/authentication/definitions/patterns/rule"
-                }
-              },
-              {"$ref": "#/definitions/authentication/definitions/patterns/rule"}
-            ]
-          }
-        },
+        "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
         "patterns": {
-          "port": {
-            "pattern": "^(?:[1-9]\\d{0,3}|[1-5]\\d{4}|6[0-4]\\d{3}|65[0-4]\\d{2}|655[0-2]\\d|6553[0-5])$",
-            "errorMessage": "无效的端口号(0~65535)"
-          },
-          "portRange": {
-            "pattern": "^(?:[1-9]\\d{0,3}|[1-5]\\d{4}|6[0-4]\\d{3}|65[0-4]\\d{2}|655[0-2]\\d|6553[0-5])$|^([1-9]\\d{0,3}|[1-5]\\d{4}|6[0-4]\\d{3}|65[0-4]\\d{2}|655[0-2]\\d|6553[0-5])-(?:[1-9]\\d{0,3}|[1-5]\\d{4}|6[0-4]\\d{3}|65[0-4]\\d{2}|655[0-2]\\d|6553[0-5])$",
-            "errorMessage": "无效的端口范围(port 或 port1-port2)"
-          },
-          "ipv4": {
-            "pattern": "^(?:(?:[1-9]?[0-9]|1[0-9][0-9]|2(?:[0-4][0-9]|5[0-5]))\\.){3}(?:[1-9]?[0-9]|1[0-9][0-9]|2(?:[0-4][0-9]|5[0-5]))$",
-            "errorMessage": "无效的IPv4地址"
-          },
-          "ipv4Port": {
-            "pattern": "^(?:(?:[1-9]?[0-9]|1[0-9][0-9]|2(?:[0-4][0-9]|5[0-5]))\\.){3}(?:[1-9]?[0-9]|1[0-9][0-9]|2(?:[0-4][0-9]|5[0-5])):(?:[0-9]|[1-9][0-9]{1,3}|[1-5][0-9]{4}|6[0-5]{2}[0-3][0-5])$",
-            "errorMessage": "无效的IPv4地址:端口"
-          },
-          "ipv4CIDR": {
-            "pattern": "^(?:(?:[1-9]?[0-9]|1[0-9][0-9]|2(?:[0-4][0-9]|5[0-5]))\\.){3}(?:[1-9]?[0-9]|1[0-9][0-9]|2(?:[0-4][0-9]|5[0-5]))(?:\\/(?:[12]?[0-9]|3[0-2]))$",
-            "errorMessage": "无效的IPv4网段"
-          },
-          "ipv6": {
-            "pattern": "^([0-9a-fA-F]{1,4}(?::[0-9a-fA-F]{1,4}){7}|::|:(?::[0-9a-fA-F]{1,4}){1,6}|[0-9a-fA-F]{1,4}:(?::[0-9a-fA-F]{1,4}){1,5}|(?:[0-9a-fA-F]{1,4}:){2}(?::[0-9a-fA-F]{1,4}){1,4}|(?:[0-9a-fA-F]{1,4}:){3}(?::[0-9a-fA-F]{1,4}){1,3}|(?:[0-9a-fA-F]{1,4}:){4}(?::[0-9a-fA-F]{1,4}){1,2}|(?:[0-9a-fA-F]{1,4}:){5}:[0-9a-fA-F]{1,4}|(?:[0-9a-fA-F]{1,4}:){1,6}:)$",
-            "errorMessage": "无效的IPv6地址"
-          },
-          "ipv6Port": {
-            "pattern": "^\\[([0-9a-fA-F]{1,4}(?::[0-9a-fA-F]{1,4}){7}|::|:(?::[0-9a-fA-F]{1,4}){1,6}|[0-9a-fA-F]{1,4}:(?::[0-9a-fA-F]{1,4}){1,5}|(?:[0-9a-fA-F]{1,4}:){2}(?::[0-9a-fA-F]{1,4}){1,4}|(?:[0-9a-fA-F]{1,4}:){3}(?::[0-9a-fA-F]{1,4}){1,3}|(?:[0-9a-fA-F]{1,4}:){4}(?::[0-9a-fA-F]{1,4}){1,2}|(?:[0-9a-fA-F]{1,4}:){5}:[0-9a-fA-F]{1,4}|(?:[0-9a-fA-F]{1,4}:){1,6}:)\\]:(?:[0-9]|[1-9][0-9]{1,3}|[1-5][0-9]{4}|6[0-5]{2}[0-3][0-5])$",
-            "errorMessage": "无效的[IPv6地址]:端口"
-          },
-          "ipv6CIDR": {
-            "pattern": "^([0-9a-fA-F]{1,4}(?::[0-9a-fA-F]{1,4}){7}|::|:(?::[0-9a-fA-F]{1,4}){1,6}|[0-9a-fA-F]{1,4}:(?::[0-9a-fA-F]{1,4}){1,5}|(?:[0-9a-fA-F]{1,4}:){2}(?::[0-9a-fA-F]{1,4}){1,4}|(?:[0-9a-fA-F]{1,4}:){3}(?::[0-9a-fA-F]{1,4}){1,3}|(?:[0-9a-fA-F]{1,4}:){4}(?::[0-9a-fA-F]{1,4}){1,2}|(?:[0-9a-fA-F]{1,4}:){5}:[0-9a-fA-F]{1,4}|(?:[0-9a-fA-F]{1,4}:){1,6}:)\\/(?:12[0-8]|1[01][0-9]|[1-9]?[0-9])$",
-            "errorMessage": "无效的IPv6网段"
-          },
-          "ip": {
-            "anyOf": [
-              {
-                "description": "ipv4",
-                "$ref": "#/definitions/authentication/definitions/patterns/ipv4"
-              },
-              {
-                "description": "ipv6",
-                "$ref": "#/definitions/authentication/definitions/patterns/ipv6"
-              }
-            ]
-          },
-          "ipPort": {
-            "anyOf": [
-              {
-                "description": "ipv4:端口",
-                "$ref": "#/definitions/authentication/definitions/patterns/ipv4Port"
-              },
-              {
-                "description": "[ipv6]:端口",
-                "$ref": "#/definitions/authentication/definitions/patterns/ipv6Port"
-              }
-            ]
-          },
-          "ipCIDR": {
-            "anyOf": [
-              {
-                "description": "ipv4网段",
-                "$ref": "#/definitions/authentication/definitions/patterns/ipv4CIDR"
-              },
-              {
-                "description": "ipv6网段",
-                "$ref": "#/definitions/authentication/definitions/patterns/ipv6CIDR"
-              }
-            ]
-          },
-          "domain": {
-            "pattern": "^(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?\\.)+[a-zA-Z]{2,}$",
-            "errorMessage": "无效的域名"
-          },
-          "domainWildcard": {
-            "pattern": "^(?:[\\.\\+]?[a-zA-Z0-9\\*\\.](?:[a-zA-Z0-9-\\*]{0,61})?\\.?)+$",
-            "errorMessage": "无效的域名通配"
-          },
-          "server": {
-            "anyOf": [
-              {
-                "description": "ipv4",
-                "$ref": "#/definitions/authentication/definitions/patterns/ipv4"
-              },
-              {
-                "description": "ipv4:端口",
-                "$ref": "#/definitions/authentication/definitions/patterns/ipv4Port"
-              },
-              {
-                "description": "ipv6",
-                "$ref": "#/definitions/authentication/definitions/patterns/ipv6"
-              },
-              {
-                "description": "[ipv6]:端口",
-                "$ref": "#/definitions/authentication/definitions/patterns/ipv6Port"
-              },
-              {
-                "description": "域名",
-                "$ref": "#/definitions/authentication/definitions/patterns/domain"
-              }
-            ]
-          },
-          "url": {
-            "pattern": "^.+:\\/\\/([^\\s/$.?#].[^\\s]*)\\.[^\\s]{2,}(\\/[^\\s]*)?$",
-            "errorMessage": "无效的URL"
-          },
-          "httpUrl": {
-            "pattern": "^https?:\\/\\/([^\\s/$.?#].[^\\s]*)\\.[^\\s]{2,}(\\/[^\\s]*)?$",
-            "errorMessage": "无效的HTTP-URL"
-          },
-          "uuid": {
-            "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$",
-            "errorMessage": "无效的UUID"
-          },
-          "rule": {
-            "anyOf": [
-              {
-                "description": "域名",
-                "pattern": "^DOMAIN((?:,[^,]+){2})$",
-                "errorMessage": "无效的路由规则"
-              },
-              {
-                "description": "域名后缀",
-                "pattern": "^DOMAIN-SUFFIX((?:,[^,]+){2})$",
-                "errorMessage": "无效的路由规则"
-              },
-              {
-                "description": "域名关键字",
-                "pattern": "^DOMAIN-KEYWORD((?:,[^,]+){2})$",
-                "errorMessage": "无效的路由规则"
-              },
-              {
-                "description": "域名正则",
-                "pattern": "^DOMAIN-REGEX((?:,[^,]+){2})$",
-                "errorMessage": "无效的路由规则"
-              },
-              {"description": "GEOSITE", "pattern": "^GEOSITE((?:,[^,]+){2})$"},
-              {
-                "description": "IPv4网段",
-                "pattern": "^IP-CIDR((?:,[^,]+){2})(,no-resolve)?$",
-                "errorMessage": "无效的路由规则"
-              },
-              {
-                "description": "IPv6网段",
-                "pattern": "^IP-CIDR6((?:,[^,]+){2})(,no-resolve)?$",
-                "errorMessage": "无效的路由规则"
-              },
-              {
-                "description": "IP ASN",
-                "pattern": "^IP-ASN((?:,[^,]+){2})$",
-                "errorMessage": "无效的路由规则"
-              },
-              {
-                "description": "国家代码",
-                "pattern": "^GEOIP((?:,[^,]+){2})$",
-                "errorMessage": "无效的路由规则"
-              },
-              {
-                "description": "源IP 国家代码",
-                "pattern": "^SRC-GEOIP((?:,[^,]+){2})$",
-                "errorMessage": "无效的路由规则"
-              },
-              {
-                "description": "源IP ASN",
-                "pattern": "^SCR-IP-ASN((?:,[^,]+){2})$",
-                "errorMessage": "无效的路由规则"
-              },
-              {
-                "description": "源IP网段",
-                "pattern": "^SRC-IP-CIDR((?:,[^,]+){2})$",
-                "errorMessage": "无效的路由规则"
-              },
-              {
-                "description": "源IP后缀",
-                "pattern": "^SRC-IP-SUFFIX((?:,[^,]+){2})$",
-                "errorMessage": "无效的路由规则"
-              },
-              {
-                "description": "目标端口",
-                "pattern": "^DST-PORT((?:,[^,]+){2})$",
-                "errorMessage": "无效的路由规则"
-              },
-              {
-                "description": "源端口",
-                "pattern": "^SRC-PORT((?:,[^,]+){2})$",
-                "errorMessage": "无效的路由规则"
-              },
-              {
-                "description": "入站端口",
-                "pattern": "^IN-PORT((?:,[^,]+){2})$",
-                "errorMessage": "无效的路由规则"
-              },
-              {
-                "description": "入站类型",
-                "pattern": "^IN-TYPE((?:,[^,]+){2})$",
-                "errorMessage": "无效的路由规则"
-              },
-              {
-                "description": "入站用户名",
-                "pattern": "^IN-USER((?:,[^,]+){2})$",
-                "errorMessage": "无效的路由规则"
-              },
-              {
-                "description": "入站名称",
-                "pattern": "^IN-NAME((?:,[^,]+){2})$",
-                "errorMessage": "无效的路由规则"
-              },
-              {
-                "description": "进程路径",
-                "pattern": "^PROCESS-PATH((?:,[^,]+){2})$",
-                "errorMessage": "无效的路由规则"
-              },
-              {
-                "description": "进程名称",
-                "pattern": "^PROCESS-NAME((?:,[^,]+){2})$",
-                "errorMessage": "无效的路由规则"
-              },
-              {
-                "description": "Linux USER ID",
-                "pattern": "^UID((?:,[^,]+){2})$",
-                "errorMessage": "无效的路由规则"
-              },
-              {
-                "description": "传输协议(tcp,udp)",
-                "pattern": "^NETWORK((?:,[^,]+){2})$",
-                "errorMessage": "无效的路由规则"
-              },
-              {
-                "description": "DSCP标记(仅限tproxy udp入站)",
-                "pattern": "^DSCP((?:,[^,]+){2})$",
-                "errorMessage": "无效的路由规则"
-              },
-              {
-                "description": "规则集",
-                "pattern": "^RULE-SET((?:,[^,]+){2})$",
-                "errorMessage": "无效的路由规则"
-              },
-              {
-                "description": "和",
-                "pattern": "^AND((?:,[^,]+){2})$",
-                "errorMessage": "无效的路由规则"
-              },
-              {
-                "description": "或",
-                "pattern": "^OR((?:,[^,]+){2})$",
-                "errorMessage": "无效的路由规则"
-              },
-              {
-                "description": "非",
-                "pattern": "^NOT((?:,[^,]+){2})$",
-                "errorMessage": "无效的路由规则"
-              },
-              {
-                "description": "子规则",
-                "pattern": "^SUB-RULE((?:,[^,]+){2})$",
-                "errorMessage": "无效的路由规则"
-              },
-              {
-                "description": "匹配所有",
-                "pattern": "^MATCH((?:,[^,]+){1})$",
-                "errorMessage": "无效的路由规则"
-              }
-            ]
-          }
+          "$ref": "#/definitions/rule-providers/definitions/patterns"
         }
       }
     },
@@ -5860,9 +5968,9 @@
       "type": "array",
       "description": "隧道配置",
       "definitions": {
-        "types": {"$ref": "#/definitions/authentication/definitions/types"},
+        "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
         "patterns": {
-          "$ref": "#/definitions/authentication/definitions/patterns"
+          "$ref": "#/definitions/rule-providers/definitions/patterns"
         }
       },
       "items": {
@@ -5885,7 +5993,7 @@
                 "markdownDescription": "可为`tcp`/`udp`"
               },
               "address": {
-                "$ref": "#/definitions/authentication/definitions/patterns/ipPort",
+                "$ref": "#/definitions/rule-providers/definitions/patterns/ipPort",
                 "title": "本地监听地址",
                 "description": "本地监听地址",
                 "markdownDescription": "本地监听地址"
@@ -5911,9 +6019,9 @@
       "type": "object",
       "description": "域名嗅探配置",
       "definitions": {
-        "types": {"$ref": "#/definitions/authentication/definitions/types"},
+        "types": {"$ref": "#/definitions/rule-providers/definitions/types"},
         "patterns": {
-          "$ref": "#/definitions/authentication/definitions/patterns"
+          "$ref": "#/definitions/rule-providers/definitions/patterns"
         }
       },
       "properties": {
@@ -5932,26 +6040,26 @@
           "default": true
         },
         "force-domain": {
-          "$ref": "#/definitions/authentication/definitions/types/domainWildcardArray",
+          "$ref": "#/definitions/rule-providers/definitions/types/domainWildcardArray",
           "title": "需要强制嗅探的域名",
           "description": "默认情况下只对IP进行嗅探",
           "markdownDescription": "默认情况下只对IP进行嗅探"
         },
         "skip-domain": {
-          "$ref": "#/definitions/authentication/definitions/types/domainWildcardArray",
+          "$ref": "#/definitions/rule-providers/definitions/types/domainWildcardArray",
           "title": "需要跳过嗅探的域名",
           "description": "默认情况下只对IP进行嗅探",
           "markdownDescription": "默认情况下只对IP进行嗅探"
         },
         "sniffing": {
-          "$ref": "#/definitions/authentication/definitions/types/stringArray",
+          "$ref": "#/definitions/rule-providers/definitions/types/stringArray",
           "title": "限制嗅探类型范围",
           "description": "支持TLS,HTTP,QUIC",
           "markdownDescription": "支持`TLS`,`HTTP`,`QUIC`",
           "deprecationMessage": "推荐使用sniff"
         },
         "port-whitelist": {
-          "$ref": "#/definitions/authentication/definitions/types/portRangeArray",
+          "$ref": "#/definitions/rule-providers/definitions/types/portRangeArray",
           "title": "限制嗅探端口范围",
           "description": "要求搭配sniffing使用(格式:80 或 80-88)",
           "markdownDescription": "要求搭配`sniffing`使用(格式:`80` 或 `80-88`)",
@@ -5981,7 +6089,7 @@
               "type": "object",
               "properties": {
                 "ports": {
-                  "$ref": "#/definitions/authentication/definitions/types/portRangeArray",
+                  "$ref": "#/definitions/rule-providers/definitions/types/portRangeArray",
                   "description": "嗅探端口列表"
                 },
                 "override-destination": {
@@ -5994,7 +6102,7 @@
               "type": "object",
               "properties": {
                 "ports": {
-                  "$ref": "#/definitions/authentication/definitions/types/portArray",
+                  "$ref": "#/definitions/rule-providers/definitions/types/portArray",
                   "description": "嗅探端口列表"
                 },
                 "override-destination": {
@@ -6007,7 +6115,7 @@
               "type": "object",
               "properties": {
                 "ports": {
-                  "$ref": "#/definitions/authentication/definitions/types/portRangeArray",
+                  "$ref": "#/definitions/rule-providers/definitions/types/portRangeArray",
                   "description": "嗅探端口列表"
                 },
                 "override-destination": {
@@ -6064,6 +6172,21 @@
       "type": "object",
       "title": "listeners配置",
       "properties": {"listeners": {"$ref": "#/definitions/listeners"}}
+    },
+    {
+      "type": "object",
+      "title": "规则提供者配置",
+      "properties": {"rule-providers": {"$ref": "#/definitions/rule-providers"}}
+    },
+    {
+      "type": "object",
+      "title": "子规则配置",
+      "properties": {"sub-rules": {"$ref": "#/definitions/sub-rules"}}
+    },
+    {
+      "type": "object",
+      "title": "规则配置",
+      "properties": {"rules": {"$ref": "#/definitions/rules"}}
     },
     {
       "type": "object",

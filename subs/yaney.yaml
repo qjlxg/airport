@@ -38,27 +38,37 @@ geox-url:
 
 # 代理
 proxies: 
-- {'type': 'ss', 'name': '🇯🇵_JP_日本_1', 'server': '13.231.229.48', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'type': 'ss', 'name': '🇰🇷_KR_韩国_2', 'server': '43.201.34.246', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'type': 'ss', 'name': '🇰🇷_KR_韩国_3', 'server': 'p110.panda001.net', 'port': 54719, 'cipher': 'aes-256-cfb', 'password': 'qwerREWQ@@'}
-- {'type': 'ss', 'name': '🇰🇷_KR_韩国_4', 'server': '43.203.192.6', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'type': 'ss', 'name': '🇰🇷_KR_韩国_5', 'server': '43.203.220.68', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'type': 'ss', 'name': '🇸🇬_SG_新加坡_6', 'server': '13.214.212.171', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'type': 'ss', 'name': '🇰🇷_KR_韩国_7', 'server': '43.201.69.200', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'type': 'ss', 'name': '🇰🇷_KR_韩国_8', 'server': '43.201.110.81', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'type': 'ss', 'name': '🇰🇷_KR_韩国_9', 'server': '43.201.54.34', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'type': 'ss', 'name': '🇰🇷_KR_韩国_10', 'server': '54.180.156.133', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'type': 'ss', 'name': '🇰🇷_KR_韩国_11', 'server': 'p220.panda001.net', 'port': 42185, 'cipher': 'aes-256-cfb', 'password': 'qwerREWQ@@'}
-- {'type': 'ss', 'name': '🇰🇷_KR_韩国_12', 'server': '43.201.47.36', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'type': 'ss', 'name': '🇰🇷_KR_韩国_13', 'server': '43.201.24.53', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'type': 'ss', 'name': '🇸🇬_SG_新加坡_14', 'server': '13.250.57.60', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'type': 'ss', 'name': '🇺🇸_US_美国_15', 'server': '38.110.1.202', 'port': 2376, 'cipher': 'aes-256-gcm', 'password': 'faBAoD54k87UJG7'}
-- {'type': 'ss', 'name': '🇰🇷_KR_韩国_16', 'server': '43.202.41.139', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'type': 'ss', 'name': '🇰🇷_KR_韩国_17', 'server': 'p236.panda004.net', 'port': 42839, 'cipher': 'aes-256-cfb', 'password': 'qwerREWQ@@'}
-- {'type': 'ss', 'name': '🇰🇷_KR_韩国_18', 'server': 'p221.panda001.net', 'port': 49032, 'cipher': 'aes-256-cfb', 'password': 'qwerREWQ@@'}
-- {'type': 'ss', 'name': '🇰🇷_KR_韩国_19', 'server': '203.234.238.145', 'port': 4005, 'cipher': 'aes-256-cfb', 'password': 'qwerREWQ@@'}
-- {'type': 'ss', 'name': '🇯🇵_JP_日本_20', 'server': '52.69.81.42', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'type': 'ss', 'name': '🇺🇸_US_美国_21', 'server': '57.181.36.85', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_1', 'server': 'p220.panda001.net', 'port': 42185, 'cipher': 'aes-256-cfb', 'password': 'qwerREWQ@@'}
+- {'type': 'ss', 'name': '🇺🇸_US_美国_2', 'server': '57.180.65.163', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇸🇬_SG_新加坡_3', 'server': '13.250.57.60', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇯🇵_JP_日本_4', 'server': '52.195.237.101', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇯🇵_JP_日本_5', 'server': '54.238.23.117', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇯🇵_JP_日本_6', 'server': '18.183.77.187', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_7', 'server': 'p110.panda001.net', 'port': 54719, 'cipher': 'aes-256-cfb', 'password': 'qwerREWQ@@'}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_8', 'server': '43.203.233.33', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_9', 'server': '43.201.110.81', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇯🇵_JP_日本_10', 'server': '52.69.81.42', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_11', 'server': '43.202.41.139', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_12', 'server': '43.203.192.6', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_13', 'server': 'p229.panda004.net', 'port': 10218, 'cipher': 'aes-256-cfb', 'password': 'qwerREWQ@@'}
+- {'type': 'ss', 'name': '🇺🇸_US_美国_14', 'server': '35.91.225.232', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_15', 'server': 'p238.panda004.net', 'port': 57743, 'cipher': 'aes-256-cfb', 'password': 'qwerREWQ@@'}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_16', 'server': 'p236.panda004.net', 'port': 42839, 'cipher': 'aes-256-cfb', 'password': 'qwerREWQ@@'}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_17', 'server': 'p233.panda004.net', 'port': 50942, 'cipher': 'aes-256-cfb', 'password': 'qwerREWQ@@'}
+- {'type': 'ss', 'name': '🇸🇬_SG_新加坡_18', 'server': '13.215.184.228', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_19', 'server': '43.201.34.246', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_20', 'server': '43.201.54.34', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_21', 'server': '43.203.220.68', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'trojan', 'name': '🇺🇸_US_美国_22', 'server': 'us02.freeflyingcloud.xyz', 'port': 30020, 'password': '5760b101-aa0a-43e3-869b-f734c94b3835', 'udp': true, 'skip-cert-verify': true, 'sni': 'us02.freeflyingcloud.xyz'}
+- {'type': 'ss', 'name': '🇺🇸_US_美国_23', 'server': '45.158.171.227', 'port': 8080, 'cipher': 'chacha20-ietf-poly1305', 'password': 'oZIoA69Q8yhcQV8ka3Pa3A'}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_24', 'server': 'p231.panda004.net', 'port': 43926, 'cipher': 'aes-256-cfb', 'password': 'qwerREWQ@@'}
+- {'type': 'trojan', 'name': '🇸🇬_SG_新加坡_25', 'server': 'sg01.freeflyingcloud.xyz', 'port': 35702, 'password': '5760b101-aa0a-43e3-869b-f734c94b3835', 'udp': true, 'skip-cert-verify': true, 'sni': 'sg01.freeflyingcloud.xyz'}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_26', 'server': '203.234.238.145', 'port': 4005, 'cipher': 'aes-256-cfb', 'password': 'qwerREWQ@@'}
+- {'type': 'ss', 'name': '🇩🇪_DE_德国_27', 'server': '35.198.106.121', 'port': 3360, 'cipher': 'chacha20-ietf-poly1305', 'password': 'u49LhTuXVhdp'}
+- {'type': 'trojan', 'name': '🇺🇸_US_美国_28', 'server': 'us03.freeflyingcloud.xyz', 'port': 30018, 'password': '01601293-3b1e-4fde-8a40-856fa2392e8c', 'udp': true, 'skip-cert-verify': true, 'sni': 'us03.freeflyingcloud.xyz'}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_29', 'server': '43.201.47.36', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇯🇵_JP_日本_30', 'server': '13.231.229.48', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'trojan', 'name': '🇫🇷_FR_法国_31', 'server': 'fr01.freeflyingcloud.xyz', 'port': 30502, 'password': 'f43b33be-ab17-4247-bde6-ffe4eaf1030a', 'udp': true, 'skip-cert-verify': true, 'sni': 'fr01.freeflyingcloud.xyz'}
 
 
 # 代理组

@@ -18,21 +18,29 @@
 
 <img src="https://fastly.jsdelivr.net/gh/dongchengjie/airport@main/preview.png" alt="FreeNodes"/>
 
-## 📦 用法
+## 📦 订阅链接
 
 ### 🚀 Github镜像（约5分钟延迟，速度快，推荐）
+
+- mirror.ghproxy.com
 
 ```
 https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml
 ```
 
+- ghproxy.net
+
 ```
 https://ghproxy.net/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml
 ```
 
+- fastraw.ixnic.net
+
 ```
 https://fastraw.ixnic.net/dongchengjie/airport/main/subs/merged/tested_within.yaml
 ```
+
+- github.moeyy.xyz
 
 ```
 https://github.moeyy.xyz/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yam

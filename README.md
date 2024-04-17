@@ -14,9 +14,9 @@
 - 🌎 包含[多个国家](https://github.com/dongchengjie/airport/blob/main/subs/statistics/tested_within.md)、[多种协议](https://github.com/dongchengjie/airport/blob/main/subs/statistics/tested_within.md)的节点
 ## 👀 效果预览
 
-<img src="https://fastly.jsdelivr.net/gh/dongchengjie/airport@main/preview1.png" alt="预览1" width="512"/>
+<img src="https://fastly.jsdelivr.net/gh/dongchengjie/airport@main/preview1.png" alt="预览1" width="800"/>
 
-<img src="https://fastly.jsdelivr.net/gh/dongchengjie/airport@main/preview2.png" alt="预览2" width="512"/>
+<img src="https://fastly.jsdelivr.net/gh/dongchengjie/airport@main/preview2.png" alt="预览2" width="800"/>
 
 ## 📦 订阅链接
 

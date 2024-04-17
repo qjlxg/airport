@@ -1,33 +1,58 @@
-## clash 订阅链接
+<h1 align="center">
+  <img src="https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev@main/src/assets/image/logo.png" alt="FreeNodes" width="128" />
+  Clash Meta Free Nodes
+  <br>
+</h1>
 
-> 节点来自网络收集、整理、汇总、测试
->
-> 测试链接：`https://www.google.com/gen_204`
->
-> 测试条件：平均延迟 <= `600ms`（测试 `5` 轮）
->
-> 运营商：华北（联通）
->
-> 测试间隔：`6 `小时
 
-### 测试结果
+## 🦄 特点
 
-- [饼图](https://github.com/dongchengjie/airport/blob/main/subs/statistics/tested_within.md)
-- [CSV](https://github.com/dongchengjie/airport/blob/main/subs/statistics/tested_within.csv)
+- 🆓 节点来自网络整理，完全免费
+- ⏰ 每 4 小时测试一次（ 节点 `4000+`，延迟<=`600ms`，测试`5`轮）
+- 📦 节点去重、重命名、地域分组，干净清爽
+- 🌎 包含多个国家
+### 👀 效果预览
 
-### 订阅地址
+<img src="./" alt="FreeNodes" width="128" />
 
-```
-https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml
-```
+## 📦 用法
 
-### 订阅加速地址
+### 🚀 Github镜像（约5分钟延迟，速度快，推荐）
 
-```
+```http
 https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml
 ```
 
-## clash 内核客户端
+```http
+https://ghproxy.net/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml
+```
+
+```http
+https://fastraw.ixnic.net/dongchengjie/airport/main/subs/merged/tested_within.yaml
+```
+
+```http
+https://github.moeyy.xyz/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml
+```
+
+### 🔗Github直链（需使用代理，时效性高）
+
+```http
+https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml
+```
+
+## 🧪 测试明细
+
+| 条件       | 条件值                                                       |
+| ---------- | ------------------------------------------------------------ |
+| 🧪 测试条件 | 平均延迟 <= `600ms`（测试 `5` 轮）                           |
+| 🔗 测试链接 | `https://www.google.com/gen_204`                             |
+| 📶 运营商   | 华北（联通）                                                 |
+| ⏱️ 测试间隔 | `4 `小时                                                     |
+| 📋 测试结果 | [点击预览饼图](https://github.com/dongchengjie/airport/blob/main/subs/statistics/tested_within.md) |
+| 📋 测试结果 | [点击预览CSV](https://github.com/dongchengjie/airport/blob/main/subs/statistics/tested_within.csv) |
+
+## ⚡️ Clash内核客户端
 
 | 客户端                                                       | 平台                                                         | Stars                                                        | 创建时间                                                     | 上次提交时间                                                 | 下载链接                                                     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |

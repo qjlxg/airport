@@ -1,6 +1,5 @@
 <h1 align="center">
   <img src="https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev@main/src/assets/image/logo.png" alt="FreeNodes" width="128" />
-  <br>
   Clash Meta Free Nodes
   <br>
 </h1>
@@ -12,7 +11,7 @@
 - 📦 节点去重、地域重命名、归属国家分组，干净清爽
 - 📏 使用[ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master)规则集
 - 🌎 包含多个国家
-### 👀 效果预览
+## 👀 效果预览
 
 <img src="https://fastly.jsdelivr.net/gh/dongchengjie/airport@main/preview.png" alt="FreeNodes"/>
 

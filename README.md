@@ -5,8 +5,6 @@
   <br>
 </h1>
 
-
-
 ## 🦄 特点
 
 - 🆓 节点来自网络整理，完全免费
@@ -58,8 +56,8 @@ https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_w
 | ---------- | ------------------------------------------------------------ |
 | 🧪 测试条件 | 平均延迟 <= `600ms`（测试 `5` 轮）                           |
 | 🔗 测试链接 | `https://www.google.com/gen_204`                             |
-| 📶 运营商   | 华北（联通）                                                 |
-| ⏱️ 测试间隔 | `4 `小时                                                     |
+| 📶 网络环境 | `self-hosted`华北服务器（中国联通）                          |
+| ⏱️ 测试间隔 | `4`小时                                                      |
 | 📋 测试结果 | [点击预览饼图](https://github.com/dongchengjie/airport/blob/main/subs/statistics/tested_within.md) |
 | 📋 测试结果 | [点击预览CSV](https://github.com/dongchengjie/airport/blob/main/subs/statistics/tested_within.csv) |
 

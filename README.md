@@ -11,7 +11,7 @@
 - ⏰ 每 4 小时测试一次（ 节点池 `4000+`节点，测试`5`轮，延迟<=`600ms`）
 - 📦 节点去重、地域重命名、归属国家分组，干净清爽
 - 📏 使用[ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master)规则集
-- 🌎 包含多个国家
+- 🌎 包含[多个国家](https://github.com/dongchengjie/airport/blob/main/subs/statistics/tested_within.md)、[多种协议](https://github.com/dongchengjie/airport/blob/main/subs/statistics/tested_within.md)的节点
 ## 👀 效果预览
 
 <img src="https://fastly.jsdelivr.net/gh/dongchengjie/airport@main/preview.png" alt="FreeNodes"/>

@@ -13,31 +13,31 @@
 - 🌎 包含多个国家
 ### 👀 效果预览
 
-<img src="./" alt="FreeNodes" width="128" />
+<img src="https://fastly.jsdelivr.net/gh/dongchengjie/airport@main/preview.png" alt="FreeNodes"/>
 
 ## 📦 用法
 
 ### 🚀 Github镜像（约5分钟延迟，速度快，推荐）
 
-```http
+```
 https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml
 ```
 
-```http
+```
 https://ghproxy.net/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml
 ```
 
-```http
+```
 https://fastraw.ixnic.net/dongchengjie/airport/main/subs/merged/tested_within.yaml
 ```
 
-```http
-https://github.moeyy.xyz/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml
+```
+https://github.moeyy.xyz/https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yam
 ```
 
 ### 🔗Github直链（需使用代理，时效性高）
 
-```http
+```
 https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml
 ```
 

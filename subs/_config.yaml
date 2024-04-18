@@ -152,7 +152,7 @@ data:
     source: v2ray
     target: clash
     urls:
-      - https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/V2ray
+      - https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/V2ray.txt
     output: subs/hkaa0.yaml
   - id: soroushmirzaei
     type: http
@@ -251,7 +251,7 @@ data:
       - https://github.com/chxxyz2004/zy2309
     output: subs/chxxyz2004.yaml
     options:
-      span: 604800000
+      span: 1209600000
       exts: .yaml
   - id: changfengoss
     type: github
@@ -261,7 +261,7 @@ data:
       - https://github.com/changfengoss/pub
     output: subs/changfengoss.yaml
     options:
-      span: 604800000
+      span: 1209600000
       exts: .yaml
   - id: go4sharing
     type: http

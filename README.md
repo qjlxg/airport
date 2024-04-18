@@ -1,26 +1,27 @@
 <h1 align="center">
   <img src="https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev@main/src/assets/image/logo.png" alt="FreeNodes" width="128" />
   <br>
-  Clash Meta Free Nodes
+  Clash Meta 免费节点
   <br>
 </h1>
 
+
 ## 🦄 特点
 
-- 🆓 节点来自网络整理，完全免费
+- 🎁 节点来自网络整理，完全免费
 - ⏰ 每 4 小时测试一次（ 节点池 `4000+`节点，测试`5`轮，延迟<=`600ms`）
-- 📦 节点去重、地域重命名、归属国家分组，干净清爽
-- 📏 使用[ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master)规则集
+- ✂️ 节点去重、地域重命名、归属国家分组，干净清爽
+- 📃 使用[ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master)规则集
 - 🌎 包含[多个国家](https://github.com/dongchengjie/airport/blob/main/subs/statistics/tested_within.md)、[多种协议](https://github.com/dongchengjie/airport/blob/main/subs/statistics/tested_within.md)的节点
-## 👀 效果预览
+## 👓 效果预览
 
 <img src="https://fastly.jsdelivr.net/gh/dongchengjie/airport@main/preview1.png" alt="预览1" width="800"/>
 
 <img src="https://fastly.jsdelivr.net/gh/dongchengjie/airport@main/preview2.png" alt="预览2" width="800"/>
 
-## 📦 订阅链接
+## 📎 订阅链接
 
-### 🚀 Github镜像（约5分钟延迟，速度快，推荐）
+### 🚀 Github镜像（约5分钟延迟，速度快，推荐👍）
 
 - mirror.ghproxy.com
 
@@ -56,14 +57,14 @@ https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_w
 
 | 条件       | 条件值                                                       |
 | ---------- | ------------------------------------------------------------ |
-| 🧪 测试条件 | 平均延迟 <= `600ms`（测试 `5` 轮）                           |
-| 🔗 测试链接 | `https://www.google.com/gen_204`                             |
-| 📶 网络环境 | `self-hosted`华北服务器（中国联通）                          |
-| ⏱️ 测试间隔 | `4`小时                                                      |
-| 📋 测试结果 | [点击预览饼图](https://github.com/dongchengjie/airport/blob/main/subs/statistics/tested_within.md) |
-| 📋 测试结果 | [点击预览CSV](https://github.com/dongchengjie/airport/blob/main/subs/statistics/tested_within.csv) |
+| 🧪 测试条件 | ⏳平均延迟 <= `600ms`（测试 `5` 轮）                          |
+| 🔗 测试链接 | 🌐`https://www.google.com/gen_204`                            |
+| 📶 网络环境 | 💻`self-hosted`华北服务器（中国联通）                         |
+| ⏱️ 测试间隔 | ⏱️`4`小时                                                     |
+| 📋 测试结果 | 📊[点击预览饼图](https://github.com/dongchengjie/airport/blob/main/subs/statistics/tested_within.md) |
+| 📋 测试结果 | 💾[点击预览CSV](https://github.com/dongchengjie/airport/blob/main/subs/statistics/tested_within.csv) |
 
-## ⚡️ Clash内核客户端
+## 🔬 Clash内核客户端
 
 | 客户端                                                       | 平台                                                         | Stars                                                        | 创建时间                                                     | 上次提交时间                                                 | 下载链接                                                     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |

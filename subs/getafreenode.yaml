@@ -38,8 +38,8 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': 'Texas-GetAFreeNode.com', 'server': 'Texas.realityforus.com', 'port': 443, 'type': 'vmess', 'uuid': 'f8b68949-72be-4459-a276-ee72ce1f411e', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'servername': 'Texas.realityforus.com', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Texas.realityforus.com'}}, 'udp': true}
-- {'name': 'Frankfurt-GetAFreeNode.com', 'server': 'Frankfurt.realityforus.com', 'port': 443, 'type': 'vmess', 'uuid': 'f8b68949-72be-4459-a276-ee72ce1f411e', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'servername': 'Frankfurt.realityforus.com', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Frankfurt.realityforus.com'}}, 'udp': true}
+- {'name': 'Frankfurt-GetAFreeNode.com', 'server': 'Frankfurt.realityforus.com', 'port': 443, 'type': 'vmess', 'uuid': '484acf1f-0bc6-4f22-9192-eda12ed62518', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'servername': 'Frankfurt.realityforus.com', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Frankfurt.realityforus.com'}}, 'udp': true}
+- {'name': 'Texas-GetAFreeNode.com', 'server': 'Texas.realityforus.com', 'port': 443, 'type': 'vmess', 'uuid': '484acf1f-0bc6-4f22-9192-eda12ed62518', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'servername': 'Texas.realityforus.com', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Texas.realityforus.com'}}, 'udp': true}
 
 
 # 代理组

@@ -9,7 +9,7 @@
 ## 🦄 特点
 
 - 🎁 节点来自网络整理，完全免费
-- ⏰ 每 4 小时测试一次（ 节点池 `4000~7000+`节点，测试`5`轮，延迟<=`600ms`）
+- ⏰ 每 4 小时测试一次（ 节点池 `4000~7000+`节点，测试`5`轮，延迟<=`800ms`）
 - ✂️ 节点去重、地域重命名、归属国家分组，干净清爽
 - 📃 使用[Loyalsoldier](https://github.com/Loyalsoldier/clash-rules)规则集
 - 🌎 包含[多个国家](https://github.com/dongchengjie/airport/blob/main/subs/statistics/tested_within.md)、[多种协议](https://github.com/dongchengjie/airport/blob/main/subs/statistics/tested_within.md)的节点

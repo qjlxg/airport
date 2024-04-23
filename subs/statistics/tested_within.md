@@ -2,35 +2,34 @@
 ```mermaid
 pie showData
 title 延迟分布
-"164-234ms" : 31
-"234-304ms" : 27
-"304-374ms" : 21
-"374-444ms" : 29
-"444-514ms" : 92
+"157-217ms" : 11
+"217-277ms" : 29
+"277-337ms" : 18
+"337-397ms" : 23
+"397-457ms" : 50
+"457-517ms" : 69
 ```
 ```mermaid
 pie showData
 title 地域分布
-"香港" : 26
-"日本" : 26
-"未知" : 7
-"菲律宾" : 1
-"Cloudflare" : 37
-"新加坡" : 23
-"台湾" : 2
-"韩国" : 19
-"美国" : 58
-"越南" : 1
+"未知" : 62
+"Cloudflare" : 74
+"日本" : 9
+"新加坡" : 11
+"台湾" : 1
+"美国" : 29
+"韩国" : 12
+"香港" : 2
 ```
 ```mermaid
 pie showData
 title 协议分布
-"ss" : 145
-"vless" : 39
+"ss" : 113
+"vless" : 74
 "http" : 1
+"vmess" : 6
 "hysteria2" : 3
-"vmess" : 8
-"trojan" : 2
+"trojan" : 1
 "tuic" : 1
 "hysteria" : 1
 ```

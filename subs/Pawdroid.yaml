@@ -38,15 +38,13 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '美国 CloudFlare节点', 'server': '104.16.143.180', 'port': 2052, 'type': 'vmess', 'uuid': '7ae32b19-ebf9-34b0-9145-c388797acacf', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/dabai.in18014316', 'headers': {'Host': '100.100.17.143.db-link02.top'}}, 'udp': true}
-- {'name': '香港 Microsoft数据中心', 'server': 'hk03.trojanyyds.xyz', 'port': 443, 'type': 'trojan', 'password': '1640b579-cff8-46bc-a657-3860b5455712', 'sni': 'hk03.trojanyyds.xyz', 'skip-cert-verify': true, 'udp': true}
-- {'name': '美国 Fastly全球Anycast节点', 'server': 'gov.uk', 'port': 443, 'type': 'vmess', 'uuid': '77848824-93b7-4b89-ffd0-e91afff406ce', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/77848824', 'headers': {'Host': 'zheshiscp.com'}}, 'udp': true}
+- {'name': '美国 CloudFlare节点', 'server': 'server31.beheshtbaneh.com', 'port': 8880, 'type': 'vmess', 'uuid': '4154143c-bbba-47a4-9f79-c2ed087cbcc9', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'server31.beheshtbaneh.com'}}, 'udp': true}
+- {'name': '美国 华盛顿Cogent通信公司', 'server': '38.121.43.71', 'port': 6679, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'TEzjfAYq2IjtuoS', 'udp': true}
+- {'name': '俄罗斯 V2CROSS.COM', 'server': '185.242.86.156', 'port': 54170, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '36ZCHeabUSfKjfQEvJ4HDV', 'udp': true}
 - {'name': '广东省 移动', 'server': 'data-us-v1.shwjfkw.cn', 'port': 20401, 'type': 'vmess', 'uuid': 'b1478e24-4916-3abe-8f17-15931012ecbe', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/debian', 'headers': {'Host': 'data-us-v1.shwjfkw.cn'}}, 'udp': true}
-- {'name': '美国科罗拉多州布隆菲尔德市 Level3', 'server': 'service.ouluyun9803.com', 'port': 20003, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'd6105bbd-be0d-45b2-82ad-31fd1071c1d2', 'udp': true}
-- {'name': '美国科罗拉多州布隆菲尔德市 Level3 2', 'server': 'service.ouluyun9803.com', 'port': 20005, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'd6105bbd-be0d-45b2-82ad-31fd1071c1d2', 'udp': true}
-- {'name': '韩国 首尔Amazon数据中心', 'server': '13.125.83.174', 'port': 16403, 'type': 'trojan', 'password': 'K6pjM1Pm7XhL', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
-- {'name': '美国 CloudFlare节点 2', 'server': '104.19.250.15', 'port': 2052, 'type': 'vmess', 'uuid': 'aec82fa6-ab70-4d0a-e7fb-422ef729d961', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'helanv6cf.inekokkk.top'}}, 'udp': true}
-- {'name': '美国 CloudFlare节点 3', 'server': '172.67.130.140', 'port': 2082, 'type': 'vmess', 'uuid': '112ac36f-3f53-4e26-8371-d25c028e1b9a', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 's1c.v2.v001sss.xyz'}}, 'udp': true}
+- {'name': '印度 V2CROSS.COM', 'server': '202.78.162.5', 'port': 443, 'type': 'vmess', 'uuid': '716eded6-2201-4dbd-9d63-1638c9e8e677', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'pendar.onthewifi.com'}}, 'udp': true}
+- {'name': '美国 CloudFlare节点 2', 'server': '104.21.23.231', 'port': 2095, 'type': 'vmess', 'uuid': '7a737f41-b792-4260-94ff-3d864da67b80', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'fcdn.flha.ru'}}, 'udp': true}
+- {'name': '意大利 V2CROSS.COM', 'server': 'service.ouluyun9803.com', 'port': 26667, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'd6105bbd-be0d-45b2-82ad-31fd1071c1d2', 'udp': true}
 
 
 # 代理组

@@ -38,34 +38,7 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '韩国 首尔Amazon数据中心', 'server': 'awskr1.072659.xyz', 'port': 80, 'type': 'vmess', 'uuid': 'c21712a5-24f5-41b5-8700-55f1835d0490', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'tms.dingtalk.com'}}, 'udp': true}
-- {'name': '美国', 'server': 'account.emofid.co', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'nDBZ6xm7IKdyXKnA', 'udp': true}
-- {'name': '四川省 联通数据上网公共出口', 'server': 'yes.cnmjcn.net', 'port': 16632, 'type': 'vmess', 'uuid': '2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com'}}, 'udp': true}
-- {'name': '新加坡 Amazon数据中心', 'server': '13.229.209.98', 'port': 12648, 'type': 'trojan', 'password': 'arheic2uJDh4', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
-- {'name': '广东省 移动', 'server': 'data-us-v1.shwjfkw.cn', 'port': 20401, 'type': 'vmess', 'uuid': 'b1478e24-4916-3abe-8f17-15931012ecbe', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/debian', 'headers': {'Host': 'data-us-v1.shwjfkw.cn'}}, 'udp': true}
-- {'name': '甘肃省兰州市 移动', 'server': 'zf.lalayun.cyou', 'port': 10163, 'type': 'vmess', 'uuid': 'b1553abe-6f1f-3288-bfc2-908b2f9fc4fc', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/v2ray', 'headers': {'Host': 'hk.lalayunssl.xyz'}}, 'udp': true}
-- {'name': '捷克 V2CROSS.COM', 'server': 'nl2-full.privateip.net', 'port': 443, 'type': 'vmess', 'uuid': 'b7a0cf39-99fa-47a4-8d9f-5263806e8cce', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/RACEVPN', 'headers': {'Host': 'nl2-full.privateip.net'}}, 'udp': true}
-- {'name': '新加坡 Amazon数据中心 2', 'server': '18.140.57.23', 'port': 12629, 'type': 'trojan', 'password': 'SwwLfxUwpF6U', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
-- {'name': '美国 麻省理工学院', 'server': '18.133.161.75', 'port': 12640, 'type': 'trojan', 'password': 'bN25IACxxxPL', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
-- {'name': '浙江省丽水市 移动', 'server': '183.249.207.244', 'port': 22386, 'type': 'trojan', 'password': 'MyYoZhfX', 'skip-cert-verify': true, 'udp': true}
-- {'name': '美国 Amazon数据中心', 'server': '18.171.246.136', 'port': 12634, 'type': 'trojan', 'password': 'x8aDwdGIxxIh', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
-- {'name': '安徽省 移动数据上网公共出口', 'server': '112.29.94.23', 'port': 51003, 'type': 'trojan', 'password': 'MyYoZhfX', 'skip-cert-verify': true, 'udp': true}
-- {'name': '安徽省 移动数据上网公共出口 2', 'server': '112.29.94.23', 'port': 11210, 'type': 'trojan', 'password': 'MyYoZhfX', 'skip-cert-verify': true, 'udp': true}
-- {'name': '美国 V2CROSS.COM', 'server': '216.39.250.113', 'port': 7002, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'RexnBgU7EV5ADxG', 'udp': true}
-- {'name': '美国 V2CROSS.COM 2', 'server': '23.162.200.215', 'port': 9090, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC', 'udp': true}
-- {'name': '美国 CloudFlare节点', 'server': 'kkyx.yydsii.com', 'port': 8080, 'type': 'vmess', 'uuid': 'b551aa22-22af-11ee-b8d8-f23c932eb68d', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'oiictw.yydsii.com'}}, 'udp': true}
-- {'name': '广东省佛山市 移动', 'server': '183.232.199.28', 'port': 15600, 'type': 'vmess', 'uuid': 'aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaad', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
-- {'name': '美国 Amazon EC2服务器', 'server': '3.75.191.195', 'port': 12632, 'type': 'trojan', 'password': 'OmOn2vNWz3qf', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
-- {'name': '日本 东京Amazon数据中心', 'server': '54.199.4.232', 'port': 12620, 'type': 'trojan', 'password': '105KOg0fVOQX', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
-- {'name': '美国 CloudFlare节点 2', 'server': '172.67.172.219', 'port': 8080, 'type': 'vmess', 'uuid': 'b551aa22-22af-11ee-b8d8-f23c932eb68d', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'oiictw.yydsii.com'}}, 'udp': true}
-- {'name': '印度 V2CROSS.COM', 'server': '202.78.162.5', 'port': 443, 'type': 'vmess', 'uuid': '118287d2-e968-42e1-80d0-12fa2f5d38d6', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'sahand.serveminecraft.net'}}, 'udp': true}
-- {'name': '美国 CloudFlare节点 3', 'server': '104.17.61.7', 'port': 443, 'type': 'trojan', 'password': '4732adfa16c6450bbef87264e41332db', 'sni': 'jobscareerfortoday.com', 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/6b777a91', 'headers': {'Host': 'jobscareerfortoday.com'}}, 'udp': true}
-- {'name': '美国 惠普公司', 'server': '15.222.4.1', 'port': 12648, 'type': 'trojan', 'password': '1cAnqmh6tCTi', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
-- {'name': '美国 加利福尼亚州洛杉矶Vultr数据中心', 'server': '207.246.102.64', 'port': 21636, 'type': 'vmess', 'uuid': '53d57cfb-189f-4a9f-b620-a3ca168b7ac1', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
-- {'name': '广东省江门市 移动', 'server': '120.238.122.243', 'port': 40259, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
-- {'name': '日本 东京都Amazon数据中心', 'server': '18.183.142.86', 'port': 12619, 'type': 'trojan', 'password': 'i7qayqi2bSMy', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
-- {'name': '美国 CloudFlare节点 4', 'server': '104.19.250.15', 'port': 2052, 'type': 'vmess', 'uuid': 'aec82fa6-ab70-4d0a-e7fb-422ef729d961', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'helanv6cf.inekokkk.top'}}, 'udp': true}
-- {'name': '广东省汕头市 移动', 'server': '183.240.179.195', 'port': 15601, 'type': 'vmess', 'uuid': 'aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': '北美地区 V2CROSS.COM', 'server': '104.167.197.23', 'port': 57456, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '3fbeb668f48414f6', 'udp': true}
 
 
 # 代理组

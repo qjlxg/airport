@@ -38,123 +38,89 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': 'hkaa0.shop|德国', 'server': '80.92.204.106', 'port': 9080, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'VP8ZPxQpJtZRCjfZ', 'udp': true}
-- {'name': 'hkaa0.shop|新加坡', 'server': '18.142.225.182', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05', 'udp': true}
-- {'name': 'hkaa0.shop|韩国', 'server': '43.201.47.36', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05', 'udp': true}
-- {'name': 'hkaa0.shop|俄罗斯联邦', 'server': '176.120.65.108', 'port': 80, 'type': 'vmess', 'uuid': '42b7dac3-40d7-411c-ae5f-755ac8876a19', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/'}, 'udp': true}
-- {'name': 'hkaa0.shop|保加利亚', 'server': '147.78.140.30', 'port': 443, 'type': 'vmess', 'uuid': '05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/'}, 'udp': true}
 - {'name': 'hkaa0.shop|加拿大', 'server': '23.162.200.225', 'port': 9090, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC', 'udp': true}
-- {'name': 'hkaa0.shop|美国', 'server': '38.114.114.143', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'pKEW8JPByTVTLtM', 'udp': true}
 - {'name': 'hkaa0.shop|加拿大 2', 'server': '23.162.200.225', 'port': 8882, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'kDWvXYZoTBcGkC4', 'udp': true}
-- {'name': 'hkaa0.shop|加拿大 3', 'server': '23.162.200.227', 'port': 443, 'type': 'vmess', 'uuid': '03fcc618-b93d-6796-6aed-8a38c975d581', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/'}, 'udp': true}
-- {'name': 'hkaa0.shop|加拿大 4', 'server': '158.51.121.36', 'port': 443, 'type': 'vmess', 'uuid': '03fcc618-b93d-6796-6aed-8a38c975d581', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/'}, 'udp': true}
-- {'name': 'hkaa0.shop|加拿大 5', 'server': '35.183.109.131', 'port': 12098, 'type': 'trojan', 'password': 'xUBCSpErnv7N', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|瑞士', 'server': '156.146.62.160', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-cfb', 'password': 'shadowsocks', 'udp': true}
-- {'name': 'hkaa0.shop|中国', 'server': 'free.2weradf.xyz', 'port': 36026, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '7dc9310d-2d10-4e8f-a271-ecdf00ef4447', 'udp': true}
-- {'name': 'hkaa0.shop|中国 2', 'server': 'free.2weradf.xyz', 'port': 36016, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '7dc9310d-2d10-4e8f-a271-ecdf00ef4447', 'udp': true}
-- {'name': 'hkaa0.shop|中国 3', 'server': 'free.2weradf.xyz', 'port': 36012, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '7dc9310d-2d10-4e8f-a271-ecdf00ef4447', 'udp': true}
-- {'name': 'hkaa0.shop|中国 4', 'server': 'nc.cm.xiaomi-api.xyz', 'port': 19593, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '2bfaafe5-d825-424e-bb6b-471c8f4daef3', 'udp': true}
-- {'name': 'hkaa0.shop|中国 5', 'server': 'free.2weradf.xyz', 'port': 36018, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '7dc9310d-2d10-4e8f-a271-ecdf00ef4447', 'udp': true}
-- {'name': 'hkaa0.shop|中国 6', 'server': '120.233.42.83', 'port': 20207, 'type': 'vmess', 'uuid': 'b1478e24-4916-3abe-8f17-15931012ecbe', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/'}, 'udp': true}
-- {'name': 'hkaa0.shop|中国 7', 'server': '183.232.199.28', 'port': 15600, 'type': 'vmess', 'uuid': 'aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaad', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 8', 'server': '183.236.51.59', 'port': 54437, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 9', 'server': 'm.cnmjin.net', 'port': 16632, 'type': 'vmess', 'uuid': '2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'm.cnmjin.net'}}, 'udp': true}
-- {'name': 'hkaa0.shop|中国 10', 'server': '120.233.42.83', 'port': 20206, 'type': 'vmess', 'uuid': 'b1478e24-4916-3abe-8f17-15931012ecbe', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/'}, 'udp': true}
-- {'name': 'hkaa0.shop|中国 11', 'server': '47.106.112.114', 'port': 80, 'type': 'vmess', 'uuid': '7c1d9869-ecac-4ca6-b7e7-ecb60f503078', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/'}, 'udp': true}
-- {'name': 'hkaa0.shop|中国 12', 'server': 'yes.cnmjcn.net', 'port': 16632, 'type': 'vmess', 'uuid': '2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'yes.cnmjcn.net'}}, 'udp': true}
-- {'name': 'hkaa0.shop|中国 13', 'server': 'free.2weradf.xyz', 'port': 36811, 'type': 'trojan', 'password': '7dc9310d-2d10-4e8f-a271-ecdf00ef4447', 'sni': 'uk01.abpilot.xyz', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 14', 'server': 'free.2weradf.xyz', 'port': 36841, 'type': 'trojan', 'password': '7dc9310d-2d10-4e8f-a271-ecdf00ef4447', 'sni': 'de01.abpilot.xyz', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 15', 'server': 'free.2weradf.xyz', 'port': 36801, 'type': 'trojan', 'password': '7dc9310d-2d10-4e8f-a271-ecdf00ef4447', 'sni': 'ph01.abpilot.xyz', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 16', 'server': 'free.2weradf.xyz', 'port': 36201, 'type': 'trojan', 'password': '7dc9310d-2d10-4e8f-a271-ecdf00ef4447', 'sni': 'sg01.abpilot.xyz', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 17', 'server': 'free.2weradf.xyz', 'port': 36601, 'type': 'trojan', 'password': '7dc9310d-2d10-4e8f-a271-ecdf00ef4447', 'sni': 'hk01.abpilot.xyz', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 18', 'server': 'free.2weradf.xyz', 'port': 36606, 'type': 'trojan', 'password': '7dc9310d-2d10-4e8f-a271-ecdf00ef4447', 'sni': 'hk02.abpilot.xyz', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 19', 'server': 'free.2weradf.xyz', 'port': 36506, 'type': 'trojan', 'password': '7dc9310d-2d10-4e8f-a271-ecdf00ef4447', 'sni': 'us02.abpilot.xyz', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 20', 'server': 'free.2weradf.xyz', 'port': 36511, 'type': 'trojan', 'password': '7dc9310d-2d10-4e8f-a271-ecdf00ef4447', 'sni': 'us03.abpilot.xyz', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 21', 'server': 'free.2weradf.xyz', 'port': 36501, 'type': 'trojan', 'password': '7dc9310d-2d10-4e8f-a271-ecdf00ef4447', 'sni': 'us01.abpilot.xyz', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 22', 'server': 'free.2weradf.xyz', 'port': 36904, 'type': 'trojan', 'password': '7dc9310d-2d10-4e8f-a271-ecdf00ef4447', 'sni': 'th01.abpilot.xyz', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 23', 'server': 'free.2weradf.xyz', 'port': 36301, 'type': 'trojan', 'password': '7dc9310d-2d10-4e8f-a271-ecdf00ef4447', 'sni': 'tw01.abpilot.xyz', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 24', 'server': 'free.2weradf.xyz', 'port': 36206, 'type': 'trojan', 'password': '7dc9310d-2d10-4e8f-a271-ecdf00ef4447', 'sni': 'sg02.abpilot.xyz', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 25', 'server': 'free.2weradf.xyz', 'port': 36611, 'type': 'trojan', 'password': '7dc9310d-2d10-4e8f-a271-ecdf00ef4447', 'sni': 'hk03.abpilot.xyz', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 26', 'server': 'free.2weradf.xyz', 'port': 36211, 'type': 'trojan', 'password': '7dc9310d-2d10-4e8f-a271-ecdf00ef4447', 'sni': 'sg03.abpilot.xyz', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 27', 'server': '112.29.94.23', 'port': 11210, 'type': 'trojan', 'password': 'MyYoZhfX', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 28', 'server': '36.138.99.56', 'port': 40316, 'type': 'trojan', 'password': 'MyYoZhfX', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 29', 'server': 'free.2weradf.xyz', 'port': 36111, 'type': 'trojan', 'password': '7dc9310d-2d10-4e8f-a271-ecdf00ef4447', 'sni': 'jp03.abpilot.xyz', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 30', 'server': 'free.2weradf.xyz', 'port': 36106, 'type': 'trojan', 'password': '7dc9310d-2d10-4e8f-a271-ecdf00ef4447', 'sni': 'jp02.abpilot.xyz', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 31', 'server': 'free.2weradf.xyz', 'port': 36116, 'type': 'trojan', 'password': '7dc9310d-2d10-4e8f-a271-ecdf00ef4447', 'sni': 'jp01.abpilot.xyz', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 32', 'server': 'free.2weradf.xyz', 'port': 36311, 'type': 'trojan', 'password': '7dc9310d-2d10-4e8f-a271-ecdf00ef4447', 'sni': 'tw03.abpilot.xyz', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 33', 'server': 'free.2weradf.xyz', 'port': 36887, 'type': 'trojan', 'password': '7dc9310d-2d10-4e8f-a271-ecdf00ef4447', 'sni': 'my01.abpilot.xyz', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 34', 'server': 'free.2weradf.xyz', 'port': 36306, 'type': 'trojan', 'password': '7dc9310d-2d10-4e8f-a271-ecdf00ef4447', 'sni': 'tw02.abpilot.xyz', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 35', 'server': 'free.2weradf.xyz', 'port': 36831, 'type': 'trojan', 'password': '7dc9310d-2d10-4e8f-a271-ecdf00ef4447', 'sni': 'in01.abpilot.xyz', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 36', 'server': 'free.2weradf.xyz', 'port': 36874, 'type': 'trojan', 'password': '7dc9310d-2d10-4e8f-a271-ecdf00ef4447', 'sni': 'vn01.abpilot.xyz', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 37', 'server': 'free.2weradf.xyz', 'port': 36401, 'type': 'trojan', 'password': '7dc9310d-2d10-4e8f-a271-ecdf00ef4447', 'sni': 'kr01.abpilot.xyz', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 38', 'server': 'free.2weradf.xyz', 'port': 36901, 'type': 'trojan', 'password': '7dc9310d-2d10-4e8f-a271-ecdf00ef4447', 'sni': 'nl01.abpilot.xyz', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 39', 'server': '112.29.94.23', 'port': 51003, 'type': 'trojan', 'password': 'MyYoZhfX', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 40', 'server': 'free.2weradf.xyz', 'port': 36821, 'type': 'trojan', 'password': '7dc9310d-2d10-4e8f-a271-ecdf00ef4447', 'sni': 'au01.abpilot.xyz', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 41', 'server': 'free.2weradf.xyz', 'port': 36701, 'type': 'trojan', 'password': '7dc9310d-2d10-4e8f-a271-ecdf00ef4447', 'sni': 'ca01.abpilot.xyz', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 42', 'server': 'free.2weradf.xyz', 'port': 36871, 'type': 'trojan', 'password': '7dc9310d-2d10-4e8f-a271-ecdf00ef4447', 'sni': 'ua01.abpilot.xyz', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 43', 'server': 'free.2weradf.xyz', 'port': 36868, 'type': 'trojan', 'password': '7dc9310d-2d10-4e8f-a271-ecdf00ef4447', 'sni': 'tr01.abpilot.xyz', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 44', 'server': 'free.2weradf.xyz', 'port': 36884, 'type': 'trojan', 'password': '7dc9310d-2d10-4e8f-a271-ecdf00ef4447', 'sni': 'es01.abpilot.xyz', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 45', 'server': 'free.2weradf.xyz', 'port': 36861, 'type': 'trojan', 'password': '7dc9310d-2d10-4e8f-a271-ecdf00ef4447', 'sni': 'ar01.abpilot.xyz', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 46', 'server': 'free.2weradf.xyz', 'port': 36851, 'type': 'trojan', 'password': '7dc9310d-2d10-4e8f-a271-ecdf00ef4447', 'sni': 'ru01.abpilot.xyz', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 47', 'server': 'free.2weradf.xyz', 'port': 36877, 'type': 'trojan', 'password': '7dc9310d-2d10-4e8f-a271-ecdf00ef4447', 'sni': 'br01.abpilot.xyz', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|德国 2', 'server': '159.100.14.58', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'g4DMRntqJQ6ek0jffXwyby', 'udp': true}
-- {'name': 'hkaa0.shop|德国 3', 'server': '80.92.204.106', 'port': 9094, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'rpgbNnU9rDDU4aWZ', 'udp': true}
-- {'name': 'hkaa0.shop|美国 2', 'server': 'slime-rhinestone-spy.glitch.me', 'port': 443, 'type': 'vmess', 'uuid': '1d5fb496-19fb-48fb-9880-a147326dee62', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'slime-rhinestone-spy.glitch.me'}}, 'udp': true}
-- {'name': 'hkaa0.shop|德国 4', 'server': '18.184.144.157', 'port': 12095, 'type': 'trojan', 'password': 'uTsRhe2SzXGo', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|德国 5', 'server': '3.75.191.195', 'port': 12038, 'type': 'trojan', 'password': 'JfQ4WvHqT4jt', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|德国 6', 'server': '3.79.109.194', 'port': 12047, 'type': 'trojan', 'password': 'gMkZURYAsuRj', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|德国 7', 'server': '3.79.109.194', 'port': 12094, 'type': 'trojan', 'password': 'FdDY(Y)(lb0L', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|德国 8', 'server': '3.75.191.195', 'port': 12082, 'type': 'trojan', 'password': 'XUDFP4aVrNnn', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|德国 9', 'server': '54.93.237.79', 'port': 12079, 'type': 'trojan', 'password': 'H8D8bpVIBoZ9', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|法国', 'server': '54.36.174.181', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'pKEW8JPByTVTLtM', 'udp': true}
-- {'name': 'hkaa0.shop|英国', 'server': '18.133.161.75', 'port': 12090, 'type': 'trojan', 'password': 'iSIepyuJ6hhe', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|英国 2', 'server': '18.171.246.136', 'port': 12043, 'type': 'trojan', 'password': 'U7kN5Yvz0Z)W', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|香港', 'server': '182.16.1.194', 'port': 80, 'type': 'vmess', 'uuid': '00a1da14-d55f-5f75-e346-79b985e1a723', 'alterId': 64, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/'}, 'udp': true}
-- {'name': 'hkaa0.shop|伊朗', 'server': '178.239.150.170', 'port': 80, 'type': 'vmess', 'uuid': '2b7ce1d2-0372-4104-aa06-f7d999f26e1d', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|韩国 2', 'server': '13.125.115.64', 'port': 12042, 'type': 'trojan', 'password': 'J)iy1N7lYICE', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|美国 4', 'server': '156.225.67.240', 'port': 41000, 'type': 'vmess', 'uuid': '9c026efe-6af0-465f-b8c0-3f58c8c2d4c5', 'alterId': 64, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/'}, 'udp': true}
-- {'name': 'hkaa0.shop|韩国 3', 'server': '103.214.68.57', 'port': 10001, 'type': 'vmess', 'uuid': 'ebca5f68-bf59-4081-e658-f158839c2f5c', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|韩国 4', 'server': '103.214.68.57', 'port': 10003, 'type': 'trojan', 'password': '6x8HcghsjS', 'sni': 'yes998.chickenkiller.com', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|俄罗斯联邦 2', 'server': '92.246.138.25', 'port': 35915, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'rKcwIh46rwc0ngvwKpG6ki', 'udp': true}
-- {'name': 'hkaa0.shop|新加坡 2', 'server': '103.172.116.79', 'port': 9050, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'FG5ddLsMPbV5CutE', 'udp': true}
-- {'name': 'hkaa0.shop|新加坡 3', 'server': '103.172.116.79', 'port': 9042, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'S7KwUu7yBy58S3Ga', 'udp': true}
-- {'name': 'hkaa0.shop|新加坡 4', 'server': '103.172.116.79', 'port': 9060, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'ueLXVkvh4hckhErQ', 'udp': true}
-- {'name': 'hkaa0.shop|新加坡 5', 'server': '103.172.116.79', 'port': 9024, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'BejrQvtu9sqUeNuZ', 'udp': true}
-- {'name': 'hkaa0.shop|新加坡 6', 'server': '103.172.116.79', 'port': 9008, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'y9VURyNzJWNRYEGQ', 'udp': true}
-- {'name': 'hkaa0.shop|新加坡 7', 'server': '103.172.116.79', 'port': 9079, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'TPqX8edgbAURcAMb', 'udp': true}
-- {'name': 'hkaa0.shop|新加坡 8', 'server': '103.172.116.79', 'port': 9001, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'UkXRsXvR6buDMG2Y', 'udp': true}
-- {'name': 'hkaa0.shop|新加坡 9', 'server': '103.172.116.79', 'port': 9053, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'SBM7R883jBmnqe6C', 'udp': true}
-- {'name': 'hkaa0.shop|新加坡 10', 'server': '103.172.116.79', 'port': 9061, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': '4R3hUfZ2FHhDmNcP', 'udp': true}
-- {'name': 'hkaa0.shop|新加坡 13', 'server': '103.172.116.79', 'port': 9010, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'f63gg8EruDnUrmz4', 'udp': true}
-- {'name': 'hkaa0.shop|新加坡 14', 'server': '103.172.116.79', 'port': 9093, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'wfLC2y7rzZyCmuyt', 'udp': true}
-- {'name': 'hkaa0.shop|新加坡 15', 'server': '103.172.116.79', 'port': 9026, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'QWDDvVE9npNurQfA', 'udp': true}
-- {'name': 'hkaa0.shop|新加坡 16', 'server': '103.172.116.79', 'port': 9019, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'GA9KzeEgvfxNrgmM', 'udp': true}
-- {'name': 'hkaa0.shop|新加坡 17', 'server': '103.172.116.79', 'port': 9032, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'UWZQeLRWnkqgkseq', 'udp': true}
-- {'name': 'hkaa0.shop|美国 5', 'server': 'tr2-vless.sshmax.xyz', 'port': 80, 'type': 'vmess', 'uuid': 'e89244f7-3636-4752-88ee-683387e76c91', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'tr2-vless.sshmax.xyz'}}, 'udp': true}
-- {'name': 'hkaa0.shop|美国 6', 'server': '156.146.38.163', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-cfb', 'password': 'shadowsocks', 'udp': true}
-- {'name': 'hkaa0.shop|美国 7', 'server': '23.157.40.26', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'pKEW8JPByTVTLtM', 'udp': true}
-- {'name': 'hkaa0.shop|美国 8', 'server': '38.86.135.185', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'pKEW8JPByTVTLtM', 'udp': true}
-- {'name': 'hkaa0.shop|美国 9', 'server': '38.121.43.71', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'pKEW8JPByTVTLtM', 'udp': true}
-- {'name': 'hkaa0.shop|美国 10', 'server': 'hms07.xfixedfloat.cfd', 'port': 443, 'type': 'vmess', 'uuid': 'a1655f51-1e20-4a92-8a11-b7ca30a7a353', 'alterId': 1, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'hms07.xfixedfloat.cfd'}}, 'udp': true}
-- {'name': 'hkaa0.shop|美国 11', 'server': 'kkyx.yydsii.com', 'port': 8080, 'type': 'vmess', 'uuid': 'b551aa22-22af-11ee-b8d8-f23c932eb68d', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'kkyx.yydsii.com'}}, 'udp': true}
-- {'name': 'hkaa0.shop|美国 12', 'server': '173.245.58.11', 'port': 443, 'type': 'vmess', 'uuid': '93ea486a-bada-42a4-ac38-d088b320fa1e', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/'}, 'udp': true}
-- {'name': 'hkaa0.shop|日本', 'server': '103.35.188.226', 'port': 80, 'type': 'vmess', 'uuid': '098e7cdd-03b4-435d-8c41-ea608fa637c2', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/'}, 'udp': true}
-- {'name': 'hkaa0.shop|美国 13', 'server': '136.175.177.45', 'port': 35694, 'type': 'vmess', 'uuid': '603684a2-d080-40d7-d09c-afc3ac036eb4', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/'}, 'udp': true}
-- {'name': 'hkaa0.shop|美国 14', 'server': 'fcdn.flha.ru', 'port': 2095, 'type': 'vmess', 'uuid': '7a737f41-b792-4260-94ff-3d864da67b80', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'fcdn.flha.ru'}}, 'udp': true}
-- {'name': 'hkaa0.shop|美国 15', 'server': '173.245.58.5', 'port': 443, 'type': 'vmess', 'uuid': '76221bfb-e92f-4e80-81c5-6fe48f50ac0b', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/'}, 'udp': true}
-- {'name': 'hkaa0.shop|美国 16', 'server': '172.67.130.140', 'port': 2082, 'type': 'vmess', 'uuid': '112ac36f-3f53-4e26-8371-d25c028e1b9a', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/'}, 'udp': true}
-- {'name': 'hkaa0.shop|美国 17', 'server': '144.202.46.58', 'port': 443, 'type': 'trojan', 'password': 'wkmY1R4EcP', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|新加坡 18', 'server': '103.172.116.79', 'port': 9011, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'M3t2ZEQcMGRWBjRa', 'udp': true}
-- {'name': 'hkaa0.shop|新加坡 19', 'server': '103.172.116.79', 'port': 9020, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'BNmAXXxAHYpTRdzu', 'udp': true}
-- {'name': 'hkaa0.shop|新加坡 20', 'server': '103.172.116.79', 'port': 9056, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'rNBfNuuANFCAk7KB', 'udp': true}
-- {'name': 'hkaa0.shop|新加坡 21', 'server': '103.172.116.79', 'port': 9003, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'JdmRK9gMEqFgs8nP', 'udp': true}
-- {'name': 'hkaa0.shop|新加坡 22', 'server': '103.172.116.79', 'port': 9097, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'Sn5B7jTqr76aCJT8', 'udp': true}
-- {'name': 'hkaa0.shop|新加坡 23', 'server': '103.172.116.79', 'port': 9005, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'ZET59LF6DvCC8KVt', 'udp': true}
-- {'name': 'hkaa0.shop|新加坡 24', 'server': '103.172.116.79', 'port': 9038, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'gYCYXfkUQEs2TaJQ', 'udp': true}
-- {'name': 'hkaa0.shop|新加坡 25', 'server': '103.172.116.79', 'port': 9059, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': '9XwYyZsK8SNzQDtY', 'udp': true}
-- {'name': 'hkaa0.shop|新加坡 26', 'server': '103.172.116.79', 'port': 9057, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'wjTugX3ZtHMB9c3Z', 'udp': true}
-- {'name': 'hkaa0.shop|美国 18', 'server': '104.21.8.157', 'port': 2082, 'type': 'vmess', 'uuid': '112ac36f-3f53-4e26-8371-d25c028e1b9a', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/'}, 'udp': true}
-- {'name': 'hkaa0.shop|美国 19', 'server': '104.18.25.92', 'port': 2052, 'type': 'vmess', 'uuid': 'f584de15-2034-4170-a723-f48c2bae5e0f', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/'}, 'udp': true}
+- {'name': 'hkaa0.shop|中国', 'server': '183.232.199.28', 'port': 15600, 'type': 'vmess', 'uuid': 'aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaad', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|中国 2', 'server': '112.29.94.23', 'port': 11210, 'type': 'trojan', 'password': 'MyYoZhfX', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|中国 3', 'server': '112.29.94.23', 'port': 51003, 'type': 'trojan', 'password': 'MyYoZhfX', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|中国 4', 'server': 'will-no2-helena.edwina.cc', 'port': 22111, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'udp': true}
+- {'name': 'hkaa0.shop|中国 5', 'server': 'will-no2-helena.edwina.cc', 'port': 21135, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'udp': true}
+- {'name': 'hkaa0.shop|中国 6', 'server': 'will-no3-mavis.edwina.cc', 'port': 21202, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'udp': true}
+- {'name': 'hkaa0.shop|中国 7', 'server': 'will-no3-mavis.edwina.cc', 'port': 21142, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'udp': true}
+- {'name': 'hkaa0.shop|中国 8', 'server': 'will-no3-mavis.edwina.cc', 'port': 21136, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'udp': true}
+- {'name': 'hkaa0.shop|中国 9', 'server': 'will-no4-leah.edwina.cc', 'port': 21309, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'udp': true}
+- {'name': 'hkaa0.shop|中国 10', 'server': 'will-no4-leah.edwina.cc', 'port': 21143, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'udp': true}
+- {'name': 'hkaa0.shop|中国 11', 'server': 'will-no3-mavis.edwina.cc', 'port': 21249, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'udp': true}
+- {'name': 'hkaa0.shop|中国 12', 'server': 'will-no4-leah.edwina.cc', 'port': 21307, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'udp': true}
+- {'name': 'hkaa0.shop|中国 13', 'server': 'will-no4-leah.edwina.cc', 'port': 21245, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'udp': true}
+- {'name': 'hkaa0.shop|中国 14', 'server': 'will-no4-leah.edwina.cc', 'port': 21246, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'udp': true}
+- {'name': 'hkaa0.shop|中国 15', 'server': 'will-no3-mavis.edwina.cc', 'port': 21120, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'udp': true}
+- {'name': 'hkaa0.shop|中国 16', 'server': 'will-no4-leah.edwina.cc', 'port': 21237, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'udp': true}
+- {'name': 'hkaa0.shop|中国 17', 'server': 'will-no3-mavis.edwina.cc', 'port': 21141, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'udp': true}
+- {'name': 'hkaa0.shop|中国 18', 'server': 'will-no3-mavis.edwina.cc', 'port': 21247, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'udp': true}
+- {'name': 'hkaa0.shop|中国 19', 'server': 'will-no4-leah.edwina.cc', 'port': 21348, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'udp': true}
+- {'name': 'hkaa0.shop|中国 20', 'server': 'will-no2-helena.edwina.cc', 'port': 21104, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'udp': true}
+- {'name': 'hkaa0.shop|中国 21', 'server': 'will-no1-kathy.edwina.cc', 'port': 21300, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'udp': true}
+- {'name': 'hkaa0.shop|中国 22', 'server': 'will-no2-helena.edwina.cc', 'port': 21303, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'udp': true}
+- {'name': 'hkaa0.shop|中国 23', 'server': 'will-no3-mavis.edwina.cc', 'port': 21117, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'udp': true}
+- {'name': 'hkaa0.shop|中国 24', 'server': 'will-no4-leah.edwina.cc', 'port': 21308, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'udp': true}
+- {'name': 'hkaa0.shop|中国 25', 'server': 'will-no2-helena.edwina.cc', 'port': 21139, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'udp': true}
+- {'name': 'hkaa0.shop|中国 26', 'server': 'will-no1-kathy.edwina.cc', 'port': 21100, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'udp': true}
+- {'name': 'hkaa0.shop|中国 27', 'server': 'will-no4-leah.edwina.cc', 'port': 21349, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'udp': true}
+- {'name': 'hkaa0.shop|中国 28', 'server': 'will-no4-leah.edwina.cc', 'port': 21306, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'udp': true}
+- {'name': 'hkaa0.shop|中国 29', 'server': 'will-no3-mavis.edwina.cc', 'port': 21248, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'udp': true}
+- {'name': 'hkaa0.shop|中国 30', 'server': 'will-no3-mavis.edwina.cc', 'port': 21347, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'udp': true}
+- {'name': 'hkaa0.shop|中国 31', 'server': 'will-no4-leah.edwina.cc', 'port': 21152, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'udp': true}
+- {'name': 'hkaa0.shop|中国 32', 'server': 'will-no3-mavis.edwina.cc', 'port': 21109, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'udp': true}
+- {'name': 'hkaa0.shop|中国 33', 'server': 'will-no4-leah.edwina.cc', 'port': 31115, 'type': 'vmess', 'uuid': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|中国 34', 'server': 'will-no2-helena.edwina.cc', 'port': 32026, 'type': 'vmess', 'uuid': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|中国 35', 'server': 'will-no2-helena.edwina.cc', 'port': 31232, 'type': 'vmess', 'uuid': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|中国 36', 'server': 'will-no2-helena.edwina.cc', 'port': 31302, 'type': 'vmess', 'uuid': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|中国 37', 'server': 'will-no3-mavis.edwina.cc', 'port': 31250, 'type': 'vmess', 'uuid': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|中国 38', 'server': 'will-no2-helena.edwina.cc', 'port': 32006, 'type': 'vmess', 'uuid': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|中国 39', 'server': 'will-no1-kathy.edwina.cc', 'port': 31241, 'type': 'vmess', 'uuid': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|中国 40', 'server': 'will-no2-helena.edwina.cc', 'port': 32003, 'type': 'vmess', 'uuid': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|中国 41', 'server': 'will-no2-helena.edwina.cc', 'port': 31154, 'type': 'vmess', 'uuid': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|中国 42', 'server': 'will-no4-leah.edwina.cc', 'port': 31307, 'type': 'vmess', 'uuid': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|中国 43', 'server': 'will-no4-leah.edwina.cc', 'port': 31143, 'type': 'vmess', 'uuid': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|中国 44', 'server': 'will-no3-mavis.edwina.cc', 'port': 31202, 'type': 'vmess', 'uuid': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|中国 45', 'server': 'will-no1-kathy.edwina.cc', 'port': 31300, 'type': 'vmess', 'uuid': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|中国 46', 'server': 'will-no1-kathy.edwina.cc', 'port': 31301, 'type': 'vmess', 'uuid': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|中国 47', 'server': 'will-no3-mavis.edwina.cc', 'port': 31118, 'type': 'vmess', 'uuid': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|中国 48', 'server': 'will-no1-kathy.edwina.cc', 'port': 31101, 'type': 'vmess', 'uuid': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|中国 49', 'server': 'will-no2-helena.edwina.cc', 'port': 31104, 'type': 'vmess', 'uuid': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|中国 50', 'server': 'will-no2-helena.edwina.cc', 'port': 31140, 'type': 'vmess', 'uuid': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|中国 51', 'server': 'will-no2-helena.edwina.cc', 'port': 32005, 'type': 'vmess', 'uuid': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|中国 52', 'server': 'will-no4-leah.edwina.cc', 'port': 31121, 'type': 'vmess', 'uuid': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|中国 53', 'server': 'will-no4-leah.edwina.cc', 'port': 31237, 'type': 'vmess', 'uuid': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|中国 54', 'server': 'will-no3-mavis.edwina.cc', 'port': 31142, 'type': 'vmess', 'uuid': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|中国 55', 'server': 'will-no2-helena.edwina.cc', 'port': 31135, 'type': 'vmess', 'uuid': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|中国 56', 'server': 'will-no3-mavis.edwina.cc', 'port': 31136, 'type': 'vmess', 'uuid': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|中国 57', 'server': 'will-no1-kathy.edwina.cc', 'port': 31201, 'type': 'vmess', 'uuid': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|中国 58', 'server': 'will-no2-helena.edwina.cc', 'port': 32023, 'type': 'vmess', 'uuid': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|中国 59', 'server': 'will-no2-helena.edwina.cc', 'port': 32110, 'type': 'vmess', 'uuid': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|中国 60', 'server': 'will-no1-kathy.edwina.cc', 'port': 31133, 'type': 'vmess', 'uuid': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|中国 61', 'server': 'will-no3-mavis.edwina.cc', 'port': 31246, 'type': 'vmess', 'uuid': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|中国 62', 'server': 'will-no3-mavis.edwina.cc', 'port': 31247, 'type': 'vmess', 'uuid': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|中国 63', 'server': 'will-no2-helena.edwina.cc', 'port': 32007, 'type': 'vmess', 'uuid': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|中国 64', 'server': 'will-no3-mavis.edwina.cc', 'port': 31141, 'type': 'vmess', 'uuid': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|中国 65', 'server': 'will-no1-kathy.edwina.cc', 'port': 31102, 'type': 'vmess', 'uuid': 'FA78AB4D-9789-1453-AB4F-F94A93E62673', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|加拿大 3', 'server': '23.162.200.225', 'port': 8119, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'cdBIDV42DCwnfIN', 'udp': true}
+- {'name': 'hkaa0.shop|加拿大 4', 'server': '3.96.141.217', 'port': 14220, 'type': 'trojan', 'password': 'txCm)cdiGbu8', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|中国 66', 'server': '112.29.94.23', 'port': 46011, 'type': 'trojan', 'password': 'MyYoZhfX', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|法国', 'server': '15.188.73.38', 'port': 14229, 'type': 'trojan', 'password': '9WJVZOnCazIP', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|英国', 'server': '13.40.84.236', 'port': 14205, 'type': 'trojan', 'password': '5HSSrrRPRP4g', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|英国 2', 'server': '3.8.120.23', 'port': 14203, 'type': 'trojan', 'password': 'efA50vf5EIt1', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|日本', 'server': '18.176.56.146', 'port': 14219, 'type': 'trojan', 'password': '9W2yMQCw9T1P', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|俄罗斯联邦', 'server': '185.236.233.111', 'port': 2053, 'type': 'trojan', 'password': 'ba74833c-8c0f-4dcd-8cbc-13e3c32d3765', 'sni': 'ftp.debian.org', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|新加坡', 'server': '54.255.202.50', 'port': 14216, 'type': 'trojan', 'password': 'qeG1pEXApTXn', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|新加坡 2', 'server': '13.250.7.169', 'port': 14223, 'type': 'trojan', 'password': 'ezqPY3SQQuib', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|新加坡 3', 'server': '13.212.182.80', 'port': 14219, 'type': 'trojan', 'password': '4bfGG)M86B4S', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|新加坡 4', 'server': '54.169.115.86', 'port': 14201, 'type': 'trojan', 'password': 'Z2kqwCS8Rv4w', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|美国', 'server': '23.154.136.187', 'port': 7306, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FoOiGlkAA9yPEGP', 'udp': true}
+- {'name': 'hkaa0.shop|美国 2', 'server': '54.70.135.157', 'port': 14216, 'type': 'trojan', 'password': 'Kn71GMR8QrfH', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|美国 3', 'server': '54.202.251.104', 'port': 14216, 'type': 'trojan', 'password': 'e1NA8OO7)DTu', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop|美国 4', 'server': '13.58.19.15', 'port': 14222, 'type': 'trojan', 'password': 'HCrX1xAHIUui', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
 
 
 # 代理组

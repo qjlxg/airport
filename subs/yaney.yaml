@@ -38,67 +38,69 @@ geox-url:
 
 # 代理
 proxies: 
-- {'type': 'ss', 'name': '🇨🇦 CA 加拿大 1', 'server': '23.162.200.181', 'port': 8118, 'cipher': 'aes-256-gcm', 'password': 'cdBIDV42DCwnfIN'}
-- {'type': 'ss', 'name': '🇨🇦 CA 加拿大 2', 'server': '23.162.200.181', 'port': 7001, 'cipher': 'aes-256-gcm', 'password': 'RexnBgU7EV5ADxG'}
-- {'type': 'ss', 'name': '🇨🇦 CA 加拿大 3', 'server': '23.162.200.181', 'port': 5499, 'cipher': 'aes-256-gcm', 'password': 'lGqs95QkFHo2NV'}
-- {'type': 'ss', 'name': '🇨🇦 CA 加拿大 4', 'server': '23.162.200.181', 'port': 5500, 'cipher': 'aes-256-gcm', 'password': 'KixLvKzwjekG00rm'}
-- {'type': 'ss', 'name': '🇨🇦 CA 加拿大 5', 'server': '23.162.200.181', 'port': 2375, 'cipher': 'aes-256-gcm', 'password': 'faBAoD54k87UJG7'}
-- {'type': 'ss', 'name': '🇨🇦 CA 加拿大 6', 'server': '23.162.200.181', 'port': 3306, 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC'}
-- {'type': 'ss', 'name': '🇯🇵 JP 日本 7', 'server': '154.47.20.240', 'port': 443, 'cipher': 'aes-128-gcm', 'password': 'shadowsocks'}
-- {'type': 'ss', 'name': '🇸🇬 SG 新加坡 9', 'server': '13.229.115.125', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'type': 'ss', 'name': '🇨🇦 CA 加拿大 10', 'server': '23.162.200.181', 'port': 6379, 'cipher': 'aes-256-gcm', 'password': 'zDNVedRFPQexG9v'}
-- {'type': 'ss', 'name': '🇨🇳 CN 中国 11', 'server': '183.232.249.137', 'port': 48882, 'cipher': 'chacha20-ietf-poly1305', 'password': '443c1814-632b-4381-89d1-5511387b060f'}
-- {'type': 'ss', 'name': '🇰🇷 KR 韩国 12', 'server': '43.202.41.139', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'type': 'ss', 'name': '🇰🇷 KR 韩国 13', 'server': '43.203.201.192', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'type': 'ss', 'name': '🇨🇳 CN 中国 14', 'server': '183.232.249.137', 'port': 48883, 'cipher': 'chacha20-ietf-poly1305', 'password': '443c1814-632b-4381-89d1-5511387b060f'}
-- {'type': 'ss', 'name': '🇨🇦 CA 加拿大 15', 'server': '23.162.200.181', 'port': 7002, 'cipher': 'aes-256-gcm', 'password': 'RexnBgU7EV5ADxG'}
-- {'type': 'ss', 'name': '🇨🇦 CA 加拿大 16', 'server': '23.162.200.181', 'port': 3389, 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC'}
-- {'type': 'ss', 'name': '🇺🇸 US 美国 17', 'server': '23.154.136.176', 'port': 7307, 'cipher': 'aes-256-gcm', 'password': 'FoOiGlkAA9yPEGP'}
-- {'type': 'ss', 'name': '🇰🇷 KR 韩国 18', 'server': '43.201.69.200', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'type': 'ss', 'name': '🇨🇳 CN 中国 19', 'server': '183.232.249.137', 'port': 48884, 'cipher': 'chacha20-ietf-poly1305', 'password': '443c1814-632b-4381-89d1-5511387b060f'}
-- {'type': 'ss', 'name': '🇯🇵 JP 日本 20', 'server': '54.199.167.157', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'type': 'ss', 'name': '🇨🇦 CA 加拿大 21', 'server': '23.162.200.225', 'port': 9102, 'cipher': 'aes-256-gcm', 'password': 'e4FCWrgpkji3QY'}
-- {'type': 'ss', 'name': '🇨🇦 CA 加拿大 22', 'server': '23.162.200.225', 'port': 8118, 'cipher': 'aes-256-gcm', 'password': 'cdBIDV42DCwnfIN'}
-- {'type': 'ss', 'name': '🇨🇦 CA 加拿大 23', 'server': '23.162.200.225', 'port': 9090, 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC'}
-- {'type': 'ss', 'name': '🇨🇦 CA 加拿大 24', 'server': '23.162.200.225', 'port': 8091, 'cipher': 'aes-256-gcm', 'password': 'PCnnH6SQSnfoS27'}
-- {'type': 'ss', 'name': '🇨🇦 CA 加拿大 25', 'server': '23.162.200.225', 'port': 9101, 'cipher': 'aes-256-gcm', 'password': 'e4FCWrgpkji3QY'}
-- {'type': 'ss', 'name': '🇨🇦 CA 加拿大 26', 'server': '23.162.200.225', 'port': 8882, 'cipher': 'aes-256-gcm', 'password': 'kDWvXYZoTBcGkC4'}
-- {'type': 'trojan', 'name': '🇨🇳 CN 中国 27', 'server': '112.16.228.100', 'port': 51000, 'password': 'BZjkHMao', 'udp': true, 'skip-cert-verify': true}
-- {'type': 'ss', 'name': '🇺🇸 US 美国 28', 'server': '156.146.38.163', 'port': 443, 'cipher': 'aes-128-cfb', 'password': 'shadowsocks'}
-- {'type': 'ss', 'name': '🇨🇦 CA 加拿大 29', 'server': '23.162.200.181', 'port': 8882, 'cipher': 'aes-256-gcm', 'password': 'kDWvXYZoTBcGkC4'}
-- {'type': 'ss', 'name': '🇨🇦 CA 加拿大 30', 'server': '23.162.200.181', 'port': 8090, 'cipher': 'aes-256-gcm', 'password': 'PCnnH6SQSnfoS27'}
-- {'type': 'ss', 'name': '🇨🇦 CA 加拿大 31', 'server': '23.162.200.181', 'port': 8881, 'cipher': 'aes-256-gcm', 'password': 'kDWvXYZoTBcGkC4'}
-- {'type': 'ss', 'name': '🇨🇦 CA 加拿大 32', 'server': '23.162.200.181', 'port': 8008, 'cipher': 'aes-256-gcm', 'password': 'XKFKl2rULjIp74'}
-- {'type': 'ss', 'name': '🇨🇦 CA 加拿大 34', 'server': '23.162.200.181', 'port': 7307, 'cipher': 'aes-256-gcm', 'password': 'FoOiGlkAA9yPEGP'}
-- {'type': 'ss', 'name': '🇨🇦 CA 加拿大 35', 'server': '23.162.200.181', 'port': 8080, 'cipher': 'aes-256-gcm', 'password': 'KixLvKzwjekG00rm'}
-- {'type': 'ss', 'name': '🇨🇦 CA 加拿大 37', 'server': '23.162.200.181', 'port': 5003, 'cipher': 'aes-256-gcm', 'password': 'g5MeD6Ft3CWlJId'}
-- {'type': 'ss', 'name': '🇨🇦 CA 加拿大 38', 'server': '23.162.200.181', 'port': 8000, 'cipher': 'aes-256-gcm', 'password': 'KixLvKzwjekG00rm'}
-- {'type': 'ss', 'name': '🇨🇦 CA 加拿大 39', 'server': '23.162.200.181', 'port': 9090, 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC'}
-- {'type': 'ss', 'name': '🇨🇦 CA 加拿大 40', 'server': '23.162.200.181', 'port': 8119, 'cipher': 'aes-256-gcm', 'password': 'cdBIDV42DCwnfIN'}
-- {'type': 'ss', 'name': '🇨🇦 CA 加拿大 41', 'server': '23.162.200.225', 'port': 8119, 'cipher': 'aes-256-gcm', 'password': 'cdBIDV42DCwnfIN'}
-- {'type': 'ss', 'name': '🇺🇸 US 美国 42', 'server': '23.154.136.106', 'port': 5500, 'cipher': 'aes-256-gcm', 'password': 'KixLvKzwjekG00rm'}
-- {'type': 'ss', 'name': '🇨🇦 CA 加拿大 43', 'server': '23.162.200.181', 'port': 5000, 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC'}
-- {'type': 'trojan', 'name': '🇨🇳 CN 中国 44', 'server': '36.138.99.56', 'port': 40316, 'password': 'BZjkHMao', 'udp': true, 'skip-cert-verify': true, 'sni': '421421.xyz'}
-- {'type': 'trojan', 'name': '🇺🇸 US 美国 45', 'server': '172.232.49.70', 'port': 443, 'password': '45ca084b-d774-4c75-afa3-2c5b9ee91bfd', 'udp': true, 'skip-cert-verify': true}
-- {'type': 'trojan', 'name': '🇬🇧 GB 英国 46', 'server': '18.135.85.237', 'port': 22222, 'password': 'telegram-id-privatevpns', 'udp': true, 'skip-cert-verify': true, 'sni': 'trojan.burgerip.co.uk'}
-- {'type': 'ss', 'name': '🇨🇦 CA 加拿大 47', 'server': '23.162.200.181', 'port': 7306, 'cipher': 'aes-256-gcm', 'password': 'FoOiGlkAA9yPEGP'}
-- {'type': 'ss', 'name': '🇺🇸 US 美国 48', 'server': '51.112.106.137', 'port': 443, 'cipher': 'chacha20-ietf-poly1305', 'password': 'mps3FwmDjLrWaOVg'}
-- {'type': 'ss', 'name': '🇺🇸 US 美国 49', 'server': '172.233.46.185', 'port': 80, 'cipher': 'chacha20-ietf-poly1305', 'password': 'kqbodlsQBwaAJCLicpbqcl'}
-- {'type': 'ss', 'name': '🇨🇦 CA 加拿大 50', 'server': '23.162.200.181', 'port': 5001, 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC'}
-- {'type': 'ss', 'name': '🇨🇦 CA 加拿大 51', 'server': '23.162.200.181', 'port': 5601, 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC'}
-- {'type': 'ss', 'name': '🇧🇭 BH 巴林 52', 'server': '157.241.75.50', 'port': 443, 'cipher': 'chacha20-ietf-poly1305', 'password': 'Bog0ELmMM9DSxDdQ'}
-- {'type': 'ss', 'name': '🇺🇸 US 美国 53', 'server': '23.154.136.176', 'port': 8118, 'cipher': 'aes-256-gcm', 'password': 'cdBIDV42DCwnfIN'}
-- {'type': 'ss', 'name': '🇷🇺 RU 俄罗斯联邦 54', 'server': '92.246.136.190', 'port': 32025, 'cipher': 'chacha20-ietf-poly1305', 'password': 'VRKnPTULDqxaExI5yLJjoc'}
-- {'type': 'trojan', 'name': '🇺🇸 US 美国 55', 'server': 'us05.freeflyingcloud.xyz', 'port': 30020, 'password': '15f804fa-27be-4b0f-85d4-cead43a483ef', 'udp': true, 'skip-cert-verify': true, 'sni': 'us05.freeflyingcloud.xyz'}
-- {'type': 'trojan', 'name': '🇮🇪 IE 爱尔兰 57', 'server': '52.51.215.246', 'port': 22222, 'password': 'telegram-id-privatevpns', 'udp': true, 'skip-cert-verify': true, 'sni': 'trojan.burgerip.co.uk'}
-- {'type': 'trojan', 'name': '🇫🇷 FR 法国 59', 'server': '35.181.249.186', 'port': 22222, 'password': 'telegram-id-privatevpns', 'udp': true, 'skip-cert-verify': true, 'sni': 'trojan.burgerip.co.uk'}
-- {'type': 'trojan', 'name': '🇨🇳 CN 中国 60', 'server': '112.29.94.24', 'port': 443, 'password': 'BZjkHMao', 'udp': true, 'skip-cert-verify': true}
-- {'type': 'trojan', 'name': '🇨🇳 CN 中国 61', 'server': '120.226.50.90', 'port': 51002, 'password': 'BZjkHMao', 'udp': true, 'skip-cert-verify': true}
-- {'type': 'ss', 'name': '🇨🇦 CA 加拿大 62', 'server': '23.162.200.181', 'port': 2376, 'cipher': 'aes-256-gcm', 'password': 'faBAoD54k87UJG7'}
-- {'type': 'ss', 'name': '🇨🇦 CA 加拿大 65', 'server': '23.162.200.181', 'port': 6697, 'cipher': 'aes-256-gcm', 'password': 'TEzjfAYq2IjtuoS'}
-- {'type': 'trojan', 'name': '🇨🇳 CN 中国 66', 'server': '112.29.94.23', 'port': 51003, 'password': 'BZjkHMao', 'udp': true, 'skip-cert-verify': true}
-- {'type': 'ss', 'name': '🇨🇦 CA 加拿大 67', 'server': '23.162.200.181', 'port': 5600, 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC'}
-- {'type': 'ss', 'name': '🇨🇦 CA 加拿大 68', 'server': '23.162.200.181', 'port': 8091, 'cipher': 'aes-256-gcm', 'password': 'PCnnH6SQSnfoS27'}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_1', 'server': '43.201.47.36', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇸🇬_SG_新加坡_2', 'server': '103.172.116.94', 'port': 9056, 'cipher': 'aes-256-cfb', 'password': 'rNBfNuuANFCAk7KB'}
+- {'type': 'ss', 'name': '🇯🇵_JP_日本_3', 'server': '18.182.6.181', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇨🇳_CN_中国_4', 'server': '03.forlive.live', 'port': 22233, 'cipher': 'aes-128-gcm', 'password': '95e0f3e2-2b41-48d2-a0e6-500d36f310a1'}
+- {'type': 'ss', 'name': '🇸🇬_SG_新加坡_5', 'server': '13.212.91.18', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇸🇬_SG_新加坡_6', 'server': '47.129.9.69', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇸🇬_SG_新加坡_7', 'server': '54.179.9.170', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇸🇬_SG_新加坡_8', 'server': '54.151.216.148', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇸🇬_SG_新加坡_9', 'server': '47.128.72.90', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇨🇳_CN_中国_10', 'server': 'xinyun-hk.07wi0kka34.download', 'port': 12551, 'cipher': 'aes-128-gcm', 'password': 'ead72f06-8655-4a39-a8ce-b6e4702708f6'}
+- {'type': 'ss', 'name': '🇨🇳_CN_中国_11', 'server': 'xinyun-hk.07wi0kka34.download', 'port': 12552, 'cipher': 'aes-128-gcm', 'password': 'ead72f06-8655-4a39-a8ce-b6e4702708f6'}
+- {'type': 'ss', 'name': '🇨🇳_CN_中国_12', 'server': 'xinyun-hk.07wi0kka34.download', 'port': 12555, 'cipher': 'aes-128-gcm', 'password': 'ead72f06-8655-4a39-a8ce-b6e4702708f6'}
+- {'type': 'ss', 'name': '🇯🇵_JP_日本_13', 'server': '3.112.189.248', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇨🇳_CN_中国_14', 'server': '04.forlive.live', 'port': 22268, 'cipher': 'aes-128-gcm', 'password': '72fb9321-4818-4050-9048-5fa89827adb2'}
+- {'type': 'ss', 'name': '🇸🇬_SG_新加坡_15', 'server': '18.143.93.163', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇨🇳_CN_中国_16', 'server': '04.forlive.live', 'port': 22233, 'cipher': 'aes-128-gcm', 'password': 'ba9eac02-f784-4349-bd15-500186077160'}
+- {'type': 'trojan', 'name': '🇨🇳_CN_中国_17', 'server': '36.151.195.46', 'port': 30671, 'password': 'MyYoZhfX', 'udp': true, 'skip-cert-verify': true}
+- {'type': 'ss', 'name': '🇨🇳_CN_中国_18', 'server': '04.forlive.live', 'port': 22302, 'cipher': 'aes-128-gcm', 'password': 'cf448056-b7c2-439d-b708-aaf5ff321052'}
+- {'type': 'ss', 'name': '🇨🇳_CN_中国_19', 'server': '03.forlive.live', 'port': 22291, 'cipher': 'aes-128-gcm', 'password': '14c7684e-c740-45fc-a9b3-1ccf2ac392fd'}
+- {'type': 'ss', 'name': '🇳🇱_NL_荷兰_20', 'server': '109.201.152.181', 'port': 443, 'cipher': 'aes-128-cfb', 'password': 'shadowsocks'}
+- {'type': 'ss', 'name': '🇺🇸_US_美国_21', 'server': '18.236.155.162', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇺🇸_US_美国_22', 'server': '34.222.133.159', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇺🇸_US_美国_23', 'server': '212.102.47.198', 'port': 443, 'cipher': 'aes-128-cfb', 'password': 'shadowsocks'}
+- {'type': 'ss', 'name': '🇨🇳_CN_中国_24', 'server': 'xinyun-hk.07wi0kka34.download', 'port': 12554, 'cipher': 'aes-128-gcm', 'password': 'ead72f06-8655-4a39-a8ce-b6e4702708f6'}
+- {'type': 'ss', 'name': '🇨🇳_CN_中国_25', 'server': 'xinyun-hk.07wi0kka34.download', 'port': 12553, 'cipher': 'aes-128-gcm', 'password': 'ead72f06-8655-4a39-a8ce-b6e4702708f6'}
+- {'type': 'ss', 'name': '🇺🇸_US_美国_26', 'server': '34.208.170.155', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇸🇬_SG_新加坡_27', 'server': '13.214.211.185', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇺🇸_US_美国_28', 'server': '34.219.119.71', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇺🇸_US_美国_29', 'server': '23.154.136.106', 'port': 5500, 'cipher': 'aes-256-gcm', 'password': 'KixLvKzwjekG00rm'}
+- {'type': 'ss', 'name': '🇺🇸_US_美国_30', 'server': '156.146.38.163', 'port': 443, 'cipher': 'aes-128-cfb', 'password': 'shadowsocks'}
+- {'type': 'ss', 'name': '🇬🇧_GB_英国_31', 'server': '172.99.190.198', 'port': 2375, 'cipher': 'aes-256-gcm', 'password': 'faBAoD54k87UJG7'}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_32', 'server': '125.141.26.7', 'port': 49032, 'cipher': 'aes-256-cfb', 'password': 'qwerREWQ@@'}
+- {'type': 'ss', 'name': '🇺🇸_US_美国_33', 'server': '23.154.136.35', 'port': 7001, 'cipher': 'aes-256-gcm', 'password': 'RexnBgU7EV5ADxG'}
+- {'type': 'ss', 'name': '🇩🇪_DE_德意志联邦共和国_34', 'server': '23.158.56.17', 'port': 7307, 'cipher': 'aes-256-gcm', 'password': 'FoOiGlkAA9yPEGP'}
+- {'type': 'ss', 'name': '🇺🇸_US_美国_35', 'server': '69.50.92.116', 'port': 8000, 'cipher': 'aes-256-gcm', 'password': 'KixLvKzwjekG00rm'}
+- {'type': 'ss', 'name': '🇨🇳_CN_中国_36', 'server': 'xinyun-tw.07wi0kka34.download', 'port': 12567, 'cipher': 'aes-128-gcm', 'password': 'ead72f06-8655-4a39-a8ce-b6e4702708f6'}
+- {'type': 'ss', 'name': '🇨🇳_CN_中国_37', 'server': 'xinyun-tw.07wi0kka34.download', 'port': 12565, 'cipher': 'aes-128-gcm', 'password': 'ead72f06-8655-4a39-a8ce-b6e4702708f6'}
+- {'type': 'ss', 'name': '🇺🇸_US_美国_38', 'server': '205.134.180.145', 'port': 443, 'cipher': 'chacha20-ietf-poly1305', 'password': 'hgLCgfLRgB6d'}
+- {'type': 'ss', 'name': '🇩🇪_DE_德国_39', 'server': '159.100.14.58', 'port': 443, 'cipher': 'chacha20-ietf-poly1305', 'password': 'WRORkymIVzJrtFcQLjgSrp'}
+- {'type': 'ss', 'name': '🇨🇳_CN_中国_40', 'server': 'xinyun-tw.07wi0kka34.download', 'port': 12566, 'cipher': 'aes-128-gcm', 'password': 'ead72f06-8655-4a39-a8ce-b6e4702708f6'}
+- {'type': 'ss', 'name': '🇨🇳_CN_中国_41', 'server': 'xinyun-tw.07wi0kka34.download', 'port': 12568, 'cipher': 'aes-128-gcm', 'password': 'ead72f06-8655-4a39-a8ce-b6e4702708f6'}
+- {'type': 'ss', 'name': '🇺🇸_US_美国_42', 'server': '69.50.93.111', 'port': 6679, 'cipher': 'aes-256-gcm', 'password': 'TEzjfAYq2IjtuoS'}
+- {'type': 'ss', 'name': '🇨🇳_CN_中国_43', 'server': '04.forlive.live', 'port': 22291, 'cipher': 'aes-128-gcm', 'password': 'a061411e-f58b-4c95-8887-a9d3b84b3160'}
+- {'type': 'ss', 'name': '🇩🇪_DE_德国_44', 'server': '80.92.204.106', 'port': 9094, 'cipher': 'aes-256-cfb', 'password': 'rpgbNnU9rDDU4aWZ'}
+- {'type': 'ss', 'name': '🇩🇪_DE_德国_45', 'server': '80.92.204.106', 'port': 9080, 'cipher': 'aes-256-cfb', 'password': 'VP8ZPxQpJtZRCjfZ'}
+- {'type': 'ss', 'name': '🇨🇳_CN_中国_46', 'server': 'xinyun-us.07wi0kka34.download', 'port': 12562, 'cipher': 'aes-128-gcm', 'password': 'ead72f06-8655-4a39-a8ce-b6e4702708f6'}
+- {'type': 'ss', 'name': '🇨🇳_CN_中国_47', 'server': 'xinyun-us.07wi0kka34.download', 'port': 12561, 'cipher': 'aes-128-gcm', 'password': 'ead72f06-8655-4a39-a8ce-b6e4702708f6'}
+- {'type': 'ss', 'name': '🇨🇳_CN_中国_48', 'server': 'xinyun-us.07wi0kka34.download', 'port': 12564, 'cipher': 'aes-128-gcm', 'password': 'ead72f06-8655-4a39-a8ce-b6e4702708f6'}
+- {'type': 'ss', 'name': '🇨🇳_CN_中国_49', 'server': 'xinyun-us.07wi0kka34.download', 'port': 12563, 'cipher': 'aes-128-gcm', 'password': 'ead72f06-8655-4a39-a8ce-b6e4702708f6'}
+- {'type': 'ss', 'name': '🇸🇬_SG_新加坡_50', 'server': '103.172.116.94', 'port': 9006, 'cipher': 'aes-256-cfb', 'password': 'FAdUvMJUq5vDgKEq'}
+- {'type': 'ss', 'name': '🇸🇬_SG_新加坡_51', 'server': '103.172.116.94', 'port': 9024, 'cipher': 'aes-256-cfb', 'password': 'BejrQvtu9sqUeNuZ'}
+- {'type': 'ss', 'name': '🇩🇪_DE_德国_52', 'server': '80.92.204.106', 'port': 9011, 'cipher': 'aes-256-cfb', 'password': 'M3t2ZEQcMGRWBjRa'}
+- {'type': 'ss', 'name': '🇸🇬_SG_新加坡_53', 'server': '13.214.214.197', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'trojan', 'name': '🇨🇳_CN_中国_54', 'server': '112.29.94.23', 'port': 46011, 'password': 'MyYoZhfX', 'udp': true, 'skip-cert-verify': true}
+- {'type': 'ss', 'name': '🇸🇬_SG_新加坡_55', 'server': '103.172.116.94', 'port': 9093, 'cipher': 'aes-256-cfb', 'password': 'wfLC2y7rzZyCmuyt'}
+- {'type': 'ss', 'name': '🇺🇸_US_美国_56', 'server': '95.164.47.219', 'port': 8388, 'cipher': 'chacha20-ietf-poly1305', 'password': 'YzkxM'}
+- {'type': 'trojan', 'name': '🇨🇳_CN_中国_57', 'server': '223.113.54.154', 'port': 15274, 'password': 'MyYoZhfX', 'udp': true, 'skip-cert-verify': true}
+- {'type': 'trojan', 'name': '🇨🇳_CN_中国_58', 'server': '36.151.195.46', 'port': 20344, 'password': 'MyYoZhfX', 'udp': true, 'skip-cert-verify': true}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_59', 'server': '43.202.41.139', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇸🇬_SG_新加坡_60', 'server': '18.139.225.183', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'ss', 'name': '🇰🇷_KR_韩国_61', 'server': '3.34.95.205', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'type': 'trojan', 'name': '🇨🇳_CN_中国_62', 'server': 'w2.forlive.live', 'port': 40212, 'password': '8fe1bd4e-39e4-3778-b72f-b6ca6da1eea1', 'udp': true, 'skip-cert-verify': true, 'sni': '2777.vxcvjkl.com'}
+- {'type': 'trojan', 'name': '🇨🇳_CN_中国_63', 'server': 'w2.forlive.live', 'port': 40214, 'password': '8fe1bd4e-39e4-3778-b72f-b6ca6da1eea1', 'udp': true, 'skip-cert-verify': true, 'sni': '2777.vxcvjkl.com'}
 
 
 # 代理组

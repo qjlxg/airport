@@ -1,9 +1,10 @@
 <h1 align="center">
-  <img src="https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev@main/src/assets/image/logo.png" alt="FreeNodes" width="128" />
+  <img src="https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev@main/src-tauri/icons/icon.png" alt="FreeNodes" width="128" />
   <br>
   Clash Meta 免费节点
   <br>
 </h1>
+
 
 
 ## 🦄 特点
@@ -57,7 +58,7 @@ https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_w
 
 | 条件       | 条件值                                                       |
 | ---------- | ------------------------------------------------------------ |
-| 🧪 测试条件 | ⏳平均延迟 <= `600ms`（测试 `5` 轮）                          |
+| 🧪 测试条件 | ⏳平均延迟 <= `800ms`（测试 `5` 轮，取前`400`个）             |
 | 🔗 测试链接 | 🌐`https://www.youtube.com/gen_204`                           |
 | 📶 网络环境 | 💻`self-hosted`华北服务器（中国联通）                         |
 | ⏱️ 测试间隔 | ⏱️`4`小时                                                     |

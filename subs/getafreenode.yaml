@@ -38,7 +38,7 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': 'Frankfurt-GetAFreeNode.com', 'server': 'Frankfurt.realityforus.com', 'port': 443, 'type': 'vmess', 'uuid': 'bef453ff-3524-4c0b-9417-b1840dd4f1fa', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'servername': 'Frankfurt.realityforus.com', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Frankfurt.realityforus.com'}}, 'udp': true}
+- {'name': 'Frankfurt-GetAFreeNode.com', 'server': 'Frankfurt.realityforus.com', 'port': 443, 'type': 'vmess', 'uuid': '9cb222bd-e204-4852-b1ca-a6e063cb90c7', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'servername': 'Frankfurt.realityforus.com', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Frankfurt.realityforus.com'}}, 'udp': true}
 
 
 # 代理组

@@ -38,29 +38,24 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '0|-https://t.me/MrXbin-2', 'server': '212.102.53.80', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'shadowsocks', 'udp': true}
-- {'name': '0|-https://t.me/MrXbin-3', 'server': '118.163.179.162', 'port': 2377, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 't0srmdxrm3xyjnvqz9ewlxb2myq7rjuv', 'udp': true}
-- {'name': '0|-https://t.me/MrXbin-4', 'server': '118.163.179.161', 'port': 2377, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 't0srmdxrm3xyjnvqz9ewlxb2myq7rjuv', 'udp': true}
-- {'name': '0|-https://t.me/MrXbin-5', 'server': '43.202.41.139', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05', 'udp': true}
-- {'name': '0|-https://t.me/MrXbin-6', 'server': '3.112.218.182', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05', 'udp': true}
+- {'name': '0|-https://t.me/MrXbin-1', 'server': '47.128.230.112', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05', 'udp': true}
+- {'name': '0|-https://t.me/MrXbin-2', 'server': '109.104.152.126', 'port': 51122, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'dongtaiwang.com', 'udp': true}
+- {'name': '0|-https://t.me/MrXbin-6', 'server': '43.202.41.139', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05', 'udp': true}
 - {'name': '0|-https://t.me/MrXbin-7', 'server': '47.129.9.69', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05', 'udp': true}
-- {'name': '0|-https://t.me/MrXbin-65', 'server': '38.107.226.146', 'port': 1230, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'H5S0hvcxRi#YLmgU', 'udp': true}
-- {'name': '0|-https://t.me/MrXbin-66', 'server': '158.51.121.36', 'port': 443, 'type': 'vmess', 'uuid': '03fcc618-b93d-6796-6aed-8a38c975d581', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/linkvws'}, 'udp': true}
-- {'name': '0|-https://t.me/MrXbin-120', 'server': '52.151.99.42', 'port': 58939, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'jha5ZXvI7J4CkWQn4iB3AF', 'udp': true}
-- {'name': '0|-https://t.me/MrXbin-122', 'server': '210.3.159.224', 'port': 12909, 'type': 'vmess', 'uuid': '8259cb1c-dd6c-4739-9c88-af550d977525', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/'}, 'udp': true}
-- {'name': '0|-https://t.me/MrXbin-124', 'server': '51.77.53.200', 'port': 5001, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC', 'udp': true}
-- {'name': '0|-https://t.me/MrXbin-125', 'server': '51.77.53.200', 'port': 7306, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FoOiGlkAA9yPEGP', 'udp': true}
-- {'name': '0|-https://t.me/MrXbin-126', 'server': '51.77.53.200', 'port': 5003, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'g5MeD6Ft3CWlJId', 'udp': true}
-- {'name': '0|-https://t.me/MrXbin-127', 'server': '51.77.53.200', 'port': 5500, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'KixLvKzwjekG00rm', 'udp': true}
-- {'name': '0|-https://t.me/MrXbin-128', 'server': '51.77.53.200', 'port': 7002, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'RexnBgU7EV5ADxG', 'udp': true}
-- {'name': '0|-https://t.me/MrXbin-129', 'server': '51.77.53.200', 'port': 8009, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'XKFKl2rULjIp74', 'udp': true}
-- {'name': '0|-https://t.me/MrXbin-130', 'server': '51.77.53.200', 'port': 7001, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'RexnBgU7EV5ADxG', 'udp': true}
-- {'name': '0|-https://t.me/MrXbin-131', 'server': '51.77.53.200', 'port': 6697, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'TEzjfAYq2IjtuoS', 'udp': true}
-- {'name': '0|-https://t.me/MrXbin-132', 'server': '51.77.53.200', 'port': 8882, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'kDWvXYZoTBcGkC4', 'udp': true}
-- {'name': '0|-https://t.me/MrXbin-133', 'server': '45.136.245.240', 'port': 12910, 'type': 'vmess', 'uuid': '8259cb1c-dd6c-4739-9c88-af550d977525', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/'}, 'udp': true}
-- {'name': '0|-https://t.me/MrXbin-134', 'server': '31.192.234.7', 'port': 12954, 'type': 'vmess', 'uuid': '8259cb1c-dd6c-4739-9c88-af550d977525', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'udp': true}
-- {'name': '0|-https://t.me/MrXbin-135', 'server': '205.134.180.139', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'lWaGPVFjmnag', 'udp': true}
-- {'name': '0|-https://t.me/MrXbin-136', 'server': '138.124.184.173', 'port': 443, 'type': 'trojan', 'password': 'c287c4bc-eb4c-401c-b0c8-c804332b3fc8', 'skip-cert-verify': true, 'udp': true}
+- {'name': '0|-https://t.me/MrXbin-113', 'server': '52.151.99.42', 'port': 58939, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'jha5ZXvI7J4CkWQn4iB3AF', 'udp': true}
+- {'name': '0|-https://t.me/MrXbin-114', 'server': '3.112.219.236', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05', 'udp': true}
+- {'name': '0|-https://t.me/MrXbin-115', 'server': '18.181.198.10', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05', 'udp': true}
+- {'name': '0|-https://t.me/MrXbin-116', 'server': '0i4ui-g03.jp03-7d22-vm0.entry.fr0307a.art', 'port': 21583, 'type': 'vmess', 'uuid': 'b37b7415-1608-3fcd-aa25-d9cc4aae5ded', 'alterId': 1, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'udp': true}
+- {'name': '0|-https://t.me/MrXbin-117', 'server': '7oi23-g04.jp06-7c5a-vm0.entry.fr0307a.art', 'port': 28786, 'type': 'vmess', 'uuid': 'e147ce52-2598-31b0-950d-6b12c306b360', 'alterId': 1, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'udp': true}
+- {'name': '0|-https://t.me/MrXbin-118', 'server': 'avido-g01.jp03-7d22-vm0.entry.fr0307a.art', 'port': 21581, 'type': 'vmess', 'uuid': '02bf7660-c38f-30b4-b740-2f9b4d717704', 'alterId': 1, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'servername': 'avido-g01.jp03-7d22-vm0.entry.fr0307a.art', 'udp': true}
+- {'name': '0|-https://t.me/MrXbin-119', 'server': '1ridh-g06.jp06-7c5a-vm0.entry.fr0307a.art', 'port': 28788, 'type': 'vmess', 'uuid': '2278146c-8fb0-3683-8300-342238f8a9d0', 'alterId': 1, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'udp': true}
+- {'name': '0|-https://t.me/MrXbin-120', 'server': '45.136.245.240', 'port': 12910, 'type': 'vmess', 'uuid': '8259cb1c-dd6c-4739-9c88-af550d977525', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/'}, 'udp': true}
+- {'name': '0|-https://t.me/MrXbin-121', 'server': '31.192.234.7', 'port': 12954, 'type': 'vmess', 'uuid': '8259cb1c-dd6c-4739-9c88-af550d977525', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'udp': true}
+- {'name': '0|-https://t.me/MrXbin-122', 'server': 'sg4g.xn--vhq70hxyat50h6wk.com', 'port': 80, 'type': 'vmess', 'uuid': '1f9b54af-3ab1-48c8-b58c-59d8d78277af', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'sg4g.xn--vhq70hxyat50h6wk.com'}}, 'udp': true}
+- {'name': '0|-https://t.me/MrXbin-123', 'server': '38.114.123.12', 'port': 20001, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '..', 'udp': true}
+- {'name': '0|-https://t.me/MrXbin-124', 'server': '205.134.180.139', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'lWaGPVFjmnag', 'udp': true}
+- {'name': '0|-https://t.me/MrXbin-125', 'server': '184.170.241.194', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-cfb', 'password': 'shadowsocks', 'udp': true}
+- {'name': '0|-https://t.me/MrXbin-128', 'server': '23.154.136.2', 'port': 443, 'type': 'vmess', 'uuid': '03fcc618-b93d-6796-6aed-8a38c975d581', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/linkvws'}, 'udp': true}
 - {'name': '5|🇭🇰 香港KT|@ripaojiedian', 'server': '172.67.124.123', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'a-wym4ovY4Yw', 'udp': true}
 - {'name': '5|🇭🇰 香港|@ripaojiedian', 'server': '183.232.199.28', 'port': 15605, 'type': 'vmess', 'uuid': 'aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
 - {'name': '5|🇭🇰 香港2|@ripaojiedian', 'server': '183.232.199.61', 'port': 15601, 'type': 'vmess', 'uuid': 'aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}

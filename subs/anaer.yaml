@@ -188,6 +188,9 @@ proxies:
 - {'name': '韩国 005', 'network': 'ws', 'port': 8443, 'server': '217.142.151.193', 'servername': 'cfed.tgzdyz2.top', 'tls': true, 'type': 'vless', 'uuid': '2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5', 'ws-opts': {'headers': {'host': 'cfed.tgzdyz2.top'}, 'path': 'tg'}}
 - {'name': '韩国 006', 'network': 'ws', 'port': 33155, 'server': '129.154.211.201', 'servername': 'a.ssll.gay', 'tls': true, 'type': 'vless', 'uuid': 'd342d11e-d424-4583-b36e-524ab1f0afa4', 'ws-opts': {'headers': {'host': 'a.ssll.gay'}, 'path': '/'}}
 - {'name': '美国 032', 'network': 'ws', 'port': 80, 'server': '66.81.247.161', 'servername': 'a.ssll.gay', 'tls': false, 'type': 'vless', 'uuid': 'd342d11e-d424-4583-b36e-524ab1f0afa4', 'ws-opts': {'headers': {'host': 'a.ssll.gay'}, 'path': 'Twitterfreecodes'}}
+- {'alterId': 1, 'cipher': 'auto', 'name': '日本 010', 'network': 'tcp', 'port': 11775, 'server': 't45a7-g03.jp02-9a99-vm0.entry.fr0307a.art', 'skip-cert-verify': true, 'tls': false, 'type': 'vmess', 'uuid': 'b37b7415-1608-3fcd-aa25-d9cc4aae5ded', 'ws-headers': {'Host': 't45a7-g03.jp02-9a99-vm0.entry.fr0307a.art'}}
+- {'name': '美国 033', 'network': 'ws', 'password': 'b17fa17d-13a0-4e8a-a398-8e549ea8b208', 'port': 443, 'server': '23.227.38.11', 'skip-cert-verify': true, 'sni': 'syndication-statutes-wanted-logo.trycloudflare.com', 'type': 'trojan', 'ws-opts': {'headers': {'Host': 'syndication-statutes-wanted-logo.trycloudflare.com'}, 'path': '/argox-tr'}}
+- {'client-fingerprint': 'chrome', 'name': '加拿大 067', 'network': 'ws', 'password': 'g76wex', 'port': 443, 'server': 'aws-kr-seoul-1.f1cflinec.com', 'skip-cert-verify': false, 'sni': 'aws-kr-seoul-1.f1cflinec.com', 'type': 'trojan', 'ws-opts': {'headers': {'Host': 'aws-kr-seoul-1.f1cflinec.com'}, 'path': '/f1rocket'}}
 
 
 # 代理组

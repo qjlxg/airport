@@ -220,8 +220,9 @@ proxies:
 - {'delay': 1319, 'name': '荷兰 006', 'network': 'ws', 'port': 443, 'server': '185.176.24.64', 'servername': 'xin111.ylks.link', 'tls': true, 'type': 'vless', 'uuid': '48198295-b7ba-4b5c-8d85-085d55a6c869', 'ws-opts': {'headers': {'host': 'xin111.ylks.link'}, 'path': '/blue'}}
 - {'delay': 2106, 'name': '加拿大 069', 'network': 'ws', 'port': 80, 'server': '104.21.79.143', 'servername': 'public.列列男事的事列上赛男85.shop', 'skip-cert-verify': true, 'type': 'vless', 'udp': true, 'uuid': '', 'ws-opts': {'headers': {'Host': 'public.列列男事的事列上赛男85.shop'}, 'path': '/'}}
 - {'alterId': 0, 'cipher': 'auto', 'delay': 1083, 'h2-opts': {}, 'http-opts': {}, 'name': '加拿大 070', 'network': 'ws', 'port': 80, 'server': '6239d.cnbete.xyz', 'skip-cert-verify': true, 'type': 'vmess', 'uuid': '2ed469e6-6318-4e4e-8a02-693327777a26', 'ws-opts': {'headers': {'host': '6239d.cnbete.xyz'}, 'path': '/vmess'}}
-- {'alterId': 0, 'cipher': 'auto', 'delay': 2408, 'h2-opts': {}, 'http-opts': {}, 'name': '加拿大 071', 'network': 'ws', 'port': 80, 'server': '03b73.cnbete.xyz', 'skip-cert-verify': true, 'type': 'vmess', 'uuid': '3a003f28-6b6a-4848-8de8-e517e41cf100', 'ws-opts': {'headers': {'host': '03b73.cnbete.xyz'}, 'path': '/vmess'}}
 - {'name': '香港 009', 'network': 'tcp', 'password': '4CCF9A9AB80E9889198B02ECE7FA08DD', 'port': 43005, 'server': 'j0082.ruixiangseo.xyz', 'skip-cert-verify': true, 'sni': 'j0082.ruixiangseo.xyz', 'type': 'trojan', 'udp': true}
+- {'alterId': 0, 'cipher': 'auto', 'name': '伊朗 001', 'network': 'tcp', 'port': 22452, 'server': '188.213.197.27', 'skip-cert-verify': true, 'tls': false, 'type': 'vmess', 'uuid': 'f730a0a8-437d-455a-b898-f5c9ff9f8d16'}
+- {'alterId': 0, 'cipher': 'auto', 'name': '加拿大 071', 'network': 'ws', 'port': 8080, 'server': '104.18.202.232', 'skip-cert-verify': true, 'tls': false, 'type': 'vmess', 'uuid': '2ddb3614-e407-45ef-bac2-710b9b651a18', 'ws-opts': {'headers': {'host': '2.irvn.debian.6.i.6.6.fxp.debian.org.speedtest.net.列列男事的事列上赛男.ghormehsabzi.cyou.'}, 'path': '/'}}
 
 
 # 代理组

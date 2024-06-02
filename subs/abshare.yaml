@@ -38,21 +38,21 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '特殊时期部分节点暂停,周一恢复', 'server': 'free.2weradf.xyz', 'port': 36016, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '765f8d29-b39b-4789-86d2-d119ba2c98d0', 'udp': true}
-- {'name': '香港02 | 专线', 'server': 'free.2weradf.xyz', 'port': 36017, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '765f8d29-b39b-4789-86d2-d119ba2c98d0', 'udp': true}
-- {'name': '香港03 | 专线', 'server': 'free.2weradf.xyz', 'port': 36018, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '765f8d29-b39b-4789-86d2-d119ba2c98d0', 'udp': true}
-- {'name': '台湾01 | 专线', 'server': 'free.2weradf.xyz', 'port': 36026, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '765f8d29-b39b-4789-86d2-d119ba2c98d0', 'udp': true}
-- {'name': '台湾02 | 专线', 'server': 'free.2weradf.xyz', 'port': 36027, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '765f8d29-b39b-4789-86d2-d119ba2c98d0', 'udp': true}
-- {'name': '台湾03 | 专线', 'server': 'free.2weradf.xyz', 'port': 36028, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '765f8d29-b39b-4789-86d2-d119ba2c98d0', 'udp': true}
-- {'name': '日本01 | 专线', 'server': 'free.2weradf.xyz', 'port': 36010, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '765f8d29-b39b-4789-86d2-d119ba2c98d0', 'udp': true}
-- {'name': '日本02 | 专线', 'server': 'free.2weradf.xyz', 'port': 36011, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '765f8d29-b39b-4789-86d2-d119ba2c98d0', 'udp': true}
-- {'name': '日本03 | 专线', 'server': 'free.2weradf.xyz', 'port': 36012, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '765f8d29-b39b-4789-86d2-d119ba2c98d0', 'udp': true}
-- {'name': '新加坡01 | 专线', 'server': 'free.2weradf.xyz', 'port': 36020, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '765f8d29-b39b-4789-86d2-d119ba2c98d0', 'udp': true}
-- {'name': '新加坡02 | 专线', 'server': 'free.2weradf.xyz', 'port': 36021, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '765f8d29-b39b-4789-86d2-d119ba2c98d0', 'udp': true}
-- {'name': '新加坡03 | 专线', 'server': 'free.2weradf.xyz', 'port': 36022, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '765f8d29-b39b-4789-86d2-d119ba2c98d0', 'udp': true}
-- {'name': '美国01 | 专线', 'server': 'free.2weradf.xyz', 'port': 36030, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '765f8d29-b39b-4789-86d2-d119ba2c98d0', 'udp': true}
-- {'name': '美国02 | 专线', 'server': 'free.2weradf.xyz', 'port': 36031, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '765f8d29-b39b-4789-86d2-d119ba2c98d0', 'udp': true}
-- {'name': '美国03 | 专线', 'server': 'free.2weradf.xyz', 'port': 36032, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '765f8d29-b39b-4789-86d2-d119ba2c98d0', 'udp': true}
+- {'name': '特殊时期部分节点暂停,周一恢复', 'server': 'free.2weradf.xyz', 'port': 36016, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '31e9d713-e911-45fb-9751-27f19155daea', 'udp': true}
+- {'name': '香港02 | 专线', 'server': 'free.2weradf.xyz', 'port': 36017, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '31e9d713-e911-45fb-9751-27f19155daea', 'udp': true}
+- {'name': '香港03 | 专线', 'server': 'free.2weradf.xyz', 'port': 36018, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '31e9d713-e911-45fb-9751-27f19155daea', 'udp': true}
+- {'name': '台湾01 | 专线', 'server': 'free.2weradf.xyz', 'port': 36026, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '31e9d713-e911-45fb-9751-27f19155daea', 'udp': true}
+- {'name': '台湾02 | 专线', 'server': 'free.2weradf.xyz', 'port': 36027, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '31e9d713-e911-45fb-9751-27f19155daea', 'udp': true}
+- {'name': '台湾03 | 专线', 'server': 'free.2weradf.xyz', 'port': 36028, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '31e9d713-e911-45fb-9751-27f19155daea', 'udp': true}
+- {'name': '日本01 | 专线', 'server': 'free.2weradf.xyz', 'port': 36010, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '31e9d713-e911-45fb-9751-27f19155daea', 'udp': true}
+- {'name': '日本02 | 专线', 'server': 'free.2weradf.xyz', 'port': 36011, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '31e9d713-e911-45fb-9751-27f19155daea', 'udp': true}
+- {'name': '日本03 | 专线', 'server': 'free.2weradf.xyz', 'port': 36012, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '31e9d713-e911-45fb-9751-27f19155daea', 'udp': true}
+- {'name': '新加坡01 | 专线', 'server': 'free.2weradf.xyz', 'port': 36020, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '31e9d713-e911-45fb-9751-27f19155daea', 'udp': true}
+- {'name': '新加坡02 | 专线', 'server': 'free.2weradf.xyz', 'port': 36021, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '31e9d713-e911-45fb-9751-27f19155daea', 'udp': true}
+- {'name': '新加坡03 | 专线', 'server': 'free.2weradf.xyz', 'port': 36022, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '31e9d713-e911-45fb-9751-27f19155daea', 'udp': true}
+- {'name': '美国01 | 专线', 'server': 'free.2weradf.xyz', 'port': 36030, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '31e9d713-e911-45fb-9751-27f19155daea', 'udp': true}
+- {'name': '美国02 | 专线', 'server': 'free.2weradf.xyz', 'port': 36031, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '31e9d713-e911-45fb-9751-27f19155daea', 'udp': true}
+- {'name': '美国03 | 专线', 'server': 'free.2weradf.xyz', 'port': 36032, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '31e9d713-e911-45fb-9751-27f19155daea', 'udp': true}
 
 
 # 代理组

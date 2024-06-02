@@ -38,21 +38,21 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': 'vmess和trojan节点周一恢复', 'server': 'free.2apzhfa.xyz', 'port': 31016, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '374160eb-46ed-4a85-87ed-fe96138202a9', 'udp': true}
-- {'name': '【专线】| 香港02 | 1x HK', 'server': 'free.2apzhfa.xyz', 'port': 31017, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '374160eb-46ed-4a85-87ed-fe96138202a9', 'udp': true}
-- {'name': '【专线】| 香港03 | 1x HK', 'server': 'free.2apzhfa.xyz', 'port': 31018, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '374160eb-46ed-4a85-87ed-fe96138202a9', 'udp': true}
-- {'name': '【专线】| 台湾 01 | 1x TWN', 'server': 'free.2apzhfa.xyz', 'port': 31026, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '374160eb-46ed-4a85-87ed-fe96138202a9', 'udp': true}
-- {'name': '【专线】| 台湾 02 | 1x TWN', 'server': 'free.2apzhfa.xyz', 'port': 31027, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '374160eb-46ed-4a85-87ed-fe96138202a9', 'udp': true}
-- {'name': '【专线】| 台湾 03 | 1x TWN', 'server': 'free.2apzhfa.xyz', 'port': 31028, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '374160eb-46ed-4a85-87ed-fe96138202a9', 'udp': true}
-- {'name': '【专线】| 日本 01 | 1x JP', 'server': 'free.2apzhfa.xyz', 'port': 31010, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '374160eb-46ed-4a85-87ed-fe96138202a9', 'udp': true}
-- {'name': '【专线】| 日本 02 | 1x JP', 'server': 'free.2apzhfa.xyz', 'port': 31011, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '374160eb-46ed-4a85-87ed-fe96138202a9', 'udp': true}
-- {'name': '【专线】| 日本 03 | 1x JP', 'server': 'free.2apzhfa.xyz', 'port': 31012, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '374160eb-46ed-4a85-87ed-fe96138202a9', 'udp': true}
-- {'name': '【专线】| 新加坡 01 | 1x SG', 'server': 'free.2apzhfa.xyz', 'port': 31020, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '374160eb-46ed-4a85-87ed-fe96138202a9', 'udp': true}
-- {'name': '【专线】| 新加坡 02 | 1x SG', 'server': 'free.2apzhfa.xyz', 'port': 31021, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '374160eb-46ed-4a85-87ed-fe96138202a9', 'udp': true}
-- {'name': '【专线】| 新加坡 03 | 1x SG', 'server': 'free.2apzhfa.xyz', 'port': 31022, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '374160eb-46ed-4a85-87ed-fe96138202a9', 'udp': true}
-- {'name': '【专线】| 美国 01 | 1x US', 'server': 'free.2apzhfa.xyz', 'port': 31030, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '374160eb-46ed-4a85-87ed-fe96138202a9', 'udp': true}
-- {'name': '【专线】| 美国 02 | 1x US', 'server': 'free.2apzhfa.xyz', 'port': 31031, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '374160eb-46ed-4a85-87ed-fe96138202a9', 'udp': true}
-- {'name': '【专线】| 美国 03 | 1x US', 'server': 'free.2apzhfa.xyz', 'port': 31032, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '374160eb-46ed-4a85-87ed-fe96138202a9', 'udp': true}
+- {'name': 'vmess和trojan节点周一恢复', 'server': 'free.2apzhfa.xyz', 'port': 31016, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9b820e80-f7fa-4a3d-af88-6aac3e838118', 'udp': true}
+- {'name': '【专线】| 香港02 | 1x HK', 'server': 'free.2apzhfa.xyz', 'port': 31017, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9b820e80-f7fa-4a3d-af88-6aac3e838118', 'udp': true}
+- {'name': '【专线】| 香港03 | 1x HK', 'server': 'free.2apzhfa.xyz', 'port': 31018, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9b820e80-f7fa-4a3d-af88-6aac3e838118', 'udp': true}
+- {'name': '【专线】| 台湾 01 | 1x TWN', 'server': 'free.2apzhfa.xyz', 'port': 31026, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9b820e80-f7fa-4a3d-af88-6aac3e838118', 'udp': true}
+- {'name': '【专线】| 台湾 02 | 1x TWN', 'server': 'free.2apzhfa.xyz', 'port': 31027, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9b820e80-f7fa-4a3d-af88-6aac3e838118', 'udp': true}
+- {'name': '【专线】| 台湾 03 | 1x TWN', 'server': 'free.2apzhfa.xyz', 'port': 31028, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9b820e80-f7fa-4a3d-af88-6aac3e838118', 'udp': true}
+- {'name': '【专线】| 日本 01 | 1x JP', 'server': 'free.2apzhfa.xyz', 'port': 31010, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9b820e80-f7fa-4a3d-af88-6aac3e838118', 'udp': true}
+- {'name': '【专线】| 日本 02 | 1x JP', 'server': 'free.2apzhfa.xyz', 'port': 31011, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9b820e80-f7fa-4a3d-af88-6aac3e838118', 'udp': true}
+- {'name': '【专线】| 日本 03 | 1x JP', 'server': 'free.2apzhfa.xyz', 'port': 31012, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9b820e80-f7fa-4a3d-af88-6aac3e838118', 'udp': true}
+- {'name': '【专线】| 新加坡 01 | 1x SG', 'server': 'free.2apzhfa.xyz', 'port': 31020, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9b820e80-f7fa-4a3d-af88-6aac3e838118', 'udp': true}
+- {'name': '【专线】| 新加坡 02 | 1x SG', 'server': 'free.2apzhfa.xyz', 'port': 31021, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9b820e80-f7fa-4a3d-af88-6aac3e838118', 'udp': true}
+- {'name': '【专线】| 新加坡 03 | 1x SG', 'server': 'free.2apzhfa.xyz', 'port': 31022, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9b820e80-f7fa-4a3d-af88-6aac3e838118', 'udp': true}
+- {'name': '【专线】| 美国 01 | 1x US', 'server': 'free.2apzhfa.xyz', 'port': 31030, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9b820e80-f7fa-4a3d-af88-6aac3e838118', 'udp': true}
+- {'name': '【专线】| 美国 02 | 1x US', 'server': 'free.2apzhfa.xyz', 'port': 31031, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9b820e80-f7fa-4a3d-af88-6aac3e838118', 'udp': true}
+- {'name': '【专线】| 美国 03 | 1x US', 'server': 'free.2apzhfa.xyz', 'port': 31032, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9b820e80-f7fa-4a3d-af88-6aac3e838118', 'udp': true}
 
 
 # 代理组

@@ -38,7 +38,7 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': 'Frankfurt-GetAFreeNode.com', 'server': 'Frankfurt.fghgdddgvss.xyz', 'port': 443, 'type': 'vmess', 'uuid': '4d01b1b5-0b0d-4ffa-af4d-4ef33b198e58', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'servername': 'Frankfurt.fghgdddgvss.xyz', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Frankfurt.fghgdddgvss.xyz'}}, 'udp': true}
+- {'name': 'Frankfurt-GetAFreeNode.com', 'server': 'Frankfurt.fghgdddgvss.xyz', 'port': 443, 'type': 'vmess', 'uuid': '94ce5f50-e54d-4831-98e8-dd64fbd87763', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'servername': 'Frankfurt.fghgdddgvss.xyz', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Frankfurt.fghgdddgvss.xyz'}}, 'udp': true}
 
 
 # 代理组

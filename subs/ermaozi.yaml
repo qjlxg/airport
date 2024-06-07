@@ -38,53 +38,49 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '🇫🇮_FI_芬兰->🇩🇪_DE_德国', 'type': 'vmess', 'server': '135.181.109.197', 'port': 80, 'cipher': 'auto', 'uuid': '1b457053-80cc-4391-b2bf-badfd71ad8cd', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'servername': 'google.com', 'network': 'ws', 'ws-opts': {'path': '/ZXzpLGLXPrYffqWUhE'}}
-- {'name': '🇵🇱_PL_波兰_1', 'type': 'ss', 'server': '51.77.53.200', 'port': 8080, 'password': 'KixLvKzwjekG00rm', 'cipher': 'aes-256-gcm'}
-- {'name': '🇺🇸_US_美国_1', 'type': 'ss', 'server': '216.246.66.180', 'port': 30129, 'password': 'Yc2CtrIz8L', 'cipher': 'aes-128-gcm'}
-- {'name': '🇵🇱_PL_波兰_2', 'type': 'ss', 'server': '51.77.53.200', 'port': 6697, 'password': 'TEzjfAYq2IjtuoS', 'cipher': 'aes-256-gcm'}
-- {'name': '🇵🇱_PL_波兰_3', 'type': 'ss', 'server': '51.77.53.200', 'port': 5001, 'password': 'Y6R9pAtvxxzmGC', 'cipher': 'aes-256-gcm'}
-- {'name': '🇵🇱_PL_波兰_4', 'type': 'ss', 'server': '51.77.53.200', 'port': 8881, 'password': 'kDWvXYZoTBcGkC4', 'cipher': 'aes-256-gcm'}
-- {'name': '🇺🇸_US_美国_2', 'type': 'vmess', 'server': 'cf2.ftclashcloud.site', 'port': 80, 'cipher': 'auto', 'uuid': '348d6595-93e9-4bd6-b9d4-88ab54b37d5e', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/ws?ed=2560', 'headers': {'host': 'mhyusa01.ftclashcloud.online'}}}
-- {'name': '🇵🇱_PL_波兰_5', 'type': 'ss', 'server': '51.77.53.200', 'port': 5500, 'password': 'KixLvKzwjekG00rm', 'cipher': 'aes-256-gcm'}
-- {'name': '🇺🇸_US_美国_3', 'type': 'ss', 'server': '184.170.241.194', 'port': 443, 'password': 'shadowsocks', 'cipher': 'aes-128-cfb'}
-- {'name': '🇵🇱_PL_波兰_6', 'type': 'ss', 'server': '51.77.53.200', 'port': 8119, 'password': 'cdBIDV42DCwnfIN', 'cipher': 'aes-256-gcm'}
-- {'name': '🇵🇱_PL_波兰_7', 'type': 'ss', 'server': '51.77.53.200', 'port': 2375, 'password': 'faBAoD54k87UJG7', 'cipher': 'aes-256-gcm'}
-- {'name': '🇬🇧_GB_英国_1', 'type': 'ss', 'server': '212.102.53.195', 'port': 443, 'password': 'shadowsocks', 'cipher': 'aes-128-gcm'}
-- {'name': '🇵🇱_PL_波兰_8', 'type': 'ss', 'server': '51.77.53.200', 'port': 7306, 'password': 'FoOiGlkAA9yPEGP', 'cipher': 'aes-256-gcm'}
-- {'name': '🇵🇱_PL_波兰_9', 'type': 'ss', 'server': '51.77.53.200', 'port': 5004, 'password': 'g5MeD6Ft3CWlJId', 'cipher': 'aes-256-gcm'}
-- {'name': '🇬🇧_GB_英国_2', 'type': 'ss', 'server': '212.102.53.193', 'port': 443, 'password': 'shadowsocks', 'cipher': 'aes-128-gcm'}
-- {'name': '🇵🇱_PL_波兰_10', 'type': 'ss', 'server': '51.77.53.200', 'port': 8091, 'password': 'PCnnH6SQSnfoS27', 'cipher': 'aes-256-gcm'}
-- {'name': '🇵🇱_PL_波兰_11', 'type': 'ss', 'server': '51.77.53.200', 'port': 8882, 'password': 'kDWvXYZoTBcGkC4', 'cipher': 'aes-256-gcm'}
-- {'name': '🇵🇱_PL_波兰_12', 'type': 'ss', 'server': '51.77.53.200', 'port': 7001, 'password': 'RexnBgU7EV5ADxG', 'cipher': 'aes-256-gcm'}
-- {'name': '🇺🇸_US_美国_4', 'type': 'ss', 'server': '38.107.226.146', 'port': 1230, 'password': 'H5S0hvcxRi#YLmgU', 'cipher': 'chacha20-ietf-poly1305'}
-- {'name': '🇺🇸_US_美国->🇫🇷_FR_法国', 'type': 'vmess', 'server': '104.21.8.157', 'port': 2082, 'cipher': 'auto', 'uuid': '112ac36f-3f53-4e26-8371-d25c028e1b9a', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'host': 's1c.v2.v001sss.xyz'}}}
-- {'name': '🇳🇱_NL_荷兰->🇬🇮_GI_直布罗陀', 'type': 'vmess', 'server': '188.114.97.3', 'port': 80, 'cipher': 'auto', 'uuid': 'b25f8da6-54a2-49b3-bacf-8403b4c36556', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'host': 'De1.vmess.site.'}}}
-- {'name': '🇵🇱_PL_波兰_13', 'type': 'ss', 'server': '51.77.53.200', 'port': 3389, 'password': 'Y6R9pAtvxxzmGC', 'cipher': 'aes-256-gcm'}
-- {'name': '🇵🇱_PL_波兰_14', 'type': 'ss', 'server': '51.77.53.200', 'port': 3306, 'password': 'Y6R9pAtvxxzmGC', 'cipher': 'aes-256-gcm'}
-- {'name': '🇵🇱_PL_波兰_15', 'type': 'ss', 'server': '51.77.53.200', 'port': 9102, 'password': 'e4FCWrgpkji3QY', 'cipher': 'aes-256-gcm'}
-- {'name': '🇨🇳_CN_中国->🇺🇸_US_美国', 'type': 'ss', 'server': '59.56.77.178', 'port': 16058, 'password': 'hGkQ6915tD', 'cipher': 'aes-256-cfb'}
-- {'name': '🇺🇸_US_美国_5', 'type': 'vmess', 'server': 'www.speedtest.net', 'port': 2052, 'cipher': 'auto', 'uuid': '9e5f73da-a0f4-4a6c-87d8-7426527518c3', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/@irvpnn,@irvpnn,@irvpnn,@irvpnn?ed=80', 'headers': {'host': '2d.irvn.debian.6.6.1b71.8.fxp.debian.org.speedtest.net.列列男事的事列上赛男.filter-nakon-madarj.cyou.'}}}
-- {'name': '🇬🇧_GB_英国_3', 'type': 'trojan', 'server': '35.177.111.206', 'port': 22222, 'udp': true, 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk', 'skip-cert-verify': true, 'network': 'tcp', 'alpn': ['http/1.1']}
-- {'name': '🇫🇷_FR_法国', 'type': 'trojan', 'server': '52.47.101.251', 'port': 22222, 'udp': true, 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk', 'skip-cert-verify': true, 'network': 'tcp', 'alpn': ['http/1.1']}
-- {'name': '🇺🇸_US_美国_6', 'type': 'trojan', 'server': '52.24.59.52', 'port': 22222, 'udp': true, 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk', 'skip-cert-verify': true, 'network': 'tcp', 'alpn': ['http/1.1']}
-- {'name': '🇺🇸_US_美国_7', 'type': 'trojan', 'server': '3.13.133.241', 'port': 22222, 'udp': true, 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk', 'skip-cert-verify': true, 'network': 'tcp', 'alpn': ['http/1.1']}
-- {'name': '🇵🇱_PL_波兰_16', 'type': 'ss', 'server': '51.77.53.200', 'port': 6379, 'password': 'zDNVedRFPQexG9v', 'cipher': 'aes-256-gcm'}
-- {'name': '🇵🇱_PL_波兰_17', 'type': 'ss', 'server': '51.77.53.200', 'port': 5000, 'password': 'Y6R9pAtvxxzmGC', 'cipher': 'aes-256-gcm'}
-- {'name': '🇵🇱_PL_波兰_18', 'type': 'ss', 'server': '51.77.53.200', 'port': 7307, 'password': 'FoOiGlkAA9yPEGP', 'cipher': 'aes-256-gcm'}
-- {'name': '🇵🇱_PL_波兰_19', 'type': 'ss', 'server': '51.77.53.200', 'port': 9101, 'password': 'e4FCWrgpkji3QY', 'cipher': 'aes-256-gcm'}
-- {'name': '🇵🇱_PL_波兰_20', 'type': 'ss', 'server': '51.77.53.200', 'port': 8009, 'password': 'XKFKl2rULjIp74', 'cipher': 'aes-256-gcm'}
-- {'name': '🇵🇱_PL_波兰_21', 'type': 'ss', 'server': '51.77.53.200', 'port': 8000, 'password': 'KixLvKzwjekG00rm', 'cipher': 'aes-256-gcm'}
-- {'name': '🇵🇱_PL_波兰_22', 'type': 'ss', 'server': '51.77.53.200', 'port': 8118, 'password': 'cdBIDV42DCwnfIN', 'cipher': 'aes-256-gcm'}
+- {'name': '🇵🇱_PL_波兰_1', 'type': 'ss', 'server': '51.77.53.200', 'port': 5001, 'password': 'Y6R9pAtvxxzmGC', 'cipher': 'aes-256-gcm'}
+- {'name': '🇵🇱_PL_波兰_2', 'type': 'ss', 'server': '51.77.53.200', 'port': 7002, 'password': 'RexnBgU7EV5ADxG', 'cipher': 'aes-256-gcm'}
+- {'name': '🇵🇱_PL_波兰_3', 'type': 'ss', 'server': '51.77.53.200', 'port': 7307, 'password': 'FoOiGlkAA9yPEGP', 'cipher': 'aes-256-gcm'}
+- {'name': '🇵🇱_PL_波兰_4', 'type': 'ss', 'server': '51.77.53.200', 'port': 5500, 'password': 'KixLvKzwjekG00rm', 'cipher': 'aes-256-gcm'}
+- {'name': '🇺🇸_US_美国_1', 'type': 'vmess', 'server': '104.26.5.57', 'port': 2095, 'cipher': 'auto', 'uuid': '4b05abf5-c68d-4ffc-915f-add2f3786dca', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/api/v3/download.getFile', 'headers': {'host': 'sssub.v2.001.ssrsub.com'}}}
+- {'name': '🇵🇱_PL_波兰_5', 'type': 'ss', 'server': '51.77.53.200', 'port': 6679, 'password': 'TEzjfAYq2IjtuoS', 'cipher': 'aes-256-gcm'}
+- {'name': '🇺🇸_US_美国_2', 'type': 'vmess', 'server': '64.176.15.74', 'port': 3389, 'cipher': 'auto', 'uuid': '9c050a86-d612-48f1-ec32-e573df08a1b7', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'http'}
+- {'name': '🇵🇱_PL_波兰_6', 'type': 'ss', 'server': '51.77.53.200', 'port': 8009, 'password': 'XKFKl2rULjIp74', 'cipher': 'aes-256-gcm'}
+- {'name': '🇵🇱_PL_波兰_7', 'type': 'ss', 'server': '51.77.53.200', 'port': 5000, 'password': 'Y6R9pAtvxxzmGC', 'cipher': 'aes-256-gcm'}
+- {'name': '🇵🇱_PL_波兰_8', 'type': 'ss', 'server': '51.77.53.200', 'port': 5003, 'password': 'g5MeD6Ft3CWlJId', 'cipher': 'aes-256-gcm'}
+- {'name': '🇵🇱_PL_波兰_9', 'type': 'ss', 'server': '51.77.53.200', 'port': 6697, 'password': 'TEzjfAYq2IjtuoS', 'cipher': 'aes-256-gcm'}
+- {'name': '🇵🇱_PL_波兰_10', 'type': 'ss', 'server': '51.77.53.200', 'port': 4444, 'password': 'pKEW8JPByTVTLtM', 'cipher': 'aes-256-gcm'}
+- {'name': '🇵🇱_PL_波兰_11', 'type': 'ss', 'server': '51.77.53.200', 'port': 8008, 'password': 'XKFKl2rULjIp74', 'cipher': 'aes-256-gcm'}
+- {'name': '🇵🇱_PL_波兰_12', 'type': 'ss', 'server': '51.77.53.200', 'port': 9101, 'password': 'e4FCWrgpkji3QY', 'cipher': 'aes-256-gcm'}
+- {'name': '🇺🇸_US_美国_3', 'type': 'vmess', 'server': 'russia.com', 'port': 8080, 'cipher': 'auto', 'uuid': '4b05abf5-c68d-4ffc-915f-add2f3786dca', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/api/v3/download.getFile', 'headers': {'host': 'sssub.v2.001.ssrsub.com'}}}
+- {'name': '🇫🇮_FI_芬兰->🇩🇪_DE_德国', 'type': 'vmess', 'server': '135.181.109.197', 'port': 80, 'cipher': 'auto', 'uuid': '1b457053-80cc-4391-b2bf-badfd71ad8cd', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/ZXzpLGLXPrYffqWUhE'}}
+- {'name': '🇵🇱_PL_波兰_13', 'type': 'ss', 'server': '51.77.53.200', 'port': 5004, 'password': 'g5MeD6Ft3CWlJId', 'cipher': 'aes-256-gcm'}
+- {'name': '🇵🇱_PL_波兰_14', 'type': 'ss', 'server': '51.77.53.200', 'port': 8090, 'password': 'PCnnH6SQSnfoS27', 'cipher': 'aes-256-gcm'}
+- {'name': '🇵🇱_PL_波兰_15', 'type': 'ss', 'server': '51.77.53.200', 'port': 8091, 'password': 'PCnnH6SQSnfoS27', 'cipher': 'aes-256-gcm'}
+- {'name': '🇵🇱_PL_波兰_16', 'type': 'ss', 'server': '51.77.53.200', 'port': 8888, 'password': 'Y6R9pAtvxxzmGC', 'cipher': 'aes-256-gcm'}
+- {'name': '🇵🇱_PL_波兰_17', 'type': 'ss', 'server': '51.77.53.200', 'port': 8000, 'password': 'KixLvKzwjekG00rm', 'cipher': 'aes-256-gcm'}
+- {'name': '🇵🇱_PL_波兰_18', 'type': 'ss', 'server': '51.77.53.200', 'port': 9102, 'password': 'e4FCWrgpkji3QY', 'cipher': 'aes-256-gcm'}
+- {'name': '🇵🇱_PL_波兰_19', 'type': 'ss', 'server': '51.77.53.200', 'port': 8881, 'password': 'kDWvXYZoTBcGkC4', 'cipher': 'aes-256-gcm'}
+- {'name': '🇵🇱_PL_波兰_20', 'type': 'ss', 'server': '51.77.53.200', 'port': 6379, 'password': 'zDNVedRFPQexG9v', 'cipher': 'aes-256-gcm'}
+- {'name': '🇵🇱_PL_波兰_21', 'type': 'ss', 'server': '51.77.53.200', 'port': 3306, 'password': 'Y6R9pAtvxxzmGC', 'cipher': 'aes-256-gcm'}
+- {'name': '🇮🇷_IR_伊朗', 'type': 'ss', 'server': '91.107.201.212', 'port': 1080, 'password': 'saSZ8ITija0kTURaEpki2TYz+BlKaUun2R3TrvMkzbY=', 'cipher': 'chacha20-ietf-poly1305'}
+- {'name': '🇵🇱_PL_波兰_22', 'type': 'ss', 'server': '51.77.53.200', 'port': 2375, 'password': 'faBAoD54k87UJG7', 'cipher': 'aes-256-gcm'}
+- {'name': '🇵🇱_PL_波兰_23', 'type': 'ss', 'server': '51.77.53.200', 'port': 8882, 'password': 'kDWvXYZoTBcGkC4', 'cipher': 'aes-256-gcm'}
+- {'name': '🇳🇱_NL_荷兰->🇬🇮_GI_直布罗陀', 'type': 'vmess', 'server': '188.114.97.3', 'port': 80, 'cipher': 'none', 'uuid': 'b25f8da6-54a2-49b3-bacf-8403b4c36556', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE', 'headers': {'host': 'De1.vmess.site.'}}}
+- {'name': '🇺🇸_US_美国_4', 'type': 'trojan', 'server': '18.221.16.138', 'port': 22222, 'udp': true, 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk', 'skip-cert-verify': true, 'network': 'tcp', 'alpn': ['http/1.1']}
+- {'name': '🇺🇸_US_美国_5', 'type': 'trojan', 'server': '52.15.112.163', 'port': 22222, 'udp': true, 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk', 'skip-cert-verify': true, 'network': 'tcp', 'alpn': ['http/1.1']}
+- {'name': '🇬🇧_GB_英国_1', 'type': 'trojan', 'server': '18.130.120.158', 'port': 22222, 'udp': true, 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk', 'skip-cert-verify': true, 'network': 'tcp', 'alpn': ['http/1.1']}
+- {'name': '🇬🇧_GB_英国_2', 'type': 'trojan', 'server': '18.168.68.161', 'port': 22222, 'udp': true, 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk', 'skip-cert-verify': true, 'network': 'tcp', 'alpn': ['http/1.1']}
+- {'name': '🇺🇸_US_美国_6', 'type': 'ss', 'server': '23.157.40.119', 'port': 5601, 'password': 'Y6R9pAtvxxzmGC', 'cipher': 'aes-256-gcm'}
+- {'name': '🇺🇸_US_美国_7', 'type': 'ss', 'server': '172.233.51.128', 'port': 80, 'password': 'fLAIbz76BnOmJ6HNuK2qvm', 'cipher': 'chacha20-ietf-poly1305'}
 - {'name': '🇺🇸_US_美国_8', 'type': 'ss', 'server': '205.134.180.139', 'port': 443, 'password': 'lWaGPVFjmnag', 'cipher': 'chacha20-ietf-poly1305'}
-- {'name': '🇺🇸_US_美国_9', 'type': 'ss', 'server': '23.157.40.119', 'port': 5601, 'password': 'Y6R9pAtvxxzmGC', 'cipher': 'aes-256-gcm'}
-- {'name': '🇵🇱_PL_波兰_23', 'type': 'ss', 'server': '51.77.53.200', 'port': 5003, 'password': 'g5MeD6Ft3CWlJId', 'cipher': 'aes-256-gcm'}
-- {'name': '🇵🇱_PL_波兰_24', 'type': 'ss', 'server': '51.77.53.200', 'port': 8888, 'password': 'Y6R9pAtvxxzmGC', 'cipher': 'aes-256-gcm'}
-- {'name': '🇵🇱_PL_波兰_25', 'type': 'ss', 'server': '51.77.53.200', 'port': 8008, 'password': 'XKFKl2rULjIp74', 'cipher': 'aes-256-gcm'}
-- {'name': '🇩🇪_DE_德国', 'type': 'ss', 'server': '146.19.233.101', 'port': 29682, 'password': 'VdOOvTaY02wdR77FoI5pB6', 'cipher': 'chacha20-ietf-poly1305'}
-- {'name': '🇺🇸_US_美国->🇸🇪_SE_瑞典', 'type': 'vmess', 'server': 'www.speedtest.net', 'port': 80, 'cipher': 'auto', 'uuid': '31488365-7b6a-434a-8b7b-8f35012c6a22', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE', 'headers': {'host': 'Se2.vmess.site.'}}}
-- {'name': '🇵🇱_PL_波兰_26', 'type': 'ss', 'server': '51.77.53.200', 'port': 4444, 'password': 'pKEW8JPByTVTLtM', 'cipher': 'aes-256-gcm'}
-- {'name': '🇵🇱_PL_波兰_27', 'type': 'ss', 'server': '51.77.53.200', 'port': 6679, 'password': 'TEzjfAYq2IjtuoS', 'cipher': 'aes-256-gcm'}
-- {'name': '🇵🇱_PL_波兰_28', 'type': 'ss', 'server': '51.77.53.200', 'port': 7002, 'password': 'RexnBgU7EV5ADxG', 'cipher': 'aes-256-gcm'}
+- {'name': '🇺🇸_US_美国_9', 'type': 'ss', 'server': '184.170.241.194', 'port': 443, 'password': 'shadowsocks', 'cipher': 'aes-128-cfb'}
+- {'name': '🇬🇧_GB_英国_3', 'type': 'ss', 'server': '212.102.53.197', 'port': 443, 'password': 'shadowsocks', 'cipher': 'aes-128-gcm'}
+- {'name': '🇵🇱_PL_波兰_24', 'type': 'ss', 'server': '51.77.53.200', 'port': 8080, 'password': 'KixLvKzwjekG00rm', 'cipher': 'aes-256-gcm'}
+- {'name': '🇨🇳_CN_中国->🇺🇸_US_美国', 'type': 'ss', 'server': '59.56.77.178', 'port': 16058, 'password': 'hGkQ6915tD', 'cipher': 'aes-256-cfb'}
+- {'name': '🇵🇱_PL_波兰_25', 'type': 'ss', 'server': '51.77.53.200', 'port': 8119, 'password': 'cdBIDV42DCwnfIN', 'cipher': 'aes-256-gcm'}
+- {'name': '🇵🇱_PL_波兰_26', 'type': 'ss', 'server': '51.77.53.200', 'port': 7306, 'password': 'FoOiGlkAA9yPEGP', 'cipher': 'aes-256-gcm'}
+- {'name': '🇵🇱_PL_波兰_27', 'type': 'ss', 'server': '51.77.53.200', 'port': 8118, 'password': 'cdBIDV42DCwnfIN', 'cipher': 'aes-256-gcm'}
 
 
 # 代理组

@@ -38,8 +38,8 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': 'Frankfurt-GetAFreeNode.com', 'server': 'Frankfurt.fghgdddgvss.xyz', 'port': 443, 'type': 'vmess', 'uuid': 'ba64e2f0-60a2-4f7a-9972-2d58f30d5c90', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'servername': 'Frankfurt.fghgdddgvss.xyz', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Frankfurt.fghgdddgvss.xyz'}}, 'udp': true}
-- {'name': 'Amsterdam-GetAFreeNode.com', 'server': 'Amsterdam.fghgdddgvss.xyz', 'port': 443, 'type': 'vmess', 'uuid': 'ba64e2f0-60a2-4f7a-9972-2d58f30d5c90', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'servername': 'Amsterdam.fghgdddgvss.xyz', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Amsterdam.fghgdddgvss.xyz'}}, 'udp': true}
+- {'name': 'Frankfurt-GetAFreeNode.com', 'server': 'Frankfurt.fghgdddgvss.xyz', 'port': 443, 'type': 'vmess', 'uuid': 'ae1f2f4a-bcd9-48e7-b694-d840c268835a', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'servername': 'Frankfurt.fghgdddgvss.xyz', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Frankfurt.fghgdddgvss.xyz'}}, 'udp': true}
+- {'name': 'Amsterdam-GetAFreeNode.com', 'server': 'Amsterdam.fghgdddgvss.xyz', 'port': 443, 'type': 'vmess', 'uuid': 'ae1f2f4a-bcd9-48e7-b694-d840c268835a', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'servername': 'Amsterdam.fghgdddgvss.xyz', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Amsterdam.fghgdddgvss.xyz'}}, 'udp': true}
 
 
 # 代理组

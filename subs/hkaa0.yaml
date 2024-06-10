@@ -38,30 +38,47 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': 'hkaa0.shop|中国', 'server': 'deepf.hjkdsak2.com', 'port': 20003, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '99301d55-a41f-4919-986b-1435996533aa', 'udp': true}
-- {'name': 'hkaa0.shop|中国 2', 'server': '183.232.199.28', 'port': 43002, 'type': 'vmess', 'uuid': 'aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|法国', 'server': '149.202.82.172', 'port': 5601, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC', 'udp': true}
-- {'name': 'hkaa0.shop|法国 2', 'server': '149.202.82.172', 'port': 3306, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC', 'udp': true}
-- {'name': 'hkaa0.shop|法国 3', 'server': '149.202.82.172', 'port': 3389, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC', 'udp': true}
-- {'name': 'hkaa0.shop|法国 4', 'server': '149.202.82.172', 'port': 8119, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'cdBIDV42DCwnfIN', 'udp': true}
-- {'name': 'hkaa0.shop|美国', 'server': 's1c.v2.v001sss.xyz', 'port': 2082, 'type': 'vmess', 'uuid': '112ac36f-3f53-4e26-8371-d25c028e1b9a', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 's1c.v2.v001sss.xyz'}}, 'udp': true}
-- {'name': 'hkaa0.shop|台湾', 'server': 'in06.dns2024.org', 'port': 61017, 'type': 'vmess', 'uuid': '9eac8830-5da5-3ee2-a4b2-b49598275623', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 3', 'server': 'dc0.forlive.live', 'port': 41003, 'type': 'trojan', 'password': '187d7254-9574-4da1-9f53-0bbc02dbd027', 'sni': 'ssl.sbgfw.info', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|中国 4', 'server': '183.232.139.22', 'port': 4027, 'type': 'trojan', 'password': 'gkviEOYc', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|德国', 'server': '18.184.47.53', 'port': 16140, 'type': 'trojan', 'password': 'Wj1cM)Tpo69C', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|法国 5', 'server': '149.202.82.172', 'port': 6379, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'zDNVedRFPQexG9v', 'udp': true}
-- {'name': 'hkaa0.shop|法国 6', 'server': '149.202.82.172', 'port': 5003, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'g5MeD6Ft3CWlJId', 'udp': true}
-- {'name': 'hkaa0.shop|法国 7', 'server': '149.202.82.172', 'port': 8008, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'XKFKl2rULjIp74', 'udp': true}
-- {'name': 'hkaa0.shop|法国 8', 'server': '35.181.4.114', 'port': 16161, 'type': 'trojan', 'password': '2EaBfR2w(5iB', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|英国', 'server': '3.9.109.71', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|日本', 'server': '52.195.8.61', 'port': 16167, 'type': 'trojan', 'password': 'IGZvq)XBsAwX', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|日本 2', 'server': '52.199.36.181', 'port': 16141, 'type': 'trojan', 'password': 'Rp9JKrpAKWkV', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|韩国', 'server': '13.125.132.62', 'port': 16171, 'type': 'trojan', 'password': '0ut7LZh45Pnh', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|美国 2', 'server': '172.233.51.128', 'port': 80, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'fLAIbz76BnOmJ6HNuK2qvm', 'udp': true}
-- {'name': 'hkaa0.shop|俄罗斯联邦', 'server': '77.221.137.197', 'port': 25067, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'MoxMpgM3MLhBw0DBDvPAnB', 'udp': true}
-- {'name': 'hkaa0.shop|新加坡', 'server': '13.213.48.68', 'port': 16147, 'type': 'trojan', 'password': 'S3guraNkV0LE', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|美国 3', 'server': '35.93.33.201', 'port': 16139, 'type': 'trojan', 'password': 'AoC8s9t1L)VM', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
-- {'name': 'hkaa0.shop|美国 4', 'server': '35.92.36.138', 'port': 16153, 'type': 'trojan', 'password': '3YxbLTe69spL', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop |中国', 'server': '183.232.199.28', 'port': 43002, 'type': 'vmess', 'uuid': 'aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop |法国', 'server': '149.202.82.172', 'port': 5601, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC', 'udp': true}
+- {'name': 'hkaa0.shop |法国 2', 'server': '149.202.82.172', 'port': 3306, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC', 'udp': true}
+- {'name': 'hkaa0.shop |法国 3', 'server': '149.202.82.172', 'port': 3389, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC', 'udp': true}
+- {'name': 'hkaa0.shop |法国 4', 'server': '149.202.82.172', 'port': 8119, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'cdBIDV42DCwnfIN', 'udp': true}
+- {'name': 'hkaa0.shop |美国', 'server': 's1c.v2.v001sss.xyz', 'port': 2082, 'type': 'vmess', 'uuid': '112ac36f-3f53-4e26-8371-d25c028e1b9a', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 's1c.v2.v001sss.xyz'}}, 'udp': true}
+- {'name': 'hkaa0.shop |中国 2', 'server': 'deepf.hjkdsak2.com', 'port': 20003, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '99301d55-a41f-4919-986b-1435996533aa', 'udp': true}
+- {'name': 'hkaa0.shop |中国 3', 'server': '183.232.139.22', 'port': 4027, 'type': 'trojan', 'password': 'gkviEOYc', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop |法国 5', 'server': '149.202.82.172', 'port': 6379, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'zDNVedRFPQexG9v', 'udp': true}
+- {'name': 'hkaa0.shop |法国 6', 'server': '149.202.82.172', 'port': 5003, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'g5MeD6Ft3CWlJId', 'udp': true}
+- {'name': 'hkaa0.shop |法国 7', 'server': '149.202.82.172', 'port': 8008, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'XKFKl2rULjIp74', 'udp': true}
+- {'name': 'hkaa0.shop |美国 2', 'server': '172.233.51.128', 'port': 80, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'fLAIbz76BnOmJ6HNuK2qvm', 'udp': true}
+- {'name': 'hkaa0.shop |俄罗斯联邦', 'server': '77.221.137.197', 'port': 25067, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'MoxMpgM3MLhBw0DBDvPAnB', 'udp': true}
+- {'name': 'hkaa0.shop |中国 4', 'server': 'tanz-board.01byx31qzn.download', 'port': 35091, 'type': 'vmess', 'uuid': 'f5b1b2a4-501f-37ef-915d-0a5badbc42a0', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop |中国 5', 'server': 'tanz-board.01byx31qzn.download', 'port': 35021, 'type': 'vmess', 'uuid': 'f5b1b2a4-501f-37ef-915d-0a5badbc42a0', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop |中国 6', 'server': 'tanz-us.01byx31qzn.download', 'port': 35019, 'type': 'vmess', 'uuid': '6844b3e1-7cf9-3b41-b80e-ee4632e63820', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop |中国 7', 'server': '183.232.199.28', 'port': 40001, 'type': 'vmess', 'uuid': 'aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop |中国 8', 'server': 'tanz-board.01byx31qzn.download', 'port': 35017, 'type': 'vmess', 'uuid': 'f5b1b2a4-501f-37ef-915d-0a5badbc42a0', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop |中国 9', 'server': 'sui.forlive.live', 'port': 40396, 'type': 'vmess', 'uuid': 'f1b9745c-c302-4e31-81c3-db937dcecee7', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'sui.forlive.live'}}, 'udp': true}
+- {'name': 'hkaa0.shop |中国 10', 'server': 'tanz-board.01byx31qzn.download', 'port': 35094, 'type': 'vmess', 'uuid': 'f5b1b2a4-501f-37ef-915d-0a5badbc42a0', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop |中国 11', 'server': '183.232.139.22', 'port': 50611, 'type': 'trojan', 'password': 'gkviEOYc', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop |德国', 'server': '3.67.132.203', 'port': 14505, 'type': 'trojan', 'password': 'lvOf)6IbUBG4', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop |德国 2', 'server': '18.195.203.57', 'port': 14516, 'type': 'trojan', 'password': '1eHvBa2TgX9U', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop |法国 8', 'server': '149.202.82.172', 'port': 8009, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'XKFKl2rULjIp74', 'udp': true}
+- {'name': 'hkaa0.shop |法国 9', 'server': '15.237.251.76', 'port': 14497, 'type': 'trojan', 'password': 'UgsPuWMKN)(l', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop |法国 10', 'server': '52.47.96.93', 'port': 14528, 'type': 'trojan', 'password': 'foDPgAOgjfsx', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop |英国', 'server': '51.141.239.0', 'port': 43131, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'ucordp22jRbb6FrC3GKM98', 'udp': true}
+- {'name': 'hkaa0.shop |爱尔兰', 'server': '54.229.128.249', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop |日本', 'server': '52.192.32.143', 'port': 14525, 'type': 'trojan', 'password': '9)HHf5hKijRn', 'sni': 'appsvs.shop', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop |波兰', 'server': '51.77.53.200', 'port': 8888, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC', 'udp': true}
+- {'name': 'hkaa0.shop |波兰 2', 'server': '51.77.53.200', 'port': 7307, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FoOiGlkAA9yPEGP', 'udp': true}
+- {'name': 'hkaa0.shop |波兰 3', 'server': '51.77.53.200', 'port': 5004, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'g5MeD6Ft3CWlJId', 'udp': true}
+- {'name': 'hkaa0.shop |波兰 4', 'server': '51.77.53.200', 'port': 5601, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC', 'udp': true}
+- {'name': 'hkaa0.shop |波兰 5', 'server': '51.77.53.200', 'port': 6379, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'zDNVedRFPQexG9v', 'udp': true}
+- {'name': 'hkaa0.shop |波兰 6', 'server': '51.77.53.200', 'port': 5001, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC', 'udp': true}
+- {'name': 'hkaa0.shop |波兰 7', 'server': '51.77.53.200', 'port': 2376, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'faBAoD54k87UJG7', 'udp': true}
+- {'name': 'hkaa0.shop |波兰 8', 'server': '51.77.53.200', 'port': 9101, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'e4FCWrgpkji3QY', 'udp': true}
+- {'name': 'hkaa0.shop |波兰 9', 'server': '51.77.53.200', 'port': 7002, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'RexnBgU7EV5ADxG', 'udp': true}
+- {'name': 'hkaa0.shop |波兰 10', 'server': '151.115.83.239', 'port': 43118, 'type': 'trojan', 'password': 'ypDt8RkT7J', 'sni': 'egajz.phooeyunfold.com', 'skip-cert-verify': true, 'udp': true}
+- {'name': 'hkaa0.shop |荷兰', 'server': '94.131.106.19', 'port': 20567, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '4aeyHWCjmoriSFaldEhpnS', 'udp': true}
+- {'name': 'hkaa0.shop |美国 3', 'server': '172.233.146.107', 'port': 23333, 'type': 'trojan', 'password': '450524c4-86ee-4a97-ac7f-888942039bcd', 'sni': 'test.com', 'skip-cert-verify': true, 'udp': true}
 
 
 # 代理组

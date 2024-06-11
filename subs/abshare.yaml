@@ -38,7 +38,7 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '剩余流量：10 GB', 'server': 'free.2weradf.xyz', 'port': 36016, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9511295b-cf65-43d5-9fea-c5c7a98d043b', 'udp': true}
+- {'name': 'v2rayng无法使用的用户请下载clash for android', 'server': 'free.2weradf.xyz', 'port': 36016, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9511295b-cf65-43d5-9fea-c5c7a98d043b', 'udp': true}
 - {'name': '香港02 | 专线', 'server': 'free.2weradf.xyz', 'port': 36017, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9511295b-cf65-43d5-9fea-c5c7a98d043b', 'udp': true}
 - {'name': '香港03 | 专线', 'server': 'free.2weradf.xyz', 'port': 36018, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9511295b-cf65-43d5-9fea-c5c7a98d043b', 'udp': true}
 - {'name': '台湾01 | 专线', 'server': 'free.2weradf.xyz', 'port': 36026, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9511295b-cf65-43d5-9fea-c5c7a98d043b', 'udp': true}

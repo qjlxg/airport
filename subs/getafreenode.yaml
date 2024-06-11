@@ -38,8 +38,9 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': 'Amsterdam-GetAFreeNode.com', 'server': 'Amsterdam.fghgdddgvss.xyz', 'port': 443, 'type': 'vmess', 'uuid': 'cb0e9d93-71df-429b-b6c2-f089251c59c9', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'servername': 'Amsterdam.fghgdddgvss.xyz', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Amsterdam.fghgdddgvss.xyz'}}, 'udp': true}
-- {'name': 'Frankfurt-GetAFreeNode.com', 'server': 'Frankfurt.fghgdddgvss.xyz', 'port': 443, 'type': 'vmess', 'uuid': 'cb0e9d93-71df-429b-b6c2-f089251c59c9', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'servername': 'Frankfurt.fghgdddgvss.xyz', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Frankfurt.fghgdddgvss.xyz'}}, 'udp': true}
+- {'name': 'Amsterdam-GetAFreeNode.com', 'server': 'Amsterdam.fghgdddgvss.xyz', 'port': 443, 'type': 'vmess', 'uuid': 'dace6acc-18a1-49b3-9c48-4fdfd127a285', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'servername': 'Amsterdam.fghgdddgvss.xyz', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Amsterdam.fghgdddgvss.xyz'}}, 'udp': true}
+- {'name': 'Frankfurt-GetAFreeNode.com', 'server': 'Frankfurt.fghgdddgvss.xyz', 'port': 443, 'type': 'vmess', 'uuid': 'dace6acc-18a1-49b3-9c48-4fdfd127a285', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'servername': 'Frankfurt.fghgdddgvss.xyz', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Frankfurt.fghgdddgvss.xyz'}}, 'udp': true}
+- {'name': 'Moscow-GetAFreeNode.com', 'server': 'Moscow.fghgdddgvss.xyz', 'port': 443, 'type': 'vmess', 'uuid': 'dace6acc-18a1-49b3-9c48-4fdfd127a285', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'servername': 'Moscow.fghgdddgvss.xyz', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Moscow.fghgdddgvss.xyz'}}, 'udp': true}
 
 
 # 代理组

@@ -38,9 +38,9 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': 'Moscow-GetAFreeNode.com', 'server': 'Moscow.fghgdddgvss.xyz', 'port': 443, 'type': 'vmess', 'uuid': '6dfcac05-5917-4e92-86a0-2a4af1c1c6b9', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'servername': 'Moscow.fghgdddgvss.xyz', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Moscow.fghgdddgvss.xyz'}}, 'udp': true}
-- {'name': 'Frankfurt-GetAFreeNode.com', 'server': 'Frankfurt.fghgdddgvss.xyz', 'port': 443, 'type': 'vmess', 'uuid': '6dfcac05-5917-4e92-86a0-2a4af1c1c6b9', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'servername': 'Frankfurt.fghgdddgvss.xyz', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Frankfurt.fghgdddgvss.xyz'}}, 'udp': true}
-- {'name': 'Amsterdam-GetAFreeNode.com', 'server': 'Amsterdam.fghgdddgvss.xyz', 'port': 443, 'type': 'vmess', 'uuid': '6dfcac05-5917-4e92-86a0-2a4af1c1c6b9', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'servername': 'Amsterdam.fghgdddgvss.xyz', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Amsterdam.fghgdddgvss.xyz'}}, 'udp': true}
+- {'name': 'Moscow-GetAFreeNode.com', 'server': 'Moscow.fghgdddgvss.xyz', 'port': 443, 'type': 'vmess', 'uuid': 'e0b374e5-e5a4-41e9-9d0b-60a1b66e34b2', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'servername': 'Moscow.fghgdddgvss.xyz', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Moscow.fghgdddgvss.xyz'}}, 'udp': true}
+- {'name': 'Frankfurt-GetAFreeNode.com', 'server': 'Frankfurt.fghgdddgvss.xyz', 'port': 443, 'type': 'vmess', 'uuid': 'e0b374e5-e5a4-41e9-9d0b-60a1b66e34b2', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'servername': 'Frankfurt.fghgdddgvss.xyz', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Frankfurt.fghgdddgvss.xyz'}}, 'udp': true}
+- {'name': 'Amsterdam-GetAFreeNode.com', 'server': 'Amsterdam.fghgdddgvss.xyz', 'port': 443, 'type': 'vmess', 'uuid': 'e0b374e5-e5a4-41e9-9d0b-60a1b66e34b2', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'servername': 'Amsterdam.fghgdddgvss.xyz', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Amsterdam.fghgdddgvss.xyz'}}, 'udp': true}
 
 
 # 代理组

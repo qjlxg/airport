@@ -39,6 +39,7 @@ geox-url:
 # 代理
 proxies: 
 - {'name': '香港KT|@ripaojiedian', 'server': '172.67.114.125', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'a-wym4ovY4Yw', 'plugin': 'v2ray-plugin', 'plugin-opts': {'mode': 'websocket', 'host': 'a4.wagaga.online', 'path': '', 'tls': true, 'mux': true, 'skip-cert-verify': true}, 'udp': true}
+- {'name': '香港|@ripaojiedian', 'server': '183.240.235.164', 'port': 55908, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
 - {'name': '香港2|@ripaojiedian', 'server': '183.238.202.173', 'port': 51193, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
 - {'name': '香港3|@ripaojiedian', 'server': '112.132.212.19', 'port': 50004, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
 - {'name': '香港4|@ripaojiedian', 'server': '183.232.139.22', 'port': 4027, 'type': 'trojan', 'password': 'gkviEOYc', 'skip-cert-verify': true, 'udp': true}
@@ -51,9 +52,9 @@ proxies:
 - {'name': '日本2|@ripaojiedian', 'server': 'cfcdn3.sanfencdn9.com', 'port': 2052, 'type': 'vmess', 'uuid': 'a91c3fbf-0a68-474b-ac24-bf801db981f6', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/video/Zo98PYfE', 'headers': {'Host': 'kvjqqknzjp6.yofnhkfc.xyz'}}, 'udp': true}
 - {'name': '日本R|@ripaojiedian', 'server': '59.56.77.178', 'port': 15084, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'hGkQ6915tD', 'udp': true}
 - {'name': '韩国|@ripaojiedian', 'server': '124.61.91.66', 'port': 22772, 'type': 'trojan', 'password': 'moist', 'sni': 'trojan.freenods.sbs', 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/?ed=2560', 'headers': {'Host': 'trojan.freenods.sbs'}}, 'udp': true}
-- {'name': '韩国3|@ripaojiedian', 'server': 'speed.renwox.xyz', 'port': 2053, 'type': 'vmess', 'uuid': 'e772a434-063b-4098-833c-9a9ccdc467ff', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'servername': 'qqkyhm.renwox.xyz', 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'qqkyhm.renwox.xyz'}}, 'udp': true}
 - {'name': '新加坡|@ripaojiedian', 'server': 'cfcdn2.sanfencdn9.com', 'port': 2052, 'type': 'vmess', 'uuid': 'a91c3fbf-0a68-474b-ac24-bf801db981f6', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/video/3YKfzGw4', 'headers': {'Host': 'rpmlybgzsg2.yofnhkfc.xyz'}}, 'udp': true}
-- {'name': '新加坡2|@ripaojiedian', 'server': 'dcl1.forlive.live', 'port': 42028, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '8ca2d58e-9a1d-4756-842e-df4fd7a656a7', 'udp': true}
+- {'name': '韩国2|@ripaojiedian', 'server': 'sui.forlive.live', 'port': 32460, 'type': 'vmess', 'uuid': 'aee1713b-54f6-4377-ab22-a2edf8de2d25', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'tms.dingtalk.com'}}, 'udp': true}
+- {'name': '美国|@ripaojiedian', 'server': '38.121.43.248', 'port': 8882, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'kDWvXYZoTBcGkC4', 'udp': true}
 - {'name': '美国3|@ripaojiedian', 'server': 'cfcdn1.sanfencdn9.com', 'port': 8080, 'type': 'vmess', 'uuid': 'a91c3fbf-0a68-474b-ac24-bf801db981f6', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/video/f8ZKTGaGoC/', 'headers': {'Host': 'us5PhAx6xsj.fzbqfrse.xyz'}}, 'udp': true}
 - {'name': '美国4|@ripaojiedian', 'server': '223.113.54.160', 'port': 23223, 'type': 'trojan', 'password': 'gkviEOYc', 'skip-cert-verify': true, 'udp': true}
 - {'name': '美国5|@ripaojiedian', 'server': '183.232.139.22', 'port': 50611, 'type': 'trojan', 'password': 'gkviEOYc', 'skip-cert-verify': true, 'udp': true}
@@ -63,6 +64,7 @@ proxies:
 - {'name': '狮城特殊|@ripaojiedian', 'server': '18.183.130.46', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05', 'udp': true}
 - {'name': 'tg频道:@ripaojiedian', 'server': '94.131.106.19', 'port': 20567, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '4aeyHWCjmoriSFaldEhpnS', 'udp': true}
 - {'name': '越南R|@ripaojiedian', 'server': '59.56.77.178', 'port': 15083, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'hGkQ6915tD', 'udp': true}
+- {'name': '印度|@ripaojiedian', 'server': 'mineral.protocolbuffer.com', 'port': 28333, 'type': 'trojan', 'password': 'B4SSRwua2N8Y5YK8yE0xcDexq3yz73lyDxqzpRZOFIp9ZRYeAXDO3AaTnO4pc0jDaZaDe', 'skip-cert-verify': true, 'udp': true}
 
 
 # 代理组

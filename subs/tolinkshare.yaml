@@ -38,37 +38,38 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '距离下次重置剩余：15 天', 'server': 'free.6vczxw.xyz', 'port': 30016, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '28a23678-ec4f-42cb-aa15-b6adfaf08d50', 'udp': true}
-- {'name': '香港 | 102 | 专线| 1x', 'server': 'free.6vczxw.xyz', 'port': 30017, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '28a23678-ec4f-42cb-aa15-b6adfaf08d50', 'udp': true}
-- {'name': '香港 | 103 | 专线| 1x', 'server': 'free.6vczxw.xyz', 'port': 30018, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '28a23678-ec4f-42cb-aa15-b6adfaf08d50', 'udp': true}
-- {'name': '日本 | 101 | 专线| 1x', 'server': 'free.6vczxw.xyz', 'port': 30010, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '28a23678-ec4f-42cb-aa15-b6adfaf08d50', 'udp': true}
-- {'name': '日本 | 102 | 专线| 1x', 'server': 'free.6vczxw.xyz', 'port': 30011, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '28a23678-ec4f-42cb-aa15-b6adfaf08d50', 'udp': true}
-- {'name': '日本 | 103 | 专线| 1x', 'server': 'free.6vczxw.xyz', 'port': 30012, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '28a23678-ec4f-42cb-aa15-b6adfaf08d50', 'udp': true}
-- {'name': '台湾 | 101 | 专线| 1x', 'server': 'free.6vczxw.xyz', 'port': 30026, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '28a23678-ec4f-42cb-aa15-b6adfaf08d50', 'udp': true}
-- {'name': '台湾 | 102 | 专线| 1x', 'server': 'free.6vczxw.xyz', 'port': 30027, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '28a23678-ec4f-42cb-aa15-b6adfaf08d50', 'udp': true}
-- {'name': '台湾 | 103 | 专线| 1x', 'server': 'free.6vczxw.xyz', 'port': 30028, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '28a23678-ec4f-42cb-aa15-b6adfaf08d50', 'udp': true}
-- {'name': '新加坡 | 101 | 专线| 1x', 'server': 'free.6vczxw.xyz', 'port': 30020, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '28a23678-ec4f-42cb-aa15-b6adfaf08d50', 'udp': true}
-- {'name': '新加坡 | 102 | 专线| 1x', 'server': 'free.6vczxw.xyz', 'port': 30021, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '28a23678-ec4f-42cb-aa15-b6adfaf08d50', 'udp': true}
-- {'name': '新加坡 | 103 | 专线| 1x', 'server': 'free.6vczxw.xyz', 'port': 30022, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '28a23678-ec4f-42cb-aa15-b6adfaf08d50', 'udp': true}
-- {'name': '美国 | 101 | 专线| 1x', 'server': 'free.6vczxw.xyz', 'port': 30030, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '28a23678-ec4f-42cb-aa15-b6adfaf08d50', 'udp': true}
-- {'name': '美国 | 102 | 专线| 1x', 'server': 'free.6vczxw.xyz', 'port': 30031, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '28a23678-ec4f-42cb-aa15-b6adfaf08d50', 'udp': true}
-- {'name': '美国 | 103 | 专线| 1x', 'server': 'free.6vczxw.xyz', 'port': 30032, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '28a23678-ec4f-42cb-aa15-b6adfaf08d50', 'udp': true}
-- {'name': '韩国 | 101 | 负载优化 | 1x', 'server': 'free.6vczxw.xyz', 'port': 30040, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '28a23678-ec4f-42cb-aa15-b6adfaf08d50', 'udp': true}
-- {'name': '菲律宾 | 101 | 负载优化 | 1x', 'server': 'free.6vczxw.xyz', 'port': 30044, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '28a23678-ec4f-42cb-aa15-b6adfaf08d50', 'udp': true}
-- {'name': '印度 | 101 | 负载优化 | 1x', 'server': 'free.6vczxw.xyz', 'port': 30046, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '28a23678-ec4f-42cb-aa15-b6adfaf08d50', 'udp': true}
-- {'name': '澳大利亚 | 101 | 负载优化 | 1x', 'server': 'free.6vczxw.xyz', 'port': 30048, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '28a23678-ec4f-42cb-aa15-b6adfaf08d50', 'udp': true}
-- {'name': '加拿大 | 101 | 负载优化 | 1x', 'server': 'free.6vczxw.xyz', 'port': 30050, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '28a23678-ec4f-42cb-aa15-b6adfaf08d50', 'udp': true}
-- {'name': '英国 | 101 | 负载优化 | 1x', 'server': 'free.6vczxw.xyz', 'port': 30052, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '28a23678-ec4f-42cb-aa15-b6adfaf08d50', 'udp': true}
-- {'name': '德国 | 101 | 负载优化 | 1x', 'server': 'free.6vczxw.xyz', 'port': 30054, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '28a23678-ec4f-42cb-aa15-b6adfaf08d50', 'udp': true}
-- {'name': '俄罗斯 | 101 | 负载优化 | 1x', 'server': 'free.6vczxw.xyz', 'port': 30056, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '28a23678-ec4f-42cb-aa15-b6adfaf08d50', 'udp': true}
-- {'name': '阿根廷 | 101 | 负载优化 | 1x', 'server': 'free.6vczxw.xyz', 'port': 30058, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '28a23678-ec4f-42cb-aa15-b6adfaf08d50', 'udp': true}
-- {'name': '土耳其 | 101 | 负载优化 | 1x', 'server': 'free.6vczxw.xyz', 'port': 30060, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '28a23678-ec4f-42cb-aa15-b6adfaf08d50', 'udp': true}
-- {'name': '乌克兰 | 101 | 负载优化 | 1x', 'server': 'free.6vczxw.xyz', 'port': 30062, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '28a23678-ec4f-42cb-aa15-b6adfaf08d50', 'udp': true}
-- {'name': '越南 | 101 | 负载优化 | 1x', 'server': 'free.6vczxw.xyz', 'port': 30064, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '28a23678-ec4f-42cb-aa15-b6adfaf08d50', 'udp': true}
-- {'name': '巴西 | 101 | 负载优化 | 1x', 'server': 'free.6vczxw.xyz', 'port': 30066, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '28a23678-ec4f-42cb-aa15-b6adfaf08d50', 'udp': true}
-- {'name': '西班牙| 101 | 负载优化 | 1x', 'server': 'free.6vczxw.xyz', 'port': 30068, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '28a23678-ec4f-42cb-aa15-b6adfaf08d50', 'udp': true}
-- {'name': '马来西亚| 101 | 负载优化 | 1x', 'server': 'free.6vczxw.xyz', 'port': 30070, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '28a23678-ec4f-42cb-aa15-b6adfaf08d50', 'udp': true}
-- {'name': '泰国| 101 | 负载优化 | 1x', 'server': 'free.6vczxw.xyz', 'port': 30072, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '28a23678-ec4f-42cb-aa15-b6adfaf08d50', 'udp': true}
+- {'name': '距离下次重置剩余：14 天', 'server': 'free.6vczxw.xyz', 'port': 30016, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '51daf228-ec41-44bf-92bf-5f4b78ec7263', 'udp': true}
+- {'name': '日本01 | 1x JP', 'server': 'free.6vczxw.xyz', 'port': 41111, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '51daf228-ec41-44bf-92bf-5f4b78ec7263', 'udp': true}
+- {'name': '日本02 | 1x JP', 'server': 'free.6vczxw.xyz', 'port': 41113, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '51daf228-ec41-44bf-92bf-5f4b78ec7263', 'udp': true}
+- {'name': '日本03 | 1x JP', 'server': 'free.6vczxw.xyz', 'port': 41115, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '51daf228-ec41-44bf-92bf-5f4b78ec7263', 'udp': true}
+- {'name': '香港01 | 1x HK', 'server': 'free.6vczxw.xyz', 'port': 41141, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '51daf228-ec41-44bf-92bf-5f4b78ec7263', 'udp': true}
+- {'name': '香港02 | 1x HK', 'server': 'free.6vczxw.xyz', 'port': 41143, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '51daf228-ec41-44bf-92bf-5f4b78ec7263', 'udp': true}
+- {'name': '香港03 | 1x HK', 'server': 'free.6vczxw.xyz', 'port': 41145, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '51daf228-ec41-44bf-92bf-5f4b78ec7263', 'udp': true}
+- {'name': '新加坡01 | 1x SG', 'server': 'free.6vczxw.xyz', 'port': 41171, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '51daf228-ec41-44bf-92bf-5f4b78ec7263', 'udp': true}
+- {'name': '新加坡02 | 1x SG', 'server': 'free.6vczxw.xyz', 'port': 41173, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '51daf228-ec41-44bf-92bf-5f4b78ec7263', 'udp': true}
+- {'name': '美国01 | 1x US', 'server': 'free.6vczxw.xyz', 'port': 41211, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '51daf228-ec41-44bf-92bf-5f4b78ec7263', 'udp': true}
+- {'name': '美国02 | 1x US', 'server': 'free.6vczxw.xyz', 'port': 41213, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '51daf228-ec41-44bf-92bf-5f4b78ec7263', 'udp': true}
+- {'name': '美国03 | 1x US', 'server': 'free.6vczxw.xyz', 'port': 41215, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '51daf228-ec41-44bf-92bf-5f4b78ec7263', 'udp': true}
+- {'name': '美国04 | 1x US', 'server': 'free.6vczxw.xyz', 'port': 41217, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '51daf228-ec41-44bf-92bf-5f4b78ec7263', 'udp': true}
+- {'name': '美国05 | 1x US', 'server': 'free.6vczxw.xyz', 'port': 41219, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '51daf228-ec41-44bf-92bf-5f4b78ec7263', 'udp': true}
+- {'name': '美国06 | 1x US', 'server': 'free.6vczxw.xyz', 'port': 41221, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '51daf228-ec41-44bf-92bf-5f4b78ec7263', 'udp': true}
+- {'name': '台湾01 | 1x TW', 'server': 'free.6vczxw.xyz', 'port': 41241, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '51daf228-ec41-44bf-92bf-5f4b78ec7263', 'udp': true}
+- {'name': '台湾02 | 1x TW', 'server': 'free.6vczxw.xyz', 'port': 41243, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '51daf228-ec41-44bf-92bf-5f4b78ec7263', 'udp': true}
+- {'name': '台湾03 | 1x TW', 'server': 'free.6vczxw.xyz', 'port': 41245, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '51daf228-ec41-44bf-92bf-5f4b78ec7263', 'udp': true}
+- {'name': '英国01 | 1x UK', 'server': 'free.6vczxw.xyz', 'port': 41271, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '51daf228-ec41-44bf-92bf-5f4b78ec7263', 'udp': true}
+- {'name': '韩国01 | 1x KR', 'server': 'free.6vczxw.xyz', 'port': 41311, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '51daf228-ec41-44bf-92bf-5f4b78ec7263', 'udp': true}
+- {'name': '菲律宾01 | 1x PH', 'server': 'free.6vczxw.xyz', 'port': 41341, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '51daf228-ec41-44bf-92bf-5f4b78ec7263', 'udp': true}
+- {'name': '印度01 | 1x IN', 'server': 'free.6vczxw.xyz', 'port': 41371, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '51daf228-ec41-44bf-92bf-5f4b78ec7263', 'udp': true}
+- {'name': '澳大利亚01 | 1x AU', 'server': 'free.6vczxw.xyz', 'port': 41411, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '51daf228-ec41-44bf-92bf-5f4b78ec7263', 'udp': true}
+- {'name': '加拿大01 | 1x CA', 'server': 'free.6vczxw.xyz', 'port': 41441, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '51daf228-ec41-44bf-92bf-5f4b78ec7263', 'udp': true}
+- {'name': '德国01 | 1x DE', 'server': 'free.6vczxw.xyz', 'port': 41471, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '51daf228-ec41-44bf-92bf-5f4b78ec7263', 'udp': true}
+- {'name': '俄罗斯01 | 1x RU', 'server': 'free.6vczxw.xyz', 'port': 41511, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '51daf228-ec41-44bf-92bf-5f4b78ec7263', 'udp': true}
+- {'name': '土耳其01 | 1x TR', 'server': 'free.6vczxw.xyz', 'port': 41571, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '51daf228-ec41-44bf-92bf-5f4b78ec7263', 'udp': true}
+- {'name': '越南01 | 1x VN', 'server': 'free.6vczxw.xyz', 'port': 41641, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '51daf228-ec41-44bf-92bf-5f4b78ec7263', 'udp': true}
+- {'name': '巴西01 | 1x BR', 'server': 'free.6vczxw.xyz', 'port': 41671, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '51daf228-ec41-44bf-92bf-5f4b78ec7263', 'udp': true}
+- {'name': '日本【特殊地区直连】', 'server': 'free.6vczxw.xyz', 'port': 30010, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '51daf228-ec41-44bf-92bf-5f4b78ec7263', 'udp': true}
+- {'name': '新加坡【特殊地区直连】', 'server': 'free.6vczxw.xyz', 'port': 30020, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '51daf228-ec41-44bf-92bf-5f4b78ec7263', 'udp': true}
+- {'name': '美国【特殊地区直连】', 'server': 'free.6vczxw.xyz', 'port': 30030, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '51daf228-ec41-44bf-92bf-5f4b78ec7263', 'udp': true}
 
 
 # 代理组

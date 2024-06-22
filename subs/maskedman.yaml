@@ -38,43 +38,20 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': 'YouTube面具人哈乐_中国_119', 'type': 'ss', 'server': 'dc3.forlive.live', 'port': 42099, 'password': '96db545c-48c1-481b-ae2d-62f85b847bde', 'cipher': 'chacha20-ietf-poly1305'}
-- {'name': 'YouTube面具人哈乐_英国_106', 'type': 'ss', 'server': '212.102.53.194', 'port': 443, 'password': 'shadowsocks', 'cipher': 'aes-128-gcm'}
-- {'name': 'YouTube面具人哈乐_美国_117', 'type': 'ss', 'server': '4.forlive.live', 'port': 61001, 'password': '48e06b91-0218-405f-a5f8-f2d8a1fc482d', 'cipher': 'chacha20-ietf-poly1305'}
-- {'name': 'YouTube面具人哈乐_波兰_44', 'type': 'ss', 'server': '51.77.53.200', 'port': 5601, 'password': 'Y6R9pAtvxxzmGC', 'cipher': 'aes-256-gcm'}
-- {'name': 'YouTube面具人哈乐_中国_29', 'type': 'ss', 'server': '04.forlive.live', 'port': 22224, 'password': '6926dbc2-3e6c-41dd-91d3-80307a3b77f9', 'cipher': 'aes-128-gcm'}
-- {'name': 'YouTube面具人哈乐_波兰_18', 'type': 'ss', 'server': '51.77.53.200', 'port': 5500, 'password': 'KixLvKzwjekG00rm', 'cipher': 'aes-256-gcm'}
-- {'name': 'YouTube面具人哈乐_美国_64', 'type': 'ss', 'server': '5.forlive.live', 'port': 60033, 'password': '3f384bca-fc49-4d0f-b34c-c0f661bdd3ef', 'cipher': 'chacha20-ietf-poly1305'}
-- {'name': 'YouTube面具人哈乐_荷兰_51', 'type': 'ss', 'server': '193.29.139.251', 'port': 8080, 'password': 'oZIoA69Q8yhcQV8ka3Pa3A', 'cipher': 'chacha20-ietf-poly1305'}
-- {'name': 'YouTube面具人哈乐_波兰_52', 'type': 'ss', 'server': '51.77.53.200', 'port': 8882, 'password': 'kDWvXYZoTBcGkC4', 'cipher': 'aes-256-gcm'}
-- {'name': 'YouTube面具人哈乐_波兰_84', 'type': 'ss', 'server': '51.77.53.200', 'port': 6379, 'password': 'zDNVedRFPQexG9v', 'cipher': 'aes-256-gcm'}
-- {'name': 'YouTube面具人哈乐_波兰_49', 'type': 'ss', 'server': '51.77.53.200', 'port': 6697, 'password': 'TEzjfAYq2IjtuoS', 'cipher': 'aes-256-gcm'}
-- {'name': 'YouTube面具人哈乐_波兰_79', 'type': 'ss', 'server': '51.77.53.200', 'port': 8119, 'password': 'cdBIDV42DCwnfIN', 'cipher': 'aes-256-gcm'}
-- {'name': 'YouTube面具人哈乐_美国_34', 'type': 'ss', 'server': '38.121.43.248', 'port': 8882, 'password': 'kDWvXYZoTBcGkC4', 'cipher': 'aes-256-gcm'}
-- {'name': 'YouTube面具人哈乐_俄罗斯联邦_89', 'type': 'ss', 'server': '31.129.22.73', 'port': 1080, 'password': '3pURuTUf-lFgg5qWg8euFA', 'cipher': 'chacha20-ietf-poly1305'}
-- {'name': 'YouTube面具人哈乐_波兰_65', 'type': 'ss', 'server': '51.77.53.200', 'port': 5000, 'password': 'Y6R9pAtvxxzmGC', 'cipher': 'aes-256-gcm'}
-- {'name': 'YouTube面具人哈乐_波兰_90', 'type': 'ss', 'server': '51.77.53.200', 'port': 7306, 'password': 'FoOiGlkAA9yPEGP', 'cipher': 'aes-256-gcm'}
-- {'name': 'YouTube面具人哈乐_波兰_92', 'type': 'ss', 'server': '51.77.53.200', 'port': 8118, 'password': 'cdBIDV42DCwnfIN', 'cipher': 'aes-256-gcm'}
-- {'name': 'YouTube面具人哈乐_英国_58', 'type': 'ss', 'server': '176.97.78.76', 'port': 1080, 'password': '3pURuTUf-lFgg5qWg8euFA', 'cipher': 'chacha20-ietf-poly1305'}
-- {'name': 'YouTube面具人哈乐_中国_102', 'type': 'trojan', 'server': 'dc0.forlive.live', 'port': 41024, 'udp': true, 'password': '0041a6ee-edb0-4763-a483-5e617e704be3', 'sni': 'ssl.sbgfw.info', 'skip-cert-verify': true, 'network': 'tcp'}
-- {'name': 'YouTube面具人哈乐_英国_21', 'type': 'ss', 'server': '89.185.84.185', 'port': 12575, 'password': 'pUJMrUkY8fpVI2b18T5sRi', 'cipher': 'chacha20-ietf-poly1305'}
-- {'name': 'YouTube面具人哈乐_爱尔兰_41', 'type': 'ss', 'server': '13.74.30.44', 'port': 36680, 'password': 'of9UbKeXjLEpbQ4n7tZjGQ', 'cipher': 'chacha20-ietf-poly1305'}
-- {'name': 'YouTube面具人哈乐_挪威_31', 'type': 'ss', 'server': '51.13.182.130', 'port': 48562, 'password': 'eHpq4cgXzmWTkI2xKN3w54', 'cipher': 'chacha20-ietf-poly1305'}
-- {'name': 'YouTube面具人哈乐_爱尔兰_39', 'type': 'ss', 'server': '13.79.72.88', 'port': 21190, 'password': 'yoOT6tXP5LdMyyU5IQDcGn', 'cipher': 'chacha20-ietf-poly1305'}
-- {'name': 'YouTube面具人哈乐_中国_15', 'type': 'ss', 'server': '03.forlive.live', 'port': 22233, 'password': 'a4343641-fa7f-4084-bfb3-b575addee676', 'cipher': 'aes-128-gcm'}
-- {'name': 'YouTube面具人哈乐_波兰_66', 'type': 'ss', 'server': '51.77.53.200', 'port': 2376, 'password': 'faBAoD54k87UJG7', 'cipher': 'aes-256-gcm'}
-- {'name': 'YouTube面具人哈乐_中国_19', 'type': 'ss', 'server': '03.forlive.live', 'port': 22224, 'password': 'd3c162e8-6364-472a-913f-f13215c4ec23', 'cipher': 'aes-128-gcm'}
-- {'name': 'YouTube面具人哈乐_俄罗斯联邦_16', 'type': 'ss', 'server': '77.83.246.55', 'port': 1080, 'password': '3pURuTUf-lFgg5qWg8euFA', 'cipher': 'chacha20-ietf-poly1305'}
-- {'name': 'YouTube面具人哈乐_英国_107', 'type': 'ss', 'server': '212.102.53.80', 'port': 443, 'password': 'shadowsocks', 'cipher': 'aes-128-gcm'}
-- {'name': 'YouTube面具人哈乐_荷兰_46', 'type': 'ss', 'server': '193.29.139.202', 'port': 8080, 'password': 'oZIoA69Q8yhcQV8ka3Pa3A', 'cipher': 'chacha20-ietf-poly1305'}
-- {'name': 'YouTube面具人哈乐_美国_87', 'type': 'vmess', 'server': 'baobaojichang.bbjc.xyz', 'port': 8080, 'cipher': 'auto', 'uuid': '08031845-58d2-404f-b4fe-82fe02bab5bd', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '?ed=2048', 'headers': {'host': 'hanguo.mojc.xyz'}}}
-- {'name': 'YouTube面具人哈乐_中国_14', 'type': 'ss', 'server': '03.forlive.live', 'port': 22291, 'password': '7844816d-dea9-4036-a735-95912b2695dd', 'cipher': 'aes-128-gcm'}
-- {'name': 'YouTube面具人哈乐_中国_3', 'type': 'ss', 'server': '03.forlive.live', 'port': 22302, 'password': '7abe5d87-6cc8-4b4b-8dd6-39186b2c7afe', 'cipher': 'aes-128-gcm'}
-- {'name': 'YouTube面具人哈乐_美国_11', 'type': 'ss', 'server': '172.232.37.114', 'port': 80, 'password': 'Zg9HJ8NpUH6c2IwEKY0cwg', 'cipher': 'chacha20-ietf-poly1305'}
-- {'name': 'YouTube面具人哈乐_英国_13', 'type': 'ss', 'server': '212.102.53.78', 'port': 443, 'password': 'shadowsocks', 'cipher': 'aes-128-gcm'}
-- {'name': 'YouTube面具人哈乐_新加坡_10', 'type': 'trojan', 'server': 'sg08.421421.xyz', 'port': 20230, 'udp': true, 'password': '0f408453-2589-4fc2-bf9d-22e0cef8b8d2', 'sni': '421421.xyz', 'skip-cert-verify': true, 'network': 'tcp'}
-- {'name': 'YouTube面具人哈乐_中国_4', 'type': 'ss', 'server': '04.forlive.live', 'port': 22302, 'password': '076205d7-8b71-4c58-b51f-ddc0a2d2c695', 'cipher': 'aes-128-gcm'}
-- {'name': 'YouTube面具人哈乐_中国_105', 'type': 'trojan', 'server': 'dc0.forlive.live', 'port': 41010, 'udp': true, 'password': 'c4ef4a73-a90b-4f17-ab5c-d11abd6c60f6', 'sni': 'ssl.sbgfw.info', 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': 'YouTube面具人哈乐_爱尔兰_1', 'type': 'ss', 'server': '13.79.72.88', 'port': 21190, 'password': 'yoOT6tXP5LdMyyU5IQDcGn', 'cipher': 'chacha20-ietf-poly1305'}
+- {'name': 'YouTube面具人哈乐_香港_2', 'type': 'trojan', 'server': 'hk2.mmmmmmmmmm.cfd', 'port': 28069, 'udp': true, 'password': '8391af38-2bc3-4514-ad16-44b5fcc5cbcf', 'sni': 'apple.com', 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': 'YouTube面具人哈乐_中国_4', 'type': 'ss', 'server': '03.forlive.live', 'port': 22224, 'password': 'd3c162e8-6364-472a-913f-f13215c4ec23', 'cipher': 'aes-128-gcm'}
+- {'name': 'YouTube面具人哈乐_中国_5', 'type': 'ss', 'server': '03.forlive.live', 'port': 22291, 'password': '7844816d-dea9-4036-a735-95912b2695dd', 'cipher': 'aes-128-gcm'}
+- {'name': 'YouTube面具人哈乐_中国_6', 'type': 'ss', 'server': '04.forlive.live', 'port': 22224, 'password': '6926dbc2-3e6c-41dd-91d3-80307a3b77f9', 'cipher': 'aes-128-gcm'}
+- {'name': 'YouTube面具人哈乐_香港_7', 'type': 'vmess', 'server': 'hk1.mmmmmmmmmm.cfd', 'port': 34180, 'cipher': 'auto', 'uuid': '8391af38-2bc3-4514-ad16-44b5fcc5cbcf', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': 'YouTube面具人哈乐_美国_8', 'type': 'trojan', 'server': 'fuck6.mmmmmmmmmm.cfd', 'port': 48057, 'udp': true, 'password': '8391af38-2bc3-4514-ad16-44b5fcc5cbcf', 'sni': 'apple.com', 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': 'YouTube面具人哈乐_爱尔兰_9', 'type': 'ss', 'server': '13.74.30.44', 'port': 36680, 'password': 'of9UbKeXjLEpbQ4n7tZjGQ', 'cipher': 'chacha20-ietf-poly1305'}
+- {'name': 'YouTube面具人哈乐_挪威_10', 'type': 'ss', 'server': '51.13.182.130', 'port': 48562, 'password': 'eHpq4cgXzmWTkI2xKN3w54', 'cipher': 'chacha20-ietf-poly1305'}
+- {'name': 'YouTube面具人哈乐_美国_13', 'type': 'ss', 'server': '172.232.37.114', 'port': 80, 'password': 'Zg9HJ8NpUH6c2IwEKY0cwg', 'cipher': 'chacha20-ietf-poly1305'}
+- {'name': 'YouTube面具人哈乐_美国_16', 'type': 'vmess', 'server': 'baobaojichang.bbjc.xyz', 'port': 8080, 'cipher': 'auto', 'uuid': '08031845-58d2-404f-b4fe-82fe02bab5bd', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '?ed=2048', 'headers': {'host': 'hanguo.mojc.xyz'}}}
+- {'name': 'YouTube面具人哈乐_日本_20', 'type': 'trojan', 'server': 'jp7.mmmmmmmmmm.cfd', 'port': 53638, 'udp': true, 'password': '8391af38-2bc3-4514-ad16-44b5fcc5cbcf', 'sni': 'apple.com', 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': 'YouTube面具人哈乐_新加坡_21', 'type': 'vmess', 'server': 'sg5.mmmmmmmmmm.cfd', 'port': 54126, 'cipher': 'auto', 'uuid': '8391af38-2bc3-4514-ad16-44b5fcc5cbcf', 'alterId': 0, 'tls': false, 'skip-cert-verify': true, 'network': 'tcp'}
+- {'name': 'YouTube面具人哈乐_新加坡_25', 'type': 'ss', 'server': 'sg3.mmmmmmmmmm.cfd', 'port': 64578, 'password': '8391af38-2bc3-4514-ad16-44b5fcc5cbcf', 'cipher': 'chacha20-ietf-poly1305'}
 
 
 # 代理组

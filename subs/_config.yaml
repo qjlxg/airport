@@ -270,3 +270,10 @@ data:
     urls:
       - https://raw.githubusercontent.com/go4sharing/sub/main/sub.yaml
     output: subs/go4sharing.yaml
+  - id: m3hdio1
+    type: http
+    source: v2ray
+    target: clash
+    urls:
+      - https://raw.githubusercontent.com/m3hdio1/v2ray_sub/main/v2ray_sub.txt
+    output: subs/m3hdio1.yaml

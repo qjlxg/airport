@@ -38,25 +38,20 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '@v2ray_configs_pool', 'server': 'mci.mosi.mosipro.ml', 'port': 443, 'type': 'vmess', 'uuid': '2b2b394a-1e31-4093-a674-c6c1475503ea', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'Dusseldorf.kotick.site', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Dusseldorf.kotick.site'}}}
-- {'name': '@v2ray_configs_pool 2', 'server': '3.72.151.205', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
-- {'name': '@v2ray_configs_pool 3', 'server': '3.131.8.143', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk'}
-- {'name': '@v2ray_configs_pool 4', 'server': '108.128.79.243', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
-- {'name': '@v2ray_configs_pool 5', 'server': '51.158.160.96', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'H9DoAlzg78h0STO2Ju1wnL'}
-- {'name': '@v2ray_configs_pool 6', 'server': '138.68.182.23', 'port': 2248, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'WZunhS449FOHJ4WyMKrTRk'}
-- {'name': '@v2ray_configs_pool 7', 'server': '188.114.97.79', 'port': 443, 'type': 'vmess', 'uuid': 'edbb1059-1633-4271-b66e-ed4fba47a1bf', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'linde06.indiavideo.sbs', 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'linde06.indiavideo.sbs'}}}
-- {'name': '@v2ray_configs_pool 8', 'server': '154.47.21.54', 'port': 8099, 'type': 'vmess', 'uuid': 'fa1897db-1925-4c86-a495-939a959af900', 'alterId': 0, 'cipher': 'auto', 'tls': false}
-- {'name': '@v2ray_configs_pool 9', 'server': '154.47.21.56', 'port': 8099, 'type': 'vmess', 'uuid': 'fa1897db-1925-4c86-a495-939a959af900', 'alterId': 0, 'cipher': 'auto', 'tls': false}
-- {'name': '@v2ray_configs_pool 10', 'server': '154.47.21.52', 'port': 8099, 'type': 'vmess', 'uuid': 'fa1897db-1925-4c86-a495-939a959af900', 'alterId': 0, 'cipher': 'auto', 'tls': false}
-- {'name': '@v2ray_configs_pool 11', 'server': '154.47.21.27', 'port': 8099, 'type': 'vmess', 'uuid': 'fa1897db-1925-4c86-a495-939a959af900', 'alterId': 0, 'cipher': 'auto', 'tls': false}
-- {'name': '@v2ray_configs_pool 12', 'server': '23.162.200.28', 'port': 3389, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC'}
-- {'name': '@v2ray_configs_pool 13', 'server': 'series-a1.samanehha.co', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'W74XFALLLuw6m5IA'}
-- {'name': '@v2ray_configs_pool 14', 'server': 'series-a2.varzesh360.co', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'mps3FwmDjLrWaOVg'}
-- {'name': '@v2ray_configs_pool 15', 'server': 'series-a2-mec.samanehha.co', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'u17T3BvpYaaiuW2c'}
-- {'name': '@v2ray_configs_pool 16', 'server': '45.139.24.63', 'port': 57456, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '3fbeb668f48414f6'}
-- {'name': '@v2ray_configs_pool 17', 'server': '31.172.67.242', 'port': 43118, 'type': 'trojan', 'password': 'ypDt8RkT7J', 'sni': 'tpmwh.phooeyunfold.com'}
-- {'name': '@v2ray_configs_pool 20', 'server': '45.33.30.8', 'port': 18789, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '0Nyr892QsBe9ZeZj7lAwkS'}
-- {'name': '@v2ray_configs_pool 21', 'server': 'moscow.telegavpn.com', 'port': 60422, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'z1QT1K9v4dtirHzUEqP47c'}
+- {'name': '@v2ray_configs_pool', 'server': '18.198.152.120', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '@v2ray_configs_pool 2', 'server': '54.228.39.167', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '@v2ray_configs_pool 3', 'server': '13.37.14.103', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '@v2ray_configs_pool 4', 'server': '162.251.62.115', 'port': 22324, 'type': 'vmess', 'uuid': '04621bae-ab36-11ec-b909-0242ac120002', 'alterId': 0, 'cipher': 'auto', 'tls': false}
+- {'name': '@v2ray_configs_pool 5', 'server': '64.226.98.217', 'port': 40678, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'M1w76VS6Na1FjA9srvrK1T'}
+- {'name': '@v2ray_configs_pool 6', 'server': 'series-a1.samanehha.co', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'W74XFALLLuw6m5IA'}
+- {'name': '@v2ray_configs_pool 7', 'server': 'glweidf.cfd', 'port': 443, 'type': 'vmess', 'uuid': '1052f24e-7b09-45eb-b0c5-d858eb124192', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'glweidf.cfd', 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'glweidf.cfd'}}}
+- {'name': '@v2ray_configs_pool 8', 'server': 'zula.ir', 'port': 443, 'type': 'vmess', 'uuid': '950db6aa-4926-4616-816e-ec0312dcb87b', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'jahfkjha.cfd', 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'jahfkjha.cfd'}}}
+- {'name': '@v2ray_configs_pool 9', 'server': '31.172.67.242', 'port': 43118, 'type': 'trojan', 'password': 'ypDt8RkT7J', 'sni': 'tpmwh.phooeyunfold.com'}
+- {'name': '@v2ray_configs_pool 10', 'server': 'obdii.cfd', 'port': 443, 'type': 'vmess', 'uuid': '05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'obdii.cfd', 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'obdii.cfd'}}}
+- {'name': '@v2ray_configs_pool 11', 'server': '[2a12:5940:a5d5::2]', 'port': 1080, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'XdnQHhaBURukrpf_lmKlgA'}
+- {'name': '@v2ray_configs_pool 12', 'server': 'us.eaxeg.be', 'port': 443, 'type': 'trojan', 'password': 'ab602e02-624b-44f0-a51b-25ed53f70048', 'sni': 'us.eaxeg.be', 'network': 'ws', 'ws-opts': {'path': '/q7ugFVneYzh1SQ9N70H4Y2aW', 'headers': {'Host': 'us.eaxeg.be'}}}
+- {'name': '@v2ray_configs_pool 13', 'server': 'us.eaxeg.be', 'port': 80, 'type': 'vmess', 'uuid': 'ab602e02-624b-44f0-a51b-25ed53f70048', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/XC3c53DiSQ9N70H4Y2aW', 'headers': {'Host': 'us.eaxeg.be'}}}
+- {'name': '@v2ray_configs_pool 14', 'server': 'mci.mosi.mosipro.ml', 'port': 443, 'type': 'vmess', 'uuid': 'baf37fc2-fcad-422c-a0bf-63dcce23fdb3', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'Dusseldorf.kotick.site', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Dusseldorf.kotick.site'}}}
 
 
 # 代理组

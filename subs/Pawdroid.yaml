@@ -38,12 +38,16 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '加拿大 安大略省多伦多BunnyCDN节点', 'server': '38.111.114.133', 'port': 5000, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC'}
-- {'name': '广东省广州市 移动', 'server': '120.232.153.71', 'port': 54965, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
-- {'name': '美国 CloudFlare节点', 'server': '104.21.47.176', 'port': 443, 'type': 'trojan', 'password': '52701795-3c3b-46b4-b7cf-c5978b3a4cf2', 'sni': 'hdfyc1.achaemenidempireofpersia.uk'}
-- {'name': '俄罗斯 V2CROSS.COM', 'server': 'sv1.ahsg.top', 'port': 5060, 'type': 'trojan', 'password': 'eLpjAXg6pM'}
-- {'name': '美国 CloudFlare节点 2', 'server': '104.19.47.4', 'port': 8080, 'type': 'vmess', 'uuid': 'b551aa22-22af-11ee-b8d8-f23c932eb68d', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/?ed=2048', 'headers': {'Host': 'oiictw.yydsii.com'}}}
-- {'name': '广东省广州市 移动 2', 'server': '120.232.153.71', 'port': 35972, 'type': 'vmess', 'uuid': '770ee730-2450-4e3c-a6c6-3932bd32afbd', 'alterId': 64, 'cipher': 'auto', 'tls': false}
+- {'name': '广东省广州市 移动', 'server': '120.232.153.27', 'port': 50582, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
+- {'name': '广东省广州市 移动 2', 'server': '183.236.51.23', 'port': 51707, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
+- {'name': '广东省广州市 移动 3', 'server': '120.232.153.27', 'port': 34002, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
+- {'name': '江苏省徐州市 移动', 'server': '223.113.54.154', 'port': 27119, 'type': 'trojan', 'password': 'RmdXQRXg', 'skip-cert-verify': true}
+- {'name': '广东省 移动', 'server': '183.238.202.173', 'port': 51193, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
+- {'name': '韩国 V2CROSS.COM', 'server': '116.47.10.236', 'port': 27335, 'type': 'trojan', 'password': 'moist', 'sni': 'trojan.freenods.sbs', 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'trojan.freenods.sbs'}}}
+- {'name': '美国 华盛顿Cogent通信公司', 'server': '38.75.137.139', 'port': 5004, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'g5MeD6Ft3CWlJId'}
+- {'name': '美国 华盛顿Cogent通信公司 2', 'server': '38.75.137.139', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'pKEW8JPByTVTLtM'}
+- {'name': '美国 华盛顿Cogent通信公司 3', 'server': '38.75.137.139', 'port': 9090, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC'}
+- {'name': '俄罗斯 V2CROSS.COM', 'server': '91.231.182.108', 'port': 40106, 'type': 'ss', 'cipher': '2022-blake3-aes-256-gcm', 'password': 'FjmwFh9XwM48l66cqNHp3abxgM8BOQ23oWfgEmAiVqk=:hdLn53abXOa2btnIpdZO4Vtycj1YmdCp2Lml2TTOoXQ='}
 
 
 # 代理组

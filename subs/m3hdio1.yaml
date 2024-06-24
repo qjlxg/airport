@@ -38,12 +38,15 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '@v2ray_configs_pool', 'server': 'zula.ir', 'port': 443, 'type': 'vmess', 'uuid': '950db6aa-4926-4616-816e-ec0312dcb87b', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'jahfkjha.cfd', 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'jahfkjha.cfd'}}}
-- {'name': '@v2ray_configs_pool 2', 'server': 'mci.mosi.mosipro.ml', 'port': 443, 'type': 'vmess', 'uuid': '6db6ab79-eb6b-4359-90e0-a8ae61edadcd', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'Dusseldorf.kotick.site', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Dusseldorf.kotick.site'}}}
-- {'name': '@v2ray_configs_pool 3', 'server': '52.209.17.83', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
-- {'name': '@v2ray_configs_pool 4', 'server': '3.10.113.41', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
-- {'name': '@v2ray_configs_pool 5', 'server': '18.193.167.140', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk'}
-- {'name': '@v2ray_configs_pool 6', 'server': '3.254.245.152', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '@v2ray_configs_pool', 'server': '31.172.67.242', 'port': 43118, 'type': 'trojan', 'password': 'ypDt8RkT7J', 'sni': 'tpmwh.phooeyunfold.com'}
+- {'name': '@v2ray_configs_pool 2', 'server': 'amini3.ddns.net', 'port': 2096, 'type': 'trojan', 'password': 'fTsXZq1P75', 'sni': 'doiDD.MOoKoMeilz.homes', 'network': 'ws', 'ws-opts': {'path': '/sawlwlq', 'headers': {'Host': 'doiDD.MOoKoMeilz.homes'}}}
+- {'name': '@v2ray_configs_pool 3', 'server': '167.99.216.236', 'port': 50250, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'NASmBVcI8Y2dZP6aAGKyR8'}
+- {'name': '@v2ray_configs_pool 4', 'server': 'series-a2-mec.varzesh360.co', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'u17T3BvpYaaiuW2c'}
+- {'name': '@v2ray_configs_pool 5', 'server': '45.158.171.131', 'port': 8080, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'a8bt9fY0QsLS6eLnXUe0Ym'}
+- {'name': '@v2ray_configs_pool 6', 'server': '165.22.238.239', 'port': 44386, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'Q0fjtpRv6paRWjLwogW038'}
+- {'name': '@v2ray_configs_pool 7', 'server': '205.234.231.148', 'port': 35000, 'type': 'vmess', 'uuid': '260877c8-e970-44b5-97fe-9ef0052158d5', 'alterId': 0, 'cipher': 'auto', 'tls': false}
+- {'name': '@v2ray_configs_pool 9', 'server': '170.178.179.186', 'port': 30000, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': true, 'servername': 'www.15314695.xyz', 'network': 'ws', 'ws-opts': {'path': '/path/191019072927'}}
+- {'name': '@v2ray_configs_pool 10', 'server': '64.226.98.217', 'port': 40678, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '85v40EfntWUWRUYDS7BNAd'}
 
 
 # 代理组

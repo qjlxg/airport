@@ -38,24 +38,27 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '@v2ray_configs_pool', 'server': 'moscow.telegavpn.com', 'port': 60422, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '6wTTtyrRYpO7OpgugoHn2i'}
-- {'name': '@v2ray_configs_pool 2', 'server': '167.99.216.236', 'port': 50250, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'KUyPdxvBtuK4MoUyVvSlrO'}
-- {'name': '@v2ray_configs_pool 3', 'server': '38.11.60.89', 'port': 37000, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/path/191019072927', 'headers': {'Host': 'www.72795025.xyz'}}}
-- {'name': '@v2ray_configs_pool 4', 'server': 'mci.mosi.mosipro.ml', 'port': 443, 'type': 'vmess', 'uuid': 'c5eb8475-2fbd-4451-82ad-eb67864fcfe7', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'Dusseldorf.kotick.site', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Dusseldorf.kotick.site'}}}
-- {'name': '@v2ray_configs_pool 5', 'server': '45.158.171.129', 'port': 8080, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'a8bt9fY0QsLS6eLnXUe0Ym'}
-- {'name': '@v2ray_configs_pool 6', 'server': '23.162.200.182', 'port': 22324, 'type': 'vmess', 'uuid': '04621bae-ab36-11ec-b909-0242ac120002', 'alterId': 0, 'cipher': 'auto', 'tls': false}
-- {'name': '@v2ray_configs_pool 7', 'server': '165.22.238.239', 'port': 44386, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'ei0eNCnXiJWmisDA7bgWqR'}
-- {'name': '@v2ray_configs_pool 8', 'server': '64.226.98.217', 'port': 40678, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'PQBqwGHS3rXwOhcpYWnpCb'}
-- {'name': '@v2ray_configs_pool 10', 'server': '104.17.197.31', 'port': 443, 'type': 'vmess', 'uuid': '441da342-ce90-441e-bff9-d2ceb55e68ca', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'quiet-moon-132a.xetag42714.workers.dev', 'network': 'ws', 'ws-opts': {'path': '/ivideos.sbs/linkws', 'headers': {'Host': 'quiet-moon-132a.xetag42714.workers.dev'}}}
-- {'name': '@v2ray_configs_pool 11', 'server': '138.68.182.23', 'port': 2248, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'hqjmPxw7Y5k6a5VZ8ectlA'}
-- {'name': '@v2ray_configs_pool 12', 'server': '104.19.21.63', 'port': 2086, 'type': 'vmess', 'uuid': 'e9e3cc13-db48-4cc1-8c24-7626439a5339', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'ip11.freegradely.xyz'}}}
-- {'name': '@v2ray_configs_pool 14', 'server': '45.33.30.8', 'port': 18789, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'lRv15QhXrdQzigYT7RdulH'}
-- {'name': '@v2ray_configs_pool 16', 'server': '207.148.10.248', 'port': 47918, 'type': 'vmess', 'uuid': '232aeb1e-7d67-4a91-9379-4da1f4917691', 'alterId': 0, 'cipher': 'auto', 'tls': false}
-- {'name': '@v2ray_configs_pool 17', 'server': '144.202.59.26', 'port': 57061, 'type': 'vmess', 'uuid': 'e90a1709-fd94-44d3-f809-8849837cc2d3', 'alterId': 0, 'cipher': 'auto', 'tls': false}
-- {'name': '@v2ray_configs_pool 18', 'server': 'zula.ir', 'port': 443, 'type': 'vmess', 'uuid': '950db6aa-4926-4616-816e-ec0312dcb87b', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'jahfkjha.cfd', 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'jahfkjha.cfd'}}}
-- {'name': '@v2ray_configs_pool 19', 'server': 'outline.de.outlinekeys.net', 'port': 20888, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '60LQD0pz12TED72dzaf1Ow'}
-- {'name': '@v2ray_configs_pool 21', 'server': '154.47.21.56', 'port': 8099, 'type': 'vmess', 'uuid': 'fa1897db-1925-4c86-a495-939a959af900', 'alterId': 0, 'cipher': 'auto', 'tls': false}
-- {'name': '@v2ray_configs_pool 22', 'server': '51.158.160.96', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'H9DoAlzg78h0STO2Ju1wnL'}
+- {'name': '@v2ray_configs_pool', 'server': '138.68.182.23', 'port': 2248, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'o1raSyZFjQDX5ckEyr5jct'}
+- {'name': '@v2ray_configs_pool 2', 'server': '52.59.5.98', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '@v2ray_configs_pool 3', 'server': '13.38.154.30', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '@v2ray_configs_pool 4', 'server': '138.2.90.147', 'port': 23006, 'type': 'vmess', 'uuid': '5eea50d8-a816-48c7-bc35-0fde39e277b5', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/'}}
+- {'name': '@v2ray_configs_pool 5', 'server': '52.212.253.250', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '@v2ray_configs_pool 6', 'server': '92.243.27.51', 'port': 9802, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'SUrD4FzlDyz0DPutW22LPV'}
+- {'name': '@v2ray_configs_pool 7', 'server': '855.outline-vpn.cloud', 'port': 443, 'type': 'vmess', 'uuid': 'f584de15-2034-4170-a723-f48c2bae5e0f', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'afrhms16v.bestxray.buzz', 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'afrhms16v.bestxray.buzz'}}}
+- {'name': '@v2ray_configs_pool 8', 'server': '188.114.97.3', 'port': 443, 'type': 'vmess', 'uuid': 'f584de15-2034-4170-a723-f48c2bae5e0f', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'afrhms16v.bestxray.buzz', 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'afrhms16v.bestxray.buzz'}}}
+- {'name': '@v2ray_configs_pool 9', 'server': 'w3.org', 'port': 443, 'type': 'vmess', 'uuid': 'dfbbc8de-8a4f-407d-8069-6de38d83c4e1', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'w3.org', 'network': 'grpc', 'grpc-opts': {'grpc-service-name': 'WgCmp8p80KDzo64uHE'}}
+- {'name': '@v2ray_configs_pool 10', 'server': '[2a01:4f8:1c1b:1efd::1]', 'port': 443, 'type': 'vmess', 'uuid': '6d9d8434-2320-4281-b509-797ed57434e9', 'alterId': 0, 'cipher': 'auto', 'tls': false}
+- {'name': '@v2ray_configs_pool 11', 'server': 'p1.v2raybrasil.cloud', 'port': 2052, 'type': 'vmess', 'uuid': '60bcbd52-0c88-4da3-aee2-cc1f9d5ca224', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'ybr.redbullplus.xyz'}}}
+- {'name': '@v2ray_configs_pool 12', 'server': '104.26.0.95', 'port': 443, 'type': 'vmess', 'uuid': '05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'obdii.cfd', 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'obdii.cfd'}}}
+- {'name': '@v2ray_configs_pool 13', 'server': 'mci.mosi.mosipro.ml', 'port': 443, 'type': 'vmess', 'uuid': '107a3b92-a1bd-49dc-bf08-16ff865962cd', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'Dusseldorf.kotick.site', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Dusseldorf.kotick.site'}}}
+- {'name': '@v2ray_configs_pool 14', 'server': '172.67.175.56', 'port': 443, 'type': 'vmess', 'uuid': '05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'obdii.cfd', 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'obdii.cfd'}}}
+- {'name': '@v2ray_configs_pool 15', 'server': '3.229.198.200', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '@v2ray_configs_pool 16', 'server': '172.64.32.154', 'port': 2087, 'type': 'vmess', 'uuid': '2a3263e2-891c-4446-b474-a8c63acb6e25', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': '', 'network': 'grpc', 'grpc-opts': {'grpc-service-name': '/'}}
+- {'name': '@v2ray_configs_pool 18', 'server': '45.158.171.141', 'port': 8080, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'a8bt9fY0QsLS6eLnXUe0Ym'}
+- {'name': '@v2ray_configs_pool 19', 'server': '69.50.93.90', 'port': 443, 'type': 'vmess', 'uuid': '03fcc618-b93d-6796-6aed-8a38c975d581', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/linkvws'}}
+- {'name': '@v2ray_configs_pool 20', 'server': '193.151.136.124', 'port': 58828, 'type': 'vmess', 'uuid': 'f4f34875-babc-424b-b254-b7e5704bbc79', 'alterId': 0, 'cipher': 'auto', 'tls': false}
+- {'name': '@v2ray_configs_pool 21', 'server': '45.33.30.8', 'port': 18789, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'wYvyMDkAsN4DBEMTF07xzK'}
+- {'name': '@v2ray_configs_pool 22', 'server': 'free-big.themars.top', 'port': 50106, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '155be64c-75ec-4a44-a1a3-344b10676ef6'}
 
 
 # 代理组

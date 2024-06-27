@@ -38,11 +38,11 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': 'Wien-GetAFreeNode.com', 'server': 'Wien.gafnode.sbs', 'port': 443, 'type': 'vmess', 'uuid': 'f400ffac-f6dc-4434-91f4-c414074129b0', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'Wien.gafnode.sbs', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Wien.gafnode.sbs'}}}
-- {'name': 'LosAngeles-GetAFreeNode.com', 'server': 'LosAngeles.serbia.cc', 'port': 443, 'type': 'vmess', 'uuid': 'f400ffac-f6dc-4434-91f4-c414074129b0', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'LosAngeles.serbia.cc', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'LosAngeles.serbia.cc'}}}
-- {'name': 'Frankfurt-GetAFreeNode.com', 'server': 'Frankfurt.speedgermany.xyz', 'port': 443, 'type': 'vmess', 'uuid': 'f400ffac-f6dc-4434-91f4-c414074129b0', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'Frankfurt.speedgermany.xyz', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Frankfurt.speedgermany.xyz'}}}
-- {'name': 'Moscow-GetAFreeNode.com', 'server': 'Moscow.thisisfrance.xyz', 'port': 443, 'type': 'vmess', 'uuid': 'f400ffac-f6dc-4434-91f4-c414074129b0', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'Moscow.thisisfrance.xyz', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Moscow.thisisfrance.xyz'}}}
-- {'name': 'Amsterdam-GetAFreeNode.com', 'server': 'Amsterdam.serbia.cc', 'port': 443, 'type': 'vmess', 'uuid': 'f400ffac-f6dc-4434-91f4-c414074129b0', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'Amsterdam.serbia.cc', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Amsterdam.serbia.cc'}}}
+- {'name': 'Moscow-GetAFreeNode.com', 'server': 'Moscow.gafnode.sbs', 'port': 443, 'type': 'vmess', 'uuid': 'a4abdd53-d10d-4d61-a14d-93f629d588c6', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'Moscow.gafnode.sbs', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Moscow.gafnode.sbs'}}}
+- {'name': 'LosAngeles-GetAFreeNode.com', 'server': 'LosAngeles.serbia.cc', 'port': 443, 'type': 'vmess', 'uuid': 'a4abdd53-d10d-4d61-a14d-93f629d588c6', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'LosAngeles.serbia.cc', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'LosAngeles.serbia.cc'}}}
+- {'name': 'Wien-GetAFreeNode.com', 'server': 'Wien.serbia.cc', 'port': 443, 'type': 'vmess', 'uuid': 'a4abdd53-d10d-4d61-a14d-93f629d588c6', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'Wien.serbia.cc', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Wien.serbia.cc'}}}
+- {'name': 'Frankfurt-GetAFreeNode.com', 'server': 'Frankfurt.serbia.cc', 'port': 443, 'type': 'vmess', 'uuid': 'a4abdd53-d10d-4d61-a14d-93f629d588c6', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'Frankfurt.serbia.cc', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Frankfurt.serbia.cc'}}}
+- {'name': 'Amsterdam-GetAFreeNode.com', 'server': 'Amsterdam.gafnode.sbs', 'port': 443, 'type': 'vmess', 'uuid': 'a4abdd53-d10d-4d61-a14d-93f629d588c6', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'Amsterdam.gafnode.sbs', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Amsterdam.gafnode.sbs'}}}
 
 
 # 代理组

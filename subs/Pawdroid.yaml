@@ -38,9 +38,51 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '广东省 移动', 'server': '183.238.202.173', 'port': 51193, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
-- {'name': '美国 麻省理工学院', 'server': '18.135.218.155', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
-- {'name': '美国 CloudFlare节点', 'server': '104.17.221.34', 'port': 8080, 'type': 'vmess', 'uuid': 'c0453a16-67e9-4eab-bdc9-b9624ad6bd29', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/?ed=2560', 'headers': {'Host': 'usakansas.xlb8.eu.org'}}}
+- {'name': '美国 CloudFlare节点', 'server': '104.19.46.233', 'port': 2086, 'type': 'vmess', 'uuid': '29eebb60-b27b-4a9d-bba5-947763d9205e', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'ip002-2.dtku47.xyz'}}}
+- {'name': '美国 华盛顿Cogent通信公司', 'server': '38.121.43.97', 'port': 5500, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'KixLvKzwjekG00rm'}
+- {'name': '广东省 移动', 'server': '183.240.235.162', 'port': 54002, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
+- {'name': '美国 得克萨斯州', 'server': '34.105.49.234', 'port': 443, 'type': 'trojan', 'password': 'NISHIKUITAN222', 'sni': 't726.ylks.link', 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 't726.ylks.link'}}}
+- {'name': '新加坡 Amazon数据中心', 'server': 'valance.protocolbuffer.com', 'port': 28332, 'type': 'trojan', 'password': 'D2F4KSxOpeCyZ337FDCwlRR6S78Ca93nn6TCBSXS3lqgZA83D83Fu5eaIgpRjYO39aEpa', 'sni': 'valance.protocolbuffer.com'}
+- {'name': '美国 Amazon数据中心', 'server': '13.38.142.249', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '美国 加利福尼亚州旧金山市Awknet通信公司', 'server': '67.220.85.74', 'port': 6697, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'TEzjfAYq2IjtuoS'}
+- {'name': '广东省广州市 移动', 'server': '120.232.153.27', 'port': 34002, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
+- {'name': '法国 格拉沃利讷OVH数据中心', 'server': '54.36.174.181', 'port': 8009, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'XKFKl2rULjIp74'}
+- {'name': '美国 CloudFlare节点 2', 'server': '172.67.185.218', 'port': 8080, 'type': 'vmess', 'uuid': 'b551aa22-22af-11ee-b8d8-f23c932eb68d', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'oiictw.yydsii.com'}}}
+- {'name': '广东省广州市 移动 2', 'server': '183.236.51.23', 'port': 45020, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
+- {'name': '美国 华盛顿州西雅图市亚马逊(Amazon)公司数据中心', 'server': '35.177.195.92', 'port': 15061, 'type': 'trojan', 'password': 'RqtuKMDgoR2Q', 'sni': 'appsvs.shop'}
+- {'name': '美国 Merit网络公司', 'server': '35.87.84.111', 'port': 15058, 'type': 'trojan', 'password': '3SpKle97VHCB', 'sni': 'appsvs.shop'}
+- {'name': '乌克兰 V2CROSS.COM', 'server': '95.164.114.42', 'port': 2083, 'type': 'vmess', 'uuid': '4f97bdbc-eaeb-4bf9-ad7f-faad44c6f6bb', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'kz-v2ray.ipracevpn.com'}
+- {'name': '瑞典 斯德哥尔摩Amazon数据中心', 'server': '13.53.236.84', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '美国 CloudFlare节点 3', 'server': '172.67.171.43', 'port': 80, 'type': 'vmess', 'uuid': 'b1cbda65-64ce-4fe3-9b61-3837060aac3c', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/vmess', 'headers': {'Host': 'Ch1.vmess.site.'}}}
+- {'name': '广东省广州市 移动 3', 'server': '120.232.153.71', 'port': 54965, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
+- {'name': '美国 CloudFlare节点 4', 'server': '104.19.48.29', 'port': 8443, 'type': 'vmess', 'uuid': '39135a39-e6ca-43df-a360-d859eea58d86', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'hk01.linkitnow.net'}}}
+- {'name': '美国 CloudFlare节点 5', 'server': '104.20.12.10', 'port': 80, 'type': 'vmess', 'uuid': '2d14e84b-226b-412a-9a3c-ffce70b02bdf', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'servername': 'ua1-vmess.ctunnel.xyz', 'network': 'ws', 'ws-opts': {'path': '/vmess', 'headers': {'Host': '127.0.0.1.dl.эврика.mrarsha.尤里卡.醫生.специалист.wonkacapitano.buzz.'}}}
+- {'name': '美国 CloudFlare节点 6', 'server': '104.19.42.49', 'port': 2086, 'type': 'vmess', 'uuid': 'e9e3cc13-db48-4cc1-8c24-7626439a5339', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'ip11.freegradely.xyz'}}}
+- {'name': '美国 CloudFlare节点 7', 'server': '172.67.199.69', 'port': 8080, 'type': 'vmess', 'uuid': 'b551aa22-22af-11ee-b8d8-f23c932eb68d', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'oiictw.yydsii.com'}}}
+- {'name': '广东省 移动 2', 'server': '183.240.235.162', 'port': 54882, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
+- {'name': '美国 惠普公司', 'server': '15.236.0.55', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '广东省东莞市 移动', 'server': 'alm1.the-galgo.top', 'port': 32006, 'type': 'vmess', 'uuid': 'f01f4ecd-3d4b-44f2-9b9b-1438a5f40098', 'alterId': 0, 'cipher': 'auto', 'tls': false}
+- {'name': '美国 CloudFlare节点 8', 'server': '104.19.47.186', 'port': 8080, 'type': 'vmess', 'uuid': 'b551aa22-22af-11ee-b8d8-f23c932eb68d', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'oiictw.yydsii.com'}}}
+- {'name': '美国 CloudFlare节点 9', 'server': '104.19.47.4', 'port': 8080, 'type': 'vmess', 'uuid': 'b551aa22-22af-11ee-b8d8-f23c932eb68d', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/?ed=2048', 'headers': {'Host': 'oiictw.yydsii.com'}}}
+- {'name': '瑞典 斯德哥尔摩Amazon数据中心 2', 'server': '13.53.189.145', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '江苏省徐州市 移动', 'server': '223.113.54.154', 'port': 20344, 'type': 'trojan', 'password': 'RmdXQRXg', 'skip-cert-verify': true}
+- {'name': '爱尔兰 都柏林Amazon数据中心', 'server': '54.74.213.241', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '美国 LeaseWeb数据中心', 'server': '23.106.35.90', 'port': 28331, 'type': 'trojan', 'password': 'FcYCR32n8lEy3aaXTSAYzl3DNXTSAYzl3DNqZ58SDgFBOxeC6Cw47uSZy3Aje0xeC6Cw4', 'sni': 'hovland.golfland.club'}
+- {'name': '美国 Amazon EC2服务器', 'server': '3.36.86.196', 'port': 15069, 'type': 'trojan', 'password': 'gzDKwjTOL90I', 'sni': 'appsvs.shop'}
+- {'name': '美国 CloudFlare节点 10', 'server': '104.16.1.10', 'port': 443, 'type': 'trojan', 'password': 'qj1Dz1CJmFQRhWr1SP80aA', 'sni': 'cdn-21.gsmxreality.com', 'skip-cert-verify': true}
+- {'name': '美国 CloudFlare节点 11', 'server': '104.19.58.175', 'port': 2052, 'type': 'vmess', 'uuid': 'd6b6d982-d52f-465a-b988-85670b23f64a', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'cdn1.freegradely.xyz'}}}
+- {'name': '英国 社会保险安全部', 'server': '51.20.166.182', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '德国 黑森州法兰克福Linode数据中心', 'server': '139.162.158.172', 'port': 443, 'type': 'trojan', 'password': '665c944d-047d-4659-80d5-3eaac70241a9'}
+- {'name': '美国 V2CROSS.COM', 'server': 'fell.dogsvpn.top', 'port': 7702, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'ae7abacb-b8e1-4a4c-be69-22b7dc3b260a'}
+- {'name': '北美地区 V2CROSS.COM', 'server': '23.157.40.102', 'port': 5001, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC'}
+- {'name': '广东省深圳市 移动', 'server': 'jp2.mhw7e2.online', 'port': 20014, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '70747514-fb14-4f31-8390-e1f0453eff6d'}
+- {'name': '日本 东京Amazon数据中心', 'server': '13.231.229.255', 'port': 15037, 'type': 'trojan', 'password': '9tYfnjQUkUFz', 'sni': 'appsvs.shop'}
+- {'name': '美国 CloudFlare节点 12', 'server': '104.19.46.103', 'port': 2052, 'type': 'vmess', 'uuid': 'd6b6d982-d52f-465a-b988-85670b23f64a', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'cdn1.freegradely.xyz'}}}
+- {'name': '广东省 移动 3', 'server': '183.240.235.164', 'port': 32998, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
+- {'name': '美国 CloudFlare节点 13', 'server': '104.17.154.159', 'port': 2052, 'type': 'vmess', 'uuid': 'afa7ee50-d214-4a54-a558-e5c96480916d', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/video/9TfVEyku', 'headers': {'Host': 'wtywwcrzjp5.yofnhkfc.xyz'}}}
+- {'name': '日本 V2CROSS.COM', 'server': 'jp06.421421.xyz', 'port': 20230, 'type': 'trojan', 'password': 'ebbf7922-f9c6-4e99-b588-edd68108f269', 'sni': '421421.xyz'}
+- {'name': '美国 CloudFlare节点 14', 'server': 'cfcdn3.sanfencdn9.com', 'port': 2052, 'type': 'vmess', 'uuid': 'afa7ee50-d214-4a54-a558-e5c96480916d', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/video/9TfVEyku', 'headers': {'Host': 'wtywwcrzjp5.yofnhkfc.xyz'}}}
+- {'name': '美国 V2CROSS.COM 2', 'server': '23.162.200.133', 'port': 6697, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'TEzjfAYq2IjtuoS'}
 
 
 # 代理组

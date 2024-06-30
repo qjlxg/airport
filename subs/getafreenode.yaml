@@ -38,7 +38,7 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': 'Wien-GetAFreeNode.com', 'server': 'api.wemod.com', 'port': 443, 'type': 'vmess', 'uuid': 'd12ba881-44a9-40f5-929c-892a01ec4cff', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'V2llbg.speedgermany.xyz', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'V2llbg.speedgermany.xyz'}}}
+- {'name': 'LosAngeles-GetAFreeNode.com', 'server': 'api.wemod.com', 'port': 443, 'type': 'vmess', 'uuid': 'a5c4fefe-eec0-4c30-9f37-b8b43cc39c2b', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'TG9zQW5nZWxlcw.serbia.cc', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'TG9zQW5nZWxlcw.serbia.cc'}}}
 
 
 # 代理组

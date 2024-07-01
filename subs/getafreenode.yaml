@@ -38,7 +38,7 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': 'Frankfurt-GetAFreeNode.com', 'server': 'hcaptcha.com', 'port': 443, 'type': 'vmess', 'uuid': '3383b8f6-65c6-4ad5-9855-415fe3f6fa77', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'RnJhbmtmdXJ0.speedgermany.xyz', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'RnJhbmtmdXJ0.speedgermany.xyz'}}}
+- {'name': 'Moscow-GetAFreeNode.com', 'server': 'hcaptcha.com', 'port': 443, 'type': 'vmess', 'uuid': 'a40edbc2-6dd5-457b-b139-050011f804e1', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'TW9zY293.thisisfrance.xyz', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'TW9zY293.thisisfrance.xyz'}}}
 
 
 # 代理组

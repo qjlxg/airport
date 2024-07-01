@@ -38,7 +38,7 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': 'Moscow-GetAFreeNode.com', 'server': 'hcaptcha.com', 'port': 443, 'type': 'vmess', 'uuid': 'd52817be-edf2-485f-b07e-6c723c54f4a9', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'TW9zY293.serbia.cc', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'TW9zY293.serbia.cc'}}}
+- {'name': 'Moscow-GetAFreeNode.com', 'server': 'hcaptcha.com', 'port': 443, 'type': 'vmess', 'uuid': '6e1ff2e9-fab3-4041-ac0a-5065c1b7992b', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'TW9zY293.gafnode.sbs', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'TW9zY293.gafnode.sbs'}}}
 
 
 # 代理组

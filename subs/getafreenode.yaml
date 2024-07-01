@@ -38,7 +38,7 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': 'Wien-GetAFreeNode.com', 'server': 'hcaptcha.com', 'port': 443, 'type': 'vmess', 'uuid': '5e5a198b-df95-4143-b74b-cd7f09a16a54', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'V2llbg.speedgermany.xyz', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'V2llbg.speedgermany.xyz'}}}
+- {'name': 'Frankfurt-GetAFreeNode.com', 'server': 'hcaptcha.com', 'port': 443, 'type': 'vmess', 'uuid': 'c33f1dd5-e218-4c2e-9297-453e8ec7f2d1', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'RnJhbmtmdXJ0.gafnode.sbs', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'RnJhbmtmdXJ0.gafnode.sbs'}}}
 
 
 # 代理组

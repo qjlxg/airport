@@ -38,7 +38,7 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': 'LosAngeles-GetAFreeNode.com', 'server': 'hcaptcha.com', 'port': 443, 'type': 'vmess', 'uuid': 'f8f6ad34-37f8-4002-9f8c-c33e7333c724', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'TG9zQW5nZWxlcw.gafnode.sbs', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'TG9zQW5nZWxlcw.gafnode.sbs'}}}
+- {'name': 'Amsterdam-GetAFreeNode.com', 'server': 'hcaptcha.com', 'port': 443, 'type': 'vmess', 'uuid': 'd8cf16c5-a49d-4137-bf5f-74ecc5b09888', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'QW1zdGVyZGFt.thisisfrance.xyz', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'QW1zdGVyZGFt.thisisfrance.xyz'}}}
 
 
 # 代理组

@@ -38,14 +38,17 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '@v2ray_configs_pool', 'server': '104.21.49.154', 'port': 443, 'type': 'vmess', 'uuid': '05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'nezuko.raidenshogun.cloudns.org', 'network': 'ws', 'ws-opts': {'path': '/linkws/obdii.cfd', 'headers': {'Host': 'nezuko.raidenshogun.cloudns.org'}}}
-- {'name': '@v2ray_configs_pool 2', 'server': 'mci.mosi.mosipro.ml', 'port': 443, 'type': 'vmess', 'uuid': 'e4a66b43-9209-46c6-8c34-3180fbb2aeb0', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'Dusseldorf.kotick.site', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Dusseldorf.kotick.site'}}}
-- {'name': '@v2ray_configs_pool 3', 'server': 'series-a2-mec.varzesh360.co', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'u17T3BvpYaaiuW2c'}
-- {'name': '@v2ray_configs_pool 4', 'server': 'zula.ir', 'port': 443, 'type': 'vmess', 'uuid': '950db6aa-4926-4616-816e-ec0312dcb87b', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'jahfkjha.cfd', 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'jahfkjha.cfd'}}}
-- {'name': '@v2ray_configs_pool 5', 'server': 'Lousaper.digifashop.ir.', 'port': 443, 'type': 'vmess', 'uuid': '28dc623f-3ee7-4969-849b-d4a7af58078c', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'Ghazaryan.digifashop.ir.', 'network': 'ws', 'ws-opts': {'path': '@RaFaV2ray', 'headers': {'Host': 'Lousaper.digifashop.ir.'}}}
-- {'name': '@v2ray_configs_pool 6', 'server': 'Khuosrow.digifashop.ir.', 'port': 443, 'type': 'vmess', 'uuid': '28dc623f-3ee7-4969-849b-d4a7af58078c', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'Arakelyan.digifashop.ir.', 'network': 'ws', 'ws-opts': {'path': '@RaFaV2ray', 'headers': {'Host': 'Khuosrow.digifashop.ir.'}}}
-- {'name': '@v2ray_configs_pool 7', 'server': 'Varuzhan.digifashop.ir.', 'port': 443, 'type': 'vmess', 'uuid': '28dc623f-3ee7-4969-849b-d4a7af58078c', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'Arakelyan.digifashop.ir.', 'network': 'ws', 'ws-opts': {'path': '@RaFaV2ray', 'headers': {'Host': 'Varuzhan.digifashop.ir.'}}}
-- {'name': '@v2ray_configs_pool 8', 'server': 'Prabvpion.digifashop.ir.', 'port': 443, 'type': 'vmess', 'uuid': '28dc623f-3ee7-4969-849b-d4a7af58078c', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'Zakarian.digifashop.ir.', 'network': 'ws', 'ws-opts': {'path': '@RaFaV2ray', 'headers': {'Host': 'Prabvpion.digifashop.ir.'}}}
+- {'name': '@v2ray_configs_pool', 'server': '45.33.30.8', 'port': 18789, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '8LR0hakdyIzx0ji4hiUag2'}
+- {'name': '@v2ray_configs_pool 2', 'server': 'traffic-in-a-s.811920.xyz', 'port': 50006, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': '7cd12bfd-040a-44d7-a857-28519c379743'}
+- {'name': '@v2ray_configs_pool 3', 'server': '13.79.79.140', 'port': 59708, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'FOwaQ9mlR5psRLgYX4ZJ9S'}
+- {'name': '@v2ray_configs_pool 4', 'server': '37.1.208.212', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'LXOK-NhOFsna8PNUbhS48g'}
+- {'name': '@v2ray_configs_pool 5', 'server': '47.236.22.3', 'port': 47885, 'type': 'vmess', 'uuid': '2fb7aa37-e195-44f1-f000-5727610d22e3', 'alterId': 0, 'cipher': 'auto', 'tls': false}
+- {'name': '@v2ray_configs_pool 6', 'server': '104.19.47.148', 'port': 8443, 'type': 'vmess', 'uuid': '39135a39-e6ca-43df-a360-d859eea58d86', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'hk01.linkitnow.net', 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'hk01.linkitnow.net'}}}
+- {'name': '@v2ray_configs_pool 7', 'server': '167.99.216.236', 'port': 50250, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'XmbYfu6n8TTW1zZrVRwvBy'}
+- {'name': '@v2ray_configs_pool 8', 'server': 'mci.mosi.mosipro.ml', 'port': 443, 'type': 'vmess', 'uuid': '306eb235-4f60-409c-bd95-de93ba4e4efa', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'Dusseldorf.kotick.site', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Dusseldorf.kotick.site'}}}
+- {'name': '@v2ray_configs_pool 9', 'server': '165.22.238.239', 'port': 44386, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'Pl6TNj1hcnE8QQIVGbVyhk'}
+- {'name': '@v2ray_configs_pool 10', 'server': 'moscow.telegavpn.com', 'port': 60422, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'GYhnHbqF0U8WQpiyfqu66x'}
+- {'name': '@v2ray_configs_pool 11', 'server': '205.234.231.148', 'port': 35000, 'type': 'vmess', 'uuid': '260877c8-e970-44b5-97fe-9ef0052158d5', 'alterId': 0, 'cipher': 'auto', 'tls': false}
 
 
 # 代理组

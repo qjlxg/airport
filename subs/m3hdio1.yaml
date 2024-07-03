@@ -38,8 +38,20 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '@v2ray_configs_pool', 'server': 'moscow.telegavpn.com', 'port': 60422, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'snvctSM31qj5b3XxVXsjeX'}
-- {'name': '@v2ray_configs_pool 2', 'server': 'id-lb.vhax.net', 'port': 80, 'type': 'vmess', 'uuid': '6fea1649-425b-4092-bf53-29792152c925', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/sshkit/Arsham85231/6347d08022b91/', 'headers': {'Host': 'zoom.us'}}}
+- {'name': '@v2ray_configs_pool', 'server': '174.136.205.46', 'port': 39027, 'type': 'vmess', 'uuid': '26419143-8a06-43ab-d58c-bea7b7da8203', 'alterId': 0, 'cipher': 'auto', 'tls': false}
+- {'name': '@v2ray_configs_pool 2', 'server': '13.39.73.30', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '@v2ray_configs_pool 3', 'server': '108.61.205.144', 'port': 8881, 'type': 'vmess', 'uuid': 'db5afae4-ac23-41a6-8378-f307a9a47436', 'alterId': 0, 'cipher': 'auto', 'tls': false}
+- {'name': '@v2ray_configs_pool 4', 'server': '45.76.237.192', 'port': 8881, 'type': 'vmess', 'uuid': 'db5afae4-ac23-41a6-8378-f307a9a47436', 'alterId': 0, 'cipher': 'auto', 'tls': false}
+- {'name': '@v2ray_configs_pool 5', 'server': '172.64.32.154', 'port': 2087, 'type': 'vmess', 'uuid': '2a3263e2-891c-4446-b474-a8c63acb6e25', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': '', 'network': 'grpc', 'grpc-opts': {'grpc-service-name': '/'}}
+- {'name': '@v2ray_configs_pool 6', 'server': 'elma.ns.cloudflare.com', 'port': 2087, 'type': 'vmess', 'uuid': '2a3263e2-891c-4446-b474-a8c63acb6e25', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'elma.ns.cloudflare.com', 'network': 'grpc', 'grpc-opts': {'grpc-service-name': '/'}}
+- {'name': '@v2ray_configs_pool 11', 'server': '167.99.216.236', 'port': 50250, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'buTv9Pn40ktRnR2gqUUjlA'}
+- {'name': '@v2ray_configs_pool 12', 'server': '35.159.182.69', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '@v2ray_configs_pool 13', 'server': '13.39.209.241', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '@v2ray_configs_pool 14', 'server': '104.19.47.18', 'port': 8443, 'type': 'vmess', 'uuid': '39135a39-e6ca-43df-a360-d859eea58d86', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'hk01.linkitnow.net', 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'hk01.linkitnow.net'}}}
+- {'name': '@v2ray_configs_pool 15', 'server': 'vienna.telegavpn.com', 'port': 61992, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'jw1aiDMYtqcubOH0Y06un1'}
+- {'name': '@v2ray_configs_pool 16', 'server': '95.164.8.130', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'UEoIpHrk6oEO8SjtwMPMCw'}
+- {'name': '@v2ray_configs_pool 17', 'server': '172.67.139.4', 'port': 2053, 'type': 'trojan', 'password': '16ecb6dd-f6ca-57c6-928c-9634d3171f8e', 'sni': 'ip-cf.hukinghumans-655.WorkeRs.dEv', 'network': 'ws', 'ws-opts': {'path': 'trojan-ws%2F%3Fed', 'headers': {'Host': 'ip-cf.hukinghumans-655.WorkeRs.dEv'}}}
+- {'name': '@v2ray_configs_pool 18', 'server': '162.159.136.232', 'port': 8443, 'type': 'trojan', 'password': 'auto', 'sni': 'e9464f45.trauma-2r4.pages.dev', 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'e9464f45.trauma-2r4.pages.dev'}}}
 
 
 # 代理组

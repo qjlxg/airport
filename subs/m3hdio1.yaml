@@ -38,14 +38,21 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '@v2ray_configs_pool', 'server': '104.19.38.18', 'port': 2052, 'type': 'vmess', 'uuid': 'd6b6d982-d52f-465a-b988-85670b23f64a', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'cdn1.freegradely.xyz'}}}
-- {'name': '@v2ray_configs_pool 2', 'server': '185.146.173.158', 'port': 443, 'type': 'vmess', 'uuid': '950db6aa-4926-4616-816e-ec0312dcb87b', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'jahfkjha.cfd', 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'jahfkjha.cfd'}}}
-- {'name': '@v2ray_configs_pool 3', 'server': 'amini2.ddns.net', 'port': 2096, 'type': 'trojan', 'password': 'biwe49r2Tv', 'sni': 'Qoakq.mookomeilz.homes', 'network': 'ws', 'ws-opts': {'path': '/mskqq', 'headers': {'Host': 'Qoakq.mookomeilz.homes'}}}
-- {'name': '@v2ray_configs_pool 4', 'server': '3.65.138.240', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk'}
-- {'name': '@v2ray_configs_pool 5', 'server': '52.213.195.144', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
-- {'name': '@v2ray_configs_pool 6', 'server': 'series-a2.samanehha.co', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'mps3FwmDjLrWaOVg'}
-- {'name': '@v2ray_configs_pool 7', 'server': 'series-a2-mec.samanehha.co', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'u17T3BvpYaaiuW2c'}
-- {'name': '@v2ray_configs_pool 8', 'server': 'zula.ir', 'port': 443, 'type': 'vmess', 'uuid': '950db6aa-4926-4616-816e-ec0312dcb87b', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'jahfkjha.cfd', 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'jahfkjha.cfd'}}}
+- {'name': '@v2ray_configs_pool', 'server': '104.19.45.11', 'port': 8443, 'type': 'vmess', 'uuid': '39135a39-e6ca-43df-a360-d859eea58d86', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'hk01.leleles.us', 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'hk01.leleles.us'}}}
+- {'name': '@v2ray_configs_pool 2', 'server': '167.99.216.236', 'port': 50250, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'ex9MTnV1AXaDMJ3CNEwxtX'}
+- {'name': '@v2ray_configs_pool 3', 'server': '205.234.231.148', 'port': 35000, 'type': 'vmess', 'uuid': '260877c8-e970-44b5-97fe-9ef0052158d5', 'alterId': 0, 'cipher': 'auto', 'tls': false}
+- {'name': '@v2ray_configs_pool 4', 'server': '91.192.81.21', 'port': 8388, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '1q7RNKaIk2wYO8fEPmEX0vWQ7Va+QRTA'}
+- {'name': '@v2ray_configs_pool 5', 'server': '165.22.238.239', 'port': 44386, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'MSakJICLHGqrcU6joUGiyD'}
+- {'name': '@v2ray_configs_pool 6', 'server': 'outline.de.outlinekeys.net', 'port': 20888, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'DTmuhHWZNI07EdXJnkqEnF'}
+- {'name': '@v2ray_configs_pool 7', 'server': 'mci.mosi.mosipro.ml', 'port': 443, 'type': 'vmess', 'uuid': '10e9295b-cc8c-4ef4-bbd5-054052c78db1', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'Dusseldorf.kotick.site', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Dusseldorf.kotick.site'}}}
+- {'name': '@v2ray_configs_pool 8', 'server': '64.226.98.217', 'port': 40678, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'pd153BT6zASBtCSsdUJPek'}
+- {'name': '@v2ray_configs_pool 9', 'server': '104.19.46.39', 'port': 2086, 'type': 'vmess', 'uuid': 'e9e3cc13-db48-4cc1-8c24-7626439a5339', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'ip13.freegradely.xyz'}}}
+- {'name': '@v2ray_configs_pool 10', 'server': '104.16.222.163', 'port': 8880, 'type': 'vmess', 'uuid': '9b5c761f-8d28-40f1-a56c-9e6e06dc2f1f', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/@Mmd_V2rayng-@LookiVpn?ed=1024', 'headers': {'Host': 'SvnProBotV2rayNethOne6.9.6.9.ir.shop.com.xn--fhqpqv8rrth13sbaaac958pc94anf0d8gm.ayfadesigns.com.'}}}
+- {'name': '@v2ray_configs_pool 11', 'server': '104.19.46.249', 'port': 8443, 'type': 'vmess', 'uuid': '39135a39-e6ca-43df-a360-d859eea58d86', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'hk01.leleles.us', 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'hk01.leleles.us'}}}
+- {'name': '@v2ray_configs_pool 12', 'server': '138.68.182.23', 'port': 2248, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'IFuSiRpG0PiXTGYVpae1jB'}
+- {'name': '@v2ray_configs_pool 13', 'server': 'us.eaxeg.be', 'port': 443, 'type': 'trojan', 'password': 'ab602e02-624b-44f0-a51b-25ed53f70048', 'sni': 'us.eaxeg.be', 'network': 'ws', 'ws-opts': {'path': '/q7ugFVneYzh1SQ9N70H4Y2aW', 'headers': {'Host': 'us.eaxeg.be'}}}
+- {'name': '@v2ray_configs_pool 14', 'server': '66.135.3.168', 'port': 44990, 'type': 'vmess', 'uuid': '88623615-0713-497a-9233-755a33cc7080', 'alterId': 0, 'cipher': 'auto', 'tls': false}
+- {'name': '@v2ray_configs_pool 15', 'server': '45.33.30.8', 'port': 18789, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '7wUPspbwNh8wPpLx43Kpqd'}
 
 
 # 代理组

@@ -38,38 +38,38 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': 'v2rayng无法使用的用户请下载clash for android', 'server': 'free.2apzhfa.xyz', 'port': 31016, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f74206ca-6981-42de-b4fa-bb042d8a298f'}
-- {'name': '香港 01 | 1x HK', 'server': 'free.2apzhfa.xyz', 'port': 31141, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f74206ca-6981-42de-b4fa-bb042d8a298f'}
-- {'name': '香港 02 | 1x HK', 'server': 'free.2apzhfa.xyz', 'port': 31143, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f74206ca-6981-42de-b4fa-bb042d8a298f'}
-- {'name': '香港家宽 03 | 1x HK', 'server': 'free.2apzhfa.xyz', 'port': 31145, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f74206ca-6981-42de-b4fa-bb042d8a298f'}
-- {'name': '台湾 01 | 1x TW', 'server': 'free.2apzhfa.xyz', 'port': 31241, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f74206ca-6981-42de-b4fa-bb042d8a298f'}
-- {'name': '台湾 02 | 1x TW', 'server': 'free.2apzhfa.xyz', 'port': 31243, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f74206ca-6981-42de-b4fa-bb042d8a298f'}
-- {'name': '台湾 03 | 1x TW', 'server': 'free.2apzhfa.xyz', 'port': 31245, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f74206ca-6981-42de-b4fa-bb042d8a298f'}
-- {'name': '日本 01 | 1x JP', 'server': 'free.2apzhfa.xyz', 'port': 31111, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f74206ca-6981-42de-b4fa-bb042d8a298f'}
-- {'name': '日本 02 | 1x JP', 'server': 'free.2apzhfa.xyz', 'port': 31113, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f74206ca-6981-42de-b4fa-bb042d8a298f'}
-- {'name': '日本 03 | 1x JP', 'server': 'free.2apzhfa.xyz', 'port': 31115, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f74206ca-6981-42de-b4fa-bb042d8a298f'}
-- {'name': '新加坡 01 | 1x SG', 'server': 'free.2apzhfa.xyz', 'port': 31171, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f74206ca-6981-42de-b4fa-bb042d8a298f'}
-- {'name': '新加坡 02 | 1x SG', 'server': 'free.2apzhfa.xyz', 'port': 31173, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f74206ca-6981-42de-b4fa-bb042d8a298f'}
-- {'name': '新加坡 03 | 1x SG', 'server': 'free.2apzhfa.xyz', 'port': 31175, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f74206ca-6981-42de-b4fa-bb042d8a298f'}
-- {'name': '韩国 01 | 1x KR', 'server': 'free.2apzhfa.xyz', 'port': 31311, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f74206ca-6981-42de-b4fa-bb042d8a298f'}
-- {'name': '菲律宾 01 | 1x PH', 'server': 'free.2apzhfa.xyz', 'port': 31341, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f74206ca-6981-42de-b4fa-bb042d8a298f'}
-- {'name': '美国 01 | 1x US Los Angeles', 'server': 'free.2apzhfa.xyz', 'port': 31211, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f74206ca-6981-42de-b4fa-bb042d8a298f'}
-- {'name': '美国家宽 02 | 1x US Los Angeles', 'server': 'free.2apzhfa.xyz', 'port': 31213, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f74206ca-6981-42de-b4fa-bb042d8a298f'}
-- {'name': '美国 03 | 1x US Washington', 'server': 'free.2apzhfa.xyz', 'port': 31215, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f74206ca-6981-42de-b4fa-bb042d8a298f'}
-- {'name': '美国 04 | 1x US Honolulu', 'server': 'free.2apzhfa.xyz', 'port': 31217, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f74206ca-6981-42de-b4fa-bb042d8a298f'}
-- {'name': '美国 05 | 1x US New Jersey', 'server': 'free.2apzhfa.xyz', 'port': 31219, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f74206ca-6981-42de-b4fa-bb042d8a298f'}
-- {'name': '美国 06 | 1x US Seattle', 'server': 'free.2apzhfa.xyz', 'port': 31221, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f74206ca-6981-42de-b4fa-bb042d8a298f'}
-- {'name': '英国家宽 01 | 1x UK', 'server': 'free.2apzhfa.xyz', 'port': 31271, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f74206ca-6981-42de-b4fa-bb042d8a298f'}
-- {'name': '西班牙01 | 1x ES', 'server': 'free.2apzhfa.xyz', 'port': 31741, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f74206ca-6981-42de-b4fa-bb042d8a298f'}
-- {'name': '印度 01 | 1x IN', 'server': 'free.2apzhfa.xyz', 'port': 31371, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f74206ca-6981-42de-b4fa-bb042d8a298f'}
-- {'name': '澳大利亚 01 | 1x AU', 'server': 'free.2apzhfa.xyz', 'port': 31411, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f74206ca-6981-42de-b4fa-bb042d8a298f'}
-- {'name': '加拿大 01 | 1x CA', 'server': 'free.2apzhfa.xyz', 'port': 31441, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f74206ca-6981-42de-b4fa-bb042d8a298f'}
-- {'name': '德国 01 | 1x DE', 'server': 'free.2apzhfa.xyz', 'port': 31471, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f74206ca-6981-42de-b4fa-bb042d8a298f'}
-- {'name': '俄罗斯 01 | 1x RU', 'server': 'free.2apzhfa.xyz', 'port': 31511, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f74206ca-6981-42de-b4fa-bb042d8a298f'}
-- {'name': '土耳其 01 | 1x TR', 'server': 'free.2apzhfa.xyz', 'port': 31571, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f74206ca-6981-42de-b4fa-bb042d8a298f'}
-- {'name': '乌克兰 01 | 1x UA', 'server': 'free.2apzhfa.xyz', 'port': 31611, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f74206ca-6981-42de-b4fa-bb042d8a298f'}
-- {'name': '越南 01 | 1x VN', 'server': 'free.2apzhfa.xyz', 'port': 31641, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f74206ca-6981-42de-b4fa-bb042d8a298f'}
-- {'name': '巴西 01 | 1x BR', 'server': 'free.2apzhfa.xyz', 'port': 31671, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f74206ca-6981-42de-b4fa-bb042d8a298f'}
+- {'name': 'v2rayng无法使用的用户请下载clash for android', 'server': 'free.2apzhfa.xyz', 'port': 31016, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9e90946f-53fa-4569-bc0e-e4eb11ad1fba'}
+- {'name': '香港 01 | 1x HK', 'server': 'free.2apzhfa.xyz', 'port': 31141, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9e90946f-53fa-4569-bc0e-e4eb11ad1fba'}
+- {'name': '香港 02 | 1x HK', 'server': 'free.2apzhfa.xyz', 'port': 31143, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9e90946f-53fa-4569-bc0e-e4eb11ad1fba'}
+- {'name': '香港家宽 03 | 1x HK', 'server': 'free.2apzhfa.xyz', 'port': 31145, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9e90946f-53fa-4569-bc0e-e4eb11ad1fba'}
+- {'name': '台湾 01 | 1x TW', 'server': 'free.2apzhfa.xyz', 'port': 31241, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9e90946f-53fa-4569-bc0e-e4eb11ad1fba'}
+- {'name': '台湾 02 | 1x TW', 'server': 'free.2apzhfa.xyz', 'port': 31243, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9e90946f-53fa-4569-bc0e-e4eb11ad1fba'}
+- {'name': '台湾 03 | 1x TW', 'server': 'free.2apzhfa.xyz', 'port': 31245, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9e90946f-53fa-4569-bc0e-e4eb11ad1fba'}
+- {'name': '日本 01 | 1x JP', 'server': 'free.2apzhfa.xyz', 'port': 31111, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9e90946f-53fa-4569-bc0e-e4eb11ad1fba'}
+- {'name': '日本 02 | 1x JP', 'server': 'free.2apzhfa.xyz', 'port': 31113, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9e90946f-53fa-4569-bc0e-e4eb11ad1fba'}
+- {'name': '日本 03 | 1x JP', 'server': 'free.2apzhfa.xyz', 'port': 31115, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9e90946f-53fa-4569-bc0e-e4eb11ad1fba'}
+- {'name': '新加坡 01 | 1x SG', 'server': 'free.2apzhfa.xyz', 'port': 31171, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9e90946f-53fa-4569-bc0e-e4eb11ad1fba'}
+- {'name': '新加坡 02 | 1x SG', 'server': 'free.2apzhfa.xyz', 'port': 31173, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9e90946f-53fa-4569-bc0e-e4eb11ad1fba'}
+- {'name': '新加坡 03 | 1x SG', 'server': 'free.2apzhfa.xyz', 'port': 31175, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9e90946f-53fa-4569-bc0e-e4eb11ad1fba'}
+- {'name': '韩国 01 | 1x KR', 'server': 'free.2apzhfa.xyz', 'port': 31311, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9e90946f-53fa-4569-bc0e-e4eb11ad1fba'}
+- {'name': '菲律宾 01 | 1x PH', 'server': 'free.2apzhfa.xyz', 'port': 31341, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9e90946f-53fa-4569-bc0e-e4eb11ad1fba'}
+- {'name': '美国 01 | 1x US Los Angeles', 'server': 'free.2apzhfa.xyz', 'port': 31211, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9e90946f-53fa-4569-bc0e-e4eb11ad1fba'}
+- {'name': '美国家宽 02 | 1x US Los Angeles', 'server': 'free.2apzhfa.xyz', 'port': 31213, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9e90946f-53fa-4569-bc0e-e4eb11ad1fba'}
+- {'name': '美国 03 | 1x US Washington', 'server': 'free.2apzhfa.xyz', 'port': 31215, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9e90946f-53fa-4569-bc0e-e4eb11ad1fba'}
+- {'name': '美国 04 | 1x US Honolulu', 'server': 'free.2apzhfa.xyz', 'port': 31217, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9e90946f-53fa-4569-bc0e-e4eb11ad1fba'}
+- {'name': '美国 05 | 1x US New Jersey', 'server': 'free.2apzhfa.xyz', 'port': 31219, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9e90946f-53fa-4569-bc0e-e4eb11ad1fba'}
+- {'name': '美国 06 | 1x US Seattle', 'server': 'free.2apzhfa.xyz', 'port': 31221, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9e90946f-53fa-4569-bc0e-e4eb11ad1fba'}
+- {'name': '英国家宽 01 | 1x UK', 'server': 'free.2apzhfa.xyz', 'port': 31271, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9e90946f-53fa-4569-bc0e-e4eb11ad1fba'}
+- {'name': '西班牙01 | 1x ES', 'server': 'free.2apzhfa.xyz', 'port': 31741, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9e90946f-53fa-4569-bc0e-e4eb11ad1fba'}
+- {'name': '印度 01 | 1x IN', 'server': 'free.2apzhfa.xyz', 'port': 31371, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9e90946f-53fa-4569-bc0e-e4eb11ad1fba'}
+- {'name': '澳大利亚 01 | 1x AU', 'server': 'free.2apzhfa.xyz', 'port': 31411, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9e90946f-53fa-4569-bc0e-e4eb11ad1fba'}
+- {'name': '加拿大 01 | 1x CA', 'server': 'free.2apzhfa.xyz', 'port': 31441, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9e90946f-53fa-4569-bc0e-e4eb11ad1fba'}
+- {'name': '德国 01 | 1x DE', 'server': 'free.2apzhfa.xyz', 'port': 31471, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9e90946f-53fa-4569-bc0e-e4eb11ad1fba'}
+- {'name': '俄罗斯 01 | 1x RU', 'server': 'free.2apzhfa.xyz', 'port': 31511, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9e90946f-53fa-4569-bc0e-e4eb11ad1fba'}
+- {'name': '土耳其 01 | 1x TR', 'server': 'free.2apzhfa.xyz', 'port': 31571, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9e90946f-53fa-4569-bc0e-e4eb11ad1fba'}
+- {'name': '乌克兰 01 | 1x UA', 'server': 'free.2apzhfa.xyz', 'port': 31611, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9e90946f-53fa-4569-bc0e-e4eb11ad1fba'}
+- {'name': '越南 01 | 1x VN', 'server': 'free.2apzhfa.xyz', 'port': 31641, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9e90946f-53fa-4569-bc0e-e4eb11ad1fba'}
+- {'name': '巴西 01 | 1x BR', 'server': 'free.2apzhfa.xyz', 'port': 31671, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '9e90946f-53fa-4569-bc0e-e4eb11ad1fba'}
 
 
 # 代理组

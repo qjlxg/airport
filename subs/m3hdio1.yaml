@@ -38,14 +38,14 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '@v2ray_configs_pool', 'server': '104.21.15.212', 'port': 443, 'type': 'vmess', 'uuid': '76221bfb-e92f-4e80-81c5-6fe48f50ac0b', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'glweidf.sbs', 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'glweidf.sbs'}}}
-- {'name': '@v2ray_configs_pool 2', 'server': 'zula.ir', 'port': 443, 'type': 'vmess', 'uuid': '950db6aa-4926-4616-816e-ec0312dcb87b', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'jahfkjha.cfd', 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'jahfkjha.cfd'}}}
-- {'name': '@v2ray_configs_pool 3', 'server': 'mci.mosi.mosipro.ml', 'port': 443, 'type': 'vmess', 'uuid': '420e3d0a-0725-414f-80f6-7990578bb64c', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'Dusseldorf.kotick.site', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Dusseldorf.kotick.site'}}}
-- {'name': '@v2ray_configs_pool 4', 'server': '54.75.255.147', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
-- {'name': '@v2ray_configs_pool 5', 'server': '104.21.94.64', 'port': 443, 'type': 'vmess', 'uuid': '39cec18f-a439-427c-9a4e-aeb6fcdf6f53', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'linja05.hwcar.sbs', 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'linja05.hwcar.sbs'}}}
-- {'name': '@v2ray_configs_pool 6', 'server': '2.189.59.2', 'port': 443, 'type': 'vmess', 'uuid': '62aa5f80-0328-4004-a375-7f5a59df4022', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'pages.dev', 'network': 'ws', 'ws-opts': {'path': '/Telegram/XV2ray', 'headers': {'Host': 'germany-linkws.pages.dev'}}}
-- {'name': '@v2ray_configs_pool 7', 'server': 'outline.de.outlinekeys.net', 'port': 20888, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'MiTy03skfu46Uh1LQqQn4O'}
-- {'name': '@v2ray_configs_pool 8', 'server': '165.22.238.239', 'port': 44386, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'NoVySlTnd97cUSGWvXHObR'}
+- {'name': '@v2ray_configs_pool', 'server': '104.16.219.108', 'port': 80, 'type': 'vmess', 'uuid': '950db6aa-4926-4616-816e-ec0312dcb87b', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/Telegram/XV2ray', 'headers': {'Host': 'rubika.ir.google.com.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aparat.com.V2ray.com.shw2.ir.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.xn--g28h.dns-dynamic.net.'}}}
+- {'name': '@v2ray_configs_pool 2', 'server': '13.38.232.27', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '@v2ray_configs_pool 3', 'server': '18.216.52.92', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '@v2ray_configs_pool 4', 'server': 'zula.ir', 'port': 443, 'type': 'vmess', 'uuid': '950db6aa-4926-4616-816e-ec0312dcb87b', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'jahfkjha.cfd', 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'jahfkjha.cfd'}}}
+- {'name': '@v2ray_configs_pool 5', 'server': 'mci.mosi.mosipro.ml', 'port': 443, 'type': 'vmess', 'uuid': 'e1ab1a24-4c0f-475e-aabb-37b985a21a9b', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'Dusseldorf.kotick.site', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Dusseldorf.kotick.site'}}}
+- {'name': '@v2ray_configs_pool 6', 'server': 'www.speedtest.net', 'port': 2053, 'type': 'vmess', 'uuid': '00fb7867-95ad-4eaf-99f1-22255beb6251', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'www.speedtest.net', 'network': 'grpc', 'grpc-opts': {'grpc-service-name': '/'}}
+- {'name': '@v2ray_configs_pool 7', 'server': '2.189.59.2', 'port': 443, 'type': 'vmess', 'uuid': '62aa5f80-0328-4004-a375-7f5a59df4022', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'pages.dev', 'network': 'ws', 'ws-opts': {'path': '/Telegram/XV2ray', 'headers': {'Host': 'germany-linkws.pages.dev'}}}
+- {'name': '@v2ray_configs_pool 8', 'server': '138.68.182.23', 'port': 2248, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'x7hQHhXRVFzp6KeFmd16g3'}
 
 
 # 代理组

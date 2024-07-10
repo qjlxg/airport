@@ -38,14 +38,10 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '印度 V2CROSS.COM', 'server': '202.78.162.5', 'port': 443, 'type': 'vmess', 'uuid': '2ff97c6d-8557-42a4-b43f-19c77c5959ea', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'irsoft.sytes.net'}}}
-- {'name': '美国 CloudFlare节点', 'server': '172.64.167.5', 'port': 2086, 'type': 'vmess', 'uuid': 'e9e3cc13-db48-4cc1-8c24-7626439a5339', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'ip2.1457230.xyz'}}}
-- {'name': '俄罗斯 V2CROSS.COM', 'server': '185.242.86.156', 'port': 54170, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '36ZCHeabUSfKjfQEvJ4HDV'}
-- {'name': '北美地区 V2CROSS.COM', 'server': '23.157.88.35', 'port': 22324, 'type': 'vmess', 'uuid': '04621bae-ab36-11ec-b909-0242ac120002', 'alterId': 0, 'cipher': 'auto', 'tls': false}
-- {'name': '美国 Amazon数据中心', 'server': '13.39.66.112', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
-- {'name': '台湾省新北市 中华电信', 'server': 'tw3.233235.xyz', 'port': 11125, 'type': 'trojan', 'password': '518a6ff8-7233-4f28-8a40-d3fa82a5875d'}
-- {'name': '韩国 KT电信', 'server': 'service.ouluyun9803.com', 'port': 26667, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'd6105bbd-be0d-45b2-82ad-31fd1071c1d2'}
-- {'name': '美国 CloudFlare节点 2', 'server': '104.21.82.183', 'port': 8880, 'type': 'vmess', 'uuid': '5a7021e0-26b4-45d6-b175-fe551601ca97', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'server26.beheshtbaneh.com'}}}
+- {'name': '台湾省台北市 中华电信', 'server': '2gzdx21.156786.xyz', 'port': 706, 'type': 'trojan', 'password': '518a6ff8-7233-4f28-8a40-d3fa82a5875d', 'sni': '2gzdx21.156786.xyz'}
+- {'name': '美国 CloudFlare节点', 'server': '104.19.32.226', 'port': 2052, 'type': 'vmess', 'uuid': 'd6b6d982-d52f-465a-b988-85670b23f64a', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'cdn2.freegradely.xyz'}}}
+- {'name': '美国 CloudFlare节点 2', 'server': '104.19.59.89', 'port': 2052, 'type': 'vmess', 'uuid': 'd6b6d982-d52f-465a-b988-85670b23f64a', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'cdn1.freegradely.xyz'}}}
+- {'name': '美国 CloudFlare节点 3', 'server': '104.19.38.8', 'port': 2086, 'type': 'vmess', 'uuid': 'e9e3cc13-db48-4cc1-8c24-7626439a5339', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'ip14.freegradely.xyz'}}}
 
 
 # 代理组

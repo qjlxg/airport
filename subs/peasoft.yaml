@@ -74,37 +74,39 @@ proxies:
 - {'name': '5|d*********g.com_26', 'server': '104.20.25.176', 'port': 2052, 'type': 'vmess', 'uuid': 'd6b6d982-d52f-465a-b988-85670b23f64a', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'servername': 'cdn3.freegradely.xyz', 'network': 'ws', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'cdn3.freegradely.xyz'}}}
 - {'name': '5|d*********g.com_27', 'server': '104.26.7.152', 'port': 2052, 'type': 'vmess', 'uuid': 'd6b6d982-d52f-465a-b988-85670b23f64a', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'servername': 'cdn3.freegradely.xyz', 'network': 'ws', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'cdn3.freegradely.xyz'}}}
 - {'name': '5|d*********g.com_30', 'server': '172.67.74.122', 'port': 2052, 'type': 'vmess', 'uuid': 'd6b6d982-d52f-465a-b988-85670b23f64a', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'servername': 'cdn3.freegradely.xyz', 'network': 'ws', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'cdn3.freegradely.xyz'}}}
-- {'name': '8|🇺🇸US | 🟢 | trojan | @DirectVPN...', 'server': '3.132.149.105', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk'}
-- {'name': '8|🔒 TR-TCP-TLS 🇫🇷 FR-62.210.82.5...', 'server': '62.210.82.54', 'port': 43118, 'type': 'trojan', 'password': 'ypDt8RkT7J', 'sni': 'wuxgk.phooeyunfold.com'}
-- {'name': '8|未命名', 'server': '121.127.46.131', 'port': 43118, 'type': 'trojan', 'password': 'ypDt8RkT7J', 'sni': 'tpmrt.phooeyunfold.com'}
-- {'name': '8|🔒 TR-TCP-TLS 🇺🇸 US-159.223.207...', 'server': '159.223.207.182', 'port': 34428, 'type': 'trojan', 'password': 'zIvR7ryOXv', 'sni': 'drehitm.duckdns.org'}
+- {'name': '8|未命名', 'server': '169.150.206.186', 'port': 43118, 'type': 'trojan', 'password': 'ypDt8RkT7J', 'sni': 'tpmem.phooeyunfold.com'}
+- {'name': '8|JP_youtube@资源分享师_25', 'server': 'kkr100515a.go02.top', 'port': 30056, 'type': 'trojan', 'password': 'M3lOal9RPR', 'sni': 'kkr100515a.go02.top', 'skip-cert-verify': true}
+- {'name': '8|🇬🇧GB | 🟢 | trojan | @PrivateVP...', 'server': '18.169.204.37', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
 - {'name': '8|🔒 TR-WS-TLS 🇯🇵 JP-172.105.220....', 'server': '172.105.220.7', 'port': 3306, 'type': 'trojan', 'password': '8a1ab0df6abea549', 'sni': 'n2.gladns.com', 'network': 'ws', 'ws-opts': {'path': '/gateway/connect', 'headers': {'Host': 'n2.gladns.com'}}}
-- {'name': '8|🔒 TR-TCP-TLS 🇫🇷 FR-35.180.160....', 'server': '35.180.160.211', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
-- {'name': "8|韩国〖电报：@ccbaohe】免费节点定时更新\r", 'server': 'kkr100515a.go02.top', 'port': 30056, 'type': 'trojan', 'password': 'M3lOal9RPR', 'sni': 'kkr100515a.go02.top', 'skip-cert-verify': false}
-- {'name': '8|🔒 TR-TCP-TLS 🇺🇸 US-185.180.13....', 'server': '185.180.13.70', 'port': 43118, 'type': 'trojan', 'password': 'ypDt8RkT7J', 'sni': 'earya.phooeyunfold.com'}
-- {'name': '8|🇩🇪DE | 🟢 | trojan | @DirectVPN...', 'server': '3.76.73.224', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk'}
-- {'name': '8|US_youtube@资源分享师_105', 'server': 'usjchf.motrix.xyz', 'port': 5443, 'type': 'trojan', 'password': 'fg20mtCFHy', 'skip-cert-verify': true}
-- {'name': '8|🔒 TR-TCP-TLS 🇮🇪 IE-52.212.109....', 'server': '52.212.109.149', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
-- {'name': '8|🔒 TR-TCP-TLS 🇫🇷 FR-13.36.254.1...', 'server': '13.36.254.167', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
-- {'name': '8|🇬🇧GB | 🟢 | trojan | @PrivateVP...', 'server': '18.135.86.14', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
-- {'name': '8|🔒 TR-TCP-TLS 🇨🇦 CA-143.244.43....', 'server': '143.244.43.216', 'port': 43118, 'type': 'trojan', 'password': 'ypDt8RkT7J', 'sni': 'vkvd127.mycdn.me', 'skip-cert-verify': true}
-- {'name': '8|🔒 TR-TCP-TLS 🇺🇸 US-3.131.175.4...', 'server': '3.131.175.46', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk'}
-- {'name': '8|🇸🇪SE | 🟢 | trojan | @PrivateVP...', 'server': '13.60.149.129', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
-- {'name': '8|🔒 TR-TCP-TLS 🇭🇰 HK-154.44.27.9...', 'server': '154.44.27.99', 'port': 43005, 'type': 'trojan', 'password': '4CCF9A9AB80E9889198B02ECE7FA08DD', 'sni': 'j0080.ruixiangseo.xyz'}
-- {'name': '8|🔒 TR-TCP-TLS 🇮🇹 IT-212.102.54....', 'server': '212.102.54.11', 'port': 43118, 'type': 'trojan', 'password': 'ypDt8RkT7J', 'sni': 'tpmrq.phooeyunfold.com'}
-- {'name': '8|🇩🇪DE | 🟢 | trojan | @PrivateVP...', 'server': '3.78.83.59', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
-- {'name': '8|🇸🇪SE | 🟢 | trojan | @PrivateVP... #1', 'server': '13.49.19.245', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
-- {'name': '8|🔒 TR-TCP-TLS 🇫🇷 FR-51.158.217....', 'server': '51.158.217.57', 'port': 43118, 'type': 'trojan', 'password': 'ypDt8RkT7J', 'sni': 'tojzy.phooeyunfold.com'}
+- {'name': '8|🔒 TR-TCP-TLS 🇩🇪 DE-3.73.45.155...', 'server': '3.73.45.155', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
 - {'name': '8|🔒 TR-TCP-TLS 🇰🇷 KR-146.56.171....', 'server': '146.56.171.71', 'port': 30056, 'type': 'trojan', 'password': 'M3lOal9RPR', 'sni': 'kkr100515a.go02.top'}
-- {'name': '8|🇫🇷FR | 🟢 | trojan | @PrivateVP...', 'server': '13.39.188.179', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '8|🔒 TR-TCP-TLS 🇮🇪 IE-52.210.194....', 'server': '52.210.194.200', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '8|🔒 TR-TCP-TLS 🇬🇧 GB-23.106.33.1...', 'server': '23.106.33.161', 'port': 443, 'type': 'trojan', 'password': 'F9D3CpxDl8a3ezeZNSBSAa2RcZNSBSAa2RcY8IyagD67Yn3S30ZTElRj4wFX5On3S30ZT', 'sni': 'scarily.golfland.club'}
+- {'name': '8|🔒 TR-TCP-TLS 🇺🇸 US-18.213.190....', 'server': '18.213.190.254', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '8|🔒 TR-WS-TLS 🇯🇵 JP-139.162.84.1...', 'server': '139.162.84.183', 'port': 3306, 'type': 'trojan', 'password': '7ac49a893e0bd10c', 'sni': 'n2.gladns.com', 'network': 'ws', 'ws-opts': {'path': '/gateway/connect', 'headers': {'Host': 'n2.gladns.com'}}}
+- {'name': '8|🇸🇪SE | 🟢 | trojan | @PrivateVP...', 'server': '51.21.73.124', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
 - {'name': '8|🔒 TR-TCP-TLS 🇯🇵 JP-138.199.23....', 'server': '138.199.23.100', 'port': 43118, 'type': 'trojan', 'password': 'ypDt8RkT7J', 'sni': 'radtz.phooeyunfold.com'}
+- {'name': '8|未命名 #1', 'server': 'hidd2.sassanidempire.com', 'port': 443, 'type': 'trojan', 'password': '19c80ce9-0935-41b9-b077-277621316a87', 'sni': 'hidd2.sassanidempire.com', 'network': 'ws', 'ws-opts': {'path': '/VOkcnRNFk1Gfjd07ui73LZgwx8s', 'headers': {'Host': 'hidd2.sassanidempire.com'}}}
+- {'name': '8|🔒 TR-TCP-TLS 🇬🇧 GB-23.106.32.1...', 'server': '23.106.32.171', 'port': 443, 'type': 'trojan', 'password': 'F9D3CpxDl8a3ezeZNSBSAa2RcZNSBSAa2RcY8IyagD67Yn3S30ZTElRj4wFX5On3S30ZT', 'sni': 'scarily.golfland.club'}
+- {'name': '8|🔒 TR-TCP-TLS 🇩🇪 DE-52.29.156.3...', 'server': '52.29.156.38', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '8|🇬🇧GB | 🟢 | trojan | @DirectVPN...', 'server': '18.132.57.184', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '8|🇸🇪SE | 🟢 | trojan | @PrivateVP... #1', 'server': '16.171.204.16', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '8|🔒 TR-TCP-TLS 🇫🇷 FR-62.210.82.5...', 'server': '62.210.82.54', 'port': 43118, 'type': 'trojan', 'password': 'ypDt8RkT7J', 'sni': 'wuxgk.phooeyunfold.com'}
+- {'name': '8|🇸🇪SE | 🟢 | trojan | @PrivateVP... #2', 'server': '51.20.237.232', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '8|🔒 TR-TCP-TLS 🇫🇷 FR-213.186.36....', 'server': '213.186.36.123', 'port': 43118, 'type': 'trojan', 'password': 'ypDt8RkT7J', 'sni': 'wylbe.phooeyunfold.com'}
+- {'name': '8|🔒 TR-TCP-TLS 🇫🇷 FR-51.158.217....', 'server': '51.158.217.130', 'port': 43118, 'type': 'trojan', 'password': 'ypDt8RkT7J', 'sni': 'toflf.phooeyunfold.com'}
+- {'name': '8|🔒 TR-TCP-TLS 🇭🇰 HK-154.44.27.9...', 'server': '154.44.27.99', 'port': 43005, 'type': 'trojan', 'password': '4CCF9A9AB80E9889198B02ECE7FA08DD', 'sni': 'j0080.ruixiangseo.xyz'}
+- {'name': '8|🔒 TR-TCP-TLS 🇫🇷 FR-51.158.217.... #1', 'server': '51.158.217.197', 'port': 43118, 'type': 'trojan', 'password': 'ypDt8RkT7J', 'sni': 'riyyy.phooeyunfold.com'}
+- {'name': '8|🇫🇷+法国+巴黎Amazon数据中心', 'server': '52.47.80.137', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '8|🇬🇧GB | 🟢 | trojan | @DirectVPN... #1', 'server': '18.135.224.31', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '8|🔒 TR-TCP-TLS 🇫🇷 FR-51.158.217.... #2', 'server': '51.158.217.57', 'port': 43118, 'type': 'trojan', 'password': 'ypDt8RkT7J', 'sni': 'tojzy.phooeyunfold.com'}
+- {'name': '8|🇮🇪IE | 🟢 | trojan | @DirectVPN...', 'server': '3.250.251.43', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '8|🔒 TR-TCP-TLS 🇫🇷 FR-51.159.102....', 'server': '51.159.102.179', 'port': 43118, 'type': 'trojan', 'password': 'ypDt8RkT7J', 'sni': 'tpzmg.phooeyunfold.com'}
+- {'name': '8|🔒 TR-TCP-TLS 🇫🇷 FR-13.39.31.29...', 'server': '13.39.31.29', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
 - {'name': '8|🔒 TR-TCP-TLS 🇺🇸 US-89.187.181....', 'server': '89.187.181.172', 'port': 43118, 'type': 'trojan', 'password': 'ypDt8RkT7J', 'sni': 'egcmi.phooeyunfold.com'}
-- {'name': '8|🇬🇧GB | 🟢 | trojan | @PrivateVP... #1', 'server': '18.169.204.37', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
-- {'name': '8|🔒 TR-TCP-TLS 🇫🇷 FR-51.158.217.... #1', 'server': '51.158.217.195', 'port': 43118, 'type': 'trojan', 'password': 'ypDt8RkT7J', 'sni': 'wnbtg.phooeyunfold.com'}
-- {'name': '8|未命名 #1', 'server': '51.158.217.60', 'port': 43118, 'type': 'trojan', 'password': 'ypDt8RkT7J', 'sni': 'ewxig.phooeyunfold.com'}
-- {'name': '8|🔒 TR-WS-TLS 🇳🇱 NL-45.76.33.120...', 'server': '45.76.33.120', 'port': 443, 'type': 'trojan', 'password': '19c80ce9-0935-41b9-b077-277621316a87', 'sni': 'hidd2.sassanidempire.com', 'network': 'ws', 'ws-opts': {'path': '/VOkcnRNFk1Gfjd07ui73LZgwx8s', 'headers': {'Host': 'hidd2.sassanidempire.com'}}}
-- {'name': '8|SG_youtube@资源分享师_106', 'server': 'usa.lydurlclub.top', 'port': 443, 'type': 'trojan', 'password': 'b06d7f06-51ba-402d-991a-3fe1e432247c', 'skip-cert-verify': true}
-- {'name': '8|🔒 TR-TCP-TLS 🇫🇷 FR-51.158.217.... #2', 'server': '51.158.217.197', 'port': 43118, 'type': 'trojan', 'password': 'ypDt8RkT7J', 'sni': 'riyyy.phooeyunfold.com'}
+- {'name': '8|🔒 TR-TCP-TLS 🇹🇷 TR-207.211.215...', 'server': '207.211.215.169', 'port': 43118, 'type': 'trojan', 'password': 'ypDt8RkT7J', 'sni': 'tpmwf.phooeyunfold.com'}
+- {'name': '8|🔒 TR-TCP-TLS 🇨🇦 CA-143.244.43....', 'server': '143.244.43.216', 'port': 43118, 'type': 'trojan', 'password': 'ypDt8RkT7J', 'sni': 'vkvd127.mycdn.me', 'skip-cert-verify': true}
+- {'name': '8|未命名 #2', 'server': '185.180.13.70', 'port': 43118, 'type': 'trojan', 'password': 'ypDt8RkT7J', 'sni': 'earya.phooeyunfold.com'}
 - {'name': '10|🇭🇰 香港KT|@ripaojiedian', 'server': '36.232.27.161', 'port': 8443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'a-wym4ovY4Yw'}
 - {'name': '10|🇭🇰 香港2|@ripaojiedian', 'server': '183.238.202.173', 'port': 51193, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
 - {'name': '10,11|香港4|@ripaojiedian', 'server': '183.232.139.22', 'port': 4027, 'type': 'trojan', 'password': 'RmdXQRXg', 'skip-cert-verify': true}

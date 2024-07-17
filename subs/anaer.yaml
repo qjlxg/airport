@@ -132,6 +132,8 @@ proxies:
 - {'name': '美国 013', 'type': 'vmess', 'network': 'ws', 'server': '172.64.175.213', 'port': 2052, 'uuid': 'd6b6d982-d52f-465a-b988-85670b23f64a', 'skip-cert-verify': false, 'tls': false, 'alterId': 0, 'cipher': 'auto', 'ws-opts': {'headers': {'Host': 'cdn1.freegradely.xyz'}, 'path': '/'}}
 - {'name': '美国 014', 'type': 'vmess', 'network': 'ws', 'server': 'hcaptcha.com', 'port': 80, 'uuid': 'e7f05a4a-0032-325b-b421-a1c25b428ce0', 'skip-cert-verify': false, 'tls': false, 'alterId': 0, 'cipher': 'auto', 'ws-opts': {'headers': {'Host': 'BAIUS1.ssl12.xyz'}, 'path': '/'}}
 - {'name': '加拿大 008', 'type': 'vmess', 'network': 'ws', 'server': '104.19.58.175', 'port': 2052, 'uuid': 'd6b6d982-d52f-465a-b988-85670b23f64a', 'skip-cert-verify': false, 'tls': false, 'alterId': 0, 'cipher': 'auto', 'ws-opts': {'headers': {'Host': 'cdn1.freegradely.xyz'}, 'path': '/'}}
+- {'name': '加拿大 001', 'type': 'vmess', 'network': 'ws', 'server': '104.19.55.79', 'port': 2052, 'uuid': 'd6b6d982-d52f-465a-b988-85670b23f64a', 'skip-cert-verify': false, 'tls': false, 'alterId': 0, 'cipher': 'auto', 'ws-opts': {'headers': {'Host': 'cdn3.freegradely.xyz'}, 'path': '/'}}
+- {'name': '加拿大 004', 'type': 'vmess', 'network': 'ws', 'server': '104.20.25.146', 'port': 2052, 'uuid': 'd6b6d982-d52f-465a-b988-85670b23f64a', 'skip-cert-verify': false, 'tls': false, 'alterId': 0, 'cipher': 'auto', 'ws-opts': {'headers': {'Host': 'cdn1.freegradely.xyz'}, 'path': '/'}}
 
 
 # 代理组

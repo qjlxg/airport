@@ -95,7 +95,8 @@ proxies:
 - {'name': '12|SG_speednode_0214', 'server': 'usa.lydurlclub.top', 'port': 443, 'type': 'trojan', 'password': 'b06d7f06-51ba-402d-991a-3fe1e432247c', 'skip-cert-verify': true}
 - {'name': '12|SG_speednode_0215', 'server': '5.44.249.43', 'port': 3306, 'type': 'trojan', 'password': '7b06d22a8a7c764f', 'sni': 'n2.gladns.com', 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/gateway/connect', 'headers': {'Host': 'n2.gladns.com'}}}
 - {'name': '12|US_speednode_0265', 'server': 'hk-2-ddns.sudatech.store', 'port': 40021, 'type': 'trojan', 'password': 'e261dc84-1b52-42db-859a-ed575e0876fa', 'sni': 'vpn-4-1.sudatech.store', 'skip-cert-verify': true}
-- {'name': '13|d*********g.com_3 #4', 'server': '141.11.125.53', 'port': 36467, 'type': 'vmess', 'uuid': 'ad12d0fc-86b2-46e5-8694-2cf963879476', 'alterId': 0, 'cipher': 'auto', 'tls': false}
+- {'name': '13|d*********g.com_2 #4', 'server': '42.236.73.72', 'port': 443, 'type': 'vmess', 'uuid': '044f0177-0675-4dcf-89d4-804b6788e518', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'www.zitian.cn'}
+- {'name': '13|d*********g.com_3 #4', 'server': '42.236.73.72', 'port': 443, 'type': 'trojan', 'password': 'fuck', 'sni': 'www.zitian.cn'}
 
 
 # 代理组

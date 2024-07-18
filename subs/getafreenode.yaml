@@ -38,8 +38,8 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': 'Frankfurt-GetAFreeNode.com', 'server': '45.142.113.238', 'port': 42411, 'type': 'vmess', 'uuid': '54732a7f-21da-4d30-8b85-f35826df865a', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'dxobG4aZmk.gafnode.sbs', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'dxobG4aZmk.gafnode.sbs'}}}
-- {'name': 'Wien-GetAFreeNode.com', 'server': '152.53.0.187', 'port': 46357, 'type': 'vmess', 'uuid': '54732a7f-21da-4d30-8b85-f35826df865a', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'dxobG4aZmk.gafnode.sbs', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'dxobG4aZmk.gafnode.sbs'}}}
+- {'name': 'Frankfurt-GetAFreeNode.com', 'server': '45.142.113.238', 'port': 42411, 'type': 'vmess', 'uuid': 'c8b94541-5967-4311-a767-2a78d05b076b', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'dxobG4aZmk.gafnode.sbs', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'dxobG4aZmk.gafnode.sbs'}}}
+- {'name': 'Wien-GetAFreeNode.com', 'server': '152.53.0.187', 'port': 46357, 'type': 'vmess', 'uuid': 'c8b94541-5967-4311-a767-2a78d05b076b', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'dxobG4aZmk.gafnode.sbs', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'dxobG4aZmk.gafnode.sbs'}}}
 
 
 # 代理组

@@ -38,8 +38,11 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '美国 CloudFlare节点', 'server': '104.19.46.33', 'port': 2086, 'type': 'vmess', 'uuid': 'e9e3cc13-db48-4cc1-8c24-7626439a5339', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'ip13.freegradely.xyz'}}}
-- {'name': '广东省 移动', 'server': '183.238.202.173', 'port': 51193, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
+- {'name': '美国 CloudFlare节点', 'server': '104.19.47.54', 'port': 8080, 'type': 'vmess', 'uuid': 'b551aa22-22af-11ee-b8d8-f23c932eb68d', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/?ed=2048&Telegram🇨🇳 @WangCai2', 'headers': {'Host': 'oiictw.yydsii.com'}}}
+- {'name': '美国 CloudFlare节点 2', 'server': '172.67.185.242', 'port': 8080, 'type': 'vmess', 'uuid': 'b551aa22-22af-11ee-b8d8-f23c932eb68d', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'oiictw.yydsii.com'}}}
+- {'name': '美国 CloudFlare节点 3', 'server': '104.19.47.83', 'port': 8080, 'type': 'vmess', 'uuid': 'b551aa22-22af-11ee-b8d8-f23c932eb68d', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/?ed=2048&Telegram🇨🇳 @WangCai2', 'headers': {'Host': 'oiictw.yydsii.com'}}}
+- {'name': '美国 CloudFlare节点 4', 'server': '104.19.47.129', 'port': 8080, 'type': 'vmess', 'uuid': 'b551aa22-22af-11ee-b8d8-f23c932eb68d', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/?ed=2048&Telegram🇨🇳 @WangCai2', 'headers': {'Host': 'oiictw.yydsii.com'}}}
+- {'name': '美国 CloudFlare节点 5', 'server': '104.19.47.207', 'port': 8080, 'type': 'vmess', 'uuid': 'b551aa22-22af-11ee-b8d8-f23c932eb68d', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/?ed=2048&Telegram🇨🇳 @WangCai2', 'headers': {'Host': 'oiictw.yydsii.com'}}}
 
 
 # 代理组

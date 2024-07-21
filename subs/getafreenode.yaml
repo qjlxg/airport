@@ -38,10 +38,10 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': 'Amsterdam-GetAFreeNode.com', 'server': '37.114.60.196', 'port': 63452, 'type': 'vmess', 'uuid': 'fa2bfdf9-c395-4613-97c9-f2d630ac452d', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'dxobG4aZmk.gafnode.sbs', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'dxobG4aZmk.gafnode.sbs'}}}
-- {'name': 'Wien-GetAFreeNode.com', 'server': '152.53.0.187', 'port': 43198, 'type': 'vmess', 'uuid': 'fa2bfdf9-c395-4613-97c9-f2d630ac452d', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'dxobG4aZmk.gafnode.sbs', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'dxobG4aZmk.gafnode.sbs'}}}
-- {'name': 'Frankfurt-GetAFreeNode.com', 'server': '45.142.113.238', 'port': 61242, 'type': 'vmess', 'uuid': 'fa2bfdf9-c395-4613-97c9-f2d630ac452d', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'dxobG4aZmk.gafnode.sbs', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'dxobG4aZmk.gafnode.sbs'}}}
-- {'name': 'LosAngeles-GetAFreeNode.com', 'server': '107.172.235.75', 'port': 36663, 'type': 'vmess', 'uuid': 'fa2bfdf9-c395-4613-97c9-f2d630ac452d', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'dxobG4aZmk.gafnode.sbs', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'dxobG4aZmk.gafnode.sbs'}}}
+- {'name': 'Wien-GetAFreeNode.com', 'server': '152.53.0.187', 'port': 43198, 'type': 'vmess', 'uuid': '9cef258e-114c-47a0-9a1b-1ac558a43507', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'dxobG4aZmk.gafnode.sbs', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'dxobG4aZmk.gafnode.sbs'}}}
+- {'name': 'Frankfurt-GetAFreeNode.com', 'server': '45.142.113.238', 'port': 61242, 'type': 'vmess', 'uuid': '9cef258e-114c-47a0-9a1b-1ac558a43507', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'dxobG4aZmk.gafnode.sbs', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'dxobG4aZmk.gafnode.sbs'}}}
+- {'name': 'Amsterdam-GetAFreeNode.com', 'server': '37.114.60.196', 'port': 63452, 'type': 'vmess', 'uuid': '9cef258e-114c-47a0-9a1b-1ac558a43507', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'dxobG4aZmk.gafnode.sbs', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'dxobG4aZmk.gafnode.sbs'}}}
+- {'name': 'LosAngeles-GetAFreeNode.com', 'server': '107.172.235.75', 'port': 36663, 'type': 'vmess', 'uuid': '9cef258e-114c-47a0-9a1b-1ac558a43507', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'dxobG4aZmk.gafnode.sbs', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'dxobG4aZmk.gafnode.sbs'}}}
 
 
 # 代理组

@@ -39,20 +39,20 @@ geox-url:
 # 代理
 proxies: 
 - {'name': '香港KT|@ripaojiedian', 'server': '36.232.48.74', 'port': 8443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'a-wym4ovY4Yw', 'plugin': 'v2ray-plugin', 'plugin-opts': {'mode': 'websocket', 'host': 'a1.wagaga.online', 'path': '', 'tls': true, 'mux': true}}
-- {'name': '香港|@ripaojiedian', 'server': 'aa01gg.sssyun.xyz', 'port': 39301, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'b0549224-831d-4cba-bab9-94fdc6a1327e'}
+- {'name': '香港|@ripaojiedian', 'server': 'aa01gg.sssyun.xyz', 'port': 39301, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '5bb63601-bac8-40fd-9dc4-92de6e6ecd33'}
 - {'name': '香港2|@ripaojiedian', 'server': '183.236.51.23', 'port': 45020, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
 - {'name': '香港3|@ripaojiedian', 'server': '22.6bnw.top', 'port': 2052, 'type': 'vmess', 'uuid': 'b0549224-831d-4cba-bab9-94fdc6a1327e', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/cctv?ed=2048', 'headers': {'Host': 'polohk.6bnw.top'}}}
 - {'name': '香港4|@ripaojiedian', 'server': '36.151.195.77', 'port': 20819, 'type': 'trojan', 'password': 'MfqALmAJ', 'skip-cert-verify': true}
+- {'name': '香港5|@ripaojiedian', 'server': 'in06.dns2024.org', 'port': 63090, 'type': 'vmess', 'uuid': 'e8e6f618-842c-33d4-9a9f-7827614a6bf9', 'alterId': 0, 'cipher': 'auto', 'tls': false}
 - {'name': '香港R|@ripaojiedian', 'server': '59.56.77.178', 'port': 15001, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'hGkQ6915tD'}
-- {'name': '台湾|@ripaojiedian', 'server': 'aa01gg.sssyun.xyz', 'port': 32207, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'b0549224-831d-4cba-bab9-94fdc6a1327e'}
+- {'name': '台湾|@ripaojiedian', 'server': 'aa01gg.sssyun.xyz', 'port': 32207, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '5bb63601-bac8-40fd-9dc4-92de6e6ecd33'}
 - {'name': '日本|@ripaojiedian', 'server': '36.151.195.77', 'port': 31666, 'type': 'trojan', 'password': 'MfqALmAJ', 'skip-cert-verify': true}
 - {'name': '日本2|@ripaojiedian', 'server': 'in06.dns2024.org', 'port': 63011, 'type': 'vmess', 'uuid': 'e8e6f618-842c-33d4-9a9f-7827614a6bf9', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'jp-a-mugua.weibo-cdn.best'}}}
-- {'name': '日本3|@ripaojiedian', 'server': 'hna.lightssocks.com', 'port': 33334, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'WcilR7WG'}
+- {'name': '日本3|@ripaojiedian', 'server': 'aa01gg.sssyun.xyz', 'port': 19529, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '5bb63601-bac8-40fd-9dc4-92de6e6ecd33'}
 - {'name': '日本4|@ripaojiedian', 'server': '4.6bnw.top', 'port': 2052, 'type': 'vmess', 'uuid': 'b0549224-831d-4cba-bab9-94fdc6a1327e', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/?ed=2560', 'headers': {'Host': 'yuwanjp.6bnw.top'}}}
 - {'name': '日本R|@ripaojiedian', 'server': '59.56.77.178', 'port': 15084, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'hGkQ6915tD'}
-- {'name': '韩国|@ripaojiedian', 'server': 'in06.dns2024.org', 'port': 63097, 'type': 'vmess', 'uuid': 'e8e6f618-842c-33d4-9a9f-7827614a6bf9', 'alterId': 0, 'cipher': 'auto', 'tls': false}
-- {'name': '韩国2|@ripaojiedian', 'server': 'aa01gg.sssyun.xyz', 'port': 39202, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'b0549224-831d-4cba-bab9-94fdc6a1327e'}
-- {'name': '新加坡|@ripaojiedian', 'server': 'aa01gg.sssyun.xyz', 'port': 39204, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'b0549224-831d-4cba-bab9-94fdc6a1327e'}
+- {'name': '韩国2|@ripaojiedian', 'server': 'aa01gg.sssyun.xyz', 'port': 39202, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '5bb63601-bac8-40fd-9dc4-92de6e6ecd33'}
+- {'name': '新加坡|@ripaojiedian', 'server': 'aa01gg.sssyun.xyz', 'port': 39204, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '5bb63601-bac8-40fd-9dc4-92de6e6ecd33'}
 - {'name': '美国|@ripaojiedian', 'server': '104.19.51.232', 'port': 2086, 'type': 'vmess', 'uuid': '29eebb60-b27b-4a9d-bba5-947763d9205e', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'ip005.dtku47.xyz'}}}
 - {'name': '美国2|@ripaojiedian', 'server': '120.232.153.37', 'port': 42055, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
 - {'name': '美国3|@ripaojiedian', 'server': 'tubular.wireshop.net', 'port': 443, 'type': 'trojan', 'password': 'Z3FSA9weaaRYpN89weaaRYpN89weaaRYpN80CDYFOxS5TSBqlCyAaXzaXzc7ZpngISBqlCyAaXzc7Zp', 'sni': 'tubular.wireshop.net'}

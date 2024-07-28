@@ -2,24 +2,23 @@
 ```mermaid
 pie showData
 title 延迟分布
-"147-247ms" : 46
-"247-347ms" : 65
-"347-447ms" : 59
-"447-547ms" : 34
-"547-647ms" : 67
-"647-747ms" : 78
-"747-847ms" : 51
+"246-346ms" : 30
+"346-446ms" : 35
+"446-546ms" : 26
+"546-646ms" : 39
+"646-746ms" : 38
+"746-846ms" : 29
 ```
 ```mermaid
 pie showData
 title 地域分布
-"未知" : 400
+"未知" : 197
 ```
 ```mermaid
 pie showData
 title 协议分布
-"ss" : 171
-"ssr" : 52
-"vless" : 161
-"trojan" : 16
+"ssr" : 49
+"vless" : 103
+"ss" : 39
+"trojan" : 6
 ```

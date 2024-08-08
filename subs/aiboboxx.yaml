@@ -39,6 +39,7 @@ geox-url:
 # 代理
 proxies: 
 - {'name': '高性价比机场:https://kfyun.uk', 'server': '127.0.0.1', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': '6601fb90e9b3'}
+- {'name': '0|-https://t.me/MrXbin-8', 'server': '95.164.44.140', 'port': 80, 'type': 'vmess', 'uuid': '7e7325be-5c04-400a-9f11-e7f51c9cb1a9', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/vmess', 'headers': {'Host': 'wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc'}}}
 - {'name': '2|d*********g.com_0', 'server': '104.19.51.232', 'port': 2086, 'type': 'vmess', 'uuid': '29eebb60-b27b-4a9d-bba5-947763d9205e', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'servername': 'ip006.freegradely.xyz', 'network': 'ws', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'ip006.freegradely.xyz'}}}
 - {'name': '2|d*********g.com_1', 'server': '23.227.38.5', 'port': 2086, 'type': 'vmess', 'uuid': '29eebb60-b27b-4a9d-bba5-947763d9205e', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'servername': 'ip006.freegradely.xyz', 'network': 'ws', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'ip006.freegradely.xyz'}}}
 - {'name': '2|d*********g.com_2', 'server': '104.16.148.244', 'port': 2086, 'type': 'vmess', 'uuid': '29eebb60-b27b-4a9d-bba5-947763d9205e', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'servername': 'ip006.freegradely.xyz', 'network': 'ws', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'ip006.freegradely.xyz'}}}

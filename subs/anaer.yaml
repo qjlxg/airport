@@ -221,7 +221,6 @@ proxies:
 - {'name': '韩国 002', 'type': 'trojan', 'network': 'ws', 'server': '152.70.239.134', 'port': 34237, 'password': 'moist', 'skip-cert-verify': true, 'udp': true, 'sni': 'trojan.freenods.sbs', 'ws-opts': {'headers': {'Host': 'trojan.freenods.sbs'}, 'path': '/'}}
 - {'name': '美国 020', 'type': 'vmess', 'network': 'tcp', 'server': 'MI.HUY.OVH', 'port': 38414, 'uuid': '8114cffb-928f-4ce1-a376-d48546573fcb', 'skip-cert-verify': true, 'alterId': 0, 'cipher': 'auto', 'delay': 736}
 - {'name': '美国 021', 'type': 'vmess', 'network': 'tcp', 'server': 'MI.HUY.OVH', 'port': 38406, 'uuid': '8114cffb-928f-4ce1-a376-d48546573fcb', 'skip-cert-verify': true, 'alterId': 0, 'cipher': 'auto', 'delay': 576}
-- {'name': '美国 015', 'type': 'vmess', 'network': 'ws', 'server': 'malaysia.com', 'port': 2086, 'uuid': 'e9e3cc13-db48-4cc1-8c24-7626439a5339', 'skip-cert-verify': false, 'tls': false, 'alterId': 0, 'cipher': 'auto', 'ws-opts': {'headers': {'Host': 'ip1.1789034.xyz'}, 'path': '/'}}
 - {'name': '韩国 004', 'type': 'vmess', 'network': 'ws', 'server': 'usd6.uuuuu.fn-node.shop', 'port': 30056, 'uuid': '87a3ec4e-9000-4ab1-b2a4-aa28f25db530', 'skip-cert-verify': false, 'tls': true, 'alterId': 0, 'cipher': 'auto', 'ws-opts': {'headers': {'Host': 'us06.fnnoda.shop'}, 'path': '/'}}
 - {'name': '加拿大 016', 'type': 'vmess', 'network': 'ws', 'server': '172.67.138.69', 'port': 80, 'uuid': '8639e52b-a0ce-5d68-b465-b594881feb78', 'skip-cert-verify': false, 'tls': false, 'alterId': 0, 'cipher': 'auto', 'ws-opts': {'headers': {'Host': 'De1.vmess.site.'}, 'path': '/'}}
 - {'name': '加拿大 018', 'type': 'vmess', 'network': 'ws', 'server': 'parsvds.ir', 'port': 80, 'uuid': '8639e52b-a0ce-5d68-b465-b594881feb78', 'skip-cert-verify': false, 'tls': false, 'alterId': 0, 'cipher': 'auto', 'ws-opts': {'headers': {'Host': 'De1.vmess.site.'}, 'path': '/'}}
@@ -253,6 +252,7 @@ proxies:
 - {'name': '美国 009', 'type': 'vless', 'network': 'ws', 'server': '47.236.144.208', 'port': 2052, 'uuid': '05fc5a1e-d306-4e14-9781-ba563fa3aca9', 'servername': 'vless1.xiaomayi0804.workers.dev', 'tls': false, 'udp': true, 'ws-opts': {'headers': {'Host': 'vless1.xiaomayi0804.workers.dev'}, 'path': '/?ed=2048'}}
 - {'name': '香港 006', 'type': 'vless', 'network': 'ws', 'server': '8.218.211.17', 'port': 2052, 'uuid': '05fc5a1e-d306-4e14-9781-ba563fa3aca9', 'servername': 'vless1.xiaomayi0804.workers.dev', 'tls': false, 'udp': true, 'ws-opts': {'headers': {'Host': 'vless1.xiaomayi0804.workers.dev'}, 'path': '/?ed=2048'}}
 - {'name': '加拿大 004', 'type': 'vless', 'network': 'ws', 'server': 'q.achen.link', 'port': 80, 'uuid': '05fc5a1e-d306-4e14-9781-ba563fa3aca9', 'servername': 'vless1.xiaomayi0804.workers.dev', 'tls': false, 'udp': true, 'ws-opts': {'headers': {'Host': 'vless1.xiaomayi0804.workers.dev'}, 'path': '/?ed=2048'}}
+- {'name': '日本 002', 'type': 'vless', 'network': 'ws', 'server': 'bestproxy.onecf.eu.org', 'port': 2052, 'uuid': '05fc5a1e-d306-4e14-9781-ba563fa3aca9', 'servername': 'vless1.xiaomayi0804.workers.dev', 'tls': false, 'udp': true, 'ws-opts': {'headers': {'Host': 'vless1.xiaomayi0804.workers.dev'}, 'path': '/?ed=2048'}}
 
 
 # 代理组

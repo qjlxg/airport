@@ -39,27 +39,15 @@ geox-url:
 # 代理
 proxies: 
 - {'name': 'TG:@hkaa0|加拿大', 'server': '142.4.216.225', 'port': 80, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'JIhN6rBKkaEboLNXVSv5rq'}
-- {'name': 'TG:@hkaa0|美国', 'server': '38.110.1.105', 'port': 5004, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'g5MeD6Ft3CWlJId'}
-- {'name': 'TG:@hkaa0|美国 2', 'server': '38.110.1.105', 'port': 5498, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'lGqs95QkFHo2NV'}
-- {'name': 'TG:@hkaa0|美国 3', 'server': '38.110.1.105', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'pKEW8JPByTVTLtM'}
-- {'name': 'TG:@hkaa0|美国 4', 'server': '38.110.1.105', 'port': 8118, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'cdBIDV42DCwnfIN'}
-- {'name': 'TG:@hkaa0|美国 5', 'server': '38.110.1.105', 'port': 5601, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC'}
-- {'name': 'TG:@hkaa0|美国 6', 'server': '38.110.1.105', 'port': 8080, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'KixLvKzwjekG00rm'}
-- {'name': 'TG:@hkaa0|美国 7', 'server': '38.110.1.105', 'port': 9101, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'e4FCWrgpkji3QY'}
-- {'name': 'TG:@hkaa0|美国 8', 'server': '38.110.1.105', 'port': 7307, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FoOiGlkAA9yPEGP'}
-- {'name': 'TG:@hkaa0|美国 9', 'server': '38.110.1.105', 'port': 5003, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'g5MeD6Ft3CWlJId'}
-- {'name': 'TG:@hkaa0|美国 10', 'server': '38.110.1.105', 'port': 8009, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'XKFKl2rULjIp74'}
-- {'name': 'TG:@hkaa0|美国 11', 'server': '38.110.1.105', 'port': 8000, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'KixLvKzwjekG00rm'}
-- {'name': 'TG:@hkaa0|美国 12', 'server': '38.110.1.105', 'port': 8119, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'cdBIDV42DCwnfIN'}
-- {'name': 'TG:@hkaa0|美国 13', 'server': '38.110.1.105', 'port': 9102, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'e4FCWrgpkji3QY'}
-- {'name': 'TG:@hkaa0|俄罗斯', 'server': '193.233.193.111', 'port': 33708, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'Qkp2G5eizcw8XgTcGFhbME'}
-- {'name': 'TG:@hkaa0|美国 14', 'server': '104.19.51.232', 'port': 2086, 'type': 'vmess', 'uuid': '29eebb60-b27b-4a9d-bba5-947763d9205e', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'ip005.dtku47.xyz'}}}
-- {'name': 'TG:@hkaa0|美国 15', 'server': '104.26.0.56', 'port': 2086, 'type': 'vmess', 'uuid': 'e9e3cc13-db48-4cc1-8c24-7626439a5339', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'ip14.freegradely.xyz'}}}
-- {'name': 'TG:@hkaa0|美国 16', 'server': 'kt01.898965.xyz', 'port': 2052, 'type': 'vmess', 'uuid': '1b7eac5b-476b-4433-bb43-720e659e01ae', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'kt01.898965.xyz'}}}
-- {'name': 'TG:@hkaa0|美国 17', 'server': 'cfcdn1.sanfencdn9.com', 'port': 2052, 'type': 'vmess', 'uuid': '823b4a45-8728-425b-abb4-2d9ea30fd61e', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/video/6VBhAkCtV4/', 'headers': {'Host': 'us1cPZiz8nb.fzbqfrse.xyz'}}}
-- {'name': 'TG:@hkaa0|中国', 'server': 'mmjp11.micloud.buzz', 'port': 46011, 'type': 'vmess', 'uuid': '638501f6-0ba0-47cb-bcfe-200cc1169e81', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/zh-cn', 'headers': {'Host': 'mmjp11.micloud.buzz'}}}
-- {'name': 'TG:@hkaa0|美国 18', 'server': '104.21.8.157', 'port': 2082, 'type': 'vmess', 'uuid': '112ac36f-3f53-4e26-8371-d25c028e1b9a', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 's1c.v2.v001sss.xyz'}}}
-- {'name': 'TG:@hkaa0|美国 19', 'server': 'cfcdn2.sanfencdn9.com', 'port': 2052, 'type': 'vmess', 'uuid': '823b4a45-8728-425b-abb4-2d9ea30fd61e', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/video/u4eCZTxW', 'headers': {'Host': 'jpafzyhfsg3.yofnhkfc.xyz'}}}
+- {'name': 'TG:@hkaa0|美国', 'server': '104.19.51.232', 'port': 2086, 'type': 'vmess', 'uuid': '29eebb60-b27b-4a9d-bba5-947763d9205e', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'ip005.dtku47.xyz'}}}
+- {'name': 'TG:@hkaa0|美国 2', 'server': '104.26.0.56', 'port': 2086, 'type': 'vmess', 'uuid': 'e9e3cc13-db48-4cc1-8c24-7626439a5339', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'ip14.freegradely.xyz'}}}
+- {'name': 'TG:@hkaa0|美国 3', 'server': '104.21.8.157', 'port': 2082, 'type': 'vmess', 'uuid': '112ac36f-3f53-4e26-8371-d25c028e1b9a', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 's1c.v2.v001sss.xyz'}}}
+- {'name': 'TG:@hkaa0|美国 4', 'server': '45.86.73.194', 'port': 17327, 'type': 'vmess', 'uuid': '8904baaf-c5cb-486c-ffab-caa7463467d8', 'alterId': 0, 'cipher': 'auto', 'tls': false}
+- {'name': 'TG:@hkaa0|美国 5', 'server': '23.162.200.227', 'port': 443, 'type': 'vmess', 'uuid': '03fcc618-b93d-6796-6aed-8a38c975d581', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/linkvws'}}
+- {'name': 'TG:@hkaa0|乌克兰', 'server': 'cn1.cdn.xfltd-cdn.top', 'port': 12012, 'type': 'trojan', 'password': '3698a3e7-2877-4ded-a665-d81ee3cfd449', 'sni': 'cn1.cdn.xfltd-cdn.top', 'skip-cert-verify': true}
+- {'name': 'TG:@hkaa0|美国 6', 'server': 'jp.mjt000.com', 'port': 443, 'type': 'trojan', 'password': '6ffa0d17-129b-44fd-9271-804c4b4a0cac', 'skip-cert-verify': true}
+- {'name': 'TG:@hkaa0|美国 7', 'server': 'sg1.1vpn.sbs', 'port': 443, 'type': 'vmess', 'uuid': '1335b461-4941-4d13-936b-76a16eec9ad6', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/oihuih6788', 'headers': {'Host': 'sg1.1vpn.sbs'}}}
+- {'name': 'TG:@hkaa0|英国', 'server': '212.102.53.79', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'shadowsocks'}
 
 
 # 代理组

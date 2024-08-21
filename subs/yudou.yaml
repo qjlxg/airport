@@ -38,34 +38,34 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '美国(yudou66.com 玉豆免费节点)', 'server': 'malaysia.com', 'port': 2086, 'type': 'vmess', 'uuid': 'e9e3cc13-db48-4cc1-8c24-7626439a5339', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-path': 'github.com/Alvin9999', 'ws-headers': {'Host': 'ip1.1789034.xyz'}, 'udp': true}
-- {'name': '美国(yudou66.com 玉豆免费节点) 2', 'server': 'fbi.gov', 'port': 2086, 'type': 'vmess', 'uuid': 'e9e3cc13-db48-4cc1-8c24-7626439a5339', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-path': 'github.com/Alvin9999', 'ws-headers': {'Host': 'ip1.1789034.xyz'}, 'udp': true}
-- {'name': '美国(yudou66.com 玉豆免费节点) 3', 'server': '104.19.47.45', 'port': 2086, 'type': 'vmess', 'uuid': 'e9e3cc13-db48-4cc1-8c24-7626439a5339', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-path': 'github.com/Alvin9999', 'ws-headers': {'Host': 'ip14.freegradely.xyz'}, 'udp': true}
-- {'name': '美国(yudou66.com 玉豆免费节点) 4', 'server': '183.236.51.23', 'port': 54104, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
-- {'name': '韩国(yudou66.com 玉豆免费节点)', 'server': '218.158.87.155', 'port': 11423, 'type': 'trojan', 'password': 'CMLiu', 'skip-cert-verify': true, 'udp': true}
-- {'name': '美国(yudou66.com 玉豆免费节点) 5', 'server': 'japan.com', 'port': 2086, 'type': 'vmess', 'uuid': 'e9e3cc13-db48-4cc1-8c24-7626439a5339', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-path': 'github.com/Alvin9999', 'ws-headers': {'Host': 'ip1.1789034.xyz'}, 'udp': true}
-- {'name': '美国(yudou66.com 玉豆免费节点) 6', 'server': 'mmhk01.micloud.buzz', 'port': 46001, 'type': 'vmess', 'uuid': '58ffeca7-7e75-417f-bbac-7b1041ce616d', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-path': '/zh-cn', 'ws-headers': {'Host': 'mmhk01.micloud.buzz'}, 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点)', 'server': '54.37.18.75', 'port': 5500, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'KixLvKzwjekG00rm', 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 2', 'server': '54.37.18.75', 'port': 5498, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'lGqs95QkFHo2NV', 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 3', 'server': 'mmhk01.micloud.buzz', 'port': 46001, 'type': 'vmess', 'uuid': '58ffeca7-7e75-417f-bbac-7b1041ce616d', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-path': '/zh-cn', 'ws-headers': {'Host': 'mmhk01.micloud.buzz'}, 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 4', 'server': 'ppg-other.05vr9nyqg5.download', 'port': 10838, 'type': 'trojan', 'password': '7d6d3b2a-2ff1-4f3c-8211-59ab84004233', 'sni': 'ppg-other.05vr9nyqg5.download', 'skip-cert-verify': true, 'udp': true}
+- {'name': '韩国(yudou66.com 玉豆免费节点)', 'server': '59.3.3.161', 'port': 443, 'type': 'trojan', 'password': 'CMLiu', 'skip-cert-verify': true, 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 5', 'server': 'wduzpt.gxcvbmj.xyz', 'port': 22238, 'type': 'vmess', 'uuid': '6ea392c2-0636-3d4f-a6a2-f38a76e216d3', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 6', 'server': 'rnus1.uaqserver.icu', 'port': 2083, 'type': 'vmess', 'uuid': '9e60f0f6-fb98-4edb-a191-e25b1cdbfcb0', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'skip-cert-verify': true, 'network': 'ws', 'ws-path': '/', 'ws-headers': {'Host': 'rnus1.uaqserver.icu'}, 'udp': true}
 - {'name': '澳洲(yudou66.com 玉豆免费节点)', 'server': '43.153.80.208', 'port': 443, 'type': 'trojan', 'password': 'CMLiu', 'skip-cert-verify': true, 'udp': true}
-- {'name': '美国(yudou66.com 玉豆免费节点) 7', 'server': 's1c.v2.v001sss.xyz', 'port': 2082, 'type': 'vmess', 'uuid': '112ac36f-3f53-4e26-8371-d25c028e1b9a', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-path': '/', 'ws-headers': {'Host': 's1c.v2.v001sss.xyz'}, 'udp': true}
-- {'name': '美国(yudou66.com 玉豆免费节点) 8', 'server': '152.42.252.70', 'port': 443, 'type': 'trojan', 'password': 'fQ84Q7A4dw', 'skip-cert-verify': true, 'udp': true}
-- {'name': '美国(yudou66.com 玉豆免费节点) 9', 'server': '54.37.18.75', 'port': 5004, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'g5MeD6Ft3CWlJId', 'udp': true}
-- {'name': '美国(yudou66.com 玉豆免费节点) 10', 'server': '54.37.18.75', 'port': 8888, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC', 'udp': true}
-- {'name': '美国(yudou66.com 玉豆免费节点) 11', 'server': '54.37.18.75', 'port': 5500, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'KixLvKzwjekG00rm', 'udp': true}
-- {'name': '美国(yudou66.com 玉豆免费节点) 12', 'server': '54.37.18.75', 'port': 5499, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'lGqs95QkFHo2NV', 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 7', 'server': 'russia.com', 'port': 8880, 'type': 'vmess', 'uuid': '06d65689-a12a-467c-9ff8-0363fe90c0b4', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-path': '/api/v3/download.getFile', 'ws-headers': {'Host': 'sssub.v2.001.ssrsub.com'}, 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 8', 'server': 's1c.v2.v001sss.xyz', 'port': 2082, 'type': 'vmess', 'uuid': '112ac36f-3f53-4e26-8371-d25c028e1b9a', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-path': '/', 'ws-headers': {'Host': 's1c.v2.v001sss.xyz'}, 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 9', 'server': '54.37.18.75', 'port': 8000, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'KixLvKzwjekG00rm', 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 10', 'server': '54.37.18.75', 'port': 5601, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC', 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 11', 'server': '54.37.18.75', 'port': 5003, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'g5MeD6Ft3CWlJId', 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 12', 'server': '152.42.252.70', 'port': 443, 'type': 'trojan', 'password': 'fQ84Q7A4dw', 'skip-cert-verify': true, 'udp': true}
 - {'name': '俄罗斯(yudou66.com 玉豆免费节点)', 'server': '62.133.60.60', 'port': 21712, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '6iCOjgGPbe0ad75UjLdItm', 'udp': true}
-- {'name': '美国(yudou66.com 玉豆免费节点) 13', 'server': '54.37.18.75', 'port': 5600, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC', 'udp': true}
-- {'name': '俄罗斯(yudou66.com 玉豆免费节点) 2', 'server': '85.159.228.23', 'port': 8443, 'type': 'trojan', 'password': 'CMLiu', 'skip-cert-verify': true, 'udp': true}
-- {'name': '美国(yudou66.com 玉豆免费节点) 14', 'server': '54.37.18.75', 'port': 5601, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC', 'udp': true}
+- {'name': '韩国(yudou66.com 玉豆免费节点) 2', 'server': '218.158.87.155', 'port': 11423, 'type': 'trojan', 'password': 'CMLiu', 'skip-cert-verify': true, 'udp': true}
 - {'name': '加拿大(yudou66.com 玉豆免费节点)', 'server': '66.235.200.0', 'port': 80, 'type': 'vmess', 'uuid': 'ec286f13-7e1a-42bc-9deb-76b91b4b9d2d', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-path': '/vmess#t-me-DarkVPNpro#t-me-DarkVPNpro#t-me-DarkVPNpro#t-me-DarkVPNpro', 'ws-headers': {'Host': 'tr1-vmess.ctunnel.xyz'}, 'udp': true}
-- {'name': '美国(yudou66.com 玉豆免费节点) 15', 'server': '54.37.18.75', 'port': 5498, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'lGqs95QkFHo2NV', 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 13', 'server': '54.37.18.75', 'port': 8888, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC', 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 14', 'server': '54.37.18.75', 'port': 5600, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC', 'udp': true}
+- {'name': '俄罗斯(yudou66.com 玉豆免费节点) 2', 'server': '85.159.228.23', 'port': 8443, 'type': 'trojan', 'password': 'CMLiu', 'skip-cert-verify': true, 'udp': true}
 - {'name': '加拿大(yudou66.com 玉豆免费节点) 2', 'server': '142.4.216.225', 'port': 80, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'JIhN6rBKkaEboLNXVSv5rq', 'udp': true}
-- {'name': '美国(yudou66.com 玉豆免费节点) 16', 'server': '54.37.18.75', 'port': 5003, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'g5MeD6Ft3CWlJId', 'udp': true}
-- {'name': '美国(yudou66.com 玉豆免费节点) 17', 'server': '54.37.18.75', 'port': 8000, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'KixLvKzwjekG00rm', 'udp': true}
-- {'name': '韩国(yudou66.com 玉豆免费节点) 2', 'server': '59.3.3.161', 'port': 443, 'type': 'trojan', 'password': 'CMLiu', 'skip-cert-verify': true, 'udp': true}
-- {'name': '美国(yudou66.com 玉豆免费节点) 18', 'server': 'russia.com', 'port': 8880, 'type': 'vmess', 'uuid': '06d65689-a12a-467c-9ff8-0363fe90c0b4', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-path': '/api/v3/download.getFile', 'ws-headers': {'Host': 'sssub.v2.001.ssrsub.com'}, 'udp': true}
-- {'name': '美国(yudou66.com 玉豆免费节点) 19', 'server': 'ip.sb', 'port': 2086, 'type': 'vmess', 'uuid': 'e9e3cc13-db48-4cc1-8c24-7626439a5339', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-path': 'github.com/Alvin9999', 'ws-headers': {'Host': 'ip1.1789034.xyz'}, 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 15', 'server': '54.37.18.75', 'port': 5499, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'lGqs95QkFHo2NV', 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 16', 'server': '54.37.18.75', 'port': 5004, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'g5MeD6Ft3CWlJId', 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 17', 'server': 'japan.com', 'port': 2086, 'type': 'vmess', 'uuid': 'e9e3cc13-db48-4cc1-8c24-7626439a5339', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-path': 'github.com/Alvin9999', 'ws-headers': {'Host': 'ip1.1789034.xyz'}, 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 18', 'server': 'ip.sb', 'port': 2086, 'type': 'vmess', 'uuid': 'e9e3cc13-db48-4cc1-8c24-7626439a5339', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-path': 'github.com/Alvin9999', 'ws-headers': {'Host': 'ip1.1789034.xyz'}, 'udp': true}
+- {'name': '美国(yudou66.com 玉豆免费节点) 19', 'server': '183.236.51.23', 'port': 54104, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'udp': true}
+- {'name': '俄罗斯(yudou66.com 玉豆免费节点) 3', 'server': '62.133.63.21', 'port': 65262, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'C3HcSaIm3ozPLDvixXksvg', 'udp': true}
 - {'name': '美国(yudou66.com 玉豆免费节点) 20', 'server': 'singapore.com', 'port': 2086, 'type': 'vmess', 'uuid': 'e9e3cc13-db48-4cc1-8c24-7626439a5339', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-path': 'github.com/Alvin9999', 'ws-headers': {'Host': 'ip1.1789034.xyz'}, 'udp': true}
-- {'name': '美国(yudou66.com 玉豆免费节点) 21', 'server': 'russia.com', 'port': 2086, 'type': 'vmess', 'uuid': 'e9e3cc13-db48-4cc1-8c24-7626439a5339', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'network': 'ws', 'ws-path': 'github.com/Alvin9999', 'ws-headers': {'Host': 'ip1.1789034.xyz'}, 'udp': true}
 
 
 # 代理组

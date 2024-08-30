@@ -38,38 +38,38 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '使用前请卸载反诈app', 'server': 'free.2weradf.xyz', 'port': 36141, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'fae94fca-c79d-450b-9466-058dba903ccf'}
-- {'name': '香港 02 | 1x HK', 'server': 'free.2weradf.xyz', 'port': 36143, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'fae94fca-c79d-450b-9466-058dba903ccf'}
-- {'name': '香港住宅IP 03 | 1x HK', 'server': 'free.2weradf.xyz', 'port': 36145, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'fae94fca-c79d-450b-9466-058dba903ccf'}
-- {'name': '台湾 01 | 1x TW', 'server': 'free.2weradf.xyz', 'port': 36241, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'fae94fca-c79d-450b-9466-058dba903ccf'}
-- {'name': '台湾 02 | 1x TW', 'server': 'free.2weradf.xyz', 'port': 36243, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'fae94fca-c79d-450b-9466-058dba903ccf'}
-- {'name': '台湾 03 | 1x TW', 'server': 'free.2weradf.xyz', 'port': 36245, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'fae94fca-c79d-450b-9466-058dba903ccf'}
-- {'name': '日本 01 | 1x JP', 'server': 'free.2weradf.xyz', 'port': 36111, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'fae94fca-c79d-450b-9466-058dba903ccf'}
-- {'name': '日本 02 | 1x JP', 'server': 'free.2weradf.xyz', 'port': 36113, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'fae94fca-c79d-450b-9466-058dba903ccf'}
-- {'name': '日本 03 | 1x JP', 'server': 'free.2weradf.xyz', 'port': 36115, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'fae94fca-c79d-450b-9466-058dba903ccf'}
-- {'name': '新加坡 01 | 1x SG', 'server': 'free.2weradf.xyz', 'port': 36171, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'fae94fca-c79d-450b-9466-058dba903ccf'}
-- {'name': '新加坡 02 | 1x SG', 'server': 'free.2weradf.xyz', 'port': 36173, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'fae94fca-c79d-450b-9466-058dba903ccf'}
-- {'name': '新加坡 03 | 1x SG', 'server': 'free.2weradf.xyz', 'port': 36175, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'fae94fca-c79d-450b-9466-058dba903ccf'}
-- {'name': '韩国 01 | 1x KR', 'server': 'free.2weradf.xyz', 'port': 36311, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'fae94fca-c79d-450b-9466-058dba903ccf'}
-- {'name': '韩国 02 | 1x KR', 'server': 'free.2weradf.xyz', 'port': 36313, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'fae94fca-c79d-450b-9466-058dba903ccf'}
-- {'name': '韩国 03 | 1x KR', 'server': 'free.2weradf.xyz', 'port': 36315, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'fae94fca-c79d-450b-9466-058dba903ccf'}
-- {'name': '菲律宾 01 | 1x PH', 'server': 'free.2weradf.xyz', 'port': 36341, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'fae94fca-c79d-450b-9466-058dba903ccf'}
-- {'name': '美国 01 | 1x US Los Angeles', 'server': 'free.2weradf.xyz', 'port': 36211, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'fae94fca-c79d-450b-9466-058dba903ccf'}
-- {'name': '美国住宅IP 02 | 1x US Los Angeles', 'server': 'free.2weradf.xyz', 'port': 36213, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'fae94fca-c79d-450b-9466-058dba903ccf'}
-- {'name': '美国 03 | 1x US Washington', 'server': 'free.2weradf.xyz', 'port': 36215, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'fae94fca-c79d-450b-9466-058dba903ccf'}
-- {'name': '英国住宅IP 01 | 1x UK', 'server': 'free.2weradf.xyz', 'port': 36271, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'fae94fca-c79d-450b-9466-058dba903ccf'}
-- {'name': '马来西亚 01 | 1x MY', 'server': 'free.2weradf.xyz', 'port': 36721, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'fae94fca-c79d-450b-9466-058dba903ccf'}
-- {'name': '西班牙 01 | 1x ES', 'server': 'free.2weradf.xyz', 'port': 36741, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'fae94fca-c79d-450b-9466-058dba903ccf'}
-- {'name': '泰国 01 | 1x TH', 'server': 'free.2weradf.xyz', 'port': 36731, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'fae94fca-c79d-450b-9466-058dba903ccf'}
-- {'name': '印度 01 | 1x IN', 'server': 'free.2weradf.xyz', 'port': 36371, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'fae94fca-c79d-450b-9466-058dba903ccf'}
-- {'name': '澳大利亚 01 | 1x AU', 'server': 'free.2weradf.xyz', 'port': 36411, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'fae94fca-c79d-450b-9466-058dba903ccf'}
-- {'name': '加拿大 01 | 1x CA', 'server': 'free.2weradf.xyz', 'port': 36441, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'fae94fca-c79d-450b-9466-058dba903ccf'}
-- {'name': '德国 01 | 1x DE', 'server': 'free.2weradf.xyz', 'port': 36471, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'fae94fca-c79d-450b-9466-058dba903ccf'}
-- {'name': '俄罗斯 01 | 1x RU', 'server': 'free.2weradf.xyz', 'port': 36511, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'fae94fca-c79d-450b-9466-058dba903ccf'}
-- {'name': '土耳其 01 | 1x TR', 'server': 'free.2weradf.xyz', 'port': 36571, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'fae94fca-c79d-450b-9466-058dba903ccf'}
-- {'name': '乌克兰 01 | 1x UA', 'server': 'free.2weradf.xyz', 'port': 36611, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'fae94fca-c79d-450b-9466-058dba903ccf'}
-- {'name': '越南 01 | 1x VN', 'server': 'free.2weradf.xyz', 'port': 36641, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'fae94fca-c79d-450b-9466-058dba903ccf'}
-- {'name': '巴西 01 | 1x BR', 'server': 'free.2weradf.xyz', 'port': 36671, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'fae94fca-c79d-450b-9466-058dba903ccf'}
+- {'name': '使用前请卸载反诈app', 'server': 'free.2weradf.xyz', 'port': 36141, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '031d419c-8540-4b1f-84ee-cc44719ceaab'}
+- {'name': '香港 02 | 1x HK', 'server': 'free.2weradf.xyz', 'port': 36143, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '031d419c-8540-4b1f-84ee-cc44719ceaab'}
+- {'name': '香港住宅IP 03 | 1x HK', 'server': 'free.2weradf.xyz', 'port': 36145, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '031d419c-8540-4b1f-84ee-cc44719ceaab'}
+- {'name': '台湾 01 | 1x TW', 'server': 'free.2weradf.xyz', 'port': 36241, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '031d419c-8540-4b1f-84ee-cc44719ceaab'}
+- {'name': '台湾 02 | 1x TW', 'server': 'free.2weradf.xyz', 'port': 36243, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '031d419c-8540-4b1f-84ee-cc44719ceaab'}
+- {'name': '台湾 03 | 1x TW', 'server': 'free.2weradf.xyz', 'port': 36245, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '031d419c-8540-4b1f-84ee-cc44719ceaab'}
+- {'name': '日本 01 | 1x JP', 'server': 'free.2weradf.xyz', 'port': 36111, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '031d419c-8540-4b1f-84ee-cc44719ceaab'}
+- {'name': '日本 02 | 1x JP', 'server': 'free.2weradf.xyz', 'port': 36113, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '031d419c-8540-4b1f-84ee-cc44719ceaab'}
+- {'name': '日本 03 | 1x JP', 'server': 'free.2weradf.xyz', 'port': 36115, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '031d419c-8540-4b1f-84ee-cc44719ceaab'}
+- {'name': '新加坡 01 | 1x SG', 'server': 'free.2weradf.xyz', 'port': 36171, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '031d419c-8540-4b1f-84ee-cc44719ceaab'}
+- {'name': '新加坡 02 | 1x SG', 'server': 'free.2weradf.xyz', 'port': 36173, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '031d419c-8540-4b1f-84ee-cc44719ceaab'}
+- {'name': '新加坡 03 | 1x SG', 'server': 'free.2weradf.xyz', 'port': 36175, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '031d419c-8540-4b1f-84ee-cc44719ceaab'}
+- {'name': '韩国 01 | 1x KR', 'server': 'free.2weradf.xyz', 'port': 36311, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '031d419c-8540-4b1f-84ee-cc44719ceaab'}
+- {'name': '韩国 02 | 1x KR', 'server': 'free.2weradf.xyz', 'port': 36313, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '031d419c-8540-4b1f-84ee-cc44719ceaab'}
+- {'name': '韩国 03 | 1x KR', 'server': 'free.2weradf.xyz', 'port': 36315, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '031d419c-8540-4b1f-84ee-cc44719ceaab'}
+- {'name': '菲律宾 01 | 1x PH', 'server': 'free.2weradf.xyz', 'port': 36341, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '031d419c-8540-4b1f-84ee-cc44719ceaab'}
+- {'name': '美国 01 | 1x US Los Angeles', 'server': 'free.2weradf.xyz', 'port': 36211, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '031d419c-8540-4b1f-84ee-cc44719ceaab'}
+- {'name': '美国住宅IP 02 | 1x US Los Angeles', 'server': 'free.2weradf.xyz', 'port': 36213, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '031d419c-8540-4b1f-84ee-cc44719ceaab'}
+- {'name': '美国 03 | 1x US Washington', 'server': 'free.2weradf.xyz', 'port': 36215, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '031d419c-8540-4b1f-84ee-cc44719ceaab'}
+- {'name': '英国住宅IP 01 | 1x UK', 'server': 'free.2weradf.xyz', 'port': 36271, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '031d419c-8540-4b1f-84ee-cc44719ceaab'}
+- {'name': '马来西亚 01 | 1x MY', 'server': 'free.2weradf.xyz', 'port': 36721, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '031d419c-8540-4b1f-84ee-cc44719ceaab'}
+- {'name': '西班牙 01 | 1x ES', 'server': 'free.2weradf.xyz', 'port': 36741, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '031d419c-8540-4b1f-84ee-cc44719ceaab'}
+- {'name': '泰国 01 | 1x TH', 'server': 'free.2weradf.xyz', 'port': 36731, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '031d419c-8540-4b1f-84ee-cc44719ceaab'}
+- {'name': '印度 01 | 1x IN', 'server': 'free.2weradf.xyz', 'port': 36371, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '031d419c-8540-4b1f-84ee-cc44719ceaab'}
+- {'name': '澳大利亚 01 | 1x AU', 'server': 'free.2weradf.xyz', 'port': 36411, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '031d419c-8540-4b1f-84ee-cc44719ceaab'}
+- {'name': '加拿大 01 | 1x CA', 'server': 'free.2weradf.xyz', 'port': 36441, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '031d419c-8540-4b1f-84ee-cc44719ceaab'}
+- {'name': '德国 01 | 1x DE', 'server': 'free.2weradf.xyz', 'port': 36471, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '031d419c-8540-4b1f-84ee-cc44719ceaab'}
+- {'name': '俄罗斯 01 | 1x RU', 'server': 'free.2weradf.xyz', 'port': 36511, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '031d419c-8540-4b1f-84ee-cc44719ceaab'}
+- {'name': '土耳其 01 | 1x TR', 'server': 'free.2weradf.xyz', 'port': 36571, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '031d419c-8540-4b1f-84ee-cc44719ceaab'}
+- {'name': '乌克兰 01 | 1x UA', 'server': 'free.2weradf.xyz', 'port': 36611, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '031d419c-8540-4b1f-84ee-cc44719ceaab'}
+- {'name': '越南 01 | 1x VN', 'server': 'free.2weradf.xyz', 'port': 36641, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '031d419c-8540-4b1f-84ee-cc44719ceaab'}
+- {'name': '巴西 01 | 1x BR', 'server': 'free.2weradf.xyz', 'port': 36671, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '031d419c-8540-4b1f-84ee-cc44719ceaab'}
 
 
 # 代理组

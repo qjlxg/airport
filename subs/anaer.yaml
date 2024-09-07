@@ -322,6 +322,12 @@ proxies:
 - {'name': '加拿大 082', 'type': 'vless', 'network': 'ws', 'server': '104.21.70.29', 'port': 80, 'uuid': 'ebbeeb9f-0842-5048-89b9-64643d3424e6', 'servername': 'sany.babaksalehi58.woRkeRs.dEv', 'tls': false, 'ws-opts': {'headers': {'Host': 'sany.babaksalehi58.woRkeRs.dEv'}, 'path': 'vless-ws/?ed=2560'}}
 - {'name': '加拿大 084', 'type': 'vless', 'network': 'ws', 'server': '104.19.46.194', 'port': 8080, 'uuid': 'd342d11e-d424-4583-b36e-524ab1f0afa4', 'servername': 'abaaba.9pcvkb68.workers.dev', 'tls': false, 'ws-opts': {'headers': {'Host': 'abaaba.9pcvkb68.workers.dev'}, 'path': '/?ed=2048'}}
 - {'name': '加拿大 087', 'type': 'vless', 'network': 'ws', 'server': '172.67.156.192', 'port': 8080, 'uuid': 'd69b66cb-5fe2-40b9-842b-1951982f80ae', 'servername': 'zebelkhan30.quysc64868.workers.dev', 'tls': false, 'ws-opts': {'headers': {'Host': 'zebelkhan30.quysc64868.workers.dev'}, 'path': '/?ed=2048'}}
+- {'name': '美国 019', 'type': 'vmess', 'network': 'ws', 'server': '172.64.198.249', 'port': 2086, 'uuid': 'e9e3cc13-db48-4cc1-8c24-7626439a5339', 'tls': false, 'alterId': 0, 'cipher': 'auto', 'ws-opts': {'headers': {'Host': 'ip1.1457230.xyz'}, 'path': 'github.com/Alvin9999'}}
+- {'name': '加拿大 089', 'type': 'vmess', 'network': 'ws', 'server': 'japan.com', 'port': 2086, 'uuid': 'e9e3cc13-db48-4cc1-8c24-7626439a5339', 'tls': false, 'alterId': 0, 'cipher': 'auto', 'ws-opts': {'headers': {'Host': 'ip1.1789034.xyz'}, 'path': 'github.com/Alvin9999'}}
+- {'name': '加拿大 090', 'type': 'vmess', 'network': 'ws', 'server': '104.19.45.222', 'port': 2095, 'uuid': '7a737f41-b792-4260-94ff-3d864da67b80', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'alterId': 0, 'cipher': 'auto', 'ws-opts': {'headers': {'Host': 'onea.flha.ru'}, 'path': '/'}}
+- {'name': '香港 003', 'type': 'vless', 'network': 'ws', 'server': '103.255.208.216', 'port': 443, 'uuid': 'd342d11e-d424-4583-b36e-524ab1f0afa4', 'servername': 'a.ssll.gay', 'skip-cert-verify': false, 'tls': true, 'udp': true, 'delay': 2547, 'ws-opts': {'headers': {'Host': 'a.ssll.gay'}, 'path': '/?ed=2048'}}
+- {'name': '法国 008', 'type': 'trojan', 'network': 'tcp', 'server': '15.236.121.179', 'port': 22222, 'password': 'telegram-id-privatevpns', 'udp': true, 'sni': 'trojan.burgerip.co.uk', 'delay': 916}
+- {'name': '爱尔兰 001', 'type': 'trojan', 'network': 'tcp', 'server': '46.137.162.158', 'port': 22222, 'password': 'telegram-id-privatevpns', 'udp': true, 'sni': 'trojan.burgerip.co.uk', 'delay': 2075}
 
 
 # 代理组

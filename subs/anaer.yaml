@@ -236,6 +236,10 @@ proxies:
 - {'name': '加拿大 011', 'type': 'vmess', 'network': 'ws', 'server': '172.66.213.38', 'port': 443, 'uuid': 'f584de15-2034-4170-a723-f48c2bae5e0f', 'skip-cert-verify': false, 'tls': true, 'alterId': 0, 'cipher': 'auto', 'ws-opts': {'headers': {'Host': 'green-morning-ce19.mehdipost667.workers.dev'}, 'path': '/'}}
 - {'name': '加拿大 013', 'type': 'vmess', 'network': 'ws', 'server': '188.114.97.21', 'port': 443, 'uuid': 'f584de15-2034-4170-a723-f48c2bae5e0f', 'skip-cert-verify': false, 'tls': true, 'alterId': 0, 'cipher': 'auto', 'ws-opts': {'headers': {'Host': 'afrhms16v.bestxray.buzz'}, 'path': '/'}}
 - {'name': '加拿大 017', 'type': 'vmess', 'network': 'ws', 'server': '104.19.47.77', 'port': 2086, 'uuid': 'e9e3cc13-db48-4cc1-8c24-7626439a5339', 'tls': false, 'alterId': 0, 'cipher': 'auto', 'ws-opts': {'headers': {'Host': 'ip14.freegradely.xyz'}, 'path': 'github.com/Alvin9999'}}
+- {'name': '韩国 003', 'type': 'vmess', 'network': 'ws', 'server': 'kr01.panghu.buzz', 'port': 41900, 'uuid': '7f1e0179-3a0c-4b73-8e47-23af361e903e', 'skip-cert-verify': true, 'alterId': 0, 'cipher': 'auto', 'ws-opts': {'headers': {'Host': 'bing.com'}, 'path': '/?ed=2560'}}
+- {'name': '台湾 003', 'type': 'vmess', 'network': 'tcp', 'server': 'tongyu.lt1122.com', 'port': 19333, 'uuid': '906e4d3f-3185-4c23-8464-23cee0da33c3', 'skip-cert-verify': true, 'alterId': 0, 'cipher': 'auto'}
+- {'name': '台湾 004', 'type': 'vmess', 'network': 'tcp', 'server': 'tongyu.lt1122.com', 'port': 19332, 'uuid': '906e4d3f-3185-4c23-8464-23cee0da33c3', 'skip-cert-verify': true, 'alterId': 0, 'cipher': 'auto'}
+- {'name': '加拿大 019', 'type': 'vmess', 'network': 'ws', 'server': 'jp2.1vpn.sbs', 'port': 80, 'uuid': '249daf1c-0cef-4772-b9f1-dadfaf989c56', 'tls': false, 'udp': true, 'alterId': 0, 'cipher': 'auto', 'ws-opts': {'headers': {'Host': 'jp2.1vpn.sbs'}, 'path': '/kiulujunuqs'}}
 
 
 # 代理组

@@ -236,6 +236,8 @@ proxies:
 - {'name': '瑞典 001', 'type': 'vmess', 'network': 'ws', 'server': '185.146.173.59', 'port': 80, 'uuid': '1052f24e-7b09-45eb-b0c5-d858eb124192', 'skip-cert-verify': false, 'tls': false, 'alterId': 0, 'cipher': 'auto', 'ws-opts': {'headers': {'Host': 'freevpn878.hamidimorteza680.workers.dev'}, 'path': '/'}}
 - {'name': '德国 004', 'type': 'vmess', 'network': 'ws', 'server': '91.149.232.50', 'port': 80, 'uuid': 'e5987bb7-3ed3-4e79-a4fe-00bf7fa12c01', 'tls': false, 'udp': true, 'alterId': 0, 'cipher': 'auto', 'ws-opts': {'headers': {'Host': 'duoguo.cdn-sgp.xyz'}, 'path': '/'}}
 - {'name': '加拿大 020', 'type': 'vmess', 'network': 'ws', 'server': '172.67.64.120', 'port': 80, 'uuid': 'd646fd8c-3405-40c4-8df8-fb85d6bf8b24', 'skip-cert-verify': false, 'tls': false, 'alterId': 0, 'cipher': 'auto', 'ws-opts': {'headers': {'Host': '58892877706648357761980405045364.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou'}, 'path': '/'}}
+- {'name': '加拿大 021', 'type': 'trojan', 'network': 'ws', 'server': '104.16.192.1', 'port': 443, 'password': '0ab6c98dae3b48e8b9c4a776b6c9c19a', 'udp': true, 'sni': 'sherasheba.com', 'alterId': -1, 'ws-opts': {'headers': {'Host': 'sherasheba.com'}, 'path': '/6b777a91'}}
+- {'name': '台湾 006', 'type': 'vmess', 'network': 'ws', 'server': '61.228.87.148', 'port': 16301, 'uuid': '75320f1d-c261-45b5-b67d-9b2dd64fab30', 'tls': false, 'udp': true, 'alterId': 0, 'cipher': 'auto', 'ws-opts': {'headers': {'Host': 'duoduotw.cdn-sgp.xyz'}, 'path': '/'}}
 
 
 # 代理组

@@ -235,6 +235,7 @@ proxies:
 - {'name': '加拿大 020', 'type': 'vmess', 'network': 'ws', 'server': '172.67.64.120', 'port': 80, 'uuid': 'd646fd8c-3405-40c4-8df8-fb85d6bf8b24', 'skip-cert-verify': false, 'tls': false, 'alterId': 0, 'cipher': 'auto', 'ws-opts': {'headers': {'Host': '58892877706648357761980405045364.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou'}, 'path': '/'}}
 - {'name': '加拿大 021', 'type': 'trojan', 'network': 'ws', 'server': '104.16.192.1', 'port': 443, 'password': '0ab6c98dae3b48e8b9c4a776b6c9c19a', 'udp': true, 'sni': 'sherasheba.com', 'alterId': -1, 'ws-opts': {'headers': {'Host': 'sherasheba.com'}, 'path': '/6b777a91'}}
 - {'name': '加拿大 003', 'type': 'vmess', 'network': 'ws', 'server': 'russia.com', 'port': 2086, 'uuid': 'e9e3cc13-db48-4cc1-8c24-7626439a5339', 'tls': false, 'alterId': 0, 'cipher': 'auto', 'ws-opts': {'headers': {'Host': 'ip1.1789034.xyz'}, 'path': 'github.com/Alvin9999'}}
+- {'name': '加拿大 022', 'type': 'vmess', 'network': 'ws', 'server': 'lanlan.lancdn.vip', 'port': 443, 'uuid': '40bb08db-d656-4b26-a8c0-3abc2731be6c', 'tls': true, 'udp': true, 'alterId': 0, 'cipher': 'auto', 'ws-opts': {'headers': {'Host': 'lanlan.lancdn.vip'}, 'path': '/'}}
 
 
 # 代理组

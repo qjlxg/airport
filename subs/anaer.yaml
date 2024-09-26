@@ -252,6 +252,7 @@ proxies:
 - {'name': '加拿大 066', 'type': 'vless', 'network': 'ws', 'server': '172.66.44.83', 'port': 443, 'uuid': '89b3cbba-e6ac-485a-9481-976a0415eab9', 'servername': '80acf9Da.EhSaN-PAnEL.PAGES.dEv', 'skip-cert-verify': true, 'tls': true, 'udp': true, 'tfo': false, 'ws-opts': {'headers': {'Host': '80acf9Da.EhSaN-PAnEL.PAGES.dEv'}, 'path': '/yg2rz1apovtkjpov?ed=2560'}}
 - {'name': '加拿大 069', 'type': 'vless', 'network': 'ws', 'server': '172.66.46.224', 'port': 443, 'uuid': 'a8a09765-7681-47ba-9ea0-e0ae79d51088', 'servername': 't-netplus-4vx.pages.dev', 'skip-cert-verify': true, 'tls': true, 'udp': true, 'tfo': false, 'ws-opts': {'headers': {'Host': 't-netplus-4vx.pages.dev'}, 'path': '/'}}
 - {'name': '加拿大 071', 'type': 'vmess', 'network': 'ws', 'server': '104.16.60.8', 'port': 2086, 'uuid': '76221bfb-e92f-4e80-81c5-6fe48f50ac0b', 'skip-cert-verify': true, 'alterId': 0, 'cipher': 'auto', 'ws-opts': {'headers': {'Host': '1c11-muddy-rice-1c11.vetanex501.workers.dev'}, 'path': '/glweidf.sbs/linkws'}}
+- {'name': '美国 026', 'type': 'vless', 'network': 'httpupgrade', 'server': '172.64.111.69', 'port': 8080, 'uuid': '4ee50f98-d646-4491-b5a5-339fd79153a4', 'skip-cert-verify': true, 'tls': true, 'udp': true, 'tfo': false}
 
 
 # 代理组

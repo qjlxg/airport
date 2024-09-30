@@ -253,6 +253,7 @@ proxies:
 - {'name': '美国 024', 'type': 'vmess', 'network': 'ws', 'server': '172.64.166.2', 'port': 2086, 'uuid': 'e9e3cc13-db48-4cc1-8c24-7626439a5339', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'alterId': 0, 'cipher': 'auto', 'ws-opts': {'headers': {'Host': 'ip2.1457230.xyz'}, 'path': 'github.com/Alvin9999'}}
 - {'name': '美国 026', 'type': 'vmess', 'network': 'ws', 'server': '172.64.166.28', 'port': 2086, 'uuid': 'e9e3cc13-db48-4cc1-8c24-7626439a5339', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'alterId': 0, 'cipher': 'auto', 'ws-opts': {'headers': {'Host': 'ip2.1457230.xyz'}, 'path': 'github.com/Alvin9999'}}
 - {'name': '加拿大 009', 'type': 'vmess', 'network': 'ws', 'server': 'cfip.1323123.xyz', 'port': 80, 'uuid': 'ebace182-ad9a-4044-92fd-ad48adf52779', 'skip-cert-verify': true, 'tls': false, 'udp': true, 'alterId': 0, 'cipher': 'auto', 'ws-opts': {'headers': {'Host': 'kr.freegpt.filegear-sg.me'}, 'path': '/rongseven?ed=2048'}}
+- {'name': '加拿大 076', 'type': 'vless', 'network': 'ws', 'server': 'time.is', 'port': 8443, 'uuid': '500e1c54-c2b5-49fe-a70a-792970f8c8e8', 'servername': 'server20.aibox.tv', 'skip-cert-verify': false, 'tls': true, 'tfo': false, 'client-fingerprint': 'chrome', 'ws-opts': {'headers': {'Host': 'server20.aibox.tv'}, 'path': '/TG-AiLuMao/'}}
 
 
 # 代理组

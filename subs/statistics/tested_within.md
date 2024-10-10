@@ -2,17 +2,17 @@
 ```mermaid
 pie showData
 title 延迟分布
-"357-577ms" : 3
-"577-797ms" : 2
+"521-661ms" : 4
+"661-801ms" : 4
 ```
 ```mermaid
 pie showData
 title 地域分布
-"未知" : 5
+"未知" : 8
 ```
 ```mermaid
 pie showData
 title 协议分布
 "ss" : 4
-"trojan" : 1
+"trojan" : 4
 ```

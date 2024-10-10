@@ -38,6 +38,7 @@ geox-url:
 
 # 代理
 proxies: 
+- {'name': '0|-https://t.me/MrXbin-41', 'server': 'jpcft01.xqc.best', 'port': 443, 'type': 'vmess', 'uuid': '18a4d335-d146-4642-aaa4-06fd889867ed', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'd263c0bqn07wlj.cloudfront.net', 'network': 'ws', 'ws-opts': {'path': '/stream', 'headers': {'Host': 'd263c0bqn07wlj.cloudfront.net'}}}
 - {'name': '13,14|香港|@ripaojiedian', 'server': '223.244.26.216', 'port': 46001, 'type': 'vmess', 'uuid': 'c9bda0e7-4ffa-464f-84a0-41253180d04c', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/zh-cn'}}
 - {'name': '13|🇭🇰 香港2|@ripaojiedian', 'server': 'ambxxic01hk.dorabbb.top', 'port': 44806, 'type': 'vmess', 'uuid': '21c7fe70-62f4-492a-8ff5-882edee63b15', 'alterId': 0, 'cipher': 'auto', 'tls': false}
 - {'name': '13|🇭🇰 香港3|@ripaojiedian', 'server': 'hzhz1.sssyun.xyz', 'port': 29527, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '005c0d27-a407-4be9-9740-818da49a50be'}

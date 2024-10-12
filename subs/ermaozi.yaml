@@ -38,25 +38,18 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '🇺🇸_US_美国', 'type': 'ss', 'server': '69.50.92.72', 'port': 8881, 'cipher': 'aes-256-gcm', 'password': 'kDWvXYZoTBcGkC4'}
-- {'name': '🇬🇧_GB_英国->🇺🇸_US_美国', 'type': 'trojan', 'server': '51.44.54.127', 'port': 22222, 'sni': 'trojan.burgerip.co.uk', 'password': 'telegram-id-privatevpns', 'network': 'tcp', 'alpn': ['http/1.1']}
-- {'name': '🇺🇸_US_美国->🇨🇳_CN_中国', 'type': 'trojan', 'server': '18.159.29.8', 'port': 22222, 'sni': 'trojan.burgerip.co.uk', 'password': 'telegram-id-privatevpns', 'network': 'tcp', 'alpn': ['http/1.1']}
-- {'name': '🇺🇸_US_美国_1', 'type': 'ss', 'server': '69.50.92.72', 'port': 8882, 'cipher': 'aes-256-gcm', 'password': 'kDWvXYZoTBcGkC4'}
-- {'name': '🇳🇱_NL_荷兰->🇺🇸_US_美国', 'type': 'ss', 'server': '45.158.171.44', 'port': 8080, 'cipher': 'chacha20-ietf-poly1305', 'password': 'a8bt9fY0QsLS6eLnXUe0Ym'}
-- {'name': '🇺🇸_US_美国_2', 'type': 'ss', 'server': '23.150.152.41', 'port': 5000, 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC'}
-- {'name': '🇺🇸_US_美国_3', 'type': 'ss', 'server': '38.114.114.143', 'port': 7002, 'cipher': 'aes-256-gcm', 'password': 'RexnBgU7EV5ADxG'}
-- {'name': '🇩🇪_DE_德国', 'type': 'ss', 'server': '45.87.175.188', 'port': 8080, 'cipher': 'chacha20-ietf-poly1305', 'password': 'gDFRe52uiIvVaxqPlqw439'}
-- {'name': '🇺🇸_US_美国_4', 'type': 'ss', 'server': '69.50.92.72', 'port': 8090, 'cipher': 'aes-256-gcm', 'password': 'PCnnH6SQSnfoS27'}
-- {'name': '🇫🇷_FR_法国->🇺🇸_US_美国', 'type': 'trojan', 'server': '15.237.12.232', 'port': 22222, 'sni': 'trojan.burgerip.co.uk', 'password': 'telegram-id-privatevpns', 'network': 'tcp', 'alpn': ['http/1.1']}
-- {'name': '🇺🇸_US_美国_5', 'type': 'ss', 'server': '169.197.142.216', 'port': 6679, 'cipher': 'aes-256-gcm', 'password': 'TEzjfAYq2IjtuoS'}
-- {'name': '🇨🇳_CN_中国->🇺🇸_US_美国', 'type': 'vmess', 'server': '120.232.153.40', 'port': 43526, 'uuid': '21a9bff2-72de-4e62-93ff-8b159f66d875', 'cipher': 'auto', 'network': 'tcp', 'alterId': 64}
-- {'name': '🇺🇸_US_美国_6', 'type': 'trojan', 'server': '3.136.164.54', 'port': 22222, 'sni': 'trojan.burgerip.co.uk', 'password': 'telegram-id-directvpn', 'network': 'tcp', 'alpn': ['http/1.1']}
-- {'name': '🇺🇸_US_美国_7', 'type': 'trojan', 'server': '18.221.212.142', 'port': 22222, 'sni': 'trojan.burgerip.co.uk', 'password': 'telegram-id-directvpn', 'network': 'tcp', 'alpn': ['http/1.1']}
+- {'name': '🇺🇸_US_美国_2', 'type': 'ss', 'server': '69.50.92.110', 'port': 8009, 'cipher': 'aes-256-gcm', 'password': 'XKFKl2rULjIp74'}
 - {'name': '🇳🇱_NL_荷兰', 'type': 'ss', 'server': '45.158.171.19', 'port': 8080, 'cipher': 'chacha20-ietf-poly1305', 'password': 'a8bt9fY0QsLS6eLnXUe0Ym'}
-- {'name': '🇨🇳_CN_中国->🇺🇸_US_美国_1', 'type': 'vmess', 'server': '120.232.153.71', 'port': 43526, 'sni': '', 'uuid': '21a9bff2-72de-4e62-93ff-8b159f66d875', 'cipher': 'auto', 'network': 'tcp', 'alterId': 64}
-- {'name': '🇨🇳_CN_中国->🇮🇷_IR_伊朗', 'type': 'ss', 'server': 'iepl5.forlive.live', 'port': 50118, 'cipher': 'chacha20-ietf-poly1305', 'password': 'c4d5cfd7-45e7-3296-befa-12db5a2de771'}
-- {'name': '🇺🇸_US_美国_8', 'type': 'ss', 'server': '169.197.142.216', 'port': 2376, 'cipher': 'aes-256-gcm', 'password': 'faBAoD54k87UJG7'}
-- {'name': '🇩🇪_DE_德国->🇺🇸_US_美国', 'type': 'ss', 'server': '45.87.175.157', 'port': 8080, 'cipher': 'chacha20-ietf-poly1305', 'password': 'g9AJsrBPgW4Nhjoy3xCioC'}
+- {'name': '🇺🇸_US_美国_5', 'type': 'ss', 'server': '38.114.114.143', 'port': 2376, 'cipher': 'aes-256-gcm', 'password': 'faBAoD54k87UJG7'}
+- {'name': '🇺🇸_US_美国_6', 'type': 'ss', 'server': '38.110.1.67', 'port': 8888, 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC'}
+- {'name': '🇺🇸_US_美国_7', 'type': 'ss', 'server': '169.197.142.216', 'port': 6697, 'cipher': 'aes-256-gcm', 'password': 'TEzjfAYq2IjtuoS'}
+- {'name': '🇺🇸_US_美国_8', 'type': 'ss', 'server': '23.150.152.41', 'port': 5000, 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC'}
+- {'name': '🇺🇸_US_美国_9', 'type': 'ss', 'server': '23.150.152.41', 'port': 443, 'cipher': 'aes-256-gcm', 'password': 'pKEW8JPByTVTLtM'}
+- {'name': '🇬🇧_GB_英国', 'type': 'trojan', 'server': '51.44.54.127', 'port': 22222, 'sni': 'trojan.burgerip.co.uk', 'password': 'telegram-id-privatevpns', 'network': 'tcp', 'alpn': ['http/1.1']}
+- {'name': '🇺🇸_US_美国_10', 'type': 'ss', 'server': '69.50.92.110', 'port': 8118, 'cipher': 'aes-256-gcm', 'password': 'cdBIDV42DCwnfIN'}
+- {'name': '🇺🇸_US_美国_11', 'type': 'ss', 'server': '38.114.114.143', 'port': 443, 'cipher': 'aes-256-gcm', 'password': 'pKEW8JPByTVTLtM'}
+- {'name': '🇺🇸_US_美国_14', 'type': 'trojan', 'server': '3.75.33.55', 'port': 22222, 'sni': 'trojan.burgerip.co.uk', 'password': 'telegram-id-privatevpns', 'network': 'tcp', 'alpn': ['http/1.1']}
+- {'name': '🇺🇸_US_美国_15', 'type': 'ss', 'server': '169.197.142.216', 'port': 6679, 'cipher': 'aes-256-gcm', 'password': 'TEzjfAYq2IjtuoS'}
 
 
 # 代理组

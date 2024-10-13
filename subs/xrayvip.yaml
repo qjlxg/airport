@@ -38,28 +38,17 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '🇯🇵 节点日期：10-10', 'server': '120.232.153.40', 'port': 35601, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
-- {'name': '🇩🇪 德国【付费推荐：https://a0a.xyz】72', 'server': '45.87.175.188', 'port': 8080, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'gDFRe52uiIvVaxqPlqw439'}
-- {'name': '🇺🇸 美国【付费推荐：https://a0a.xyz】34', 'server': 'claw-ali-hkg-1ge.china-next-generation-any-path-smart-route-global.2h.ma', 'port': 443, 'type': 'trojan', 'password': 'a3ca0380-8a17-403a-a5b3-a9f6e59be193', 'sni': 'claw-ali-hkg-1ge.china-next-generation-any-path-smart-route-global.2h.ma', 'network': 'ws', 'ws-opts': {'path': '/a3ca0380-8a17-403a-a5b3-a9f6e59be193', 'headers': {'Host': 'claw-ali-hkg-1ge.china-next-generation-any-path-smart-route-global.2h.ma'}}}
-- {'name': '🇨🇳 中国【付费推荐：https://a0a.xyz】26', 'server': '183.236.51.23', 'port': 45020, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
-- {'name': '🇨🇳 中国【付费推荐：https://a0a.xyz】2', 'server': '120.232.153.27', 'port': 58831, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
-- {'name': '🇨🇳 中国【付费推荐：https://a0a.xyz】32', 'server': 'link.karleynetwork.xyz', 'port': 23335, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '2b0ea7b4-bd27-4995-bc95-a817174b6f7c'}
-- {'name': '🇩🇪 德国【付费推荐：https://a0a.xyz】84', 'server': '45.87.175.164', 'port': 8080, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'gDFRe52uiIvVaxqPlqw439'}
-- {'name': '🇨🇳 中国【付费推荐：https://a0a.xyz】38', 'server': 'link.karleynetwork.xyz', 'port': 23334, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '2b0ea7b4-bd27-4995-bc95-a817174b6f7c'}
-- {'name': '🇫🇷 法国【付费推荐：https://a0a.xyz】24', 'server': 'irvideo.cfd', 'port': 443, 'type': 'vmess', 'uuid': 'e537f2f5-2a0c-4f59-92c9-832ca6433bf3', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'irvideo.cfd'}}}
-- {'name': '🇨🇳 中国【付费推荐：https://a0a.xyz】43', 'server': 'link.karleynetwork.xyz', 'port': 23331, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '2b0ea7b4-bd27-4995-bc95-a817174b6f7c'}
-- {'name': '🇰🇷 韩国【付费推荐：https://a0a.xyz】63', 'server': '59.3.3.161', 'port': 443, 'type': 'trojan', 'password': 'CMLiu', 'sni': 'aliorg.filegear-sg.me', 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'aliorg.filegear-sg.me'}}}
-- {'name': '🇨🇳 中国【付费推荐：https://a0a.xyz】14', 'server': '120.232.153.37', 'port': 42055, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
-- {'name': '🇦🇺 澳大利亚【付费推荐：https://a0a.xyz】46', 'server': '43.153.80.208', 'port': 443, 'type': 'trojan', 'password': 'CMLiu', 'sni': 'aliorg.filegear-sg.me', 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'aliorg.filegear-sg.me'}}}
-- {'name': '🇺🇸 美国【付费推荐：https://a0a.xyz】74', 'server': '52.29.69.96', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk'}
-- {'name': '🇨🇳 中国【付费推荐：https://a0a.xyz】68', 'server': 'deepf.hjkdsak2.com', 'port': 20003, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '99301d55-a41f-4919-986b-1435996533aa'}
-- {'name': '🇨🇳 中国【付费推荐：https://a0a.xyz】4', 'server': '120.232.153.71', 'port': 43526, 'type': 'vmess', 'uuid': '21a9bff2-72de-4e62-93ff-8b159f66d875', 'alterId': 64, 'cipher': 'auto', 'tls': false}
-- {'name': '🇺🇸 美国【付费推荐：https://a0a.xyz】71', 'server': '13.40.227.62', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk'}
-- {'name': '🇷🇺 俄罗斯【付费推荐：https://a0a.xyz】30', 'server': '176.124.199.255', 'port': 47004, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'T29El-V-s9'}
-- {'name': '🇺🇸 美国【付费推荐：https://a0a.xyz】83', 'server': '16.16.72.199', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
-- {'name': '🇩🇪 德国【付费推荐：https://a0a.xyz】66', 'server': '195.74.86.176', 'port': 17828, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'OHT1oO1d2IsZM01XZMxiM2'}
-- {'name': '阿富汗【付费推荐：https://a0a.xyz】21', 'server': 'exchange.gameaurela.click', 'port': 52952, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'LMSNh21TrXjR2ok25Q2nE8ENT2zoBmPvka3RCCUAHZELCnWoekVjvaf89qwcRkdbxEfep2bc2aUtmnxqvF1ayQRez1JHjULj'}
-- {'name': '🇩🇪 德国【付费推荐：https://a0a.xyz】78', 'server': '45.87.175.178', 'port': 8080, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'gDFRe52uiIvVaxqPlqw439'}
+- {'name': '🇯🇵 节点日期：10-13', 'server': 'irvideo.cfd', 'port': 443, 'type': 'vmess', 'uuid': 'e537f2f5-2a0c-4f59-92c9-832ca6433bf3', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'irvideo.cfd'}}}
+- {'name': '🇺🇸 美国【付费推荐：https://a0a.xyz】68', 'server': '169.197.141.84', 'port': 5499, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'lGqs95QkFHo2NV'}
+- {'name': '🇺🇸 美国【付费推荐：https://a0a.xyz】34', 'server': '169.197.142.216', 'port': 2376, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'faBAoD54k87UJG7'}
+- {'name': '🇨🇳 中国【付费推荐：https://a0a.xyz】26', 'server': 'z3.fragranceninja.com', 'port': 12960, 'type': 'vmess', 'uuid': 'a32313ad-5e39-4f9a-9cad-512041790050', 'alterId': 0, 'cipher': 'auto', 'tls': true}
+- {'name': '🇺🇸 美国【付费推荐：https://a0a.xyz】57', 'server': '169.197.142.216', 'port': 6679, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'TEzjfAYq2IjtuoS'}
+- {'name': '未知【付费推荐：https://a0a.xyz】46', 'server': '103.174.86.113', 'port': 51348, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'vZr8MlUXUihNEndqIpjDxQdSeqi37FbgoHBmQ1syy6ZjkbBn'}
+- {'name': '🇺🇸 美国【付费推荐：https://a0a.xyz】5', 'server': '169.197.142.216', 'port': 6697, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'TEzjfAYq2IjtuoS'}
+- {'name': '🇬🇧 英国【付费推荐：https://a0a.xyz】13', 'server': '212.102.53.198', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'shadowsocks'}
+- {'name': '🇩🇪 德国【付费推荐：https://a0a.xyz】64', 'server': '45.87.175.188', 'port': 8080, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'gDFRe52uiIvVaxqPlqw439'}
+- {'name': '🇨🇳 中国【付费推荐：https://a0a.xyz】52', 'server': 'pj.shakalaka.xyz', 'port': 11789, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'a3c29dd3-d366-4fc2-9efa-ec0c81519b75'}
+- {'name': '🇷🇺 俄罗斯【付费推荐：https://a0a.xyz】3', 'server': '194.87.45.189', 'port': 40076, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'sOJ7Wo6yHqWQv8FUEq3BKV'}
 
 
 # 代理组

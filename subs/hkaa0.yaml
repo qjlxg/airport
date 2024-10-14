@@ -38,72 +38,47 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': 'TG:@hkaa0_荷兰', 'server': '45.158.171.19', 'port': 8080, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'a8bt9fY0QsLS6eLnXUe0Ym'}
-- {'name': 'TG:@hkaa0_中国', 'server': 'z3.fragranceninja.com', 'port': 12960, 'type': 'vmess', 'uuid': 'a32313ad-5e39-4f9a-9cad-512041790050', 'alterId': 0, 'cipher': 'auto', 'tls': true}
-- {'name': 'TG:@hkaa0_美国', 'server': '169.197.142.216', 'port': 6679, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'TEzjfAYq2IjtuoS'}
-- {'name': 'TG:@hkaa0_美国 2', 'server': '169.197.142.216', 'port': 6697, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'TEzjfAYq2IjtuoS'}
-- {'name': 'TG:@hkaa0_英国', 'server': '212.102.53.198', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'shadowsocks'}
-- {'name': 'TG:@hkaa0_美国 3', 'server': '169.197.142.216', 'port': 2376, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'faBAoD54k87UJG7'}
-- {'name': 'TG:@hkaa0_美国 4', 'server': '169.197.142.216', 'port': 7002, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'RexnBgU7EV5ADxG'}
-- {'name': 'TG:@hkaa0_美国 5', 'server': '38.114.114.143', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'pKEW8JPByTVTLtM'}
-- {'name': 'TG:@hkaa0_美国 6', 'server': '38.114.114.143', 'port': 2376, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'faBAoD54k87UJG7'}
-- {'name': 'TG:@hkaa0_俄罗斯', 'server': '194.87.45.189', 'port': 40076, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'xN2vo2uqA4WpZExQa73PXb'}
-- {'name': 'TG:@hkaa0_英国 2', 'server': '212.102.53.195', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'shadowsocks'}
-- {'name': 'TG:@hkaa0_中国 2', 'server': '15074.kuaiyin02.top', 'port': 15074, 'type': 'vmess', 'uuid': '9f513161-576b-3abc-9c98-06e52c3a24c6', 'alterId': 0, 'cipher': 'auto', 'tls': false}
-- {'name': 'TG:@hkaa0_德国', 'server': 'beesyar.org', 'port': 8080, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'gDFRe52uiIvVaxqPlqw439'}
-- {'name': 'TG:@hkaa0_德国 2', 'server': '45.87.175.157', 'port': 8080, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'g9AJsrBPgW4Nhjoy3xCioC'}
-- {'name': 'TG:@hkaa0_德国 3', 'server': '45.87.175.188', 'port': 8080, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'gDFRe52uiIvVaxqPlqw439'}
-- {'name': 'TG:@hkaa0_德国 5', 'server': '45.87.175.178', 'port': 8080, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'gDFRe52uiIvVaxqPlqw439'}
-- {'name': 'TG:@hkaa0_美国 7', 'server': 'mynode.work.gd', 'port': 20002, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '̈́m͒ߍM֡Tyۙҫ1͛P̎'}
-- {'name': 'TG:@hkaa0_美国 8', 'server': '67.220.72.41', 'port': 20002, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '̈́m͒ߍM֡Tyۙҫ1͛P̎'}
-- {'name': 'TG:@hkaa0_美国 9', 'server': '38.114.114.143', 'port': 7002, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'RexnBgU7EV5ADxG'}
-- {'name': 'TG:@hkaa0_未知', 'server': '103.174.86.113', 'port': 51348, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'vZr8MlUXUihNEndqIpjDxQdSeqi37FbgoHBmQ1syy6ZjkbBn'}
-- {'name': 'TG:@hkaa0_德国 7', 'server': '45.87.175.164', 'port': 8080, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'g9AJsrBPgW4Nhjoy3xCioC'}
-- {'name': 'TG:@hkaa0_德国 8', 'server': '45.87.175.166', 'port': 8080, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'gDFRe52uiIvVaxqPlqw439'}
-- {'name': 'TG:@hkaa0_德国 10', 'server': '45.87.175.192', 'port': 8080, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'g9AJsrBPgW4Nhjoy3xCioC'}
-- {'name': 'TG:@hkaa0_俄罗斯 6', 'server': '176.124.199.255', 'port': 30252, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'Zgg@X0m515'}
-- {'name': 'TG:@hkaa0_美国 10', 'server': '13.49.242.221', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk', 'skip-cert-verify': true}
-- {'name': 'TG:@hkaa0_美国 11', 'server': '69.50.93.100', 'port': 9101, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'e4FCWrgpkji3QY'}
-- {'name': 'TG:@hkaa0_美国 12', 'server': '18.221.212.142', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk', 'skip-cert-verify': true}
-- {'name': 'TG:@hkaa0_美国 13', 'server': '23.150.152.41', 'port': 5600, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC'}
-- {'name': 'TG:@hkaa0_美国 14', 'server': '23.150.152.41', 'port': 5601, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC'}
-- {'name': 'TG:@hkaa0_美国 15', 'server': '69.50.93.100', 'port': 8009, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'XKFKl2rULjIp74'}
-- {'name': 'TG:@hkaa0_美国 16', 'server': '104.19.45.50', 'port': 2082, 'type': 'vmess', 'uuid': '5f3f09ad-89cb-4e94-a7ad-aa8239913555', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'ip3.6929198.xyz'}}}
-- {'name': 'TG:@hkaa0_法国', 'server': '15.237.12.232', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk', 'skip-cert-verify': true}
-- {'name': 'TG:@hkaa0_美国 17', 'server': '23.166.88.198', 'port': 5003, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'g5MeD6Ft3CWlJId'}
-- {'name': 'TG:@hkaa0_美国 18', 'server': '18.159.29.8', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk', 'skip-cert-verify': true}
-- {'name': 'TG:@hkaa0_美国 19', 'server': '3.75.33.55', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk', 'skip-cert-verify': true}
-- {'name': 'TG:@hkaa0_中国 3', 'server': '210.0.158.219', 'port': 12909, 'type': 'vmess', 'uuid': '8259cb1c-dd6c-4739-9c88-af550d977525', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': '210.0.158.219'}}}
-- {'name': 'TG:@hkaa0_美国 20', 'server': '23.166.88.221', 'port': 8118, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'cdBIDV42DCwnfIN'}
-- {'name': 'TG:@hkaa0_美国 21', 'server': '13.41.49.58', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk', 'skip-cert-verify': true}
-- {'name': 'TG:@hkaa0_中国 4', 'server': 'iepl1.forlive.live', 'port': 50101, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '0e91a29a-989d-4934-a1fb-7b653319397f'}
-- {'name': 'TG:@hkaa0_美国 22', 'server': '104.21.238.36', 'port': 2095, 'type': 'vmess', 'uuid': 'a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'ip2.8084726.xyz'}}}
-- {'name': 'TG:@hkaa0_美国 23', 'server': '104.19.123.11', 'port': 2082, 'type': 'vmess', 'uuid': '5f3f09ad-89cb-4e94-a7ad-aa8239913555', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'ip3.6929198.xyz'}}}
-- {'name': 'TG:@hkaa0_美国 24', 'server': '104.26.5.103', 'port': 2082, 'type': 'vmess', 'uuid': '5f3f09ad-89cb-4e94-a7ad-aa8239913555', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'ip3.6929198.xyz'}}}
-- {'name': 'TG:@hkaa0_美国 25', 'server': '104.20.17.186', 'port': 2095, 'type': 'vmess', 'uuid': '18d96190-c10f-448f-a82a-2d36df5c3cde', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'ip2.6016725.xyz'}}}
-- {'name': 'TG:@hkaa0_日本', 'server': 'shouer1.209966.xyz', 'port': 14338, 'type': 'vmess', 'uuid': '7fd4d16d-4b6b-4560-cf6c-23fa094be476', 'alterId': 0, 'cipher': 'auto', 'tls': false}
-- {'name': 'TG:@hkaa0_日本 2', 'server': 'shouer1.209966.xyz', 'port': 21744, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': '1ijeblXtJy'}
-- {'name': 'TG:@hkaa0_韩国', 'server': 'shouer2.209966.xyz', 'port': 21443, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'OsGScWrTJGQHE7Ul7cLtebwKP2JAoU62cdsfLdyApakH'}
-- {'name': 'TG:@hkaa0_美国 26', 'server': '15.156.254.3', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk', 'skip-cert-verify': true}
-- {'name': 'TG:@hkaa0_日本 3', 'server': 'jp008.421421.xyz', 'port': 20230, 'type': 'trojan', 'password': 'd971ee7a-32d9-402a-8a4f-d2135d48a47b', 'sni': '421421.xyz', 'skip-cert-verify': true}
-- {'name': 'TG:@hkaa0_美国 27', 'server': '23.150.152.41', 'port': 2375, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'faBAoD54k87UJG7'}
-- {'name': 'TG:@hkaa0_美国 28', 'server': '23.150.152.41', 'port': 8119, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'cdBIDV42DCwnfIN'}
-- {'name': 'TG:@hkaa0_美国 29', 'server': '23.150.152.41', 'port': 5000, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC'}
-- {'name': 'TG:@hkaa0_美国 30', 'server': 'p.powah.homes', 'port': 443, 'type': 'vmess', 'uuid': '03fcc618-b93d-6796-6aed-8a38c975d581', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': 'linkvws', 'headers': {'Host': 'p.powah.homes'}}}
-- {'name': 'TG:@hkaa0_美国 31', 'server': '104.18.112.107', 'port': 443, 'type': 'vmess', 'uuid': '09d5805c-7a22-47c1-b1c3-f090df0a98ed', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/lfljvws', 'headers': {'Host': 'rac.679888.xyz'}}}
-- {'name': 'TG:@hkaa0_美国 32', 'server': '104.25.127.240', 'port': 443, 'type': 'vmess', 'uuid': '09d5805c-7a22-47c1-b1c3-f090df0a98ed', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/lfljvws', 'headers': {'Host': 'rac.679888.xyz'}}}
-- {'name': 'TG:@hkaa0_美国 33', 'server': '104.24.59.213', 'port': 443, 'type': 'vmess', 'uuid': '09d5805c-7a22-47c1-b1c3-f090df0a98ed', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/lfljvws', 'headers': {'Host': 'rac.679888.xyz'}}}
-- {'name': 'TG:@hkaa0_美国 34', 'server': '104.19.45.13', 'port': 2095, 'type': 'vmess', 'uuid': 'a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'ip5.8084726.xyz'}}}
-- {'name': 'TG:@hkaa0_美国 35', 'server': '141.101.122.109', 'port': 443, 'type': 'vmess', 'uuid': '09d5805c-7a22-47c1-b1c3-f090df0a98ed', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/lfljvws', 'headers': {'Host': 'rac.679888.xyz'}}}
-- {'name': 'TG:@hkaa0_美国 36', 'server': '104.25.112.185', 'port': 443, 'type': 'vmess', 'uuid': '09d5805c-7a22-47c1-b1c3-f090df0a98ed', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/lfljvws', 'headers': {'Host': 'rac.679888.xyz'}}}
-- {'name': 'TG:@hkaa0_乌克兰', 'server': 'cn2.cdn.xfltd-cdn.top', 'port': 12035, 'type': 'trojan', 'password': '82c94e58-b1ed-4bd2-820c-751dd73ffad5', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
-- {'name': 'TG:@hkaa0_乌克兰 5', 'server': 'cn2.cdn.xfltd-cdn.top', 'port': 12053, 'type': 'trojan', 'password': '0dfd70a0-9af9-4b88-9193-da0596c5a282', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
-- {'name': 'TG:@hkaa0_乌克兰 12', 'server': 'cn2.cdn.xfltd-cdn.top', 'port': 12025, 'type': 'trojan', 'password': '82c94e58-b1ed-4bd2-820c-751dd73ffad5', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
-- {'name': 'TG:@hkaa0_美国 37', 'server': '23.162.200.227', 'port': 443, 'type': 'vmess', 'uuid': '03fcc618-b93d-6796-6aed-8a38c975d581', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/linkvws', 'headers': {'Host': '23.162.200.227'}}}
-- {'name': 'TG:@hkaa0_法国 2', 'server': 'irvideo.cfd', 'port': 443, 'type': 'vmess', 'uuid': 'e537f2f5-2a0c-4f59-92c9-832ca6433bf3', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'irvideo.cfd'}}}
-- {'name': 'TG:@hkaa0_美国 38', 'server': 'sg007.421421.xyz', 'port': 20230, 'type': 'trojan', 'password': 'd971ee7a-32d9-402a-8a4f-d2135d48a47b', 'sni': '421421.xyz', 'skip-cert-verify': true}
-- {'name': 'TG:@hkaa0_美国 39', 'server': '23.150.152.41', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'pKEW8JPByTVTLtM'}
-- {'name': 'TG:@hkaa0_美国 40', 'server': '54.243.54.200', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk', 'skip-cert-verify': true}
+- {'name': 'TG:@hkaa0|中国', 'server': 'z3.fragranceninja.com', 'port': 12960, 'type': 'vmess', 'uuid': 'a32313ad-5e39-4f9a-9cad-512041790050', 'alterId': 0, 'cipher': 'auto', 'tls': true}
+- {'name': 'TG:@hkaa0|英国', 'server': '212.102.53.198', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'shadowsocks'}
+- {'name': 'TG:@hkaa0|德国', 'server': 'beesyar.org', 'port': 8080, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'gDFRe52uiIvVaxqPlqw439'}
+- {'name': 'TG:@hkaa0|德国 2', 'server': '45.87.175.188', 'port': 8080, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'gDFRe52uiIvVaxqPlqw439'}
+- {'name': 'TG:@hkaa0|德国 4', 'server': '45.87.175.178', 'port': 8080, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'gDFRe52uiIvVaxqPlqw439'}
+- {'name': 'TG:@hkaa0|未知', 'server': '103.174.86.113', 'port': 51348, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'vZr8MlUXUihNEndqIpjDxQdSeqi37FbgoHBmQ1syy6ZjkbBn'}
+- {'name': 'TG:@hkaa0|美国', 'server': '23.166.88.221', 'port': 8118, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'cdBIDV42DCwnfIN'}
+- {'name': 'TG:@hkaa0|荷兰', 'server': 'shouer1.209966.xyz', 'port': 14338, 'type': 'vmess', 'uuid': '7fd4d16d-4b6b-4560-cf6c-23fa094be476', 'alterId': 0, 'cipher': 'auto', 'tls': false}
+- {'name': 'TG:@hkaa0|荷兰 2', 'server': 'shouer1.209966.xyz', 'port': 21744, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': '1ijeblXtJy'}
+- {'name': 'TG:@hkaa0|乌克兰', 'server': 'cn2.cdn.xfltd-cdn.top', 'port': 12053, 'type': 'trojan', 'password': '36146310-e7fc-443f-864c-4fe46b92c35f', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
+- {'name': 'TG:@hkaa0|乌克兰 2', 'server': 'cn2.cdn.xfltd-cdn.top', 'port': 12025, 'type': 'trojan', 'password': '36146310-e7fc-443f-864c-4fe46b92c35f', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
+- {'name': 'TG:@hkaa0|乌克兰 3', 'server': 'cn2.cdn.xfltd-cdn.top', 'port': 12035, 'type': 'trojan', 'password': '36146310-e7fc-443f-864c-4fe46b92c35f', 'sni': 'cdn.alibaba.com', 'skip-cert-verify': true}
+- {'name': 'TG:@hkaa0|美国 2', 'server': '23.162.200.227', 'port': 443, 'type': 'vmess', 'uuid': '03fcc618-b93d-6796-6aed-8a38c975d581', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/linkvws', 'headers': {'Host': '23.162.200.227'}}}
+- {'name': 'TG:@hkaa0|俄罗斯', 'server': '194.87.45.189', 'port': 40076, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'xDYIKyk2KozqAVUHV7CylP'}
+- {'name': 'TG:@hkaa0|法国', 'server': 'irvideo.cfd', 'port': 443, 'type': 'vmess', 'uuid': 'e537f2f5-2a0c-4f59-92c9-832ca6433bf3', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'irvideo.cfd'}}}
+- {'name': 'TG:@hkaa0|中国 2', 'server': 'cdn.node1.lilisi.link', 'port': 10004, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': '26f959e3-1a5e-3b3d-b4cd-fe04c80902bd'}
+- {'name': 'TG:@hkaa0|美国 3', 'server': '169.197.141.84', 'port': 5499, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'lGqs95QkFHo2NV'}
+- {'name': 'TG:@hkaa0|美国 4', 'server': '139.64.165.230', 'port': 2376, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'faBAoD54k87UJG7'}
+- {'name': 'TG:@hkaa0|未知 2', 'server': 'sure-mutt.sunbeam921.monster', 'port': 443, 'type': 'trojan', 'password': 3672449442956714000, 'sni': 'sure-mutt.sunbeam921.monster', 'skip-cert-verify': true}
+- {'name': 'TG:@hkaa0|美国 5', 'server': '69.50.93.113', 'port': 8888, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC'}
+- {'name': 'TG:@hkaa0|中国 3', 'server': 'esst.idyllic.love', 'port': 37019, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'c79acaa5-1fff-4026-adf7-a87974ab7a1a'}
+- {'name': 'TG:@hkaa0|荷兰 3', 'server': '45.158.171.9', 'port': 8080, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'a8bt9fY0QsLS6eLnXUe0Ym'}
+- {'name': 'TG:@hkaa0|美国 6', 'server': '67.220.72.41', 'port': 20088, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'ڦʺl٬TJ1q8DFgǪǥ'}
+- {'name': 'TG:@hkaa0|美国 7', 'server': '69.50.92.110', 'port': 8118, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'cdBIDV42DCwnfIN'}
+- {'name': 'TG:@hkaa0|美国 8', 'server': 'mynode.work.gd', 'port': 20088, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'ڦʺl٬TJ1q8DFgǪǥ'}
+- {'name': 'TG:@hkaa0|未知 3', 'server': '149.7.16.174', 'port': 443, 'type': 'vmess', 'uuid': '03fcc618-b93d-6796-6aed-8a38c975d581', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/linkvws', 'headers': {'Host': '149.7.16.174'}}}
+- {'name': 'TG:@hkaa0|爱尔兰', 'server': '34.241.110.253', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk', 'skip-cert-verify': true}
+- {'name': 'TG:@hkaa0|美国 9', 'server': '13.49.130.179', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk', 'skip-cert-verify': true}
+- {'name': 'TG:@hkaa0|中国 4', 'server': 'esst.idyllic.love', 'port': 37011, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'c79acaa5-1fff-4026-adf7-a87974ab7a1a'}
+- {'name': 'TG:@hkaa0|中国 5', 'server': 'osg020.nod3.org', 'port': 29971, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': '2e9e4098-4108-4997-94db-552705dbd57a'}
+- {'name': 'TG:@hkaa0|中国 6', 'server': '15086.kuaiyin02.top', 'port': 15086, 'type': 'vmess', 'uuid': '9f513161-576b-3abc-9c98-06e52c3a24c6', 'alterId': 0, 'cipher': 'auto', 'tls': false}
+- {'name': 'TG:@hkaa0|中国 7', 'server': 'okr020.nod3.org', 'port': 16018, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': '2e9e4098-4108-4997-94db-552705dbd57a'}
+- {'name': 'TG:@hkaa0|美国 10', 'server': '139.64.165.154', 'port': 9102, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'e4FCWrgpkji3QY'}
+- {'name': 'TG:@hkaa0|美国 11', 'server': '139.64.165.154', 'port': 8881, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'kDWvXYZoTBcGkC4'}
+- {'name': 'TG:@hkaa0|英国 2', 'server': 'series-a2.samanehha.co', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'mps3FwmDjLrWaOVg'}
+- {'name': 'TG:@hkaa0|越南', 'server': 'std1.loadingip.com', 'port': 443, 'type': 'trojan', 'password': '94d219c9-1afc-4d42-b090-8b3794764380', 'skip-cert-verify': true}
+- {'name': 'TG:@hkaa0|美国 12', 'server': 'us003.421421.xyz', 'port': 20230, 'type': 'trojan', 'password': 'b44da489-fc70-4fd0-8997-a83b51f59267', 'skip-cert-verify': true}
+- {'name': 'TG:@hkaa0|英国 3', 'server': 'series-a1.samanehha.co', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'W74XFALLLuw6m5IA'}
+- {'name': 'TG:@hkaa0|中国 8', 'server': 'cdn.node1.lilisi.link', 'port': 10005, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': '26f959e3-1a5e-3b3d-b4cd-fe04c80902bd'}
+- {'name': 'TG:@hkaa0|美国 13', 'server': 'ddd.zcr07.cloudns.biz', 'port': 443, 'type': 'vmess', 'uuid': '62aa5f80-0328-4004-a375-7f5a59df4022', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/hms19.best-tizi.top:443/linkws', 'headers': {'Host': 'ddd.zcr07.cloudns.biz'}}}
+- {'name': 'TG:@hkaa0|未知 4', 'server': '154.40.60.172', 'port': 12945, 'type': 'vmess', 'uuid': '8259cb1c-dd6c-4739-9c88-af550d977525', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/'}}
 
 
 # 代理组

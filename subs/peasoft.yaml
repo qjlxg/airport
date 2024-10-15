@@ -38,10 +38,7 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '0|-https://t.me/MrXbin-31', 'server': '149.7.16.194', 'port': 443, 'type': 'vmess', 'uuid': '03fcc618-b93d-6796-6aed-8a38c975d581', 'alterId': 1, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/linkvws'}}
-- {'name': '0|-https://t.me/MrXbin-50', 'server': '162.209.128.83', 'port': 443, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/path/283431252216'}}
-- {'name': '0|-https://t.me/MrXbin-51', 'server': '38.174.190.80', 'port': 38007, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/path/102206282005'}}
-- {'name': '0|-https://t.me/MrXbin-53', 'server': '38.33.45.66', 'port': 37000, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/path/1707992158285', 'headers': {'Host': 'www.23365885.xyz'}}}
+- {'name': '0|-https://t.me/MrXbin-45', 'server': '149.7.16.194', 'port': 443, 'type': 'vmess', 'uuid': '03fcc618-b93d-6796-6aed-8a38c975d581', 'alterId': 1, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/linkvws'}}
 - {'name': '0,15|HK_speednode_0061', 'server': 'hknode07.oportal.cc', 'port': 443, 'type': 'trojan', 'password': '981db44e-9f07-49eb-9ba0-6ab4939919a2', 'skip-cert-verify': true}
 - {'name': '13|🇭🇰 香港|@ripaojiedian', 'server': 'cdn.node1.lilisi.link', 'port': 10004, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': '26f959e3-1a5e-3b3d-b4cd-fe04c80902bd'}
 - {'name': '13|🇭🇰 香港2|@ripaojiedian', 'server': 'tt07.51feitu.com', 'port': 21017, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '030b7ede-55e5-4e1f-b509-efcacc1877e1'}

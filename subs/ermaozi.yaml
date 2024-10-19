@@ -38,28 +38,22 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '🇺🇸_US_美国', 'type': 'trojan', 'server': '104.17.215.18', 'port': 443, 'udp': true, 'sni': 'jobscareerforstudent.com', 'password': '4732adfa16c6450bbef87264e41332db', 'network': 'ws', 'ws-opts': {'path': '/6b777a91', 'headers': {'host': 'jobscareerforstudent.com'}}}
-- {'name': '🇺🇸_US_美国_1', 'type': 'ss', 'server': '38.110.1.12', 'port': 3389, 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC'}
-- {'name': '🇺🇸_US_美国_2', 'type': 'ss', 'server': '38.114.114.69', 'port': 7002, 'cipher': 'aes-256-gcm', 'password': 'RexnBgU7EV5ADxG'}
-- {'name': '🇺🇸_US_美国_3', 'type': 'trojan', 'server': 'polite-racer.sheepdog670.boats', 'port': 443, 'password': '3648425794742788096', 'network': 'tcp'}
-- {'name': '🇺🇸_US_美国_4', 'type': 'ss', 'server': '38.114.114.69', 'port': 3306, 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC'}
-- {'name': '未知', 'type': 'trojan', 'server': 'select-racer.sunbeam921.monster', 'port': 443, 'password': '3648425794742788096', 'network': 'tcp'}
-- {'name': '🇺🇸_US_美国_6', 'type': 'ss', 'server': '69.50.95.218', 'port': 5600, 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC'}
-- {'name': '🇺🇸_US_美国_7', 'type': 'ss', 'server': '69.50.95.53', 'port': 7307, 'cipher': 'aes-256-gcm', 'password': 'FoOiGlkAA9yPEGP'}
-- {'name': '🇺🇸_US_美国_8', 'type': 'ss', 'server': '38.114.114.69', 'port': 5500, 'cipher': 'aes-256-gcm', 'password': 'KixLvKzwjekG00rm'}
-- {'name': '🇺🇸_US_美国_9', 'type': 'vmess', 'server': 'russia.com', 'port': 2095, 'uuid': '18d96190-c10f-448f-a82a-2d36df5c3cde', 'cipher': 'auto', 'network': 'ws', 'ws-opts': {'path': '/github.com/Alvin9999', 'headers': {'host': 'ip11.6016725.xyz'}}, 'alterId': 0}
+- {'name': '🇺🇸_US_美国', 'type': 'ss', 'server': '23.150.248.29', 'port': 3306, 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC'}
+- {'name': '🇺🇸_US_美国_4', 'type': 'ss', 'server': '69.50.95.218', 'port': 5000, 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC'}
+- {'name': '🇺🇸_US_美国_5', 'type': 'ss', 'server': '38.114.114.69', 'port': 5500, 'cipher': 'aes-256-gcm', 'password': 'KixLvKzwjekG00rm'}
 - {'name': '🇺🇸_US_美国->🇨🇦_CA_加拿大', 'type': 'vmess', 'server': '23.170.40.116', 'port': 12345, 'uuid': '0c7fe100-fcce-4c6d-8208-a53f73e93e17', 'cipher': 'auto', 'network': 'ws', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'host': 'www.bing.com'}}, 'alterId': 0}
-- {'name': '🇺🇸_US_美国_10', 'type': 'ss', 'server': '3.113.6.44', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '🇺🇸_US_美国_11', 'type': 'ss', 'server': '69.50.95.218', 'port': 5499, 'cipher': 'aes-256-gcm', 'password': 'lGqs95QkFHo2NV'}
-- {'name': '🇺🇸_US_美国_12', 'type': 'ss', 'server': '38.143.66.87', 'port': 6379, 'cipher': 'aes-256-gcm', 'password': 'zDNVedRFPQexG9v'}
-- {'name': '🇺🇸_US_美国_13', 'type': 'ss', 'server': '38.143.66.87', 'port': 9102, 'cipher': 'aes-256-gcm', 'password': 'e4FCWrgpkji3QY'}
-- {'name': '🇺🇸_US_美国_14', 'type': 'ss', 'server': '69.50.95.53', 'port': 3389, 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC'}
+- {'name': '🇺🇸_US_美国_6', 'type': 'ss', 'server': '67.220.95.125', 'port': 7001, 'cipher': 'aes-256-gcm', 'password': 'RexnBgU7EV5ADxG'}
+- {'name': '🇺🇸_US_美国_7', 'type': 'vmess', 'server': '151.101.130.133', 'port': 80, 'sni': '', 'uuid': 'a888b89a-08ac-40e6-8ad7-cfce9569f967', 'cipher': 'auto', 'network': 'ws', 'fingerprint': '', 'ws-opts': {'path': '/racevpn', 'headers': {'host': 'gerMAnyISvP.iR'}}, 'alterId': 0}
+- {'name': '🇺🇸_US_美国_8', 'type': 'ss', 'server': '38.114.114.69', 'port': 8118, 'cipher': 'aes-256-gcm', 'password': 'cdBIDV42DCwnfIN'}
 - {'name': '🇨🇳_CN_中国->🇫🇷_FR_法国', 'type': 'vmess', 'server': '120.237.79.157', 'port': 46665, 'uuid': '3ac820af-becb-45d7-9e7a-e33d02961bb3', 'cipher': 'auto', 'network': 'tcp', 'alterId': 64}
-- {'name': '🇺🇸_US_美国_15', 'type': 'ss', 'server': '69.50.95.53', 'port': 8119, 'cipher': 'aes-256-gcm', 'password': 'cdBIDV42DCwnfIN'}
-- {'name': '🇺🇸_US_美国_17', 'type': 'ss', 'server': '15.204.87.217', 'port': 5498, 'cipher': 'aes-256-gcm', 'password': 'lGqs95QkFHo2NV'}
-- {'name': '🇷🇺_RU_俄罗斯', 'type': 'ss', 'server': '217.30.10.18', 'port': 9060, 'cipher': 'aes-256-cfb', 'password': 'ueLXVkvh4hckhErQ'}
-- {'name': '🇺🇸_US_美国_18', 'type': 'ss', 'server': '38.114.114.69', 'port': 8118, 'cipher': 'aes-256-gcm', 'password': 'cdBIDV42DCwnfIN'}
-- {'name': '🇺🇸_US_美国_19', 'type': 'ss', 'server': '38.114.114.69', 'port': 5003, 'cipher': 'aes-256-gcm', 'password': 'g5MeD6Ft3CWlJId'}
+- {'name': '🇩🇪_DE_德国', 'type': 'trojan', 'server': '35.159.100.168', 'port': 22222, 'sni': 'trojan.burgerip.co.uk', 'password': 'telegram-id-privatevpns'}
+- {'name': '🇺🇸_US_美国_9', 'type': 'ss', 'server': '38.114.114.69', 'port': 3306, 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC'}
+- {'name': '🇺🇸_US_美国_10', 'type': 'ss', 'server': '69.50.93.113', 'port': 9101, 'cipher': 'aes-256-gcm', 'password': 'e4FCWrgpkji3QY'}
+- {'name': '🇺🇸_US_美国_11', 'type': 'trojan', 'server': 'polite-racer.sheepdog670.boats', 'port': 443, 'password': '3648425794742788096', 'network': 'tcp'}
+- {'name': '未知', 'type': 'trojan', 'server': 'square-husky.sunbeam921.monster', 'port': 443, 'password': '3648425794742788096', 'network': 'tcp'}
+- {'name': '🇺🇸_US_美国_16', 'type': 'ss', 'server': '38.114.114.69', 'port': 9102, 'cipher': 'aes-256-gcm', 'password': 'e4FCWrgpkji3QY'}
+- {'name': '🇺🇸_US_美国_17', 'type': 'ss', 'server': '69.50.95.218', 'port': 7001, 'cipher': 'aes-256-gcm', 'password': 'RexnBgU7EV5ADxG'}
+- {'name': '🇺🇸_US_美国_18', 'type': 'vmess', 'server': 'ip.sb', 'port': 2082, 'uuid': '5f3f09ad-89cb-4e94-a7ad-aa8239913555', 'cipher': 'auto', 'network': 'ws', 'ws-opts': {'path': '/github.com/Alvin9999', 'headers': {'host': 'ip16.6929198.xyz'}}, 'alterId': 0}
 
 
 # 代理组

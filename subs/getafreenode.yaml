@@ -38,7 +38,7 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '●此UUID是错误或无效的●', 'server': '127.0.0.1', 'port': 443, 'type': 'vmess', 'uuid': '65907c13-345a-40f8-a651-74d6366f7ceb', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'Amsterdam.domain.com', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Amsterdam.domain.com'}}}
+- {'name': '●此UUID是错误或无效的●', 'server': '127.0.0.1', 'port': 443, 'type': 'vmess', 'uuid': 'd09cb639-7184-4107-b5db-ae845913ec6c', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'Amsterdam.domain.com', 'network': 'ws', 'ws-opts': {'path': '/speedtest', 'headers': {'Host': 'Amsterdam.domain.com'}}}
 
 
 # 代理组

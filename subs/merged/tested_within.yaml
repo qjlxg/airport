@@ -69,326 +69,139 @@ geox-url:
 
 # 代理列表
 proxies: 
-  - {"name":"🇭🇰 香港_1","server":"231103level3.unclemanco.com","port":"904","type":"ss","cipher":"aes-128-gcm","password":"a12cloud1","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇯🇵 日本_1","server":"231103level3.unclemanco.com","port":"823","type":"ss","cipher":"aes-128-gcm","password":"ayucloud1","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇯🇵 日本_2","server":"231103level3.unclemanco.com","port":"20012","type":"ss","cipher":"aes-128-gcm","password":"QHPy2u","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇯🇵 日本_3","server":"231103level3.unclemanco.com","port":"824","type":"ss","cipher":"aes-128-gcm","password":"ayu1245","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇭🇰 香港_2","type":"ss","server":"38.147.190.72","port":"8388","password":"asd123456","cipher":"chacha20-ietf"}
-  - {"name":"🇯🇵 日本_4","server":"231103level3.unclemanco.com","port":"9054","type":"ss","cipher":"aes-128-gcm","password":"QHPy2u","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇯🇵 日本_5","server":"231103level3.unclemanco.com","port":"9063","type":"ss","cipher":"aes-128-gcm","password":"QHPy2u","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇭🇰 香港_3","server":"231103level2.unclemanco.com","port":"9022","type":"ss","cipher":"aes-128-gcm","password":"QHPy2u","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇭🇰 香港_4","server":"231103level2.unclemanco.com","port":"916","type":"ss","cipher":"aes-128-gcm","password":"fsfal2","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇯🇵 日本_6","server":"231103level2.unclemanco.com","port":"9052","type":"ss","cipher":"aes-128-gcm","password":"ayucloud1","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇯🇵 日本_7","server":"231103level3.unclemanco.com","port":"907","type":"ss","cipher":"aes-128-gcm","password":"ayucles1","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇭🇰 香港_5","server":"231103level3.unclemanco.com","port":"825","type":"ss","cipher":"aes-128-gcm","password":"QHPy2u","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇯🇵 日本_8","server":"231103level2.unclemanco.com","port":"9053","type":"ss","cipher":"aes-128-gcm","password":"ayucloud1","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇭🇰 香港_6","server":"231103level3.unclemanco.com","port":"908","type":"ss","cipher":"aes-128-gcm","password":"ayucloud1","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇯🇵 日本_9","server":"231103level2.unclemanco.com","port":"8001","type":"ss","cipher":"aes-128-gcm","password":"QHPy2u","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇭🇰 香港_7","server":"231103level3.unclemanco.com","port":"835","type":"ss","cipher":"aes-128-gcm","password":"ayucloud1","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇭🇰 香港_8","server":"231103level3.unclemanco.com","port":"905","type":"ss","cipher":"aes-128-gcm","password":"ayucloud1","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇭🇰 香港_9","server":"231103level3.unclemanco.com","port":"919","type":"ss","cipher":"aes-128-gcm","password":"ayucloud1","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇭🇰 香港_10","server":"231103level2.unclemanco.com","port":"39004","type":"ss","cipher":"aes-128-gcm","password":"ayds23sd1","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇯🇵 日本_10","server":"18.183.171.233","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
-  - {"name":"🇯🇵 日本_11","server":"175.41.236.186","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
-  - {"name":"🇹🇼 台湾_1","server":"231103level3.unclemanco.com","port":"834","type":"ss","cipher":"aes-128-gcm","password":"QHPy2u","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇯🇵 日本_12","server":"3.112.246.107","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
+  - {"name":"🇭🇰 香港_1","type":"ss","server":"38.147.190.72","port":"8388","password":"asd123456","cipher":"chacha20-ietf"}
+  - {"name":"🇯🇵 日本_1","server":"54.95.5.168","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
+  - {"name":"🇯🇵 日本_2","server":"52.69.236.102","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
   - {"name":"❓ 未知_1","server":"3.112.215.69","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
-  - {"name":"🇯🇵 日本_13","server":"54.95.5.168","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
-  - {"name":"🇭🇰 香港_11","server":"231103level3.unclemanco.com","port":"9040","type":"ss","cipher":"aes-128-gcm","password":"QHPy2u","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇯🇵 日本_14","server":"52.69.236.102","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
-  - {"name":"🇸🇬 新加坡_1","server":"47.128.215.67","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"🇸🇬 新加坡_2","server":"231103level3.unclemanco.com","port":"9037","type":"ss","cipher":"aes-128-gcm","password":"ayucloud1","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇹🇼 台湾_2","server":"231103level2.unclemanco.com","port":"926","type":"ss","cipher":"aes-128-gcm","password":"ayucloud1","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇸🇬 新加坡_3","server":"231103level3.unclemanco.com","port":"9060","type":"ss","cipher":"aes-128-gcm","password":"QHPy2u","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇯🇵 日本_15","server":"3.112.128.236","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
-  - {"name":"🇹🇼 台湾_3","server":"231103level2.unclemanco.com","port":"9048","type":"ss","cipher":"aes-128-gcm","password":"ayucloud1","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇸🇬 新加坡_4","server":"52.77.209.61","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
-  - {"name":"🇯🇵 日本_16","server":"54.249.161.173","port":"443","type":"trojan","password":"8zlR8O7E3S8uqex4xYnpp8O6C3lZejBCZO53eYD7XIAaaTBRC3Cj9SCFxlAwKAwD2yyN3","sni":"sniffle.meijireform.com","skip-cert-verify":false}
-  - {"name":"🇸🇬 新加坡_5","server":"54.151.152.144","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"❓ 未知_2","server":"57.181.42.181","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
-  - {"name":"🇸🇬 新加坡_6","server":"54.169.135.226","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
-  - {"name":"🇸🇬 新加坡_7","server":"231103level3.unclemanco.com","port":"902","type":"ss","cipher":"aes-128-gcm","password":"ayuc211","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇯🇵 日本_17","server":"54.250.163.86","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
-  - {"name":"🇯🇵 日本_18","server":"231103level3.unclemanco.com","port":"914","type":"ss","cipher":"aes-128-gcm","password":"QHPy2u","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇯🇵 日本_19","server":"231103level3.unclemanco.com","port":"9021","type":"ss","cipher":"aes-128-gcm","password":"QHPy2u","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇯🇵 日本_20","server":"231103level3.unclemanco.com","port":"9062","type":"ss","cipher":"aes-128-gcm","password":"ayucloud1","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇯🇵 日本_21","server":"231103level3.unclemanco.com","port":"909","type":"ss","cipher":"aes-128-gcm","password":"ayu1245","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇯🇵 日本_22","server":"231103level3.unclemanco.com","port":"918","type":"ss","cipher":"aes-128-gcm","password":"ayucloud1","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇯🇵 日本_23","server":"231103level3.unclemanco.com","port":"819","type":"ss","cipher":"aes-128-gcm","password":"ayucloud1","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇯🇵 日本_24","server":"54.238.65.143","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
-  - {"name":"🇯🇵 日本_25","server":"231103level3.unclemanco.com","port":"811","type":"ss","cipher":"aes-128-gcm","password":"ay2dsd1","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇯🇵 日本_26","server":"231103level3.unclemanco.com","port":"9059","type":"ss","cipher":"aes-128-gcm","password":"ayucloud1","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇸🇬 新加坡_8","server":"13.229.212.209","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
-  - {"name":"🇯🇵 日本_27","server":"231103level3.unclemanco.com","port":"901","type":"ss","cipher":"aes-128-gcm","password":"ay21d1","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇯🇵 日本_28","server":"57.180.42.246","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
-  - {"name":"🇯🇵 日本_29","server":"231103level2.unclemanco.com","port":"818","type":"ss","cipher":"aes-128-gcm","password":"ayucloud1","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇯🇵 日本_30","server":"231103level2.unclemanco.com","port":"4321","type":"ss","cipher":"aes-128-gcm","password":"ay232sffssd1","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇯🇵 日本_31","server":"231103level2.unclemanco.com","port":"813","type":"ss","cipher":"aes-128-gcm","password":"ayucloud1","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇯🇵 日本_32","server":"231103level3.unclemanco.com","port":"1313","type":"ss","cipher":"aes-128-gcm","password":"fjlfjafl231303831","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇸🇬 新加坡_9","server":"13.229.182.85","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"🇰🇷 韩国_1","server":"231103level2.unclemanco.com","port":"804","type":"ss","cipher":"aes-128-gcm","password":"wedsa","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇸🇬 新加坡_10","server":"13.214.193.121","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"🇰🇷 韩国_2","server":"231103level3.unclemanco.com","port":"921","type":"ss","cipher":"aes-128-gcm","password":"ayucl243113","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇰🇷 韩国_3","server":"231103level3.unclemanco.com","port":"913","type":"ss","cipher":"aes-128-gcm","password":"ayucloud1","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇰🇷 韩国_4","server":"231103level3.unclemanco.com","port":"807","type":"ss","cipher":"aes-128-gcm","password":"ayuclsaa","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇰🇷 韩国_5","server":"231103level3.unclemanco.com","port":"9019","type":"ss","cipher":"aes-128-gcm","password":"ayucloud1","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"❓ 未知_3","type":"vless","network":"ws","server":"175.208.102.136","port":"19150","uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"vless.ifx.us.kg","tls":true,"udp":true,"delay":"1642","ws-opts":{"headers":{"Host":"vless.ifx.us.kg"},"path":"/?ed=2560"}}
+  - {"name":"🇯🇵 日本_3","server":"175.41.236.186","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
+  - {"name":"🇯🇵 日本_4","server":"52.196.65.55","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
+  - {"name":"🇯🇵 日本_5","server":"54.238.65.143","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
+  - {"name":"🇯🇵 日本_6","server":"57.180.42.246","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
+  - {"name":"🇯🇵 日本_7","server":"54.250.163.86","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
+  - {"name":"🇸🇬 新加坡_1","server":"52.77.209.61","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
+  - {"name":"🇸🇬 新加坡_2","server":"47.130.3.54","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
+  - {"name":"🇸🇬 新加坡_3","server":"13.229.182.85","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇯🇵 日本_8","server":"3.112.246.107","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
+  - {"name":"🇯🇵 日本_9","server":"57.181.42.181","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
+  - {"name":"🇸🇬 新加坡_4","server":"54.169.135.226","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
+  - {"name":"🇯🇵 日本_10","server":"43.206.239.200","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
+  - {"name":"🇸🇬 新加坡_5","server":"13.214.193.121","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇸🇬 新加坡_6","server":"54.151.152.144","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇸🇬 新加坡_7","server":"13.229.212.209","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
+  - {"name":"🇯🇵 日本_11","server":"54.249.161.173","port":"443","type":"trojan","password":"8zlR8O7E3S8uqex4xYnpp8O6C3lZejBCZO53eYD7XIAaaTBRC3Cj9SCFxlAwKAwD2yyN3","sni":"sniffle.meijireform.com","skip-cert-verify":false}
   - {"name":"🇷🇺 俄罗斯_1","server":"46.17.40.57","port":"12345","type":"ss","cipher":"aes-256-gcm","password":"dongtaiwang.com"}
-  - {"name":"🇸🇬 新加坡_11","server":"231103level1.unclemanco.com","port":"6879","type":"ss","cipher":"aes-128-gcm","password":"ayucloud1","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇸🇬 新加坡_12","server":"231103level2.unclemanco.com","port":"9038","type":"ss","cipher":"aes-128-gcm","password":"ayucloud1","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇸🇬 新加坡_13","server":"231103level2.unclemanco.com","port":"19999","type":"ss","cipher":"aes-128-gcm","password":"dajkdkjda&dja*/?","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇲🇽 墨西哥","server":"zmaoz.faculty.ucdavis.edu","port":"443","type":"vless","uuid":"041f671a-63f5-4af1-a492-8cbff5797b8a","tls":true,"skip-cert-verify":true,"client-fingerprint":"chrome","servername":"zmaoz.faculty.ucdavis.edu","network":"ws","ws-opts":{"path":"/5Ve373mPjKg4vceF?ed","headers":{"Host":"Falcunargo.net"}},"udp":true}
-  - {"name":"🇳🇱 荷兰_1","server":"45.87.175.192","port":"8080","type":"ss","cipher":"chacha20-ietf-poly1305","password":"4a2rfixophdjffa8KVA4Aa","udp":true}
-  - {"name":"🇰🇷 韩国_6","server":"231103level3.unclemanco.com","port":"9035","type":"ss","cipher":"aes-128-gcm","password":"QHPy2u","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"❓ 未知_4","type":"vless","server":"43.155.89.93","port":"55527","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"lt.ylks01.eu.org"}}}
-  - {"name":"🇵🇭 菲律宾","server":"231103level2.unclemanco.com","port":"44444","type":"ss","cipher":"aes-128-gcm","password":"ayds232sffssd1","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇰🇷 韩国_7","server":"3.35.54.153","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
-  - {"name":"❓ 未知_5","type":"trojan","server":"ent1.imyourdaddy.top","port":"20990","udp":true,"password":"64f33df2-4f9d-4cf3-bb69-b82b08cf149a","sni":"sale.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"❓ 未知_6","server":"43.203.218.87","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
-  - {"name":"🇰🇷 韩国_8","server":"3.36.115.124","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
-  - {"name":"🇯🇵 日本_33","server":"52.198.194.170","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
-  - {"name":"🇯🇵 日本_34","server":"231103level1.unclemanco.com","port":"840","type":"ss","cipher":"aes-128-gcm","password":"QHPy2u","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇳🇱 荷兰_2","server":"45.87.175.188","port":"8080","type":"ss","cipher":"chacha20-ietf-poly1305","password":"1RWwXhwfAB5gAEozU4G2Pg"}
-  - {"name":"🇰🇷 韩国_9","server":"231103level3.unclemanco.com","port":"9001","type":"ss","cipher":"aes-128-gcm","password":"ayucew2","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇰🇷 韩国_10","server":"231103level3.unclemanco.com","port":"817","type":"ss","cipher":"aes-128-gcm","password":"ayucloud1","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"❓ 未知_7","server":"18.169.5.98","port":"443","type":"ss","cipher":"chacha20-ietf-poly1305","password":"mps3FwmDjLrWaOVg"}
-  - {"name":"🇰🇷 韩国_11","server":"231103level3.unclemanco.com","port":"9030","type":"ss","cipher":"aes-128-gcm","password":"QHPy2u","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇰🇷 韩国_12","server":"231103level3.unclemanco.com","port":"803","type":"ss","cipher":"aes-128-gcm","password":"QHPy2u","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇯🇵 日本_35","type":"vless","network":"ws","server":"14.43.88.180","port":"33890","uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"vless.ifx.us.kg","tls":true,"udp":true,"delay":"1087","ws-opts":{"headers":{"Host":"vless.ifx.us.kg"},"path":"/?ed=2560"}}
-  - {"name":"🇯🇵 日本_36","server":"231103level1.unclemanco.com","port":"912","type":"ss","cipher":"aes-128-gcm","password":"QHPy2u","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"❓ 未知_8","type":"vless","network":"ws","server":"222.112.148.240","port":"11310","uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"vless.ifx.us.kg","tls":true,"udp":true,"delay":"821","ws-opts":{"headers":{"Host":"vless.ifx.us.kg"},"path":"/?ed=2560"}}
-  - {"name":"🇭🇰 香港_12","type":"vless","network":"ws","server":"211.107.83.151","port":"11211","uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"vless.ifx.us.kg","tls":true,"udp":true,"delay":"2902","ws-opts":{"headers":{"Host":"vless.ifx.us.kg"},"path":"/?ed=2560"}}
-  - {"name":"❓ 未知_9","type":"vless","network":"ws","server":"125.128.118.250","port":"27018","uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"vless.ifx.us.kg","tls":true,"udp":true,"delay":"2012","ws-opts":{"headers":{"Host":"vless.ifx.us.kg"},"path":"/?ed=2560"}}
-  - {"name":"❓ 未知_10","server":"152.70.89.135","port":"587","type":"vless","uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"vless.ifx.us.kg","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"Host":"vless.ifx.us.kg"}},"udp":true,"delay":"1366"}
-  - {"name":"🇷🇺 俄罗斯_2","server":"231103level3.unclemanco.com","port":"37863","type":"ss","cipher":"aes-128-gcm","password":"dajkdkjda&dja*/?","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇭🇰 香港_13","server":"231103level1.unclemanco.com","port":"9047","type":"ss","cipher":"aes-128-gcm","password":"ayucloud1","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇺🇸 美国_1","type":"vless","server":"61.81.181.169","port":"14985","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_11","server":"43.201.72.28","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
-  - {"name":"🇰🇷 韩国_13","server":"13.125.158.71","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
-  - {"name":"🇺🇸 美国_2","type":"vless","server":"168.138.215.251","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇳🇱 荷兰_3","server":"45.87.175.178","port":"8080","type":"ss","cipher":"chacha20-ietf-poly1305","password":"cvII85TrW6n0OGyfpHVS1u"}
-  - {"name":"🇰🇷 韩国_14","server":"231103level3.unclemanco.com","port":"917","type":"ss","cipher":"aes-128-gcm","password":"ayucloud1","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇺🇸 美国_3","server":"54.213.228.61","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
-  - {"name":"🇯🇵 日本_37","server":"231103level1.unclemanco.com","port":"9051","type":"ss","cipher":"aes-128-gcm","password":"QHPy2u","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇳🇱 荷兰_4","server":"194.87.82.28","port":"12224","type":"ss","cipher":"chacha20-ietf-poly1305","password":"2fwufOmJ9ELfN4umzcHBfV"}
-  - {"name":"🇺🇸 美国_4","server":"231103level2.unclemanco.com","port":"809","type":"ss","cipher":"aes-128-gcm","password":"ayucjrsll","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇺🇸 美国_5","server":"54.202.75.206","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
-  - {"name":"🇺🇸 美国_6","server":"231103level3.unclemanco.com","port":"903","type":"ss","cipher":"aes-128-gcm","password":"ay2l23ud1","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇺🇸 美国_7","server":"231103level2.unclemanco.com","port":"911","type":"ss","cipher":"aes-128-gcm","password":"QHPy2u","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"❓ 未知_12","server":"104.19.48.236","port":"80","type":"vless","uuid":"5df7962e-f9fe-41e6-ab49-ed96ccb856a7","tls":false,"skip-cert-verify":false,"client-fingerprint":"chrome","servername":"v2ra1.ecrgpk.workers.dev","alpn":["h2","http/1.1"],"network":"ws","ws-opts":{"path":"/@VPNHTTPInjectorfree","headers":{"Host":"v2ra1.ecrgpk.workers.dev"}},"udp":true}
-  - {"name":"🇩🇪 德国_1","server":"3.122.201.229","port":"22222","type":"trojan","password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇰🇷 韩国_15","server":"231103level3.unclemanco.com","port":"810","type":"ss","cipher":"aes-128-gcm","password":"QHPy2u","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇺🇸 美国_8","server":"231103level1.unclemanco.com","port":"837","type":"ss","cipher":"aes-128-gcm","password":"ayucl12s1","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇺🇸 美国_9","server":"231103level2.unclemanco.com","port":"820","type":"ss","cipher":"aes-128-gcm","password":"QHPy2u","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇺🇸 美国_10","server":"231103level3.unclemanco.com","port":"821","type":"ss","cipher":"aes-128-gcm","password":"QHPy2u","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇰🇷 韩国_16","server":"231103level3.unclemanco.com","port":"920","type":"ss","cipher":"aes-128-gcm","password":"ayucloud1","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇺🇸 美国_11","type":"vless","server":"198.41.207.181","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_12","type":"vless","server":"173.245.49.76","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_13","type":"vless","server":"104.19.37.82","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.ylks01.eu.org","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"lt.ylks01.eu.org"}}}
-  - {"name":"🇺🇸 美国_13","type":"vless","server":"103.21.244.152","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇯🇵 日本_38","server":"aafrtpfxr.jpl01i9zjfegelp.5xfsur8v62.gosdk.xyz","port":"27001","type":"trojan","password":"f181b265-5fd4-456e-ad2d-c9b0446e0d51","sni":"q08m.vgraxiw73s.hasyaf.cn","skip-cert-verify":true}
-  - {"name":"🇺🇸 美国_14","type":"vless","server":"141.101.122.150","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_15","type":"vless","server":"173.245.49.128","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇳🇱 荷兰_5","type":"ss","server":"109.201.152.181","port":"443","cipher":"aes-128-cfb","password":"shadowsocks"}
-  - {"name":"🇺🇸 美国_16","type":"vless","server":"104.19.48.150","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_17","type":"vless","server":"141.101.122.118","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_14","type":"vless","server":"108.162.193.48","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_18","type":"vless","server":"108.162.193.120","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_19","type":"vless","server":"104.19.14.82","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_20","type":"vless","server":"141.101.120.13","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_15","type":"vless","network":"ws","server":"45.130.20.40","port":"1001","uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"vless.ifx.us.kg","tls":true,"udp":true,"delay":"1078","ws-opts":{"headers":{"Host":"vless.ifx.us.kg"},"path":"/?ed=2560"}}
-  - {"name":"🇺🇸 美国_21","type":"vless","server":"104.17.211.252","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_22","type":"vless","server":"198.41.204.96","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_23","type":"vless","server":"173.245.49.112","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_24","type":"vless","server":"173.245.49.149","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_25","type":"vless","server":"104.19.63.71","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_26","type":"vless","server":"104.19.58.73","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_27","type":"vless","server":"13.56.210.252","port":"80","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_28","type":"vless","server":"104.19.123.159","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_16","server":"52.79.56.225","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
-  - {"name":"🇺🇸 美国_29","type":"vless","server":"104.16.250.35","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_30","type":"vless","server":"104.19.162.222","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_31","type":"vless","server":"108.162.192.123","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_32","type":"vless","server":"141.101.123.165","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_33","type":"vless","server":"173.245.49.216","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_34","type":"vless","server":"108.162.193.86","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_35","type":"vless","server":"141.101.121.60","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_36","type":"vless","server":"173.245.49.56","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_37","type":"vless","server":"108.162.194.9","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_38","type":"vless","server":"141.101.121.44","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_39","type":"vless","server":"141.101.122.147","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_17","type":"vless","server":"104.19.34.51","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.ylks01.eu.org","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"lt.ylks01.eu.org"}}}
-  - {"name":"🇺🇸 美国_40","type":"vless","server":"13.56.58.118","port":"2053","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_18","type":"vless","server":"104.19.49.117","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_19","type":"vless","server":"216.24.57.59","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.ylks01.eu.org","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"lt.ylks01.eu.org"}}}
-  - {"name":"🇺🇸 美国_41","type":"vless","server":"141.101.123.195","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_42","type":"vless","server":"141.101.123.177","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇯🇵 日本_39","type":"vless","network":"ws","server":"185.22.155.139","port":"587","uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"vless.ifx.us.kg","tls":true,"udp":true,"delay":"967","ws-opts":{"headers":{"Host":"vless.ifx.us.kg"},"path":"/?ed=2560"}}
-  - {"name":"🇺🇸 美国_43","type":"vless","server":"104.19.114.145","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_44","type":"vless","server":"141.101.122.188","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_45","type":"vless","server":"104.19.36.151","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_46","type":"vless","server":"103.21.244.67","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_20","type":"vless","server":"104.21.57.250","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_21","type":"vless","server":"173.245.59.68","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_47","type":"vless","server":"141.101.114.114","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_48","type":"vless","server":"103.21.244.210","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_22","type":"vless","server":"193.116.44.175","port":"11434","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_49","server":"231103level2.unclemanco.com","port":"857","type":"ss","cipher":"aes-128-gcm","password":"ayucloud1","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"❓ 未知_23","server":"46.246.98.155","port":"44013","type":"ss","cipher":"chacha20-ietf-poly1305","password":"UDcjYQ6Z6AIWxViZpqyOmO"}
-  - {"name":"🇺🇸 美国_50","type":"vless","server":"103.21.244.186","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_51","type":"vless","server":"104.19.104.167","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_24","type":"vless","server":"54.177.197.172","port":"80","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_25","type":"vless","server":"18.192.62.218","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_26","type":"vless","server":"104.19.50.148","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇰🇷 韩国_17","server":"13.125.37.249","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
-  - {"name":"🇺🇸 美国_52","type":"vless","server":"103.21.244.30","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_27","type":"vless","server":"18.158.211.32","port":"8443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_53","type":"vless","server":"172.64.105.121","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_28","type":"vless","server":"172.64.101.137","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_29","type":"vless","server":"141.101.122.192","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_54","type":"vless","server":"172.64.138.57","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_30","type":"vless","server":"212.183.88.24","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.ylks01.eu.org","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"lt.ylks01.eu.org"}}}
-  - {"name":"🇺🇸 美国_55","type":"vless","server":"104.19.30.202","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_31","server":"16.171.91.8","port":"22222","type":"trojan","password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇺🇸 美国_56","type":"vless","server":"104.17.118.23","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_57","type":"vless","server":"172.67.220.243","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_58","server":"54.187.244.22","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
-  - {"name":"🇺🇸 美国_59","type":"vless","server":"162.159.129.30","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_60","type":"vless","server":"188.114.99.41","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_61","type":"vless","server":"173.245.58.24","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_62","type":"vless","server":"104.21.45.254","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_63","type":"vless","server":"104.21.103.25","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_32","type":"vless","server":"198.41.211.93","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_64","type":"vless","server":"104.17.116.68","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_65","type":"vless","server":"198.41.218.166","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_33","type":"vless","server":"104.21.2.75","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_34","type":"vless","server":"103.21.244.235","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_66","server":"38.121.43.27","port":"8881","type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇺🇸 美国_67","type":"vless","server":"173.245.58.86","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_68","type":"vless","server":"172.64.168.41","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_35","type":"vless","server":"188.114.98.13","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_36","type":"vless","network":"ws","server":"37.120.184.206","port":"1001","uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"vless.ifx.us.kg","tls":true,"udp":true,"delay":"1567","ws-opts":{"headers":{"Host":"vless.ifx.us.kg"},"path":"/?ed=2560"}}
-  - {"name":"🇺🇸 美国_69","type":"vless","server":"103.21.244.188","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_37","type":"vless","server":"13.38.105.183","port":"8443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_70","server":"38.121.43.27","port":"6697","type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇺🇸 美国_71","type":"vless","server":"198.41.215.1","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_38","server":"63.246.112.81","port":"22222","type":"trojan","password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇺🇸 美国_72","type":"vless","server":"173.245.58.128","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_73","type":"vless","server":"172.67.218.101","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_74","type":"vless","server":"104.16.247.145","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_75","server":"38.121.43.27","port":"2375","type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇵🇱 波兰","server":"231103levelx.unclemanco.com","port":"2205","type":"ss","cipher":"aes-128-gcm","password":"dajkdkjda&dja*/?","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"❓ 未知_39","type":"vless","server":"13.38.105.183","port":"2053","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_76","server":"38.121.43.27","port":"8000","type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇺🇸 美国_77","server":"38.121.43.27","port":"7002","type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇺🇸 美国_78","server":"38.121.43.27","port":"7001","type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇺🇸 美国_79","type":"vless","server":"103.21.244.218","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_40","type":"vless","server":"103.21.244.126","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇰🇷 韩国_18","type":"vless","network":"ws","server":"199.232.5.101","port":"443","uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","servername":"mefa.ir","skip-cert-verify":true,"tls":true,"udp":true,"client-fingerprint":"chrome","delay":"1319","ws-opts":{"headers":{"Host":"mefa.ir"},"path":"/H?ed=2560"}}
-  - {"name":"❓ 未知_41","type":"vless","server":"15.188.202.197","port":"2083","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_42","type":"vless","server":"104.21.63.83","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_43","type":"vless","server":"64.110.104.30","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_44","type":"vless","server":"15.237.137.128","port":"8443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_80","server":"231103level1.unclemanco.com","port":"812","type":"ss","cipher":"aes-128-gcm","password":"ayucloud1","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"❓ 未知_45","type":"vless","server":"15.237.137.128","port":"2053","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_46","type":"vless","server":"162.159.153.250","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.ylks01.eu.org","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"lt.ylks01.eu.org"}}}
-  - {"name":"🇺🇸 美国_81","type":"vless","server":"104.16.152.179","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_47","type":"vless","server":"172.67.176.210","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_82","type":"vless","server":"104.17.170.155","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_83","type":"vless","server":"103.21.244.202","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_48","type":"vless","server":"162.159.240.226","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_84","type":"vless","server":"108.162.193.38","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_85","type":"vless","server":"103.21.244.248","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_86","type":"vless","server":"103.21.244.159","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_87","type":"vless","server":"141.101.121.212","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_88","type":"vless","server":"103.21.244.19","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_49","type":"vless","server":"217.142.128.252","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_50","type":"vless","server":"104.19.118.19","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"lt.ylks01.eu.org"}}}
-  - {"name":"🇺🇸 美国_89","server":"199.232.5.79","port":"443","type":"vless","uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"skip-cert-verify":true,"client-fingerprint":"chrome","servername":"mefa.ir","network":"ws","ws-opts":{"path":"/H?ed=2560","headers":{"Host":"mefa.ir"}},"udp":true}
-  - {"name":"❓ 未知_51","type":"vless","server":"173.245.49.145","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"lt.ylks01.eu.org"}}}
-  - {"name":"❓ 未知_52","type":"vless","server":"104.19.66.133","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"lt.ylks01.eu.org"}}}
-  - {"name":"❓ 未知_53","type":"vless","server":"141.101.122.41","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"lt.ylks01.eu.org"}}}
-  - {"name":"❓ 未知_54","server":"2.58.56.31","port":"3001","type":"vless","uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"skip-cert-verify":false,"client-fingerprint":"chrome","servername":"vless.ifx.us.kg","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"Host":"vless.ifx.us.kg"}}}
-  - {"name":"🇺🇸 美国_90","type":"vless","server":"198.41.215.237","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_91","type":"vless","server":"67.226.223.47","port":"80","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_55","type":"vless","server":"103.21.244.4","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_92","type":"vless","server":"104.17.128.105","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_93","type":"vless","server":"104.16.44.140","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_56","type":"ss","server":"103.36.91.32","port":"8388","password":"asd123456","cipher":"chacha20-ietf"}
-  - {"name":"❓ 未知_57","type":"vless","server":"13.50.173.22","port":"8443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_58","type":"vless","server":"104.18.125.188","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_59","type":"vless","server":"103.21.244.169","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"lt.ylks01.eu.org"}}}
-  - {"name":"🇺🇸 美国_94","type":"vless","server":"104.16.46.140","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_60","type":"vless","server":"141.101.122.2","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"lt.ylks01.eu.org"}}}
-  - {"name":"❓ 未知_61","type":"vless","server":"198.41.204.61","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"lt.ylks01.eu.org"}}}
-  - {"name":"❓ 未知_62","type":"vless","server":"173.245.49.14","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"lt.ylks01.eu.org"}}}
-  - {"name":"🇺🇸 美国_95","type":"vless","server":"172.67.36.181","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_63","type":"vless","server":"16.16.45.85","port":"8443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_64","type":"vless","server":"173.245.49.232","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"lt.ylks01.eu.org"}}}
-  - {"name":"❓ 未知_65","type":"vless","server":"162.159.61.161","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"lt.ylks01.eu.org"}}}
-  - {"name":"🇺🇸 美国_96","type":"vless","server":"141.101.115.220","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_66","server":"154.64.239.219","port":"587","type":"vless","uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"vless.ifx.us.kg","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"Host":"vless.ifx.us.kg"}},"udp":true,"delay":"1000"}
-  - {"name":"🇺🇸 美国_97","type":"vless","server":"104.16.48.35","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_98","type":"vless","server":"104.17.69.189","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_99","type":"vless","server":"104.22.20.25","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_67","type":"vless","server":"198.41.218.111","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"lt.ylks01.eu.org"}}}
-  - {"name":"❓ 未知_68","type":"vless","server":"108.162.193.143","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"lt.ylks01.eu.org"}}}
-  - {"name":"🇺🇸 美国_100","type":"vless","server":"104.18.41.8","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_69","type":"vless","server":"13.53.81.150","port":"2083","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_101","type":"vless","server":"104.22.61.18","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_70","type":"vless","server":"104.17.26.183","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"lt.ylks01.eu.org"}}}
-  - {"name":"❓ 未知_71","type":"vless","server":"joit.my.telegram.channel.cmliussst.tt.unlock.more.premium.nodet.cf.090227.xyz","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"lt.ylks01.eu.org"}}}
-  - {"name":"❓ 未知_72","type":"vless","server":"13.48.175.183","port":"2053","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_73","type":"vless","server":"13.49.166.245","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_74","type":"vless","server":"173.245.49.143","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"lt.ylks01.eu.org"}}}
-  - {"name":"❓ 未知_75","type":"vless","server":"104.19.27.30","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"lt.ylks01.eu.org"}}}
-  - {"name":"🇺🇸 美国_102","type":"vless","server":"104.16.34.7","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_103","type":"vless","server":"104.16.115.214","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_104","type":"vless","server":"54.149.11.131","port":"80","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_105","type":"vless","server":"162.159.38.84","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_106","type":"vless","server":"104.19.35.171","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_76","type":"vless","server":"162.159.32.2","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"lt.ylks01.eu.org"}}}
-  - {"name":"❓ 未知_77","type":"vless","server":"35.167.219.51","port":"8443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_78","type":"vless","server":"35.247.124.181","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_79","type":"vless","server":"13.60.226.232","port":"8443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_107","type":"vless","server":"190.93.246.27","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_108","type":"vless","server":"103.21.244.183","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_109","type":"vless","server":"104.17.72.66","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_80","type":"vless","server":"104.19.33.128","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"lt.ylks01.eu.org"}}}
-  - {"name":"🇺🇸 美国_110","type":"vless","server":"104.19.137.44","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_81","type":"vless","server":"104.19.87.93","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"lt.ylks01.eu.org"}}}
-  - {"name":"🇺🇸 美国_111","type":"vless","server":"104.19.34.54","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_112","server":"231103level3.unclemanco.com","port":"906","type":"ss","cipher":"aes-128-gcm","password":"ay2loud1","plugin":"obfs","plugin-opts":{"mode":"http","host":"dcc40102737.download.windowsupdate.com"},"udp":true}
-  - {"name":"🇺🇸 美国_113","type":"vless","server":"162.159.250.178","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_114","type":"vless","server":"104.18.19.93","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_82","type":"vless","server":"103.21.244.68","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"lt.ylks01.eu.org"}}}
-  - {"name":"❓ 未知_83","type":"vless","server":"103.21.244.51","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"lt.ylks01.eu.org"}}}
-  - {"name":"🇺🇸 美国_115","type":"vless","server":"188.114.97.180","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_84","server":"95.164.51.24","port":"2501","type":"vless","uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"skip-cert-verify":false,"client-fingerprint":"chrome","servername":"vless.ifx.us.kg","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"Host":"vless.ifx.us.kg"}}}
-  - {"name":"🇺🇸 美国_116","type":"vless","server":"104.22.53.179","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_85","type":"vless","server":"13.53.193.196","port":"8080","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_117","type":"vless","server":"104.21.199.207","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇩🇪 德国_2","server":"151.101.65.210","port":"443","type":"vless","uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"skip-cert-verify":true,"client-fingerprint":"firefox","servername":"pooleno.ir","alpn":["h3","h2","http/1.1"],"network":"ws","ws-opts":{"path":"/GGPPfZ3NKyOoKNiK?ed=2560","headers":{"Host":"pooleno.ir"}}}
-  - {"name":"🇺🇸 美国_118","type":"vless","server":"34.83.245.149","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_86","type":"vless","server":"103.21.244.158","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"lt.ylks01.eu.org"}}}
-  - {"name":"🇺🇸 美国_119","type":"vless","server":"190.93.244.42","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇰🇷 韩国_19","type":"vless","network":"ws","server":"121.184.130.110","port":"19150","uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"vless.ifx.us.kg","tls":true,"udp":true,"delay":"924","ws-opts":{"headers":{"Host":"vless.ifx.us.kg"},"path":"/?ed=2560"}}
-  - {"name":"❓ 未知_87","type":"vless","server":"104.18.55.228","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"lt.ylks01.eu.org"}}}
-  - {"name":"🇺🇸 美国_120","type":"vless","server":"162.159.248.171","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_121","type":"vless","server":"67.226.223.47","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"🇺🇸 美国_122","type":"vless","server":"162.159.242.10","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
-  - {"name":"❓ 未知_88","type":"vless","server":"173.245.59.75","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"lt.ylks01.eu.org"}}}
-  - {"name":"❓ 未知_89","server":"154.3.8.151","port":"30067","type":"ss","cipher":"aes-256-gcm","password":"iUB0923RBA"}
-  - {"name":"❓ 未知_90","type":"vless","server":"104.19.194.198","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"lt.ylks01.eu.org"}}}
-  - {"name":"🇺🇸 美国_123","server":"54.69.144.178","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
-  - {"name":"🇺🇸 美国_124","type":"vless","server":"162.159.255.56","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
+  - {"name":"🇳🇱 荷兰_1","server":"45.87.175.188","port":"8080","type":"ss","cipher":"chacha20-ietf-poly1305","password":"1RWwXhwfAB5gAEozU4G2Pg"}
+  - {"name":"🇳🇱 荷兰_2","server":"45.87.175.166","port":"8080","type":"ss","cipher":"chacha20-ietf-poly1305","password":"4a2rfixophdjffa8KVA4Aa"}
+  - {"name":"🇯🇵 日本_12","server":"aafrtpfxr.jpl01i9zjfegelp.5xfsur8v62.gosdk.xyz","port":"27001","type":"trojan","password":"f181b265-5fd4-456e-ad2d-c9b0446e0d51","sni":"q08m.vgraxiw73s.hasyaf.cn","skip-cert-verify":true}
+  - {"name":"🇳🇱 荷兰_3","type":"ss","server":"45.87.175.164","port":"8080","cipher":"chacha20-ietf-poly1305","password":"4a2rfixophdjffa8KVA4Aa"}
+  - {"name":"🇯🇵 日本_13","server":"52.198.194.170","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
+  - {"name":"❓ 未知_2","type":"vless","network":"ws","server":"175.208.102.136","port":"19150","uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"vless.ifx.us.kg","tls":true,"udp":true,"delay":"1642","ws-opts":{"headers":{"Host":"vless.ifx.us.kg"},"path":"/?ed=2560"}}
+  - {"name":"🇰🇷 韩国_1","server":"13.125.37.249","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
+  - {"name":"🇭🇰 香港_2","type":"ss","server":"120.232.81.50","port":"16088","password":"hGkQ6915tD","cipher":"aes-256-cfb"}
+  - {"name":"❓ 未知_3","server":"43.201.72.28","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
+  - {"name":"🇰🇷 韩国_2","server":"13.125.158.71","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
+  - {"name":"🇳🇱 荷兰_4","server":"45.87.175.178","port":"8080","type":"ss","cipher":"chacha20-ietf-poly1305","password":"cvII85TrW6n0OGyfpHVS1u"}
+  - {"name":"🇳🇱 荷兰_5","server":"45.87.175.154","port":"8080","type":"ss","cipher":"chacha20-ietf-poly1305","password":"cvII85TrW6n0OGyfpHVS1u"}
+  - {"name":"🇰🇷 韩国_3","server":"3.35.54.153","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
+  - {"name":"🇳🇱 荷兰_6","server":"beesyar.org","port":"8080","type":"ss","cipher":"chacha20-ietf-poly1305","password":"4a2rfixophdjffa8KVA4Aa"}
+  - {"name":"❓ 未知_4","server":"190.93.246.152","port":"8880","type":"vless","uuid":"f0d584bc-342f-4443-ba24-79e4d0e504b1","tls":false,"skip-cert-verify":false,"client-fingerprint":"chrome","servername":"late-tooth.granzinhannah.workers.dev","alpn":["h3","h2","http/1.1"],"network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"Host":"late-tooth.granzinhannah.workers.dev"}},"udp":true}
+  - {"name":"🇰🇷 韩国_4","server":"43.203.218.87","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
+  - {"name":"🇰🇷 韩国_5","server":"3.36.115.124","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
+  - {"name":"🇺🇸 美国_1","type":"ss","server":"137.175.97.159","port":"8388","password":"asd123456","cipher":"chacha20-ietf"}
+  - {"name":"❓ 未知_5","server":"107.155.57.51","port":"8080","type":"ss","cipher":"rc4-md5","password":"14fFPrbezE3HDZzsMOr6"}
+  - {"name":"🇳🇱 荷兰_7","server":"45.87.175.171","port":"8080","type":"ss","cipher":"chacha20-ietf-poly1305","password":"4a2rfixophdjffa8KVA4Aa"}
+  - {"name":"❓ 未知_6","type":"vless","network":"ws","server":"125.128.118.250","port":"27018","uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"vless.ifx.us.kg","tls":true,"udp":true,"delay":"2012","ws-opts":{"headers":{"Host":"vless.ifx.us.kg"},"path":"/?ed=2560"}}
+  - {"name":"🇰🇷 韩国_6","server":"221.139.79.57","port":"54345","type":"ss","cipher":"aes-256-cfb","password":"qwerREWQ@@"}
+  - {"name":"🇰🇷 韩国_7","type":"vless","network":"ws","server":"14.43.88.180","port":"33890","uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"vless.ifx.us.kg","tls":true,"udp":true,"delay":"1087","ws-opts":{"headers":{"Host":"vless.ifx.us.kg"},"path":"/?ed=2560"}}
+  - {"name":"🇰🇷 韩国_8","server":"zmaoz.faculty.ucdavis.edu","port":"443","type":"vless","uuid":"041f671a-63f5-4af1-a492-8cbff5797b8a","tls":true,"skip-cert-verify":true,"client-fingerprint":"chrome","servername":"zmaoz.faculty.ucdavis.edu","network":"ws","ws-opts":{"path":"/5Ve373mPjKg4vceF?ed","headers":{"Host":"Falcunargo.net"}},"udp":true}
+  - {"name":"❓ 未知_7","type":"vless","network":"ws","server":"222.112.148.240","port":"11310","uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"vless.ifx.us.kg","tls":true,"udp":true,"delay":"821","ws-opts":{"headers":{"Host":"vless.ifx.us.kg"},"path":"/?ed=2560"}}
+  - {"name":"❓ 未知_8","type":"vless","network":"ws","server":"211.107.83.151","port":"11211","uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"vless.ifx.us.kg","tls":true,"udp":true,"delay":"2902","ws-opts":{"headers":{"Host":"vless.ifx.us.kg"},"path":"/?ed=2560"}}
+  - {"name":"❓ 未知_9","server":"54.244.81.162","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
+  - {"name":"🇺🇸 美国_2","server":"35.88.136.187","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
+  - {"name":"❓ 未知_10","server":"23.150.152.16","port":"2375","type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇸🇪 瑞典_1","server":"46.246.98.155","port":"44013","type":"ss","cipher":"chacha20-ietf-poly1305","password":"UDcjYQ6Z6AIWxViZpqyOmO"}
+  - {"name":"❓ 未知_11","server":"194.87.82.28","port":"12224","type":"ss","cipher":"chacha20-ietf-poly1305","password":"2fwufOmJ9ELfN4umzcHBfV"}
+  - {"name":"🇺🇸 美国_3","server":"35.86.117.124","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
+  - {"name":"🇰🇷 韩国_9","server":"52.79.56.225","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
+  - {"name":"🇺🇸 美国_4","server":"54.149.182.67","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
+  - {"name":"🇺🇸 美国_5","server":"54.191.9.106","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
+  - {"name":"❓ 未知_12","server":"34.209.103.254","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
+  - {"name":"🇺🇸 美国_6","server":"34.217.179.211","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
+  - {"name":"🇦🇺 澳大利亚","server":"soonfrk.soon.guru","port":"40011","type":"ss","cipher":"chacha20-ietf-poly1305","password":"29fefcc3-9ae1-4e01-a1d0-534fc1671121"}
+  - {"name":"🇩🇪 德国_1","server":"3.72.228.193","port":"22222","type":"trojan","password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇺🇸 美国_7","server":"54.69.144.178","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
+  - {"name":"❓ 未知_13","type":"vless","network":"ws","server":"45.130.20.40","port":"1001","uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"vless.ifx.us.kg","tls":true,"udp":true,"delay":"1078","ws-opts":{"headers":{"Host":"vless.ifx.us.kg"},"path":"/?ed=2560"}}
+  - {"name":"❓ 未知_14","server":"212.102.53.197","port":"443","type":"ss","cipher":"aes-128-gcm","password":"shadowsocks"}
+  - {"name":"❓ 未知_15","server":"35.181.183.82","port":"22222","type":"trojan","password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇩🇪 德国_2","server":"18.199.126.97","port":"22222","type":"trojan","password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇳🇱 荷兰_8","type":"ss","server":"109.201.152.181","port":"443","cipher":"aes-128-cfb","password":"shadowsocks"}
+  - {"name":"🇫🇷 法国","server":"35.181.179.111","port":"22222","type":"trojan","password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇰🇷 韩国_10","type":"vless","network":"ws","server":"185.22.155.139","port":"587","uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"vless.ifx.us.kg","tls":true,"udp":true,"delay":"967","ws-opts":{"headers":{"Host":"vless.ifx.us.kg"},"path":"/?ed=2560"}}
+  - {"name":"❓ 未知_16","server":"104.19.48.236","port":"80","type":"vless","uuid":"5df7962e-f9fe-41e6-ab49-ed96ccb856a7","tls":false,"skip-cert-verify":false,"client-fingerprint":"chrome","servername":"v2ra1.ecrgpk.workers.dev","alpn":["h2","http/1.1"],"network":"ws","ws-opts":{"path":"/@VPNHTTPInjectorfree","headers":{"Host":"v2ra1.ecrgpk.workers.dev"}},"udp":true}
+  - {"name":"❓ 未知_17","server":"216.24.57.30","port":"443","type":"vless","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"skip-cert-verify":false,"servername":"lw.ylks.us.kg","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"Host":"lw.ylks.us.kg"}}}
+  - {"name":"🇭🇰 香港_3","server":"152.70.89.135","port":"587","type":"vless","uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"vless.ifx.us.kg","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"Host":"vless.ifx.us.kg"}},"udp":true,"delay":"1366"}
+  - {"name":"🇸🇬 新加坡_8","server":"13.212.78.66","port":"443","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇺🇸 美国_8","server":"54.187.244.22","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
+  - {"name":"🇺🇸 美国_9","server":"38.121.43.27","port":"6697","type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇺🇸 美国_10","server":"38.121.43.27","port":"7002","type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇺🇸 美国_11","server":"38.121.43.27","port":"5004","type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇺🇸 美国_12","server":"38.121.43.27","port":"8000","type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇳🇱 荷兰_9","server":"45.87.175.192","port":"8080","type":"ss","cipher":"chacha20-ietf-poly1305","password":"4a2rfixophdjffa8KVA4Aa","udp":true}
+  - {"name":"🇺🇸 美国_13","server":"38.121.43.27","port":"8881","type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇺🇸 美国_14","server":"38.121.43.27","port":"7001","type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇺🇸 美国_15","server":"38.121.43.27","port":"2375","type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸 美国_16","server":"44.243.115.246","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
+  - {"name":"❓ 未知_18","server":"23.150.152.112","port":"7002","type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"❓ 未知_19","server":"190.93.247.74","port":"443","type":"vless","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"skip-cert-verify":false,"servername":"lv.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"Host":"lv.kpcloud.eu.org"}}}
+  - {"name":"🇸🇪 瑞典_2","server":"16.171.91.8","port":"22222","type":"trojan","password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk"}
+  - {"name":"❓ 未知_20","server":"162.159.129.60","port":"80","type":"vless","uuid":"7d2dfb7a-2ecc-4448-bcbe-245a2092fe85","tls":false,"skip-cert-verify":true,"client-fingerprint":"chrome","servername":"www.speedtest.net.nl1.78.18.432.20.20.20.20.ir.xn--g28h.dns-dynamic.net.","network":"ws","ws-opts":{"path":"/Telegram-Xv2ry2?ed=512","headers":{"Host":"www.speedtest.net.nl1.78.18.432.20.20.20.20.ir.xn--g28h.dns-dynamic.net."}},"udp":true}
+  - {"name":"🇺🇸 美国_17","server":"44.243.225.84","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
+  - {"name":"🇺🇸 美国_18","server":"54.202.75.206","port":"443","client-fingerprint":"chrome","type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","tfo":false}
+  - {"name":"🇰🇷 韩国_11","server":"199.232.32.234","port":"443","type":"vless","uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"skip-cert-verify":true,"client-fingerprint":"randomized","servername":"behdasht.hrtc.ir","alpn":["h2","http/1.1"],"network":"ws","ws-opts":{"path":"/H?ed=2560","headers":{"Host":"behdasht.hrtc.ir"}}}
+  - {"name":"🇩🇪 德国_3","server":"199.232.8.31","port":"443","type":"vless","uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"skip-cert-verify":true,"client-fingerprint":"randomized","servername":"Sanjeshp.Ir","alpn":["h2","http/1.1"],"network":"ws","ws-opts":{"path":"/H?ed=2560","headers":{"Host":"Sanjeshp.Ir"}}}
+  - {"name":"❓ 未知_21","server":"35.178.147.41","port":"22222","type":"trojan","password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇯🇵 日本_14","server":"199.232.5.79","port":"443","type":"vless","uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"skip-cert-verify":true,"client-fingerprint":"chrome","servername":"mefa.ir","network":"ws","ws-opts":{"path":"/H?ed=2560","headers":{"Host":"mefa.ir"}},"udp":true}
+  - {"name":"🇬🇧 英国","server":"35.179.203.165","port":"22222","type":"trojan","password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk"}
+  - {"name":"❓ 未知_22","type":"vless","network":"ws","server":"37.120.184.206","port":"1001","uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"vless.ifx.us.kg","tls":true,"udp":true,"delay":"1567","ws-opts":{"headers":{"Host":"vless.ifx.us.kg"},"path":"/?ed=2560"}}
+  - {"name":"🇨🇭 瑞士_1","server":"199.232.6.53","port":"443","type":"vless","uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"skip-cert-verify":true,"client-fingerprint":"randomized","servername":"Sanjeshp.Ir","alpn":["h2","http/1.1"],"network":"ws","ws-opts":{"path":"/H?ed=2560","headers":{"Host":"Sanjeshp.Ir"}}}
+  - {"name":"❓ 未知_23","server":"23.157.40.47","port":"7002","type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇳🇱 荷兰_10","type":"vless","network":"ws","server":"199.232.5.101","port":"443","uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","servername":"mefa.ir","skip-cert-verify":true,"tls":true,"udp":true,"client-fingerprint":"chrome","delay":"1319","ws-opts":{"headers":{"Host":"mefa.ir"},"path":"/H?ed=2560"}}
+  - {"name":"🇺🇸 美国_19","server":"38.110.1.46","port":"6379","type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v","udp":true}
+  - {"name":"🇸🇬 新加坡_9","server":"199.232.7.154","port":"443","type":"vless","uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"skip-cert-verify":true,"client-fingerprint":"randomized","servername":"Sanjeshp.Ir","alpn":["h2","http/1.1"],"network":"ws","ws-opts":{"path":"/H?ed=2560","headers":{"Host":"Sanjeshp.Ir"}}}
+  - {"name":"❓ 未知_24","type":"vless","server":"172.66.44.135","port":"80","uuid":"5df7962e-f9fe-41e6-ab49-ed96ccb856a7","tls":false,"servername":"v2ra1.ecrgpk.workers.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"v2ra1.ecrgpk.workers.dev"}}}
+  - {"name":"❓ 未知_25","type":"vless","server":"104.18.41.8","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"lt.kpcloud.eu.org"}}}
+  - {"name":"🇷🇺 俄罗斯_2","server":"soonru.soon.guru","port":"40031","type":"ss","cipher":"chacha20-ietf-poly1305","password":"29fefcc3-9ae1-4e01-a1d0-534fc1671121"}
+  - {"name":"🇰🇷 韩国_12","type":"vless","network":"ws","server":"45.94.31.75","port":"1001","uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"vless.ifx.us.kg","tls":true,"udp":true,"delay":"1077","ws-opts":{"headers":{"Host":"vless.ifx.us.kg"},"path":"/?ed=2560"}}
+  - {"name":"🇨🇭 瑞士_2","server":"199.232.1.255","port":"443","type":"vless","uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"skip-cert-verify":true,"client-fingerprint":"randomized","servername":"Sanjeshp.Ir","alpn":["h2","http/1.1"],"network":"ws","ws-opts":{"path":"/H?ed=2560","headers":{"Host":"Sanjeshp.Ir"}}}
+  - {"name":"❓ 未知_26","server":"216.24.57.57","port":"443","type":"vless","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"skip-cert-verify":false,"servername":"lw.ylks.us.kg","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"Host":"lw.ylks.us.kg"}}}
+  - {"name":"🇸🇪 瑞典_3","server":"167.82.97.49","port":"443","type":"vless","uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"skip-cert-verify":true,"client-fingerprint":"randomized","servername":"cosmocare.ir","alpn":["h2","http/1.1"],"network":"ws","ws-opts":{"path":"/GGPPfZ3NKyOoKNiK?ed=2560","headers":{"Host":"cosmocare.ir"}}}
+  - {"name":"🇰🇷 韩国_13","server":"2.58.56.31","port":"3001","type":"vless","uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"skip-cert-verify":false,"client-fingerprint":"chrome","servername":"vless.ifx.us.kg","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"Host":"vless.ifx.us.kg"}}}
+  - {"name":"🇺🇸 美国_20","server":"140.248.152.40","port":"443","type":"vless","uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"skip-cert-verify":true,"client-fingerprint":"randomized","servername":"Sanjeshp.Ir","alpn":["h2","http/1.1"],"network":"ws","ws-opts":{"path":"/H?ed=2560","headers":{"Host":"Sanjeshp.Ir"}}}
+  - {"name":"🇰🇷 韩国_14","server":"hzhz1.sssyun.xyz","port":"39206","type":"ss","cipher":"chacha20-ietf-poly1305","password":"d4eeaa7b-43c6-49dc-8020-7389bba4d033"}
+  - {"name":"🇺🇸 美国_21","server":"38.110.1.46","port":"443","type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇸🇬 新加坡_10","type":"ss","server":"103.36.91.32","port":"8388","password":"asd123456","cipher":"chacha20-ietf"}
+  - {"name":"❓ 未知_27","server":"172.66.47.155","port":"443","type":"vless","uuid":"90137e2d-2a00-4acf-8c5d-a75dfb9c922b","tls":true,"skip-cert-verify":false,"servername":"richu.pages.dev","network":"ws","ws-opts":{"path":"/ProxyIP=ProxyIP.US.fxxk.dedyn.io","headers":{"Host":"richu.pages.dev"}}}
+  - {"name":"🇸🇬 新加坡_11","server":"151.101.65.210","port":"443","type":"vless","uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"skip-cert-verify":true,"client-fingerprint":"firefox","servername":"pooleno.ir","alpn":["h3","h2","http/1.1"],"network":"ws","ws-opts":{"path":"/GGPPfZ3NKyOoKNiK?ed=2560","headers":{"Host":"pooleno.ir"}}}
+  - {"name":"❓ 未知_28","server":"104.18.37.111","port":"443","type":"trojan","password":"bpb-trojan","sni":"mindrOOm-5cz.pAgEs.dEV","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/trC8BM8bTsAF0AnLYL","headers":{"Host":"mindrOOm-5cz.pAgEs.dEV"}}}
+  - {"name":"❓ 未知_29","server":"172.66.45.10","port":"443","type":"vless","uuid":"70ea7a10-de3e-4922-bc7c-4dd7c2cef882","tls":true,"skip-cert-verify":true,"servername":"newtunnel-2xm.pages.dev","network":"ws","ws-opts":{"path":"/vless","headers":{"Host":"newtunnel-2xm.pages.dev"}}}
+  - {"name":"❓ 未知_30","server":"198.62.62.185","port":"443","type":"vless","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"skip-cert-verify":false,"servername":"lu.ylks01.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"Host":"lu.ylks01.eu.org"}}}
+  - {"name":"❓ 未知_31","server":"154.64.239.219","port":"587","type":"vless","uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"vless.ifx.us.kg","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"Host":"vless.ifx.us.kg"}},"udp":true,"delay":"1000"}
+  - {"name":"❓ 未知_32","server":"188.42.145.159","port":"443","type":"vless","uuid":"54ef4ecf-ff37-436a-be13-95c8a8a1114d","tls":true,"skip-cert-verify":false,"client-fingerprint":"chrome","servername":"VIrgiNiavPn-nL.pagEs.dEv","network":"ws","ws-opts":{"path":"/","headers":{"Host":"VIrgiNiavPn-nL.pagEs.dEv"}}}
+  - {"name":"❓ 未知_33","type":"vless","network":"ws","server":"121.184.130.110","port":"19150","uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"vless.ifx.us.kg","tls":true,"udp":true,"delay":"924","ws-opts":{"headers":{"Host":"vless.ifx.us.kg"},"path":"/?ed=2560"}}
+  - {"name":"❓ 未知_34","server":"212.183.88.242","port":"443","type":"vless","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"skip-cert-verify":false,"servername":"dw.ylks.xyz","network":"ws","ws-opts":{"path":"/blue","headers":{"Host":"dw.ylks.xyz"}}}
+  - {"name":"❓ 未知_35","type":"vless","network":"ws","server":"95.164.51.24","port":"2003","uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"vless.ifx.us.kg","tls":true,"udp":true,"delay":"1576","ws-opts":{"headers":{"Host":"vless.ifx.us.kg"},"path":"/?ed=2560"}}
+  - {"name":"🇰🇷 韩国_15","server":"95.164.51.24","port":"2501","type":"vless","uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"skip-cert-verify":false,"client-fingerprint":"chrome","servername":"vless.ifx.us.kg","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"Host":"vless.ifx.us.kg"}}}
+  - {"name":"❓ 未知_36","server":"172.64.150.145","port":"443","type":"trojan","password":"bpb-trojan","sni":"mindrOOm-5cz.pAgEs.dEV","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/trC8BM8bTsAF0AnLYL","headers":{"Host":"mindrOOm-5cz.pAgEs.dEV"}}}
+  - {"name":"🇸🇪 瑞典_4","server":"13.53.74.20","port":"22222","type":"trojan","password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk"}
+  - {"name":"❓ 未知_37","server":"150.241.95.63","port":"37774","type":"ss","cipher":"chacha20-ietf-poly1305","password":"qbY6=zGuFl"}
+  - {"name":"❓ 未知_38","type":"vless","server":"104.19.34.54","port":"443","uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lt.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"lt.kpcloud.eu.org"}}}
 
 # 代理组
 proxy-groups:
   - name: 节点选择
     type: select
     icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/adjust.svg
-    proxies: ["自动选择", "DIRECT", '台湾节点', '香港节点', '日本节点', '新加坡节点', '墨西哥节点', '菲律宾节点', '俄罗斯节点', '韩国节点', '荷兰节点', '德国节点', '未知节点', '美国节点', '波兰节点']
+    proxies: ["自动选择", "DIRECT", '日本节点', '香港节点', '新加坡节点', '荷兰节点', '俄罗斯节点', '韩国节点', '澳大利亚节点', '法国节点', '美国节点', '德国节点', '未知节点', '瑞典节点', 'Cloudflare节点', '英国节点', '瑞士节点']
 
   - name: 自动选择
     type: url-test
@@ -399,32 +212,32 @@ proxy-groups:
     url: https://www.youtube.com/generate_204
     max-failed-times: 3
     icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/speed.svg
-    proxies: ['台湾节点', '香港节点', '日本节点', '新加坡节点', '墨西哥节点', '菲律宾节点', '俄罗斯节点', '韩国节点', '荷兰节点', '德国节点', '未知节点', '美国节点', '波兰节点']
+    proxies: ['日本节点', '香港节点', '新加坡节点', '荷兰节点', '俄罗斯节点', '韩国节点', '澳大利亚节点', '法国节点', '美国节点', '德国节点', '未知节点', '瑞典节点', 'Cloudflare节点', '英国节点', '瑞士节点']
 
   - name: 谷歌服务
     type: select
     icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/google.svg
-    proxies: ["节点选择", "自动选择", "全局直连", '台湾节点', '香港节点', '日本节点', '新加坡节点', '墨西哥节点', '菲律宾节点', '俄罗斯节点', '韩国节点', '荷兰节点', '德国节点', '未知节点', '美国节点', '波兰节点']
+    proxies: ["节点选择", "自动选择", "全局直连", '日本节点', '香港节点', '新加坡节点', '荷兰节点', '俄罗斯节点', '韩国节点', '澳大利亚节点', '法国节点', '美国节点', '德国节点', '未知节点', '瑞典节点', 'Cloudflare节点', '英国节点', '瑞士节点']
 
   - name: 国外媒体
     type: select
     icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/youtube.svg
-    proxies: ["节点选择", "自动选择", "全局直连", '台湾节点', '香港节点', '日本节点', '新加坡节点', '墨西哥节点', '菲律宾节点', '俄罗斯节点', '韩国节点', '荷兰节点', '德国节点', '未知节点', '美国节点', '波兰节点']
+    proxies: ["节点选择", "自动选择", "全局直连", '日本节点', '香港节点', '新加坡节点', '荷兰节点', '俄罗斯节点', '韩国节点', '澳大利亚节点', '法国节点', '美国节点', '德国节点', '未知节点', '瑞典节点', 'Cloudflare节点', '英国节点', '瑞士节点']
 
   - name: 电报消息
     type: select
     icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/telegram.svg
-    proxies: ["节点选择", "自动选择", "全局直连", '台湾节点', '香港节点', '日本节点', '新加坡节点', '墨西哥节点', '菲律宾节点', '俄罗斯节点', '韩国节点', '荷兰节点', '德国节点', '未知节点', '美国节点', '波兰节点']
+    proxies: ["节点选择", "自动选择", "全局直连", '日本节点', '香港节点', '新加坡节点', '荷兰节点', '俄罗斯节点', '韩国节点', '澳大利亚节点', '法国节点', '美国节点', '德国节点', '未知节点', '瑞典节点', 'Cloudflare节点', '英国节点', '瑞士节点']
 
   - name: 微软服务
     type: select
     icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/microsoft.svg
-    proxies: ["全局直连", "节点选择", "自动选择", '台湾节点', '香港节点', '日本节点', '新加坡节点', '墨西哥节点', '菲律宾节点', '俄罗斯节点', '韩国节点', '荷兰节点', '德国节点', '未知节点', '美国节点', '波兰节点']
+    proxies: ["全局直连", "节点选择", "自动选择", '日本节点', '香港节点', '新加坡节点', '荷兰节点', '俄罗斯节点', '韩国节点', '澳大利亚节点', '法国节点', '美国节点', '德国节点', '未知节点', '瑞典节点', 'Cloudflare节点', '英国节点', '瑞士节点']
 
   - name: 苹果服务
     type: select
     icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/apple.svg
-    proxies: ["节点选择", "自动选择", "全局直连", '台湾节点', '香港节点', '日本节点', '新加坡节点', '墨西哥节点', '菲律宾节点', '俄罗斯节点', '韩国节点', '荷兰节点', '德国节点', '未知节点', '美国节点', '波兰节点']
+    proxies: ["节点选择", "自动选择", "全局直连", '日本节点', '香港节点', '新加坡节点', '荷兰节点', '俄罗斯节点', '韩国节点', '澳大利亚节点', '法国节点', '美国节点', '德国节点', '未知节点', '瑞典节点', 'Cloudflare节点', '英国节点', '瑞士节点']
 
   - name: 广告过滤
     type: select
@@ -434,7 +247,7 @@ proxy-groups:
   - name: 全局直连
     type: select
     icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/link.svg
-    proxies: ["DIRECT", "节点选择", "自动选择", '台湾节点', '香港节点', '日本节点', '新加坡节点', '墨西哥节点', '菲律宾节点', '俄罗斯节点', '韩国节点', '荷兰节点', '德国节点', '未知节点', '美国节点', '波兰节点']
+    proxies: ["DIRECT", "节点选择", "自动选择", '日本节点', '香港节点', '新加坡节点', '荷兰节点', '俄罗斯节点', '韩国节点', '澳大利亚节点', '法国节点', '美国节点', '德国节点', '未知节点', '瑞典节点', 'Cloudflare节点', '英国节点', '瑞士节点']
 
   - name: 全局拦截
     type: select
@@ -444,31 +257,7 @@ proxy-groups:
   - name: 漏网之鱼
     type: select
     icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/fish.svg
-    proxies: ["节点选择", "自动选择", "全局直连", '台湾节点', '香港节点', '日本节点', '新加坡节点', '墨西哥节点', '菲律宾节点', '俄罗斯节点', '韩国节点', '荷兰节点', '德国节点', '未知节点', '美国节点', '波兰节点']
-
-  - name: 台湾节点
-    type: url-test
-    tolerance: 50
-    lazy: false
-    interval: 300
-    timeout: 2000
-    url: https://www.youtube.com/generate_204
-    max-failed-times: 3
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/tw.svg
-    hidden: false
-    proxies: ['🇹🇼 台湾_1', '🇹🇼 台湾_2', '🇹🇼 台湾_3']
-
-  - name: 香港节点
-    type: url-test
-    tolerance: 50
-    lazy: false
-    interval: 300
-    timeout: 2000
-    url: https://www.youtube.com/generate_204
-    max-failed-times: 3
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/hk.svg
-    hidden: false
-    proxies: ['🇭🇰 香港_1', '🇭🇰 香港_2', '🇭🇰 香港_3', '🇭🇰 香港_4', '🇭🇰 香港_5', '🇭🇰 香港_6', '🇭🇰 香港_7', '🇭🇰 香港_8', '🇭🇰 香港_9', '🇭🇰 香港_10', '🇭🇰 香港_11', '🇭🇰 香港_12', '🇭🇰 香港_13']
+    proxies: ["节点选择", "自动选择", "全局直连", '日本节点', '香港节点', '新加坡节点', '荷兰节点', '俄罗斯节点', '韩国节点', '澳大利亚节点', '法国节点', '美国节点', '德国节点', '未知节点', '瑞典节点', 'Cloudflare节点', '英国节点', '瑞士节点']
 
   - name: 日本节点
     type: url-test
@@ -480,7 +269,19 @@ proxy-groups:
     max-failed-times: 3
     icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/jp.svg
     hidden: false
-    proxies: ['🇯🇵 日本_1', '🇯🇵 日本_2', '🇯🇵 日本_3', '🇯🇵 日本_4', '🇯🇵 日本_5', '🇯🇵 日本_6', '🇯🇵 日本_7', '🇯🇵 日本_8', '🇯🇵 日本_9', '🇯🇵 日本_10', '🇯🇵 日本_11', '🇯🇵 日本_12', '🇯🇵 日本_13', '🇯🇵 日本_14', '🇯🇵 日本_15', '🇯🇵 日本_16', '🇯🇵 日本_17', '🇯🇵 日本_18', '🇯🇵 日本_19', '🇯🇵 日本_20', '🇯🇵 日本_21', '🇯🇵 日本_22', '🇯🇵 日本_23', '🇯🇵 日本_24', '🇯🇵 日本_25', '🇯🇵 日本_26', '🇯🇵 日本_27', '🇯🇵 日本_28', '🇯🇵 日本_29', '🇯🇵 日本_30', '🇯🇵 日本_31', '🇯🇵 日本_32', '🇯🇵 日本_33', '🇯🇵 日本_34', '🇯🇵 日本_35', '🇯🇵 日本_36', '🇯🇵 日本_37', '🇯🇵 日本_38', '🇯🇵 日本_39']
+    proxies: ['🇯🇵 日本_1', '🇯🇵 日本_2', '🇯🇵 日本_3', '🇯🇵 日本_4', '🇯🇵 日本_5', '🇯🇵 日本_6', '🇯🇵 日本_7', '🇯🇵 日本_8', '🇯🇵 日本_9', '🇯🇵 日本_10', '🇯🇵 日本_11', '🇯🇵 日本_12', '🇯🇵 日本_13', '🇯🇵 日本_14']
+
+  - name: 香港节点
+    type: url-test
+    tolerance: 50
+    lazy: false
+    interval: 300
+    timeout: 2000
+    url: https://www.youtube.com/generate_204
+    max-failed-times: 3
+    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/hk.svg
+    hidden: false
+    proxies: ['🇭🇰 香港_1', '🇭🇰 香港_2', '🇭🇰 香港_3']
 
   - name: 新加坡节点
     type: url-test
@@ -492,9 +293,9 @@ proxy-groups:
     max-failed-times: 3
     icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/sg.svg
     hidden: false
-    proxies: ['🇸🇬 新加坡_1', '🇸🇬 新加坡_2', '🇸🇬 新加坡_3', '🇸🇬 新加坡_4', '🇸🇬 新加坡_5', '🇸🇬 新加坡_6', '🇸🇬 新加坡_7', '🇸🇬 新加坡_8', '🇸🇬 新加坡_9', '🇸🇬 新加坡_10', '🇸🇬 新加坡_11', '🇸🇬 新加坡_12', '🇸🇬 新加坡_13']
+    proxies: ['🇸🇬 新加坡_1', '🇸🇬 新加坡_2', '🇸🇬 新加坡_3', '🇸🇬 新加坡_4', '🇸🇬 新加坡_5', '🇸🇬 新加坡_6', '🇸🇬 新加坡_7', '🇸🇬 新加坡_8', '🇸🇬 新加坡_9', '🇸🇬 新加坡_10', '🇸🇬 新加坡_11']
 
-  - name: 墨西哥节点
+  - name: 荷兰节点
     type: url-test
     tolerance: 50
     lazy: false
@@ -502,21 +303,9 @@ proxy-groups:
     timeout: 2000
     url: https://www.youtube.com/generate_204
     max-failed-times: 3
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/mx.svg
+    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/nl.svg
     hidden: false
-    proxies: ['🇲🇽 墨西哥']
-
-  - name: 菲律宾节点
-    type: url-test
-    tolerance: 50
-    lazy: false
-    interval: 300
-    timeout: 2000
-    url: https://www.youtube.com/generate_204
-    max-failed-times: 3
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/ph.svg
-    hidden: false
-    proxies: ['🇵🇭 菲律宾']
+    proxies: ['🇳🇱 荷兰_1', '🇳🇱 荷兰_2', '🇳🇱 荷兰_3', '🇳🇱 荷兰_4', '🇳🇱 荷兰_5', '🇳🇱 荷兰_6', '🇳🇱 荷兰_7', '🇳🇱 荷兰_8', '🇳🇱 荷兰_9', '🇳🇱 荷兰_10']
 
   - name: 俄罗斯节点
     type: url-test
@@ -540,9 +329,9 @@ proxy-groups:
     max-failed-times: 3
     icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/kr.svg
     hidden: false
-    proxies: ['🇰🇷 韩国_1', '🇰🇷 韩国_2', '🇰🇷 韩国_3', '🇰🇷 韩国_4', '🇰🇷 韩国_5', '🇰🇷 韩国_6', '🇰🇷 韩国_7', '🇰🇷 韩国_8', '🇰🇷 韩国_9', '🇰🇷 韩国_10', '🇰🇷 韩国_11', '🇰🇷 韩国_12', '🇰🇷 韩国_13', '🇰🇷 韩国_14', '🇰🇷 韩国_15', '🇰🇷 韩国_16', '🇰🇷 韩国_17', '🇰🇷 韩国_18', '🇰🇷 韩国_19']
+    proxies: ['🇰🇷 韩国_1', '🇰🇷 韩国_2', '🇰🇷 韩国_3', '🇰🇷 韩国_4', '🇰🇷 韩国_5', '🇰🇷 韩国_6', '🇰🇷 韩国_7', '🇰🇷 韩国_8', '🇰🇷 韩国_9', '🇰🇷 韩国_10', '🇰🇷 韩国_12', '🇰🇷 韩国_13', '🇰🇷 韩国_14', '🇰🇷 韩国_15']
 
-  - name: 荷兰节点
+  - name: 澳大利亚节点
     type: url-test
     tolerance: 50
     lazy: false
@@ -550,11 +339,11 @@ proxy-groups:
     timeout: 2000
     url: https://www.youtube.com/generate_204
     max-failed-times: 3
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/nl.svg
+    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/au.svg
     hidden: false
-    proxies: ['🇳🇱 荷兰_1', '🇳🇱 荷兰_2', '🇳🇱 荷兰_3', '🇳🇱 荷兰_4', '🇳🇱 荷兰_5']
+    proxies: ['🇦🇺 澳大利亚']
 
-  - name: 德国节点
+  - name: 法国节点
     type: url-test
     tolerance: 50
     lazy: false
@@ -562,21 +351,9 @@ proxy-groups:
     timeout: 2000
     url: https://www.youtube.com/generate_204
     max-failed-times: 3
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/de.svg
+    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/fr.svg
     hidden: false
-    proxies: ['🇩🇪 德国_1', '🇩🇪 德国_2']
-
-  - name: 未知节点
-    type: url-test
-    tolerance: 50
-    lazy: false
-    interval: 300
-    timeout: 2000
-    url: https://www.youtube.com/generate_204
-    max-failed-times: 3
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/unknown.svg
-    hidden: false
-    proxies: ['❓ 未知_1', '❓ 未知_2', '❓ 未知_3', '❓ 未知_4', '❓ 未知_5', '❓ 未知_6', '❓ 未知_7', '❓ 未知_8', '❓ 未知_9', '❓ 未知_10', '❓ 未知_11', '❓ 未知_12', '❓ 未知_13', '❓ 未知_14', '❓ 未知_15', '❓ 未知_16', '❓ 未知_17', '❓ 未知_18', '❓ 未知_19', '❓ 未知_20', '❓ 未知_21', '❓ 未知_22', '❓ 未知_23', '❓ 未知_24', '❓ 未知_25', '❓ 未知_26', '❓ 未知_27', '❓ 未知_28', '❓ 未知_29', '❓ 未知_30', '❓ 未知_31', '❓ 未知_32', '❓ 未知_33', '❓ 未知_34', '❓ 未知_35', '❓ 未知_36', '❓ 未知_37', '❓ 未知_38', '❓ 未知_39', '❓ 未知_40', '❓ 未知_41', '❓ 未知_42', '❓ 未知_43', '❓ 未知_44', '❓ 未知_45', '❓ 未知_46', '❓ 未知_47', '❓ 未知_48', '❓ 未知_49', '❓ 未知_50', '❓ 未知_51', '❓ 未知_52', '❓ 未知_53', '❓ 未知_54', '❓ 未知_55', '❓ 未知_56', '❓ 未知_57', '❓ 未知_58', '❓ 未知_59', '❓ 未知_60', '❓ 未知_61', '❓ 未知_62', '❓ 未知_63', '❓ 未知_64', '❓ 未知_65', '❓ 未知_66', '❓ 未知_67', '❓ 未知_68', '❓ 未知_69', '❓ 未知_70', '❓ 未知_71', '❓ 未知_72', '❓ 未知_73', '❓ 未知_74', '❓ 未知_75', '❓ 未知_76', '❓ 未知_77', '❓ 未知_78', '❓ 未知_79', '❓ 未知_80', '❓ 未知_81', '❓ 未知_82', '❓ 未知_83', '❓ 未知_84', '❓ 未知_85', '❓ 未知_86', '❓ 未知_87', '❓ 未知_88', '❓ 未知_89', '❓ 未知_90']
+    proxies: ['🇫🇷 法国']
 
   - name: 美国节点
     type: url-test
@@ -588,9 +365,9 @@ proxy-groups:
     max-failed-times: 3
     icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/us.svg
     hidden: false
-    proxies: ['🇺🇸 美国_1', '🇺🇸 美国_2', '🇺🇸 美国_3', '🇺🇸 美国_4', '🇺🇸 美国_5', '🇺🇸 美国_6', '🇺🇸 美国_7', '🇺🇸 美国_8', '🇺🇸 美国_9', '🇺🇸 美国_10', '🇺🇸 美国_11', '🇺🇸 美国_12', '🇺🇸 美国_13', '🇺🇸 美国_14', '🇺🇸 美国_15', '🇺🇸 美国_16', '🇺🇸 美国_17', '🇺🇸 美国_18', '🇺🇸 美国_19', '🇺🇸 美国_20', '🇺🇸 美国_21', '🇺🇸 美国_22', '🇺🇸 美国_23', '🇺🇸 美国_24', '🇺🇸 美国_25', '🇺🇸 美国_26', '🇺🇸 美国_27', '🇺🇸 美国_28', '🇺🇸 美国_29', '🇺🇸 美国_30', '🇺🇸 美国_31', '🇺🇸 美国_32', '🇺🇸 美国_33', '🇺🇸 美国_34', '🇺🇸 美国_35', '🇺🇸 美国_36', '🇺🇸 美国_37', '🇺🇸 美国_38', '🇺🇸 美国_39', '🇺🇸 美国_40', '🇺🇸 美国_41', '🇺🇸 美国_42', '🇺🇸 美国_43', '🇺🇸 美国_44', '🇺🇸 美国_45', '🇺🇸 美国_46', '🇺🇸 美国_47', '🇺🇸 美国_48', '🇺🇸 美国_49', '🇺🇸 美国_50', '🇺🇸 美国_51', '🇺🇸 美国_52', '🇺🇸 美国_53', '🇺🇸 美国_54', '🇺🇸 美国_55', '🇺🇸 美国_56', '🇺🇸 美国_57', '🇺🇸 美国_58', '🇺🇸 美国_59', '🇺🇸 美国_60', '🇺🇸 美国_61', '🇺🇸 美国_62', '🇺🇸 美国_63', '🇺🇸 美国_64', '🇺🇸 美国_65', '🇺🇸 美国_66', '🇺🇸 美国_67', '🇺🇸 美国_68', '🇺🇸 美国_69', '🇺🇸 美国_70', '🇺🇸 美国_71', '🇺🇸 美国_72', '🇺🇸 美国_73', '🇺🇸 美国_74', '🇺🇸 美国_75', '🇺🇸 美国_76', '🇺🇸 美国_77', '🇺🇸 美国_78', '🇺🇸 美国_79', '🇺🇸 美国_80', '🇺🇸 美国_81', '🇺🇸 美国_82', '🇺🇸 美国_83', '🇺🇸 美国_84', '🇺🇸 美国_85', '🇺🇸 美国_86', '🇺🇸 美国_87', '🇺🇸 美国_88', '🇺🇸 美国_89', '🇺🇸 美国_90', '🇺🇸 美国_91', '🇺🇸 美国_92', '🇺🇸 美国_93', '🇺🇸 美国_94', '🇺🇸 美国_95', '🇺🇸 美国_96', '🇺🇸 美国_97', '🇺🇸 美国_98', '🇺🇸 美国_99', '🇺🇸 美国_100', '🇺🇸 美国_101', '🇺🇸 美国_102', '🇺🇸 美国_103', '🇺🇸 美国_104', '🇺🇸 美国_105', '🇺🇸 美国_106', '🇺🇸 美国_107', '🇺🇸 美国_108', '🇺🇸 美国_109', '🇺🇸 美国_110', '🇺🇸 美国_111', '🇺🇸 美国_112', '🇺🇸 美国_113', '🇺🇸 美国_114', '🇺🇸 美国_115', '🇺🇸 美国_116', '🇺🇸 美国_117', '🇺🇸 美国_118', '🇺🇸 美国_119', '🇺🇸 美国_120', '🇺🇸 美国_121', '🇺🇸 美国_122', '🇺🇸 美国_123', '🇺🇸 美国_124']
+    proxies: ['🇺🇸 美国_1', '🇺🇸 美国_2', '🇺🇸 美国_3', '🇺🇸 美国_4', '🇺🇸 美国_5', '🇺🇸 美国_6', '🇺🇸 美国_7', '🇺🇸 美国_8', '🇺🇸 美国_9', '🇺🇸 美国_10', '🇺🇸 美国_11', '🇺🇸 美国_12', '🇺🇸 美国_13', '🇺🇸 美国_14', '🇺🇸 美国_15', '🇺🇸 美国_16', '🇺🇸 美国_17', '🇺🇸 美国_18', '🇺🇸 美国_19', '🇺🇸 美国_20', '🇺🇸 美国_21']
 
-  - name: 波兰节点
+  - name: 德国节点
     type: url-test
     tolerance: 50
     lazy: false
@@ -598,9 +375,69 @@ proxy-groups:
     timeout: 2000
     url: https://www.youtube.com/generate_204
     max-failed-times: 3
-    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/pl.svg
+    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/de.svg
     hidden: false
-    proxies: ['🇵🇱 波兰']
+    proxies: ['🇩🇪 德国_1', '🇩🇪 德国_2', '🇩🇪 德国_3']
+
+  - name: 未知节点
+    type: url-test
+    tolerance: 50
+    lazy: false
+    interval: 300
+    timeout: 2000
+    url: https://www.youtube.com/generate_204
+    max-failed-times: 3
+    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/unknown.svg
+    hidden: false
+    proxies: ['❓ 未知_1', '❓ 未知_2', '❓ 未知_3', '❓ 未知_4', '❓ 未知_5', '❓ 未知_6', '❓ 未知_7', '❓ 未知_8', '❓ 未知_9', '❓ 未知_10', '❓ 未知_11', '❓ 未知_12', '❓ 未知_13', '❓ 未知_14', '❓ 未知_15', '❓ 未知_16', '❓ 未知_17', '❓ 未知_18', '❓ 未知_19', '❓ 未知_20', '❓ 未知_21', '❓ 未知_22', '❓ 未知_23', '❓ 未知_24', '❓ 未知_25', '❓ 未知_26', '❓ 未知_27', '❓ 未知_28', '❓ 未知_29', '❓ 未知_30', '❓ 未知_31', '❓ 未知_32', '❓ 未知_33', '❓ 未知_34', '❓ 未知_35', '❓ 未知_36', '❓ 未知_37', '❓ 未知_38']
+
+  - name: 瑞典节点
+    type: url-test
+    tolerance: 50
+    lazy: false
+    interval: 300
+    timeout: 2000
+    url: https://www.youtube.com/generate_204
+    max-failed-times: 3
+    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/se.svg
+    hidden: false
+    proxies: ['🇸🇪 瑞典_1', '🇸🇪 瑞典_2', '🇸🇪 瑞典_3', '🇸🇪 瑞典_4']
+
+  - name: Cloudflare节点
+    type: url-test
+    tolerance: 50
+    lazy: false
+    interval: 300
+    timeout: 2000
+    url: https://www.youtube.com/generate_204
+    max-failed-times: 3
+    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/cloudflare.svg
+    hidden: false
+    proxies: ['🇰🇷 韩国_11']
+
+  - name: 英国节点
+    type: url-test
+    tolerance: 50
+    lazy: false
+    interval: 300
+    timeout: 2000
+    url: https://www.youtube.com/generate_204
+    max-failed-times: 3
+    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/gb.svg
+    hidden: false
+    proxies: ['🇬🇧 英国']
+
+  - name: 瑞士节点
+    type: url-test
+    tolerance: 50
+    lazy: false
+    interval: 300
+    timeout: 2000
+    url: https://www.youtube.com/generate_204
+    max-failed-times: 3
+    icon: https://fastly.jsdelivr.net/gh/dongchengjie/metaST@main/metaST/Resources/icons/flags/ch.svg
+    hidden: false
+    proxies: ['🇨🇭 瑞士_1', '🇨🇭 瑞士_2']
 
 
 # 规则

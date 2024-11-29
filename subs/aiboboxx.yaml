@@ -39,6 +39,9 @@ geox-url:
 # 代理
 proxies: 
 - {'name': '高性价比机场:https://kfyun.uk', 'server': '127.0.0.1', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': '6601fb90e9b3'}
+- {'name': '0|--1', 'server': '193.124.22.253', 'port': 33068, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '3MgIhqwp4pjM8SKwixNkYZ'}
+- {'name': '0|--2', 'server': '138.199.42.68', 'port': 8080, 'type': 'ss', 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
+- {'name': '0|--18', 'server': '172.64.99.22', 'port': 2095, 'type': 'vmess', 'uuid': '18d96190-c10f-448f-a82a-2d36df5c3cde', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/github.com/Alvin9999', 'headers': {'Host': 'ip12.6016725.xyz'}}}
 - {'name': '5|d*********g.com_0', 'server': '104.21.238.200', 'port': 8443, 'type': 'vmess', 'uuid': '9201ffaa-6ca3-4f57-8b1f-266a2f390e43', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'http1.9290254.xyz', 'network': 'ws', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'http1.9290254.xyz'}}}
 - {'name': '5|d*********g.com_1', 'server': '104.21.238.201', 'port': 8443, 'type': 'vmess', 'uuid': '9201ffaa-6ca3-4f57-8b1f-266a2f390e43', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'http1.9290254.xyz', 'network': 'ws', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'http1.9290254.xyz'}}}
 - {'name': '5|d*********g.com_2', 'server': '104.21.238.202', 'port': 8443, 'type': 'vmess', 'uuid': '9201ffaa-6ca3-4f57-8b1f-266a2f390e43', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'http1.9290254.xyz', 'network': 'ws', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'http1.9290254.xyz'}}}
@@ -59,6 +62,15 @@ proxies:
 - {'name': '13|🇯🇵 日本特殊|@ripaojiedian', 'server': '52.196.65.55', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
 - {'name': '13|🇸🇬 狮城特殊|@ripaojiedian', 'server': '13.231.227.176', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
 - {'name': '13|🇰🇷 韩国特殊|@ripaojiedian', 'server': '54.95.5.168', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '15|CN_speednode_0007', 'server': 'gyl.58n.net', 'port': 20309, 'type': 'trojan', 'password': 'f58da02d-f06b-3e2f-8956-67afe8f6a998', 'sni': 'z309.hongkongnode.top', 'skip-cert-verify': true}
+- {'name': '15|CR_speednode_0019', 'server': '190.93.246.95', 'port': 443, 'type': 'trojan', 'password': 'bpb-trojan', 'sni': 'zeming13.us.kg', 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/tr?ed=2560', 'headers': {'Host': 'zeming13.us.kg'}}}
+- {'name': '15|CR_speednode_0020', 'server': '190.93.246.80', 'port': 443, 'type': 'trojan', 'password': 'bpb-trojan', 'sni': 'zeming13.us.kg', 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/tr?ed=2560', 'headers': {'Host': 'zeming13.us.kg'}}}
+- {'name': '15|CR_speednode_0021', 'server': '190.93.247.232', 'port': 443, 'type': 'trojan', 'password': 'bpb-trojan', 'sni': 'zeming13.us.kg', 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/tr?ed=2560', 'headers': {'Host': 'zeming13.us.kg'}}}
+- {'name': '15|JP_speednode_0025', 'server': '43.206.140.241', 'port': 443, 'type': 'trojan', 'password': '8cb7ad4e-2d61-3950-bb33-1d2cc3e653dd', 'sni': 'origin-a.akamaihd.net', 'skip-cert-verify': true}
+- {'name': '15|JP_speednode_0026', 'server': '18.179.44.127', 'port': 443, 'type': 'trojan', 'password': '8cb7ad4e-2d61-3950-bb33-1d2cc3e653dd', 'sni': 'steamcdn-a.akamaihd.net', 'skip-cert-verify': true}
+- {'name': '15|US_speednode_0047', 'server': '104.17.234.12', 'port': 443, 'type': 'trojan', 'password': 'VPNCUSTOMIZE', 'sni': '1.2.3.4.5.6.7.8.9.10.www.speedtest.net.VPNCUSTOMIZE.abrha.co.za', 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': '1.2.3.4.5.6.7.8.9.10.www.speedtest.net.VPNCUSTOMIZE.abrha.co.za'}}}
+- {'name': '15|US_speednode_0069', 'server': '35.92.52.160', 'port': 443, 'type': 'trojan', 'password': '8cb7ad4e-2d61-3950-bb33-1d2cc3e653dd', 'sni': 'akamai.cdn.steampipe.steamcontent.com', 'skip-cert-verify': true}
+- {'name': '15|US_speednode_0080', 'server': '104.18.86.204', 'port': 443, 'type': 'trojan', 'password': 'bpb-trojan', 'sni': '102.djR999998.Eu.orG', 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/trUvcCc2G5XwIs6jaw?ed=2560', 'headers': {'Host': '102.djR999998.Eu.orG'}}}
 - {'name': '16|d*********g.com_2 #1', 'server': '42.236.73.72', 'port': 443, 'type': 'vmess', 'uuid': '044f0177-0675-4dcf-89d4-804b6788e518', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'www.zitian.cn'}
 - {'name': 1, 'server': '42.236.73.72', 'port': 443, 'type': 'trojan', 'password': 'fuck', 'sni': 'www.zitian.cn'}
 

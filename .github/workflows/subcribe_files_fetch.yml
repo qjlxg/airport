@@ -17,5 +17,5 @@ jobs:
         uses: dongchengjie/subs-puller@main
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          config: https://raw.githubusercontent.com/dongchengjie/airport/main/subs/_config.yaml
+          config: https://raw.githubusercontent.com/qjlxg/airport/main/subs/_config.yaml
           merged: subs/merged/merged.yaml

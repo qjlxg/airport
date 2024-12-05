@@ -54,14 +54,14 @@ proxy_group_common_config: &proxy_group_common_config
 
 # 订阅地址
 proxy-providers: 
-  _pool:
+  ssr-scraper:
     type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/qjlxg/airport/main/subs/_pool.yaml'
-    path: ./providers/_pool.yaml
-  ClodQiu:
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/qjlxg/airport/main/subs/ssr-scraper.yaml'
+    path: ./providers/ssr-scraper.yaml
+  ss:
     type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/qjlxg/airport/main/subs/ClodQiu.yaml'
-    path: ./providers/ClodQiu.yaml
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/qjlxg/airport/main/subs/ss.yaml'
+    path: ./providers/ss.yaml
   Pawdroid:
     type: http
     url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/qjlxg/airport/main/subs/Pawdroid.yaml'
@@ -70,10 +70,10 @@ proxy-providers:
     type: http
     url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/qjlxg/airport/main/subs/a2470982985.yaml'
     path: ./providers/a2470982985.yaml
-  abshare:
+  get_subscribe:
     type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/qjlxg/airport/main/subs/abshare.yaml'
-    path: ./providers/abshare.yaml
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/qjlxg/airport/main/subs/get_subscribe.yaml'
+    path: ./providers/get_subscribe.yaml
   aiboboxx:
     type: http
     url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/qjlxg/airport/main/subs/aiboboxx.yaml'
@@ -90,10 +90,10 @@ proxy-providers:
     type: http
     url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/qjlxg/airport/main/subs/ermaozi.yaml'
     path: ./providers/ermaozi.yaml
-  freefq:
+  py:
     type: http
-    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/qjlxg/airport/main/subs/freefq.yaml'
-    path: ./providers/freefq.yaml
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/qjlxg/airport/main/subs/py.yaml'
+    path: ./providers/py.yaml
   mfuu:
     type: http
     url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/qjlxg/airport/main/subs/mfuu.yaml'

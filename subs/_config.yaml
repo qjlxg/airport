@@ -1,19 +1,19 @@
 github-mirror: https://mirror.ghproxy.com/
 data:
-  - id: _pool
+  - id: ssr-scraper
     type: http
     source: v2ray
     target: clash
     urls:
       - https://github.com/qjlxg/ssr-scraper/raw/refs/heads/master/nodes.txt
-    output: subs/_pool.yaml
-  - id: ClodQiu
+    output: subs/ssr-scraper.yaml
+  - id: ss
     type: http
     source: v2ray
     target: clash
     urls:
       - https://github.com/qjlxg/ss/raw/refs/heads/master/list_raw.txt
-    output: subs/ClodQiu.yaml
+    output: subs/ss.yaml
   - id: Pawdroid
     type: http
     source: v2ray
@@ -28,13 +28,13 @@ data:
     urls:
       - https://raw.githubusercontent.com/a2470982985/getNode/main/clash.yaml
     output: subs/a2470982985.yaml
-  - id: abshare
+  - id: get_subscribe
     type: http
     source: v2ray
     target: clash
     urls:
       - https://github.com/qjlxg/get_subscribe/raw/refs/heads/main/subscribe/clash.yml
-    output: subs/abshare.yaml
+    output: subs/get_subscribe.yaml
   - id: aiboboxx
     type: http
     source: v2ray
@@ -64,13 +64,13 @@ data:
     urls:
       - https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml
     output: subs/ermaozi.yaml
-  - id: freefq
+  - id: py
     type: http
-    source: v2ray
+    source: clash
     target: clash
     urls:
-      - https://raw.githubusercontent.com/freefq/free/master/v2
-    output: subs/freefq.yaml
+      - https://github.com/qjlxg/py/raw/refs/heads/main/data/clash.yaml
+    output: subs/py.yaml
   - id: mfuu
     type: http
     source: clash

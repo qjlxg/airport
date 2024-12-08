@@ -39,31 +39,21 @@ geox-url:
 # 代理
 proxies: 
 - {'name': '高性价比机场:https://kfyun.uk', 'server': '127.0.0.1', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': '6601fb90e9b3'}
-- {'name': '0|--1', 'server': '52.193.184.18', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|--1', 'server': '52.195.205.31', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
 - {'name': '0|--2', 'server': '54.200.220.184', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--3', 'server': '44.244.25.243', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--4', 'server': '45.87.175.164', 'port': 8080, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'cvII85TrW6n0OGyfpHVS1u'}
-- {'name': '0|--6', 'server': '45.87.175.166', 'port': 8080, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'cvII85TrW6n0OGyfpHVS1u'}
-- {'name': '0|--7', 'server': '38.75.136.21', 'port': 7307, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FoOiGlkAA9yPEGP'}
-- {'name': '0|--8', 'server': '38.75.136.21', 'port': 7306, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FoOiGlkAA9yPEGP'}
-- {'name': '0|--9', 'server': '18.236.89.178', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--10', 'server': '38.75.136.21', 'port': 6679, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'TEzjfAYq2IjtuoS'}
-- {'name': '0|--11', 'server': '52.195.205.31', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--12', 'server': '18.141.184.102', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--13', 'server': '34.219.118.99', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--14', 'server': '54.185.18.43', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--15', 'server': '47.128.246.130', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--16', 'server': 'beesyar.org', 'port': 8080, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '4a2rfixophdjffa8KVA4Aa'}
-- {'name': '0|--19', 'server': '38.75.136.21', 'port': 8881, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'kDWvXYZoTBcGkC4'}
-- {'name': '0|--20', 'server': '3.1.195.116', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--22', 'server': '34.215.84.62', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--23', 'server': '54.169.5.182', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--24', 'server': '34.222.145.191', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--43', 'server': '190.93.245.103', 'port': 2082, 'type': 'vmess', 'uuid': '5f3f09ad-89cb-4e94-a7ad-aa8239913555', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/github.com/Alvin9999', 'headers': {'Host': 'ip18.6929198.xyz'}}}
-- {'name': '5|d*********g.com_0', 'server': '104.21.238.200', 'port': 8443, 'type': 'vmess', 'uuid': '9201ffaa-6ca3-4f57-8b1f-266a2f390e43', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'http3.9290254.xyz', 'network': 'ws', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'http3.9290254.xyz'}}}
-- {'name': '5|d*********g.com_1', 'server': '104.21.238.201', 'port': 8443, 'type': 'vmess', 'uuid': '9201ffaa-6ca3-4f57-8b1f-266a2f390e43', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'http3.9290254.xyz', 'network': 'ws', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'http3.9290254.xyz'}}}
-- {'name': '5|d*********g.com_2', 'server': '104.21.238.202', 'port': 8443, 'type': 'vmess', 'uuid': '9201ffaa-6ca3-4f57-8b1f-266a2f390e43', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'http3.9290254.xyz', 'network': 'ws', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'http3.9290254.xyz'}}}
-- {'name': '5|d*********g.com_3', 'server': '104.21.238.203', 'port': 8443, 'type': 'vmess', 'uuid': '9201ffaa-6ca3-4f57-8b1f-266a2f390e43', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'http3.9290254.xyz', 'network': 'ws', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'http3.9290254.xyz'}}}
+- {'name': '0|--3', 'server': '54.169.5.182', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|--4', 'server': '34.208.196.91', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|--5', 'server': '38.75.136.21', 'port': 5003, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'g5MeD6Ft3CWlJId'}
+- {'name': '0|--6', 'server': '38.75.136.21', 'port': 8881, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'kDWvXYZoTBcGkC4'}
+- {'name': '0|--7', 'server': '38.75.136.21', 'port': 7306, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FoOiGlkAA9yPEGP'}
+- {'name': '0|--8', 'server': '45.87.175.166', 'port': 8080, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'cvII85TrW6n0OGyfpHVS1u'}
+- {'name': '0|--9', 'server': '34.215.84.62', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|--11', 'server': '38.75.136.21', 'port': 7307, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FoOiGlkAA9yPEGP'}
+- {'name': '0|--13', 'server': '54.185.18.43', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|--14', 'server': '52.193.184.18', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|--15', 'server': '185.77.217.121', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'X7eoEBrARWsBUiVfchVEdH'}
+- {'name': '0|--16', 'server': '34.222.145.191', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|--39', 'server': '190.93.245.103', 'port': 2082, 'type': 'vmess', 'uuid': '5f3f09ad-89cb-4e94-a7ad-aa8239913555', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/github.com/Alvin9999', 'headers': {'Host': 'ip18.6929198.xyz'}}}
 - {'name': '13,14|香港|@ripaojiedian', 'server': '36.151.192.242', 'port': 51377, 'type': 'trojan', 'password': 'DNUMdmnJ', 'skip-cert-verify': true}
 - {'name': '13,14|香港2|@ripaojiedian', 'server': '36.151.192.242', 'port': 18682, 'type': 'trojan', 'password': 'QwwHvrnN', 'skip-cert-verify': true}
 - {'name': '13|🇭🇰 香港3|@ripaojiedian', 'server': '120.198.71.216', 'port': 35601, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
@@ -85,8 +75,8 @@ proxies:
 - {'name': '13|🇯🇵 日本特殊|@ripaojiedian', 'server': '54.199.12.31', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
 - {'name': '13|🇸🇬 狮城特殊|@ripaojiedian', 'server': '3.38.151.109', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
 - {'name': '13,14|越南|@ripaojiedian', 'server': 'vn.mjt000.com', 'port': 443, 'type': 'trojan', 'password': '1ba48a0e-af2e-45fb-9e15-2b2d4134657c', 'sni': 'vn.mjt000.com', 'skip-cert-verify': false}
-- {'name': '16|d*********g.com_2 #1', 'server': '42.236.73.72', 'port': 443, 'type': 'vmess', 'uuid': '044f0177-0675-4dcf-89d4-804b6788e518', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'www.zitian.cn'}
-- {'name': 1, 'server': '42.236.73.72', 'port': 443, 'type': 'trojan', 'password': 'fuck', 'sni': 'www.zitian.cn'}
+- {'name': '16|d*********g.com_2', 'server': '42.236.73.72', 'port': 443, 'type': 'vmess', 'uuid': '044f0177-0675-4dcf-89d4-804b6788e518', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'www.zitian.cn'}
+- {'name': '16|d*********g.com_3', 'server': '42.236.73.72', 'port': 443, 'type': 'trojan', 'password': 'fuck', 'sni': 'www.zitian.cn'}
 
 
 # 代理组

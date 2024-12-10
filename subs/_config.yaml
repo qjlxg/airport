@@ -277,3 +277,10 @@ data:
     urls:
       - https://raw.githubusercontent.com/m3hdio1/v2ray_sub/main/v2ray_sub.txt
     output: subs/m3hdio1.yaml
+  - id: 586
+    type: http
+    source: clash
+    target: clash
+    urls:
+      - https://github.com/qjlxg/586/raw/refs/heads/master/sub/sub_merge_base64.txt
+    output: subs/586.yaml

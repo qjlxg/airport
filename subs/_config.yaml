@@ -279,7 +279,7 @@ data:
     output: subs/m3hdio1.yaml
   - id: 586
     type: http
-    source: clash
+    source: v2ray
     target: clash
     urls:
       - https://github.com/qjlxg/586/raw/refs/heads/master/sub/sub_merge_base64.txt

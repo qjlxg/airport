@@ -9,7 +9,7 @@ data:
     output: subs/_pool.yaml
   - id: ClodQiu
     type: http
-    source: clash
+    source: v2ray
     target: clash
     urls:
       - https://github.com/qjlxg/586/raw/refs/heads/master/sub/sub_merge_base64.txt

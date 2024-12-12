@@ -12,7 +12,7 @@ data:
     source: clash
     target: clash
     urls:
-      - https://raw.githubusercontent.com/ClodQiu/STARS/master/list.yml
+      - https://github.com/qjlxg/586/raw/refs/heads/master/sub/sub_merge_base64.txt
     output: subs/ClodQiu.yaml
   - id: Pawdroid
     type: http

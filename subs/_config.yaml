@@ -2,10 +2,10 @@ github-mirror: https://mirror.ghproxy.com/
 data:
   - id: _pool
     type: http
-    source: clash
+    source: v2ray
     target: clash
     urls:
-      - https://github.com/qjlxg/ss/raw/refs/heads/master/list_raw.txt
+      - https://github.com/qjlxg/ss/raw/refs/heads/master/list.txt
     output: subs/_pool.yaml
   - id: ClodQiu
     type: http

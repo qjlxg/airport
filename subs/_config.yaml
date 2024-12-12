@@ -5,7 +5,7 @@ data:
     source: clash
     target: clash
     urls:
-      - https://raw.githubusercontent.com/dongchengjie/airport/main/subs/_pool.yaml
+      - https://github.com/qjlxg/ss/raw/refs/heads/master/list.yml
     output: subs/_pool.yaml
   - id: ClodQiu
     type: http

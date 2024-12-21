@@ -38,11 +38,31 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '美国 CloudFlare节点', 'server': '104.21.82.183', 'port': 8880, 'type': 'vmess', 'uuid': '5a7021e0-26b4-45d6-b175-fe551601ca97', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'server26.beheshtbaneh.com'}}}
-- {'name': '美国 CloudFlare节点 2', 'server': 'server31.beheshtbaneh.com', 'port': 8880, 'type': 'vmess', 'uuid': '4154143c-bbba-47a4-9f79-c2ed087cbcc9', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'server31.beheshtbaneh.com'}}}
-- {'name': '美国 V2CROSS.COM', 'server': '199.180.103.21', 'port': 37007, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/path/1734770577466', 'headers': {'Host': 'www.35743578.xyz'}}}
-- {'name': '波兰 V2CROSS.COM', 'server': '193.243.147.128', 'port': 40368, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': '7BcLdsO1WweoGD0X'}
-- {'name': '印度 V2CROSS.COM', 'server': '202.78.162.5', 'port': 443, 'type': 'vmess', 'uuid': '2ff97c6d-8557-42a4-b43f-19c77c5959ea', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'irsoft.sytes.net'}}}
+- {'name': '印度 V2CROSS.COM', 'server': '202.78.162.5', 'port': 443, 'type': 'vmess', 'uuid': '118287d2-e968-42e1-80d0-12fa2f5d38d6', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'sahand.serveminecraft.net'}}}
+- {'name': '美国 Xerox', 'server': '13.61.56.232', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '英国 V2CROSS.COM', 'server': '158.180.228.226', 'port': 443, 'type': 'vmess', 'uuid': '9b456c2a-f2c1-45e1-87a9-b7628b04bb24', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'beyonddsz.cfd'}}}
+- {'name': '美国 Amazon EC2服务器', 'server': 'series-a2-mec.varzesh360.co', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'u17T3BvpYaaiuW2c'}
+- {'name': '俄罗斯 V2CROSS.COM', 'server': '185.242.86.156', 'port': 54170, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '36ZCHeabUSfKjfQEvJ4HDV'}
+- {'name': '美国 华盛顿州西雅图市亚马逊(Amazon)公司数据中心', 'server': 'series-a1.samanehha.co', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'W74XFALLLuw6m5IA'}
+- {'name': '英国 伦敦Amazon数据中心', 'server': '3.9.156.132', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '美国 华盛顿Cogent通信公司', 'server': '38.114.114.77', 'port': 5500, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'KixLvKzwjekG00rm'}
+- {'name': '美国 华盛顿Cogent通信公司 2', 'server': '38.174.162.121', 'port': 38003, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/path/1734770191644', 'headers': {'Host': 'www.78422888.xyz'}}}
+- {'name': '美国 Amazon数据中心', 'server': '13.36.198.167', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk', 'skip-cert-verify': false}
+- {'name': '广东省广州市 移动', 'server': 'soonjp.soon.guru', 'port': 40003, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'ab8b625c-efb8-45cd-b509-c7cceabe0cc6'}
+- {'name': '美国 华盛顿Cogent通信公司 3', 'server': '38.143.66.87', 'port': 8118, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'cdBIDV42DCwnfIN'}
+- {'name': '美国 Amazon数据中心 2', 'server': '13.43.207.99', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '英国 Microsoft公司', 'server': '51.13.115.55', 'port': 40826, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'MZRSFDJxkMhGytZaw3NLHl'}
+- {'name': '美国 V2CROSS.COM', 'server': '208.67.105.87', 'port': 42501, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'nq96KftrZAj3LuFQESqmn44Mo5oCuo2cipoEsae25mrmHG2oJ4VT37scBfVBpN5DWtUELZutVhhXs8Le5B8fZ9hLn9ytwvbf'}
+- {'name': '美国 Amazon数据中心 3', 'server': '18.198.153.30', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '德国下萨克森州萨尔茨吉特 德国电信', 'server': 'api.namasha.co', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'u17T3BvpYaaiuW2c'}
+- {'name': '美国 加利福尼亚州圣何塞PEG TECH数据中心', 'server': '192.74.247.131', 'port': 37002, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/path/1734770191644', 'headers': {'Host': 'www.13480033.xyz'}}}
+- {'name': '美国 华盛顿Cogent通信公司 4', 'server': '38.143.66.87', 'port': 7002, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'RexnBgU7EV5ADxG'}
+- {'name': '英国 伦敦Amazon数据中心 2', 'server': '3.9.67.156', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'W74XFALLLuw6m5IA'}
+- {'name': '美国 惠普公司', 'server': '16.16.224.53', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '美国 俄勒冈州波特兰Amazon数据中心', 'server': 'us003.421421.xyz', 'port': 20230, 'type': 'trojan', 'password': '0028109a-37ed-4ded-b858-e566388a904c', 'sni': '421421.xyz'}
+- {'name': '欧盟 V2CROSS.COM', 'server': 'beesyar.org', 'port': 8080, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '4a2rfixophdjffa8KVA4Aa'}
+- {'name': '意大利 V2CROSS.COM', 'server': '212.102.53.193', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'shadowsocks'}
+- {'name': '美国 V2CROSS.COM 2', 'server': 'bangladeshipatri.com', 'port': 443, 'type': 'trojan', 'password': '71409d3e488548e8bb076d229778f008'}
 
 
 # 代理组

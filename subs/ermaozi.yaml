@@ -38,32 +38,28 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '🇺🇸_US_美国', 'type': 'ss', 'server': '35.88.126.102', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '🇬🇧_GB_英国->🇳🇱_NL_荷兰', 'type': 'ss', 'server': '51.15.15.82', 'port': 989, 'cipher': 'aes-256-cfb', 'password': 'f8f7aCzcPKbsF8p3'}
-- {'name': '🇷🇺_RU_俄罗斯', 'type': 'ss', 'server': '217.30.10.18', 'port': 9056, 'cipher': 'aes-256-cfb', 'password': 'rNBfNuuANFCAk7KB'}
-- {'name': '🇷🇺_RU_俄罗斯_1', 'type': 'ss', 'server': '217.30.10.18', 'port': 9088, 'cipher': 'aes-256-cfb', 'password': 'f8npKgNzdkss2ytn'}
-- {'name': '🇷🇺_RU_俄罗斯_2', 'type': 'ss', 'server': '217.30.10.18', 'port': 9050, 'cipher': 'aes-256-cfb', 'password': 'FG5ddLsMPbV5CutE'}
-- {'name': '🇷🇺_RU_俄罗斯_3', 'type': 'ss', 'server': '217.30.10.18', 'port': 9033, 'cipher': 'aes-256-cfb', 'password': 'UTJA57ypk2XKQpnm'}
-- {'name': '🇷🇺_RU_俄罗斯_4', 'type': 'ss', 'server': '217.30.10.18', 'port': 9079, 'cipher': 'aes-256-cfb', 'password': 'TPqX8edgbAURcAMb'}
-- {'name': '🇬🇧_GB_英国', 'type': 'ss', 'server': '51.13.115.105', 'port': 48963, 'cipher': 'chacha20-ietf-poly1305', 'password': 'ZTqcA3pg0tY0qKKP240BQT'}
-- {'name': '🇷🇺_RU_俄罗斯_5', 'type': 'ss', 'server': '217.30.10.18', 'port': 9084, 'cipher': 'aes-256-cfb', 'password': 'c3NtHJ5ujV2tGDfj'}
-- {'name': '🇷🇺_RU_俄罗斯_6', 'type': 'ss', 'server': '217.30.10.18', 'port': 9094, 'cipher': 'aes-256-cfb', 'password': 'rpgbNnU9rDDU4aWZ'}
-- {'name': '🇺🇸_US_美国_1', 'type': 'ss', 'server': '52.32.68.164', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '🇮🇪_IE_爱尔兰', 'type': 'ss', 'server': '13.79.98.64', 'port': 55939, 'cipher': 'chacha20-ietf-poly1305', 'password': '49JPbl6SMH1hDoskOR6irG'}
-- {'name': '🇺🇸_US_美国_2', 'type': 'ss', 'server': '198.105.123.190', 'port': 46902, 'cipher': 'chacha20-ietf-poly1305', 'password': '2UrSffeNABXGXXfNhoL6xBUnh1RzqMizrQ2s9QfC38P2YPuYPRTqW5zZg6jGisiNhkzM4SRjF6nzvFb18GPtESWoXWjhqyC8'}
-- {'name': '🇷🇺_RU_俄罗斯_7', 'type': 'ss', 'server': '217.30.10.18', 'port': 9010, 'cipher': 'aes-256-cfb', 'password': 'f63gg8EruDnUrmz4'}
-- {'name': '🇷🇺_RU_俄罗斯_8', 'type': 'ss', 'server': '217.30.10.18', 'port': 9060, 'cipher': 'aes-256-cfb', 'password': 'ueLXVkvh4hckhErQ'}
-- {'name': '🇺🇸_US_美国_3', 'type': 'ss', 'server': '54.244.200.142', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '🇷🇺_RU_俄罗斯_9', 'type': 'ss', 'server': '217.30.10.18', 'port': 9045, 'cipher': 'aes-256-cfb', 'password': 'Lp27rqyJq72bZsqX'}
-- {'name': '🇺🇸_US_美国_4', 'type': 'ss', 'server': '34.222.132.123', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '🇷🇺_RU_俄罗斯_10', 'type': 'ss', 'server': '185.22.155.228', 'port': 23456, 'cipher': 'aes-256-gcm', 'password': 'dongtaiwang.com'}
-- {'name': '🇨🇳_CN_中国->🇺🇸_US_美国', 'type': 'vmess', 'server': '183.236.51.23', 'port': 40434, 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'cipher': 'auto', 'network': 'tcp', 'alterId': 64}
-- {'name': '🇷🇺_RU_俄罗斯_11', 'type': 'ss', 'server': '217.30.10.18', 'port': 9038, 'cipher': 'aes-256-cfb', 'password': 'gYCYXfkUQEs2TaJQ'}
-- {'name': '🇷🇺_RU_俄罗斯_12', 'type': 'ss', 'server': '217.30.10.18', 'port': 9018, 'cipher': 'aes-256-cfb', 'password': 'fG2artUmHfNT2cX7'}
-- {'name': '🇷🇺_RU_俄罗斯_13', 'type': 'ss', 'server': '217.30.10.18', 'port': 9042, 'cipher': 'aes-256-cfb', 'password': 'S7KwUu7yBy58S3Ga'}
-- {'name': '🇨🇦_CA_加拿大->🇬🇧_GB_英国', 'type': 'ss', 'server': '64.74.163.130', 'port': 990, 'cipher': 'chacha20-ietf-poly1305', 'password': 'f8f7aCzcPKbsF8p3'}
-- {'name': '🇺🇸_US_美国_6', 'type': 'vmess', 'server': '141.195.112.167', 'port': 47865, 'uuid': 'da15eb44-cbea-4ea2-82a0-5d0886e78f60', 'cipher': 'auto', 'network': 'ws', 'skip-cert-verify': true, 'ws-opts': {'path': '/'}, 'alterId': 0}
-- {'name': '🇷🇺_RU_俄罗斯_14', 'type': 'ss', 'server': '217.30.10.18', 'port': 9005, 'cipher': 'aes-256-cfb', 'password': 'ZET59LF6DvCC8KVt'}
+- {'name': '🇷🇺_RU_俄罗斯', 'type': 'ss', 'server': '217.30.10.18', 'port': 9001, 'cipher': 'aes-256-cfb', 'password': 'UkXRsXvR6buDMG2Y'}
+- {'name': '🇷🇺_RU_俄罗斯_1', 'type': 'ss', 'server': '217.30.10.18', 'port': 9026, 'cipher': 'aes-256-cfb', 'password': 'QWDDvVE9npNurQfA'}
+- {'name': '🇺🇸_US_美国_1', 'type': 'ss', 'server': '69.50.95.53', 'port': 3389, 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC'}
+- {'name': '🇺🇦_UA_乌克兰->🇷🇺_RU_俄罗斯', 'type': 'trojan', 'server': '193.106.248.196', 'port': 443, 'sni': 'miami.juliusnet.com', 'password': 'Julius'}
+- {'name': '🇺🇸_US_美国->🇩🇪_DE_德国', 'type': 'vmess', 'server': '151.101.128.155', 'port': 80, 'sni': '', 'uuid': 'e5662328-13fc-450c-b78f-967e4ffc4419', 'cipher': 'auto', 'network': 'ws', 'fingerprint': '', 'ws-opts': {'path': '/?ed=80', 'headers': {'host': 'banknabi-mahdi313.IR.'}}, 'alterId': 0}
+- {'name': '🇺🇸_US_美国_2', 'type': 'ss', 'server': '69.50.95.53', 'port': 8091, 'cipher': 'aes-256-gcm', 'password': 'PCnnH6SQSnfoS27'}
+- {'name': '🇺🇸_US_美国_3', 'type': 'ss', 'server': '38.114.114.69', 'port': 2376, 'cipher': 'aes-256-gcm', 'password': 'faBAoD54k87UJG7'}
+- {'name': '🇷🇺_RU_俄罗斯_2', 'type': 'ss', 'server': '217.30.10.18', 'port': 9025, 'cipher': 'aes-256-cfb', 'password': 'XPtzA9sCug3SPR4c'}
+- {'name': '🇷🇴_RO_罗马尼亚->🇺🇸_US_美国', 'type': 'ss', 'server': '194.5.215.59', 'port': 8080, 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
+- {'name': '🇩🇪_DE_德国', 'type': 'vmess', 'server': '78.46.178.163', 'port': 36909, 'sni': '', 'uuid': 'cf826c41-0d4d-448d-c740-72f45484a0ad', 'cipher': 'auto', 'network': 'tcp', 'fingerprint': '', 'alterId': 0}
+- {'name': '🇺🇸_US_美国_4', 'type': 'ss', 'server': '69.50.95.53', 'port': 6379, 'cipher': 'aes-256-gcm', 'password': 'zDNVedRFPQexG9v'}
+- {'name': '🇬🇧_GB_英国', 'type': 'ss', 'server': '193.38.136.149', 'port': 8353, 'cipher': 'aes-256-gcm', 'password': '4180441OS33nY3f2WpxyU'}
+- {'name': '🇷🇺_RU_俄罗斯_3', 'type': 'ss', 'server': '217.30.10.18', 'port': 9050, 'cipher': 'aes-256-cfb', 'password': 'FG5ddLsMPbV5CutE'}
+- {'name': '🇺🇸_US_美国_5', 'type': 'ss', 'server': '69.50.95.53', 'port': 3306, 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC'}
+- {'name': '🇺🇸_US_美国_6', 'type': 'ss', 'server': '38.114.114.69', 'port': 8882, 'cipher': 'aes-256-gcm', 'password': 'kDWvXYZoTBcGkC4'}
+- {'name': '🇺🇸_US_美国_7', 'type': 'ss', 'server': '69.50.95.53', 'port': 5498, 'cipher': 'aes-256-gcm', 'password': 'lGqs95QkFHo2NV'}
+- {'name': '🇷🇺_RU_俄罗斯_4', 'type': 'ss', 'server': '217.30.10.18', 'port': 9011, 'cipher': 'aes-256-cfb', 'password': 'M3t2ZEQcMGRWBjRa'}
+- {'name': '🇷🇺_RU_俄罗斯_5', 'type': 'vmess', 'server': '194.87.68.115', 'port': 29025, 'uuid': 'd886fc45-1ba4-41f9-932a-cb6424a13d90', 'cipher': 'auto', 'network': 'ws', 'ws-opts': {'path': '/'}, 'alterId': 0}
+- {'name': '🇺🇸_US_美国_9', 'type': 'ss', 'server': '198.105.123.190', 'port': 46902, 'cipher': 'chacha20-ietf-poly1305', 'password': '2UrSffeNABXGXXfNhoL6xBUnh1RzqMizrQ2s9QfC38P2YPuYPRTqW5zZg6jGisiNhkzM4SRjF6nzvFb18GPtESWoXWjhqyC8'}
+- {'name': '🇺🇸_US_美国_10', 'type': 'ss', 'server': '38.114.114.69', 'port': 7307, 'cipher': 'aes-256-gcm', 'password': 'FoOiGlkAA9yPEGP'}
+- {'name': '🇷🇺_RU_俄罗斯_6', 'type': 'ss', 'server': '217.30.10.18', 'port': 9014, 'cipher': 'aes-256-cfb', 'password': 'KnJGad3FqTvjqbaX'}
+- {'name': '🇷🇺_RU_俄罗斯_7', 'type': 'ss', 'server': '217.30.10.18', 'port': 9040, 'cipher': 'aes-256-cfb', 'password': 'p9z5BVADH2YFs3MN'}
 
 
 # 代理组

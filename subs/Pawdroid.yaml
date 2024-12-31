@@ -38,22 +38,26 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '法国 巴黎Choopa数据中心', 'server': '108.61.177.251', 'port': 443, 'type': 'trojan', 'password': 'e8105dfd24414268b6c7652c63731097', 'sni': 'yournextcareerstep.online'}
-- {'name': '欧盟 V2CROSS.COM', 'server': '45.8.98.163', 'port': 52839, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '3N2JoZhDodMX5wPfr0xbT5'}
-- {'name': '日本 东京Amazon数据中心', 'server': '54.199.222.232', 'port': 443, 'type': 'vmess', 'uuid': '60c0bbfa-c54f-49a9-81ba-779b0206a9fd', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/ylks', 'headers': {'Host': 'nl.zhuk.us.kg'}}}
-- {'name': '加拿大 魁北克省蒙特利尔Amazon数据中心', 'server': '35.182.188.214', 'port': 443, 'type': 'vmess', 'uuid': '60c0bbfa-c54f-49a9-81ba-779b0206a9fd', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/ylks', 'headers': {'Host': 'nl.zhuk.us.kg'}}}
+- {'name': '台湾省 中华电信(HiNet)数据中心', 'server': '118.170.93.47', 'port': 36918, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'uoXctIQ4L89ykUZwn17Pn3CzNDNcZSRabCgN5hyNV7JQ'}
+- {'name': '保加利亚 V2CROSS.COM', 'server': '149.34.244.82', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'shadowsocks'}
+- {'name': '法国 法国计算机科学大学', 'server': '163.5.159.231', 'port': 443, 'type': 'vmess', 'uuid': 'e537f2f5-2a0c-4f59-92c9-832ca6433bf3', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'irvideo.cfd'}}}
+- {'name': '荷兰 V2CROSS.COM', 'server': '145.223.100.85', 'port': 52221, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'idJTwZjM2vUUqCyRdvBsII'}
 - {'name': '波兰 V2CROSS.COM', 'server': '193.243.147.128', 'port': 40368, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': '7BcLdsO1WweoGD0X'}
-- {'name': '俄罗斯 V2CROSS.COM', 'server': '185.242.86.156', 'port': 54170, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '36ZCHeabUSfKjfQEvJ4HDV'}
-- {'name': '甘肃省兰州市 移动', 'server': '50023.baidu-cdn.top', 'port': 50023, 'type': 'vmess', 'uuid': 'fa2c4c94-b477-4809-9db8-3db03ef06202', 'alterId': 0, 'cipher': 'auto', 'tls': false}
-- {'name': '德国 黑森州法兰克福AMazon数据中心', 'server': '3.122.62.145', 'port': 443, 'type': 'vmess', 'uuid': '60c0bbfa-c54f-49a9-81ba-779b0206a9fd', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/ylks', 'headers': {'Host': 'nl.zhuk.us.kg'}}}
-- {'name': '江苏省盐城市 创凡云', 'server': '223.111.144.12', 'port': 4252, 'type': 'trojan', 'password': 'vzhXXZVw'}
-- {'name': '美国 麻省理工学院', 'server': '18.135.213.190', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
-- {'name': '亚太地区 V2CROSS.COM', 'server': 'arxfw2b78fi2q9hzylhn.freesocks.work', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'Nk9asglDzHzjktVzTkvhaA'}
-- {'name': '美国 CloudFlare节点', 'server': '104.21.82.183', 'port': 8880, 'type': 'vmess', 'uuid': '5a7021e0-26b4-45d6-b175-fe551601ca97', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'server26.beheshtbaneh.com'}}}
-- {'name': '英国 社会保险安全部', 'server': '51.21.48.77', 'port': 443, 'type': 'vmess', 'uuid': '60c0bbfa-c54f-49a9-81ba-779b0206a9fd', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/ylks', 'headers': {'Host': 'nl.zhuk.us.kg'}}}
-- {'name': '爱尔兰 V2CROSS.COM', 'server': '54.247.12.244', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
-- {'name': '荷兰 V2CROSS.COM', 'server': '132.226.31.178', 'port': 443, 'type': 'vmess', 'uuid': '60c0bbfa-c54f-49a9-81ba-779b0206a9fd', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/ylks', 'headers': {'Host': 'nl.zhuk.us.kg'}}}
+- {'name': '美国 CloudFlare节点', 'server': 'server31.beheshtbaneh.com', 'port': 8880, 'type': 'vmess', 'uuid': '4154143c-bbba-47a4-9f79-c2ed087cbcc9', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'server31.beheshtbaneh.com'}}}
+- {'name': '爱尔兰 都柏林Amazon数据中心', 'server': '52.213.16.199', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '美国 Fastly全球Anycast节点', 'server': '151.101.194.133', 'port': 443, 'type': 'vmess', 'uuid': '545485da-9ff4-48c5-ae94-45e6e4ee7d26', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/racevpn', 'headers': {'Host': '6606.com'}}}
+- {'name': '乌克兰 V2CROSS.COM', 'server': '188.191.147.127', 'port': 31348, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '6IVOuzMfH5ROpgwtRTcNJKYJvYe9FDVaU7wAYYh8PRLxxZs6'}
+- {'name': '美国加利福尼亚州洛杉矶 PetaExpress', 'server': '198.2.218.100', 'port': 41400, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
+- {'name': '俄罗斯 V2CROSS.COM', 'server': '194.87.69.56', 'port': 32902, 'type': 'vmess', 'uuid': '50abf07f-1b91-4235-b872-cf69625867f2', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/'}}
 - {'name': '美国 Xerox', 'server': '13.51.182.234', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '美国 戴维逊大学', 'server': '152.42.231.74', 'port': 38217, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'Vr2UV8Ue9FN9xsXFfN7DU9'}
+- {'name': '美国', 'server': '40.172.2.141', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'u17T3BvpYaaiuW2c'}
+- {'name': '美国 俄亥俄州都柏林Amazon数据中心', 'server': '3.19.191.129', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '南非 V2CROSS.COM', 'server': '156.229.162.206', 'port': 8013, 'type': 'vmess', 'uuid': '1a474b28-0885-44c9-8eee-61e4e5ced5db', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/wada12222', 'headers': {'Host': 'tms.dingtalk.com'}}}
+- {'name': '美国 CloudFlare节点 2', 'server': '104.26.9.227', 'port': 443, 'type': 'trojan', 'password': 'b80Iy90Fma', 'sni': 'usa03.rtx.al', 'network': 'ws', 'ws-opts': {'path': '/cfyyds', 'headers': {'Host': 'usa03.rtx.al'}}}
+- {'name': '广东省江门市 移动', 'server': '120.234.102.229', 'port': 52908, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
+- {'name': '美国 Xerox 2', 'server': '13.60.113.114', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '香港 特别行政区', 'server': '154.83.88.106', 'port': 8888, 'type': 'vmess', 'uuid': '63ab66f1-4d71-424e-8f2d-f4fb90fc92a2', 'alterId': 0, 'cipher': 'auto', 'tls': false}
 
 
 # 代理组
